@@ -1,11 +1,11 @@
 ---
 title: Ciencia de datos personalizada para un modelo de enriquecimiento de perfiles
 description: Este modelo muestra cómo Adobe Experience Platform Data Science Workspace puede utilizar los datos en Experience Platform para entrenar, implementar y puntuar modelos con el fin de proporcionar perspectivas de aprendizaje automático a partir de los datos.
-solution: Experience Platform, Data Collection
+solution: Experience Platform,Data Collection
 kt: 7203
-exl-id: f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
+exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
+source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
