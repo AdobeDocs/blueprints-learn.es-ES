@@ -2,14 +2,14 @@
 title: Modelos de experiencia digital
 description: Los modelos de experiencia digital son implementaciones repetibles para abordar la estrategia y resolver problemas empresariales establecidos. Aceleran el tiempo de respuesta al valor y proporcionan un camino rápido hacia el éxito.
 solution: Experience Platform
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 37ef1ea91b3cf83e9ab444fa0f907d4115d0fd24
+source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # Modelos de experiencia digital
 
@@ -19,7 +19,7 @@ Cada modelo ofrece a los clientes de Adobe una serie de artefactos que explican 
 
 ## Novedades
 
-* **[Modelo de Centro de actividades del cliente](/help/blueprints/customer-activity-hub/overview.md)**
+* **[Modelo de Centro de actividades del cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Proporcione contexto para el soporte y las ventas asistidos por el agente.*
 * **[Modelo de informes y exploración de datos empresariales](/help/blueprints/data-exploration/overview.md)**
