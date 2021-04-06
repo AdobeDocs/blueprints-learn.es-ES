@@ -5,9 +5,9 @@ user-guide-description: Los modelos son implementaciones repetibles para abordar
 product: adobe experience platform
 role: Arquitecto, Desarrollador, Profesional Empresarial
 translation-type: tm+mt
-source-git-commit: c867a2956363ae495492a8ad33fd6c2aee9f5f5c
+source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
