@@ -1,28 +1,31 @@
 ---
-title: Modelo de Audience Activation
+title: Modelo de perfil y Audience Activation
 description: Ofrezca publicidad de canal cruzado activada por la audiencia con ​ de la plataforma de datos del cliente en tiempo real.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
+exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
 
 
-# Modelo de Audience Activation
+# Modelo de perfil y Audience Activation
 
-La activación por primera audiencia es la clave del éxito en un mundo de marketing basado en datos. Sin embargo, muchas marcas siguen centrando sus esfuerzos en la activación por primera vez en el canal, lo que a menudo ofrece un alcance y una personalización incoherentes. Con el método de priorizar el canal, cada canal actúa como un silo en el que los esfuerzos de personalización se dirigen únicamente a los clientes que interactúan con la marca en ese canal. Este enfoque no refleja la realidad de que los clientes interactúan con marcas en muchos puntos de contacto diferentes. La activación por primera audiencia permite que las marcas conecten las interacciones de los clientes en varios canales para ofrecer una audiencia centralizada que se pueda activar en todos los canales.
+La activación por perfil y audiencia es la clave del éxito en un mundo de marketing basado en datos. Sin embargo, muchas marcas siguen centrando sus esfuerzos en la activación por primera vez en el canal, lo que a menudo ofrece un alcance y una personalización incoherentes. Con el método de priorizar el canal, cada canal actúa como un silo en el que los esfuerzos de personalización se dirigen únicamente a los clientes que interactúan con la marca en ese canal. Este enfoque no refleja la realidad de que los clientes interactúan con marcas en muchos puntos de contacto diferentes. La activación por primera audiencia permite que las marcas conecten las interacciones de los clientes en varios canales para ofrecer una audiencia centralizada que se pueda activar en todos los canales.
 
 ## Situaciones
 
 | Situación | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
-| **[Activación web y publicitaria anónima](anonymous.md)** | <ul><li>Segmente audiencias en varios canales web y publicitarios para datos de clientes anónimos y de comportamiento.</li><li>Integre con datos de audiencia de terceros para una mayor personalización.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Activación en línea/sin conexión + PII](online-offline.md)** | <ul><li>Active en destinos conocidos basados en perfiles, como proveedores de correo electrónico, redes sociales y destinos publicitarios. </li><li>Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Plataforma de datos de clientes en tiempo real</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Audience Activation web y publicitario anónimo](anonymous.md)** | <ul><li>Segmente audiencias en varios canales web y publicitarios para datos de clientes anónimos y de comportamiento.</li><li>Integre con datos de audiencia de terceros para una mayor personalización.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
+| **[Perfil y Audience Activation en línea/sin conexión + PII](online-offline.md)** | <ul><li>Active en destinos conocidos basados en perfiles, como proveedores de correo electrónico, redes sociales y destinos publicitarios. </li><li>Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Plataforma de datos de clientes en tiempo real</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Perfil y Audience Activation a destinos empresariales](enterprise-destinations.md)** | <ul><li>Replicación y actualización de cambios de perfil en almacenes de datos empresariales para casos de uso de activación y generación de informes. </li></ul><ul><li>Inicie una acción de ventas o asistencia al cliente mediante la notificación de una acción del cliente desde la plataforma de datos del cliente en tiempo real a sistemas y aplicaciones empresariales.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Plataforma de datos de clientes en tiempo real</li><li>Activación del Experience Platform</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Centro de actividades del cliente](customer-activity.md)** | <ul><li>Proporcione un contexto de cliente más profundo a las interacciones compatibles con el agente, como experiencias de asistencia y ventas. Con la búsqueda de perfiles en Experience Platform, los agentes pueden recibir más contexto sobre el consumidor, como compras recientes, interacciones de campañas, tendencias, pertenencia a audiencias y otros atributos y perspectivas que se almacenan en el perfil del cliente en tiempo real.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Publicaciones de blog relacionadas
 
