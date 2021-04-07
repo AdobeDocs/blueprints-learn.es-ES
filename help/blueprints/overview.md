@@ -4,9 +4,9 @@ description: Los modelos de experiencia digital son implementaciones repetibles 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Cada modelo ofrece a los clientes de Adobe una serie de artefactos que explican 
 * **[Modelo de Centro de actividades del cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Proporcione contexto para el soporte y las ventas asistidos por el agente.*
-* **[Modelo de informes y exploración de datos empresariales](/help/blueprints/data-insights/overview.md)**
+* **[Análisis de datos y modelo de inteligencia](/help/blueprints/data-insights/overview.md)**
 
    *Realizar consultas y análisis exploratorios de los datos en el lago de datos.*
 * **[Modelo de Customer Journey Analytics](/help/blueprints/customer-journey-analytics/overview.md)**
