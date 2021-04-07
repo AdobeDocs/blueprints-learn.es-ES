@@ -1,18 +1,19 @@
 ---
-title: Perfil y Audience Activation a destinos empresariales
+title: Modelo de perfil y Audience Activation a destinos empresariales
 description: Perfil y Audience Activation a destinos empresariales
 solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
 kt: 7086
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 translation-type: tm+mt
-source-git-commit: 98d44067a1640dc8b695cb0d25f69ec26be647e1
+source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
-# Escenario de perfiles y Audience Activation a destinos empresariales
+
+# Modelo de perfil y Audience Activation a destinos empresariales
 
 Replicación y actualización de cambios de perfil en almacenes de datos empresariales para casos de uso de activación y generación de informes.
 
