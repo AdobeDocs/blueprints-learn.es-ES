@@ -3,11 +3,11 @@ user-guide-title: Modelos de experiencia digital
 breadcrumb-title: 'Planes '
 user-guide-description: Los modelos son implementaciones repetibles para abordar problemas empresariales establecidos y contienen diagramas de arquitectura, consideraciones técnicas y enlaces de documentación relevantes.
 product: adobe experience platform
-role: Arquitecto, Desarrollador, Profesional Empresarial
+role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,11 @@ ht-degree: 2%
    + [Denominación de llamada](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Recopilación y preparación de datos{#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
+   + [Ingesta de datos y preparación para el Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
    + [Recopilación de datos empresariales del servidor](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Análisis de datos y ciencia de datos personalizada{#data-exploration}
++ Análisis de datos, inteligencia e IA/ML{#data-exploration}
    + [Información general](/help/blueprints/data-insights/overview.md)
+   + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
    + [Ciencia de datos personalizada para enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
 + Organización de mensajes multicanal{#multi-channel-message-orchestration}
    + [Información general](/help/blueprints/multi-channel-message-orchestration/overview.md)
