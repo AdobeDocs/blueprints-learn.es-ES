@@ -1,19 +1,19 @@
 ---
-title: Modelo de informes y exploración de datos empresariales
+title: Análisis de datos, inteligencia e IA/ML
 description: Este modelo muestra la capacidad de Adobe Experience Platform para realizar consultas y análisis exploratorios de los datos que existen en el lago de datos.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
-# Modelo de informes y exploración de datos empresariales
+# Análisis de datos, inteligencia e IA/ML
 
 La Exploración y generación de informes de datos empresariales incluye la capacidad de Adobe Experience Platform para realizar consultas y análisis exploratorios de los datos que existen en el lago de datos.
 
@@ -23,41 +23,9 @@ Además, Experience Platform permite que las conexiones con clientes SQL de terc
 
 Algunas protecciones se aplican para el tiempo de espera de la consulta y para la cantidad de datos que se incluyen en el resultado de la consulta, como se indica en los detalles del escenario.
 
-## Casos de uso
+## Planes
 
-* Consulta interactiva y agregación de datos
-* Acceso de fila y columna a datos ingestados para exploración y validación
-* Panorama y visualización de datos mediante herramientas de Business Intelligence
-
-## Aplicaciones
-
-* Adobe Experience Platform
-
-## Situaciones
-
-| Situación | Descripción | Aplicaciones/Servicios Experience Cloud |
+| Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
-| **Exploración de datos: consulta sin procesar de datos** | <ul><li>Escriba y realice consultas SQL en el lago de datos utilizando la interfaz de usuario de consulta interactiva o un cliente SQL conectado. Data Science Workspace también se puede utilizar para consultar y obtener información de los datos sin procesar en Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Enterprise Dashboard** | <ul><li>Conecte las herramientas del Business Intelligence al Experience Platform para visualizar los datos de los casos de uso de tableros e informes.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-
-## Arquitectura
-
-<img src="assets/dataexplore.svg" alt="Arquitectura de referencia para el modelo de informes y exploración de datos empresariales" style="border:1px solid #4a4a4a" />
-
-## Seguridad
-
-* Límite de tiempo de 10 minutos para consultas interactivas
-* Límite de 100 registros devuelto en la interfaz de usuario
-* Límite de 50 000 registros devuelto mediante el conector SQL
-
-## Pasos de la implementación
-
-1. Configure conjuntos de datos y esquemas para la ingesta de datos en el lago de datos.
-1. Ingesta de datos.
-1. Confirme que los datos están disponibles para Query Service y Data Science Workspace para el acceso sin procesar y la consulta.
-1. Conecte las herramientas del Business Intelligence y los clientes SQL al servicio de consulta para la visualización, consulta de datos y exploración.
-
-## Documentación relacionada
-
-* [Descripción del producto de Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentación del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+| **[Análisis de datos e inteligencia](analysis.md)** | <ul><li>El modelo de preparación e inserción de datos incluye todos los métodos mediante los cuales se pueden preparar e incorporar datos en Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Ciencia de datos personalizada para un modelo de enriquecimiento de perfiles](data-science.md)** | <ul><li>Active en destinos conocidos basados en perfiles, como proveedores de correo electrónico, redes sociales y destinos publicitarios. </li><li>Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Plataforma de datos de clientes en tiempo real</li><li>Adobe Audience Manager (opcional)</li></ul> |
