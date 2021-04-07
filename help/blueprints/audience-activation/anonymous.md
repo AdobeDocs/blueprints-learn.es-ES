@@ -1,19 +1,19 @@
 ---
-title: Audience Activation anónimo
+title: Modelo de Audience Activation anónimo
 description: Audience Activation anónimo.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
+exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-
-# Situación de Audience Activation anónimo
+# Modelo de Audience Activation anónimo
 
 Puede segmentar audiencias en varios canales publicitarios y web en función de datos anónimos y de comportamiento de los clientes. Esta capacidad permite experiencias de cliente personalizadas y coherentes en tiempo real entre dispositivos.
 
@@ -46,18 +46,3 @@ Puede segmentar audiencias en varios canales publicitarios y web en función de 
 * [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Integrar el Audience Manager con Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Uso compartido de segmentos de Analytics mediante el Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
