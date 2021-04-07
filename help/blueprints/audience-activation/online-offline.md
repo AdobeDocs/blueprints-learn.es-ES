@@ -1,18 +1,18 @@
 ---
-title: Situación de Audience Activation en línea/sin conexión
+title: Modelo de Audience Activation en línea/sin conexión
 description: Audience Activation en línea/sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
+exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
-
-# Situación de Audience Activation en línea/sin conexión
+# Modelo de Audience Activation en línea/sin conexión
 
 Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.
 
