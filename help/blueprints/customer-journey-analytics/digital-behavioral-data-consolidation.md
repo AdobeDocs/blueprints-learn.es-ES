@@ -1,18 +1,18 @@
 ---
-title: Situación de consolidación de datos de comportamiento digital
+title: Modelo de consolidación de datos de comportamiento digital
 description: Analice y extraiga perspectivas de las interacciones de los clientes en todo el recorrido de clientes.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
+exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
-
-# Situación de consolidación de datos de comportamiento digital
+# Modelo de consolidación de datos de comportamiento digital
 
 Disponer de una sola vista consolidada del comportamiento de los clientes en varios canales mediante la unificación de datos de varias propiedades web, móviles y sin conexión.
 
@@ -82,7 +82,3 @@ Los datos deben ingerirse en Platform antes de procesarse en Customer Journey An
 * [Descripción del producto del Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [tutoriales del Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
-
-
-
-
