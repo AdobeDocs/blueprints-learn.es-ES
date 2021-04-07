@@ -1,25 +1,26 @@
 ---
-title: Modelo de personalización móvil y web
+title: Personalización web y móvil
 description: Ofrecer contenido web y móvil personalizado con Perfil del cliente en tiempo real.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
+exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-# Modelo de personalización web y móvil
+# Personalización web y móvil
 
 
-El modelo de personalización web y móvil permite utilizar la segmentación de audiencias en varias aplicaciones para personalizar y optimizar las experiencias de los clientes. Puede utilizar comportamientos de clientes, información demográfica, nivel de lealtad y transacciones anteriores para personalizar diseños, llamadas a acciones y contenido.
+La personalización web y móvil permite utilizar la segmentación de audiencias en varias aplicaciones para personalizar y optimizar las experiencias de los clientes. Puede utilizar comportamientos de clientes, información demográfica, nivel de lealtad y transacciones anteriores para personalizar diseños, llamadas a acciones y contenido.
 
-## Situaciones
+## Planes
 
-| Situación | Descripción | Aplicaciones Experience Cloud |
+| Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
 | **[Personalización basada en el comportamiento](behavioral.md)** | <ul><li>Personalizar en función del comportamiento en línea y los datos de audiencia</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalización web en línea/sin conexión](online-offline.md)** | <ul><li>Personalice con atributos y eventos sin conexión (transacciones, reservas, CRM y datos de fidelidad).</li><li>Sincronice la personalización en la web, el correo electrónico y otros canales conocidos.</li></ul> | <ul><li>Plataforma de datos de clientes en tiempo real</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
@@ -40,4 +41,3 @@ El modelo de personalización web y móvil permite utilizar la segmentación de 
 * [Segmentación en segundos: Cómo Adobe Experience Platform hizo realidad los perfiles del cliente en tiempo real](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Cargas de trabajo analíticas y perfil del cliente en tiempo real: dos lados del mismo cerebro con un único propósito](https://medium.com/adobetech/analytical-workloads-and-real-time-customer-profile-two-sides-of-the-same-brain-with-a-cdfac85ce8c1)
 * [Crear una experiencia óptima en línea: Enriquecimiento del perfil unificado con el servicio de consulta](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
