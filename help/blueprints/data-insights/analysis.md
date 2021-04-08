@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Algunas protecciones se aplican para el tiempo de espera de la consulta y para l
 ## Aplicaciones
 
 * Adobe Experience Platform
-
-## Situaciones
-
-| Situación | Descripción | Aplicaciones/Servicios Experience Cloud |
-|---|---|---|
-| **Exploración de datos: consulta sin procesar de datos** | <ul><li>Escriba y realice consultas SQL en el lago de datos utilizando la interfaz de usuario de consulta interactiva o un cliente SQL conectado. Data Science Workspace también se puede utilizar para consultar y obtener información de los datos sin procesar en Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Enterprise Dashboard** | <ul><li>Conecte las herramientas del Business Intelligence al Experience Platform para visualizar los datos de los casos de uso de tableros e informes.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Arquitectura
 
