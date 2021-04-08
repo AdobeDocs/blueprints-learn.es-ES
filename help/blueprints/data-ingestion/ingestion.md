@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 El modelo de preparación e inserción de datos incluye todos los métodos mediante los cuales se pueden preparar e incorporar datos en Adobe Experience Platform.
 
-La preparación de datos incluye la asignación de datos de origen al esquema del Modelo de datos de experiencia (XDM). También incluye la realización de transformaciones en los datos, incluido el formato de fecha, la división/concatenación/conversiones de campos y la unión, combinación y reclaves de registros. La preparación de datos ayuda a unificar los datos de los clientes para proporcionar análisis agregados/filtrados, incluido el sistema de informes o la preparación de datos para el ensamblado de perfiles de clientes, la ciencia de datos o la activación.
+La preparación de datos incluye la asignación de datos de origen al esquema del Experience Data Model (XDM). También incluye la realización de transformaciones en los datos, incluido el formato de fecha, la división/concatenación/conversiones de campos y la unión, combinación y reclaves de registros. La preparación de datos ayuda a unificar los datos de los clientes para proporcionar análisis agregados/filtrados, incluido el sistema de informes o la preparación de datos para el ensamblado de perfiles de clientes, la ciencia de datos o la activación.
 
 ## Arquitectura
 
