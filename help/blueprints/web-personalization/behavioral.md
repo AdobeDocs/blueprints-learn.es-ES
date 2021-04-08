@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ Personalice en función del comportamiento en línea y los datos de audiencia.
 
 De forma predeterminada, el servicio de uso compartido de segmentos permite compartir un máximo de 75 audiencias para cada grupo de informes de Adobe Analytics. Si se utiliza el Audience Manager para compartir audiencias, no hay límite en el número de audiencias que se pueden compartir. 
 
+## Patrones de implementación
+
+El modelo de personalización web/móvil se puede implementar mediante los siguientes enfoques, tal como se describe a continuación.
+
+1. Uso del SDK web de plataforma/SDK móvil y la red perimetral.
+1. Uso de SDK tradicionales específicos de la aplicación (por ejemplo, AppMeasurement.js)
+
+### 1. SDK web/móvil de plataforma y enfoque perimetral
+
+<img src="assets/websdkflow.svg" alt="Arquitectura de referencia para el SDK web de plataforma/SDK móvil y el enfoque de red perimetral" style="border:1px solid #4a4a4a" />
+
+### 2. Enfoque de SDK específico de la aplicación
+
+<img src="assets/appsdkflow.png" alt="Arquitectura de referencia para el Enfoque de SDK específico de la aplicación" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## Requisitos previos de implementación
 
 | Aplicación/servicio | Biblioteca requerida | Notas |
@@ -65,21 +83,6 @@ De forma predeterminada, el servicio de uso compartido de segmentos permite comp
 1. [Solicitar aprovisionamiento para los servicios de uso compartido de personas y audiencias (audiencias compartidas)](https://www.adobe.com/go/audiences)
 1. Genere segmentos en [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) o [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) y [configure esas audiencias para compartirlas con el Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) (si usa el Audience Manager o Adobe Analytics)
 1. Una vez que las audiencias están disponibles en Adobe Target, pueden utilizarse para [experiencias de segmentación con Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
-
-
-## Diagramas de flujo de datos de implementación
-
-El modelo de personalización web/móvil se puede implementar utilizando el SDK web de plataforma o el SDK móvil y la red perimetral, o bien utilizando SDK tradicionales específicos de la aplicación (por ejemplo, AppMeasurement.js).
-
-### Platform Web/Mobile SDK y enfoque de red perimetral
-
-<img src="assets/websdkflow.svg" alt="Arquitectura de referencia para el SDK web de plataforma/SDK móvil y el enfoque de red perimetral" style="border:1px solid #4a4a4a" />
-
-
-### Enfoque de SDK específico de la aplicación
-
-<img src="assets/appsdkflow.png" alt="Arquitectura de referencia para el Enfoque de SDK específico de la aplicación" style="border:1px solid #4a4a4a" />
-
 
 ## Documentación relacionada
 
