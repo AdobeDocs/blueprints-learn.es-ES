@@ -5,29 +5,22 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Ciencia de datos personalizada para un modelo de enriquecimiento de perfiles
 
-Este modelo muestra cómo el espacio de trabajo de ciencia de datos utiliza los datos de Adobe Experience Platform para entrenar, implementar y puntuar modelos con el fin de proporcionar perspectivas de aprendizaje automático. Estos modelos pueden generar directamente un conjunto de datos habilitado para Perfil del cliente en tiempo real. Algunos ejemplos de perspectivas de aprendizaje automático son el valor de duración, la afinidad de productos y categorías, la propensión a la conversión o la propensión a producir.
+La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles ilustra cómo se pueden usar los datos de Adobe Experience Platform en el espacio de trabajo de ciencia de datos para entrenar, implementar y puntuar modelos que proporcionen perspectivas de aprendizaje automático. Estos modelos pueden generar directamente un conjunto de datos habilitado para Perfil del cliente en tiempo real para enriquecer aún más los perfiles del cliente. Estas perspectivas se pueden activar para personalizar. Algunos ejemplos de perspectivas de aprendizaje automático son la puntuación de valor de duración, la afinidad de productos y categorías, la propensión a convertir o la propensión a producir.
 
 ## Casos de uso
 
 * Extraiga perspectivas y descubra patrones a partir de datos de clientes en Experience Platform. Capacite y puntee los modelos a partir de estos datos.
-* Enriquezca el Perfil del cliente en tiempo real con perspectivas y atributos basados en modelos para una personalización más granular y una optimización del recorrido optimizada.
+* Enriquezca el Perfil del cliente en tiempo real con perspectivas y atributos basados en modelos para una personalización más granular y recorridos optimizados.
 * Los modelos de formación y puntuación para determinar la perspectiva del cliente, como el valor de duración del cliente, la propensión a convertir o producir, las afinidades de producto y contenido y las puntuaciones de participación.
-
-## Situaciones
-
-| Situación | Descripción del escenario | Aplicaciones Experience Cloud |
-|---|---|---|
-| Ciencia de datos exploratorios | <ul><li>Descubra señales, integridad, exactitud de los datos</li><li>Descubra nuevas perspectivas mediante herramientas de ciencia de datos</li></ul> | <ul><li>Experience Platform Inteligencia</li></ul> |
-| Enriquecimiento de perfiles con AI/ML<br> - por lotes | <ul><li>Descubra, cree, entrene, implemente, puntee y operacionalice modelos.</li><li>Predicción del modelo push para perfiles o lago de datos para activación por lotes.</li></ul> | <ul><li>Experience Platform Inteligencia</li></ul> |
 
 ## Arquitectura
 
