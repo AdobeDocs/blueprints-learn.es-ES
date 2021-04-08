@@ -18,7 +18,7 @@ ht-degree: 0%
 
 La activación por perfil y audiencia es la clave del éxito en un mundo de marketing basado en datos. Sin embargo, muchas marcas siguen centrando sus esfuerzos en la activación por primera vez en el canal, lo que a menudo ofrece un alcance y una personalización incoherentes. Con el método de priorizar el canal, cada canal actúa como un silo en el que los esfuerzos de personalización se dirigen únicamente a los clientes que interactúan con la marca en ese canal. Este enfoque no refleja la realidad de que los clientes interactúan con marcas en muchos puntos de contacto diferentes. La activación por perfil y primera audiencia permite a las marcas conectar las interacciones de los clientes en varios canales, para ofrecer un perfil y una audiencia centralizados que se puedan activar en todos los canales.
 
-## Planes
+## Modelos
 
 | Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
