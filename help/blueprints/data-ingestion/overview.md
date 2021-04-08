@@ -6,20 +6,20 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
 # Recopilación y preparación de datos
 
-La recopilación y preparación de datos abarca todos los métodos mediante los cuales se pueden preparar e introducir datos en Adobe Experience Platform. Además de la capacidad de recopilar datos en la red perimetral de Adobe Experience Platform para el reenvío del servidor a los destinos empresariales.
+La recopilación y preparación de datos abarca todos los métodos mediante los cuales se pueden preparar e introducir datos en Adobe Experience Platform. Además de la capacidad de recopilar datos a la red perimetral de Adobe Experience Platform y el reenvío subsiguiente de datos mediante reenvío lateral a destinos empresariales.
 
-La preparación de datos incluye la asignación de datos de origen al esquema del Modelo de datos de experiencia (XDM). También incluye la realización de transformaciones en los datos, incluido el formato de fecha, la división/concatenación/conversiones de campos y la unión, combinación y reclaves de registros. La preparación de datos ayuda a unificar los datos de los clientes para proporcionar análisis agregados/filtrados, incluido el sistema de informes o la preparación de datos para el ensamblado de perfiles de clientes, la ciencia de datos o la activación.
+La preparación de datos incluye la asignación de datos de origen al esquema del Experience Data Model (XDM). También incluye la realización de transformaciones en los datos, incluido el formato de fecha, la división/concatenación/conversiones de campos y la unión, combinación y reclaves de registros. La preparación de datos ayuda a unificar los datos de los clientes para proporcionar análisis agregados/filtrados, incluido el sistema de informes o la preparación de datos para el ensamblado de perfiles de clientes, la ciencia de datos o la activación.
 
-## Planes
+## Modelos
 
 | Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
