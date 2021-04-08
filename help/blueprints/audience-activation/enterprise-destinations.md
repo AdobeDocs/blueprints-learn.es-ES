@@ -1,21 +1,21 @@
 ---
-title: Modelo de perfil y Audience Activation a destinos empresariales
-description: Perfil y Audience Activation a destinos empresariales
-solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
-kt: 7086
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+title: Modelo de activación de audiencias y perfiles en destinos empresariales
+description: Activación de audiencias y perfiles en destinos empresariales
+solution: Experience Platform,Real-time Customer Data Platform
+kt: 7475
+exl-id: null
 translation-type: tm+mt
-source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 
-# Modelo de perfil y Audience Activation a destinos empresariales
+# Modelo de activación de audiencias y perfiles en destinos empresariales
 
-Replicación y actualización de cambios de perfil en almacenes de datos empresariales para casos de uso de activación y generación de informes.
+Replicación y actualización de los cambios de perfil y audiencia en los almacenes de datos empresariales para casos de uso de activación y generación de informes.
 
 Inicie una acción de ventas o asistencia al cliente mediante la notificación de una acción del cliente desde la plataforma de datos del cliente en tiempo real a sistemas y aplicaciones empresariales.
 
@@ -79,10 +79,12 @@ Activación de eventos de experiencias
 
 ## Documentación relacionada
 
+* [Documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Destinos de almacenamiento de Enterprise Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [Destino HTTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [Descripción del producto de la plataforma de datos del cliente en tiempo real](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Documentación de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Vídeos y Tutorials relacionados
 
