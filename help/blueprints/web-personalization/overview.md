@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -15,10 +15,9 @@ ht-degree: 0%
 
 # Personalización web y móvil
 
-
 La personalización web y móvil permite utilizar la segmentación de audiencias en varias aplicaciones para personalizar y optimizar las experiencias de los clientes. Puede utilizar comportamientos de clientes, información demográfica, nivel de lealtad y transacciones anteriores para personalizar diseños, llamadas a acciones y contenido.
 
-## Planes
+## Modelos
 
 | Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
