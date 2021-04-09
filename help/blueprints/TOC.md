@@ -1,18 +1,18 @@
 ---
 user-guide-title: Modelos de experiencia digital
-breadcrumb-title: 'Planes '
-user-guide-description: Los modelos son implementaciones repetibles para abordar problemas empresariales establecidos y contienen diagramas de arquitectura, consideraciones técnicas y enlaces de documentación relevantes.
+breadcrumb-title: 'Modelos '
+user-guide-description: Los modelos son implementaciones repetibles para abordar problemas empresariales establecidos, y contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevantes.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 2%
+source-wordcount: '115'
+ht-degree: 25%
 
 ---
 
-# Modelos de experiencia digital {#architecture}
+# Modelos de experiencia digital  {#architecture}
 
 + [Información general](/help/blueprints/overview.md)
 + Diagramas de información general de arquitectura{#architecture-overview}
@@ -31,7 +31,7 @@ ht-degree: 2%
    + [Denominación de llamada](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Recopilación y preparación de datos{#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
-   + [Ingesta de datos y preparación para el Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
+   + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Recopilación de datos empresariales del servidor](/help/blueprints/data-ingestion/server-side-collection.md)
 + Análisis de datos, inteligencia e IA/ML{#data-exploration}
    + [Información general](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 2%
    + [Mensajería y Experience Platform activados](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Personalización web y móvil{#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
-   + [Personalización web basada en el comportamiento](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalización web en línea/sin conexión](/help/blueprints/web-personalization/online-offline.md)
+   + [Personalización basada en el comportamiento](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalización en línea/sin conexión](/help/blueprints/web-personalization/online-offline.md)
 
