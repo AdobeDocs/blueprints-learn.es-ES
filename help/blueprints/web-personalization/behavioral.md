@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 087da6c5c5c6a6e9deee890d2ea02cf8591bdf15
+source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ De forma predeterminada, el servicio de uso compartido de segmentos permite comp
 
 El modelo de personalización web/móvil se puede implementar mediante los siguientes enfoques, tal como se describe a continuación.
 
-1. Uso del SDK web de plataforma/SDK móvil y la red perimetral.
+1. Uso del [!UICONTROL Platform Web SDK] o [!UICONTROL Platform Mobile SDK] y [!UICONTROL Edge Network].
 1. Uso de SDK tradicionales específicos de la aplicación (por ejemplo, AppMeasurement.js)
 
 ### 1. SDK web/móvil de plataforma y enfoque perimetral
 
-<img src="assets/websdkflow.svg" alt="Arquitectura de referencia para el SDK web de plataforma/SDK móvil y el enfoque de red perimetral" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Arquitectura de referencia para el enfoque [!UICONTROL Platform Web SDK] o [!UICONTROL Platform Mobile SDK] y [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
 ### 2. Enfoque de SDK específico de la aplicación
 
@@ -59,10 +59,10 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 | Aplicación/servicio | Biblioteca requerida | Notas |
 |---|---|---|
-| Adobe Target | SDK web de plataforma*, at.js 0.9.1 o posterior, o mbox.js 61 o posterior | Se prefiere at.js porque mbox.js ya no se está desarrollando. |
-| Adobe Audience Manager (opcional) | Platform Web SDK* o dil.js 5.0+ |  |
-| Adobe Analytics (opcional) | SDK web de plataforma* o AppMeasurement.js 1.6.4+ |  |
-| Servicio de identidad de Experience Cloud | Platform Web SDK* o VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL SDK] web de plataforma*, at.js 0.9.1+ o mbox.js 61+ | Se prefiere at.js porque mbox.js ya no se está desarrollando. |
+| Adobe Audience Manager (opcional) | [!UICONTROL SDK] web de plataforma* o dil.js 5.0+ |  |
+| Adobe Analytics (opcional) | [!UICONTROL SDK] web de plataforma* o AppMeasurement.js 1.6.4+ |  |
+| Servicio de identidad de Experience Cloud | [!UICONTROL SDK] web de plataforma* o VisitorAPI.js 2.0+ |  |
 | SDK móvil de Experience Platform (opcional) | 4.11 o superior para iOS y Android™ |  |
 | SDK web de Experience Platform | 1.0, la versión actual del SDK de Experience Platform tiene [varios casos de uso aún no compatibles con las aplicaciones de Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -70,7 +70,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 1. [Implemente Adobe ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) Target para sus aplicaciones web o móviles.
 
-   Si utiliza Audience Manager o Analytics:
+   Si utiliza Audience Manager o Adobe Analytics:
 
 1. [Implementación de Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Implementación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
