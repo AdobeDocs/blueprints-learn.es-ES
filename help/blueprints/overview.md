@@ -4,9 +4,9 @@ description: Los modelos de experiencia digital son implementaciones repetibles 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 3c139ed925fc7999ea3b7e6eb21bf68ae9ff23cb
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -34,23 +34,22 @@ Cada modelo ofrece a los clientes de Adobe una serie de artefactos que explican 
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><img alt="imagen en miniatura del modelo "Personalización web"" src="web-personalization/assets/personalization.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html"><strong>Modelo de personalización web/móvil</strong></a></div>
-    <p><em>Ofrecer contenido web y móvil personalizado.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="imagen en miniatura para la mensajería activada y el modelo de Adobe Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Mensajería activada y modelo de Adobe Experience Platform</strong></a></div>
+    <p><em>Déclencheur de mensajes y experiencias utilizando Adobe Experience Platform como centro.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><img alt="imagen en miniatura del modelo "Audience Activation"" src="audience-activation/assets/aam.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html"><strong>Modelo de Audience Activation</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagen en miniatura para el modelo de Audience Activation en línea/sin conexión" src="audience-activation/assets/onoff.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Modelo de Audience Activation en línea/sin conexión</strong></a></div>
     <p><em>Entregue publicidad multicanal activada por la audiencia.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html"><img alt="imagen en miniatura del "modelo de orquestación multicanal"" src="multi-channel-message-orchestration/assets/aepbatch.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html"><strong>Modelo de orquestación multicanal</strong></a></div>
-    <p><em>Ofrezca experiencias individuales y puntuales a los clientes en todas las pantallas.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="imagen en miniatura para el modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Modelo de personalización web/móvil</strong></a></div>
+    <p><em>Tenga una sola vista consolidada del comportamiento del cliente en varios canales.</em></p>
   </td>
 </tr>
 </table>
-
 
 ## Publicaciones de blog
 
