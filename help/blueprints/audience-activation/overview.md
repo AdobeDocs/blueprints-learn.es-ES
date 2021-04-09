@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ La activación de audiencias y perfiles es la clave del éxito en un mundo de ma
 
 | Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
-| **[Audience Activation web y publicitario anónimo](anonymous.md)** | <ul><li>Segmente audiencias en varios canales web y publicitarios para datos de clientes anónimos y de comportamiento.</li><li>Integre con datos de audiencia de terceros para una mayor personalización.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Perfil y Audience Activation en línea/sin conexión + PII](online-offline.md)** | <ul><li>Active en destinos conocidos basados en perfiles, como proveedores de correo electrónico, redes sociales y destinos publicitarios. </li><li>Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Audience Activation anónimo](anonymous.md)** | <ul><li>Segmente audiencias en varios canales web y publicitarios para datos de clientes anónimos y de comportamiento.</li><li>Integre con datos de audiencia de terceros para una mayor personalización.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
+| **[Audience Activation en línea/sin conexión](online-offline.md)** | <ul><li>Active en destinos conocidos basados en perfiles, como proveedores de correo electrónico, redes sociales y destinos publicitarios. </li><li>Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
 | **[Activación de audiencias y perfiles en destinos empresariales](enterprise-destinations.md)** | <ul><li>Replicación y actualización de los cambios de perfil y audiencia en los almacenes de datos empresariales para casos de uso de activación y generación de informes. </li></ul><ul><li>Inicie una acción de ventas o asistencia al cliente mediante la notificación de una acción del cliente desde la [!UICONTROL Plataforma de datos del cliente en tiempo real] a sistemas y aplicaciones empresariales.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Activación del Experience Platform</li><li>Adobe Audience Manager (opcional)</li></ul> |
 | **[Centro de actividades del cliente](customer-activity.md)** | <ul><li>Proporcione un contexto de cliente más profundo a las interacciones compatibles con el agente, como experiencias de asistencia y ventas. Con la búsqueda de perfiles en Experience Platform, los agentes pueden recibir más contexto sobre el consumidor, como compras recientes, interacciones de campañas, tendencias, pertenencia a audiencias y otros atributos y perspectivas que se almacenan en el perfil del cliente en tiempo real.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
