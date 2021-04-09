@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Ejecute campañas de mensajería programadas y por lotes utilizando Adobe Experi
 * Campaign es la fuente de la verdad para todos los perfiles activos, lo que significa que los perfiles deben existir en Campaign y que los perfiles nuevos no deben crearse en función de los segmentos del Experience Platform.
 * La realización de la pertenencia al segmento desde el Experience Platform está latente tanto para el lote (1 por día) como para la transmisión (unos 5 minutos)
 
-**Uso compartido de segmentos en tiempo real con la plataforma de datos del cliente para la campaña:**
+**[!UICONTROL Plataforma de datos de clientes en tiempo real ] Uso compartido de segmentos para campaña:**
 
 * Recomendación del límite de 20 segmentos
 * La activación está limitada a cada 24 horas
