@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
+source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 El análisis de datos y la inteligencia comprenden la capacidad de Adobe Experience Platform para realizar consultas y análisis exploratorios de los datos que existen en el lago de datos.
 
-El servicio de consulta de Experience Platform permite realizar consultas SQL en los datos. Data Science Workspace permite realizar la exploración de datos, la ciencia de datos y las cargas de trabajo de aprendizaje automático en los datos.
+El [!UICONTROL servicio de consulta] del Experience Platform permite realizar consultas SQL en los datos. [!UICONTROL El espacio de ] trabajo de la ciencia de datos permite que la exploración de datos, la ciencia de datos y las cargas de trabajo del aprendizaje automático se realicen en los datos.
 
-Además, Experience Platform permite que las conexiones con clientes SQL de terceros, interfaces y herramientas de Business Intelligence (BI) se conecten directamente a los datos de Experience Platform, accedan a ellos y los consulten, mediante el protocolo PostgreSQL.
+Además, el Experience Platform permite que las conexiones con clientes SQL de terceros, interfaces y herramientas de Business Intelligence (BI) se conecten directamente a los datos en el Experience Platform, accedan a ellos y realicen consultas con ellos mediante el protocolo [!DNL PostgreSQL].
 
 Algunas protecciones se aplican para el tiempo de espera de la consulta y para la cantidad de datos que se incluyen en el resultado de la consulta, como se indica en los detalles del escenario.
 
@@ -47,10 +47,10 @@ Algunas protecciones se aplican para el tiempo de espera de la consulta y para l
 
 1. Configure conjuntos de datos y esquemas para la ingesta de datos en el lago de datos.
 1. Ingesta de datos.
-1. Confirme que los datos están disponibles para Query Service y Data Science Workspace para el acceso sin procesar y la consulta.
-1. Conecte las herramientas del Business Intelligence y los clientes SQL al servicio de consulta para la visualización, consulta de datos y exploración.
+1. Confirme que los datos están disponibles para [!UICONTROL Query Service] y [!UICONTROL Data Science Workspace] para acceso sin procesar y consulta.
+1. Conecte las herramientas del Business Intelligence y los clientes SQL a [!UICONTROL Query Service] para la visualización, consulta de datos y exploración.
 
 ## Documentación relacionada
 
 * [Descripción del producto de Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentación del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [[!UICONTROL Documentación del ] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
