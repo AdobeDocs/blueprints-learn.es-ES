@@ -1,20 +1,20 @@
 ---
 title: Mensajería activada y modelo de Adobe Experience Platform
-description: Ejecute mensajes y experiencias activados con Adobe Experience Platform como concentrador central que transmite datos, perfiles de clientes y segmentación.
+description: Ejecute mensajes y experiencias activados con Adobe Experience Platform como centro de transmisión de datos, perfiles de clientes y segmentación.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
 
 # Mensajería activada y modelo de Adobe Experience Platform
 
-Ejecute mensajes y experiencias activados con Adobe Experience Platform como concentrador central que transmite datos, perfiles de clientes y segmentación.
+Ejecute mensajes y experiencias activados con Adobe Experience Platform como centro de transmisión de datos, perfiles de clientes y segmentación.
 
 ## Casos de uso
 
@@ -25,7 +25,7 @@ Ejecute mensajes y experiencias activados con Adobe Experience Platform como con
 
 ## Arquitectura
 
-<img src="assets/triggered.svg" alt="Arquitectura de referencia para el escenario de Mensajería activada y Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Arquitectura de referencia para el modelo de mensajería activada y Adobe Experience Platform" style="border:1px solid #4a4a4a" />
 
 ## Patrones de integración
 
