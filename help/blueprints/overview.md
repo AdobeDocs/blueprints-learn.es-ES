@@ -4,10 +4,10 @@ description: Los modelos de experiencia digital son implementaciones repetibles 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 2%
 
 ---
 
@@ -19,15 +19,15 @@ Cada modelo ofrece a los clientes de Adobe una serie de artefactos que explican 
 
 ## Novedades
 
+* **[Modelo de activación de audiencias y perfiles en destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)**
+
+   *Mantenga los perfiles de los clientes actualizados en todos los sistemas para potenciar a sus equipos de ventas y asistencia. &#x200B;*
 * **[Modelo de Centro de actividades del cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Proporcione contexto para el soporte y las ventas asistidos por el agente.*
-* **[Análisis de datos y modelo de inteligencia](/help/blueprints/data-insights/overview.md)**
+* **[Análisis de datos y modelo de inteligencia](/help/blueprints/data-insights/analysis.md)**
 
    *Realizar consultas y análisis exploratorios de los datos en el lago de datos.*
-* **[Modelo de Customer Journey Analytics](/help/blueprints/customer-journey-analytics/overview.md)**
-
-   *Unifique y analice los datos y los comportamientos de los clientes desde el recorrido de los clientes. &#x200B;*
 
 ## Modelos destacados
 
@@ -54,7 +54,7 @@ Cada modelo ofrece a los clientes de Adobe una serie de artefactos que explican 
 
 ## Publicaciones de blog
 
-* [Presentación de los nuevos modelos de experiencia digital de Adobe Experience Platform](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
-* [Modelo para Audience Activation en Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
-* [Modelo para personalización web mediante el perfil del cliente en tiempo real de Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [Modelo para Multi-Channel Orchestration en Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
