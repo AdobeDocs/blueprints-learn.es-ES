@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Ejecute mensajes y experiencias activados con Adobe Experience Platform como con
 1. Cree cualquier área de nombres específica del cliente.
 1. Añadir identidades a esquemas.
 1. Habilite esquemas y conjuntos de datos para el perfil.
-1. Configure reglas de combinación para diferentes vistas del Perfil del cliente en tiempo real (opcional).
+1. Configure reglas de combinación para diferentes vistas de [!UICONTROL Perfil del cliente en tiempo real] (opcional).
 1. Cree segmentos para el uso de la campaña.
 
 #### Fuentes/Destinos
