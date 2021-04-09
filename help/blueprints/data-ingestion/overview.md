@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ La preparación de datos incluye la asignación de datos de origen al esquema de
 
 | Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
-| **[Preparación e ingesta de datos al Experience Platform](ingestion.md)** | <ul><li>El modelo de preparación e inserción de datos incluye todos los métodos mediante los cuales se pueden preparar e incorporar datos en Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Reenvío del lado del servidor: colección empresarial](server-side-collection.md)** | <ul><li>Active en destinos conocidos basados en perfiles, como proveedores de correo electrónico, redes sociales y destinos publicitarios. </li><li>Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Preparación e ingesta de datos](ingestion.md)** | <ul><li>El modelo de preparación e inserción de datos incluye todos los métodos mediante los cuales se pueden preparar e incorporar datos en Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Recopilación de datos empresariales del servidor](server-side-collection.md)** | <ul><li>Active en destinos conocidos basados en perfiles, como proveedores de correo electrónico, redes sociales y destinos publicitarios. </li><li>Utilice atributos y eventos sin conexión, como pedidos sin conexión, transacciones, CRM o datos de fidelidad, junto con el comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
