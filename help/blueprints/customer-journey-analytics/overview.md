@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ Los análisis comunes incluyen:
 | Modelo | Descripción | Aplicaciones Experience Cloud |
 |---|---|---|
 | **[Consolidación de datos de comportamiento digital](digital-behavioral-data-consolidation.md)** | <ul><li>Disponer de una sola vista consolidada del comportamiento de los clientes en varios canales mediante la unificación de datos de varias propiedades web, móviles y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
-| **[Deflexión del centro de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos son más indicativos en el resultado de llamadas asistidas por el agente al unir datos del centro de llamadas con datos de web, móviles y otras interacciones.</li><li>Estas perspectivas se pueden utilizar para optimizar la experiencia del cliente y reducir la ruta a las interacciones asistidas por el agente a través de contenido y herramientas de autoservicio optimizados.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Análisis del Recorrido de la deformación de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos son más indicativos en el resultado de llamadas asistidas por el agente al unir datos del centro de llamadas con datos de web, móviles y otras interacciones.</li><li>Estas perspectivas se pueden utilizar para optimizar la experiencia del cliente y reducir la ruta a las interacciones asistidas por el agente a través de contenido y herramientas de autoservicio optimizados.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Publicaciones de blog relacionadas
 
