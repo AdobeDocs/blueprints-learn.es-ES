@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Ejecute campañas de mensajería programadas y por lotes utilizando Adobe Experi
 
 ## Arquitectura
 
-<img src="assets/aepbatch.svg" alt="Arquitectura de referencia para el escenario de mensajería por lotes y Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Arquitectura de referencia para la mensajería por lotes y el modelo de Adobe Experience Platform" style="border:1px solid #4a4a4a" />
 
 ## Seguridad
 
@@ -69,7 +69,7 @@ Ejecute campañas de mensajería programadas y por lotes utilizando Adobe Experi
 1. Cree cualquier área de nombres específica del cliente.
 1. Añadir identidades a esquemas.
 1. Habilite esquemas y conjuntos de datos para el perfil.
-1. Configure reglas de combinación para diferentes vistas del Perfil del cliente en tiempo real (opcional).
+1. Configure reglas de combinación para diferentes vistas de [!UICONTROL Perfil del cliente en tiempo real] (opcional).
 1. Cree segmentos para el uso de la campaña.
 
 #### Fuentes/Destinos
