@@ -5,22 +5,22 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Modelo de activación de audiencias y perfiles en destinos empresariales
 
-Replicación y actualización de los cambios de perfil y audiencia en los almacenes de datos empresariales para casos de uso de activación y generación de informes.
+Replicación y actualización de los cambios de perfil y audiencia en los almacenes de datos empresariales para casos de uso de activación y generación de informes. <!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
 
-Inicie una acción de ventas o asistencia al cliente mediante la notificación de una acción del cliente desde la [!UICONTROL Plataforma de datos del cliente en tiempo real] a sistemas y aplicaciones empresariales.
+Inicie una acción de ventas o asistencia al cliente mediante la notificación de una acción del cliente desde la [!UICONTROL Plataforma de datos del cliente en tiempo real] a sistemas y aplicaciones empresariales. <!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
 
 ## Casos de uso
 
-* Activación de perfiles y audiencias en destinos de almacenamiento en la nube o de flujo continuo para el seguimiento, almacenamiento, análisis y activación de datos y perspectivas de clientes por parte de la empresa.
+* Activación de perfiles y audiencias en destinos de almacenamiento en la nube o destinos de flujo continuo para el seguimiento, almacenamiento, análisis y activación de datos y perspectivas de clientes por parte de la empresa.
 
 ## Aplicaciones
 
@@ -42,39 +42,39 @@ Segmentación por transmisión:
 * Hasta 11 minutos para activación de flujo continuo
 
 Segmentación por lotes:
-Una vez al día o iniciada manualmente ad hoc mediante API
+Una vez al día, o iniciados manualmente, ad hoc mediante API.
 
 * Aproximadamente 1 hora por trabajo para un tamaño de almacén de perfiles de hasta 10 TB
 * Aproximadamente 2 horas por trabajo para un tamaño de almacén de perfiles de 10 TB a 100 TB
 
 ## Pasos de la implementación
 
-1. Crear esquemas para los datos que se van a introducir
-1. Crear conjuntos de datos para los datos que se van a ingerir
+1. Cree esquemas para introducir los datos. <!-- Cross-references to these topics would be helpful -->
+1. Cree conjuntos de datos para incorporar datos.
 1. Configure las identidades y los espacios de nombres de identidad correctos en el esquema para asegurarse de que los datos introducidos se puedan unir en un perfil unificado.
 1. Habilite los esquemas y conjuntos de datos para el procesamiento de perfiles.
-1. Configurar las fuentes para la ingesta de datos
-1. Segmentos de autor en el Experience Platform, que se evaluarán en lote o flujo continuo. El sistema determina automáticamente si el segmento se evalúa como lote o flujo continuo.
+1. Configure cualquier fuente para el consumo de datos.
+1. Segmentos de autor en Experience Platform, que se evaluarán en lote o flujo continuo. El sistema determina automáticamente si el segmento se evalúa como lote o flujo continuo.
 1. Configure destinos para compartir atributos de perfil y pertenencias de audiencia en destinos deseados.
 
 ## Consideraciones sobre la implementación
 
 Activación de atributos e identidades
 
-* La plataforma de datos del cliente en tiempo real puede activar tanto las suscripciones de audiencia como los cambios de atributos e identidad que se producen en los perfiles que son miembros de segmentos que se han seleccionado para la activación. Como tal, si el caso de uso es para activar atributos o identidades, se debe definir un segmento global que incluya todos los perfiles para los que se enviarán las actualizaciones de atributos o identidades. Una vez colocado este valor, el segmento y los atributos deseados que se activan se pueden seleccionar como parte de la configuración de destino.
-* Tenga en cuenta que los destinos de lote no admiten la activación de solo eventos de cambio de atributo. La pertenencia a audiencias completa o incremental se puede enviar junto con los atributos seleccionados para la activación, pero los eventos de cambio de atributos solo se pueden activar mediante destinos por lotes.
+* [!UICONTROL La ] plataforma de datos del cliente en tiempo real puede activar las suscripciones de audiencia, así como los cambios de atributos e identidad que se producen en los perfiles que son miembros de segmentos seleccionados para la activación. Si su objetivo es activar atributos o identidades, debe definir un segmento global que incluya todos los perfiles a los que se envían las actualizaciones de atributos e identidades. En este punto, puede seleccionar el segmento y los atributos deseados para activarlos como parte de la configuración de destino.
+* Tenga en cuenta que los destinos de lote no admiten la activación de eventos de cambio de solo atributo. Se pueden enviar suscripciones de audiencia completas o incrementales junto con los atributos seleccionados para la activación, pero no se pueden activar eventos de cambio de solo atributos mediante destinos por lotes.
 
-Activación de segmentos por lotes a destinos de flujo continuo
+Activación de segmentos por lotes en destinos de flujo continuo
 
 * Se admite la activación de segmentos por lotes a destinos de flujo continuo. Los trabajos de segmentos por lotes colocan mensajes en la canalización una vez que se haya completado el trabajo del segmento para la activación de flujo continuo
 
-Activación de segmentos de flujo continuo a destinos por lotes
+Activación de segmentos de flujo continuo en destinos por lotes
 
-* Se admite la activación de segmentos de transmisión a destino por lotes. La programación de destino de lote exportará las suscripciones de segmentos de los perfiles según la programación de destino de lote. Esto incluye tanto las suscripciones a segmentos determinadas mediante métodos de flujo continuo como por lotes.
+* Se admite la activación de segmentos de transmisión a destino por lotes. La programación de destino de lote exporta las suscripciones a segmentos de perfil en función de la programación de destino de lote. Esto incluye tanto las suscripciones a segmentos determinadas mediante métodos de flujo continuo como por lotes.
 
-Activación de eventos de experiencias
+Activación de eventos de experiencia
 
-* Actualmente no se admite la activación de eventos de experiencia sin procesar. Para activarse con eventos de experiencia, se debe crear un segmento con las reglas necesarias que incluyan o excluyan la lógica de evento de experiencia con la que se activará. Esto crea un segmento que se define para los eventos de experiencia y la pertenencia a un segmento se puede activar como proxy para activar los eventos de experiencia sin procesar. Considere también la posibilidad de aprovechar el servidor de Launch para activar los eventos de experiencia sin procesar recopilados mediante SDK.
+* No se admite la activación de eventos de experiencia sin procesar. Para activarse con eventos de experiencia, se debe crear un segmento con las reglas necesarias que incluyan o excluyan la lógica de eventos de experiencia. Esto crea un segmento que se define para los eventos de experiencia y la pertenencia a un segmento se puede activar como proxy para activar los eventos de experiencia sin procesar. Considere también la posibilidad de utilizar [!UICONTROL Launch Server Side] para activar eventos de experiencia sin procesar recopilados mediante SDK.
 
 ## Documentación relacionada
 
