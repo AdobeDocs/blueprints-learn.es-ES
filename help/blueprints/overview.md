@@ -4,18 +4,16 @@ description: Los modelos de experiencia digital son implementaciones repetibles 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
+source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '265'
 ht-degree: 2%
 
 ---
 
 # Modelos de experiencia digital
 
-Los modelos de experiencia digital son implementaciones repetibles para abordar la estrategia y resolver problemas empresariales establecidos. Los modelos aceleran el tiempo de respuesta al valor y proporcionan un camino rápido hacia el éxito.
-
-Cada modelo ofrece a los clientes de Adobe una serie de artefactos que explican el problema comercial de alto valor, las arquitecturas, los pasos de implementación, las consideraciones técnicas y los vínculos a la documentación relevante.
+Los modelos de experiencia digital son implementaciones repetibles que le permiten abordar la estrategia y resolver rápidamente los problemas empresariales establecidos. Cada modelo proporciona una serie de artefactos que explican el problema comercial de alto valor, las arquitecturas, los pasos de implementación, las consideraciones técnicas y los vínculos a la documentación relevante.
 
 ## Novedades
 
