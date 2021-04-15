@@ -5,18 +5,16 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Modelo de activación de audiencias y perfiles en destinos empresariales
 
-Replicación y actualización de los cambios de perfil y audiencia en los almacenes de datos empresariales para casos de uso de activación y generación de informes. <!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-Inicie una acción de ventas o asistencia al cliente mediante la notificación de una acción del cliente desde la [!UICONTROL Plataforma de datos del cliente en tiempo real] a sistemas y aplicaciones empresariales. <!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+Comparta los cambios y eventos de perfil y audiencia en streaming o por lotes de [!UICONTROL Plataforma de datos del cliente en tiempo real] a aplicaciones y almacenes de datos empresariales. Estos eventos de perfil y audiencia pueden utilizarse para iniciar una acción de ventas o asistencia al cliente, como realizar un seguimiento de un proceso de aplicación abandonado o un registro de seminario web, o actualizar aplicaciones empresariales con los atributos de cliente e inteligencia más recientes de [!UICONTROL Plataforma de datos del cliente en tiempo real].
 
 ## Casos de uso
 
@@ -49,7 +47,7 @@ Una vez al día, o iniciados manualmente, ad hoc mediante API.
 
 ## Pasos de la implementación
 
-1. Cree esquemas para introducir los datos. <!-- Cross-references to these topics would be helpful -->
+1. Cree esquemas para introducir los datos.
 1. Cree conjuntos de datos para incorporar datos.
 1. Configure las identidades y los espacios de nombres de identidad correctos en el esquema para asegurarse de que los datos introducidos se puedan unir en un perfil unificado.
 1. Habilite los esquemas y conjuntos de datos para el procesamiento de perfiles.
