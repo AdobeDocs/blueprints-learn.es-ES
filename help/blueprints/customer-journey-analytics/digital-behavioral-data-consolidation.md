@@ -1,18 +1,18 @@
 ---
-title: Modelo de consolidación de datos de comportamiento digital
-description: Analice y extraiga perspectivas de las interacciones de los clientes en todo el recorrido de clientes.
+title: Análisis de Recorridos en todos los canales
+description: Analice y extraiga información de las interacciones de los clientes en todo el recorrido del cliente.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
-# Modelo de consolidación de datos de comportamiento digital
+# Modelo de análisis de Recorrido en todos los canales
 
 Disponer de una sola vista consolidada del comportamiento de los clientes en varios canales mediante la unificación de datos de varias propiedades web, móviles y sin conexión.
 
