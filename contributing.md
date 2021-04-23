@@ -1,14 +1,14 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '296'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Contribución
 
-¡Gracias por contribuir!
+Gracias por su contribución.
 
 A continuación, detallamos una serie de directrices que deben seguirse al contribuir a este proyecto.
 
@@ -16,9 +16,9 @@ A continuación, detallamos una serie de directrices que deben seguirse al contr
 
 Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. Al participar, esperamos que usted cumpla con este código. Póngase en contacto con nosotros a través de la dirección [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) si ve comportamientos no aceptables.
 
-## Documentación de la Guía del colaborador
+## Documentación de la guía del colaborador
 
-Consulte la [Guía del colaborador](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consultar la [Guía del colaborador](https://docs.adobe.com/content/help/es-ES/contributor/contributor-guide/introduction.html).
 
 ## ¿Tiene preguntas?
 
@@ -39,7 +39,7 @@ submitting a pull request!
 
 ## De colaborador a committer
 
-¡Nos encanta que nuestra comunidad envíe contribuciones! Si quiere ser más que un colaborador y convertirse en committer con acceso de escritura completa y tener voz en el proyecto, debe obtener una invitación al proyecto. Los committers siguen un proceso de nominación interna que debe alcanzar un consenso muy general (el silencio significa aprobación) antes de que se emitan las invitaciones. Si cree que cuenta con la cualificación apropiada y quiere involucrarse más profundamente, no dude en ponerse en contacto con los committers para tratar este asunto con ellos.
+Nos encanta que nuestra comunidad envíe contribuciones. Si quiere ser más que un colaborador y convertirse en committer, con acceso de escritura completa y tener voz en el proyecto, debe obtener una invitación al proyecto. Los committers siguen un proceso de nominación interna que debe alcanzar un consenso muy general (el silencio significa aprobación) antes de que se emitan las invitaciones. Si cree que cuenta con la cualificación apropiada y quiere involucrarse más profundamente, no dude en ponerse en contacto con los committers para tratar este asunto con ellos.
 
 ## Problemas de seguridad
 
