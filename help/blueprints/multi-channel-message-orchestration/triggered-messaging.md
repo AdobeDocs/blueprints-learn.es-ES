@@ -1,6 +1,6 @@
 ---
 title: Mensajería activada y modelo de Adobe Experience Platform
-description: Ejecute mensajes y experiencias activados con Adobe Experience Platform como centro de transmisión de datos, perfiles de clientes y segmentación.
+description: Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
@@ -8,20 +8,20 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 # Mensajería activada y modelo de Adobe Experience Platform
 
-Ejecute mensajes y experiencias activados con Adobe Experience Platform como centro de transmisión de datos, perfiles de clientes y segmentación.
+Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 
 ## Casos de uso
 
 * Mensajes activados
 * Confirmaciones de registro
-* Abandonos del carro de compras y del formulario de solicitud
-* Mensajes activados por ubicación
+* Abandonos del carro de compras y formulario de solicitud
+* Mensajes activados por localización
 
 ## Arquitectura
 
@@ -31,83 +31,83 @@ Ejecute mensajes y experiencias activados con Adobe Experience Platform como cen
 
 * Adobe Experience Platform -> Journey Orchestration
 
-## Requisitos previos
+## Prerrequisitos
 
 * Adobe Experience Platform
 * Journey Orchestration
 
-## Seguridad
+## Guardas
 
 ### Journey Orchestration
 
-* Consulte el enlace para [más detalles sobre las limitaciones](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en#starting-with-journeys)
-* El límite está disponible a través de la configuración de la API para garantizar que el sistema de destino no esté saturado hasta el punto de error. Restricción significa que los mensajes que exceden el límite se descartan completamente y nunca se envían. La restricción aún no es compatible.
-   * conexiones máximas: Número máximo de conexiones http/s que un destino puede gestionar
-   * recuento máximo de llamadas: Número máximo de llamadas que se realizan en el parámetro periodInMs
-   * periodInMs: Tiempo en milisegundos
-* Los recorridos iniciados por la pertenencia a segmentos pueden funcionar en dos modos:
-   * segmentos por lotes (se actualizan cada 24 horas)
-   * Segmentos de transmisión (calificación de 5 minutos)
-* Segmentos por lotes: Asegúrese de comprender el volumen diario de usuarios cualificados y de que el sistema de destino pueda gestionar el rendimiento por recorrido y en todos los recorridos
-* Segmentos de flujo continuo: Asegúrese de que el arranque inicial de las cualificaciones de perfil se pueda gestionar junto con el volumen de clasificación de transmisión diaria por recorrido y en todos los recorridos
-* El destino final debe admitir la API de REST y la carga útil JSON
-* Actualmente no admite el Offer decisioning
-* Consulte [protecciones de ingesta de datos y perfiles para el Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* Consulte el enlace para obtener [más información sobre las limitaciones](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es#starting-with-journeys)
+* Es posible configurar la limitación a través de la API para asegurar que el sistema de destino no se sature hasta el punto que dé errores. Limitar significa que los mensajes que excedan el tope se descartarán completamente y no se enviarán jamás. Las restricciones no son compatibles aún.
+   * max connections: número máximo de conexiones que admite el destino.
+   * max call count: número máximo de llamadas que realizar en el parámetro periodInMs.
+   * periodInMs: tiempo en milisegundos.
+* Los recorridos iniciados por pertenencia a segmentos pueden funcionar de dos modos:
+   * Segmentos por lotes (actualizados cada 24 horas)
+   * Segmentos por flujo (calificación &lt;5 minutos)
+* Segmentos por lotes: asegúrese de conocer el volumen diario de usuarios calificados para garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos ellos.
+* Segmentos por flujo: asegúrese de que el pico inicial de calificaciones de perfil pueda manejarse juntamente con el volumen de calificación de flujo diario por recorrido y durante todos ellos.
+* El destino final debe ser compatible con la carga de REST API &amp; JSON.
+* Actualmente, no es compatible con Offer Decisioning.
+* Consulte [los guardas de perfil e ingesta de datos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 ### Adobe Campaign Standard
 
-* Solo admite 14 tps (50 k por hora) en rendimiento
-* No se admiten los recorridos iniciados por la pertenencia a segmentos
-* El Journey Orchestration admite eventos de reacción a clics o aperturas de mensajes transaccionales.
-* Los registros de mensajería transaccional no se sincronizan de forma nativa con el Experience Platform actualmente, lo que requiere una configuración manual. Se recomienda exportar registros como máximo cada cuatro horas.
+* Solo es compatible con un rendimiento de 14 tps (50 mil por hora)
+* No es compatible con recorridos iniciados por pertenencia a segmento.
+* Los eventos de reacción a mensajes transaccionales (abrir/clics) son compatibles con Journey Orchestration.
+* En la actualidad, los registros de los mensajes transaccionales no se sincronizan nativamente con Experience Platform, por lo que requieren configuración manual. Se recomienda exportar los registros como mucho cada cuatro horas.
 
 
-## Pasos de la implementación
+## Pasos de implementación
 
 ### Adobe Experience Platform
 
-#### Esquema/Conjuntos de datos
+#### Esquemas/conjuntos de datos
 
-1. Configure perfiles individuales, eventos de experiencia y esquemas de varias entidades en Experience Platform en función de los datos proporcionados por el cliente.
+1. Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple según los datos ofrecidos por los clientes en Experience Platform.
 1. Cree esquemas de Adobe Campaign para lo siguiente: broadLog, trackingLog, direcciones no entregables y preferencias de perfil (opcional).
-1. Agregue etiquetas de uso de datos al conjunto de datos para su administración.
-1. Cree políticas para hacer cumplir la gobernanza en los destinos.
+1. Añadir etiquetas de uso de datos al conjunto de datos para la gobernanza.
+1. Crear políticas para reforzar la gobernanza en los destinos.
 
 #### Perfil/identidad
 
-1. Cree cualquier área de nombres específica del cliente.
-1. Añadir identidades a esquemas.
-1. Habilite esquemas y conjuntos de datos para el perfil.
+1. Crear áreas de nombres específicas para los clientes.
+1. Añadir identidades a los esquemas.
+1. Activar esquemas y conjuntos de datos del perfil.
 1. Configure reglas de combinación para diferentes vistas de [!UICONTROL Perfil del cliente en tiempo real] (opcional).
 1. Cree segmentos para el uso de Adobe Campaign.
 
-#### Fuentes/Destinos
+#### Origen/destino
 
-1. Ingeste datos en el Experience Platform mediante API de flujo continuo y conectores de origen.
+1. Realizar la ingesta de datos en Experience Platform mediante API de flujo y conectores de origen.
 1. Configure el [!DNL Azure] destino de almacenamiento del blob para utilizarlo con Adobe Campaign.
 
-#### Implementación de aplicación móvil
+#### Implementación de aplicaciones móviles
 
 1. Implemente el SDK de Adobe Campaign para Adobe Campaign Classic o el SDK de Experience Platform para Adobe Campaign Standard. Si el Experience Platform Launch está presente, se recomienda utilizar la extensión de Adobe Campaign Classic o Adobe Campaign Standard con el SDK de Experience Platform.
 
 
 ### Journey Orchestration
 
-1. Los datos de flujo utilizados para iniciar un recorrido de cliente deben configurarse primero en el Journey Orchestration para obtener un ID de organización. A continuación, este ID de organización se proporciona al desarrollador para que lo utilice con la ingesta.
-1. Configure fuentes de datos externas.
-1. Configure acciones personalizadas.
+1. El flujo de datos utilizado para iniciar el recorrido del cliente debe configurarse primero en Journey Orchestration para obtener un ID de organización. Este ID de organización debe entregarse al desarrollador para usarse con la ingesta.
+1. Configurar orígenes externos de datos.
+1. Configurar acciones personalizadas.
 
 ### Adobe Campaign Standard
 
-1. Configure las plantillas de mensajería con los ajustes de personalización adecuados.
-1. Configure los flujos de trabajo de exportación para exportar los registros de mensajería transaccional. La recomendación es que se ejecute como máximo cada cuatro horas.
+1. Configurar plantillas de mensajería con las configuraciones de personalización adecuadas.
+1. Configurar informes de exportación de flujos de trabajo y mensajes transaccionales. Recomendamos que se ejecuten como mucho cada cuatro horas.
 
 
 ## Documentación relacionada
 
-* [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [documentación del Journey Orchestration](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Documentación de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Documentación de Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
-* [documentación del Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Documentación del SDK de Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
+* [Documentación de Journey Orchestration](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=es)
+* [Documentación de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=es)
+* [Documentación de Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=es)
+* [Documentación de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=es)
+* [Documentación del SDK móvil de Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
