@@ -1,6 +1,6 @@
 ---
 title: Análisis de Recorridos en todos los canales
-description: Analice y extraiga información de las interacciones de los clientes en todo el recorrido del cliente.
+description: Analizar y extraer información de interacciones del cliente mediante su recorrido.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
 # Modelo de análisis de Recorrido en todos los canales
 
-Disponer de una sola vista consolidada del comportamiento de los clientes en varios canales mediante la unificación de datos de varias propiedades web, móviles y sin conexión.
+Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales, unificando los datos de distintas propiedades web, móvil y sin conexión.
 
 ## Casos de uso
 
-* Analice las interacciones de los clientes en equipos de escritorio y dispositivos móviles para comprender el comportamiento de los clientes y extraer perspectivas para optimizar las experiencias de los clientes digitales.
-* Analice las interacciones de los clientes entre canales, incluidos los canales digitales y sin conexión, como las interacciones de soporte y las compras en tiendas, para comprender y optimizar mejor el recorrido de los clientes. 
+* Analizar la interacción del cliente en el ordenador y en el móvil para entender su comportamiento y extraer datos que optimicen su experiencia.
+* Analizar la interacción del cliente en todos los canales, incluyendo los digitales y sin conexión, como interacciones con la asistencia y las compras en tienda, para entender mejor y optimizar el recorrido del cliente. 
 
 ## Aplicaciones
 
@@ -34,51 +34,51 @@ Disponer de una sola vista consolidada del comportamiento de los clientes en var
 
 ## Arquitectura
 
-<img src="assets/CJA.svg" alt="Arquitectura de referencia para el modelo del Customer Journey Analytics" style="border:1px solid #4a4a4a" />
+<img src="assets/CJA.svg" alt="Arquitectura de referencia para el modelo de Customer Journey Analytics" style="border:1px solid #4a4a4a" />
 
-## Seguridad
+## Guardas
 
-Ingesta de datos en el Customer Journey Analytics:
+Ingesta de datos en Customer Journey Analytics:
 
-* Ingesta de datos al lago: API ~ 7 GB/hora, conector de origen ~ 200 GB/hora, flujo a lago ~ 15 minutos, conector de origen Adobe Analytics al lago ~ 45 minutos.
-* Una vez publicados los datos en el lago de datos, puede tardar hasta 90 minutos en procesarse en Customer Journey Analytics.
+* Ingesta de datos al repositorio: API ~7 GB/hora, conector fuente ~200 GB/hora, flujo a repositorio ~15 minutos, conector fuente de Adobe Analytics al repositorio ~45 minutos.
+* Tras la publicación de los datos en el repositorio, pueden pasar hasta 90 minutos para que se procesen en Customer Journey Analytics.
 
-## Pasos de la implementación
+## Pasos de implementación
 
-1. Configure conjuntos de datos y esquemas.
-1. Ingeste datos en Platform.
-Los datos deben ingerirse en Platform antes de procesarse en Customer Journey Analytics.
-1. Analice los conjuntos de datos de eventos de canales cruzados para analizarlos en una unión a fin de asegurarse de que tengan un ID de área de nombres común o de que se redefinan mediante la capacidad de vinculación basada en el campo de Customer Journey Analytics. 
+1. Configurar conjunto de datos y esquemas.
+1. Ingerir datos en Platform.
+Los datos deben enviarse a Platform antes de que se procesen en Customer Journey Analytics.
+1. Analizar conjuntos de datos de eventos multicanal para que se estudien juntos, asegurando que tengan el mismo ID de área de nombres o se reescriban a través de la capacidad de combinación basada en campos de Customer Journey Analytics. 
 
    >[!NOTE]
    >
-   >Actualmente, el Customer Journey Analytics no utiliza los servicios de Perfil del Experience Platform o de identidad para la vinculación.
+   >Actualmente, Customer Journey Analytics no utiliza el servicio de perfil ni identidad de Experience Platform para la combinación.
 
-1. Realice cualquier preparación de datos personalizada o use la vinculación de identidad basada en el campo en los datos para garantizar una clave común en los conjuntos de datos de series temporales que se incorporarán en el Customer Journey Analytics.
-1. Asigne un ID principal a los datos de búsqueda que pueda unirse a un campo en los datos de evento. Cuenta como filas en licencias.
-1. Establezca el mismo ID principal para los datos de perfil que el ID principal de los datos de evento.
-1. Configure una conexión de datos para introducir datos de Experience Platform a Customer Journey Analytics. Una vez que los datos llegan al lago de datos, se procesan en Customer Journey Analytics en un plazo de 90 minutos.
-1. Configure una vista de datos en la conexión para seleccionar las dimensiones y métricas específicas que se incluirán en la vista. La configuración de atribución y asignación también se configura en la vista de datos. Estos ajustes se calculan en el momento del informe.
-1. Cree un proyecto para configurar tableros e informes en Analysis Workspace.
+1. Realizar cualquier preparación de datos del cliente o emplear en ellos la combinación de identidades basada en campos para mantener una clave común a través de los conjuntos de datos de series temporales para que se ingieran en Customer Journey Analytics.
+1. Asignar a los datos de búsqueda un ID principal que se puede unir a un campo en los datos de evento. Cuenta como líneas en la licencia.
+1. Establecer el mismo ID principal para los datos del perfil y del evento.
+1. Configurar una conexión de datos para ingerirlos de Experience Platform a Customer Journey Analytics. Cuando los datos llegan al repositorio, se procesan en Customer Journey Analytics en un periodo de 90 minutos.
+1. Configurar una vista de datos de la conexión para seleccionar las dimensiones y métricas específicas que se incluirán en la vista. La configuración de atribución y asignación también se configura en la vista de datos. Estas configuraciones se computan en el momento del informe.
+1. Crear un proyecto para configurar paneles e informes dentro de Analysis Workspace.
 
 ## Consideraciones sobre la implementación
 
-### Consideraciones sobre la vinculación de identidad
+### Consideraciones sobre la combinación de identidad
 
-* Los datos de series temporales que se van a unificar deben tener el mismo espacio de nombres de ID en cada registro.
-* El proceso de unión de conjuntos de datos dispares requiere una clave persona/entidad principal común en todos los conjuntos de datos.
-* Actualmente no se admiten uniones secundarias basadas en claves.
-* El proceso de vinculación de identidad basado en el campo permite volver a incrustar identidades en filas basándose en registros de ID transitorios posteriores, como un ID de autenticación. Esto permite resolver registros dispares en un único ID para su análisis en el nivel de la persona, en lugar de en el nivel de dispositivo o cookie.
-* El ajuste se produce una vez a la semana, con reproducción después del punteado.
+* Los datos de serie temporal que se unan deben tener el mismo ID de área de nombres en todos los registros.
+* El proceso de unificación de los conjunto de datos dispares requiere mantener una clave común principal por persona/entidad en todos ellos.
+* Actualmente, las unificaciones secundarias basadas en claves no son compatibles.
+* El proceso de combinación de identidades basadas en campos permite renombrar las identidades en filas según los registros de ID temporales subsecuentes, como en un ID de autenticación. Esto permite convertir registros dispares en un ID único para que se analice como persona en lugar de dispositivo o cookie.
+* La combinación ocurre una vez a la semana, con repetición tras la combinación.
 
 ## Preguntas frecuentes
 
-* ¿Cuál es el impacto descendente de los modelos de datos en Customer Journey Analytics?
+* ¿Cuáles son las consecuencias que se derivan de los modelos de datos en Customer Journey Analytics?
 
-   Los objetos y atributos del mismo campo XDM se combinan en una dimensión en el Customer Journey Analytics. Hasta  combinar varios atributos de varios conjuntos de datos en la misma dimensión de Customer Journey Analytics, los conjuntos de datos deben hacer referencia al mismo campo o esquema XDM.
+   Los objetos y los atributos del mismo campo XDM se fusionan en una única dimensión en Customer Journey Analytics. Para fusionar varios atributos de varios conjuntos de datos en la misma dimensión de Customer Journey Analytics, los conjuntos de datos deben hacer referencia el mismo campo XDM o esquema.
 
 ## Documentación relacionada
 
-* [Descripción del producto del Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
-* [documentación del Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
-* [tutoriales del Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
+* [Descripción del producto Customer Journey Analytics](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics.html)
+* [Documentación de Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=es)
+* [Tutoriales de Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html?lang=es)
