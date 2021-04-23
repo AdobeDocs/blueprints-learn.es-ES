@@ -1,13 +1,13 @@
 ---
 title: Modelos de experiencia digital
-description: Los modelos de experiencia digital son implementaciones repetibles para abordar la estrategia y resolver problemas empresariales establecidos. Aceleran el tiempo de respuesta al valor y proporcionan un camino rápido hacia el éxito.
+description: Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar problemas empresariales existentes. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 2%
+ht-degree: 37%
 
 ---
 
@@ -20,14 +20,14 @@ Los modelos de experiencia digital son implementaciones repetibles que le permit
 * **[Modelo de activación de audiencias y perfiles en destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Mantenga los perfiles de los clientes actualizados en todos los sistemas para potenciar a sus equipos de ventas y asistencia. &#x200B;*
-* **[Modelo de Centro de actividades del cliente](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Modelo de centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
-   *Proporcione contexto para el soporte y las ventas asistidos por el agente.*
+   *Ofrecer contexto a los agentes de ventas y atención al cliente.*
 * **[Análisis de datos y modelo de inteligencia](/help/blueprints/data-insights/analysis.md)**
 
-   *Realizar consultas y análisis exploratorios de los datos en el lago de datos.*
+   *Realizar consultas y análisis de los datos del repositorio.*
 
-## Modelos destacados
+## Modelos incluidos
 
 <table style="table-layout:fixed">
 <tr>
@@ -38,8 +38,8 @@ Los modelos de experiencia digital son implementaciones repetibles que le permit
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagen en miniatura para el modelo de Audience Activation en línea/sin conexión" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation en línea/sin conexión</strong></a></div>
-    <p><em>Entregue publicidad multicanal activada por la audiencia.</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation en línea / sin conexión</strong></a></div>
+    <p><em>Ofrecer publicidad multicanal activada por audiencia.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="imagen en miniatura para el modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
@@ -49,7 +49,7 @@ Los modelos de experiencia digital son implementaciones repetibles que le permit
 </tr>
 </table>
 
-## Publicaciones de blog
+## Entradas del blog
 
 * [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
