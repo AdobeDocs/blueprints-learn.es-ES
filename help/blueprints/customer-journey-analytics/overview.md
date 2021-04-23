@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics
-description: Unificar y analizar los datos y los comportamientos de los clientes desde el recorrido del cliente
+description: Unificar y analizar datos y comportamiento de los clientes a través de su recorrido​
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
@@ -9,28 +9,28 @@ translation-type: tm+mt
 source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 10%
+ht-degree: 84%
 
 ---
 
 # Customer Journey Analytics
 
-El Customer Journey Analytics muestra cómo las marcas pueden unificar los datos y el comportamiento de los clientes desde varios canales y fuentes de interacción para crear una vista basada en recorridos de todas las interacciones con los clientes. Los informes y análisis se pueden realizar en el servicio de aplicaciones de Customer Journey Analytics para evaluar y obtener información sobre la interacción del cliente y los patrones de comportamiento.
+El Customer Journey Analytics muestra cómo las marcas pueden unificar los datos y el comportamiento de los clientes desde varios canales y fuentes de interacción para crear una vista basada en recorridos de todas las interacciones con los clientes. La creación de informes y el análisis se pueden realizar en el servicio de la aplicación Customer Journey Analytics para evaluar y obtener datos sobre la interacción del cliente y sus patrones de comportamiento.
 
-Los análisis comunes incluyen:
+Los análisis más comunes incluyen:
 
-* Rutas de conversión superiores/inferiores
-* Contenido más visitado
+* Rutas de conversión arriba/abajo
+* Contenido más visto
 * Categorías y productos
-* Qué campañas tuvieron como resultado una conversión y un aumento de la participación
-* Análisis del uso de herramientas para optimizar las experiencias de autoservicio
+* Qué campañas resultaron en conversión y más participación
+* Análisis de uso de herramientas para optimizar las experiencias de autoservicio
 
-| Modelo | Descripción | Aplicaciones Experience Cloud |
+| Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **[Análisis de Recorridos en todos los canales](digital-behavioral-data-consolidation.md)** | <ul><li>Disponer de una sola vista consolidada del comportamiento de los clientes en varios canales mediante la unificación de datos de varias propiedades web, móviles y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
-| **[Análisis del Recorrido de la deformación de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos son más indicativos en el resultado de llamadas asistidas por el agente al unir datos del centro de llamadas con datos de web, móviles y otras interacciones.</li><li>Estas perspectivas se pueden utilizar para optimizar la experiencia del cliente y reducir la ruta a las interacciones asistidas por el agente a través de contenido y herramientas de autoservicio optimizados.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Análisis de Recorridos en todos los canales](digital-behavioral-data-consolidation.md)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales, unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+| **[Análisis del Recorrido de la deformación de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Publicaciones de blog relacionadas
+## Entradas relacionadas en el blog
 
 * [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
