@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 69%
+source-wordcount: '1091'
+ht-degree: 48%
 
 ---
 
@@ -35,11 +35,23 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
 
 ## Guardas
 
-* Los segmentos se comparten de Experience Platform a Audience Manager a los pocos minutos de la generación del segmento, tanto si se hace por el método de evaluación por flujo como por lotes. Hay una sincronización inicial de la configuración del segmento entre el Experience Platform y el Audience Manager de aproximadamente 4 horas para que las suscripciones al segmento del Experience Platform empiecen a realizarse en los perfiles del Audience Manager. Una vez en los perfiles de Audience Manager, las suscripciones a segmentos de Experience Platform están disponibles para la misma personalización de página a través de Adobe Target.
-* Tenga en cuenta que para las realizaciones de segmentos que se producen dentro de la sincronización de configuración de segmentos de 4 horas entre el Experience Platform y el Audience Manager, estas realizaciones de segmentos se realizarán en el Audience Manager en el siguiente trabajo de segmentos por lotes como segmentos &quot;existentes&quot;.
-* Uso compartido de segmentos por lotes desde el Experience Platform: una vez al día o se inicia manualmente mediante API. Una vez realizadas estas suscripciones a segmentos, se comparten con el Audience Manager en cuestión de minutos y están disponibles para la personalización de la misma página o de la siguiente en Target.
-* La segmentación por transmisión se realiza en aproximadamente 5 minutos. Una vez que se producen estas realizaciones de segmentos, se comparten con el Audience Manager en cuestión de minutos y están disponibles para la personalización de la misma página o de la siguiente en Target.
-* Por defecto, el servicio para compartir segmentos permite que esto se realice con un máximo de 75 audiencias por cada grupo de informes de Adobe Analytics. Si el cliente tiene una licencia de Audience Manager, no hay límite en el número de audiencias que se pueden compartir entre Adobe Analytics y Adobe Target o entre Audience Manager y Adobe Target.
+### Protecciones para la evaluación y activación de segmentos
+
+| Tipo de segmentación | Frecuencia | Rendimiento | Latencia (Evaluación de segmentos) | Latencia (Activación de segmentos) |
+|-|-|-|-|-|-|
+| Segmentación de Edge | La segmentación de Edge está actualmente en fase beta y permite evaluar una segmentación válida en tiempo real en la red perimetral del Experience Platform para la toma de decisiones en la misma página en tiempo real mediante Adobe Target y Journey Optimizer de Adobe. |  | ~100 ms | Disponible inmediatamente para su personalización en Adobe Target, para búsquedas de perfiles en el perfil de Edge y para su activación mediante destinos basados en cookies. |
+| Segmentación por transmisión | Cada vez que se incorpora un nuevo evento o registro de flujo continuo en el perfil del cliente en tiempo real y la definición del segmento es un segmento de flujo continuo válido. <br>Consulte la documentación de  [segmentación ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es) para obtener instrucciones sobre los criterios de los segmentos de flujo continuo | Hasta 1500 eventos por segundo.  | ~ p95 &lt;5 min | Una vez que se producen estas realizaciones de segmentos, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página o de la siguiente en Adobe Target. |
+| Segmentación incremental | Una vez por hora para los nuevos datos que se han incorporado en el perfil del cliente en tiempo real desde la última evaluación de segmentos por lotes o incrementales. |  |  | Una vez que estas suscripciones a segmentos se hayan realizado, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página/siguiente en Adobe Target. |
+| Segmentación por lotes | Una vez al día en función de una programación predeterminada del sistema o iniciada manualmente mediante API. |  | Aproximadamente una hora por trabajo para un tamaño de almacén de perfiles de hasta 10 TB, 2 horas por trabajo para un tamaño de almacén de perfiles de entre 10 TB y 100 TB. El rendimiento del trabajo del segmento por lotes depende del número de perfiles, el tamaño de los perfiles y el número de segmentos que se evalúen. | Una vez que estas suscripciones a segmentos se hayan realizado, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página/siguiente en Adobe Target. |
+
+### Protecciones para el uso compartido de audiencias entre aplicaciones
+
+
+| Patrón de integración del uso compartido de audiencias | Detalle | Frecuencia | Rendimiento | Latencia (Evaluación de segmentos) | Latencia (Activación de segmentos) |
+|-|-|-|-|-|-|-|
+| Plataforma de datos del cliente en tiempo real para el Audience Manager |  | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | En los minutos siguientes a la finalización de la evaluación del segmento.<br>La sincronización inicial de la configuración de audiencia entre la plataforma de datos del cliente en tiempo real y el Audience Manager tarda aproximadamente 4 horas.<br>Cualquier pertenencia a una audiencia realizada durante el periodo de 4 horas se escribirá en el Audience Manager del trabajo de segmentación por lotes subsiguiente como pertenencia a una audiencia &quot;existente&quot;. |
+| Adobe Analytics para Audience Manager | De forma predeterminada, se puede compartir un máximo de 75 audiencias para cada grupo de informes de Adobe Analytics. Si se utiliza una licencia de Audience Manager, no hay límite en el número de audiencias que se pueden compartir entre Adobe Analytics y Adobe Target o Adobe Audience Manager y Adobe Target. |  |  |  |  |
+| Adobe Analytics a la plataforma de datos del cliente en tiempo real | Actualmente no está disponible. |  |  |  |  |
 
 ## Patrones de implementación
 
@@ -84,7 +96,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 * [Compartir segmentos en Experience Platform con Audience Manager y otras soluciones de Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=es)
 * [Información general sobre la segmentación en Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es)
-* [Segmentación por flujo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es)
+* [Segmentación por flujo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Información general sobre el generador de segmentos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es)
 * [Conector de origen de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es)
 * [Uso compartido de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
