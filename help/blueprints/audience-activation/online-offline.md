@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 81%
+source-wordcount: '990'
+ht-degree: 35%
 
 ---
 
@@ -36,13 +36,27 @@ Active audiencias de destinos conocidos basados en perfiles, tales como proveedo
 ## Guardas
 
 * [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
-* Las tareas de segmentación por lotes se ejecutan una vez al día según la programación predeterminada. Las tareas de exportación de segmentos se ejecutan antes de la entrega programada en el destino. Observe que las tareas de segmentación por lotes y entrega en destino se ejecutan separadamente. El rendimiento de las tareas de segmentación por lotes y exportación depende de la cantidad de perfiles, su tamaño y número de segmentos que están siendo evaluados.
-* Las tareas de segmentación por flujo se evalúan en minutos, lo que tarda el flujo de datos en llegar al perfil, y escriben las pertenencias a segmento en el perfil inmediatamente, además de enviar un evento para que las aplicaciones se suscriban.
-* El abono de segmentos por flujo se lleva a cabo inmediatamente hacia los destinos de flujo y se entrega bien en eventos de pertenencia a segmento o en un microlote de eventos de perfil múltiple que depende de los patrones de ingesta del destino. Los destinos programados iniciarán la tarea de exportación de segmentos desde el perfil, antes de la entrega, para todos los segmentos evaluados en flujo que se entreguen por lotes de segmentos programados.
-* Para compartir [!UICONTROL la pertenencia de la Plataforma de datos del cliente en tiempo real] al Audience Manager, esto sucede en cuestión de minutos para los segmentos de flujo continuo y en cuestión de minutos tras la finalización de la evaluación de segmentos por lotes para la segmentación por lotes.
-* Los segmentos se comparten de Experience Platform a Audience Manager a los pocos minutos de la generación del segmento, tanto si se hace por el método de evaluación por flujo como por lotes. Existe una sincronización inicial de la configuración de segmentos entre Experience Platform y Audience Manager una vez que el segmento se ha creado inicialmente, después de ~4 horas, las suscripciones de segmentos de Experience Platform pueden empezar a realizarse en perfiles de Audience Manager. La pertenencia a audiencia realizada antes de la configuración del intercambio de audiencia de Experience Platform y Audience Manager, o antes de que los metadatos de audiencia se sincronicen desde Experience Platform hacia Audience Manager, no se generarán en Audience Manager hasta que no se comparta la próxima tarea de segmentación donde las pertenencias a segmento se marquen como “existing” (existente).
-* Las tareas de destino por lotes o flujo de las tareas de segmentación por lote pueden compartir actualizaciones de atributos de perfil, así como pertenencias a segmentos.
-* Las tareas de segmentación por flujo a destinos por flujo solo comparten actualizaciones de pertenencia a segmento.
+
+### Protecciones para la evaluación y activación de segmentos
+
+| Tipo de segmentación | Frecuencia | Rendimiento | Latencia (Evaluación de segmentos) | Latencia (Activación de segmentos) | Carga útil de activación |
+|-|-|-|-|-|-|-|
+| Segmentación de Edge | La segmentación de Edge está actualmente en fase beta y permite evaluar una segmentación válida en tiempo real en la red perimetral del Experience Platform para la toma de decisiones en la misma página en tiempo real mediante Adobe Target y Journey Optimizer de Adobe. |  | ~100 ms | Disponible inmediatamente para su personalización en Adobe Target, para búsquedas de perfiles en el perfil de Edge y para su activación mediante destinos basados en cookies. | Pertenencia a audiencias disponibles en Edge para búsquedas de perfiles y destinos basados en cookies.<br>Los atributos Pertenencia a audiencias y Perfil están disponibles para Adobe Target y Journey Optimizer.  |
+| Segmentación por transmisión | Cada vez que se incorpora un nuevo evento o registro de flujo continuo en el perfil del cliente en tiempo real y la definición del segmento es un segmento de flujo continuo válido. <br>Consulte la documentación de  [segmentación ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es) para obtener instrucciones sobre los criterios de los segmentos de flujo continuo | Hasta 1500 eventos por segundo.  | ~ p95 &lt;5 min | Destinos de transmisión: Las pertenencias a audiencias de transmisión se activan en aproximadamente 10 minutos o se agrupan por lotes en función de los requisitos del destino.<br>Destinos programados: Las pertenencias a audiencias de flujo continuo se activan en lote según la hora de envío de destino programada. | Destinos de transmisión: Cambios en la pertenencia a audiencias, valores de identidad y atributos de perfil.<br>Destinos programados: Cambios en la pertenencia a audiencias, valores de identidad y atributos de perfil. |
+| Segmentación incremental | Una vez por hora para los nuevos datos que se han incorporado en el perfil del cliente en tiempo real desde la última evaluación de segmentos por lotes o incrementales. |  |  | Destinos de transmisión: Las suscripciones de audiencia incrementales se activan en aproximadamente 10 minutos o por lotes según los requisitos del destino.<br>Destinos programados: Las suscripciones de audiencia incrementales se activan en lote según la hora de entrega de destino programada. | Destinos de transmisión: Los cambios en la pertenencia a la audiencia y solo los valores de identidad.<br>Destinos programados: Cambios en la pertenencia a audiencias, valores de identidad y atributos de perfil. |
+| Segmentación por lotes | Una vez al día en función de una programación predeterminada del sistema o iniciada manualmente mediante API. |  | Aproximadamente una hora por trabajo para un tamaño de almacén de perfiles de hasta 10 TB, 2 horas por trabajo para un tamaño de almacén de perfiles de entre 10 TB y 100 TB. El rendimiento del trabajo del segmento por lotes depende del número de perfiles, el tamaño de los perfiles y el número de segmentos que se evalúen. | Destinos de transmisión: Las pertenencias a audiencias por lotes se activan aproximadamente dentro de los 10 días posteriores a la finalización de la evaluación de segmentación o del microagrupamiento, según los requisitos del destino.<br>Destinos programados: Las suscripciones a audiencias por lotes se activan según la hora de envío de destino programada. | Destinos de transmisión: Los cambios en la pertenencia a la audiencia y solo los valores de identidad.<br>Destinos programados: Cambios en la pertenencia a audiencias, valores de identidad y atributos de perfil. |
+
+### Protecciones para el uso compartido de audiencias entre aplicaciones
+
+| Integraciones de aplicaciones de audiencia | Frecuencia | Rendimiento/volumen | Latencia (Evaluación de segmentos) | Latencia (Activación de segmentos) |
+|-|-|-|-|-|-|
+| Plataforma de datos del cliente en tiempo real para el Audience Manager | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | En los minutos siguientes a la finalización de la evaluación del segmento.<br>La sincronización inicial de la configuración de audiencia entre la plataforma de datos del cliente en tiempo real y el Audience Manager tarda aproximadamente 4 horas.<br>Cualquier pertenencia a una audiencia realizada durante el periodo de 4 horas se escribirá en el Audience Manager del trabajo de segmentación por lotes subsiguiente como pertenencia a una audiencia &quot;existente&quot;. |
+| Adobe Analytics para Audience Manager |  | De forma predeterminada, se puede compartir un máximo de 75 audiencias para cada grupo de informes de Adobe Analytics. Si se utiliza una licencia de Audience Manager, no hay límite en el número de audiencias que se pueden compartir entre Adobe Analytics y Adobe Target o Adobe Audience Manager y Adobe Target. |  |  |
+| Adobe Analytics a la plataforma de datos del cliente en tiempo real | No disponible actualmente | No disponible actualmente | No disponible actualmente | No disponible actualmente |
+
+
+
+
 
 ## Pasos de implementación
 
@@ -64,7 +78,7 @@ Active audiencias de destinos conocidos basados en perfiles, tales como proveedo
 
 * [Descripción del producto Real-time Customer Data Platform](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Documentación de la segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es)
+* [Documentación de la segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Documentación de los destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
 
 ## Vídeos y tutoriales relacionados
