@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
+source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 48%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,19 +38,19 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
 ### Protecciones para la evaluación y activación de segmentos
 
 | Tipo de segmentación | Frecuencia | Rendimiento | Latencia (Evaluación de segmentos) | Latencia (Activación de segmentos) |
-|-|-|-|-|-|-|
+|---|---|---|---|---|
 | Segmentación de Edge | La segmentación de Edge está actualmente en fase beta y permite evaluar una segmentación válida en tiempo real en la red perimetral del Experience Platform para la toma de decisiones en la misma página en tiempo real mediante Adobe Target y Journey Optimizer de Adobe. |  | ~100 ms | Disponible inmediatamente para su personalización en Adobe Target, para búsquedas de perfiles en el perfil de Edge y para su activación mediante destinos basados en cookies. |
-| Segmentación por transmisión | Cada vez que se incorpora un nuevo evento o registro de flujo continuo en el perfil del cliente en tiempo real y la definición del segmento es un segmento de flujo continuo válido. <br>Consulte la documentación de  [segmentación ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es) para obtener instrucciones sobre los criterios de los segmentos de flujo continuo | Hasta 1500 eventos por segundo.  | ~ p95 &lt;5 min | Una vez que se producen estas realizaciones de segmentos, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página o de la siguiente en Adobe Target. |
-| Segmentación incremental | Una vez por hora para los nuevos datos que se han incorporado en el perfil del cliente en tiempo real desde la última evaluación de segmentos por lotes o incrementales. |  |  | Una vez que estas suscripciones a segmentos se hayan realizado, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página/siguiente en Adobe Target. |
-| Segmentación por lotes | Una vez al día en función de una programación predeterminada del sistema o iniciada manualmente mediante API. |  | Aproximadamente una hora por trabajo para un tamaño de almacén de perfiles de hasta 10 TB, 2 horas por trabajo para un tamaño de almacén de perfiles de entre 10 TB y 100 TB. El rendimiento del trabajo del segmento por lotes depende del número de perfiles, el tamaño de los perfiles y el número de segmentos que se evalúen. | Una vez que estas suscripciones a segmentos se hayan realizado, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página/siguiente en Adobe Target. |
+| Segmentación por flujo | Cada vez que se incorpora un nuevo evento o registro de flujo continuo en el perfil del cliente en tiempo real y la definición del segmento es un segmento de flujo continuo válido. <br>Consulte la documentación de  [segmentación ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es) para obtener instrucciones sobre los criterios de los segmentos de flujo continuo | Hasta 1500 eventos por segundo. | ~ p95 &lt;5 min | Una vez que se producen estas realizaciones de segmentos, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página o de la siguiente en Adobe Target. |
+| Segmentación incremental | Una vez por hora para los nuevos datos que se han incorporado en el perfil del cliente en tiempo real desde la última evaluación de segmentos por lotes o incrementales. |  |  | Una vez realizadas estas suscripciones a segmentos, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página/siguiente en Adobe Target. |
+| Segmentación por lotes | Una vez al día en función de una programación predeterminada del sistema o iniciada manualmente mediante API. |  | Aproximadamente una hora por trabajo para un tamaño de almacén de perfiles de hasta 10 TB, 2 horas por trabajo para un tamaño de almacén de perfiles de entre 10 TB y 100 TB. El rendimiento del trabajo del segmento por lotes depende del número de perfiles, el tamaño de los perfiles y el número de segmentos que se evalúen. | Una vez realizadas estas suscripciones a segmentos, se comparten con el Audience Manager y el servicio de uso compartido de audiencias en cuestión de minutos y están disponibles para la personalización de la misma página/siguiente en Adobe Target. |
 
 ### Protecciones para el uso compartido de audiencias entre aplicaciones
 
 
 | Patrón de integración del uso compartido de audiencias | Detalle | Frecuencia | Rendimiento | Latencia (Evaluación de segmentos) | Latencia (Activación de segmentos) |
-|-|-|-|-|-|-|-|
-| Plataforma de datos del cliente en tiempo real para el Audience Manager |  | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depende del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | En los minutos siguientes a la finalización de la evaluación del segmento.<br>La sincronización inicial de la configuración de audiencia entre la plataforma de datos del cliente en tiempo real y el Audience Manager tarda aproximadamente 4 horas.<br>Cualquier pertenencia a una audiencia realizada durante el periodo de 4 horas se escribirá en el Audience Manager del trabajo de segmentación por lotes subsiguiente como pertenencia a una audiencia &quot;existente&quot;. |
-| Adobe Analytics para Audience Manager | De forma predeterminada, se puede compartir un máximo de 75 audiencias para cada grupo de informes de Adobe Analytics. Si se utiliza una licencia de Audience Manager, no hay límite en el número de audiencias que se pueden compartir entre Adobe Analytics y Adobe Target o Adobe Audience Manager y Adobe Target. |  |  |  |  |
+|---|---|---|---|---|---|
+| Audience Manager de la plataforma de datos del cliente en tiempo real |  | Depender del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depender del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Depender del tipo de segmentación : consulte la tabla de protecciones de segmentación anterior. | Minutos después de la finalización de la evaluación del segmento.<br>La sincronización inicial de la configuración de audiencia entre la plataforma de datos del cliente en tiempo real y el Audience Manager tarda aproximadamente 4 horas.<br>Cualquier pertenencia a una audiencia realizada durante el periodo de 4 horas se escribirá en el Audience Manager del trabajo de segmentación por lotes subsiguiente como pertenencia a una audiencia &quot;existente&quot;. |
+| Adobe Analytics al Audience Manager | De forma predeterminada, se puede compartir un máximo de 75 audiencias para cada grupo de informes de Adobe Analytics. Si se utiliza una licencia de Audience Manager, no hay límite en el número de audiencias que se pueden compartir entre Adobe Analytics y Adobe Target o Adobe Audience Manager y Adobe Target. |  |  |  |  |
 | Adobe Analytics a la plataforma de datos del cliente en tiempo real | Actualmente no está disponible. |  |  |  |  |
 
 ## Patrones de implementación
