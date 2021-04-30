@@ -1,51 +1,51 @@
 ---
 title: Modelo de preparación e ingesta de datos
-description: Este modelo muestra todos los métodos mediante los cuales se pueden introducir y preparar datos en Adobe Experience Platform.
+description: Este modelo muestra todos los métodos por los cuales se puede realizar la ingesta y preparación de datos en Adobe Experience Platform.
 solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
 # Modelo de preparación e ingesta de datos
 
-El modelo de preparación e inserción de datos incluye todos los métodos mediante los cuales se pueden preparar e incorporar datos en Adobe Experience Platform.
+El modelo de preparación e ingesta de datos engloba todos los métodos por los cuales se puede realizar la ingesta y preparación de datos en Adobe Experience Platform.
 
-La preparación de datos incluye la asignación de datos de origen al esquema del Experience Data Model (XDM). También incluye la realización de transformaciones en los datos, incluido el formato de fecha, la división/concatenación/conversiones de campos y la unión, combinación y reclaves de registros. La preparación de datos ayuda a unificar los datos de los clientes para proporcionar análisis agregados/filtrados, incluido el sistema de informes o la preparación de datos para el ensamblado de perfiles de clientes, la ciencia de datos o la activación.
+La preparación de datos incluye la asignación de datos de origen al esquema del Experience Data Model (XDM). También incluye realizar transformaciones de datos, como dar formato a las fechas, unir/concatenar/convertir campos o unir/fusionar/reescribir registros. La preparación de datos ayuda a unificar la información del cliente, lo que ofrece un análisis agregado/filtrado, incluyendo la creación de informes o la preparación de datos para el ensamblaje/ciencia de datos/activación de perfiles de los clientes.
 
 ## Arquitectura
 
-<img src="assets/dataingest.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="border:1px solid #4a4a4a" />
+<img src="assets/data_ingestion.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="border:1px solid #4a4a4a" />
 
-## Métodos de inserción de datos
+## Métodos de ingesta de datos
 
 | Métodos de ingesta | Descripción |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK web/móvil | Latencia:<ul><li>Tiempo real: misma colección de páginas para la red perimetral</li><li>Incorporación de flujo a perfil ~1 minuto</li><li>Ingesta de flujo a lago de datos (micro lote ~15 minutos)</ul>Documentación: <ul><li>[SDK web](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[SDK móvil](https://experienceleague.adobe.com/docs/mobile.html?lang=en)</li></ul> |
-| Fuentes de transmisión | Latencia:<ul><li>Tiempo real: misma colección de páginas para la red perimetral</li><li>Incorporación de flujo a perfil ~1 minuto</li><li>Ingesta de flujo a lago de datos (micro lote ~15 minutos)</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors) |
-| API de flujo continuo | Latencia:<ul><li>Tiempo real: misma colección de páginas para la red perimetral</li><li>Incorporación de flujo a perfil ~1 minuto</li><li>Ingesta de flujo a lago de datos (micro lote ~15 minutos)</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F) |
-| Herramientas ETL | Utilice las herramientas de ETL para modificar y transformar los datos empresariales antes de la ingesta en Experience Platform.<br><br>Latencia:<ul><li>El tiempo depende de la programación de herramientas de ETL externas, por lo que se aplican barreras de ingesta estándar en función del método utilizado para la ingesta.</li></ul> |
-| Fuentes por lotes | Recuperación programada de orígenes<br>Latencia: ~ 200 GB/hora<br><br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Tutorials de vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html) |
-| API por lotes | Latencia:<ul><li>Ingesta por lotes al perfil en función del tamaño y las cargas de tráfico ~45 minutos</li><li>Ingesta por lotes al lago de datos en función del tamaño y las cargas de tráfico</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch) |
-| Conectores de aplicaciones de Adobe | Ingesta automática de datos procedentes de aplicaciones de Adobe Experience Cloud<ul><li>Adobe Analytics: [Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) y [Tutorial de vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager: [Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors) y [Tutorial de vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
+| SDK web/móvil | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</ul>Documentación: <ul><li>[SDK web](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[SDK móvil](https://experienceleague.adobe.com/docs/mobile.html?lang=es)</li></ul> |
+| Orígenes de flujo | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors) |
+| API de flujo | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#what-can-you-do-with-streaming-ingestion%3F) |
+| Herramientas ETL | Utiliza herramientas ETL para modificar y transformar datos empresariales antes de su ingesta en Experience Platform.<br><br>Latencia:<ul><li>El tiempo depende de la programación de la herramienta ETL externa. A continuación, se aplican guardas estándar de ingesta según el método de ingesta utilizado.</li></ul> |
+| Orígenes por lote | Extracción programada desde origen<br>Latencia: ~ 200 GB/hora.<br><br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Tutoriales en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=es) |
+| API por lote | Latencia:<ul><li>Ingesta por lotes a perfiles condicionados por tamaño y carga de tráfico ~45 minutos.</li><li>Ingesta por lotes a repositorios de datos condicionados por tamaño y carga de tráfico.</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=es#batch) |
+| Conectores de aplicaciones Adobe | Realizan la ingesta de datos procedentes de las aplicaciones de Adobe Experience Cloud automáticamente.<ul><li>Adobe Analytics: [documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es#connectors) y [tutorial en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=es)</li><li>Audience Manager: [documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es#connectors) y [tutorial en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=es)</li></ul> |
 
 
 ## Métodos de preparación de datos
 
 | Métodos de preparación de datos | Descripción |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Data Science Workspace] : Preparación de datos | Transformación impulsada por el modelo, transformación con secuencias de comandos.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
+| [!UICONTROL Data Science Workspace] : Preparación de datos | Transformación por modelo, transformación por script.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=es) |
 | Herramienta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], etc.) | Realice transformaciones complejas en las herramientas de ETL y utilice API [!UICONTROL Flow Service] o conectores de origen de Experience Platform estándar para introducir los datos resultantes. |
-| [!UICONTROL Servicio]  de consultas - Preparación de datos | Une, divide, combina, transforma, consulta y filtro datos en un nuevo conjunto de datos. Uso de Crear tabla como Seleccionar (CTAS) <br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
-| Funciones XDM Mapper y Preparación de datos (Streaming y Batch) | Asigne atributos de origen en formato CSV o JSON a atributos XDM durante la ingesta del Experience Platform.<br>Compute las funciones de los datos a medida que se incorporan; es decir, formato de datos, división, concatenación, etc.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| [!UICONTROL Servicio]  de consultas - Preparación de datos | Une, divide, combina, transforma, consulta y filtro datos en un nuevo conjunto de datos. Uso de Crear tabla como Seleccionar (CTAS) <br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es#sql) |
+| Funciones XDM Mapper y Preparación de datos (Streaming y Batch) | Asigne atributos de origen en formato CSV o JSON a atributos XDM durante la ingesta del Experience Platform.<br>Computa funciones de datos mientras se realiza la ingesta; esto es, les da formato, los divide, los concatena, etc.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) |
 
-## Publicaciones de blog relacionadas
+## Entradas relacionadas en el blog
 
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
 * [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
