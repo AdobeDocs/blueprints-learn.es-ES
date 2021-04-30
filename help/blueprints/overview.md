@@ -4,7 +4,7 @@ description: Los modelos de experiencia digital son implementaciones repetibles 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 37%
@@ -37,7 +37,7 @@ Los modelos de experiencia digital son implementaciones repetibles que le permit
     <p><em>Déclencheur de mensajes y experiencias utilizando [!UICONTROL Platform] como concentrador central.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagen en miniatura para el modelo de Audience Activation en línea/sin conexión" src="audience-activation/assets/onoff.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagen en miniatura para el modelo de Audience Activation en línea/sin conexión" src="audience-activation/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation en línea / sin conexión</strong></a></div>
     <p><em>Ofrecer publicidad multicanal activada por audiencia.</em></p>
   </td>
