@@ -1,15 +1,15 @@
 ---
 title: Análisis de datos y modelo de inteligencia
-description: Este modelo muestra la capacidad de Adobe Experience Platform para realizar consultas y análisis exploratorios de los datos que existen en el lago de datos.
+description: Este modelo muestra la habilidad de Adobe Experience Platform para realizar consultas y análisis de los datos presentes en el repositorio de datos.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
@@ -25,9 +25,9 @@ Algunas protecciones se aplican para el tiempo de espera de la consulta y para l
 
 ## Casos de uso
 
-* Consulta interactiva y agregación de datos
-* Acceso de fila y columna a datos ingestados para exploración y validación
-* Panorama y visualización de datos mediante herramientas de Business Intelligence
+* Consulta interactiva y adición de datos
+* Acceso por fila y columna a los datos ingeridos para su análisis y validación
+* Creación de paneles y visualización de datos a través de las herramientas de inteligencia empresarial
 
 ## Aplicaciones
 
@@ -35,22 +35,22 @@ Algunas protecciones se aplican para el tiempo de espera de la consulta y para l
 
 ## Arquitectura
 
-<img src="assets/dataexplore.svg" alt="Arquitectura de referencia para el modelo de informes y exploración de datos empresariales" style="border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="Arquitectura de referencia para el modelo de análisis de datos empresariales y creación de informes" style="border:1px solid #4a4a4a" />
 
-## Seguridad
+## Guardas
 
-* Límite de tiempo de 10 minutos para consultas interactivas
-* Límite de 100 registros devuelto en la interfaz de usuario
-* Límite de 50 000 registros devuelto mediante el conector SQL
+* Límite de 10 minutos para consultas interactivas
+* Límite de 100 resultados en la IU
+* Límite de 50 000 resultados mediante el conector SQL
 
-## Pasos de la implementación
+## Pasos de implementación
 
-1. Configure conjuntos de datos y esquemas para la ingesta de datos en el lago de datos.
-1. Ingesta de datos.
+1. Configurar conjuntos de datos y esquemas para la ingesta de datos en el repositorio.
+1. Ingerir datos.
 1. Confirme que los datos están disponibles para [!UICONTROL Query Service] y [!UICONTROL Data Science Workspace] para acceso sin procesar y consulta.
 1. Conecte las herramientas del Business Intelligence y los clientes SQL a [!UICONTROL Query Service] para la visualización, consulta de datos y exploración.
 
 ## Documentación relacionada
 
-* [Descripción del producto de Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL Documentación del ] servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [Descripción del producto Adobe Experience Platform Intelligence](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Documentación de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es)
