@@ -5,7 +5,7 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
+source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 78%
@@ -30,7 +30,7 @@ Personalización basada en el comportamiento en línea y datos de audiencia.
 
 ## Arquitectura
 
-<img src="assets/personalization.svg" alt="Arquitectura de referencia para el modelo de personalización web basada en el comportamiento" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Arquitectura de referencia para el modelo de personalización web basada en el comportamiento" style="border:1px solid #4a4a4a" />
 
 
 ## Guardas
@@ -46,14 +46,11 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 ### 1. SDK web/móvil de plataforma y enfoque perimetral
 
-<img src="assets/websdkflow.svg" alt="Arquitectura de referencia para el enfoque [!UICONTROL Platform Web SDK] o [!UICONTROL Platform Mobile SDK] y [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Arquitectura de referencia para el enfoque [!UICONTROL Platform Web SDK] o [!UICONTROL Platform Mobile SDK] y [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
 ### 2. Enfoque de SDK específico de la aplicación
 
-<img src="assets/appsdkflow.png" alt="Arquitectura de referencia del enfoque con el SDK específico de cada aplicación" style="border:1px solid #4a4a4a" />
-
-
-
+<img src="assets/app_sdk_flow.png" alt="Arquitectura de referencia del enfoque con el SDK específico de cada aplicación" style="border:1px solid #4a4a4a" />
 
 ## Prerrequisitos de implementación
 
