@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 79%
+source-wordcount: '247'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,14 @@ La personalización web y móvil permite utilizar la segmentación de audiencias
 |---|---|---|
 | **[Personalización web/móvil basada en el comportamiento](behavioral.md)** | <ul><li>Personalizar según el comportamiento en línea y los datos de audiencia</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalización móvil/web en línea/sin conexión](online-offline.md)** | <ul><li>Personalizar con atributos y eventos sin conexión (transacciones, reservas, CRM y datos de fidelidad).</li><li>Sincronizar la personalización en el sitio web, el email y otros canales conocidos.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
+
+## Protecciones para la personalización web y móvil
+
+Consulte las protecciones en la sección Audiencia y Planes de Activación de Perfil: [LINK](../audience-activation/overview.md)
+
+### Diagrama de la protección de la personalización en línea/sin conexión
+
+<img src="assets/personalization_guardrails.svg" alt="Arquitectura de referencia para el modelo de personalización web en línea/sin conexión" style="border:1px solid #4a4a4a" />
 
 ## Entradas relacionadas en el blog
 
