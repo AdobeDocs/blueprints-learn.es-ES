@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 74%
+source-wordcount: '506'
+ht-degree: 69%
 
 ---
 
@@ -46,13 +46,14 @@ Consulte las protecciones como se describe en la página Información general so
 
 ## Pasos de implementación
 
-1. Configurar esquemas y conjuntos de datos en Experience Platform.
-1. Configurar las identidades e identidad de áreas de nombres correctas en el esquema para asegurar que los datos ingeridos se puedan combinar en un perfil unificado.
-1. Activar el esquema y los conjuntos de datos del perfil.
-1. Ingerir datos en Platform.
-1. Aprovisionar el uso compartido de segmentos [!UICONTROL Plataforma de datos del cliente en tiempo real] entre el Experience Platform y el Audience Manager para que las audiencias definidas en el Experience Platform se compartan con el Audience Manager.
-1. Generar segmentos en Experience Platform para que se evalúen por lotes o flujo. El sistema determina automáticamente si el segmento debe ser evaluado por lotes o flujo.
-1. Configurar destinos para compartir atributos de perfil y pertenencias a audiencia a los destinos deseados.
+1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para introducir los datos.
+1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos para incorporar los datos.
+1. [Configurar las identidades e identidad de áreas de nombres correctas en el esquema para asegurar que los datos ingeridos se puedan combinar en un perfil unificado.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
+1. [Activar el esquema y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Ingerir datos en Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Disponer el intercambio de segmentos de Real-time Customer Data Platform entre Experience Platform y Audience Manager para que las audiencias definidas en Experience Platform se compartan con Audience Manager.](https://www.adobe.com/go/audiences)
+1. [Cree segmentos en el Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es) para evaluarlos en lote o flujo continuo. El sistema determina automáticamente si el segmento debe ser evaluado por lotes o flujo.
+1. [Configurar destinos para compartir atributos de perfil y pertenencias a audiencia a los destinos deseados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
 
 ## Consideraciones sobre la implementación
 
@@ -71,4 +72,4 @@ Consulte las protecciones como se describe en la página Información general so
 
 * [Información general de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
 * [[!UICONTROL Versión de prueba de Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=es)
-* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es)
+* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
