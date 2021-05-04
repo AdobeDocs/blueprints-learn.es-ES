@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '609'
 ht-degree: 98%
 
 ---
@@ -33,13 +33,6 @@ Analice el comportamiento del cliente en el escritorio y en el móvil antes de q
 ## Arquitectura
 
 <img src="assets/CJA.svg" alt="Arquitectura de referencia para el modelo de Customer Journey Analytics" style="border:1px solid #4a4a4a" />
-
-## Guardas
-
-Ingesta de datos en Customer Journey Analytics:
-
-* Ingesta de datos al repositorio: API ~7 GB/hora, conector fuente ~200 GB/hora, flujo al repositorio ~15 minutos, conector de origen de Analytics al repositorio ~45 minutos.
-* Tras la publicación de los datos en el repositorio, pueden pasar hasta 90 minutos para que se procesen en Customer Journey Analytics.
 
 ## Pasos de implementación
 
