@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 84%
+source-wordcount: '250'
+ht-degree: 79%
 
 ---
 
@@ -29,6 +29,13 @@ Los análisis más comunes incluyen:
 |---|---|---|
 | **[Análisis de Recorridos en todos los canales](digital-behavioral-data-consolidation.md)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales, unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
 | **[Análisis del Recorrido de la deformación de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+
+## Protecciones para modelos de Customer Journey Analytics
+
+### Diagrama de seguridad
+
+<img src="assets/cja_guardrails.svg" alt="Diagrama de seguridad para los modelos del Customer Journey Analytics" style="border:1px solid #4a4a4a" />
+
 
 ## Entradas relacionadas en el blog
 
