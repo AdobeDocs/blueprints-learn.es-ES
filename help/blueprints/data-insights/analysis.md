@@ -6,10 +6,10 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 44%
+source-wordcount: '291'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,8 @@ Algunas protecciones se aplican para el tiempo de espera de la consulta y para l
 
 ## Guardas
 
-* Límite de 10 minutos para consultas interactivas
-* Límite de 100 resultados en la IU
-* Límite de 50 000 resultados mediante el conector SQL
+Consulte la documentación del producto del servicio de consulta para obtener más información sobre las prácticas recomendadas y las protecciones.
+[Guía del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
 
 ## Pasos de implementación
 
