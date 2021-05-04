@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '518'
 ht-degree: 98%
 
 ---
@@ -35,13 +35,6 @@ Obtenga una sola vista consolidada con el comportamiento del cliente para todos 
 ## Arquitectura
 
 <img src="assets/CJA.svg" alt="Arquitectura de referencia para el modelo de Customer Journey Analytics" style="border:1px solid #4a4a4a" />
-
-## Guardas
-
-Ingesta de datos en Customer Journey Analytics:
-
-* Ingesta de datos al repositorio: API ~7 GB/hora, conector fuente ~200 GB/hora, flujo a repositorio ~15 minutos, conector fuente de Adobe Analytics al repositorio ~45 minutos.
-* Tras la publicación de los datos en el repositorio, pueden pasar hasta 90 minutos para que se procesen en Customer Journey Analytics.
 
 ## Pasos de implementación
 
