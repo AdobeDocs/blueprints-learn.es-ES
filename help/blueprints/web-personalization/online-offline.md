@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: ed56e79cd45c956cab23c640810dc8e1cc204c16
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 80%
+source-wordcount: '676'
+ht-degree: 77%
 
 ---
 
@@ -31,11 +31,17 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
 
 ## Arquitectura
 
-<img src="assets/online_offline_personalization.svg" alt="Arquitectura de referencia para el modelo de personalización web en línea/sin conexión" style="border:1px solid #4a4a4a" />
+### Diagrama de la arquitectura de personalización en línea/sin conexión con la plataforma de datos del cliente en tiempo real, Target y el Audience Manager
+
+<img src="assets/online_offline_personalization_with_apps.svg" alt="Arquitectura de referencia para el modelo de personalización web en línea/sin conexión" style="border:1px solid #4a4a4a" />
 
 ## Guardas
 
 Consulte las protecciones en la sección Audiencia y Planes de Activación de Perfil: [LINK](../audience-activation/overview.md)
+
+### Diagrama de la protección de la personalización en línea/sin conexión
+
+<img src="assets/personalization_guardrails.svg" alt="Diagrama de seguridad del modelo de personalización web en línea/sin conexión" style="border:1px solid #4a4a4a" />
 
 ## Patrones de implementación
 
