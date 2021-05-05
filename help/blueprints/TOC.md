@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: ee4e59f014ad73df8e9bceb2a41752b3bc760761
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 78%
+source-wordcount: '123'
+ht-degree: 73%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 78%
    + [Audience Activation anónima](/help/blueprints/audience-activation/anonymous.md)
    + [Audience Activation en línea / sin conexión](/help/blueprints/audience-activation/online-offline.md)
    + [Activación a destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Activación de audiencias y perfiles con aplicaciones de Experience Cloud](/help/blueprints/audience-activation/aep+apps.md)
    + [Centro de actividad del cliente ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
