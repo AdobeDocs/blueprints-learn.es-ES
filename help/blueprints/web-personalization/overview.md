@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 66%
 
 ---
@@ -24,7 +24,7 @@ La personalización web y móvil permite utilizar la segmentación de audiencias
 
 ## Protecciones para la personalización web y móvil
 
-Para obtener información sobre las protecciones relacionadas con la activación de audiencias y perfiles, consulte la sección sobre pautas de activación de audiencias y perfiles: [LINK](../audience-activation/overview.md)
+[Para obtener información sobre las protecciones relacionadas con la activación de audiencias y perfiles, consulte la sección Esquemas de activación de audiencias y perfiles .](../audience-activation/overview.md)
 
 ### Diagrama de la protección de la personalización en línea/sin conexión
 
