@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 98%
+source-wordcount: '638'
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,9 @@ Analice el comportamiento del cliente en el escritorio y en el móvil antes de q
 
 ## Pasos de implementación
 
-1. Configurar conjunto de datos y esquemas.
-1. Ingerir datos en Platform.
+1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para introducir los datos.
+1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos para incorporar los datos.
+1. [Ingerir datos en Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 Los datos se deben ingerir en Platform antes de que se procesen en Customer Journey Analytics.
 1. Analizar los conjuntos de datos de eventos multicanal.
 Los conjuntos de datos analizados juntos deben tener un ID de área de nombres común o ser renombrados a través de la capacidad de combinación basada en campos o Customer Journey Analytics. 
