@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 42%
+source-wordcount: '411'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,7 @@ Comparta los cambios y eventos de perfil y audiencia en streaming o por lotes de
 
 ## Guardas
 
-Consulte las protecciones como se describe en la página Información general sobre la activación de perfiles y audiencias: [LINK](overview.md)
+[Consulte las protecciones tal como se describe en la página Información general sobre la activación de perfiles y audiencias .](overview.md)
 
 ## Pasos de implementación
 
