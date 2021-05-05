@@ -1,18 +1,18 @@
 ---
-title: Activación de audiencias y perfiles con aplicaciones de Experience Cloud
-description: Activación de audiencias y perfiles con aplicaciones de Experience Cloud
+title: Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud
+description: Administre perfiles y audiencias en Experience Platform y compártalos con aplicaciones Experience Cloud.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '289'
+ht-degree: 33%
 
 ---
 
-# Activación de audiencias y perfiles con aplicaciones de Experience Cloud
+# Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud
 
 Administre perfiles y audiencias en Experience Platform y compártalos con aplicaciones Experience Cloud. Cree y comparta segmentos y perspectivas de clientes enriquecidos en Experience Platform y compártalos con aplicaciones Experience Cloud.
 
@@ -36,16 +36,15 @@ La activación con aplicaciones Experience Cloud se alinea estrechamente con el 
 
 ## Arquitectura
 
-[Consulte la Sección Arquitectura de Experience Platform y Aplicaciones para obtener diagramas de arquitectura adicionales relacionados con integraciones de Experience Platform con aplicaciones Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
-
 ### Activación de audiencias y perfiles con aplicaciones de Experience Cloud
 
 <img src="assets/activation+apps.svg" alt="Arquitectura de referencia para la activación de audiencias y perfiles con aplicaciones Experience Cloud" style="border:1px solid #4a4a4a" />
-<br>
+
+Consulte el [Diagrama de Adobe Experience Platform y aplicaciones](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) para ver un diagrama de arquitectura adicional relacionado con Experience Platform y sus integraciones con aplicaciones Experience Cloud.
 
 ## Guardas
 
-[Consulte las protecciones tal como se describe en la página Información general sobre la activación de perfiles y audiencias](overview.md)
+Consulte las [protecciones en la página Información general sobre la activación de perfiles y audiencias](overview.md)
 
 ## Documentación relacionada
 
