@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 69%
+source-wordcount: '543'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 69%
 Emplee atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.
 
 Active audiencias de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad.
+
+El modelo de Audience Activation en línea/sin conexión se alinea estrechamente con el modelo [Audiencia y Activación de perfil con aplicaciones de Experience Cloud](platform-and-applications.md). Se proporcionan detalles adicionales en [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md)   específico para integraciones entre aplicaciones de Experience Platform y de Experience Cloud.
 
 ## Casos de uso
 
@@ -42,7 +44,7 @@ Active audiencias de destinos conocidos basados en perfiles, tales como proveedo
 
 ## Guardas
 
-Consulte las protecciones como se describe en la página Información general sobre la activación de perfiles y audiencias: [LINK](overview.md)
+[Consulte las protecciones tal como se describe en la página Información general sobre la activación de perfiles y audiencias .](overview.md)
 
 ## Pasos de implementación
 
