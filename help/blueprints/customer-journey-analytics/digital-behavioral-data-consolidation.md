@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 92%
 
 ---
@@ -40,7 +40,8 @@ Obtenga una sola vista consolidada con el comportamiento del cliente para todos 
 
 1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para introducir los datos.
 1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos para incorporar los datos.
-1. [Ingerir datos en Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Ingerir datos a Experience Platform.
+](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Los datos deben enviarse a Platform antes de que se procesen en Customer Journey Analytics.
 1. Analizar conjuntos de datos de eventos multicanal para que se estudien juntos, asegurando que tengan el mismo ID de área de nombres o se reescriban a través de la capacidad de combinación basada en campos de Customer Journey Analytics. 
 
