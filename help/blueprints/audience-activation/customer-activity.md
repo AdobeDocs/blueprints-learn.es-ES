@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 72%
+source-wordcount: '384'
+ht-degree: 73%
 
 ---
 
@@ -39,16 +39,11 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 ## Pasos de implementación
 
-1. Configurar conjunto de datos y esquemas.
-1. Configurar [!UICONTROL Perfil del cliente en tiempo real]: configure el esquema y el conjunto de datos para [!UICONTROL Perfil del cliente en tiempo real] y una política de combinación y las identidades.
-1. Realizar la ingesta de datos en Platform y procesarla en [!UICONTROL Real-time Customer Profile].
-
-
 1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para introducir los datos.
 1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos para incorporar los datos.
 1. [Configurar las identidades e identidad de áreas de nombres correctas en el esquema para asegurar que los datos ingeridos se puedan combinar en un perfil unificado.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
-1. [Activar el esquema y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
-1. [Ingerir datos en Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Habilite los esquemas y conjuntos de datos para el perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Ingerir datos a Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. [Configurar directivas de combinación](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)
 1. Utilice la API [Entities para buscar un atributo de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html), ya sea de la entidad de registro o de la entidad de evento de experiencia.
 
