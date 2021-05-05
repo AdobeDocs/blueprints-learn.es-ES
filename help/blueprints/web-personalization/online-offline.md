@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '648'
 ht-degree: 80%
 
 ---
@@ -35,8 +35,7 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
 
 ## Guardas
 
-Consulte las protecciones de la página Información general sobre los modelos de personalización móvil y web .
-[VÍNCULO](overview.md)
+[Consulte las protecciones de la página Información general sobre los modelos de personalización móvil y web .](overview.md)
 
 ## Patrones de implementación
 
