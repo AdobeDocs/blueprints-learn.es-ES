@@ -1,6 +1,6 @@
 ---
 title: Modelo de recopilación de datos empresariales del lado del servidor
-description: Flujo de datos recolectados con los SDK de Experience Platform hacia destinos
+description: Transmita datos recogidos con los SDK de Experience Platform hacia destinos
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 # Modelo de recopilación de datos empresariales del lado del servidor
 
-El modelo de recopilación de datos empresariales del lado del servidor muestra cómo los datos recopilados con los SDK móvil y web de Adobe Experience Platform pueden ser redireccionados desde Experience Platform Edge Network a un destino elegido. Es posible dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en Experience Platform Launch.
+El modelo de recopilación de datos empresariales del lado del servidor muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Es posible dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en Experience Platform Launch.
 
 ## Casos de uso
 
@@ -27,7 +27,7 @@ El modelo de recopilación de datos empresariales del lado del servidor muestra 
 
 ## Arquitectura
 
-<img src="assets/enterprise_collection.svg" alt="Arquitectura de referencia para la recopilación de datos empresarial" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Arquitectura de referencia para la recopilación de datos empresariales" style="border:1px solid #4a4a4a" />
 
 ## Documentación relacionada
 
