@@ -1,5 +1,5 @@
 ---
-title: Análisis de datos y modelo de inteligencia
+title: Modelo de análisis de datos e inteligencia
 description: Este modelo muestra la habilidad de Adobe Experience Platform para realizar consultas y análisis de los datos presentes en el repositorio de datos.
 solution: Experience Platform
 kt: 7207
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 31%
+ht-degree: 85%
 
 ---
 
-# Análisis de datos y modelo de inteligencia
+# Modelo de análisis de datos e inteligencia
 
-El análisis de datos y la inteligencia comprenden la capacidad de Adobe Experience Platform para realizar consultas y análisis exploratorios de los datos que existen en el lago de datos.
+El análisis de datos e inteligencia componen la habilidad de Adobe Experience Platform para realizar consultas y análisis de los datos presentes en el repositorio de datos.
 
-El [!UICONTROL servicio de consulta] del Experience Platform permite realizar consultas SQL en los datos. [!UICONTROL El espacio de ] trabajo de la ciencia de datos permite que la exploración de datos, la ciencia de datos y las cargas de trabajo del aprendizaje automático se realicen en los datos.
+[!UICONTROL Query Service] de Experience Platform permite realizar consultas SQL sobre los datos. [!UICONTROL Data Science Workspace] permite que las tareas de análisis y ciencia de datos, y también el aprendizaje automático, se realicen sobre los datos.
 
-Además, el Experience Platform permite que las conexiones con clientes SQL de terceros, interfaces y herramientas de Business Intelligence (BI) se conecten directamente a los datos en el Experience Platform, accedan a ellos y realicen consultas con ellos mediante el protocolo [!DNL PostgreSQL].
+Además, Experience Platform puede conectarse con clientes SQL de terceros, interfaces y herramientas de inteligencia empresarial para comunicar y consultar directamente los datos contenidos en Experience Platform, así como acceder a ellos, utilizando el protocolo [!DNL PostgreSQL].
 
-Algunas protecciones se aplican para el tiempo de espera de la consulta y para la cantidad de datos que se incluye en el resultado de la consulta, como se indica en los detalles del modelo.
+Se aplican ciertos guardas por extinción de tiempo de consulta y por la cantidad de datos que se incluyen en los resultados, tal como se describe en la información del modelo.
 
 ## Casos de uso
 
@@ -44,13 +44,13 @@ Consulte la documentación del producto del servicio de consulta para obtener m�
 
 ## Pasos de implementación
 
-1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para introducir los datos.
-1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos para incorporar los datos.
-1. [Ingerir datos a Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. Confirme que los datos están disponibles para [!UICONTROL Query Service] y [!UICONTROL Data Science Workspace] para acceso sin procesar y consulta.
-1. Conecte las herramientas del Business Intelligence y los clientes SQL a [!UICONTROL Query Service] para la visualización, consulta de datos y exploración.
+1. [Crear esquemas para la ingesta de datos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Crear conjuntos de datos para la ingesta de datos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
+1. [Ingesta de datos a Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. Confirmar que [!UICONTROL Query Service] y [!UICONTROL Data Science Workspace] puedan acceder y consultar datos brutos.
+1. Conectar herramientas de inteligencia empresarial y clientes SQL a [!UICONTROL Query Service] para la posterior visualización, consulta y análisis de datos.
 
 ## Documentación relacionada
 
-* [Descripción del producto Adobe Experience Platform Intelligence](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentación de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es)
+* [Descripción del producto de inteligencia Adobe Experience Platform](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* Documentación de [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es)
