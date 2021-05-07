@@ -1,23 +1,23 @@
 ---
-title: Recopilación y preparación de datos
+title: Preparación y recopilación de datos
 description: Este modelo muestra todos los métodos por los cuales se puede realizar la ingesta y preparación de datos en Adobe Experience Platform.
 solution: Experience Platform, Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
-# Recopilación y preparación de datos
+# Preparación y recopilación de datos
 
-La recopilación y preparación de datos abarca todos los métodos mediante los cuales se pueden preparar e introducir datos en Adobe Experience Platform. Además de la capacidad de recopilar datos a la red perimetral de Adobe Experience Platform y el reenvío subsiguiente de datos mediante reenvío lateral a destinos empresariales.
+El modelo de preparación y recopilación de datos engloba todos los métodos por los cuales se puede realizar la ingesta y preparación de datos en Adobe Experience Platform. Además de la capacidad de recopilar datos en Edge Network de Adobe Experience Platform y el subsiguiente reenvío de datos mediante seguimiento a destinos empresariales.
 
-La preparación de datos incluye la asignación de datos de origen al esquema del Experience Data Model (XDM). También incluye realizar transformaciones de datos, como dar formato a las fechas, unir/concatenar/convertir campos o unir/fusionar/reescribir registros. La preparación de datos ayuda a unificar la información del cliente, lo que ofrece un análisis agregado/filtrado, incluyendo la creación de informes o la preparación de datos para el ensamblaje/ciencia de datos/activación de perfiles de los clientes.
+La preparación de datos incluye mapear los datos de origen en el esquema del Modelo de datos de experiencia (XDM). También incluye realizar transformaciones de datos, como dar formato a las fechas, unir/concatenar/convertir campos o unir/fusionar/reescribir registros. La preparación de datos ayuda a unificar la información del cliente, lo que ofrece un análisis agregado/filtrado, incluyendo la creación de informes o la preparación de datos para el ensamblaje/ciencia de datos/activación de perfiles de los clientes.
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
