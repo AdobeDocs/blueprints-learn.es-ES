@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics
-description: Unificar y analizar datos y comportamiento de los clientes a través de su recorrido​
+description: Unifique y analice datos y comportamiento de los clientes en todo su recorrido
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
@@ -9,15 +9,15 @@ translation-type: tm+mt
 source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
 # Customer Journey Analytics
 
-El Customer Journey Analytics muestra cómo las marcas pueden unificar los datos y el comportamiento de los clientes desde varios canales y fuentes de interacción para crear una vista basada en recorridos de todas las interacciones con los clientes. La creación de informes y el análisis se pueden realizar en el servicio de la aplicación Customer Journey Analytics para evaluar y obtener datos sobre la interacción del cliente y sus patrones de comportamiento.
+Customer Journey Analytics muestra cómo las marcas pueden unificar datos y comportamientos del cliente de varios canales y fuentes de interacción para crear una vista basada en el recorrido de todas las interacciones del cliente. La creación de informes y el análisis se pueden realizar en el servicio de la aplicación Customer Journey Analytics para evaluar y obtener datos sobre la interacción del cliente y sus patrones de comportamiento.
 
-Los análisis más comunes incluyen:
+Los análisis más comunes incluyen lo siguiente:
 
 * Rutas de conversión arriba/abajo
 * Contenido más visto
@@ -27,8 +27,8 @@ Los análisis más comunes incluyen:
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **[Análisis de Recorridos en todos los canales](digital-behavioral-data-consolidation.md)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales, unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
-| **[Análisis del Recorrido de la deformación de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Análisis de recorridos multicanal](digital-behavioral-data-consolidation.md)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales, unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+| **[Análisis del recorrido de desvío de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Protecciones para modelos de Customer Journey Analytics
 
