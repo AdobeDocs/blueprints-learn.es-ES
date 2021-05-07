@@ -1,6 +1,6 @@
 ---
-title: Mensajería activada y modelo de Adobe Experience Platform
-description: Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
+title: Modelo de mensajería activada y Adobe Experience Platform
+description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
@@ -8,20 +8,20 @@ translation-type: tm+mt
 source-git-commit: 01f70fe432d7be38b71889ae19c0d5fe4cf0f78a
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 69%
+ht-degree: 82%
 
 ---
 
-# Mensajería activada y modelo de Adobe Experience Platform
+# Modelo de mensajería activada y Adobe Experience Platform
 
-Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
+Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 
 ## Casos de uso
 
-* Mensajes activados
+* Mensajería activada
 * Confirmaciones de registro
 * Abandonos del carro de compras y formulario de solicitud
-* Mensajes activados por localización
+* Mensajería activada por localización
 
 ## Arquitectura
 
@@ -43,7 +43,7 @@ Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform com
 * Consulte el enlace para obtener [más información sobre las limitaciones](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es#starting-with-journeys)
 * Es posible configurar la limitación a través de la API para asegurar que el sistema de destino no se sature hasta el punto que dé errores. Limitar significa que los mensajes que excedan el tope se descartarán completamente y no se enviarán jamás. Las restricciones no son compatibles aún.
    * max connections: número máximo de conexiones que admite el destino.
-   * max call count: número máximo de llamadas que realizar en el parámetro periodInMs.
+   * max call count: número máximo de llamadas a realizar en el parámetro periodInMs.
    * periodInMs: tiempo en milisegundos.
 * Los recorridos iniciados por pertenencia a segmentos pueden funcionar de dos modos:
    * Segmentos por lotes (actualizados cada 24 horas)
@@ -69,7 +69,7 @@ Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform com
 #### Esquemas/conjuntos de datos
 
 1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple según los datos ofrecidos por los clientes en Experience Platform.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. Cree esquemas de Adobe Campaign para broadLog, trackingLog, direcciones no entregables y preferencias de perfil (opcional).
+1. Crear esquemas de Adobe Campaign para: broadLog, trackingLog, direcciones no entregables y preferencias de perfil (opcional).
 1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos en el Experience Platform para que se incorporen los datos.
 1. [Agregue ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) etiquetas de uso de datos en el Experience Platform al conjunto de datos para su administración.
 1. [Crear políticas que refuercen la gobernanza en los destinos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
@@ -80,7 +80,7 @@ Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform com
 1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Habilite los esquemas y conjuntos de datos para Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [Configure ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) directivas de combinación para diferentes vistas del Perfil del cliente en tiempo  [!UICONTROL real]  (opcional).
-1. Cree segmentos para el uso de Adobe Campaign.
+1. Crear segmentos para el uso en Adobe Campaign.
 
 #### Origen/destino
 
@@ -88,7 +88,7 @@ Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform com
 
 #### Implementación de aplicaciones móviles
 
-1. Implemente el SDK de Adobe Campaign para Adobe Campaign Classic o el SDK de Experience Platform para Adobe Campaign Standard. Si el Experience Platform Launch está presente, se recomienda utilizar la extensión de Adobe Campaign Classic o Adobe Campaign Standard con el SDK de Experience Platform.
+1. Implementar el SDK de Adobe Campaign de Adobe Campaign Classic o el SDK Experience Platform de Adobe Campaign Standard. En el caso de contar con Experience Platform Launch, recomendamos utilizar la extensión de Adobe Campaign Classic o Adobe Campaign Standard con el SDK de Experience Platform.
 
 
 ### Journey Orchestration
@@ -110,4 +110,4 @@ Ejecute mensajes y experiencias desencadenadas con Adobe Experience Platform com
 * [Documentación de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=es)
 * [Documentación de Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=es)
 * [Documentación de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=es)
-* [Documentación del SDK móvil de Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
+* [Documentación del SDK Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
