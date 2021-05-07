@@ -1,5 +1,5 @@
 ---
-title: Modelo de personalización web basada en el comportamiento
+title: Modelo de personalización web basada en comportamiento
 description: Personalización basada en el comportamiento en línea y datos de audiencia.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Modelo de personalización móvil/web basada en el comportamiento
+# Modelo de personalización web/móvil basada en comportamiento
 
 Personalización basada en el comportamiento en línea y datos de audiencia.
 
@@ -30,7 +30,7 @@ Personalización basada en el comportamiento en línea y datos de audiencia.
 
 ## Arquitectura
 
-<img src="assets/behavioral_personalization.svg" alt="Arquitectura de referencia para el modelo de personalización web basada en el comportamiento" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Arquitectura de referencia del modelo de personalización web basada en comportamiento" style="border:1px solid #4a4a4a" />
 
 
 ## Guardas
@@ -41,14 +41,14 @@ Por defecto, el servicio para compartir segmentos permite que se intercambie un 
 
 El modelo de personalización web/móvil se puede implementar mediante los siguientes enfoques, tal como se describe a continuación.
 
-1. Uso del [!UICONTROL Platform Web SDK] o [!UICONTROL Platform Mobile SDK] y [!UICONTROL Edge Network].
-1. Uso de SDK tradicionales específicos de la aplicación (por ejemplo, AppMeasurement.js)
+1. Con el [!UICONTROL SDK Platform Web] o [!UICONTROL SDK Platform Mobile] y [!UICONTROL Edge Network].
+1. Con SDK tradicionales específicos de cada aplicación (por ejemplo, AppMeasurement.js)
 
-### 1. SDK web/móvil de plataforma y enfoque perimetral
+### 1. Enfoque con el SDK Platform Web/Mobile y Edge
 
 <img src="assets/web_sdk_flow.svg" alt="Arquitectura de referencia para el enfoque [!UICONTROL Platform Web SDK] o [!UICONTROL Platform Mobile SDK] y [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
-### 2. Enfoque de SDK específico de la aplicación
+### 2. Enfoque con el SDK específico de cada aplicación
 
 <img src="assets/app_sdk_flow.png" alt="Arquitectura de referencia del enfoque con el SDK específico de cada aplicación" style="border:1px solid #4a4a4a" />
 
@@ -56,22 +56,22 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 | Aplicación/servicio | Biblioteca requerida | Notas |
 |---|---|---|
-| Adobe Target | [!UICONTROL SDK] web de plataforma*, at.js 0.9.1+ o mbox.js 61+ | Se recomienda at.js debido a que mbox.js ya no se desarrolla. |
-| Adobe Audience Manager (opcional) | [!UICONTROL SDK] web de plataforma* o dil.js 5.0+ |  |
-| Adobe Analytics (opcional) | [!UICONTROL SDK] web de plataforma* o AppMeasurement.js 1.6.4+ |  |
-| Servicio de identidad de Experience Cloud | [!UICONTROL SDK] web de plataforma* o VisitorAPI.js 2.0+ |  |
-| SDK móvil de Experience Platform (opcional) | 4.11 o superior para iOS y Android™ |  |
-| SDK web de Experience Platform | 1.0, la versión actual del SDK de Experience Platform cuenta con [varios casos de uso sin compatibilidad con las aplicaciones de Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
+| Adobe Target | [!UICONTROL SDK Platform Web]*, at.js 0.9.1+ o mbox.js 61+ | Se recomienda at.js debido a que mbox.js ya no se desarrolla. |
+| Adobe Audience Manager (opcional) | [!UICONTROL SDK Platform Web]* o dil.js 5.0+ |  |
+| Adobe Analytics (opcional) | [!UICONTROL SDK Platform Web]* o AppMeasurement.js 1.6.4+ |  |
+| Servicio de identidad de Experience Cloud | [!UICONTROL SDK Platform Web]* o VisitorAPI.js 2.0+ |  |
+| SDK Experience Platform Mobile (opcional) | 4.11 o superior para iOS y Android™ |  |
+| SDK Experience Platform Web | 1.0, la versión actual del SDK Experience Platform, cuenta con [varios casos de uso sin compatibilidad con las aplicaciones de Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
 ## Pasos de implementación
 
 1. [Implementar Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=es) para las aplicaciones móviles o web.
 
-   Si utiliza Audience Manager o Adobe Analytics:
+   Si se utiliza Audience Manager o Adobe Analytics:
 
 1. [Implementar Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
 1. [Implementar Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=es).
-1. [Implementar Servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=es).
+1. [Implementar el Servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=es).
 
    >[!NOTE]
    >
@@ -83,9 +83,9 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 ## Documentación relacionada
 
-* [Audiences de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
+* [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 * [Integrar Audience Manager con Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
-* [Uso compartido de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Entradas relacionadas en el blog
