@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 El modelo de preparación e ingesta de datos engloba todos los métodos por los cuales se puede realizar la ingesta y preparación de datos en Adobe Experience Platform.
 
-La preparación de datos incluye la asignación de datos de origen al esquema del Experience Data Model (XDM). También incluye realizar transformaciones de datos, como dar formato a las fechas, unir/concatenar/convertir campos o unir/fusionar/reescribir registros. La preparación de datos ayuda a unificar la información del cliente, lo que ofrece un análisis agregado/filtrado, incluyendo la creación de informes o la preparación de datos para el ensamblaje/ciencia de datos/activación de perfiles de los clientes.
+La preparación de datos incluye mapear los datos de origen en el esquema del Modelo de datos de experiencia (XDM). También incluye realizar transformaciones de datos, como dar formato a las fechas, unir/concatenar/convertir campos o unir/fusionar/reescribir registros. La preparación de datos ayuda a unificar la información del cliente, lo que ofrece un análisis agregado/filtrado, incluyendo la creación de informes o la preparación de datos para el ensamblaje/ciencia de datos/activación de perfiles de los clientes.
 
 ## Arquitectura
 
@@ -27,7 +27,7 @@ La preparación de datos incluye la asignación de datos de origen al esquema de
 
 | Métodos de ingesta | Descripción |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK web/móvil | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</ul>Documentación: <ul><li>[SDK web](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[SDK móvil](https://experienceleague.adobe.com/docs/mobile.html?lang=es)</li></ul> |
+| SDK Web/Mobile | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</ul>Documentación: <ul><li>[SDK Web](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[SDK Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es)</li></ul> |
 | Orígenes de flujo | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors) |
 | API de flujo | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#what-can-you-do-with-streaming-ingestion%3F) |
 | Herramientas ETL | Utiliza herramientas ETL para modificar y transformar datos empresariales antes de su ingesta en Experience Platform.<br><br>Latencia:<ul><li>El tiempo depende de la programación de la herramienta ETL externa. A continuación, se aplican guardas estándar de ingesta según el método de ingesta utilizado.</li></ul> |
@@ -40,10 +40,10 @@ La preparación de datos incluye la asignación de datos de origen al esquema de
 
 | Métodos de preparación de datos | Descripción |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Data Science Workspace] : Preparación de datos | Transformación por modelo, transformación por script.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=es) |
-| Herramienta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], etc.) | Realice transformaciones complejas en las herramientas de ETL y utilice API [!UICONTROL Flow Service] o conectores de origen de Experience Platform estándar para introducir los datos resultantes. |
-| [!UICONTROL Servicio]  de consultas - Preparación de datos | Une, divide, combina, transforma, consulta y filtro datos en un nuevo conjunto de datos. Uso de Crear tabla como Seleccionar (CTAS) <br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es#sql) |
-| Funciones XDM Mapper y Preparación de datos (Streaming y Batch) | Asigne atributos de origen en formato CSV o JSON a atributos XDM durante la ingesta del Experience Platform.<br>Computa funciones de datos mientras se realiza la ingesta; esto es, les da formato, los divide, los concatena, etc.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) |
+| [!UICONTROL Data Science Workspace]: preparación de datos | Transformación por modelo, transformación por script.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=es) |
+| Herramienta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], etc.) | Realizar transformaciones complejas en herramientas ETL y utilizar las API o los conectores de origen estándar de [!UICONTROL Flow Service] de Experience Platform para la ingesta de datos resultantes. |
+| [!UICONTROL Query Service]: preparación de datos | Une, divide, fusiona, transforma, consulta y filtra datos en un nuevo conjunto de datos. <br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es#sql) sobre el uso de Create Table as Select (CTAS) |
+| Funciones del mapeador XDM y preparación de datos (flujo y lotes) | Mapear atributos de origen en formato CSV o JSON en atributos XDM durante la ingesta de Experience Platform.<br>Computa funciones de datos mientras se realiza la ingesta; esto es, les da formato, los divide, los concatena, etc.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) |
 
 ## Entradas relacionadas en el blog
 
