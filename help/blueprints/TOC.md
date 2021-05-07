@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 75%
+ht-degree: 95%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 75%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Activación de audiencias y perfiles{#audience-activation}
++ Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Audience Activation anónima](/help/blueprints/audience-activation/anonymous.md)
-   + [Audience Activation en línea / sin conexión](/help/blueprints/audience-activation/online-offline.md)
+   + [Activación de audiencia anónima](/help/blueprints/audience-activation/anonymous.md)
+   + [Activación de audiencia en línea / sin conexión](/help/blueprints/audience-activation/online-offline.md)
    + [Activación a destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activación con aplicaciones Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [Centro de actividad del cliente ](/help/blueprints/audience-activation/customer-activity.md)
+   + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
-   + [Análisis de Recorridos en todos los canales](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+   + [Análisis de recorridos multicanal](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Desvío de llamada](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Recopilación y preparación de datos{#data-ingestion}
++ Preparación y recopilación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
-   + [Preparación e ingesta de datos ](/help/blueprints/data-ingestion/ingestion.md)
-   + [Recopilación de datos empresariales del lado del servidor ](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Análisis de datos, inteligencia e IA/ML{#data-exploration}
+   + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
+   + [Recopilación de datos empresariales del lado del servidor](/help/blueprints/data-ingestion/server-side-collection.md)
++ Análisis de datos, inteligencia e IA/ML (aprendizaje automático) {#data-exploration}
    + [Información general](/help/blueprints/data-insights/overview.md)
    + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
-   + [Ciencia de datos personalizada para el enriquecimiento de perfiles ](/help/blueprints/data-insights/data-science.md)
+   + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
 + Organización de mensajes multicanal {#multi-channel-message-orchestration}
    + [Información general](/help/blueprints/multi-channel-message-orchestration/overview.md)
    + [Mensajería por lotes y Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
