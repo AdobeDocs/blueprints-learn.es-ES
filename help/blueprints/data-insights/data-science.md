@@ -8,19 +8,19 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 63%
+ht-degree: 95%
 
 ---
 
 # Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
 
-La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles ilustra cómo se pueden usar los datos de Adobe Experience Platform en [!UICONTROL Data Science Workspace] para entrenar, implementar y puntuar modelos que proporcionen perspectivas de aprendizaje automático. Estos modelos pueden generar directamente un conjunto de datos habilitado para [!UICONTROL Perfil del cliente en tiempo real] para enriquecer aún más los perfiles del cliente. Estas perspectivas se pueden activar para personalizar. Algunos ejemplos de perspectivas de aprendizaje automático son la puntuación de valor de duración, la afinidad de productos y categorías, la propensión a convertir o la propensión a producir.
+El modelo de ciencia de datos personalizada para el enriquecimiento de perfiles muestra cómo se pueden usar los datos de Adobe Experience Platform en [!UICONTROL Data Science Workspace] para entrenar, implementar y calificar modelos que proporcionen datos de aprendizaje automático. Estos modelos pueden generar directamente un conjunto de datos habilitado para [!UICONTROL Real-time Customer Profile], con el fin de enriquecer aún más los perfiles del cliente. Estos datos se pueden activar para la personalización. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
 
 ## Casos de uso
 
 * Extraer datos y descubrir patrones con los datos del cliente de Experience Platform. Entrenar y calificar modelos según esos datos.
-* Enriquezca el [!UICONTROL Perfil del cliente en tiempo real] con perspectivas y atributos basados en modelos para una personalización más granular y recorridos optimizados.
-* Entrenar y calificar modelos para determinar datos del cliente tales como el valor de tiempo de vida del cliente, la tendencia a la conversión o cancelación, la afinidad de contenido y producto, y la puntuación de participación.
+* Enriquecer [!UICONTROL Real-time Customer Profile] con datos y atributos según modelo para una personalización más granular y una optimización mejorada de recorrido.
+* Entrenar y calificar modelos para determinar datos del cliente tales como el valor de tiempo de vida del cliente, la tendencia a la conversión o cancelación, la afinidad de contenido y producto, y la calificación de participación.
 
 ## Arquitectura
 
@@ -28,21 +28,21 @@ La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles 
 
 ## Pasos de implementación
 
-1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para introducir los datos.
-1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos para incorporar los datos.
-1. [Ingerir datos a Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+1. [Crear esquemas para la ingesta de datos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Crear conjuntos de datos para la ingesta de datos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
+1. [Ingesta de datos a Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. Crear un cuaderno de notas de DSW.
 1. Elegir un idioma. Compatible con Python y PySpark.
 1. Crear un modelo en el cuaderno de notas.
 1. Entrenar el modelo.
 1. Calificar el modelo para que genere predicciones con los datos de destino.
-1. Habilite el conjunto de datos de resultados del modelo para el perfil, si inserta los resultados del modelo en el [!UICONTROL Perfil del cliente en tiempo real].
+1. Activar el conjunto de datos de resultados del modelo del perfil si envía los resultados del modelo a [!UICONTROL Real-time Customer Profile].
 
 ## Documentación relacionada
 
-* [Descripción del producto Adobe Experience Platform Intelligence](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentación de Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=es)
-* [Tutoriales de Data Science Workspace](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=es)
+* [Descripción del producto de inteligencia Adobe Experience Platform](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* Documentación de [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=es)
+* Tutoriales de [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=es)
 
 ## Entradas relacionadas en el blog
 
