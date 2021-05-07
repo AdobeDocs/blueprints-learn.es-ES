@@ -1,6 +1,6 @@
 ---
-title: Modelo de análisis de deformación de llamadas
-description: Analice el comportamiento del cliente antes de que contacte con el centro de llamadas.
+title: Modelo de análisis del desvío de llamadas
+description: Analice el comportamiento de los clientes antes de que contacten con el centro de llamadas.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
-# Modelo de análisis del Recorrido de deformación de llamadas
+# Modelo de análisis del recorrido de desvío de llamadas
 
-Analice el comportamiento del cliente en el escritorio y en el móvil antes de que contacte con el centro de llamadas. Identifique oportunidades de mejora en el recorrido del cliente entendiendo qué acciones intenta concluir, qué contenido quiere ver y qué términos busca antes de contactar con Atención al cliente. Determine el contenido y las herramientas de autoservicio que se pueden mejorar para ayudar al cliente a resolver sus incidencias sin necesidad de contactarnos.
+Analice el comportamiento de los clientes en el ordenador y en el móvil antes de que ellos contacten con el centro de llamadas. Identifique oportunidades de mejora en el recorrido del cliente entendiendo qué acciones intenta concluir, qué contenido quiere ver y qué términos busca antes de contactar con Atención al cliente. Determine el contenido y las herramientas de autoservicio que se pueden mejorar para ayudar al cliente a resolver sus incidencias sin necesidad de contactarnos.
 
 ## Casos de uso
 
@@ -36,9 +36,9 @@ Analice el comportamiento del cliente en el escritorio y en el móvil antes de q
 
 ## Pasos de implementación
 
-1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para introducir los datos.
-1. [Cree ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de datos para incorporar los datos.
-1. [Ingerir datos a Experience Platform.
+1. [Crear esquemas para la ingesta de datos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Crear conjuntos de datos para la ingesta de datos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
+1. [Ingesta de datos a Experience Platform.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Los datos se deben ingerir en Platform antes de que se procesen en Customer Journey Analytics.
 1. Analizar los conjuntos de datos de eventos multicanal.
@@ -51,7 +51,7 @@ Los conjuntos de datos analizados juntos deben tener un ID de área de nombres c
 1. Realizar cualquier preparación de datos del cliente o emplear en ellos la combinación de identidades basada en campos para mantener una clave común a través de los conjuntos de datos de series temporales para que se ingieran en Customer Journey Analytics.
 1. Estipular in ID principal para los datos de búsqueda, que puede unirse a un campo en los datos de evento. Cuenta como líneas en la licencia.
 1. Establecer el mismo ID principal a los datos del perfil y a los del evento.
-1. Configurar una conexión de datos para ingerirlos de Experience Platform a Customer Journey Analytics. Cuando los datos llegan al repositorio, se procesan en Customer Journey Analytics en un periodo de 90 minutos.
+1. Configurar una conexión de datos para su ingesta de Experience Platform a Customer Journey Analytics. Cuando los datos llegan al repositorio, se procesan en Customer Journey Analytics en un periodo de 90 minutos.
 1. Configurar una vista de datos de la conexión para seleccionar las dimensiones y métricas específicas que se incluirán en la vista. La configuración de atribución y asignación también se configura en la vista de datos. Estas configuraciones se computan en el momento del informe.
 1. Crear un proyecto para configurar paneles e informes dentro de Analysis Workspace.
 
