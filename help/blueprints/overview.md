@@ -7,44 +7,44 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # Modelos de experiencia digital
 
-Los modelos de experiencia digital son implementaciones repetibles que le permiten abordar la estrategia y resolver rápidamente los problemas empresariales establecidos. Cada modelo proporciona una serie de artefactos que explican el problema comercial de alto valor, las arquitecturas, los pasos de implementación, las consideraciones técnicas y los vínculos a la documentación relevante.
+Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar rápidamente problemas empresariales existentes. Cada modelo ofrece una serie de artefactos que explican los problemas empresariales de alto valor, arquitecturas, pasos de implementación, consideraciones técnicas y enlaces a documentación importante.
 
 ## Novedades
 
 * **[Modelo de activación de audiencias y perfiles en destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
-   *Mantenga los perfiles de los clientes actualizados en todos los sistemas para potenciar a sus equipos de ventas y asistencia. &#x200B;*
+   *Mantenga los perfiles de clientes actualizados en todos los sistemas para potenciar sus equipos de ventas y asistencia. &#x200B;*
 * **[Modelo de centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
-   *Ofrecer contexto a los agentes de ventas y atención al cliente.*
-* **[Análisis de datos y modelo de inteligencia](/help/blueprints/data-insights/analysis.md)**
+   *Ofrezca contexto a los agentes de ventas y atención al cliente.*
+* **[Modelo de análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)**
 
-   *Realizar consultas y análisis de los datos del repositorio.*
+   *Realice consultas y análisis de los datos del repositorio.*
 
 ## Modelos incluidos
 
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="imagen en miniatura para el modelo de mensajería activada y Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Mensajería y Experience Platform activados</strong></a></div>
-    <p><em>Déclencheur de mensajes y experiencias utilizando [!UICONTROL Platform] como concentrador central.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=es"><img alt="imagen en miniatura del modelo de mensajería activada y Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Mensajería activada y Experience Platform</strong></a></div>
+    <p><em>Active mensajes y experiencias utilizando [!UICONTROL Platform] como repositorio central.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagen en miniatura para el modelo de Audience Activation en línea/sin conexión" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation en línea / sin conexión</strong></a></div>
-    <p><em>Ofrecer publicidad multicanal activada por audiencia.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=es"><img alt="imagen en miniatura del modelo de activación de audiencia en línea / sin conexión" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Activación de audiencia en línea / sin conexión</strong></a></div>
+    <p><em>Ofrezca publicidad multicanal activada por audiencia.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="imagen en miniatura para el modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=es"><img alt="imagen en miniatura del modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidación de datos de comportamiento digital</strong></a></div>
-    <p><em>Tenga una sola vista consolidada del comportamiento del cliente en varios canales.</em></p>
+    <p><em>Obtenga una sola vista consolidada del comportamiento del cliente en varios canales.</em></p>
   </td>
 </tr>
 </table>
