@@ -4,11 +4,10 @@ description: Activación de audiencia en línea / sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-translation-type: tm+mt
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 74%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
@@ -37,10 +36,6 @@ El modelo de Audience Activation en línea/sin conexión se alinea estrechamente
 
 <img src="assets/online_offline_activation.svg" alt="Arquitectura de referencia para el modelo de activación de audiencia en línea / sin conexión" style="border:1px solid #4a4a4a" />
 <br>
-
-### Audience Activation en línea/sin conexión con aplicaciones de Experience Cloud
-
-<img src="assets/activation+apps.svg" alt="Arquitectura de referencia para el modelo de Audience Activation en línea/sin conexión con aplicaciones Experience Cloud" style="border:1px solid #4a4a4a" />
 
 ## Guardas
 
