@@ -5,11 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-translation-type: tm+mt
-source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
+source-git-commit: fb0ed8245f2be9b9260afbc3b749fde0eae58b5c
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 91%
+source-wordcount: '941'
+ht-degree: 66%
 
 ---
 
@@ -28,6 +27,17 @@ Abordando el canal en primer lugar, cada canal actúa como un depósito donde lo
 | **[Activación de audiencias y perfiles con aplicaciones de Experience Cloud](platform-and-applications.md)** | </ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlos con aplicaciones Experience Cloud</li><li>Cree y comparta segmentos y perspectivas de clientes enriquecidos en Experience Platform y compártalos con aplicaciones Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Activación de Experience Platform</li><li>Aplicaciones de Experience Cloud</li></ul> |
 | **[Centro de actividad del cliente](customer-activity.md)** | <ul><li>Ofrecer un contexto más rico sobre el cliente a las interacciones realizadas por agentes, como las experiencias de asistencia y ventas. Utilizando la búsqueda de perfil en Experience Platform, los agentes pueden recibir más contexto sobre el cliente, tal como compras recientes, interacciones con campañas, tendencias, pertenencia a audiencia y otros atributos y datos que se almacenan en tiempo real en el perfil del cliente.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
+## Arquitectura del perfil del cliente en tiempo real
+
+La siguiente ilustración describe los componentes principales del perfil del cliente en tiempo real del Experience Platform.
+
+Las primeras fuentes de datos se incorporan en el Experience Platform. Si la fuente de datos está configurada para el procesamiento de perfiles, se incluirá en el Perfil del cliente en tiempo real. Se crea un único fragmento o documento de perfil para cada origen de datos y cada registro de id principal configurado para cada origen de datos. Además, a medida que los datos se incorporan al perfil, también los procesa el servicio de identidad. Cualquier registro de los orígenes de datos que tenga más de una identidad marcada en el esquema y con los valores correspondientes rellenados en el registro se procesará como una relación de identidad dentro del servicio de identidad.
+
+El servicio de identidad no procesa los registros que solo tienen una identidad, ya que no tienen vínculos de identidad para rellenar el gráfico con más detalle. Tenga en cuenta también que el servicio de identidad no distingue entre identidades principales y secundarias. Simplemente está procesando las relaciones de identidad entre identidades.
+
+La combinación de fragmentos de perfil se produce cuando el gráfico de identidad proporciona las relaciones entre los distintos fragmentos de perfil de origen que se han relacionado. La política de combinación determina qué fragmentos de origen y qué gráfico de identidad se utilizarán cuando se combinen los fragmentos. Cada vez que el perfil accede a la combinación de fragmentos de perfil, se produce para garantizar la vista combinada más actualizada del perfil. Las reglas de gobernanza y de directiva garantizan que solo se puedan activar los segmentos y atributos autorizados en los destinos especificados.
+
+<img src="assets/profile_architecture.jpg" alt="Arquitectura de referencia para el perfil del cliente en tiempo real" style="border:1px solid #4a4a4a" />
 
 
 ## Protecciones para los esquemas de activación de audiencias y perfiles
