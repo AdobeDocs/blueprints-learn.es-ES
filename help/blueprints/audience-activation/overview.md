@@ -8,7 +8,7 @@ exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
 workflow-type: tm+mt
 source-wordcount: '941'
-ht-degree: 66%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ Abordando el canal en primer lugar, cada canal actúa como un depósito donde lo
 | **[Activación de audiencia anónima](anonymous.md)** | <ul><li>Segmentación de la audiencia a través del sitio web y otros canales de publicidad para conseguir datos anónimos de comportamiento del cliente.</li><li>Integración con datos de audiencia de terceros para una personalización mejorada.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Activación de audiencia en línea / sin conexión](online-offline.md)** | <ul><li>Activación de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad. </li><li>Utilización de atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |
 | **[Activación de audiencias y perfiles en destinos empresariales](enterprise-destinations.md)** | <ul><li>Replicación y actualización de los cambios de perfil y audiencia en los almacenes de datos empresariales para casos de uso de activación y generación de informes. </li></ul><ul><li>Inicio de una acción de ventas o asistencia al cliente mediante la notificación de una acción del cliente desde [!UICONTROL Real-time Customer Data Platform] a los sistemas y las aplicaciones empresariales.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Activación de Experience Platform</li><li>Adobe Audience Manager (opcional)</li></ul> |
-| **[Activación de audiencias y perfiles con aplicaciones de Experience Cloud](platform-and-applications.md)** | <ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlos con aplicaciones Experience Cloud</li><li>Cree y comparta segmentos y perspectivas de clientes enriquecidos en Experience Platform y compártalos con aplicaciones Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Activación de Experience Platform</li><li>Aplicaciones de Experience Cloud</li></ul> |
+| **[Activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md)** | <ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud</li><li>Generar y compartir segmentos ricos y datos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de datos de clientes en tiempo real]</li><li>Activación de Experience Platform</li><li>Aplicaciones de Experience Cloud</li></ul> |
 | **[Centro de actividad del cliente](customer-activity.md)** | <ul><li>Ofrecer un contexto más rico sobre el cliente a las interacciones realizadas por agentes, como las experiencias de asistencia y ventas. Utilizando la búsqueda de perfil en Experience Platform, los agentes pueden recibir más contexto sobre el cliente, tal como compras recientes, interacciones con campañas, tendencias, pertenencia a audiencia y otros atributos y datos que se almacenan en tiempo real en el perfil del cliente.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Arquitectura del perfil del cliente en tiempo real
@@ -40,7 +40,7 @@ La combinación de fragmentos de perfil se produce cuando el gráfico de identid
 <img src="assets/profile_architecture.jpg" alt="Arquitectura de referencia para el perfil del cliente en tiempo real" style="border:1px solid #4a4a4a" />
 
 
-## Protecciones para los esquemas de activación de audiencias y perfiles
+## Guardas para los modelos de activación de audiencias y perfiles
 
 * [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
@@ -56,7 +56,7 @@ La combinación de fragmentos de perfil se produce cuando el gráfico de identid
 
 ### Activación de segmentos por flujo en destinos por lotes
 
-* Se admite la activación de segmentos de transmisión a destinos por lotes. La programación del destino por lotes exporta las pertenencias a segmentos de perfil en función de la programación de destino por lotes. Esto incluye tanto las pertenencias a segmentos determinadas por métodos de flujo como por lotes.
+* Es posible activar segmentos por flujo en destinos por lotes. La programación del destino por lotes exporta las pertenencias a segmentos de perfil en función de la programación de destino por lotes. Esto incluye tanto las pertenencias a segmentos determinadas por métodos de flujo como por lotes.
 
 ### Activación de eventos de experiencia
 
