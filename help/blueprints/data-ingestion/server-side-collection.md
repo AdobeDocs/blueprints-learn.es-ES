@@ -4,11 +4,11 @@ description: Transmita datos recogidos con los SDK de Experience Platform hacia 
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ El modelo de recopilación de datos empresariales del lado del servidor muestra 
 
 ## Documentación relacionada
 
-[Documentación del lado del servidor de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=es#server-side-info) 
-[Vídeos del servidor Experience Platform Launch](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
+[Documentación del lado del servidor de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=es#server-side-info)
+[Vídeos sobre Experience Platform Launch del lado del servidor](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=es)
 
 ## Entradas relacionadas en el blog
 
