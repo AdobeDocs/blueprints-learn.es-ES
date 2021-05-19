@@ -4,11 +4,11 @@ breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
    + [Activación de audiencia anónima](/help/blueprints/audience-activation/anonymous.md)
    + [Activación de audiencia en línea / sin conexión](/help/blueprints/audience-activation/online-offline.md)
    + [Activación a destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)
-   + [Activación con aplicaciones Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
+   + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
