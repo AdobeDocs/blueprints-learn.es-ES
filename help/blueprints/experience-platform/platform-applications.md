@@ -8,11 +8,11 @@ exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 42f67219f6ced3f563c8416e2e73d217e6998193
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform y aplicaciones
+# Adobe Experience Platform y otras aplicaciones
 
 ## Diagrama de la arquitectura de Adobe Experience Platform y otras aplicaciones
 
@@ -22,6 +22,6 @@ Este diagrama de la arquitectura muestra cómo Adobe Experience Platform se rela
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Diagrama de arquitectura detallado de Adobe Experience Platform &amp; Applications
+## Diagrama detallado de la arquitectura de Adobe Experience Platform y otras aplicaciones
 
 <img src="assets/aep+apps_horizontal.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a" />
