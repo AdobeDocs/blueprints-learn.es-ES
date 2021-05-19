@@ -5,11 +5,11 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ La personalización web y móvil aborda la habilidad de emplear la segmentación
 | **[Personalización web/móvil basada en comportamiento](behavioral.md)** | <ul><li>Personalizar según el comportamiento en línea y los datos de audiencia</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalización web/móvil en línea/sin conexión](online-offline.md)** | <ul><li>Personalizar con atributos y eventos sin conexión (transacciones, reservas, CRM y datos de fidelidad).</li><li>Sincronizar la personalización en el sitio web, el email y otros canales conocidos.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 
-## Protecciones para la personalización web y móvil
+## Guardas para la personalización web y móvil
 
-[Para obtener información sobre las protecciones relacionadas con la activación de audiencias y perfiles, consulte la sección Esquemas de activación de audiencias y perfiles .](../audience-activation/overview.md)
+[Para obtener más información sobre los guardas relacionados a la activación de audiencias y perfiles, consulte los guardas de la sección del modelo de activación de audiencias y perfiles.](../audience-activation/overview.md)
 
-### Diagrama de la protección de la personalización en línea/sin conexión
+### Diagrama de guardas de la personalización en línea/sin conexión
 
 <img src="assets/personalization_guardrails.svg" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="border:1px solid #4a4a4a" />
 
