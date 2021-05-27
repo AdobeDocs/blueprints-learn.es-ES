@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La activación con las aplicaciones de Experience Cloud se alinea estrechamente 
 ## Casos de uso
 
 * Personalización y segmentación a través de los canales de interacción del cliente con Experience Cloud.
-* Intercambio de datos de audiencias y perfiles entre las aplicaciones de Experience Platform y Experience Cloud.
+* Intercambio de datos de audiencias y perfiles entre Experience Platform y las aplicaciones de Experience Cloud.
 
 ## Aplicaciones
 
@@ -35,7 +35,7 @@ La activación con las aplicaciones de Experience Cloud se alinea estrechamente 
 
 ## Arquitectura
 
-[Consulte la Sección Arquitectura de Experience Platform y Aplicaciones para obtener diagramas de arquitectura adicionales relacionados con integraciones de Experience Platform con aplicaciones Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=es)
+[Consulte la sección sobre la arquitectura de Experience Platform y otras aplicaciones para ver más diagramas de arquitectura relacionados con las integraciones de Experience Platform con aplicaciones de Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=es)
 
 ### Activación de audiencias y perfiles con las aplicaciones de Experience Cloud
 
