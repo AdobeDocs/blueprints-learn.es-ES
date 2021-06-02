@@ -4,25 +4,24 @@ breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-translation-type: ht
-source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
-workflow-type: ht
-source-wordcount: '120'
-ht-degree: 100%
+source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 98%
 
 ---
 
 # Modelos de experiencia digital {#architecture}
 
 + [Información general](/help/blueprints/overview.md)
-+ Diagramas resumidos de arquitectura {#architecture-overview}
++ Información general sobre la arquitectura{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
    + [Activación de audiencia anónima](/help/blueprints/audience-activation/anonymous.md)
-   + [Activación de audiencia en línea / sin conexión](/help/blueprints/audience-activation/online-offline.md)
+   + [Activación de audiencia en línea/sin conexión](/help/blueprints/audience-activation/online-offline.md)
    + [Activación a destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
