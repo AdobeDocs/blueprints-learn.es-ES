@@ -5,16 +5,16 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Modelos de experiencia digital {#architecture}
 
 + [Información general](/help/blueprints/overview.md)
-+ Información general sobre la arquitectura{#architecture-overview}
++ Información general sobre la arquitectura {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
