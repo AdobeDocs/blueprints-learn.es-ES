@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 54%
+source-wordcount: '190'
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,5 @@ Los Recorridos del cliente permiten a las marcas interactuar de forma proactiva 
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **Mensajería transaccional y por lotes** | <ul><li>Generar y ejecutar campañas de salida programadas y por lotes</li><li>Entregar mensajes transaccionales</li></ul> | <ul><li>Adobe Campaign Classic y Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[Mensajería por lotes y Adobe Experience Platform](batch-messaging.md)** | <ul><li>Ejecutar campañas de mensajería por lotes y programadas con Adobe Experience Platform como repositorio central de los perfiles de clientes y segmentación</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services o Campaign Standard</li><li>Proveedores de mensajería de terceros compatibles</li></ul> |
-| **[Mensajería activada y Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Ejecutar mensajes activados y de flujo con Adobe Experience Platform como repositorio central del flujo de datos, perfiles de clientes y segmentación; y con Journey Orchestration para la organización del recorrido de flujo y el envío de mensajes</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign u otras aplicaciones de terceros para el envío de mensajes.</li></ul> |
+| **[Adobe Campaign](batch-messaging.md)** | <ul><li>Ejecutar campañas de mensajería por lotes y programadas con Adobe Experience Platform como repositorio central de los perfiles de clientes y segmentación</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Campaign Classic, Managed Services o Campaign Standard</li><li>Proveedores de mensajería de terceros compatibles</li></ul> |
+| **[Journey Optimizer](journey-optimizer.md)** | <ul><li>Ejecutar mensajes activados y de flujo con Adobe Experience Platform como repositorio central del flujo de datos, perfiles de clientes y segmentación; y con Journey Orchestration para la organización del recorrido de flujo y el envío de mensajes</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Optimizer</li></ul> |
