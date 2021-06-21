@@ -4,10 +4,10 @@ breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: 366c1c90e8132faac85da17eade60e3b7be77906
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 100%
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
    + [Análisis de recorridos multicanal](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Desvío de llamada](/help/blueprints/customer-journey-analytics/call-deflect.md)
++ Recorridos del cliente{#customer-journeys}
+   + [Información general](/help/blueprints/customer-journeys/overview.md)
+   + [Mensajería por lotes y Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Mensajería activada y Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Preparación y recopilación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
@@ -37,10 +41,6 @@ ht-degree: 100%
    + [Información general](/help/blueprints/data-insights/overview.md)
    + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
-+ Organización de mensajes multicanal {#customer-journeys}
-   + [Información general](/help/blueprints/customer-journeys/overview.md)
-   + [Mensajería por lotes y Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
-   + [Mensajería activada y Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
    + [Personalización basada en comportamiento](/help/blueprints/web-personalization/behavioral.md)
