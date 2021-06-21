@@ -4,8 +4,8 @@ breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
-workflow-type: ht
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -37,10 +37,10 @@ ht-degree: 100%
    + [Información general](/help/blueprints/data-insights/overview.md)
    + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
-+ Organización de mensajes multicanal {#multi-channel-message-orchestration}
-   + [Información general](/help/blueprints/multi-channel-message-orchestration/overview.md)
-   + [Mensajería por lotes y Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
-   + [Mensajería activada y Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ Organización de mensajes multicanal {#customer-journeys}
+   + [Información general](/help/blueprints/customer-journeys/overview.md)
+   + [Mensajería por lotes y Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Mensajería activada y Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
    + [Personalización basada en comportamiento](/help/blueprints/web-personalization/behavioral.md)
