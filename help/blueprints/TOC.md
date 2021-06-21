@@ -4,9 +4,9 @@ breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 366c1c90e8132faac85da17eade60e3b7be77906
+source-git-commit: d2bd81f4c4c7145508cfea74c74c0d9f62e0a884
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 98%
 + Recorridos del cliente{#customer-journeys}
    + [Información general](/help/blueprints/customer-journeys/overview.md)
    + [Mensajería por lotes y Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
-   + [Mensajería activada y Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
+   + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
 + Preparación y recopilación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
