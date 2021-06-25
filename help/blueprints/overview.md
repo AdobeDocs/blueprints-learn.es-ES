@@ -37,7 +37,7 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=es"><img alt="imagen en miniatura del modelo de activación de audiencia en línea / sin conexión" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Activación de audiencia en línea / sin conexión</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Activación de audiencia en línea/sin conexión</strong></a></div>
     <p><em>Ofrezca publicidad multicanal activada por audiencia.</em></p>
   </td>
   <td>
