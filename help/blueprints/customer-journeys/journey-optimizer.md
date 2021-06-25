@@ -17,7 +17,7 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 
 ## Casos de uso
 
-* Mensajería activada
+* Mensajes activados
 * Confirmaciones de registro
 * Abandonos del carro de compras y formulario de solicitud
 * Mensajería activada por localización
