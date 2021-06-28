@@ -4,10 +4,10 @@ description: Sincronice la personalización del sitio web con la del email y otr
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 ### 1. Enfoque con el SDK Platform Web/Mobile y Edge
 
-<img src="assets/web_sdk_flow.svg" alt="Arquitectura de referencia para el enfoque [!UICONTROL Platform Web SDK] o [!UICONTROL Platform Mobile SDK] y [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+[Consulte el modelo de SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)
 
 ### 2. Enfoque con el SDK específico de cada aplicación
 
