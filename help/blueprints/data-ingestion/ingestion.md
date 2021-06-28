@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,12 @@ La preparación de datos incluye mapear los datos de origen en el esquema del Mo
 ## Arquitectura
 
 <img src="assets/data_ingestion.png" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="border:1px solid #4a4a4a" />
+
+## Protecciones de ingesta de datos
+
+En el diagrama siguiente se ilustran los márgenes de rendimiento y la latencia promedio para la ingesta de datos en Adobe Experience Platform.
+
+<img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
 
 ## Métodos de ingesta de datos
 
