@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
@@ -31,13 +31,13 @@ Abordando el canal en primer lugar, cada canal actúa como un depósito donde lo
 
 La siguiente ilustración describe los componentes principales de Real-time Customer Profile de Experience Platform.
 
+<img src="assets/profile_architecture.jpg" alt="Arquitectura de referencia de Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%"/>
+
 Las primeras fuentes de datos se ingieren en Experience Platform. Si la fuente de datos está configurada para el procesamiento de perfiles, se incluirá en Real-time Customer Profile. Se crea un único fragmento o documento de perfil para cada fuente de datos y para cada registro de ID principal configurado para cada fuente de datos. Además, a medida que los datos se ingieren en el perfil, también los procesa el servicio de identidad. Cualquier registro de la fuente de datos que tenga más de una identidad marcada en el esquema y con los valores correspondientes rellenados en el registro se procesará como una relación de identidad dentro del servicio de identidad.
 
 El servicio de identidad no procesa los registros que solo tienen una identidad, ya que no tienen vínculos de identidad para rellenar el gráfico con más detalle. Tenga en cuenta, asimismo, que el servicio de identidad no distingue entre identidades principales y secundarias. Simplemente procesa las relaciones de identidad entre las propias identidades.
 
 La fusión de fragmentos de perfil se produce cuando el gráfico de identidad proporciona las relaciones entre los distintos fragmentos de perfil de origen que se han relacionado. La política de fusión determina qué fragmentos de origen y qué gráfico de identidad se utilizarán cuando se combinen los fragmentos. Cada vez que se accede al perfil, se produce la fusión de los fragmentos de perfil para garantizar la vista combinada más actualizada del mismo. Las reglas de política y gobernanza garantizan que solo se puedan activar los segmentos y los atributos autorizados en los destinos especificados.
-
-<img src="assets/profile_architecture.jpg" alt="Arquitectura de referencia de Real-time Customer Profile" style="border:1px solid #4a4a4a" />
 
 
 ## Guardas para los modelos de activación de audiencias y perfiles
