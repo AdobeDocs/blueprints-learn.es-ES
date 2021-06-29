@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,11 @@ El servicio de identidad no procesa los registros que solo tienen una identidad,
 
 La fusión de fragmentos de perfil se produce cuando el gráfico de identidad proporciona las relaciones entre los distintos fragmentos de perfil de origen que se han relacionado. La política de fusión determina qué fragmentos de origen y qué gráfico de identidad se utilizarán cuando se combinen los fragmentos. Cada vez que se accede al perfil, se produce la fusión de los fragmentos de perfil para garantizar la vista combinada más actualizada del mismo. Las reglas de política y gobernanza garantizan que solo se puedan activar los segmentos y los atributos autorizados en los destinos especificados.
 
+## Información general sobre segmentación y destino
+
+La siguiente ilustración describe los distintos métodos de segmentación y los distintos patrones de activación de perfiles y audiencias.
+
+<img src="assets/segmentation_destination_overview.png" alt="Arquitectura de referencia de Real-time Customer Profile" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## Guardas para los modelos de activación de audiencias y perfiles
 
