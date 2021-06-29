@@ -1,18 +1,18 @@
 ---
-title: Modelo de preparación e ingesta de datos
+title: Modelo de recopilación de datos del SDK web/móvil
 description: Este modelo muestra la arquitectura y la ingesta a través del SDK web y móvil del Experience Platform
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Recopilación de datos de Experience Platform WebSDK
+# Recopilación de datos del SDK web/móvil del Experience Platform
 
 El diagrama de arquitectura siguiente ilustra las rutas de integración y la recopilación de datos utilizando el Experience Platform WebSDK.
 
@@ -20,4 +20,4 @@ El diagrama de arquitectura siguiente ilustra las rutas de integración y la rec
 
 ## Documentación de referencia
 
-[Información general del Experience Platform WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Información general sobre el SDK web/móvil del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
