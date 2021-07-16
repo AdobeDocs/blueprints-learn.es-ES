@@ -1,5 +1,5 @@
 ---
-title: 'Journey Optimizer: mensajería activada y modelo de Adobe Experience Platform'
+title: Journey Optimizer - Modelo de mensajería activada y Adobe Experience Platform
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
@@ -7,13 +7,13 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer
 
-Adobe Journey Optimizer es un sistema diseñado específicamente para que los equipos de marketing reaccionen en tiempo real a los comportamientos de los clientes y los cumplan donde se encuentran. Las funcionalidades de gestión de datos se han trasladado a Adobe Experience Platform, lo que permite a los equipos de marketing centrarse en lo que hacen mejor: que está creando conversaciones personalizadas y de recorrido de clientes de nivel mundial.  Este modelo describe las capacidades técnicas de la aplicación y proporciona una explicación profunda de los distintos componentes arquitectónicos que conforman Adobe Journey Optimizer.
+Adobe Journey Optimizer es un sistema diseñado específicamente para que los equipos de marketing reaccionen en tiempo real a los comportamientos de los clientes y se dirijan a ellos dondequiera que estén. Las funcionalidades de gestión de datos se han trasladado a Adobe Experience Platform, lo que permite a los equipos de marketing centrarse en lo mejor saben: generar conversaciones personalizadas y de recorrido del cliente de primera clase.  Este modelo describe las capacidades técnicas de la aplicación y proporciona información detallada de los distintos componentes arquitectónicos que forman Adobe Journey Optimizer.
 
 ## Casos de uso
 
@@ -32,11 +32,11 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 
 ## Prerrequisitos
 
-1. El cliente debe estar aprovisionado para el Experience Cloud con una organización IMS válida
+1. El cliente debe poder acceder a Experience Cloud con una organización IMS válida
 1. Push móvil
 
-* El cliente debe tener un desarrollador móvil disponible para crear la aplicación
-* SDK de Adobe Experience Platform Mobile
+* El cliente debe tener un desarrollador móvil disponible para generar la aplicación
+* SDK móvil de Adobe Experience Platform
 * Adobe Launch
    * Propiedad móvil
       * Extensiones:
@@ -46,26 +46,26 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
          * Núcleo móvil
          * Perfil
    * Configuraciones de aplicaciones
-   * Datastreams
+   * Flujos de datos
       * Habilitado para Experience Platform
-      * Conjunto de datos de evento : se utiliza para recopilar el comportamiento móvil general.
+      * Conjunto de datos de evento: se utiliza para recopilar el comportamiento móvil general.
       * Conjunto de datos de perfil: conjunto de datos de perfil push de AJO (no puede ser diferente)
 
 ## Guardas
 
 * Consulte el enlace para obtener más información sobre las limitaciones
-* Segmentos por lotes: debe asegurarse de comprender el volumen diario de usuarios cualificados y asegurarse de que el sistema de destino pueda gestionar el rendimiento por recorrido y en todos los recorridos
-* Segmentos de transmisión: es necesario asegurarse de que se pueda gestionar la explosión inicial de cualificaciones de perfil junto con el volumen de clasificación de transmisión diaria por recorrido y en todos los recorridos
-* Actividad de actualización de perfil: el perfil de cliente en tiempo real se puede actualizar de forma nativa desde un recorrido.  Se produce un retraso de hasta 1 minuto al procesar la actualización en el almacén de perfiles
-* Eventos comerciales: se puede activar un recorrido basado en segmentos de lectura para que comience a partir de una llamada externa al sistema JO
-* De forma nativa solo admite el Offer decisioning en los mensajes. Compatibilidad futura mediante acción nativa
+* Segmentos por lotes: debe conocer el volumen diario de usuarios adecuados y garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos los recorridos.
+* Segmentos por flujo: debe asegurarse de que el pico inicial de calificaciones de perfil pueda gestionarse junto con el volumen de calificación de flujo diario por recorrido y durante todos los recorridos.
+* Actividad de actualización de perfil: el perfil de cliente en tiempo real se puede actualizar de forma nativa en un recorrido.  Se produce un retraso de hasta 1 minuto al procesar la actualización en el almacén de perfiles
+* Eventos empresariales: se puede activar un recorrido basado en segmentos de lectura para que comience a partir de una llamada externa al sistema de JO.
+* De forma nativa, solo admite Offer Decisioning en mensajes. Compatibilidad futura a través de acción nativa
 * Canales admitidos:
    * Correo electrónico
    * Push (FCM/APNS)
-   * Puntos finales de API de Rest
-* Procesa 5.000 eventos por segundo con escalado horizontal (la cartera es una limitación)
-* La prueba A/B se realiza utilizando dos envíos y determinando los resultados mediante QS o CJA
-* Integración de Litmus: debe tener una cuenta con Litmus para aprovechar la integración
+   * Puntos finales de API Rest
+* Procesa 5000 eventos por segundo con escalado horizontal (la cartera es una limitación)
+* Las pruebas A/B se realizan utilizando dos envíos y determinando los resultados mediante QS o CJA
+* Integración de Litmus: debe tener una cuenta de Litmus para aprovecharse de la integración
 
 ## Pasos de implementación
 
@@ -98,7 +98,7 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 
 ### Journey Orchestration
 
-1. Los datos de flujo utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de organización. Este ID de organización debe entregarse al desarrollador para usarse con la ingesta.
+1. El flujo de datos utilizado para iniciar el recorrido del cliente debe configurarse primero en Journey Optimizer para obtener un ID de organización. Este ID de organización debe entregarse al desarrollador para usarse con la ingesta.
 1. Configurar orígenes externos de datos.
 1. Configurar acciones personalizadas.
 
