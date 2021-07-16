@@ -6,7 +6,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="imagen en miniatura del modelo de mensajería activada y Experience Platform" src="customer-journeys/assets/journey-optimizer.png" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen en miniatura del modelo de mensajería activada y Experience Platform" src="customer-journeys/assets/journey-optimizer.png" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Mensajería activada y Experience Platform</strong></a></div>
     <p><em>Active mensajes y experiencias utilizando [!UICONTROL Platform] como repositorio central.</em></p>
   </td>
