@@ -4,10 +4,10 @@ description: Sincronice la personalización del sitio web con la del email y otr
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
+source-git-commit: 176f4950ffb5b21005b6ad8cfbb993186086442b
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 98%
+source-wordcount: '731'
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,11 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 ## Prerrequisitos de implementación
 
+Requisitos previos de identidad
+
+* El uso compartido de audiencias de Adobe Experience Platform con Adobe Target requiere el uso de ECID como identidad.
+* Se pueden utilizar identidades alternativas para compartir audiencias de Experience Platform con Adobe Target mediante Audience Manager, ya que el Audience Manager puede resolver los ID alternativos en un ECID siempre y cuando tanto el ECID como el ID alternativo se recopilen también para el Audience Manager. Tenga en cuenta que Audience Manager y Target resuelven las suscripciones de audiencia a través de la identidad ECID, por lo que ECID sigue siendo necesario para que la audiencia final se comparta en Adobe Target.
+
 | Aplicación/servicio | Biblioteca requerida | Notas |
 |---|---|---|
 | Adobe Target | [!UICONTROL SDK Platform Web]*, at.js 0.9.1+ o mbox.js 61+ | Se recomienda at.js debido a que mbox.js ya no se desarrolla. |
@@ -61,6 +66,8 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 | Servicio Experience Cloud ID | [!UICONTROL SDK Platform Web]* o VisitorAPI.js 2.0+ | (Recomendación) Emplear Experience Platform Launch para implementar el servicio de ID y así garantizar que este ID se configure antes de la llamada de cualquier aplicación. |
 | SDK Experience Platform Mobile (opcional) | 4.11 o superior para iOS y Android™ |  |
 | SDK Experience Platform Web | 1.0, la versión actual del SDK Experience Platform, cuenta con [varios casos de uso sin compatibilidad con las aplicaciones de Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
+
+
 
 
 ## Pasos de implementación
