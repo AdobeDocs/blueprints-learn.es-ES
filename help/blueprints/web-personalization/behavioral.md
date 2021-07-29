@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 ### 1. Enfoque con el SDK Platform Web/Mobile y Edge
 
-[Consulte el modelo de SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)
+[Consulte el modelo del SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)
 
 ### 2. Enfoque con el SDK específico de cada aplicación
 
@@ -60,7 +60,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 | Adobe Analytics (opcional) | [!UICONTROL SDK Platform Web]* o AppMeasurement.js 1.6.4+ |  |
 | Servicio de identidad de Experience Cloud | [!UICONTROL SDK Platform Web]* o VisitorAPI.js 2.0+ |  |
 | SDK Experience Platform Mobile (opcional) | 4.11 o superior para iOS y Android™ |  |
-| SDK Experience Platform Web | 1.0, la versión actual del SDK Experience Platform, cuenta con [varios casos de uso sin compatibilidad con las aplicaciones de Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
+| SDK web de Experience Platform | 1.0, la versión actual del SDK Experience Platform, cuenta con [varios casos de uso sin compatibilidad con las aplicaciones de Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
 ## Pasos de implementación
 
@@ -84,7 +84,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 * [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 * [Integrar Audience Manager con Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
-* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
 
 
 ## Entradas relacionadas en el blog
