@@ -1,23 +1,23 @@
 ---
-title: Modelo de activación de audiencia en línea/sin conexión
+title: Activación con un modelo de datos en línea y sin conexión
 description: Activación de audiencia en línea/sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 91%
 
 ---
 
-# Modelo de activación de audiencia en línea/sin conexión
+# Activación con un modelo de datos en línea y sin conexión
 
 Emplee atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.
 
 Active audiencias de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad.
 
-El modelo de activación de audiencias en línea/sin conexión se alinea estrechamente con el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md). La información adicional ofrecida en el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md) es específica de la integración entre Experience Platform y las aplicaciones de Experience Cloud.
+El modelo Activation with online and offline data se alinea estrechamente con el [Programa de activación de audiencias y perfiles con aplicaciones Experience Cloud](platform-and-applications.md). La información adicional ofrecida en el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md) es específica de la integración entre Experience Platform y las aplicaciones de Experience Cloud.
 
 ## Casos de uso
 
@@ -32,9 +32,9 @@ El modelo de activación de audiencias en línea/sin conexión se alinea estrech
 
 ## Arquitectura
 
-### Activación de audiencia en línea/sin conexión con destinos
+### Activación con datos en línea y sin conexión con destinos
 
-<img src="assets/online_offline_activation.svg" alt="Arquitectura de referencia para el modelo de activación de audiencias en línea/sin conexión" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="Arquitectura de referencia para el modelo de activación de audiencia en línea / sin conexión" style="border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas
