@@ -1,17 +1,17 @@
 ---
-title: Modelo de activación de audiencias y perfiles en destinos empresariales
+title: Modelo de activación de audiencias y perfiles en destinos de flujo empresarial y de archivos
 description: Activación de audiencias y perfiles en destinos empresariales
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
-# Modelo de activación de audiencias y perfiles en destinos empresariales
+# Modelo de activación de audiencias y perfiles en destinos de flujo empresarial y de archivos
 
 Comparta cambios y eventos de perfil y audiencia por flujo o lotes de [!UICONTROL Real-time Customer Data Platform] a aplicaciones y almacenes de datos empresariales. Estos eventos de perfil y audiencia se pueden utilizar para iniciar una acción de ventas o asistencia al cliente, como realizar el seguimiento de un proceso abandono de aplicación, un registro en un seminario web o actualizar aplicaciones empresariales con los últimos atributos de cliente e inteligencia de [!UICONTROL Real-time Customer Data Platform].
 
