@@ -1,13 +1,14 @@
 ---
 title: Modelo de personalización web basada en comportamiento
 description: Personalización basada en el comportamiento en línea y datos de audiencia.
+landing-page-description: Aprenda a personalizar en función del comportamiento en línea y los datos de audiencia.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,7 +85,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 * [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 * [Integrar Audience Manager con Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
-* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
+* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Entradas relacionadas en el blog
