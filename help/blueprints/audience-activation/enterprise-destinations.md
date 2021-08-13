@@ -1,27 +1,27 @@
 ---
-title: Modelo de activación de audiencias y perfiles en destinos de flujo empresarial y de archivos
+title: Modelo de activación de audiencias y perfiles en destinos de streaming empresarial y de archivos
 description: Activación de audiencias y perfiles en destinos empresariales
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Modelo de activación de audiencias y perfiles en destinos de flujo empresarial y de archivos
+# Modelo de activación de audiencias y perfiles en destinos de streaming empresarial y de archivos
 
-Comparta cambios y eventos de perfil y audiencia por flujo o lotes de [!UICONTROL Real-time Customer Data Platform] a aplicaciones y almacenes de datos empresariales. Estos eventos de perfil y audiencia se pueden utilizar para iniciar una acción de ventas o asistencia al cliente, como realizar el seguimiento de un proceso abandono de aplicación, un registro en un seminario web o actualizar aplicaciones empresariales con los últimos atributos de cliente e inteligencia de [!UICONTROL Real-time Customer Data Platform].
+Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICONTROL Real-time Customer Data Platform] a aplicaciones y almacenes de datos empresariales. Estos eventos de perfil y audiencia se pueden utilizar para iniciar una acción de ventas o asistencia al cliente, como realizar el seguimiento de un proceso abandono de aplicación, un registro en un seminario web o actualizar aplicaciones empresariales con los últimos atributos de cliente e inteligencia de [!UICONTROL Real-time Customer Data Platform].
 
 ## Casos de uso
 
-* Activación de perfiles y audiencias a destinos de almacenamiento en la nube o destinos de flujo para el seguimiento, almacenamiento, análisis y activación de datos del cliente por parte de la empresa.
+* Activación de perfiles y audiencias a destinos de almacenamiento en la nube o destinos de streaming para el seguimiento, almacenamiento, análisis y activación de datos del cliente por parte de la empresa.
 
 ## Aplicaciones
 
-* Adobe Experience Platform Activación
+* Adobe Experience Platform Activation
 
 ## Arquitectura
 
@@ -36,11 +36,11 @@ Comparta cambios y eventos de perfil y audiencia por flujo o lotes de [!UICONTRO
 
 1. [Crear esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
-1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingeridos se puedan combinar en un perfil unificado.
+1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingestados se puedan combinar en un perfil unificado.
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
 1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
 1. [Disponer el intercambio de segmentos de [!UICONTROL Real-time Customer Data Platform] entre Experience Platform y Audience Manager](https://www.adobe.com/go/audiences) para que las audiencias definidas en Experience Platform se compartan con Audience Manager.
-1. [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es) en Experience Platform. El sistema determina automáticamente si el segmento debe ser evaluado por lotes o flujo.
+1. [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es) en Experience Platform. El sistema determina automáticamente si el segmento debe ser evaluado por lotes o streaming.
 1. [Configurar destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=es) para compartir atributos de perfil y pertenencias a audiencia a los destinos deseados.
 
 ## Documentación relacionada
@@ -56,4 +56,4 @@ Comparta cambios y eventos de perfil y audiencia por flujo o lotes de [!UICONTRO
 
 * Información general de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
 * [Versión de prueba de [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=es)
-* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es)
