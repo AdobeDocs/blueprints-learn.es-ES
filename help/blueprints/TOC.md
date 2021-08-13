@@ -5,9 +5,9 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: a13f31837a507711bb27f2fcc0d49c44ffe0a8d7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
    + [Información general](/help/blueprints/audience-activation/overview.md)
    + [Activación de audiencia anónima](/help/blueprints/audience-activation/anonymous.md)
    + [Activación con datos en línea y sin conexión](/help/blueprints/audience-activation/online-offline.md)
-   + [Activación en destinos de transmisión de archivos y empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Activación en destinos de streaming empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
