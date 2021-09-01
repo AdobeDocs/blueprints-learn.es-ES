@@ -7,7 +7,7 @@ exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -39,8 +39,8 @@ Obtenga una sola vista consolidada con el comportamiento del cliente para todos 
 
 1. [Crear esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
-1. Ingesta de datos a Experience Platform.
-Los datos deben enviarse a Platform antes de que se procesen en Customer Journey Analytics. Para obtener más información sobre la incorporación de datos y los tipos de fuentes de datos, consulte la siguiente documentación. [Fuentes de ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es) datos, incluido el conector de datos de  [Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). [Tutorial de ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es)
+1. Ingeste datos[Ingesta del tutorial de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en el Experience Platform.
+Los datos deben enviarse a Platform antes de que se procesen en Customer Journey Analytics. Para obtener más información sobre la incorporación de datos y los tipos de fuentes de datos, consulte la siguiente documentación. [Fuentes de ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es) datos, incluido el conector de datos de  [Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es)
 1. Analizar conjuntos de datos de eventos multicanal para que se estudien juntos, asegurando que tengan el mismo ID de área de nombres o se reescriban a través de la capacidad de combinación basada en campos de Customer Journey Analytics. Consulte la documentación de análisis entre canales para obtener más información sobre la vinculación de identidad en el Customer Journey Analytics. [Configuración de identidad](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
 
    >[!NOTE]
