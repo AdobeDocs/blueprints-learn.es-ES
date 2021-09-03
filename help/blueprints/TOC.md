@@ -4,16 +4,17 @@ breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a13f31837a507711bb27f2fcc0d49c44ffe0a8d7
-workflow-type: ht
-source-wordcount: '124'
-ht-degree: 100%
+source-git-commit: 7c958db2f2bb9cac4d15420d824de0f9722a8135
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 92%
 
 ---
 
 # Modelos de experiencia digital {#architecture}
 
 + [Información general](/help/blueprints/overview.md)
++ [Ver todos los casos de uso](/help/blueprints/use-cases.md)
 + Información general sobre la arquitectura {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
