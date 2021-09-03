@@ -8,7 +8,7 @@ exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Los análisis más comunes incluyen lo siguiente:
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **[Análisis de recorridos multicanal](digital-behavioral-data-consolidation.md)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales, unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+| **[Análisis de recorridos multicanal](digital-behavioral-data-consolidation.md)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
 | **[Análisis del recorrido de desvío de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Guardas para los modelos de Customer Journey Analytics

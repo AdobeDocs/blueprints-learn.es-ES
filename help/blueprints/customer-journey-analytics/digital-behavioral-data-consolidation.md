@@ -6,14 +6,14 @@ kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 95%
+source-wordcount: '619'
+ht-degree: 100%
 
 ---
 
 # Modelo de análisis de recorridos multicanal
 
-Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales, unificando los datos de distintas propiedades web, móvil y sin conexión.
+Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales unificando los datos de distintas propiedades web, móvil y sin conexión.
 
 ## Casos de uso
 
@@ -39,15 +39,15 @@ Obtenga una sola vista consolidada con el comportamiento del cliente para todos 
 
 1. [Crear esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
-1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
-Los datos deben enviarse a Platform antes de que se procesen en Customer Journey Analytics.
-1. Analizar conjuntos de datos de eventos multicanal para que se estudien juntos, asegurando que tengan el mismo ID de área de nombres o se reescriban a través de la capacidad de combinación basada en campos de Customer Journey Analytics. Consulte la documentación de análisis entre canales para obtener más información sobre la vinculación de identidad en el Customer Journey Analytics. [Configuración de identidad](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
+1. Ingesta de datos a Experience Platform.
+Los datos deben ingerirse en Platform antes de que se procesen en Customer Journey Analytics. Para obtener más información acerca de la ingesta de datos y los tipos de fuentes de datos, consulte la siguiente documentación. [Fuentes de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es), incluido el [conector de datos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). [Tutorial de ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es)
+1. Analice conjuntos de datos de eventos multicanal de forma conjunta para asegurarse de que tengan el mismo ID de área de nombres o se reescriban gracias a la capacidad de combinación basada en campos de Customer Journey Analytics. Consulte la documentación de análisis multicanal para obtener más información sobre la combinación de identidades en Customer Journey Analytics. [Combinación de identidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es)
 
    >[!NOTE]
    >
-   >Actualmente, Customer Journey Analytics no utiliza el servicio de perfil ni identidad de Experience Platform para la combinación.
+   >Actualmente, Customer Journey Analytics no utiliza el servicio de perfil ni identidad de Experience Platform para fines de combinación.
 
-1. Realizar cualquier preparación de datos del cliente o emplear en ellos la combinación de identidades basada en campos para mantener una clave común a través de los conjuntos de datos de series temporales para que su ingesta en Customer Journey Analytics.
+1. Realizar cualquier preparación de datos del cliente o emplear en ellos la combinación de identidades basada en campos para mantener una clave común a través de los diferentes conjuntos de datos de series temporales para su ingesta en Customer Journey Analytics.
 1. Asignar a los datos de búsqueda un ID principal que se puede unir a un campo en los datos de evento. Cuenta como líneas en la licencia.
 1. Establecer el mismo ID principal para los datos del perfil y del evento.
 1. Configurar una conexión de datos para su ingesta de Experience Platform a Customer Journey Analytics. Cuando los datos llegan al repositorio, se procesan en Customer Journey Analytics en un periodo de 90 minutos.
@@ -56,7 +56,7 @@ Los datos deben enviarse a Platform antes de que se procesen en Customer Journey
 
 ## Consideraciones sobre la implementación
 
-### Consideraciones sobre la combinación de identidad
+### Consideraciones sobre la combinación de identidades
 
 * Los datos de serie temporal que se unan deben tener el mismo ID de área de nombres en todos los registros.
 * El proceso de unificación de los conjunto de datos dispares requiere mantener una clave común principal por persona/entidad en todos ellos.
