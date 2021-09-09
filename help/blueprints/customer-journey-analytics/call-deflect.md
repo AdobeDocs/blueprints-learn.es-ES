@@ -4,10 +4,10 @@ description: Analice el comportamiento de los clientes antes de que contacten co
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '637'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Analice el comportamiento de los clientes en el ordenador y en el móvil antes d
 
 ## Pasos de implementación
 
-1. [Crear esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=es) para la ingesta de datos.
+1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
 Los datos se deben ingerir en Platform antes de que se procesen en Customer Journey Analytics.

@@ -4,16 +4,16 @@ description: Transmita datos recogidos con los SDK de Experience Platform hacia 
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 82%
 
 ---
 
 # Modelo de recopilación de datos empresariales del lado del servidor
 
-El modelo de recopilación de datos empresariales del lado del servidor muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Es posible dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en Experience Platform Launch.
+El modelo de recopilación de datos empresariales del lado del servidor muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Puede reenviar todos los datos sin procesar recopilados de los SDK o datos específicos basados en eventos y reglas según la configuración de las propiedades de etiquetas (anteriormente Launch).
 
 ## Casos de uso
 
@@ -30,8 +30,8 @@ El modelo de recopilación de datos empresariales del lado del servidor muestra 
 
 ## Documentación relacionada
 
-[Documentación del lado del servidor de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=es#server-side-info)
-[Vídeos sobre Experience Platform Launch del lado del servidor](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=es)
+* [Documentación del reenvío de eventos](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [Vídeos de reenvío de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=es)
 
 ## Entradas relacionadas en el blog
 

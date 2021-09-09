@@ -4,10 +4,10 @@ breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 7c958db2f2bb9cac4d15420d824de0f9722a8135
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 92%
+source-wordcount: '129'
+ht-degree: 93%
 
 ---
 

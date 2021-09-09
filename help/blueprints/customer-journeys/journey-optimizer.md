@@ -4,10 +4,10 @@ description: Ejecute mensajes y experiencias activadas con Adobe Experience Plat
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 98%
 
 ---
 
@@ -37,8 +37,8 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 
 * El cliente debe tener un desarrollador móvil disponible para generar la aplicación
 * SDK móvil de Adobe Experience Platform
-* Adobe Launch
-   * Propiedad móvil
+* Recopilación de datos
+   * Propiedad de etiquetas móviles
       * Extensiones:
          * Extensión de Adobe Journey Optimizer
          * Adobe Experience Platform Edge Network
@@ -73,7 +73,7 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 
 #### Esquemas/conjuntos de datos
 
-1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=es) según los datos ofrecidos por los clientes en Experience Platform.
+1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) según los datos ofrecidos por los clientes en Experience Platform.
 1. Crear esquemas de Adobe Campaign para: broadLog, trackingLog, direcciones no entregables y preferencias de perfil (opcional).
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) en Experience Platform para la ingesta.
 1. [Añadir etiquetas de uso de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=es) al conjunto de datos de Experience Platform para la gobernanza.
