@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
+source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 91%
 
 ---
 
@@ -27,15 +27,12 @@ Los análisis más comunes incluyen lo siguiente:
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **[Análisis de recorridos multicanal](digital-behavioral-data-consolidation.md)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
-| **[Análisis del recorrido de desvío de llamadas](call-deflect.md)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Análisis de recorridos multicanal](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)** | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+| **[Análisis del recorrido de desvío de llamadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Guardas para los modelos de Customer Journey Analytics
+## Diagrama de seguridad para modelos de Customer Journey Analytics
 
-### Diagrama de guardas
-
-<img src="assets/cja_guardrails.png" alt="Diagrama de guardas para los modelos de Customer Journey Analytics" style="border:1px solid #4a4a4a" />
-
+![Diagrama de seguridad](assets/cja_guardrails.png)
 
 ## Entradas relacionadas en el blog
 
