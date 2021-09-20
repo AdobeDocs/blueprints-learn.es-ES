@@ -4,10 +4,10 @@ description: Ejecute mensajes y experiencias activadas con Adobe Experience Plat
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
+source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 95%
+source-wordcount: '714'
+ht-degree: 94%
 
 ---
 
@@ -105,6 +105,6 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 ## Documentación relacionada
 
 * [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
-* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=es)
+* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Documentación de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=es)
 * [Documentación del SDK Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
