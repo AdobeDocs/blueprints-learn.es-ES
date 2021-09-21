@@ -2,10 +2,10 @@
 title: Modelos de experiencia digital
 description: Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar problemas empresariales existentes. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d35b3cc34e0b3ab6fce9fc15a96e5f1183b0a0fd
+source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 93%
 
 ---
 
@@ -40,8 +40,8 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
     <p><em>Ofrezca publicidad multicanal activada por audiencia.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=es"><img alt="imagen en miniatura del modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidación de datos de comportamiento digital</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="imagen en miniatura del modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Análisis de recorridos multicanal</strong></a></div>
     <p><em>Obtenga una sola vista consolidada del comportamiento del cliente en varios canales.</em></p>
   </td>
 </tr>

@@ -5,10 +5,10 @@ landing-page-description: Sincronice la personalización del sitio web con la de
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
-workflow-type: ht
+source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
+workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -91,9 +91,9 @@ Requisitos previos de identidad
 * [Información general sobre el generador de segmentos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es)
 * [Conector de origen de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es)
 * [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
-* [Documentación del SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es)
+* [Documentación del SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Documentación de Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
-* [Documentación de Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=es)
+* [Documentación de etiquetas del Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 
 ## Entradas relacionadas en el blog
 
