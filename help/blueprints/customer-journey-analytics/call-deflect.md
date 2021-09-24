@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Los conjuntos de datos analizados juntos deben tener un ID de área de nombres c
 
    >[!NOTE]
    >
-   >Actualmente, Customer Journey Analytics no utiliza el servicio de perfil ni identidad de Experience Platform para la combinación.
+   >Actualmente, Customer Journey Analytics no utiliza el servicio de perfil ni identidad de Experience Platform para fines de combinación.
 
 1. Realizar cualquier preparación de datos del cliente o emplear en ellos la combinación de identidades basada en campos para mantener una clave común a través de los conjuntos de datos de series temporales para que se ingieran en Customer Journey Analytics.
 1. Estipular in ID principal para los datos de búsqueda, que puede unirse a un campo en los datos de evento. Cuenta como líneas en la licencia.
@@ -55,7 +55,7 @@ Los conjuntos de datos analizados juntos deben tener un ID de área de nombres c
 
 ## Consideraciones sobre la implementación
 
-### Consideraciones sobre la combinación de identidad
+### Consideraciones sobre la combinación de identidades
 
 * Los datos de serie temporal que se unan deben tener el mismo ID de área de nombres en todos los registros. Para conectar los datos del centro de llamadas con los del dispositivo anónimo, el ID digital debe estar enlazado con el ID de la llamada. Ese enlace se puede dar con diversos mecanismos:
    * El número marcado debe ser único para ese visitante en ese momento, junto con una tabla de búsqueda para rastrear el vínculo;
