@@ -7,7 +7,7 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 
 ## Guardas
 
-* Consulte el enlace para obtener más información sobre las barreras para Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+* Consulte este vínculo para obtener más información sobre los guardas de Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
 * Segmentos por lotes: debe conocer el volumen diario de usuarios adecuados y garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos los recorridos.
 * Segmentos por flujo: debe asegurarse de que el pico inicial de calificaciones de perfil pueda gestionarse junto con el volumen de calificación de flujo diario por recorrido y durante todos los recorridos.
 * Actividad de actualización de perfil: el perfil de cliente en tiempo real se puede actualizar de forma nativa en un recorrido.  Se produce un retraso de hasta 1 minuto al procesar la actualización en el almacén de perfiles

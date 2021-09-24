@@ -8,7 +8,7 @@ exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,8 +46,8 @@ Consulte la documentación del producto Query Service para obtener más informac
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
-1. Confirmar que [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en) y [[!UICONTROL Data Science Workspace] puedan acceder y consultar datos brutos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en)
-1. [Conectar herramientas de inteligencia empresarial y clientes SQL a [!UICONTROL Query Service] para la posterior visualización, consulta y análisis de datos.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash)
+1. Confirmar que [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=es) y [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=es) puedan acceder y consultar datos brutos.
+1. [Conectar herramientas de inteligencia empresarial y clientes SQL a [!UICONTROL Query Service]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash) para la posterior visualización, consulta y análisis de datos.
 
 ## Documentación relacionada
 
