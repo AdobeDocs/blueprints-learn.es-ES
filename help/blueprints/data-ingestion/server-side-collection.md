@@ -5,15 +5,15 @@ solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Modelo de recopilación de datos empresariales del lado del servidor
 
-El modelo de recopilación de datos empresariales del lado del servidor muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Puede reenviar todos los datos sin procesar recopilados de los SDK o datos específicos basados en eventos y reglas según la configuración de las propiedades de etiquetas (anteriormente Launch).
+El modelo de recopilación de datos empresariales del lado del servidor muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
 
 ## Casos de uso
 
@@ -30,7 +30,7 @@ El modelo de recopilación de datos empresariales del lado del servidor muestra 
 
 ## Documentación relacionada
 
-* [Documentación del reenvío de eventos](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [Documentación del reenvío de eventos](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=es)
 * [Vídeos de reenvío de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=es)
 
 ## Entradas relacionadas en el blog
