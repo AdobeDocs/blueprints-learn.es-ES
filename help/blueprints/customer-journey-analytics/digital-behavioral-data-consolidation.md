@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Obtenga una sola vista consolidada con el comportamiento del cliente para todos 
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Ingesta de datos a Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es).
-Los datos deben ingerirse en Platform antes de que se procesen en Customer Journey Analytics. Para obtener más información acerca de la ingesta de datos y los tipos de fuentes de datos, consulte la siguiente documentación. [Fuentes de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es), incluido el [conector de datos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). [Tutorial de ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+Los datos deben ingerirse en Platform antes de que se procesen en Customer Journey Analytics. Para obtener más información acerca de la ingesta de datos y los tipos de fuentes de datos, consulte la siguiente documentación. [Fuentes de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es), incluido el [conector de datos de Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es). [Tutorial de ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es)
 1. Analice conjuntos de datos de eventos multicanal de forma conjunta para asegurarse de que tengan el mismo ID de área de nombres o se reescriban gracias a la capacidad de combinación basada en campos de Customer Journey Analytics. Consulte la documentación de análisis multicanal para obtener más información sobre la combinación de identidades en Customer Journey Analytics. [Combinación de identidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=es)
 
    >[!NOTE]
