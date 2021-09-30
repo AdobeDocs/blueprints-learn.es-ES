@@ -5,7 +5,7 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Activación de audiencia anónima](/help/blueprints/audience-activation/anonymous.md)
+   + [Activación de Audiencia Anónima](/help/blueprints/audience-activation/anonymous.md)
    + [Activación con datos en línea y sin conexión](/help/blueprints/audience-activation/online-offline.md)
    + [Activación en destinos de streaming empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
