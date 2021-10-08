@@ -5,10 +5,10 @@ landing-page-description: Sincronice la personalización del sitio web con la de
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
-workflow-type: ht
-source-wordcount: '760'
-ht-degree: 100%
+source-git-commit: fd4ca13589f988605bfd7a3bdf64c43cd9acad68
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +57,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 Requisitos previos de identidad
 
 * El uso compartido de audiencias de Adobe Experience Platform con Adobe Target requiere el uso de ECID como identidad.
-* Se pueden utilizar identidades alternativas para compartir audiencias de Experience Platform con Adobe Target mediante Audience Manager, ya que Audience Manager puede resolver los ID alternativos como ECID siempre y cuando tanto el ECID como el ID alternativo se recopilen también para Audience Manager y utilicen la mismo área de nombres tanto en Audience Manager como en Experience Platform. Tenga en cuenta que Audience Manager y Target resuelven las suscripciones de audiencia a través de la identidad de ECID, por lo que ECID sigue siendo necesario para que la audiencia final se comparta en Adobe Target.
+* También se pueden usar identidades alternativas para compartir audiencias de Experience Platform con Adobe Target a través del Audience Manager. El Experience Platform activa las audiencias en el Audience Manager mediante las siguientes áreas de nombres admitidas: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Tenga en cuenta que Audience Manager y Target resuelven las suscripciones de audiencia a través de la identidad de ECID, por lo que ECID sigue siendo necesario para que la audiencia final se comparta en Adobe Target.
 
 | Aplicación/servicio | Biblioteca requerida | Notas |
 |---|---|---|
@@ -91,7 +91,7 @@ Requisitos previos de identidad
 * [Información general sobre el generador de segmentos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es)
 * [Conector de origen de Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es)
 * [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
-* [Documentación del SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es)
+* [Documentación del SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Documentación de Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 * [Documentación de las etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
 
