@@ -4,8 +4,8 @@ description: Este modelo muestra cómo Data Science Workspace de Adobe Experienc
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ El modelo de ciencia de datos personalizada para el enriquecimiento de perfiles 
 
 ## Arquitectura
 
-<img src="assets/data_science.svg" alt="Arquitectura de referencia del modelo de ciencia de datos personalizada para el enriquecimiento de perfiles" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Arquitectura de referencia del modelo de ciencia de datos personalizada para el enriquecimiento de perfiles" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Pasos de implementación
 
@@ -34,7 +34,7 @@ El modelo de ciencia de datos personalizada para el enriquecimiento de perfiles 
 1. Elegir un idioma. Compatible con Python y PySpark.
 1. [Crear un modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=es) en el cuaderno de notas.
 1. [Entrenar el modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=es).
-1. [Calificar el modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=es) para que genere predicciones con los datos de destino.
+1. [Calificar el modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) para que genere predicciones con los datos de destino.
 1. [Activar el conjunto de datos de resultados del modelo del perfil si envía los resultados del modelo a [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=es).
 
 ## Documentación relacionada

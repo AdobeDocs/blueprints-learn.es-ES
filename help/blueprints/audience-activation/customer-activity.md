@@ -4,8 +4,8 @@ description: Búsquedas en [!UICONTROL Real-time Customer Profile] para ofrecer 
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 ## Arquitectura
 
-<img src="assets/customer_activity_hub.svg" alt="Arquitectura de referencia para el modelo de centro de actividad del cliente" style="border:1px solid #4a4a4a" />
+<img src="assets/customer_activity_hub.svg" alt="Arquitectura de referencia para el modelo de centro de actividad del cliente" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardas
 
@@ -49,5 +49,5 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 * [Descripción del producto Adobe Experience Platform Activation](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentación de [[!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es)
-* [Guardas de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+* [Guardas de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [API de búsqueda de perfiles](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)

@@ -4,7 +4,7 @@ description: Administrar perfiles y audiencias en Experience Platform y comparti
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -26,7 +26,7 @@ La activación con las aplicaciones de Experience Cloud se alinea estrechamente 
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
-* Activación de Experience Platform
+* Experience Platform Activation
 * Aplicaciones de Experience Cloud
    * Adobe Audience Manager
    * Adobe Target
@@ -39,7 +39,7 @@ La activación con las aplicaciones de Experience Cloud se alinea estrechamente 
 
 ### Activación de audiencias y perfiles con las aplicaciones de Experience Cloud
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitectura de referencia de la activación de audiencias y perfiles con las aplicaciones de Experience Cloud" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitectura de referencia de la activación de audiencias y perfiles con las aplicaciones de Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas

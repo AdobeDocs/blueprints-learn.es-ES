@@ -5,8 +5,8 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ La personalización web y móvil aborda la habilidad de emplear la segmentación
 
 ### Diagrama de guardas de la personalización en línea/sin conexión
 
-<img src="assets/personalization_guardrails.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Entradas relacionadas en el blog
 
