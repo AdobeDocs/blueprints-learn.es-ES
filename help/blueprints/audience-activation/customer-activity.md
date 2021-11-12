@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -49,5 +49,5 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 * [Descripción del producto Adobe Experience Platform Activation](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentación de [[!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es)
-* [Guardas de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Guardas de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * [API de búsqueda de perfiles](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
