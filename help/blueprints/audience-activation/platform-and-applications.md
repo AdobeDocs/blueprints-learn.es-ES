@@ -4,9 +4,9 @@ description: Administrar perfiles y audiencias en Experience Platform y comparti
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
