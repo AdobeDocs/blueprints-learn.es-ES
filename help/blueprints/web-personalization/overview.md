@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 5cade6cb611e40d528834448d5cf5cb4316b6e4f
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ La personalización web y móvil aborda la habilidad de emplear la segmentación
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **[Personalización web/móvil basada en comportamiento](behavioral.md)** | <ul><li>Personalizar según el comportamiento en línea y los datos de audiencia</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
+| **[Personalización web/móvil basada en comportamiento](behavioral.md)** | <ul><li>Personalizar según el comportamiento en línea y los datos de audiencia</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(opcional)*</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalización web/móvil con datos en línea y sin conexión](online-offline.md)** | <ul><li>Personalizar con atributos y eventos sin conexión (transacciones, reservas, CRM y datos de fidelidad).</li><li>Sincronizar la personalización en el sitio web, el email y otros canales conocidos.</li></ul> | <ul><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 
 ## Guardas para la personalización web y móvil
