@@ -3,10 +3,10 @@ title: 'Industria minorista: Activación con aplicaciones Experience Cloud'
 description: Ofrecer experiencias de cliente en tiempo real en medios digitales, correo electrónico, push y canales web.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
-source-git-commit: 6da7ce0e5ae27fd7946c57f1a05a55a98026839d
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,18 +22,19 @@ Este negocio de experiencia integrada buscaba personalizar todo el recorrido del
 
 ## Valor empresarial entregado
 
-| Objetivos | Tácticas | Valor no bloqueado |
+| Objetivos | Tácticas | Valor desbloqueado |
 |---|---|---|
 | **Orquestación de recorridos de clientes en tiempo real **<br></br>**Impulsar compras repetidas de clientes nuevos **<br></br>**Mejore la eficacia del marketing y reduzca los costes de los medios**</ul> | <ul><li>Sólida estrategia de datos e identidad para impulsar un perfil integral en tiempo real.</li><li>Flujo continuo de datos transaccionales y del cliente en tiempo real, incluida una carga histórica de 90 días</li><li>Segmentación por transmisión a Google y Adobe Target para potenciar el gasto en medios y los esfuerzos de personalización.</li><li>Recorridos de clientes en tiempo real a través de Adobe Campaign que incluye una estrategia para medir el rendimiento</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Entrega de experiencias de clientes en tiempo real en medios, correo electrónico, push y web</li><li><strong>Fuentes de datos:</strong> Datos de transmisión que cubren las tiendas de perfiles, el sistema de pedidos, el catálogo de productos y los puntos de venta minoristas de este minorista.</li><li><strong>Activación de medios en tiempo real:</strong>Transmisión de segmentos a medios de Google para la atribución y supresión de anuncios</li><li><strong>Personalización web en tiempo real:</strong>La transmisión de segmentos a Adobe Target para activarlos en la experiencia web del minorista.</li><li><strong>Journey Orchestration a escala:</strong>Mensajería activada en tiempo real enriquecida con todos los datos de clientes disponibles y activando en tiempo real en canales de correo electrónico y push</li></ul> |
 
-## Modelo clave: Audiencia y activación con aplicaciones de Experience Cloud
+## Modelo principal: Audiencia y activación con aplicaciones de Experience Cloud
 
-<strong>Descripción</strong>
+### Descripción
+
 <ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud</li><li>Generar y compartir segmentos ricos y datos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud</li></ul>
 
-<strong>Aplicaciones de Experience Cloud</strong>
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul> 
-<br>
+### Aplicaciones de Experience Cloud
+
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul>
 
 ### Arquitectura de modelo
 

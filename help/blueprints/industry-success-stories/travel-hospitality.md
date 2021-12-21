@@ -3,17 +3,17 @@ title: 'Industria de viajes y hospitalidad: Activación con datos en línea y si
 description: Decisiones en tiempo real con una única vista consolidada del comportamiento del cliente en varios canales.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
-source-git-commit: 7a81ea5d71355323a784e12207542fb7dd6b286b
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Desafío empresarial de la industria de viajes y hospitalidad
 
-Una compañía de casino y entretenimiento en Estados Unidos quería revolucionar su capacidad de aprovechar los datos para crear conexiones personalizadas en tiempo real.  Esta visión se volvió aún más vital a medida que la pandemia COVID-19 cambió la forma en que los clientes interactúan con las empresas de viajes y hospitalidad.
+Una compañía de casino y entretenimiento en Estados Unidos quería revolucionar su capacidad de aprovechar los datos para crear conexiones personalizadas en tiempo real.  Esta visión se volvió aún más vital a medida que la pandemia COVID-19 cambió la forma en que los clientes interactúan con los negocios de viajes y hospitalidad.
 
 Aprovechando las tecnologías y servicios de Adobe, esta organización está preparada para sobresalir en sus objetivos y está preparada para enfrentar el futuro post-pandemia.
 
@@ -26,18 +26,19 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 
 ## Valor empresarial entregado
 
-| Objetivos | Tácticas | Valor no bloqueado |
+| Objetivos | Tácticas | Valor desbloqueado |
 |---|---|---|
-| **Haga que cada experiencia sea relevante para ese invitado **<br></br>**Perspectivas del negocio y democracia de datos a través de paneles **<br></br>**Eficacia organizativa y operativa**</ul> | <ul><li>Creación de perfiles de invitado de programa de recompensas unificadas mediante datos en línea y sin conexión para activación y medición</li><li>Activación en tiempo real en todos los canales a velocidad y escala</li><li>Capacidad de análisis de nivel de cliente desbloqueada con el análisis de Recorrido del cliente</li><li>Desarrolle inteligencia para mejorar la activación aprendiendo de los datos históricos de interacción del flujo de navegación.</li><li>Utilice los datos en línea y sin conexión para unificar una vista del cliente para obtener información sobre los recorridos y canales de los clientes.</li></ul> | <ul><li><strong> Activación en todos los canales:</strong>Impulsar la participación en correo electrónico 3X, el crecimiento direccionable de la audiencia y el crecimiento de impresiones, experiencias web altamente personalizadas </li><li><strong>Inteligencia:</strong>El programa de premios a los invitados opera una campaña de activación para reducir las tasas de pérdida de los miembros</li><li><strong>Informes:</strong>Combinación de datos en línea y sin conexión con información de AI/ML en un panel de recorrido y atribución compatible con el negocio, al tiempo que se reduce la latencia (en días)</li><li><strong>Pila de tecnología a prueba de futuro:</strong>Decenas de millones de perfiles en 7 canales listos para ejecutarse en escenarios de optimización de ventas cruzadas, ventas superiores y gastos</li></ul> |
+| **Haga que cada experiencia sea relevante para ese invitado **<br></br>**Perspectivas del negocio y democracia de datos a través de paneles **<br></br>**Eficacia organizativa y operativa**</ul> | <ul><li>Creación de perfiles de invitado de programa de recompensas unificadas mediante datos en línea y sin conexión para activación y medición</li><li>Activación en tiempo real en todos los canales a velocidad y escala</li><li>Capacidad de análisis de nivel de cliente desbloqueada con el análisis de Recorrido del cliente</li><li>Desarrolle inteligencia para mejorar la activación aprendiendo de los datos históricos de interacción del flujo de navegación.</li><li>Utilice los datos en línea y sin conexión para unificar una vista del cliente para obtener información sobre los recorridos y canales de los clientes.</li></ul> | <ul><li><strong> Activación en todos los canales: </strong>Impulsar la participación en correo electrónico 3X, el crecimiento direccionable de la audiencia y el crecimiento de impresiones, experiencias web altamente personalizadas </li><li><strong>Inteligencia: </strong>El programa de premios a los invitados opera una campaña de activación para reducir las tasas de pérdida de los miembros</li><li><strong>Informes: </strong>Combinación de datos en línea y sin conexión con información de AI/ML en un panel de recorrido y atribución compatible con el negocio, al tiempo que se reduce la latencia (en días)</li><li><strong>Pila de tecnología a prueba del futuro: </strong>Decenas de millones de perfiles en 7 canales listos para ejecutarse en escenarios de optimización de ventas cruzadas, ventas superiores y gastos</li></ul> |
 
-## Modelo clave: Activación con datos en línea y sin conexión
+## Modelo principal: Activación con datos en línea y sin conexión
 
-<strong>Descripción</strong>
+### Descripción
+
 <ul><li>Activación de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad.</li><li>Utilización de atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.</li></li></ul>
 
-<strong>Aplicaciones de Experience Cloud</strong>
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul> 
-<br>
+### Aplicaciones de Experience Cloud
+
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Arquitectura de modelo
 
