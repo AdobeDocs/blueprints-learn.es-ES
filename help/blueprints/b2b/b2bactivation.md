@@ -4,7 +4,7 @@ description: Ofrezca experiencias de cliente centradas en el perfil y audiencias
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 source-git-commit: 733394239c4f8f647291a7dfe198b741cb21ed36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 #### Guardas de perfil y segmentación de Experience Platform:
 
 * Consulte los guardas de perfil y la segmentación para Experience Platform - [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
-* Los segmentos B2B que incluyen cuentas, posibles clientes y oportunidades utilizan relaciones de varias entidades que hace que la evaluación de segmentos se convierta en lote. La segmentación por streaming es compatible con segmentos que están limitados a personas y eventos.
+* Los segmentos B2B que incluyen cuentas, posibles clientes y oportunidades utilizan relaciones de varias entidades que hace que la evaluación de segmentos se convierta en lote. La segmentación por flujo es compatible con segmentos que están limitados a personas y eventos.
 
 #### Experience Platform - Conector de origen de Marketo Engage:
 
@@ -65,7 +65,7 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 
 #### Experience Platform - Conector de destino de Marketo:
 
-* El uso compartido de segmentos de streaming de Real-time Customer Data Platform en Marketo Engage puede tardar hasta 5 minutos.
+* El uso compartido de segmentos de flujo de Real-time Customer Data Platform en Marketo Engage puede tardar hasta 5 minutos.
 * La segmentación por lotes se comparte una vez al día en función de la programación de segmentación de Experience Platform. Los segmentos B2B que incluyen cuentas, posibles clientes y oportunidades utilizan relaciones de varias entidades que hace que el segmento se convierta en lote.
 
 #### Guardas de Marketo Engage:
@@ -94,7 +94,7 @@ Si la implementación va a utilizar Marketo Engage como fuente y este está cone
 
 ## Documentación relacionada
 
-* [Edición B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Edición B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=es)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=es)
 * [Adobe Experience Platform: Conector de origen de Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=es)
