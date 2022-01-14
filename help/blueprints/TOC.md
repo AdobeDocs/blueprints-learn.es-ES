@@ -5,9 +5,9 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 92%
 
 + [Información general](/help/blueprints/overview.md)
 + [Ver todos los casos de uso](/help/blueprints/use-cases.md)
-+ Ver todos los casos de éxito de la industria{#industry-success-stories}
++ Ver todos los casos de éxito de la industria {#industry-success-stories}
    + [Información general](/help/blueprints/industry-success-stories/overview.md)
-   + [Ropa](/help/blueprints/industry-success-stories/apparel.md)
-   + [Comercial](/help/blueprints/industry-success-stories/retail.md)
+   + [Moda](/help/blueprints/industry-success-stories/apparel.md)
+   + [Sector minorista](/help/blueprints/industry-success-stories/retail.md)
    + [Telecomunicaciones](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [Viajes y hospitalidad](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [Turismo y hostelería](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Información general sobre la arquitectura {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
@@ -29,7 +29,7 @@ ht-degree: 92%
    + [Información general](/help/blueprints/audience-activation/overview.md)
    + [Activación de Audiencia Anónima](/help/blueprints/audience-activation/anonymous.md)
    + [Activación con datos en línea y sin conexión](/help/blueprints/audience-activation/online-offline.md)
-   + [Activación en destinos de streaming empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Activación en destinos de flujo empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
 + Activación y marketing B2B {#b2b-activation}
