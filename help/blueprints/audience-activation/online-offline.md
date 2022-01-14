@@ -4,10 +4,10 @@ description: Activación de audiencia en línea/sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ La activación con el modelo de datos de audiencias en línea/sin conexión se a
 
 * La pertenencia a audiencias de RT-CDP se comparte con Audience Manager de forma continua en cuanto se completa la evaluación de segmentos y se escribe en el perfil del cliente en tiempo real, independientemente de si la evaluación de segmentos se produce en lote o en flujo continuo. Si el perfil cualificado contiene la información de enrutamiento regional para dispositivos de perfil relacionados, la pertenencia a audiencias de RT-CDP se clasifica en modo de flujo continuo en Audience Manager Edge asociado. Si los perfiles de RT-CDP no contienen información de enrutamiento regional, las pertenencias a perfiles se envían a la ubicación del hub de Audience Manager para la evaluación y activación basadas en lotes. Los perfiles aptos para la activación de Edge se activarán en cuestión de minutos después de la calificación de segmentos de RT-CDP, los perfiles que no cumplen los requisitos para la activación de Edge se clasificarán en el hub de Audience Manager y pueden tener un intervalo de tiempo de 12 a 24 horas para el procesamiento.
 
-* La información de enrutamiento regional en la que se almacena la información de dispositivo relacionada del perfil de Audience Manager Edge se puede recopilar del conector de datos de Analytics cuando los datos de Analytics tienen habilitada la recopilación para perfiles o directamente de WebSDK en forma de conjunto de datos de clase de registro de perfil independiente que debe habilitarse para el perfil.
+* La información de enrutamiento regional en la que se almacena el Audience Manager Edge de la información de dispositivo relacionada del perfil se puede recopilar desde el conector de datos de Analytics cuando los datos de Analytics están habilitados para la recopilación en perfil o directamente desde el SDK web como un conjunto de datos de clase de registro de perfil independiente que debe habilitarse para el perfil.
 
 * En los casos de activación en los que las audiencias se comparten de Experience Platform a Audience Manager, las siguientes identidades se comparten automáticamente: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Actualmente, las áreas de nombres de los clientes no se comparten.
 
@@ -77,4 +77,4 @@ Las audiencias de Experience Platform se pueden compartir a través de los desti
 
 * Información general de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
 * [Versión de prueba de [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=es)
-* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es)
+* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
