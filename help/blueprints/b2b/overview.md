@@ -3,13 +3,13 @@ title: Activación y análisis B2B
 description: Ofrezca experiencias del cliente centradas en el perfil y audiencias basadas en la cuenta con Real-time Customer Data Platform.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
+source-git-commit: 9d0766cba6562066e5d8d7dc5c8983ab6fb1824b
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 95%
 
 ---
-
 
 # Activación y análisis B2B
 
@@ -19,5 +19,7 @@ Abordando el canal en primer lugar, cada canal actúa como un depósito donde lo
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **[Análisis B2B](b2bactivation.md)** | <ul><li>Incluir información de cuenta B2B en el análisis de recorrido del cliente</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
-| **[Activación de audiencia B2B](b2bactivation.md)** | <ul><li>Segmente audiencias B2B en canales web, de correo electrónico y de publicidad.</li></ul> | <ul><li>Adobe Real-time Customer Data Platform edición B2B</li></ul> |
+
+| **[Análisis B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>Incluir información de cuenta B2B en el análisis de recorrido del cliente</li></ul>|<ul><li>Adobe Customer Journey Analytics</li></ul>|
+| **[Activación de audiencia B2B](b2bactivation.md)** | <ul><li>Segmente audiencias B2B en canales web, de correo electrónico y de publicidad.</li></ul>|<ul><li>Adobe Real-time Customer Data Platform edición B2B</li></ul>|
+
