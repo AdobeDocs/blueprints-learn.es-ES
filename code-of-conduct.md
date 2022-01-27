@@ -1,16 +1,15 @@
 ---
-source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: ht
-translation-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # Código de conducta de Adobe
 
-## Nuestra promesa
+## Nuestro compromiso
 
-En interés de fomentar un entorno abierto y acogedor, tanto los contribuidores como los expertos en mantenimiento nos comprometemos a hacer de la participación en nuestro proyecto y nuestra comunidad una experiencia sin acosos, sin distinciones de edad, talla, posibles discapacidades, etnia, identidad y género, nivel de experiencia, nacionalidad, apariencia personal, raza, religión, o identidad y orientación sexuales.
+Con el objetivo de fomentar un entorno abierto y acogedor, tanto los colaboradores como los expertos en mantenimiento nos comprometemos a hacer de la participación en nuestro proyecto y nuestra comunidad una experiencia sin acosos, distinciones de edad, talla, discapacidad, etnia, identidad y género, nivel de experiencia, nacionalidad, apariencia, raza, religión o identidad, ni orientación sexual.
 
 ## Nuestros estándares
 

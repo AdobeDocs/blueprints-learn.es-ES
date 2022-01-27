@@ -2,10 +2,10 @@
 title: Modelos de experiencia digital
 description: Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar problemas empresariales existentes. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,17 +31,17 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen en miniatura del modelo de mensajería activada y Experience Platform" src="customer-journeys/assets/journey-optimizer.png" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><strong>Mensajería activada y Experience Platform</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Mensajería activada y Experience Platform</strong></a></div>
     <p><em>Active mensajes y experiencias utilizando [!UICONTROL Platform] como repositorio central.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=es"><img alt="imagen en miniatura del modelo de Activación de Audiencia en línea / sin conexión" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=es"><strong>Activación de Audiencia en línea/sin conexión</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Activación de Audiencia en línea/sin conexión</strong></a></div>
     <p><em>Ofrezca publicidad multicanal activada por audiencia.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es"><img alt="imagen en miniatura del modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es"><strong>Análisis de recorridos multicanal</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Análisis de recorridos multicanal</strong></a></div>
     <p><em>Obtenga una sola vista consolidada del comportamiento del cliente en varios canales.</em></p>
   </td>
 </tr>

@@ -1,9 +1,8 @@
 ---
-source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: ht
-translation-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # Contribución
@@ -22,7 +21,7 @@ Consultar la [Guía del colaborador](https://docs.adobe.com/content/help/es-ES/c
 
 ## ¿Tiene preguntas?
 
-Comience por presentar un problema. Los committers existentes de este proyecto trabajan para llegar a un consenso en torno a la dirección del proyecto y resolver los problemas presentados en los hilos de problemas (cuando proceda).
+Comience por presentar un problema. Los miembros de este proyecto trabajan para llegar a un consenso en torno a la dirección del proyecto y resolver los problemas presentados en los hilos de problemas (cuando proceda).
 
 ## Contrato de licencia de colaborador
 
@@ -30,16 +29,16 @@ Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un
 
 ## Reseñas de código
 
-Todas las contribuciones deben presentarse en forma de solicitudes de extracción (pull requests), que examinarán los committers del proyecto. Lea la documentación de [solicitud de extracción (pull request) de GitHub](https://help.github.com/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes de extracción.
+Todas las contribuciones deben presentarse en forma de &quot;pull requests&quot;, que examinarán los miembros del proyecto. Lea la documentación sobre [pull requests de GitHub](https://help.github.com/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes &quot;pull&quot;.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## De colaborador a committer
+## De colaborador a miembro
 
-Nos encanta que nuestra comunidad envíe contribuciones. Si quiere ser más que un colaborador y convertirse en committer, con acceso de escritura completa y tener voz en el proyecto, debe obtener una invitación al proyecto. Los committers siguen un proceso de nominación interna que debe alcanzar un consenso muy general (el silencio significa aprobación) antes de que se emitan las invitaciones. Si cree que cuenta con la cualificación apropiada y quiere involucrarse más profundamente, no dude en ponerse en contacto con los committers para tratar este asunto con ellos.
+Nos encanta que nuestra comunidad envíe contribuciones. Si quiere ser más que un colaborador y convertirse en committer, con acceso de escritura completa y tener voz en el proyecto, debe obtener una invitación al proyecto. Los miembros siguen un proceso de nominación interna que debe alcanzar un consenso muy general (el silencio significa aprobación) antes de que se emitan las invitaciones. Si cree que cuenta con la cualificación apropiada y quiere involucrarse más profundamente, no dude en ponerse en contacto con los miembros existentes para tratar este asunto con ellos.
 
 ## Problemas de seguridad
 
