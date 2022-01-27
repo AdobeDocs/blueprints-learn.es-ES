@@ -7,8 +7,8 @@ kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
 
 ## Arquitectura
 
-Arquitectura general
+Vista general de la arquitectura
 
 <img src="assets/RTCDP+Target.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
 
@@ -130,7 +130,7 @@ Requisitos previos de identidad
 1. [Implementar Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=es) (opcional)
 1. [Implementar Experience Platform y [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=es)
 1. Implementar el [Servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=es) o el [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es)
-1. [Habilitar Adobe Target como destino en Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) o para el enfoque de uso compartido de audiencias [Solicitar aprovisionamiento para el uso compartido de audiencias entre Experience Platform y Adobe Target (audiencias compartidas)](https://www.adobe.com/go/audiences) para compartir audiencias de Experience Platform a Target.
+1. [Habilitar Adobe Target como destino en Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es) o para el enfoque de uso compartido de audiencias [Solicitar aprovisionamiento para el uso compartido de audiencias entre Experience Platform y Adobe Target (audiencias compartidas)](https://www.adobe.com/go/audiences) para compartir audiencias de Experience Platform con Target.
    >[!NOTE]
    >
    >Al utilizar el servicio de uso compartido de audiencias entre RTCDP y Adobe Target, las audiencias deben compartirse con el Experience Cloud ID y formar parte de la misma organización de Experience Cloud. La compatibilidad con identidades distintas de ECID requiere el uso de WebSDK y Experience Edge Network.
