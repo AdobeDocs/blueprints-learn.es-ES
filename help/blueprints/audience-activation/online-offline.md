@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ La activación con el modelo de datos de audiencias en línea/sin conexión se a
 1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingestados se puedan combinar en un perfil unificado.
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
 1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
-1. [Disponer el intercambio de segmentos de [!UICONTROL Real-time Customer Data Platform] entre Experience Platform y Audience Manager](https://www.adobe.com/go/audiences) para que las audiencias definidas en Experience Platform se compartan con Audience Manager.
+1. [Disponer el intercambio de segmentos de [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre Experience Platform y Audience Manager para que las audiencias definidas en Experience Platform se compartan con Audience Manager.
 1. [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es) en Experience Platform. El sistema determina automáticamente si el segmento debe ser evaluado por lotes o streaming.
 1. [Configurar destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=es) para compartir atributos de perfil y pertenencias a audiencia a los destinos deseados.
 
@@ -60,7 +60,7 @@ La activación con el modelo de datos de audiencias en línea/sin conexión se a
 
 * La pertenencia a audiencias de RT-CDP se comparte con Audience Manager de forma continua en cuanto se completa la evaluación de segmentos y se escribe en el perfil del cliente en tiempo real, independientemente de si la evaluación de segmentos se produce en lote o en flujo continuo. Si el perfil cualificado contiene la información de enrutamiento regional para dispositivos de perfil relacionados, la pertenencia a audiencias de RT-CDP se clasifica en modo de flujo continuo en Audience Manager Edge asociado. Si los perfiles de RT-CDP no contienen información de enrutamiento regional, las pertenencias a perfiles se envían a la ubicación del hub de Audience Manager para la evaluación y activación basadas en lotes. Los perfiles aptos para la activación de Edge se activarán en cuestión de minutos después de la calificación de segmentos de RT-CDP, los perfiles que no cumplen los requisitos para la activación de Edge se clasificarán en el hub de Audience Manager y pueden tener un intervalo de tiempo de 12 a 24 horas para el procesamiento.
 
-* La información de enrutamiento regional en la que se almacena el Audience Manager Edge de la información de dispositivo relacionada del perfil se puede recopilar desde el conector de datos de Analytics cuando los datos de Analytics están habilitados para la recopilación en perfil o directamente desde el SDK web como un conjunto de datos de clase de registro de perfil independiente que debe habilitarse para el perfil.
+* La información de enrutamiento regional en la que se almacena la información de dispositivo relacionada del perfil de Audience Manager Edge se puede recopilar del conector de datos de Analytics cuando los datos de Analytics tienen habilitada la recopilación para perfiles o directamente del SDK web en forma de conjunto de datos de clase de registro de perfil independiente que debe habilitarse para el perfil.
 
 * En los casos de activación en los que las audiencias se comparten de Experience Platform a Audience Manager, las siguientes identidades se comparten automáticamente: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Actualmente, las áreas de nombres de los clientes no se comparten.
 
