@@ -2,9 +2,7 @@
 title: Modelo de Campaign v8
 description: Adobe Campaign v8 es la herramienta de campañas de próxima generación diseñada para canales de marketing tradicionales como correo electrónico y correo postal. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes.  También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para cosas como restablecimiento de contraseña, confirmación de pedido, recepción electrónica y mucho más.
 solution: Campaign v8
-hidefromtoc: true
-exl-id: f754d099-6842-4759-8e27-6a06d5d8c2e9
-source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
+source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 3%
@@ -32,7 +30,7 @@ Adobe Campaign v8 es la herramienta de campañas de próxima generación diseña
 
 <br>
 
-## Escenarios de modelo
+## Patrones de integración
 
 | Escenario | Descripción | Competencias |
 | :-- | :--- | :--- |

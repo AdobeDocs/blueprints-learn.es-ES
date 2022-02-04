@@ -3,9 +3,9 @@ title: Journey Optimizer - Modelo de mensajería activada y Adobe Experience Pla
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Experience Platform, Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+source-git-commit: 2ead62f94e761cd9453be284a9fde3c5803879eb
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 42%
 
 ---
@@ -38,6 +38,13 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 | Escenario | Descripción | Competencias |
 | :-- | :--- | :--- |
 | [Mensajería de terceros](3rd-party-messaging.md) | Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas | Entregue 1:1 en el momento de las comunicaciones personalizadas a los clientes a medida que interactúan con su marca o empresa<br><br>Consideraciones:<br><ul><li>El sistema de terceros debe admitir tokens de portador para la autenticación</li><li>No hay compatibilidad con IP estáticas debido a la arquitectura de varios inquilinos</li><li>Tenga en cuenta las limitaciones arquitectónicas del sistema de terceros cuando se trata de llamadas API por segundo.  Puede ser necesario que el cliente compre un volumen adicional del proveedor de terceros para soportar el volumen proveniente de Journey Optimizer</li><li>No admite el Offer decisioning en mensajes o cargas útiles</li></ul> |
+
+<br>
+
+## Patrones de integración
+
+| Integración | Descripción | Competencias |
+| :-- | :--- | :--- |
 | [Journey Optimizer con Adobe Campaign](ajo-and-campaign.md) | Muestra cómo puede utilizar Adobe Journey Optimizer para orquestar experiencias 1:1 utilizando el Perfil del cliente en tiempo real y aprovechar el sistema de mensajería transaccional nativo de Adobe Campaign para enviar el mensaje | Aproveche el perfil de cliente en tiempo real y la potencia de Journey Optimizer para orquestar en el momento las experiencias mientras utiliza las capacidades nativas de mensajería en tiempo real de Adobe Campaign para realizar la comunicación de última milla<br><br>Consideraciones:<br><ul><li>La aplicación de campaña debe estar en la versión 7 > 21.1 o v8</li><li>Rendimiento de mensajería</li><ul><li>Campaign v7: hasta 50.000 por hora</li><li>Campaña v8: hasta 1 M por hora</li><li>Campaign Standard - hasta 50 k por hora</li></ul><li>No se realiza ninguna restricción, por lo que los casos de uso necesitan una revisión técnica de un arquitecto de Enterprise</li><li>No se admite la utilización del Offer decisioning en el mensaje enviado por Campaign</li></ul> |
 
 <br>

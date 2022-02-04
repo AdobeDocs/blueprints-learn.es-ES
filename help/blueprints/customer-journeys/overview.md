@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standa
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 6ffa7b7025bd143c9c02f4708a96207141b841e6
+source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 48%
+source-wordcount: '258'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,8 @@ Actualmente hay dos opciones de Adobe para que los clientes seleccionen entre la
 
 <ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
 
-| Modelo | Descripción | Aplicaciones de Experience Cloud |
+| Modelo | Descripción | Arquitectura |
 |---|---|---|
-| **[Adobe Campaign Managed Cloud Services](campaign.md)** | Nuestra aplicación de campañas tradicional alojada y administrada reduciendo la carga y la complejidad de ejecutar un sistema para TI, mientras permite a los especialistas en marketing crear campañas de marketing por lotes en canales como correo electrónico, SMS y correo postal. Permite a los clientes combinar sus complejos procesos de administración de datos con enriquecidas comunicaciones de campañas de marketing | Adobe Campaign v8<br>Adobe Campaign v7<br>Adobe Campaign Standard |
-| **[Journey Optimizer](journey-optimizer.md)** | Se ha creado de forma nativa sobre el perfil del cliente en tiempo real de los Experience Platform, lo que permite a los equipos de marketing reaccionar en tiempo real ante los cambios de comportamiento de los clientes y satisfacerlos cuando se encuentran en cualquier canal en cualquier momento | Adobe Experience Platform<br>Adobe Journey Optimizer |
+| **[Journey Optimizer](journey-optimizer.md)** | Se ha creado de forma nativa sobre el perfil del cliente en tiempo real de los Experience Platform, lo que permite a los equipos de marketing reaccionar en tiempo real ante los cambios de comportamiento de los clientes y satisfacerlos cuando se encuentran en cualquier canal en cualquier momento | <img src="assets/ajo-architecture.svg" alt="Arquitectura de referencia para Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | Herramienta de campaña de próxima generación optimizada para procesos de campaña y administración de datos muy complejos. Permite a los clientes combinar las comunicaciones de descubrir y crear campañas de marketing enriquecidas | <img src="assets/campaign-v8-architecture.svg" alt="Arquitectura de referencia para Campaign v8 Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Herramienta de campaña tradicional creada para campañas de marketing por lotes en canales como correo electrónico, SMS y correo postal. Permite a los clientes organizar y administrar las distintas comunicaciones con los clientes en un solo lugar | <img src="assets/campaign-v7-architecture.svg" alt="Arquitectura de referencia para Campaign v7 Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
