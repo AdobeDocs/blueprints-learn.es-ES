@@ -2,9 +2,10 @@
 title: Modelo de Campaign v8
 description: Adobe Campaign v8 es la herramienta de campañas de próxima generación diseñada para canales de marketing tradicionales como correo electrónico y correo postal. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes.  También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para cosas como restablecimiento de contraseña, confirmación de pedido, recepción electrónica y mucho más.
 solution: Campaign v8
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -89,9 +90,7 @@ Adobe Campaign v8 es la herramienta de campañas de próxima generación diseña
 ### Tamaño del servidor de mensajería en tiempo real
 
 * Pueden enviar hasta 1 millón de mensajes por hora
-* De forma predeterminada, solo se aprovisiona un (1) servidor de mensajería en tiempo real. Esto sirve para garantizar que cualquier comunicación con el servidor se realice mediante un token de sesión que caduque en 24 horas
-* De forma opcional, puede implementar hasta ocho (8) servidores de mensajería en tiempo real, pero la autenticación solo es compatible con user/pass
-* El método recomendado siempre es utilizar un servidor de mensajería en tiempo real para aprovechar la autenticación basada en token de sesión siempre que sea posible
+* De forma predeterminada, se aprovisionan dos servidores de mensajería en tiempo real. Capacidad para ampliar hasta ocho servidores de mensajería en tiempo real.
 
 ### Configuración de SMS
 
