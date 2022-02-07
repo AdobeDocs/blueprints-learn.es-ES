@@ -4,10 +4,10 @@ description: Activación de audiencia en línea/sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 79%
 
 ---
 
@@ -58,9 +58,9 @@ La activación con el modelo de datos de audiencias en línea/sin conexión se a
 
 ### Uso compartido de audiencias de Real-time Customer Data Platform con Audience Manager
 
-* La pertenencia a audiencias de RT-CDP se comparte con Audience Manager de forma continua en cuanto se completa la evaluación de segmentos y se escribe en el perfil del cliente en tiempo real, independientemente de si la evaluación de segmentos se produce en lote o en flujo continuo. Si el perfil cualificado contiene la información de enrutamiento regional para dispositivos de perfil relacionados, la pertenencia a audiencias de RT-CDP se clasifica en modo de flujo continuo en Audience Manager Edge asociado. Si los perfiles de RT-CDP no contienen información de enrutamiento regional, las pertenencias a perfiles se envían a la ubicación del hub de Audience Manager para la evaluación y activación basadas en lotes. Los perfiles aptos para la activación de Edge se activarán en cuestión de minutos después de la calificación de segmentos de RT-CDP, los perfiles que no cumplen los requisitos para la activación de Edge se clasificarán en el hub de Audience Manager y pueden tener un intervalo de tiempo de 12 a 24 horas para el procesamiento.
+* La pertenencia a audiencias de RT-CDP se comparte con Audience Manager de forma continua en cuanto se completa la evaluación de segmentos y se escribe en el perfil del cliente en tiempo real, independientemente de si la evaluación de segmentos se produce en lote o en flujo continuo. Si el perfil cualificado contiene la información de enrutamiento regional para dispositivos de perfil relacionados, la pertenencia a audiencias de RT-CDP se clasifica en modo de flujo continuo en Audience Manager Edge asociado. Si la información de enrutamiento regional se aplicó a un perfil con una marca de tiempo en los últimos 14 días, se evaluará en el borde del Audience Manager en streaming. Si los perfiles de RTCDP no contienen información de enrutamiento regional o si la información de enrutamiento regional tiene buenos 14 días, las pertenencias de perfil se envían a la ubicación de concentrador de Audience Manager para la evaluación y activación basadas en lotes. Los perfiles aptos para la activación de Edge se activarán en cuestión de minutos después de la calificación del segmento de RTCDP, los perfiles que no cumplen los requisitos para la activación de Edge se clasificarán en el centro de Audience Manager y pueden tener un intervalo de tiempo de 12 a 24 horas para el procesamiento.
 
-* La información de enrutamiento regional en la que se almacena la información de dispositivo relacionada del perfil de Audience Manager Edge se puede recopilar del conector de datos de Analytics cuando los datos de Analytics tienen habilitada la recopilación para perfiles o directamente del SDK web en forma de conjunto de datos de clase de registro de perfil independiente que debe habilitarse para el perfil.
+* La información de enrutamiento regional en la que se almacena el perfil de Audience Manager de Edge se puede recopilar al Experience Platform desde el Audience Manager, el servicio de ID de visitante, Analytics, Launch o directamente desde el SDK web como un conjunto de datos de clase de registro de perfil independiente mediante el grupo de campos XDM &quot;información de región de captura de datos&quot;.
 
 * En los casos de activación en los que las audiencias se comparten de Experience Platform a Audience Manager, las siguientes identidades se comparten automáticamente: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Actualmente, las áreas de nombres de los clientes no se comparten.
 
