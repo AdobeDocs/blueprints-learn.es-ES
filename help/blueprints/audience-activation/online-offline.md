@@ -4,9 +4,9 @@ description: Activación de audiencia en línea/sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
+source-git-commit: 53ef83cbaa9dde0793e379c0044f449cfca078ab
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '743'
 ht-degree: 79%
 
 ---
@@ -17,7 +17,7 @@ Emplee atributos y eventos sin conexión, tales como pedidos sin conexión, tran
 
 Active audiencias de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad.
 
-La activación con el modelo de datos de audiencias en línea/sin conexión se alinea estrechamente con el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md). La información adicional ofrecida en el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md) es específica de la integración entre Experience Platform y las aplicaciones de Experience Cloud.
+La información adicional ofrecida en el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md) es específica de la integración entre Experience Platform y las aplicaciones de Experience Cloud.
 
 ## Casos de uso
 
