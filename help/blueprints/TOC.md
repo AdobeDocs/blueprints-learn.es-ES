@@ -3,13 +3,15 @@ user-guide-title: Modelos de experiencia digital
 breadcrumb-title: 'Modelos '
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
+source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 86%
+source-wordcount: '172'
+ht-degree: 78%
 
 ---
+
 
 # Modelos de experiencia digital {#architecture}
 
@@ -28,7 +30,9 @@ ht-degree: 86%
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
    + [Activación de Audiencia Anónima](/help/blueprints/audience-activation/anonymous.md)
-   + [Activación con datos en línea y sin conexión](/help/blueprints/audience-activation/online-offline.md)
+   + [Activación a canales publicitarios y sociales]{#audience-activation}
+      + [Activación con datos en línea y sin conexión](/help/blueprints/audience-activation/online-offline.md)
+      + [Activación en Audiencias personalizadas de Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
    + [Activación en destinos de flujo empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
@@ -61,4 +65,3 @@ ht-degree: 86%
    + [Información general](/help/blueprints/web-personalization/overview.md)
    + [Personalización basada en comportamiento](/help/blueprints/web-personalization/behavioral.md)
    + [Personalización con datos en línea y sin conexión](/help/blueprints/web-personalization/online-offline.md)
-
