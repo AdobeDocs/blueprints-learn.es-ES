@@ -3,13 +3,13 @@ title: Activación en Audiencias personalizadas de Facebook
 description: Activación en Audiencias personalizadas de Facebook.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
-
 
 # Activación en Audiencias personalizadas de Facebook
 
@@ -19,7 +19,9 @@ Ingeste datos de clientes de varias fuentes para crear una única vista de perfi
 
 * Segmentación de audiencia para audiencias conocidas en destinos sociales y de publicidad.
 * Personalización en línea con atributos en línea y sin conexión.
-Aplicaciones
+
+## Aplicaciones
+
 * Real-time Customer Data Platform
 
 ## Arquitectura
@@ -32,7 +34,7 @@ Aplicaciones
    * Utilice áreas de nombres predeterminadas como Correo electrónico, Hash SHA256 de correo electrónico, si están disponibles.
    * Facebook tiene una lista de identidades admitidas. Para activar en audiencias personalizadas de Facebook, una de las identidades admitidas debe estar presente en los perfiles que se activarán.
    * Facebook admite actualmente las siguientes identidades: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-   * Para obtener más información, consulte la [Guía de destino de facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * Para obtener más información, consulte la [Guía de destino de facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * Cree áreas de nombres personalizadas en las que las áreas de nombres predeterminadas no estén disponibles para las identidades aplicables.
 1. Configure esquemas y conjuntos de datos de fuentes de datos de perfil.
    * Cree esquemas de registro de perfil para todos los datos de origen de registros de perfil.
@@ -67,7 +69,7 @@ Aplicaciones
    * Revise el recuento de resultados del segmento para los segmentos dados.
    * Investigue el perfil que debe incluirse en el segmento para verificar que la pertenencia al segmento se incluye en la parte de pertenencia al segmento del perfil.
 1. Configure la entrega de la audiencia al destino en la configuración de destino.
-   * Consulte la [Guía de destino de facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) para obtener más información sobre la configuración del destino de Facebook.
+   * Consulte la [Guía de destino de facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) para obtener más información sobre la configuración del destino de Facebook.
    * Al configurar un destino, seleccione qué audiencia desea activar en el destino.
    * Determine la fecha de inicio programada en la que desea que el flujo de datos de destino comience a enviar la audiencia al destino.
    * Cada destino tiene atributos opcionales y requeridos que se envían.
@@ -88,4 +90,4 @@ Aplicaciones
 
 ## Documentación relacionada
 
-Activación en Audiencias personalizadas de Facebook: [Configuración de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+Activación en Audiencias personalizadas de Facebook: [Configuración de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
