@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a61fa9d1c6a77e9eb32ff363f724de92fbac8585
+source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 78%
+source-wordcount: '177'
+ht-degree: 76%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 78%
    + [Activación con datos en línea y sin conexión](/help/blueprints/audience-activation/online-offline.md)
    + Activación a canales publicitarios y sociales{#audience-activation}
       + [Activación en Audiencias personalizadas de Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
+      + [Activation to Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
    + [Activación en destinos de flujo empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
