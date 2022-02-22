@@ -27,7 +27,7 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 ## Aplicaciones
 
-* Adobe Experience Platform
+* Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
 
 ## Arquitectura

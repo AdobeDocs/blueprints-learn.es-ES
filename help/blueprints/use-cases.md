@@ -88,8 +88,7 @@ ht-degree: 98%
  <tr>
   <td>Mensajes activados.</td>
   <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey
-  Optimizer</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
  </tr>
  <tr>
   <td>Confirmaciones de registro.</td>
