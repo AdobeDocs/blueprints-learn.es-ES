@@ -5,9 +5,9 @@ landing-page-description: Sincronice la personalización del sitio web con la de
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8d01529c611b2dabeeb6b11a227e7c3a9f132774
+source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1463'
 ht-degree: 50%
 
 ---
@@ -51,7 +51,7 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Evaluación de segmentos en tiempo real en Edge compartida de Real-time Customer Data Platform a Target</td>
-    <td class="tg-0lax">- Evalúe las audiencias en tiempo real para la personalización de la misma página o de la siguiente en Edge.<br>: comparta audiencias de flujo continuo y por lotes de Real-time Customer Data Platform a Target a través de la red perimetral.</td>
+    <td class="tg-0lax">- Evalúe las audiencias en tiempo real para la personalización de la misma página o de la siguiente en Edge.<br>- Además, cualquier segmento evaluado en el flujo continuo o por lotes también se proyectará a la red perimetral para que se incluya en la evaluación y personalización de segmentos Edge.</td>
     <td class="tg-73oq">- El almacén de datos debe configurarse en Experience Edge con la extensión Target y el Experience Platform habilitada, el ID del almacén de datos se proporcionará en la configuración de destino de Target.<br>: el destino de destino debe configurarse en Real-time Customer Data Platform Destinations.<br>- La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.<br>- Se debe implementar WebSDK.<br>: La implementación basada en API y SDK móvil no está disponible actualmente</td> 
   </tr>
   <tr>
