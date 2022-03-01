@@ -5,10 +5,10 @@ landing-page-description: Sincronice la personalización del sitio web con la de
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 4d02197b437c167a90cbadf16b0b19fc733a9f65
+source-git-commit: 2b2e9a7b849b71ac4b827a3783820a7e4b8ad6f1
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 50%
+source-wordcount: '1548'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
 * Adobe Audience Manager (opcional): Agrega datos de audiencia de terceros, gráficos de dispositivos basados en cooperación, la capacidad de mostrar audiencias de Real-time Customer Data Platform en Adobe Analytics y la capacidad de mostrar audiencias de Adobe Analytics en Real-time Customer Data Platform.
 * Adobe Analytics (opcional): añade la habilidad de generar segmentos basados en los datos de comportamiento histórico y realizar una segmentación detallada de los datos de Adobe Analytics.
 
-## Patrones de integración
+## Casos de uso
 
 <table class="tg" style="undefined;table-layout: fixed; width: 790px">
 <colgroup>
@@ -42,7 +42,7 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
 <thead>
   <tr>
     <th class="tg-y6fn">#</th>
-    <th class="tg-f7v4">Patrón de integración</th>
+    <th class="tg-f7v4">Casos de uso</th>
     <th class="tg-y6fn">Capacidad</th>
     <th class="tg-f7v4">Requisitos previos</th>
   </tr>
@@ -52,49 +52,38 @@ Sincronice la personalización del sitio web con la del email y otras personaliz
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Evaluación de segmentos en tiempo real en Edge compartida de Real-time Customer Data Platform a Target</td>
     <td class="tg-0lax">- Evalúe las audiencias en tiempo real para la personalización de la misma página o de la siguiente en Edge.<br>- Además, cualquier segmento evaluado en flujo continuo o por lotes también se proyectará a la red perimetral para que se incluya en la evaluación y personalización de segmentos Edge.</td>
-    <td class="tg-73oq">- El almacén de datos debe configurarse en Experience Edge con la extensión Target y el Experience Platform habilitada, el ID del almacén de datos se proporcionará en la configuración de destino de Target.<br>: el destino de destino debe configurarse en Real-time Customer Data Platform Destinations.<br>- La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.<br>- Se debe implementar WebSDK.<br>: La implementación basada en API y SDK móvil no está disponible actualmente</td> 
+    <td class="tg-73oq"><br>- El patrón de implementación 1 se describe a continuación.<br>: el SDK web/móvil debe implementarse.<br>: Tenga en cuenta que el SDK móvil y la compatibilidad basada en API para la segmentación en tiempo real no están disponibles actualmente<br>- El almacén de datos debe configurarse en Experience Edge con la extensión Target y el Experience Platform habilitada, el ID del almacén de datos se proporcionará en la configuración de destino de Target.<br>: el destino de destino debe configurarse en Real-time Customer Data Platform Destinations.<br>- La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Uso compartido de audiencias por transmisión y por lotes de Real-time Customer Data Platform a Target mediante el enfoque de Edge</td>
     <td class="tg-0lax">: comparta audiencias de flujo continuo y por lotes de Real-time Customer Data Platform a Target a través de la red perimetral. Las audiencias evaluadas en tiempo real requieren el uso de WebSDK y la evaluación de audiencias en tiempo real que se describen en el patrón de integración 1.<br>: Esta integración suele aprovecharse para compartir audiencias de flujo continuo y por lotes mediante SDK tradicionales en lugar de migrar a la recopilación de Edge y a WebSDK, que alimenta las audiencias en tiempo real, así como las de flujo continuo y por lotes, tal como se describe en el patrón de integración 1.</td>
-    <td class="tg-73oq">- El almacén de datos debe configurarse en Experience Edge, el ID del almacén de datos se proporcionará en la configuración de destino de Target.<br>: el destino de destino debe configurarse en Real-time Customer Data Platform Destinations.<br>- La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.<br>: WebSDK no es necesario para compartir audiencias de flujo continuo y por lotes con Target, aunque se requiere para habilitar la evaluación de segmentos perimetrales en tiempo real como se describe en el patrón de integración 1. <br>- Si se utiliza AT.js, solo se admite la integración de perfiles con el espacio de nombres de identidad de ECID. <br>: Para las búsquedas de espacio de nombres de identidad personalizado en Edge, la implementación de WebSDK es necesaria y cada identidad debe configurarse como identidad en el mapa de identidad.</td>
+    <td class="tg-73oq"><br>- Patrón de implementación 1 o 2 descrito a continuación.<br>: El SDK web/móvil no es necesario para compartir audiencias de flujo continuo y por lotes con Target, aunque es necesario para habilitar la evaluación de segmentos perimetrales en tiempo real como se describe en el patrón de integración 1. <br>- Si se utiliza AT.js, solo se admite la integración de perfiles con el espacio de nombres de identidad de ECID. <br>: Para las búsquedas de espacio de nombres de identidad personalizado en Edge, la implementación de WebSDK es necesaria y cada identidad debe configurarse como identidad en el mapa de identidad.<br>- El almacén de datos debe configurarse en Experience Edge, el ID del almacén de datos se proporcionará en la configuración de destino de Target.<br>: el destino de destino debe configurarse en Real-time Customer Data Platform Destinations.<br>- La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Flujo continuo y uso compartido de audiencias por lotes de Real-time Customer Data Platform a Target y Audience Manager mediante el enfoque del servicio de uso compartido de audiencias</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal">: comparta audiencias de flujo continuo y por lotes de Real-time Customer Data Platform a Target y Audience Manager mediante el servicio de uso compartido de audiencias.<br> -Este patrón de integración se puede aprovechar cuando se desea un enriquecimiento adicional de datos y audiencias de terceros en Audience Manager. De lo contrario, se prefieren los patrones de integración 1 y 2. Las audiencias evaluadas en tiempo real requieren el uso de WebSDK y la evaluación de audiencias en tiempo real que se describen en el patrón de integración 1.</span></td>
-    <td class="tg-73oq">- Se debe aprovisionar la proyección de audiencias mediante el servicio de uso compartido de audiencias.<br>- La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.<br>- La identidad debe resolverse en ECID para compartirla en el extremo para que Target actúe al respecto.<br>- La implementación de WebSDK no es necesaria para esta integración.</td>
+    <td class="tg-73oq"><br>- Patrón de implementación 1 o 2 descrito a continuación.<br>: La implementación del SDK web/móvil no es necesaria para esta integración.<br>- Se debe aprovisionar la proyección de audiencias mediante el servicio de uso compartido de audiencias.<br>- La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.<br>- La identidad debe resolverse en ECID para compartirla en el extremo para que Target actúe al respecto.</td>
   </tr>
 </tbody>
 </table>
 
+## Arquitectura para los escenarios 1 y 2: uso compartido de audiencias en tiempo real, de transmisión y por lotes a través de la red perimetral
 
-## Arquitectura para el patrón de integración 1
-
-
-Arquitectura detallada para el patrón de integración 1
+Arquitectura
 
 <img src="assets/RTCDP+Target.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
 
-Diagrama de secuencias para el patrón de integración 1
+Detalle de secuencia
 
 <img src="assets/RTCDP+Target_flow.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
-
-<br>
-
-<img src="assets/RTCDP+Target_sequence.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
 
 Arquitectura de información general para el patrón de integración 1
 
 <img src="assets/personalization_with_apps.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a"/>
 
-
-## Implementación para el patrón de integración 1
-
-Para la segmentación en tiempo real en Edge, la variable [!UICONTROL SDK web de plataforma] y [!UICONTROL Red perimetral] debe implementarse. [Consulte el modelo del SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)
-
-### Pasos de implementación del patrón de integración 1
+### Pasos de implementación para el escenario 1, también admite el escenario 2
 
 1. [Implementar Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=es) para sus aplicaciones móviles o web
 1. [Implementar Experience Platform y [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=es)
@@ -102,12 +91,13 @@ Para la segmentación en tiempo real en Edge, la variable [!UICONTROL SDK web de
 1. [Configuración de la red perimetral con un conjunto de datos perimetral](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Habilitar Adobe Target como destino en Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es)
 
-## Implementación para los patrones de integración 2 y 3
+## Arquitectura para el escenario 3: uso compartido de audiencias por transmisión y por lotes a través del servicio de uso compartido de audiencias con Adobe Target y Audience Manager
 
-Uso de SDK tradicionales específicos de la aplicación (por ejemplo, AT.js y AppMeasurement.js)
-<img src="assets/app_sdk_flow.png" alt="Arquitectura de referencia del enfoque con el SDK específico de cada aplicación" style="width:80%; border:1px solid #4a4a4a" />
+Arquitectura
 
-### Pasos de implementación para los patrones de integración 2 y 3
+<img src="assets/audience_share_architecture.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
+
+### Pasos de implementación para el escenario 3, también admite el escenario 2
 
 1. [Implementar Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) para sus aplicaciones móviles o web
 1. [Implementar Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es) (opcional)
@@ -117,6 +107,24 @@ Uso de SDK tradicionales específicos de la aplicación (por ejemplo, AT.js y Ap
 1. [Solicitar aprovisionamiento para el uso compartido de audiencias entre Experience Platform y Adobe Target (audiencias compartidas)](https://www.adobe.com/go/audiences) para compartir audiencias de Experience Platform a Target.
 1. (Opcional) [Configuración de la red perimetral con un conjunto de datos perimetral](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) (Esto solo es necesario para el patrón de integración 2, en el que las audiencias no necesitan compartirse con el Audience Manager ni enriquecirse con audiencias o datos Audience Manager).
 1. (Opcional) [Habilitar Adobe Target como destino en Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) para compartir audiencias de flujo continuo y por lotes desde Real-time Customer Data Platform directamente a Edge, frente al servicio y Audience Manager de uso compartido de audiencias.
+
+### Patrones de implementación
+
+La personalización en línea y sin conexión es compatible mediante varios enfoques de implementación.
+
+### Patrón de implementación 1: admite los casos de uso 1 y 2. Red perimetral con SDK web/móvil (enfoque recomendado)
+
+Uso de la red perimetral con el SDK web/móvil
+<img src="assets/web_sdk_flow.png" alt="Arquitectura de referencia del enfoque con el SDK específico de cada aplicación" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+Diagrama de secuencia
+<img src="assets/RTCDP+Target_sequence.png" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
+
+### Patrón de implementación 2: admite los casos de uso 3 y 2. SDK específicos de la aplicación
+
+Uso de SDK tradicionales específicos de la aplicación (por ejemplo, AT.js y AppMeasurement.js)
+<img src="assets/app_sdk_flow.png" alt="Arquitectura de referencia del enfoque con el SDK específico de cada aplicación" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardas
 
