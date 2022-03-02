@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
+source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 76%
+source-wordcount: '175'
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,14 @@ ht-degree: 76%
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
    + [Activación de Audiencia Anónima](/help/blueprints/audience-activation/anonymous.md)
-   + [Activación con datos en línea y sin conexión](/help/blueprints/audience-activation/online-offline.md)
-   + Activación a canales publicitarios y sociales{#audience-activation}
-      + [Activación en Audiencias personalizadas de Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
-      + [Activation to Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
-   + [Activación en destinos de flujo empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + Activación de cliente conocida{#known-customer-audience-activation}
+      + [Información general](/help/blueprints/audience-activation/known.md)
+      + Activación a canales publicitarios y sociales{#audience-activation}
+         + [Activación en Audiencias personalizadas de Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
+         + [Activation to Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Activación en destinos de flujo empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
 + Activación y marketing B2B {#b2b-activation}
    + [Información general](/help/blueprints/b2b/overview.md)
    + [Activación B2B](/help/blueprints/b2b/b2bactivation.md)
@@ -48,10 +49,10 @@ ht-degree: 76%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + [Journey Optimizer con Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campaign v8{#campaign-v8}
-      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-   + Campaign v7{#campaign-v7}
-      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+   + Campaign versión 8{#campaign-v8}
+      + [Campaign versión 8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + Campaign versión 7{#campaign-v7}
+      + [Campaign versión 7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP con Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
 + Preparación y recopilación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
