@@ -5,23 +5,21 @@ landing-page-description: Sincronice la personalización del sitio web con la de
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 45ea828a969ea87187c8c4891dd2322d9e9ab478
+source-git-commit: 0dda473e727ee367f6fa9ad78c9201d18bc064b9
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 45%
+source-wordcount: '1531'
+ht-degree: 40%
 
 ---
 
 
 # Personalización web/móvil con datos en línea y sin conexión
 
-Sincronice la personalización del sitio web con la del email y otras personalizaciones de canales anónimos y conocidos.
-
 ## Casos de uso
 
+* Personalización en línea con datos en línea y sin conexión y perfiles conocidos
 * Optimización de la página de aterrizaje
-* Segmentación de perfiles según comportamiento y sin conexión
-* Personalización basada en visualizaciones de productos/contenidos anteriores, afinidad de producto/contenido, atributos del entorno, datos de audiencia de terceros y sectores demográficos, además de datos sin conexión, tales como transacciones, datos de fidelidad y CRM, y datos modelados.
+* Personalización basada en vistas de producto/contenido anteriores, afinidad de producto/contenido, atributos de entorno y datos demográficos, además de datos sin conexión como transacciones, datos de fidelidad y CRM y perspectivas modeladas
 * Comparta y dirija audiencias definidas en Real-time Customer Data Platform en sitios web y aplicaciones móviles mediante Adobe Target.
 
 ## Aplicaciones
@@ -87,7 +85,7 @@ Arquitectura de información general para los casos de uso 1 y 2
 ### Pasos de implementación para el Caso de uso 1, también admite el Caso de uso 2
 
 1. [Implementar Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=es) para sus aplicaciones móviles o web
-1. [Implementar Experience Platform y [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=es)
+1. [Implemente el Experience Platform y [!UICONTROL Perfil del cliente en tiempo real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=es) asegúrese de que las audiencias creadas se activen en Edge configurando el [combinar directiva](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy) como activo en Edge.
 1. Implementación [SDK web de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). El SDK web de Experience Platform es necesario para la segmentación perimetral en tiempo real, pero no es necesario para compartir audiencias de flujo continuo y por lotes de Real-time Customer Data Platform a Target. Tenga en cuenta que actualmente no está disponible la compatibilidad con la segmentación en tiempo real mediante el SDK móvil y la API.
 1. [Configuración de la red perimetral con un conjunto de datos perimetral](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Habilitar Adobe Target como destino en Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es)
@@ -167,6 +165,7 @@ Requisitos previos de identidad
 * [Segmentación en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html)
 * [Segmentación por flujo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es)
 * [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
+* [Configuración de directiva de combinación](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
 
 ### Tutoriales
 
@@ -174,6 +173,7 @@ Requisitos previos de identidad
 
 ### Entradas relacionadas en el blog
 
+* [Adobe anuncia Personalización mejorada de la misma página con Adobe Target y Real-time Customer Data Platform](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
