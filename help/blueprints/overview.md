@@ -2,10 +2,10 @@
 title: Modelos de experiencia digital
 description: Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar problemas empresariales existentes. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 85%
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -35,8 +35,8 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
     <p><em>Envíe mensajes e influya en las experiencias de los clientes en tiempo real utilizando [!UICONTROL Platform] como centro de atención.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><img alt="imagen en miniatura del modelo conocido de activación del cliente" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><strong>Activación de Audiencia en línea/sin conexión</strong></a></div>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagen en miniatura del modelo conocido de activación del cliente" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activación de Audiencia en línea/sin conexión</strong></a></div>
     <p><em>Ofrezca publicidad multicanal activada por audiencia.</em></p>
   </td>
   <td>
