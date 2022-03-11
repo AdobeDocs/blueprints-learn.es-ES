@@ -4,10 +4,10 @@ description: Activación de audiencia en línea/sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
+source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,14 +27,14 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 ## Aplicaciones
 
-* Adobe Experience Platform 
+* Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
 
 ## Arquitectura
 
 ### Activación con datos en línea y sin conexión con destinos
 
-<img src="assets/online_offline_activation.svg" alt="Arquitectura de referencia para el modelo de activación de audiencia en línea / sin conexión" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="Arquitectura de referencia para el modelo de activación de audiencia en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas
@@ -56,15 +56,7 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 * Compartir datos de perfil con los destinos requiere incluir un valor de identidad específico utilizado por el destino en su carga. Cualquier identidad que requiera el destino específico debe ingerirse en Platform y configurarse como identidad en [!UICONTROL Real-time Customer Profile].
 
-### Uso compartido de audiencias de Real-time Customer Data Platform con Audience Manager
-
-* La pertenencia a audiencias de RT-CDP se comparte con Audience Manager de forma continua en cuanto se completa la evaluación de segmentos y se escribe en el perfil del cliente en tiempo real, independientemente de si la evaluación de segmentos se produce en lote o en flujo continuo. Si el perfil cualificado contiene la información de enrutamiento regional para dispositivos de perfil relacionados, la pertenencia a audiencias de RT-CDP se clasifica en modo de flujo continuo en Audience Manager Edge asociado. Si la información de enrutamiento regional se aplicó a un perfil con una marca de tiempo en los últimos 14 días, se evaluará en el borde del Audience Manager en streaming. Si los perfiles de RTCDP no contienen información de enrutamiento regional o si la información de enrutamiento regional tiene buenos 14 días, las pertenencias de perfil se envían a la ubicación de concentrador de Audience Manager para la evaluación y activación basadas en lotes. Los perfiles aptos para la activación de Edge se activarán en cuestión de minutos después de la calificación del segmento de RTCDP, los perfiles que no cumplen los requisitos para la activación de Edge se clasificarán en el centro de Audience Manager y pueden tener un intervalo de tiempo de 12 a 24 horas para el procesamiento.
-
-* La información de enrutamiento regional en la que se almacena el perfil de Audience Manager de Edge se puede recopilar al Experience Platform desde el Audience Manager, el servicio de ID de visitante, Analytics, Launch o directamente desde el SDK web como un conjunto de datos de clase de registro de perfil independiente mediante el grupo de campos XDM &quot;información de región de captura de datos&quot;.
-
-* En los casos de activación en los que las audiencias se comparten de Experience Platform a Audience Manager, las siguientes identidades se comparten automáticamente: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Actualmente, las áreas de nombres de los clientes no se comparten.
-
-Las audiencias de Experience Platform se pueden compartir a través de los destinos de Audience Manager cuando las identidades de destino necesarias se incluyan en [!UICONTROL Real-time Customer Profile] o cuando las identidades de [!UICONTROL Real-time Customer Profile] se relacionen con las identidades requeridas en destino, si están vinculadas en Audience Manager.
+* Consulte la [Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud](platform-and-applications.md) para obtener más información sobre cómo compartir audiencias de Real-time Customer Data Platform con Audience Manager, Analytics, Target, Campaign y Journey Optimizer.
 
 ## Documentación relacionada
 
