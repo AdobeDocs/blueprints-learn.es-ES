@@ -5,7 +5,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen en miniatura del modelo de mensajería activada y Experience Platform" src="customer-journeys/assets/ajo-architecture.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Organización en canales múltiples</strong></a></div>
-    <p><em>Envíe mensajes e influya en las experiencias de los clientes en tiempo real utilizando [!UICONTROL Platform] como centro de atención.</em></p>
+    <p><em>Envíe mensajes e influya en las experiencias de los clientes en tiempo real utilizando [!UICONTROL Platform] como sistema centralizado.</em></p>
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="imagen en miniatura del modelo conocido de activación del cliente" src="audience-activation/assets/online_offline_activation.svg" /></a>
