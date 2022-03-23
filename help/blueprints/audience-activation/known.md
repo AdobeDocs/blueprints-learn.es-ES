@@ -4,10 +4,10 @@ description: Activación de audiencia en línea/sin conexión.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 72%
 
 ---
 
@@ -29,19 +29,25 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
+* Los destinos basados en personas Audience Manager también se pueden aprovechar para la activación basada en personas en Facebook, LinkedIn y Google Customer Match.
 
 ## Arquitectura
 
-### Activación con datos en línea y sin conexión con destinos
+### Activación de clientes conocida mediante Real-time Customer Data Platform
 
-<img src="assets/online_offline_activation.svg" alt="Arquitectura de referencia para el modelo de activación de audiencia en línea/sin conexión" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Arquitectura de referencia para el modelo de activación de clientes conocido" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+
+### Activación de clientes conocida mediante destinos basados en personas Audience Manager
+
+<img src="assets/AAM_PBD.svg" alt="Arquitectura de referencia para el modelo de activación de clientes conocido" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas
 
 [Consulte los guardas definidos en la página de información general sobre la activación de audiencias y perfiles](overview.md).
 
-## Pasos de implementación
+## Pasos de implementación de Real-time Customer Data Platform
 
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
@@ -57,6 +63,12 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 * Compartir datos de perfil con los destinos requiere incluir un valor de identidad específico utilizado por el destino en su carga. Cualquier identidad que requiera el destino específico debe ingerirse en Platform y configurarse como identidad en [!UICONTROL Real-time Customer Profile].
 
 * Consulte la [Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud](platform-and-applications.md) para obtener más información sobre cómo compartir audiencias de Real-time Customer Data Platform con Audience Manager, Analytics, Target, Campaign y Journey Optimizer.
+
+## Pasos de implementación para destinos basados en personas Audience Manager
+
+* Para obtener más información sobre la implementación del Audience Manager, consulte lo siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
+
+* Para obtener más información sobre la implementación de Destinos basados en personas en Audience Manager, consulte lo siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
 ## Documentación relacionada
 

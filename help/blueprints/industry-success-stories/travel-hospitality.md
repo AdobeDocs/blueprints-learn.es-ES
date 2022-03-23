@@ -3,13 +3,13 @@ title: 'Sector del turismo y la hostelería: activación con datos en línea y s
 description: Decisiones en tiempo real con una vista única consolidada del comportamiento del cliente en varios canales.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Desafío empresarial del sector del turismo y la hostelería
 
@@ -42,8 +42,4 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 
 ### Arquitectura de modelos
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen en miniatura para una empresa del sector del turismo y la hostelería que toma decisiones en tiempo real con una vista única consolidada del comportamiento del cliente en varios canales." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg"/></a>
-
-
-
-
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen en miniatura para una empresa del sector del turismo y la hostelería que toma decisiones en tiempo real con una vista única consolidada del comportamiento del cliente en varios canales." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg"/></a>
