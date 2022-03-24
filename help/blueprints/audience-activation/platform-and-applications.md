@@ -7,7 +7,7 @@ exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 79%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud. Generar y compartir segmentos y datos enriquecidos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud.
 
-La activación con aplicaciones Experience Cloud se alinea estrechamente con la variable [Modelo conocido de activación del cliente](known.md).
+La activación con las aplicaciones de Experience Cloud se alinea estrechamente con el [Modelo de activación de cliente conocida](known.md).
 
 ## Casos de uso
 
@@ -35,7 +35,7 @@ La activación con aplicaciones Experience Cloud se alinea estrechamente con la 
 
 ## Arquitectura
 
-Consulte la [Experience Platform y Sección de Arquitectura de Aplicaciones](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=es) para diagramas de arquitectura adicionales relacionados con integraciones de Experience Platform con aplicaciones Experience Cloud.
+Consulte la sección [Arquitectura de Experience Platform y otras aplicaciones](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=es) para ver más diagramas de arquitectura relacionados con las integraciones de Experience Platform con aplicaciones de Experience Cloud.
 
 ### Activación de audiencias y perfiles con las aplicaciones de Experience Cloud
 
@@ -62,13 +62,13 @@ Consulte los [guardas de la página de información general sobre la activación
 
 * Las audiencias de Experience Platform se pueden compartir a través de los destinos de Audience Manager cuando las identidades de destino necesarias se incluyan en [!UICONTROL Real-time Customer Profile] o cuando las identidades de [!UICONTROL Real-time Customer Profile] se relacionen con las identidades requeridas en destino, si están vinculadas en Audience Manager.
 
-### Uso compartido de audiencias de Real-time Customer Data Platform en Target
+### Uso compartido de audiencias de Real-time Customer Data Platform con Target
 
-* Consulte la [Web/Mobile Personalization con modelo de datos en línea y sin conexión](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) para obtener más información sobre cómo compartir perfiles y audiencias de Real-time Customer Data Platform a Target.
+* Consulte la [Personalización web/móvil con modelos de datos en línea y sin conexión](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=es) para obtener más información sobre cómo compartir perfiles y audiencias de Real-time Customer Data Platform en Target.
 
-### Uso compartido de audiencias de Real-time Customer Data Platform a Campaign y Journey Optimizer
+### Uso compartido de audiencias de Real-time Customer Data Platform con Campaign y Journey Optimizer
 
-* Consulte la [Planes de Recorridos del cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) para obtener más información sobre el uso compartido de perfiles y audiencias desde Real-time Customer Data Platform a Campaign y Journey Optimizer.
+* Consulte los [modelos de recorridos del cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=es) para obtener más información sobre el uso compartido de perfiles y audiencias de Real-time Customer Data Platform en Campaign y Journey Optimizer.
 
 ## Documentación relacionada
 
