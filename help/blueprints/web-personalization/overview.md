@@ -6,15 +6,15 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Personalización web y móvil
 
-La personalización web y móvil permite utilizar la segmentación de perfiles y audiencias en varias aplicaciones para personalizar y optimizar las experiencias de los clientes. Se pueden aprovechar los comportamientos del cliente, la demografía, el nivel de lealtad y las transacciones anteriores para personalizar los diseños, las llamadas a acción y el contenido.
+La personalización web y móvil aborda la habilidad de emplear la segmentación de perfil y audiencias en distintas aplicaciones para personalizar y optimizar la experiencia del cliente. Se pueden aprovechar los comportamientos, la demografía, el nivel de fidelidad y las transacciones anteriores de los clientes para personalizar los diseños, las llamadas a acción y el contenido.
 
 <br>
 
@@ -27,7 +27,7 @@ La personalización web y móvil permite utilizar la segmentación de perfiles y
 
 ## Guardas para la personalización web y móvil
 
-[Para obtener información sobre las protecciones relacionadas con la activación de audiencias y perfiles, consulte la documentación sobre las protecciones de perfil y segmentación .](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+[Para obtener información sobre las protecciones relacionadas con la activación de audiencias y perfiles, consulte la documentación sobre las protecciones de perfiles y segmentación.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 <br>
 
