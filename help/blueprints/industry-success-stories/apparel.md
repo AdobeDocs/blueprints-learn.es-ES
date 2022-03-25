@@ -1,15 +1,15 @@
 ---
 title: 'Sector de la moda: activación con aplicaciones de Experience Cloud'
 description: Se han utilizado varios modelos para habilitar el marketing en tiempo real, activación en canales múltiples y análisis en canales múltiples.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
 ---
-
 
 # Desafío empresarial del sector de la moda
 
@@ -47,7 +47,3 @@ Su equipo tecnológico internacional utiliza Adobe Experience Platform y solucio
 ### Arquitectura de modelos
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen en miniatura de una empresa de moda, con audience activation, customer journey analytics y modelos de recorrido del cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-

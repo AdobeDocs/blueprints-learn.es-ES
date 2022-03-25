@@ -1,21 +1,21 @@
 ---
 title: Activación de cliente conocida
 description: Activación de audiencia en línea/sin conexión.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 72%
+ht-degree: 82%
 
 ---
 
-# Modelo conocido de activación del cliente
+# Modelo conocido de activación de cliente
 
 Emplee atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.
 
-Los identificadores ampliados con controles de control integrados ofrecen más oportunidades de comunicarse con clientes conocidos. Active audiencias de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad.
+Los identificadores ampliados con controles de control integrados ofrecen más oportunidades para comunicarse con clientes conocidos. Active audiencias de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad.
 
 La información adicional ofrecida en el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md) es específica de la integración entre Experience Platform y las aplicaciones de Experience Cloud.
 
@@ -62,7 +62,7 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 * Compartir datos de perfil con los destinos requiere incluir un valor de identidad específico utilizado por el destino en su carga. Cualquier identidad que requiera el destino específico debe ingerirse en Platform y configurarse como identidad en [!UICONTROL Real-time Customer Profile].
 
-* Consulte la [Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud](platform-and-applications.md) para obtener más información sobre cómo compartir audiencias de Real-time Customer Data Platform con Audience Manager, Analytics, Target, Campaign y Journey Optimizer.
+* Consulte el [Modelo de activación de audiencias y perfiles con aplicaciones de Experience Cloud](platform-and-applications.md) para obtener más información sobre cómo compartir audiencias de Real-time Customer Data Platform con Audience Manager, Analytics, Target, Campaign y Journey Optimizer.
 
 ## Pasos de implementación para destinos basados en personas Audience Manager
 

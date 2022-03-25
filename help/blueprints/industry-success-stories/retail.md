@@ -1,15 +1,15 @@
 ---
 title: 'Sector minorista: activación con aplicaciones de Experience Cloud'
 description: Ofrezca experiencias del cliente en tiempo real en medios digitales, correo electrónico, mensajes push y canales web.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: a675bc81-e76c-491a-8718-359867d63351
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
-
 
 # Desafío empresarial del sector minorista
 
@@ -39,7 +39,3 @@ Esta empresa de experiencia integrada tenía como objetivo personalizar todo el 
 ### Arquitectura de modelos
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen en miniatura para un negocio del sector minorista que ofrece experiencias del cliente en tiempo real en medios digitales, correo electrónico, mensajes push y canales web" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-
