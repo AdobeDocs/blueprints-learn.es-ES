@@ -1,15 +1,15 @@
 ---
 title: 'Sector de las telecomunicaciones: Journey Optimizer para la mensajería activada'
 description: Proporcione a los clientes ofertas adaptadas en tiempo real con una incorporación eficiente de clientes para una lealtad a largo plazo.
-solution: Experience Platform, Journey Optimizer
+solution: Journey Optimizer
 kt: 9486
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
+source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # Desafío empresarial del sector de las telecomunicaciones
 
@@ -42,8 +42,3 @@ Esta limitación tenía que resolverse para iniciar un seguimiento más oportuno
 ### Arquitectura de modelos
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen en miniatura para una empresa de telecomunicaciones que ofrece ofertas adaptadas en tiempo real con una incorporación eficiente de clientes para una lealtad a largo plazo." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
-
-
-
-
-
