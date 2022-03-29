@@ -1,14 +1,14 @@
 ---
 title: Modelo de recopilación de datos del SDK web/móvil
 description: Este modelo muestra la arquitectura y la ingesta a través del SDK web y móvil del Experience Platform
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 992528c2dcde4a0ace0b67cb6c84de4844693304
-workflow-type: ht
-source-wordcount: '101'
-ht-degree: 100%
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

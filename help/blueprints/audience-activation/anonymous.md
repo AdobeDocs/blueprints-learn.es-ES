@@ -2,14 +2,14 @@
 title: Modelo de activación de audiencia anónima
 description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes. Con esto, se puede crear una experiencia del cliente coherente y personalizada en diversos dispositivos.
 landing-page-description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes.
-solution: Experience Platform, Audience Manager
+solution: Audience Manager, Experience Platform
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 4a46b7a4c278107c806d3ddd14591c7abe1a13d3
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 34%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
