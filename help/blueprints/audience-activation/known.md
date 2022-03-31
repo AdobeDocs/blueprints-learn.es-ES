@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,18 +29,18 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
-* Los destinos basados en personas Audience Manager también se pueden aprovechar para la activación basada en personas en Facebook, LinkedIn y Google Customer Match.
+* Los destinos basados en personas en Audience Manager también se pueden aprovechar para la activación basada en personas en Facebook, LinkedIn y Google Customer Match.
 
 ## Arquitectura
 
 ### Activación de clientes conocida mediante Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Arquitectura de referencia para el modelo de activación de clientes conocido" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
-### Activación de clientes conocida mediante destinos basados en personas Audience Manager
+### Activación de clientes conocida mediante destinos basados en personas en Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Arquitectura de referencia para el modelo de activación de clientes conocido" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas
@@ -64,11 +64,11 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 * Consulte el [Modelo de activación de audiencias y perfiles con aplicaciones de Experience Cloud](platform-and-applications.md) para obtener más información sobre cómo compartir audiencias de Real-time Customer Data Platform con Audience Manager, Analytics, Target, Campaign y Journey Optimizer.
 
-## Pasos de implementación para destinos basados en personas Audience Manager
+## Pasos de implementación para destinos basados en personas en Audience Manager
 
-* Para obtener más información sobre la implementación del Audience Manager, consulte lo siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
+* Para obtener más información sobre la implementación de Audience Manager, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
 
-* Para obtener más información sobre la implementación de Destinos basados en personas en Audience Manager, consulte lo siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
+* Para obtener más información sobre la implementación de destinos basados en personas en Audience Manager, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=es).
 
 ## Documentación relacionada
 
