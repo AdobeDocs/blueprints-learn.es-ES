@@ -5,9 +5,9 @@ landing-page-description: Descubra cómo personalizar según el comportamiento e
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '612'
 ht-degree: 96%
 
 ---
@@ -38,17 +38,8 @@ Personalización basada en el comportamiento en línea y datos de audiencia.
 
 El modelo de personalización web/móvil se puede implementar mediante los siguientes enfoques, tal como se describe a continuación.
 
-1. Con el [!UICONTROL SDK Platform Web] o [!UICONTROL SDK Platform Mobile] y [!UICONTROL Edge Network].
-1. Con SDK tradicionales específicos de cada aplicación (por ejemplo, AppMeasurement.js)
-
-### 1. Enfoque con el SDK Platform Web/Mobile y Edge
-
-[Consulte el modelo del SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)
-
-### 2. Enfoque con el SDK específico de cada aplicación
-
-[Consulte el modelo de SDK específico de la aplicación](../data-ingestion/appsdk.md)
-
+1. Con el [!UICONTROL SDK web de Platform] o [!UICONTROL SDK móvil de Platform] y [!UICONTROL Edge Network]. [Consulte el modelo del SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)
+1. Con SDK tradicionales específicos de cada aplicación (por ejemplo, AppMeasurement.js). [Consulte el modelo de SDK específico de la aplicación](../data-ingestion/appsdk.md)
 
 ## Pasos de implementación
 
