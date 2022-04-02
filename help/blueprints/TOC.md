@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: ht
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 100%
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Recopilación de datos empresariales del lado del servidor](/help/blueprints/data-ingestion/server-side-collection.md)
    + [SDK web de Experience Platform](/help/blueprints/data-ingestion/websdk.md)
+   + [SDK de aplicación](/help/blueprints/data-ingestion/appsdk.md)
 + Análisis de datos, inteligencia e IA/ML (aprendizaje automático) {#data-exploration}
    + [Información general](/help/blueprints/data-insights/overview.md)
    + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
@@ -66,4 +67,4 @@ ht-degree: 100%
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
    + [Personalización basada en comportamiento](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalización con datos en línea y sin conexión](/help/blueprints/web-personalization/online-offline.md)
+   + [Personalization de cliente conocido](/help/blueprints/web-personalization/known-personalization.md)

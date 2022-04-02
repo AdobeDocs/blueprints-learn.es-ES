@@ -5,10 +5,10 @@ landing-page-description: Descubra cómo personalizar según el comportamiento e
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '534'
-ht-degree: 100%
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 96%
 
 ---
 
@@ -27,15 +27,12 @@ Personalización basada en el comportamiento en línea y datos de audiencia.
 * Adobe Target
 * Adobe Analytics (opcional)
 * Adobe Audience Manager (opcional)
+* Adobe Real-time Customer Data Platform (opcional)
 
 ## Arquitectura
 
-<img src="assets/behavioral_personalization.png" alt="Arquitectura de referencia del modelo de personalización web basada en comportamiento" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Arquitectura de referencia del modelo de personalización web basada en comportamiento" style="width:80%; border:1px solid #4a4a4a" />
 
-
-## Guardas
-
-Por defecto, el servicio para compartir segmentos permite que se intercambie un máximo de 75 audiencias por cada grupo de informes de Adobe Analytics. Si se utiliza Audience Manager para compartir audiencias, no habrá límite en el número de las mismas para hacerlo. 
 
 ## Patrones de implementación
 
@@ -50,24 +47,14 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 ### 2. Enfoque con el SDK específico de cada aplicación
 
-<img src="assets/app_sdk_flow.png" alt="Arquitectura de referencia del enfoque con el SDK específico de cada aplicación" style="width:80%; border:1px solid #4a4a4a" />
+[Consulte el modelo de SDK específico de la aplicación](../data-ingestion/appsdk.md)
 
-## Prerrequisitos de implementación
-
-| Aplicación/servicio | Biblioteca requerida | Notas |
-|---|---|---|
-| Adobe Target | [!UICONTROL SDK Platform Web]*, at.js 0.9.1+ o mbox.js 61+ | Se recomienda at.js debido a que mbox.js ya no se desarrolla. |
-| Adobe Audience Manager (opcional) | [!UICONTROL SDK Platform Web]* o dil.js 5.0+ |  |
-| Adobe Analytics (opcional) | [!UICONTROL SDK Platform Web]* o AppMeasurement.js 1.6.4+ |  |
-| Servicio de identidad de Experience Cloud | [!UICONTROL SDK Platform Web]* o VisitorAPI.js 2.0+ |  |
-| SDK Experience Platform Mobile (opcional) | 4.11 o superior para iOS y Android™ |  |
-| SDK web de Experience Platform | 1.0, la versión actual del SDK Experience Platform, cuenta con [varios casos de uso sin compatibilidad con las aplicaciones de Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
 ## Pasos de implementación
 
 1. [Implementar Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=es) para las aplicaciones móviles o web.
 
-   Si se utiliza Audience Manager o Adobe Analytics:
+### Pasos de implementación: Audience Manager o Adobe Analytics
 
 1. [Implementar Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
 1. [Implementar Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=es).
@@ -81,12 +68,28 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 1. Generar segmentos en [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) o [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=es) y [configurar las audiencias de modo que se compartan con Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es) (si se emplea Audience Manager o Adobe Analytics).
 1. Cuando las audiencias estén disponibles en Adobe Target, se podrán utilizar [para la segmentación de experiencias en Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=es).
 
+### Pasos de implementación: Real-time Customer Data Platform
+
+1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
+1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
+1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingestados se puedan combinar en un perfil unificado.
+1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
+1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
+1. [Disponer el intercambio de segmentos de [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre Experience Platform y Audience Manager para que las audiencias definidas en Experience Platform se compartan con Audience Manager.
+1. [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es) en Experience Platform. El sistema determina automáticamente si el segmento debe ser evaluado por lotes o streaming.
+1. [Configurar destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=es) para compartir atributos de perfil y pertenencias a audiencia a los destinos deseados.
+
+
 ## Documentación relacionada
 
 * [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 * [Integrar Audience Manager con Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
-* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
-
+* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* Información general de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
+* Descripción del producto [[!UICONTROL Real-time Customer Data Platform]](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+* [Documentación de la segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es)
+* [Documentación de los destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
 
 ## Entradas relacionadas en el blog
 
