@@ -4,7 +4,7 @@ description: Activación en Facebook Custom Audiences.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Incorpore datos de clientes de varias fuentes para crear una única vista de per
 
 ## Arquitectura
 
-<img src="../assets/facebook.png" alt="Arquitectura de referencia para la activación de Facebook Custom Audiences" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../assets/facebook.png" alt="Arquitectura de referencia para la activación de Facebook Custom Audiences" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Pasos de implementación
 
