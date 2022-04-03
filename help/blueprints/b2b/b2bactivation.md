@@ -4,7 +4,7 @@ description: Ofrezca experiencias de cliente centradas en el perfil y audiencias
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Se pueden usar varias fuentes de datos B2B para asignar datos de cuentas, posibl
 
 ## Arquitectura
 
-<img src="assets/b2b-activation.svg" alt="Arquitectura de referencia para el modelo de activación B2B" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="Arquitectura de referencia para el modelo de activación B2B" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas
