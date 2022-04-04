@@ -2,20 +2,20 @@
 title: Modelo de activación de audiencia anónima
 description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes. Con esto, se puede crear una experiencia del cliente coherente y personalizada en diversos dispositivos.
 landing-page-description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes.
-solution: Audience Manager, Experience Platform
+solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
 # Modelo de activación de audiencia anónima
 
-La activación de audiencias anónimas permite dirigirse a audiencias y personalizarlas a través de canales web, móviles y publicitarios en función de los datos de comportamiento y dispositivos anónimos.
+La activación de audiencias anónimas es la capacidad de dirigir y personalizar audiencias a través de canales web, móviles y publicitarios en función de datos de comportamiento y dispositivos anónimos.
 
 ## Casos de uso
 
