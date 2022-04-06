@@ -8,8 +8,8 @@ thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,13 +39,13 @@ Microsoft Bing, Google DV360 y TradeDesk son los principales destinos publicitar
 
 <br>
 
-## Pasos de implementación para el Audience Manager
+## Pasos de implementación de Audience Manager
 
 * Para obtener más información sobre la implementación de Audience Manager, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
 
 ## Pasos de implementación de Real-time Customer Data Platform
 
-* Para ver los pasos de implementación de Real-time Customer Data Platform, consulte lo siguiente [documentación](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* Para ver los pasos de implementación de Real-time Customer Data Platform, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Documentación relacionada
 
