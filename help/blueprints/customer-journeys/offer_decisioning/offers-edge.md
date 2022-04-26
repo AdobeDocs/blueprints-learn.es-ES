@@ -2,9 +2,10 @@
 title: Offer Decisioning
 description: Ofrecer ofertas personalizadas a los consumidores a través de canales, incluidos quioscos y experiencias asistidas por agentes.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 39%
 
 ---
@@ -71,12 +72,14 @@ Adobe Experience Platform
 ## Patrones de implementación
 
 * Utilice el SDK web o móvil para la implementación en sitios web y aplicaciones móviles a fin de implementar el Offer decisioning en el que se implementó el SDK.
+   * [Modelo de SDK web/móvil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=es)
    * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 O
 
-* Para que un servidor de API e implementación basada en servidor utilice la API de servidor de red perimetral para la implementación de Offer decisioning de servidor a servidor directo. [Vínculo](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* Para que un servidor de API e implementación basada en servidor utilice la API de servidor de red perimetral para la implementación de Offer decisioning de servidor a servidor directo.
+   * [API de servidor de red perimetral](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 
