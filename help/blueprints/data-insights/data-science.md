@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '453'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ El modelo de ciencia de datos personalizada para el enriquecimiento de perfiles 
 1. Elegir un idioma. Compatible con Python y PySpark.
 1. [Crear un modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=es) en el cuaderno de notas.
 1. [Entrenar el modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=es).
-1. [Calificar el modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) para que genere predicciones con los datos de destino.
+1. [Calificar el modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=es) para que genere predicciones con los datos de destino.
 1. [Activar el conjunto de datos de resultados del modelo del perfil si envía los resultados del modelo a [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=es).
 
 ## Documentación relacionada
