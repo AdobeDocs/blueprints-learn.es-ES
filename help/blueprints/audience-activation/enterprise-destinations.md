@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICO
 
 ## Aplicaciones
 
-* Adobe Experience Platform  Activation
+* Adobe Experience Platform   Activation
 
 ## Arquitectura
 
@@ -56,4 +56,4 @@ Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICO
 
 * Información general de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
 * [Versión de prueba de [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=es)
-* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es)
