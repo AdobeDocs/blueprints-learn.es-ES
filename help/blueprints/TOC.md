@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 96d4e0c62b85070e1650adf637519098d227c53d
+source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 97%
+source-wordcount: '189'
+ht-degree: 94%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 97%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + Offer Decisioning{#offer-decisioning}
          + [offer decisioning en el borde](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [offer decisioning en el concentrador](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer con Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}

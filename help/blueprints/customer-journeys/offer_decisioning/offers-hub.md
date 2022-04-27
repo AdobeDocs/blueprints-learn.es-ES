@@ -1,40 +1,39 @@
 ---
-title: offer decisioning en el borde
-description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
+title: offer decisioning en el concentrador
+description: Entregue ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por el agente, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
-exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 86956e351c166bac0aa37deccc18b7dc151d1473
+source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
-# Journey Optimizer: Offer decisioning en el borde
+# Journey Optimizer: Offer decisioning en el concentrador
 
 Administración de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación y proporciona una explicación profunda de los diversos componentes y consideraciones arquitectónicos que componen el Offer decisioning.
 
-La Administración de decisiones se puede implementar de una de las dos maneras siguientes. La primera es a través de Adobe Experience Platform Hub, que es una arquitectura de centro de datos única. En el método &quot;hub&quot;, las ofertas se ejecutan, personalizan y entregan en segunda latencia. Por lo tanto, la arquitectura de concentrador es la más adecuada para la experiencia del cliente que no requiere latencia de subsegundo, los ejemplos incluyen decisiones de oferta que se proporcionan para quioscos o experiencias asistidas por el agente, como en centros de llamadas o en interacciones personales.
+La Administración de decisiones se puede implementar de una de las dos maneras siguientes. La primera es a través del concentrador de Adobe Experience Platform, que es una arquitectura de centro de datos central. En el enfoque &quot;hub&quot;, las ofertas se ejecutan, personalizan y entregan en >500 ms de latencia. Por lo tanto, la arquitectura de concentrador es la más adecuada para las experiencias de los clientes que no requieren latencia de subsegundo, los ejemplos incluyen decisiones de oferta que se proporcionan para los quioscos o experiencias asistidas por el agente, como en los centros de llamadas o en las interacciones personales. Las ofertas que se insertan en correos electrónicos y en campañas salientes también utilizan el método de concentrador.
 
-El segundo método es a través de la red Experience Edge, que es una infraestructura distribuida globalmente y ubicada geográficamente para ofrecer experiencias rápidas de subsegundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura perimetral más cercana a la ubicación geográfica del consumidor para minimizar la latencia. La administración de decisiones en Edge está diseñada para ofrecer experiencias de consumo en tiempo real. Estas incluyen experiencias como solicitudes de personalización de entrada web o móvil.
+El segundo método es a través de la red Experience Edge, que es una infraestructura distribuida globalmente y ubicada geográficamente para ofrecer experiencias rápidas de subsegundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura perimetral más cercana a la ubicación geográfica del consumidor para minimizar la latencia. La administración de decisiones en Edge está diseñada para ofrecer experiencias de consumidores en tiempo real, como solicitudes de personalización entrantes web o móviles.
 
-Este modelo cubrirá los aspectos específicos de Administración de decisiones en Edge.
+Este modelo abarcará los aspectos específicos de la gestión de decisiones en el centro.
 
-Para obtener más información sobre la gestión de decisiones en el centro, consulte [Gestión de decisiones en el centro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) modelo.
+Para obtener más información sobre la administración de decisiones en Edge, consulte la [Administración de decisiones en el perímetro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) modelo.
 
-Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto AQUÍ (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## Casos de uso
 
-* Personalización en línea mediante web o móvil.
-* Offer decisioning entrante y propuestas de oferta.
+* Ofertas personalizadas en quioscos y en experiencias de tienda.
+* Ofertas personalizadas a través de la experiencia asistida por el agente, como centros de llamadas o interacciones de ventas.
 * Ejecución de recorridos en varios canales : ofrece coherencia en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
 <br>
 
 ## Arquitectura
 
-<img src="../assets/offers_edge.svg" alt="Offer decisioning de arquitectura de referencia en el modelo de borde" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_hub.svg" alt="Offer decisioning de arquitectura de referencia en el modelo de borde" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -73,16 +72,9 @@ Adobe Experience Platform
 
 ## Patrones de implementación
 
-* Utilice el SDK web o móvil para la implementación en sitios web y aplicaciones móviles a fin de implementar el Offer decisioning en el que se implementó el SDK.
-   * [Modelo de SDK web/móvil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=es)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
-   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
-
-O
-
-* Para que un servidor de API e implementación basada en servidor utilicen la API de servicio de red perimetral para la implementación de Offer decisioning de servidor a servidor directo.
-   * [API de servidor de red perimetral](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [API de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Se ha implementado en correos electrónicos, SMS y canales salientes mediante la integración directa con Adobe Journey Optimizer.
+* Para otras experiencias de canal, aproveche la variable [API de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Para experiencias en tiempo real basadas en Edge, utilice el SDK web/móvil o la API de Edge Decisioning como se describe en la sección [offer decisioning en el modelo de Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
 
 <br>
 
