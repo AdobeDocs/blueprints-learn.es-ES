@@ -1,14 +1,14 @@
 ---
-title: Modelo de recopilación de datos del SDK web/móvil
-description: Este modelo muestra la arquitectura y la ingesta a través del SDK web y móvil del Experience Platform
-solution: Data Collection
+title: SDK web/móvil, modelo de implementación de red perimetral
+description: Este modelo muestra la arquitectura y la ingesta a través del SDK web y móvil del Experience Platform y la red perimetral
+solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 33%
+source-wordcount: '241'
+ht-degree: 24%
 
 ---
 
