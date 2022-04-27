@@ -5,19 +5,20 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
+source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 36%
+source-wordcount: '237'
+ht-degree: 33%
 
 ---
 
 
 # Información general
 
-Para obtener información general y detallada sobre el SDK web y móvil, consulte lo siguiente.
+Para obtener información general y detallada sobre el SDK web y móvil y la API de servidor de red perimetral, consulte lo siguiente.
 * [Información general de WebSDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)
 * [Información general de MobileSDK](https://aep-sdks.gitbook.io/docs/)
+* [API de servidor de red perimetral](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 Para obtener una descripción detallada de la funcionalidad de la aplicación que se admite en WebSDK, consulte la siguiente documentación.
 * [Compatibilidad con la funcionalidad de la aplicación WebSDK](https://github.com/orgs/adobe/projects/18/views/1)
@@ -28,7 +29,7 @@ Para obtener más información sobre la migración de SDK específicos de aplica
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Analytics para Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-## Implementación del SDK web/móvil del Experience Platform
+## Implementación del SDK web/móvil del Experience Platform o de la API del servidor de red perimetral
 
 El diagrama de arquitectura siguiente ilustra la implementación y la recopilación de datos utilizando el SDK web de Experience Platform.
 
