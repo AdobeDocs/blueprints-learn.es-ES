@@ -3,10 +3,10 @@ title: offer decisioning en el concentrador
 description: Entregue ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por el agente, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 33%
+source-wordcount: '820'
+ht-degree: 32%
 
 ---
 
@@ -22,7 +22,7 @@ Este modelo abarcará los aspectos específicos de la gestión de decisiones en 
 
 Para obtener más información sobre la administración de decisiones en Edge, consulte la [Administración de decisiones en el perímetro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) modelo.
 
-Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto AQUÍ (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## Casos de uso
 
@@ -57,7 +57,8 @@ Adobe Experience Platform
 
 ## Guardas
 
-[Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Para las protecciones de Journey Optimizer, consulte lo siguiente [Journey Optimizer Guardrade](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Para las protecciones de Offer decisioning, consulte lo siguiente [Descripción del producto offer decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
 ### Guardas de ingesta de datos
@@ -108,5 +109,5 @@ Adobe Experience Platform
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Administración de decisiones de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Descripción del producto del Offer decisioning de Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
