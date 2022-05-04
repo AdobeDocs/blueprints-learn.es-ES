@@ -3,7 +3,7 @@ title: offer decisioning en el concentrador
 description: Entregue ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por el agente, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
+source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 32%
@@ -57,7 +57,7 @@ Adobe Experience Platform
 
 ## Guardas
 
-* Para las protecciones de Journey Optimizer, consulte lo siguiente [Journey Optimizer Guardrade](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Para obtener más información sobre las protecciones de Journey Optimizer, consulte lo siguiente [Journey Optimizer Guardrade](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
 * Para las protecciones de Offer decisioning, consulte lo siguiente [Descripción del producto offer decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 
