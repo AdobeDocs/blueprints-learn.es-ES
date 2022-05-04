@@ -3,9 +3,9 @@ title: offer decisioning en el borde
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bfc8133f0a48cb35dd62e74e92eeb041e93be5c7
+source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '757'
 ht-degree: 35%
 
 ---
@@ -82,7 +82,6 @@ O
 
 * Para que un servidor de API e implementación basada en servidor utilicen la API de servicio de red perimetral para la implementación de Offer decisioning de servidor a servidor directo.
    * [API de servidor de red perimetral](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [API de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
