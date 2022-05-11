@@ -3,16 +3,20 @@ title: offer decisioning en el concentrador
 description: Entregue ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por el agente, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 32%
+source-wordcount: '904'
+ht-degree: 28%
 
 ---
 
 # Journey Optimizer: Offer decisioning en el concentrador
 
+Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) y el Offer decisioning [AQUÍ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+
 Administración de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación y proporciona una explicación profunda de los diversos componentes y consideraciones arquitectónicos que componen el Offer decisioning.
+
+Journey Optimizer se utiliza para ofrecer la mejor oferta y experiencia a sus clientes en todos los puntos de contacto y en el momento adecuado. El offer decisioning facilita la personalización con una biblioteca central de ofertas de marketing y un motor de decisión que aplica reglas y restricciones a perfiles enriquecidos y en tiempo real creados por Adobe Experience Platform para ayudarle a enviar a sus clientes la oferta correcta en el momento adecuado.
 
 La Administración de decisiones se puede implementar de una de las dos maneras siguientes. La primera es a través del concentrador de Adobe Experience Platform, que es una arquitectura de centro de datos central. En el enfoque &quot;hub&quot;, las ofertas se ejecutan, personalizan y entregan en >500 ms de latencia. Por lo tanto, la arquitectura de concentrador es la más adecuada para las experiencias de los clientes que no requieren latencia de subsegundo, los ejemplos incluyen decisiones de oferta que se proporcionan para los quioscos o experiencias asistidas por el agente, como en los centros de llamadas o en las interacciones personales. Las ofertas que se insertan en correos electrónicos y en campañas salientes también utilizan el método de concentrador.
 
@@ -20,11 +24,9 @@ El segundo método es a través de la red Experience Edge, que es una infraestru
 
 Este modelo abarcará los aspectos específicos de la gestión de decisiones en el centro.
 
-Para obtener más información sobre la administración de decisiones en Edge, consulte la [Administración de decisiones en el perímetro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) modelo.
+Para obtener más información sobre la administración de decisiones en Edge, consulte la [Administración de decisiones en el perímetro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html) modelo.
 
-Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-
-## Casos de uso
+## Casos de uso para la gestión de decisiones en el centro
 
 * Ofertas personalizadas en quioscos y en experiencias de tienda.
 * Ofertas personalizadas a través de la experiencia asistida por el agente, como centros de llamadas o interacciones de ventas.

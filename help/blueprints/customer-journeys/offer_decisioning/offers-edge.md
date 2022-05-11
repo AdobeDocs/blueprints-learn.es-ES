@@ -3,14 +3,16 @@ title: offer decisioning en el borde
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 35%
+source-wordcount: '772'
+ht-degree: 34%
 
 ---
 
 # Journey Optimizer: Offer decisioning en el borde
+
+Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) y el Offer decisioning [AQUÍ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
 Administración de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación y proporciona una explicación profunda de los diversos componentes y consideraciones arquitectónicos que componen el Offer decisioning.
 
@@ -20,14 +22,11 @@ El segundo método es a través de la red Experience Edge, que es una infraestru
 
 Este modelo cubrirá los aspectos específicos de Administración de decisiones en Edge.
 
-Para obtener más información sobre la gestión de decisiones en el centro, consulte [Gestión de decisiones en el centro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) modelo.
+Para obtener más información sobre la gestión de decisiones en el centro, consulte [Gestión de decisiones en el centro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) modelo.
 
-Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+## Casos de uso para la gestión de decisiones en Edge
 
-## Casos de uso
-
-* Personalización en línea mediante web o móvil.
-* Offer decisioning entrante y propuestas de oferta.
+* Personalización en línea mediante experiencias entrantes web o móviles.
 * Ejecución de recorridos en varios canales : ofrece coherencia en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
 <br>
