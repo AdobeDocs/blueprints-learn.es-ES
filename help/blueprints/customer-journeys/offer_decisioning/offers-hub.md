@@ -3,10 +3,10 @@ title: offer decisioning en el concentrador
 description: Entregue ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por el agente, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 28%
+source-wordcount: '881'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,8 @@ Para obtener más información sobre la administración de decisiones en Edge, c
 
 * Ofertas personalizadas en quioscos y en experiencias de tienda.
 * Ofertas personalizadas a través de la experiencia asistida por el agente, como centros de llamadas o interacciones de ventas.
-* Ofertas incluidas en correos electrónicos, SMS u otras interacciones salientes.
+* Ofertas incluidas en correos electrónicos, SMS, notificaciones push móviles u otras interacciones salientes.
+* Proporcionar ofertas a ESP externo y sistemas de mensajería para su envío.
 * Ejecución de recorridos en varios canales : ofrece coherencia en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
 <br>
@@ -40,12 +41,6 @@ Para obtener más información sobre la administración de decisiones en Edge, c
 <img src="../assets/offers_hub.svg" alt="Offer decisioning de arquitectura de referencia en el modelo de borde" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
-
-## Patrones de integración
-
-| Integración | Descripción |
-| :-- | :--- |
-| [offer decisioning con Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | El offer decisioning se puede integrar con Adobe Target de modo que las ofertas se puedan probar y entregar como experiencias de Target. |
 
 ## Prerrequisitos
 

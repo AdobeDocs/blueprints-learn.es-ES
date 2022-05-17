@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 82%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 El análisis de datos e inteligencia componen la habilidad de Adobe Experience Platform para realizar consultas y análisis de los datos presentes en el repositorio de datos.
 
-[!UICONTROL Query Service] de Experience Platform permite realizar consultas SQL sobre los datos. [!UICONTROL Data Science Workspace] permite que las tareas de análisis y ciencia de datos, y también el aprendizaje automático, se realicen sobre los datos.
+[!UICONTROL Query Service] de Experience Platform permite realizar consultas SQL sobre los datos.
 
-Además, Experience Platform puede conectarse con clientes SQL de terceros, interfaces y herramientas de inteligencia empresarial para comunicar y consultar directamente los datos contenidos en Experience Platform, así como acceder a ellos, utilizando el protocolo [!DNL PostgreSQL].
+El Experience Platform permite que las conexiones con clientes SQL de terceros, interfaces y herramientas de Business Intelligence (BI) se conecten directamente a los datos en el Experience Platform, accedan a ellos y realicen consultas con ellos mediante el [!DNL PostgreSQL] protocolo.
 
-Se aplican ciertos guardas por extinción de tiempo de consulta y por la cantidad de datos que se incluyen en los resultados, tal como se describe en la información del modelo.
+Algunas protecciones se aplican para el tiempo de espera de la consulta y para la cantidad de datos que se incluye en el resultado de la consulta, como se indica en la sección protecciones a continuación.
 
 ## Casos de uso
 
@@ -30,7 +30,7 @@ Se aplican ciertos guardas por extinción de tiempo de consulta y por la cantida
 
 ## Aplicaciones
 
-* Adobe Experience Platform
+* Adobe Experience Platform  
 
 ## Arquitectura
 
