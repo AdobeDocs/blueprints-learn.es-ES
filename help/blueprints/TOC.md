@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 91%
    + [Información general](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning{#offer-decisioning}
+      + Offer Decisioning {#offer-decisioning}
          + [Información general](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [offer decisioning en el borde](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [offer decisioning en el concentrador](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+         + [Offer Decisioning en Edge](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [Offer Decisioning en el hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer con Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -62,8 +62,8 @@ ht-degree: 91%
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Recopilación de datos empresariales del lado del servidor](/help/blueprints/data-ingestion/server-side-collection.md)
-   + Implementación{#deployment}
-      + [SDK web Experience Platform y red perimetral](/help/blueprints/data-ingestion/websdk.md)
+   + Implementación {#deployment}
+      + [SDK web Experience Platform y red de Edge](/help/blueprints/data-ingestion/websdk.md)
       + [SDK para aplicaciones](/help/blueprints/data-ingestion/appsdk.md)
 + Análisis de datos, inteligencia e IA/ML (aprendizaje automático) {#data-exploration}
    + [Información general](/help/blueprints/data-insights/overview.md)

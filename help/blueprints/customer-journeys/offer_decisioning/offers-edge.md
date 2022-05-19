@@ -1,39 +1,39 @@
 ---
-title: offer decisioning en el borde
+title: Offer Decisioning en Edge
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 34%
+ht-degree: 93%
 
 ---
 
-# Journey Optimizer: Offer decisioning en el borde
+# Journey Optimizer: Offer Decisioning en Edge
 
-Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) y el Offer decisioning [AQUÍ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+Para obtener más información sobre la gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es) y el Offer decisioning [AQUÍ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
-Administración de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación y proporciona una explicación profunda de los diversos componentes y consideraciones arquitectónicos que componen el Offer decisioning.
+Gestión de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación, y proporciona una explicación profunda de los diversos componentes y consideraciones sobre arquitectura que componen Offer Decisioning.
 
-La Administración de decisiones se puede implementar de una de las dos maneras siguientes. La primera es a través de Adobe Experience Platform Hub, que es una arquitectura de centro de datos única. En el método &quot;hub&quot;, las ofertas se ejecutan, personalizan y entregan en segunda latencia. Por lo tanto, la arquitectura de concentrador es la más adecuada para la experiencia del cliente que no requiere latencia de subsegundo, los ejemplos incluyen decisiones de oferta que se proporcionan para quioscos o experiencias asistidas por el agente, como en centros de llamadas o en interacciones personales.
+Gestión de decisiones se puede implementar de una de las dos maneras siguientes. La primera es a través de Adobe Experience Platform Hub, que es una arquitectura de centro de datos único. En el método «hub», las ofertas se ejecutan, personalizan y entregan con una latencia de un segundo. Por lo tanto, la arquitectura del hub es la más adecuada para la experiencia del cliente que no requiere latencia de subsegundo. Algunos ejemplos incluyen tomas de decisiones sobre ofertas que se proporcionan para los quioscos o experiencias asistidas por agentes, como en los centros de llamadas o en las interacciones personales.
 
-El segundo método es a través de la red Experience Edge, que es una infraestructura distribuida globalmente y ubicada geográficamente para ofrecer experiencias rápidas de subsegundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura perimetral más cercana a la ubicación geográfica del consumidor para minimizar la latencia. La administración de decisiones en Edge está diseñada para ofrecer experiencias de consumo en tiempo real. Estas incluyen experiencias como solicitudes de personalización de entrada web o móvil.
+El segundo enfoque es a través de la red Experience Edge, que es una infraestructura distribuida globalmente y ubicada geográficamente para ofrecer experiencias rápidas de subsegundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura de Edge más cercana a la ubicación geográfica del consumidor para minimizar la latencia. Gestión de decisiones en Edge está diseñado para ofrecer experiencias de consumo en tiempo real. Estas incluyen experiencias como solicitudes de personalización de entrada web o móvil.
 
-Este modelo cubrirá los aspectos específicos de Administración de decisiones en Edge.
+Este modelo abarcará los aspectos específicos de Gestión de decisiones en Edge.
 
-Para obtener más información sobre la gestión de decisiones en el centro, consulte [Gestión de decisiones en el centro](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) modelo.
+Para obtener más información sobre Gestión de decisiones en el hub, consulte el modelo [Gestión de decisiones en el hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html).
 
 ## Casos de uso para la gestión de decisiones en Edge
 
 * Personalización en línea mediante experiencias entrantes web o móviles.
-* Ejecución de recorridos en varios canales : ofrece coherencia en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
+* Ejecución de recorridos en varios canales: coherencia de ofertas en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
 <br>
 
 ## Arquitectura
 
-<img src="../assets/offers_edge.svg" alt="Offer decisioning de arquitectura de referencia en el modelo de borde" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_edge.svg" alt="Arquitectura de referencia Offer Decisioning en el modelo de Edge" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -41,7 +41,7 @@ Para obtener más información sobre la gestión de decisiones en el centro, con
 
 | Integración | Descripción |
 | :-- | :--- |
-| [offer decisioning con Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | El offer decisioning se puede integrar con Adobe Target de modo que las ofertas se puedan probar y entregar como experiencias de Target. |
+| [Offer Decisioning con Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=es) | Offer Decisioning se puede integrar con Adobe Target de modo que las ofertas se puedan probar y entregar como experiencias de Target. |
 
 ## Prerrequisitos
 
@@ -55,8 +55,8 @@ Adobe Experience Platform
 
 ## Guardas
 
-* Para obtener más información sobre las protecciones de Journey Optimizer, consulte lo siguiente [Journey Optimizer Guardrade](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
-* Para las protecciones de Offer decisioning, consulte lo siguiente [Descripción del producto offer decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Para obtener más información sobre las protecciones de Journey Optimizer, consulte las [Protecciones de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=es).
+* Para las protecciones de Offer Decisioning, consulte la [Descripción del producto Offer Decisioning](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### Guardas de ingesta de datos
 
@@ -72,15 +72,15 @@ Adobe Experience Platform
 
 ## Patrones de implementación
 
-* Utilice el SDK web o móvil para la implementación en sitios web y aplicaciones móviles a fin de implementar el Offer decisioning en el que se implementó el SDK.
+* Utilice el SDK web o móvil para la implementación en sitios web y aplicaciones móviles a fin de implementar Offer Decisioning donde se implementó el SDK.
    * [Modelo de SDK web/móvil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=es)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
+   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=es)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 O
 
-* Para que un servidor de API e implementación basada en servidor utilicen la API de servicio de red perimetral para la implementación de Offer decisioning de servidor a servidor directo.
-   * [API de servidor de red perimetral](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* Para que un servidor de API e implementación basada en servidor utilicen la API de servicio de red de edge para la implementación de Offer Decisioning de servidor a servidor directo.
+   * [API del servidor de red de Edge](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=es)
 
 <br>
 
@@ -109,8 +109,8 @@ O
 
 ## Documentación relacionada
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* [Administración de decisiones de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Descripción del producto del Offer decisioning de Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
+* [Gestión de decisiones de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+* [Descripción del producto Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Descripción del producto del Offer Decisioning de Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
