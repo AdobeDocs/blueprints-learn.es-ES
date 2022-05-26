@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fff87b7bbea6db6bb5af0386b5919e78077a7858
+source-git-commit: f39c916d4b13d17eb3705c7adf01353929ff7956
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 0%
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Reenvío de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [Recopilación de datos de Simulador para pruebas](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + Implementación {#deployment}
       + [SDK web Experience Platform y red de Edge](/help/blueprints/data-ingestion/websdk.md)
       + [SDK para aplicaciones](/help/blueprints/data-ingestion/appsdk.md)
