@@ -4,16 +4,16 @@ description: Transmita datos recogidos con los SDK de Experience Platform hacia 
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: e6ef8a1e7b90778c0163227e32d2691dfaf9c9d2
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 86%
 
 ---
 
-# Modelo de recopilación de datos empresariales del lado del servidor
+# Modelo de reenvío de eventos
 
-El modelo de recopilación de datos empresariales del lado del servidor muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
+El modelo de reenvío de eventos muestra cómo se pueden reenviar los datos recopilados con los SDK web y móviles de Adobe Experience Platform de la red perimetral de Experience Platform a un destino deseado. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
 
 ## Casos de uso
 
@@ -22,7 +22,7 @@ El modelo de recopilación de datos empresariales del lado del servidor muestra 
 
 ## Aplicaciones
 
-* Colección de Adobe Experience Platform
+* Recopilación de datos de Adobe Experience Platform
 
 ## Arquitectura
 
