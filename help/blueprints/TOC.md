@@ -5,7 +5,7 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: fff87b7bbea6db6bb5af0386b5919e78077a7858
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 + Preparación y recopilación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
-   + [Recopilación de datos empresariales del lado del servidor](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [Reenvío de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
    + Implementación {#deployment}
       + [SDK web Experience Platform y red de Edge](/help/blueprints/data-ingestion/websdk.md)
       + [SDK para aplicaciones](/help/blueprints/data-ingestion/appsdk.md)
