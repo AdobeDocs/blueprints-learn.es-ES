@@ -1,13 +1,13 @@
 ---
-title: Modelo de recopilación de datos empresariales del lado del servidor
+title: Modelo de reenvío de eventos
 description: Transmita datos recogidos con los SDK de Experience Platform hacia destinos
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: e6ef8a1e7b90778c0163227e32d2691dfaf9c9d2
+source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
