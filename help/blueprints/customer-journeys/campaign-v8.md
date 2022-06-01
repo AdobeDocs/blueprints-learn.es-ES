@@ -3,10 +3,10 @@ title: Modelo de Campaign v8
 description: Adobe Campaign v8 es la herramienta de campañas de próxima generación diseñada para canales de marketing tradicionales como correo electrónico y correo directo. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para cosas como restablecimiento de contraseña, confirmación de pedido, recepción electrónica y mucho más.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
-workflow-type: ht
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign v8 es la herramienta de campañas de próxima generación diseña
 
 | Escenario | Descripción | Competencias |
 | :-- | :--- | :--- |
-| [Journey Optimizer con Adobe Campaign](ajo-and-campaign.md) | Muestra cómo puede utilizar Adobe Journey Optimizer para orquestar experiencias 1:1 utilizando el perfil del cliente en tiempo real y aprovechar el sistema de mensajería transaccional nativo de Adobe Campaign para enviar el mensaje | Aproveche el perfil de cliente en tiempo real y la potencia de Journey Optimizer para orquestar en el momento las experiencias mientras utiliza las capacidades nativas de mensajería en tiempo real de Adobe Campaign para realizar la comunicación de último momento<br><br>Consideraciones:<br><ul><li>Se pueden enviar hasta 1 millón de mensajes por hora a través del servidor de mensajes en tiempo real<li>No se establece ninguna limitación desde Journey Optimizer, por lo que debe asegurarse de que un arquitecto empresarial de preventas realice una comprobación técnica</li><li>El Offer Decisioning no se admite en cargas útiles a Campaign v8</li></ul> |
+| [Journey Optimizer con Adobe Campaign](ajo-and-campaign.md) | Muestra cómo puede utilizar Adobe Journey Optimizer para orquestar experiencias 1:1 utilizando el perfil del cliente en tiempo real y aprovechar el sistema de mensajería transaccional nativo de Adobe Campaign para enviar el mensaje | Aproveche el perfil de cliente en tiempo real y la potencia de Journey Optimizer para orquestar en el momento las experiencias mientras utiliza las capacidades nativas de mensajería en tiempo real de Adobe Campaign para realizar la comunicación de último momento<br><br>Consideraciones:<br><ul><li>Se pueden enviar hasta 1 millón de mensajes por hora a través del servidor de mensajes en tiempo real<li>No se establece ninguna limitación desde Journey Optimizer, por lo que debe asegurarse de que un arquitecto empresarial de preventas realice una comprobación técnica</li><li>La Administración de decisiones no es compatible con las cargas útiles de Campaign v8</li></ul> |
 
 <br>
 

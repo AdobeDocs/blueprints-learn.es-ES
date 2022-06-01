@@ -3,10 +3,10 @@ title: 'Journey Optimizer: modelo de mensajería de terceros'
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
-workflow-type: ht
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ Guardas adicionales de Journey Optimizer:
    * Segmentos por flujo (calificación &lt;5 minutos)
 * Segmentos por lotes: debe conocer el volumen diario de usuarios adecuados y garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos los recorridos.
 * Segmentos por flujo: debe asegurarse de que el pico inicial de calificaciones de perfil pueda gestionarse junto con el volumen de calificación de flujo diario por recorrido y durante todos los recorridos.
-* No se admite el Offer Decisioning
+* Gestión de decisiones no admitida
 * Integraciones salientes a sistemas de terceros
    * No es compatible con una sola IP estática, ya que nuestra infraestructura es de varios inquilinos (debe realizar la lista de permitidos de todas las IP del centro de datos)
    * Solo se admiten métodos de PUT y POST para acciones personalizadas
@@ -88,7 +88,7 @@ Sistema de mensajería de terceros
 #### Perfil/identidad
 
 1. [Crear áreas de nombres específicas para los clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
-1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
+1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
 1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-time Customer Profile] (opcional).
 1. Crear segmentos para el uso de Journey.
