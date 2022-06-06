@@ -7,17 +7,17 @@ exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 48%
+ht-degree: 64%
 
 ---
 
 # Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
 
-La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles ilustra cómo se pueden usar los datos de Adobe Experience Platform para entrenar, implementar y puntuar modelos a fin de proporcionar perspectivas de aprendizaje automático para el Experience Platform y el Real-time Customer Data Platform a partir de las herramientas de aprendizaje automático y la ciencia de datos. Las perspectivas modeladas se pueden ingerir en Experience Platform para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
+La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles ilustra cómo se pueden usar los datos de Adobe Experience Platform para entrenar, implementar y puntuar modelos a fin de proporcionar perspectivas de aprendizaje automático para la Experience Platform y la Real-time Customer Data Platform a partir de las herramientas de aprendizaje automático y la ciencia de datos. Las perspectivas modeladas se pueden ingerir en Experience Platform para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
 
 ## Casos de uso
 
-* Extraiga información y descubra patrones de datos de clientes, entrene y puntee modelos a partir de estos datos.
+* Extraiga información y descubra patrones de datos de clientes. A continuación, entrene y califique modelos a partir de estos datos.
 * Enriquecer [!UICONTROL Real-time Customer Profile] con datos y atributos según modelo para una personalización más granular y una optimización mejorada de recorrido.
 * Entrenar y calificar modelos para determinar datos del cliente tales como el valor de tiempo de vida del cliente, la tendencia a la conversión o cancelación, la afinidad de contenido y producto, y la calificación de participación.
 
@@ -53,7 +53,7 @@ Para que los resultados del modelo se introduzcan en el Perfil del cliente en ti
 ## Documentación relacionada
 
 * [Descripción del producto de inteligencia Adobe Experience Platform](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es)
 
 ## Entradas relacionadas en el blog
 

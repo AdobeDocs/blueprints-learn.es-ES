@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -49,8 +49,8 @@ ht-degree: 89%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + Administración de decisiones{#decision-management}
          + [Información general](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
-         + [Administración de decisiones en el perímetro](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
-         + [Gestión de decisiones en el centro](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
+         + [Gestión de decisiones en Edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [Gestión de decisiones en el hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer con Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
