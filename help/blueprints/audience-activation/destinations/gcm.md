@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
 source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Incorpore datos de clientes de varias fuentes para crear una única vista de per
    * Revise el recuento de resultados del segmento para los segmentos dados.
    * Investigue el perfil que debe incluirse en el segmento para verificar que la pertenencia al segmento se incluye en la parte de pertenencia al segmento del perfil.
 1. Configure la entrega de la audiencia al destino en la configuración de destino.
-   * Consulte la [Guía de destino de Google Customer Match](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) para obtener más información sobre la configuración del destino de Google Customer Match.
+   * Consulte la [Guía de destino de Google Customer Match](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=es) para obtener más información sobre la configuración del destino de Google Customer Match.
    * Al configurar un destino, seleccione qué audiencia desea activar en el destino.
    * Determine la fecha de inicio programada en la que desea que el flujo de datos de destino comience a enviar la audiencia al destino.
    * Cada destino tiene atributos opcionales y requeridos que se envían.
@@ -91,4 +91,4 @@ Incorpore datos de clientes de varias fuentes para crear una única vista de per
 
 ## Documentación relacionada
 
-Activación en Google Customer Match: [Configuración de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
+Activación en Google Customer Match: [Configuración de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=es)
