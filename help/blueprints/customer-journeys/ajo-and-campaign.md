@@ -4,9 +4,9 @@ description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe C
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
    * Segmentos por flujo (calificación &lt;5 minutos)
 * Segmentos por lotes: debe conocer el volumen diario de usuarios adecuados y garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos los recorridos.
 * Segmentos por flujo: debe asegurarse de que el pico inicial de calificaciones de perfil pueda gestionarse junto con el volumen de calificación de flujo diario por recorrido y durante todos los recorridos.
-* Gestión de decisiones no admitida
+* Gestión de decisiones no es compatible
 * No se admiten los eventos comerciales
 * Integraciones salientes a sistemas de terceros
    * No es compatible con una sola IP estática, ya que nuestra infraestructura es de varios inquilinos (debe realizar la lista de permitidos de todas las IP del centro de datos)
@@ -76,7 +76,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 * AC (v7) solo admite el recorrido iniciado por evento
    * Recorrido no iniciado por segmento o pertenencia a segmento
    * La lectura de los recorridos basados en eventos de audiencia y de negocio no es compatible debido al volumen que puede enviar a las instancias de ejecución
-* Ni AC (v7) ni AC (v8) admiten la gestión de decisiones en los mensajes
+* Ni AC (v7) ni AC (v8) admiten Gestión de decisiones en los mensajes
 * No se restringen las llamadas de API salientes realizadas a Campaign
 * Los registros de mensajería transaccional no se sincronizan de forma nativa con AEP. Requiere un esfuerzo de consultoría. Se recomienda exportar los registros como mucho cada cuatro horas
 
@@ -108,7 +108,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 #### Perfil/identidad
 
 1. [Crear áreas de nombres específicas para los clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
-1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
 1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-time Customer Profile] (opcional).
 1. Crear segmentos para el uso de Journey.
@@ -134,7 +134,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identidad para Edge Network
+   * Identidad  para Edge Network
    * Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
 1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
