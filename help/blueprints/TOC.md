@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
    + [Información general](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Administración de decisiones{#decision-management}
+      + Gestión de decisiones {#decision-management}
          + [Información general](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Gestión de decisiones en Edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [Gestión de decisiones en el hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
@@ -62,7 +62,7 @@ ht-degree: 94%
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Reenvío de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Recopilación de datos de Simulador para pruebas](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
+   + [Recopilación de datos de múltiples zonas protegidas](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + Implementación {#deployment}
       + [SDK web Experience Platform y red de Edge](/help/blueprints/data-ingestion/websdk.md)
       + [SDK para aplicaciones](/help/blueprints/data-ingestion/appsdk.md)
@@ -74,4 +74,4 @@ ht-degree: 94%
    + [Información general](/help/blueprints/web-personalization/overview.md)
    + [Personalización basada en comportamiento](/help/blueprints/web-personalization/behavioral.md)
    + [Personalización de cliente conocida](/help/blueprints/web-personalization/known-personalization.md)
-   + [Administración de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
+   + [Gestión de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
