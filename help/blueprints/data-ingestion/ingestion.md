@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: 5ee530220cd5928f9ab4aabd50148b963273d67c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 | Orígenes de flujo | [Orígenes de flujo](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors)<br>Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li></ul> |
 | API de flujo | [API del servidor de red de Edge (preferida)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es): admite los servicios de Edge, incluida la segmentación de Edge y <br>[API Data Collection Core Service](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=es): no admite los servicios de Edge, dirige directamente al hub.<br>Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#what-can-you-do-with-streaming-ingestion%3F) |
 | Herramientas ETL | Utiliza herramientas ETL para modificar y transformar datos empresariales antes de su ingesta en Experience Platform.<br><br>Latencia:<ul><li>El tiempo depende de la programación de la herramienta ETL externa. A continuación, se aplican guardas estándar de ingesta según el método de ingesta utilizado.</li></ul> |
-| Orígenes por lote | Extracción programada desde origen<br>Latencia: ~ 200 GB/hora.<br><br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Tutoriales en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=es) |
+| Orígenes por lote | Extracción programada desde origen<br>Latencia: ~ 200 GB/hora.<br><br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors)<br>[Tutoriales en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=es) |
 | API por lote | Latencia:<ul><li>Ingesta por lotes a perfiles condicionados por tamaño y carga de tráfico ~45 minutos.</li><li>Ingesta por lotes a repositorios de datos condicionados por tamaño y carga de tráfico.</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=es#batch) |
 | Conectores de aplicaciones Adobe | Realizan la ingesta de datos procedentes de las aplicaciones de Adobe Experience Cloud automáticamente.<ul><li>Adobe Analytics: [documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es#connectors) y [tutorial en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=es)</li><li>Audience Manager: [documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es#connectors) y [tutorial en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=es)</li></ul> |
 
@@ -46,7 +46,7 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 | Métodos de preparación de datos | Descripción |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Herramienta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], etc.) | Realizar transformaciones complejas en herramientas ETL y utilizar las API o los conectores de origen estándar de [!UICONTROL Flow Service] de Experience Platform para la ingesta de datos resultantes. |
-| [!UICONTROL Query Service]: preparación de datos | Une, divide, fusiona, transforma, consulta y filtra datos en un nuevo conjunto de datos. <br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es#sql) sobre el uso de Create Table as Select (CTAS) |
+| [!UICONTROL Servicio de consultas]: preparación de datos | Une, divide, fusiona, transforma, consulta y filtra datos en un nuevo conjunto de datos. <br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es#sql) sobre el uso de Create Table as Select (CTAS) |
 | Funciones del mapeador XDM y preparación de datos (flujo y lotes) | Mapear atributos de origen en formato CSV o JSON en atributos XDM durante la ingesta de Experience Platform.<br>Computa funciones de datos mientras se realiza la ingesta; esto es, les da formato, los divide, los concatena, etc.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) |
 
 ## Entradas relacionadas en el blog
