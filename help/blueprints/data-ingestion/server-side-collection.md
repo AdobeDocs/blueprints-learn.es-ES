@@ -5,15 +5,15 @@ solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '228'
+ht-degree: 100%
 
 ---
 
 # Modelo de reenvío de eventos
 
-El modelo de reenvío de eventos muestra cómo se pueden reenviar los datos recopilados con los SDK web y móviles de Adobe Experience Platform de la red perimetral de Experience Platform a un destino deseado. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
+El modelo de reenvío de eventos muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
 
 ## Casos de uso
 
