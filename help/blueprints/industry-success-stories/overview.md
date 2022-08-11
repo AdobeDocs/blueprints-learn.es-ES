@@ -2,10 +2,10 @@
 title: Historias de éxito del sector de los modelos de experiencia digital
 description: Los casos de éxito de los modelos de experiencia digital muestran cómo varias sectores están obteniendo valor empresarial con las aplicaciones de Adobe Experience Cloud, con tecnología de Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 1bea087acd18e4cfe931984731c90d8a0148d363
+source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 89%
+source-wordcount: '255'
+ht-degree: 78%
 
 ---
 
@@ -18,17 +18,17 @@ Descubra cómo los clientes diseñan buenas experiencias y tienen éxito con los
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen en miniatura del sector de la moda, con audience activation, customer journey analytics y modelos de recorrido del cliente" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="imagen en miniatura del sector de la moda, con audience activation, customer journey analytics y modelos de recorrido del cliente" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen en miniatura del sector minorista con Activación con datos en línea y sin conexión y modelos de Journey Optimizer" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="imagen en miniatura del sector minorista con Activación con datos en línea y sin conexión y modelos de Journey Optimizer" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="imagen en miniatura del modelo de Journey Optimizer" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="imagen en miniatura del modelo de Journey Optimizer" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=es"><img alt="imagen en miniatura de Activación con datos en línea y sin conexión" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="imagen en miniatura de Activación con datos en línea y sin conexión" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
