@@ -1,19 +1,19 @@
 ---
 title: Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
-description: Este modelo muestra cómo Data Science Workspace de Adobe Experience Platform puede utilizar los datos existentes en Experience Platform para entrenar, implementar y calificar modelos, y así ofrecer información recopilada por aprendizaje automático de esos datos.
+description: Este modelo muestra cómo se pueden incorporar perspectivas basadas en la ciencia de datos en el Experience Platform para enriquecer el Perfil del cliente en tiempo real.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
 # Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
 
-La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles ilustra cómo se pueden usar los datos de Adobe Experience Platform para entrenar, implementar y puntuar modelos a fin de proporcionar perspectivas de aprendizaje automático para la Experience Platform y la Real-time Customer Data Platform a partir de las herramientas de aprendizaje automático y la ciencia de datos. Las perspectivas modeladas se pueden ingerir en Experience Platform para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
+La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles ilustra cómo se pueden usar los datos para entrenar, implementar y puntuar modelos a fin de proporcionar perspectivas de aprendizaje automático para el Experience Platform y el Real-time Customer Data Platform a partir de la ciencia de datos y las herramientas de aprendizaje automático. Las perspectivas modeladas se pueden ingerir en Experience Platform para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
 
 ## Casos de uso
 
@@ -38,17 +38,14 @@ Para que los resultados del modelo se ingieran en el Perfil del cliente en tiemp
 
 ## Consideraciones sobre la implementación
 
-* En la mayoría de los casos, los resultados del modelo deben ingerirse como atributos de perfil y no como eventos de experiencia. Los resultados del modelo pueden ser una simple cadena de atributos. Si se van a ingerir varios resultados de modelo, se recomienda utilizar un campo de tipo matriz o mapa.
+* En la mayoría de los casos, los resultados del modelo deben ingerirse como atributos de perfil y no como eventos de experiencia. Los resultados del modelo pueden ser cadenas de atributos simples. Si se van a ingerir varios resultados de modelo, se recomienda utilizar un campo de tipo matriz o mapa.
 * El conjunto de datos de instantáneas de perfil diarias, que es una exportación diaria de los datos unificados de atributos de perfil, se puede aprovechar para entrenar modelos con datos de atributos de perfil. Puede acceder a la documentación del conjunto de datos de instantáneas de perfil [aquí](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=es#profile-attribute-datasets).
 * Para extraer datos de Experience Platform, se pueden utilizar los siguientes métodos
    * SDK de acceso a datos
       * Los datos están en formato de archivo sin procesar
       * Los datos de evento de experiencia de perfil se mantienen en su estado sin procesar y no unificado.
    * Destinos RTCDP
-      * Solo se pueden extraer los atributos de perfil y las suscripciones a segmentos.
-   * Servicio de consultas
-      * El acceso a grandes cantidades de datos sin procesar puede hacer que la consulta exceda el tiempo de espera de 10 minutos. Se recomienda consultar los datos de forma incremental.
-
+      * Se pueden mejorar los atributos de perfil y las suscripciones a segmentos.
 
 ## Documentación relacionada
 
