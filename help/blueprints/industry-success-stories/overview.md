@@ -4,8 +4,8 @@ description: Los casos de éxito de los modelos de experiencia digital muestran 
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Descubra cómo los clientes diseñan buenas experiencias y tienen éxito con los
 <tr>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>Sector de la moda</strong></a></div>
-    <p><em>Marketing en tiempo real, activación en canales múltiples y análisis en canales múltiples.</em></p>
+    <p><em>Marketing en tiempo real, activación en canales múltiples y Cross-Channel Analytics.</em></p>
   </td>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>Sector minorista</strong></a></div>
