@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
+source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 0%
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
    + [Uso compartido de audiencias de CJA con RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
+   + [CJA y Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Recorridos del cliente {#customer-journeys}
    + [Información general](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
