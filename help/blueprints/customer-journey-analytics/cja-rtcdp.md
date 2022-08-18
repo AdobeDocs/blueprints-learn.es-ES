@@ -4,7 +4,7 @@ description: Unifique y analice los datos y los comportamientos de los clientes 
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 0d188a41b6c90bc838eaf4b1d0d1f31b3596e7ca
+source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,6 +15,10 @@ ht-degree: 0%
 
 Cree y publique audiencias identificadas en Customer Journey Analytics (CJA) en Perfil del cliente en tiempo real en Adobe Experience Platform para segmentación y personalización de clientes. Ideal para crear audiencias que utilicen datos históricos o audiencias más refinadas a partir de filtros granulares y campos calculados en Customer Journey Analytics.
 
+## Guía de publicación de audiencias de Customer Journey Analytics
+
+Consulte la siguiente documentación para obtener instrucciones sobre la implementación y configuración de la publicación de audiencias de Customer Journey Analytics a Real-time Customer Data Platform. [Documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
+
 ## Arquitectura para los modelos de Customer Journey Analytics
 
 ![Diagrama de arquitectura](assets/CJA_RTCDP.svg)
@@ -22,10 +26,6 @@ Cree y publique audiencias identificadas en Customer Journey Analytics (CJA) en 
 ## Diagrama de guardas para los modelos de Customer Journey Analytics
 
 ![Diagrama de guardas](assets/cja_guardrails.svg)
-
-## Guía de publicación de audiencias de Customer Journey Analytics
-
-Consulte la siguiente documentación para obtener instrucciones sobre la implementación y configuración de la publicación de audiencias de Customer Journey Analytics a Real-time Customer Data Platform. [Documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Entradas relacionadas en el blog
 
