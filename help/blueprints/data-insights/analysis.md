@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Platform puede conectarse con clientes SQL, interfaces y herramientas
 * Acceso por fila y columna a los datos ingeridos para su análisis y validación
 * Creación de paneles y visualización de datos a través de las herramientas de inteligencia empresarial
 
-Los casos de uso comunes adicionales para el servicio de consulta se describen aquí [Casos de uso del servicio de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
+Los casos de uso comunes adicionales para el servicio de consulta se describen aquí [Casos de uso de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=es)
 
 ## Aplicaciones
 
@@ -39,15 +39,15 @@ Los casos de uso comunes adicionales para el servicio de consulta se describen a
 ## Guardas
 
 Consulte la documentación del producto Query Service para obtener más información sobre las prácticas recomendadas y los guardas.
-[Guía de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
+[Guía de Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=es)
 
 ## Pasos de implementación
 
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
-1. Confirme que los datos están disponibles para [[!UICONTROL Servicio de consultas]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=es).
-1. [Conectar herramientas de inteligencia empresarial y clientes SQL a [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) para la posterior visualización, consulta y análisis de datos.
+1. Confirme que los datos están disponibles para [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=es).
+1. [Conectar herramientas de inteligencia empresarial y clientes SQL a [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=es) para la posterior visualización, consulta y análisis de datos.
 
 ## Documentación relacionada
 
