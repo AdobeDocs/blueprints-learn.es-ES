@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Activación de Audiencia Anónima](/help/blueprints/audience-activation/anonymous.md)
-   + Activación de cliente conocida {#known-customer-audience-activation}
+   + [Activación de Audiencia Anónima (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Activación Conocida del Cliente (RTCDP) {#known-customer-audience-activation}
       + [Información general](/help/blueprints/audience-activation/known.md)
       + Activación en canales publicitarios y sociales {#audience-activation}
          + [Activación en Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 100%
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
-   + [Personalización basada en comportamiento](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalización de cliente conocida](/help/blueprints/web-personalization/known-personalization.md)
+   + [Personalización basada en comportamiento - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalización de clientes conocida: Target y RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestión de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
