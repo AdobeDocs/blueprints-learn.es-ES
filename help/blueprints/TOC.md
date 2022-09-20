@@ -1,14 +1,14 @@
 ---
 user-guide-title: Modelos de experiencia digital
-breadcrumb-title: 'Modelos '
+breadcrumb-title: Modelos
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+source-git-commit: 4aced09f12b47c0af25af7aaa97085a607d749b3
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 95%
+source-wordcount: '206'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 + [Información general](/help/blueprints/overview.md)
 + [Ver todos los casos de uso](/help/blueprints/use-cases.md)
-+ Ver todos los casos de éxito de la industria {#industry-success-stories}
++ Planes de la industria verticales{#vertical-blueprints}
    + [Información general](/help/blueprints/industry-success-stories/overview.md)
    + [Moda](/help/blueprints/industry-success-stories/apparel.md)
    + [Sector minorista](/help/blueprints/industry-success-stories/retail.md)
