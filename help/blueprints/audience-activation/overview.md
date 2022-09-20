@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 56df8ad75940a6924cdef18c81acb91ee7471db6
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 95%
 
 ---
 
@@ -17,13 +17,14 @@ ht-degree: 100%
 
 La activación de audiencias y perfiles es la clave del éxito en el mundo del marketing basado en datos. Sin embargo, muchas marcas aún centran sus esfuerzos en la activación por canal en primer lugar, lo que suele producir un alcance y una personalización incoherentes.
 
-Abordando el canal en primer lugar, cada canal actúa como un depósito donde los esfuerzos de personalización se dirigen solo a los clientes que interactúan con la marca en ese preciso canal. Este enfoque no refleja la realidad de la interacción del cliente con las marcas por diferentes puntos de contacto. La activación de audiencias y perfiles permite que las marcas conecten la interacción del cliente a través de los diferentes canales, con el fin de conseguir una audiencia centralizada que se puede activar en todos los canales.
+Abordando el canal en primer lugar, cada canal actúa como un depósito donde los esfuerzos de personalización se dirigen solo a los clientes que interactúan con la marca en ese preciso canal. Este enfoque no refleja la realidad de que los clientes interactúan con marcas en muchos puntos de contacto diferentes. La activación de audiencias y perfiles permite que las marcas conecten la interacción del cliente a través de los diferentes canales, con el fin de conseguir una audiencia centralizada que se puede activar en todos los canales.
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
 | **[Activación de audiencia anónima](anonymous.md)** | <ul><li>Segmentación de la audiencia a través del sitio web y otros canales de publicidad para conseguir datos anónimos de comportamiento del cliente.</li><li>Integración con datos de audiencia de terceros para una personalización mejorada.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Activación de cliente conocida](known.md)** | <ul><li>Activación de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad. </li><li>Utilización de atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |
 | **[Activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md)** | <ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud</li><li>Generar y compartir segmentos ricos y datos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul> |
+| **[Coincidencia de segmentos](segment-match.md)** | <ul><li>Con un mejor gobierno, permisos y sistemas de administración de preferencias, los especialistas en marketing pueden mejorar aún más sus audiencias autenticadas de origen con socios clave.</li></ul> | <ul><li>Adobe Experience Platform  </li></ul> |
 
 ## Arquitectura de Real-time Customer Profile
 
