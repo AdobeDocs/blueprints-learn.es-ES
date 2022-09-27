@@ -5,9 +5,9 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
+source-git-commit: 84eb7427077a068c3fe3b2cfc4856e115427f4ca
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 94%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 94%
 # Modelos de experiencia digital {#architecture}
 
 + [Información general](/help/blueprints/overview.md)
-+ [Ver todos los casos de uso](/help/blueprints/use-cases.md)
 + Planes de la industria verticales{#vertical-blueprints}
-   + [Información general](/help/blueprints/industry-success-stories/overview.md)
-   + [Moda](/help/blueprints/industry-success-stories/apparel.md)
-   + [Sector minorista](/help/blueprints/industry-success-stories/retail.md)
-   + [Telecomunicaciones](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [Turismo y hostelería](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [Información general](/help/blueprints/vertical-blueprints/overview.md)
+   + [Moda](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Sector minorista](/help/blueprints/vertical-blueprints/retail.md)
+   + [Telecomunicaciones](/help/blueprints/vertical-blueprints/telecommunications.md)
+   + [Turismo y hostelería](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + Información general sobre la arquitectura {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)

@@ -4,10 +4,10 @@ description: Administrar perfiles y audiencias en Experience Platform y comparti
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: 094591020413933932356cb8c393bf569bcfca50
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Consulte los [guardas de la página de información general sobre la activación
 
 ### Uso compartido de audiencias de Real-time Customer Data Platform con Target
 
-* Consulte la [Personalización web/móvil con modelos de datos en línea y sin conexión](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=es) para obtener más información sobre cómo compartir perfiles y audiencias de Real-time Customer Data Platform en Target.
+* Consulte la [Personalización de clientes conocida: modelo Target y RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) para obtener más información sobre cómo compartir perfiles y audiencias de Real-time Customer Data Platform a Target.
 
 ### Uso compartido de audiencias de Real-time Customer Data Platform con Campaign y Journey Optimizer
 
