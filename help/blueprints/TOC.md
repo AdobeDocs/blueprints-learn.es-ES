@@ -5,7 +5,7 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 92%
@@ -26,7 +26,7 @@ ht-degree: 92%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + Modelos de implementación{#deployment}
+   + Patrones de implementación{#deployment}
       + [SDK web Experience Platform y red de Edge](/help/blueprints/data-ingestion/websdk.md)
       + [SDK para aplicaciones](/help/blueprints/data-ingestion/appsdk.md)
 + Activación de audiencias y perfiles {#audience-activation}
