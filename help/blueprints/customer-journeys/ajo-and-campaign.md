@@ -62,7 +62,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
    * No es compatible con una sola IP estática, ya que nuestra infraestructura es de varios inquilinos (debe realizar la lista de permitidos de todas las IP del centro de datos)
    * Solo se admiten métodos de PUT y POST para acciones personalizadas
    * Compatibilidad con autenticación: token | contraseña | OAuth2
-* No es posible empaquetar y mover componentes individuales de Adobe Experience Platform o Journey Optimizer entre varios entornos limitados. Debe volver a implementarse en nuevos entornos
+* No es posible empaquetar y mover componentes individuales de Adobe Experience Platform o Journey Optimizer entre varias zonas protegidas. Debe volver a implementarse en nuevos entornos
 
 <br>
 

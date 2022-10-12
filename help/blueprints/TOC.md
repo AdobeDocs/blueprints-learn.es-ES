@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 80%
 # Modelos de experiencia digital {#architecture}
 
 + [Información general](/help/blueprints/overview.md)
-+ Planes de la industria verticales{#vertical-blueprints}
++ Modelos sectoriales verticales {#vertical-blueprints}
    + [Información general](/help/blueprints/vertical-blueprints/overview.md)
    + [Moda](/help/blueprints/vertical-blueprints/apparel.md)
    + [Sector minorista](/help/blueprints/vertical-blueprints/retail.md)
@@ -31,7 +31,7 @@ ht-degree: 80%
       + [SDK para aplicaciones](/help/blueprints/data-ingestion/appsdk.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Audience Activation anónimo (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Activación de audiencia anónima (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activación de cliente conocida (RTCDP) {#known-customer-audience-activation}
       + [Información general](/help/blueprints/audience-activation/known.md)
       + Activación en canales publicitarios y sociales {#audience-activation}
@@ -69,7 +69,7 @@ ht-degree: 80%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP con Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer con Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Ingesta de datos y exportación de datos{#data-ingestion}
++ Ingesta de datos y exportación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Reenvío de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
