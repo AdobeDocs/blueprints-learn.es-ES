@@ -5,16 +5,20 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 654ec6c8176a446a2a5fb7ffb0aa8a854a31c46b
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 98%
 
 ---
 
 # Customer Journey Analytics
 
 Customer Journey Analytics muestra cómo las marcas pueden unificar datos y comportamientos del cliente de varios canales y fuentes de interacción para crear una vista basada en el recorrido de todas las interacciones del cliente. La creación de informes y el análisis se pueden realizar en el servicio de la aplicación Customer Journey Analytics para evaluar y obtener datos sobre la interacción del cliente y sus patrones de comportamiento.
+
+Puede encontrar una lista completa de los casos de uso de Customer Journey Analytics en la documentación de Customer Journey Analytics aquí.
+
+## [Vínculo a casos de uso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=es)
 
 Los casos de uso comunes incluyen:
 
@@ -26,9 +30,9 @@ Los casos de uso comunes incluyen:
 * Qué campañas resultaron en conversión y más participación
 * Análisis de uso de herramientas para optimizar las experiencias de autoservicio
 
-Puede encontrar una lista completa de los casos de uso de Customer Journey Analytics en la documentación de Customer Journey Analytics aquí.
+## Arquitectura para Customer Journey Analytics
 
-## [Vínculo a casos de uso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=es)
+![Diagrama de arquitectura](assets/CJA.svg)
 
 Algunos ejemplos de casos de uso principales son los siguientes:
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
@@ -36,10 +40,6 @@ Algunos ejemplos de casos de uso principales son los siguientes:
 | **[Cross Channel Journey Analysis](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es)**  | <ul><li>Obtenga una sola vista consolidada con el comportamiento del cliente para todos los diferentes canales unificando los datos de distintas propiedades web, móvil y sin conexión.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul>|
 | **[Publicar audiencias en Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es)** | <ul><li>Cree y publique audiencias identificadas en Customer Journey Analytics (CJA) en Real-time Customer Profile en Adobe Experience Platform para la segmentación y personalización de clientes. Ideal para crear audiencias que utilicen datos históricos o audiencias más refinadas a partir de filtros granulares y campos calculados en Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
 | **[Análisis del recorrido de desvío de llamadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=es)** | <ul><li>Determine qué comportamientos tienen más posibilidades de resultar en una llamada atendida por un agente, uniendo los datos del centro de llamadas con otros derivados de la web, móvil u otras interacciones.</li><li>Esta información se puede utilizar para optimizar la experiencia del cliente y reducir la ruta a interacciones atendidas por agentes gracias al contenido y a las herramientas optimizadas para el autoservicio.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
-
-## Arquitectura para los modelos de Customer Journey Analytics
-
-![Diagrama de arquitectura](assets/CJA.svg)
 
 ## Diagrama de guardas para los modelos de Customer Journey Analytics
 
