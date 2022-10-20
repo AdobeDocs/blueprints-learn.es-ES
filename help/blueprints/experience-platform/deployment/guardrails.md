@@ -3,10 +3,10 @@ title: Experience Platform y protecciones de aplicaciones
 description: Las protecciones definen las expectativas de rendimiento y el impacto para los componentes y servicios dentro de Adobe Experience Platform y las aplicaciones
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 4de3d70cc3218ec79a49daa0511d2ad779d49508
+source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '288'
+ht-degree: 31%
 
 ---
 
@@ -30,7 +30,23 @@ Las protecciones son umbrales recomendados que proporcionan directrices para el 
 
 [Journey Optimizer Guardrade](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
+<br>
 
+## Latencia de extremo a extremo
+
+### Ingesta de datos
+
+El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio para la ingesta de datos en Adobe Experience Platform.
+
+<img src="../assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Journey Optimizer
+
+<img src="../assets/activation-latency.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:85%; border:1px solid #4a4a4a" />
+
+<br>
 
 ## Descripciones de productos
 
