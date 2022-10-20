@@ -5,9 +5,9 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 84%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 84%
 + Modelos sectoriales verticales {#vertical-blueprints}
    + [Información general](/help/blueprints/vertical-blueprints/overview.md)
    + [Moda](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Atención](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [Sector minorista](/help/blueprints/vertical-blueprints/retail.md)
    + [Telecomunicaciones](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [Turismo y hostelería](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -26,9 +27,10 @@ ht-degree: 84%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y otras aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + Patrones de implementación{#deployment}
+   + Implementación {#deployment}
       + [SDK web Experience Platform y red de Edge](/help/blueprints/data-ingestion/websdk.md)
       + [SDK para aplicaciones](/help/blueprints/data-ingestion/appsdk.md)
+      + [Guardas](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
    + [Activación de audiencia anónima (AAM)](/help/blueprints/audience-activation/anonymous.md)
