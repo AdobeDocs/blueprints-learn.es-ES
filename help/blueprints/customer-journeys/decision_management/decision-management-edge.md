@@ -6,13 +6,13 @@ exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer: Gestión de decisiones en Edge
 
-Para obtener más información sobre Gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es) y la Información general sobre Gestión de decisiones [AQUÍ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
+Para obtener más información sobre Gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es) y la Información general sobre Gestión de decisiones [AQUÍ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=es)
 
 Gestión de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación, y proporciona una explicación profunda de los diversos componentes y consideraciones sobre arquitectura que componen Gestión de decisiones.
 
@@ -22,7 +22,7 @@ El segundo enfoque es a través de la red Experience Edge, que es una infraestru
 
 Este modelo abarcará los aspectos específicos de Gestión de decisiones en Edge.
 
-Para obtener más información sobre Gestión de decisiones en el hub, consulte el modelo [Gestión de decisiones en el hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en).
+Para obtener más información sobre Gestión de decisiones en el hub, consulte el modelo [Gestión de decisiones en el hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=es).
 
 ## Casos de uso para Gestión de decisiones en Edge
 
@@ -77,7 +77,7 @@ Adobe Experience Platform
 ## Patrones de implementación
 
 * Utilice el SDK web o móvil para la implementación en sitios web y aplicaciones móviles a fin de implementar Gestión de decisiones donde se implementó el SDK.
-   * [Modelo de SDK web/móvil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
+   * [Modelo de SDK web/móvil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=es)
    * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=es)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 

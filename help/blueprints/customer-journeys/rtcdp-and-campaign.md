@@ -1,12 +1,12 @@
 ---
-title: Real-Time CDP con Adobe Campaign v7 y patrón de integración de Campaign Standard
+title: Patrón de integración de Real-Time CDP con Adobe Campaign v7 y Campaign Standard
 description: Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Experience Platform y su herramienta de segmentación centralizada con Adobe Campaign para ofrecer conversaciones personalizadas.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -78,8 +78,8 @@ Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Ex
 
 #### Origen/destino
 
-1. [Orígenes y destinos de Experience Platform y Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
-1. [Orígenes y descripciones de Experience Platform y Campaign v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Orígenes y destinos de Experience Platform y Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=es)
+1. [Orígenes y destinos de Experience Platform y Campaign v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=es)
 1. [Incorporar datos en Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) mediante API de flujo y conectores de origen.
 1. Configurar el destino de almacenamiento de los blobs de [!DNL Azure] para su uso con Adobe Campaign.
 
