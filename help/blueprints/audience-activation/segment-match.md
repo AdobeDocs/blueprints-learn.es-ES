@@ -3,9 +3,9 @@ title: Coincidencia de segmentos
 description: Obtenga información sobre la [!UICONTROL Coincidencia de segmentos] para Adobe Experience Platform (AEP). La [!UICONTROL Coincidencia de segmentos] es un servicio de colaboración de datos que le permite intercambiar datos de segmentos basados en identificadores sectoriales comunes de una forma segura, regulada y compatible con la privacidad.
 solution: Experience Platform
 source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1764'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
