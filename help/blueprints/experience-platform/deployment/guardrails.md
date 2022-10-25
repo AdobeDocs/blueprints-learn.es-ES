@@ -3,10 +3,10 @@ title: Experience Platform y protecciones de aplicaciones
 description: Las protecciones definen las expectativas de rendimiento y el impacto para los componentes y servicios dentro de Adobe Experience Platform y las aplicaciones
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '297'
+ht-degree: 30%
 
 ---
 
@@ -27,6 +27,8 @@ Las protecciones son umbrales recomendados que proporcionan directrices para el 
 [Protecciones de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 
 [Protecciones del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+
+[Protecciones de activación de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
 [Journey Optimizer Guardrade](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
