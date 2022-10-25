@@ -4,9 +4,9 @@ description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe C
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
