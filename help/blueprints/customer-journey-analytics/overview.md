@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 654ec6c8176a446a2a5fb7ffb0aa8a854a31c46b
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,9 @@ Algunos ejemplos de casos de uso principales son los siguientes:
 
 ## Diagrama de guardas para los modelos de Customer Journey Analytics
 
-![Diagrama de guardas](assets/cja_guardrails.svg)
+* Para obtener información detallada sobre las barreras y las latencias de extremo a extremo, consulte la [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md)
+
+![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg)
 
 ## Entradas relacionadas en el blog
 
