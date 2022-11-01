@@ -4,10 +4,10 @@ description: Este modelo muestra cómo se pueden incorporar perspectivas basadas
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,10 @@ El modelo de ciencia de datos personalizado para el enriquecimiento de perfiles 
 ## Arquitectura
 
 <img src="assets/data_science.svg" alt="Arquitectura de referencia del modelo de ciencia de datos personalizada para el enriquecimiento de perfiles" style="width:90%; border:1px solid #4a4a4a" />
+
+## Guardas
+
+* Para obtener protecciones detalladas y latencias de extremo a extremo sobre la ingesta de resultados de ciencia de datos en Experience Platform y Perfil del cliente en tiempo real, consulte las protecciones de ingesta de datos y el diagrama de latencia a los que se hace referencia en el [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md).
 
 ## Pasos de implementación
 
