@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e7a640580038c547cf983956ed155099aa14b159
+source-git-commit: f087e4d4312c7e8e33130a699b43909914252035
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 96%
 
 ---
 
@@ -70,9 +70,10 @@ ht-degree: 100%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP con Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer con Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Ingesta de datos y exportación de datos {#data-ingestion}
++ Recopilación, ingesta, acceso y exportación de datos{#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
+   + [Acceso y exportación de datos](/help/blueprints/data-ingestion/egress.md)
    + [Reenvío de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Recopilación de datos de múltiples zonas protegidas](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + Análisis de datos, inteligencia e IA/ML (aprendizaje automático) {#data-exploration}
