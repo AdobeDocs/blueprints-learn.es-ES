@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+source-git-commit: 79e349d8b8dcb1626cccfff2ad56160bb9babd76
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 88%
 
 ---
 
@@ -66,7 +66,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td>Analytics</td>
 <td>
 <ul>
-<li>Actualmente, sin integración.</li>
+<li>Los datos recopilados mediante el SDK web/móvil se pueden reenviar a Adobe Analytics.</li>
 </ul>
 </td>
 <td>
@@ -89,13 +89,13 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 </td>
 <td>
 <ul>
-<li>Los datos recopilados y las pertenencias a audiencias evaluadas se pueden compartir con el almacén de perfiles y el repositorio de datos de Experience Platform. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es">Conector de origen de Audience Manager</a></li>
+<li>Los datos recopilados y evaluados junto con la pertenencia a la audiencia de Audience Manager se pueden compartir con el Experience Platform de datos y el almacén de perfiles. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=es">Conector de origen de Audience Manager</a></li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=es">Activación de audiencia anónima </a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es">Activación de cliente conocida</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Activación de audiencia anónima </a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">Activación de cliente conocida</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es">Activación con Experience Platform y otras aplicaciones</a></li>
 </ul>
 </td>
@@ -141,6 +141,9 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">
 <ul>
 <li>Los datos recopilados e ingeridos en el repositorio de datos de Experience Platform quedan disponibles para ser procesados en Customer Journey Analytics. </li>
+<li>Los datos de perfil y audiencia de Real-time Customer Data Platform se pueden ingerir en CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">Integración de RTCDP con CJA</a>.
+</li>
+</ul>
 </ul>
 </td>
 <td colspan="1">
@@ -191,15 +194,15 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 </td>
 </tr>
 <tr>
-<td colspan="1">Magento</td>
+<td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Actualmente, sin integración.</li>
+<li>Los perfiles y las audiencias creados en Real-time Customer Data Platform pueden estar disponibles para la personalización en Adobe Commerce. </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Los datos nativos de Magento se pueden enviar a Experience Platform a través de un conector de origen de Magento. </li>
+<li>Los datos nativos de Adobe Commerce se pueden enviar al Experience Platform a través de un conector de origen de Adobe Commerce. </li>
 </ul>
 </td>
 <td colspan="1">Actualmente, sin integración.</td>
@@ -218,7 +221,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 </td>
 <td colspan="1">
 <ul>
-<li>Activación B2B: en desarrollo</li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en">Modelo de activación B2B</a></li>
 </ul>
 </td>
 </tr>
@@ -237,8 +240,8 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es">Activación de cliente conocida</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es">Activación con Experience Platform y otras aplicaciones</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Activación de cliente conocida</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activación con Experience Platform y otras aplicaciones</a></li>
 </ul>
 </td>
 </tr>
@@ -256,8 +259,8 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es">Activación de cliente conocida</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es">Activación con Experience Platform y otras aplicaciones</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Activación de cliente conocida</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activación con Experience Platform y otras aplicaciones</a></li>
 </ul>
 </td>
 </tr>
