@@ -5,10 +5,10 @@ landing-page-description: Sincronice la personalización web con el correo elect
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1625'
+ht-degree: 79%
 
 ---
 
@@ -82,13 +82,17 @@ Con SDK tradicionales específicos de cada aplicación (por ejemplo, AT.js y App
 
 [Consulte los guardas de la página de información general sobre los modelos de personalización web/móvil.](overview.md)
 
+* Los perfiles de Edge solo se crean cuando un usuario está activo en Edge, lo que significa que su perfil tiene eventos de flujo continuo que se envían a Edge mediante el SDK web/móvil o la API de servidor de Edge. Esto generalmente corresponde a que el usuario está activo en un sitio web o una aplicación móvil.
+* Los perfiles de Edge tienen un tiempo de vida predeterminado de 14 días. Si no se han recopilado eventos edge activos, el perfil caducará en el extremo después de 14 días de inactividad. El perfil seguirá siendo válido en el concentrador y se sincronizará con el perímetro una vez que el usuario vuelva a estar activo en el perímetro.
+* Cuando se crea un perfil nuevo en el perímetro, se realiza una llamada de sincronización asincrónica al concentrador para recuperar todas las audiencias y atributos configurados para la proyección perimetral mediante un destino. Como se trata de un proceso asincrónico, el perfil de concentrador puede tardar entre 1 segundo y varios minutos en sincronizarse con el borde. Por lo tanto, no se puede garantizar que los perfiles nuevos tengan el contexto de perfil del centro para las experiencias de primera página. Esto se aplica también a los datos recién recopilados en el concentrador. Estos datos se proyectan al borde de forma asíncrona y, por lo tanto, el momento en el que los datos llegan al borde adecuado se separará de la actividad del perímetro. Solo los perfiles activos en el perímetro conservarán los atributos y las audiencias proyectados desde el concentrador.
+
 ## Consideraciones sobre la implementación
 
 Requisitos previos de identidad
 
 * Cualquier identidad principal se puede aprovechar al utilizar el patrón de implementación 1 descrito anteriormente con Edge Network y WebSDK. La personalización del primer inicio de sesión requiere que la identidad principal del conjunto de solicitudes de personalización coincida con la identidad principal del perfil de Real-time Customer Data Platform. La vinculación de identidad entre dispositivos anónimos y clientes conocidos se procesa en el centro y, posteriormente, se proyecta al extremo.
 * Tenga en cuenta que los datos cargados en el centro antes de que un consumidor visite un sitio web o inicie sesión en este no estarán disponibles inmediatamente para su personalización. En primer lugar, debe existir un perfil de Edge activo con el que sincronizar los datos del centro. Una vez creado, el perfil de Edge se sincronizará con el perfil del centro de forma asíncrona, lo que dará como resultado la personalización de la página siguiente.
-* El uso compartido de audiencias de Adobe Experience Platform a Adobe Target requiere el uso de ECID como identidad al utilizar el servicio de uso compartido de audiencias, tal como se describe en los patrones de integración 2 y 3 anteriores.
+* El uso compartido de audiencias de Adobe Experience Platform con Adobe Target requiere el uso de ECID como identidad al utilizar el servicio de uso compartido de audiencias, tal como se describe en los patrones de integración 2 y 3 anteriores.
 * También se pueden usar identidades alternativas para compartir audiencias de Experience Platform en Adobe Target a través de Audience Manager. Experience Platform activa las audiencias en Audience Manager mediante las siguientes áreas de nombres admitidas: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Tenga en cuenta que Audience Manager y Target resuelven las suscripciones de la audiencia a través de la identidad de ECID, de modo que ECID debe estar en el gráfico de identidad para el consumidor para que, finalmente, se pueda compartir la audiencia con Adobe Target.
 
 ## Documentación relacionada

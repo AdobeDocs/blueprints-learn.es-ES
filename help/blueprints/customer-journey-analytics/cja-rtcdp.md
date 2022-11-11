@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: '392'
+ht-degree: 44%
 
 ---
 
@@ -29,6 +29,18 @@ Consulte la siguiente documentación para obtener instrucciones sobre la impleme
 * Para obtener información detallada sobre las barreras y las latencias de extremo a extremo, consulte la [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md)
 
 ![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg)
+
+## Preguntas frecuentes
+
+* Si en RTCDP no existe un perfil correspondiente enviado por CJA, ¿se creará un nuevo perfil o las audiencias solo se registrarán desde CJA para perfiles que ya están presentes? Sí, se creará un nuevo perfil. Como resultado, si la implementación de RTCDP es solo para clientes conocidos, las reglas de audiencia de CJA deben escribirse para filtrar solo perfiles con identidades conocidas. Esto garantizará que el recuento de perfiles RTCDP no aumente con respecto a los perfiles anónimos si no se desea.
+
+* ¿CJA envía los datos de audiencia como eventos de canalización o como un archivo plano que también se dirige al lago de datos? Las audiencias de CJA se transmiten a través de la canalización al servicio de perfil RTCDP, pero los datos también se almacenan en el lago de datos como un conjunto de datos.
+
+* ¿Qué identidades envía CJA? CJA envía cualquier identidad configurada como &quot;ID de persona&quot; durante la configuración de CJA.
+
+* ¿Qué se establece como identidad principal? Cualquiera que sea la identidad que el usuario seleccionó cuando configuró CJA como ID de &quot;persona&quot; principal.
+
+* ¿El servicio de identidad también procesa los mensajes de CJA? es decir, ¿puede CJA añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias? No, el servicio de identidad no procesa los mensajes de CJA.
 
 ## Entradas relacionadas en el blog
 
