@@ -3,10 +3,11 @@ title: Modelo de acceso y exportación de datos
 description: Este modelo proporciona información general sobre todos los métodos mediante los cuales se puede acceder y exportar datos desde Adobe Experience Platform y aplicaciones.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1513'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +51,7 @@ Consulte la [API de acceso al perfil del cliente en tiempo real](https://experie
 
 * Perfil del cliente en tiempo real [guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) .
 * Diseñado para la búsqueda de un solo perfil a la vez. No se utiliza para el acceso de perfiles en lote o la descarga de toda la población de perfiles para el uso de análisis o ciencia de datos.
-* El tiempo de respuesta de búsqueda de perfiles se amplía hasta las protecciones de perfil. Requisitos de latencia baja : por ejemplo, para los mismos requisitos de personalización de página, debe utilizar el perfil de Edge o los destinos de personalización de clientes para el acceso de perfil de latencia baja. [Documentación](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* El tiempo de respuesta de búsqueda de perfiles se amplía hasta las protecciones de perfil. Requisitos de latencia baja en tiempo real: por ejemplo, para los requisitos de personalización de la misma página, debe utilizar el perfil de Edge desde a [Conexión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es) o [Conexión de personalización personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) para acceder a perfiles en tiempo real de en el navegador y en la personalización de la aplicación.
 
 ### API de acceso a datos {#data-access-api}
 
@@ -117,7 +118,7 @@ Consulte lo siguiente [Reenvío de eventos](https://experienceleague.adobe.com/d
 #### Consideraciones
 
 * Para utilizar el reenvío de eventos, los datos deben enviarse a la red perimetral mediante WebSDK o MobileSDK.
-* El método de reenvío de eventos reduce el tiempo y el peso de carga de la página debido a que se agregan etiquetas adicionales a la página.
+* El método de reenvío de eventos reduce el tiempo y el peso de la carga de la página debido a que se agregan etiquetas adicionales a la página.
 * Actualmente no se admite ningún enriquecimiento del perfil perimetral u otras fuentes de datos.
 * Se admite un filtrado de datos limitado y transformaciones de asignación sencillas.
 
@@ -129,7 +130,7 @@ Consulte la [Destinos de Real-time Customer Data Platform](https://experiencelea
 
 #### Casos de uso
 
-* Active la información de atributos de perfil, incluida la pertenencia a una audiencia, en un almacén de datos empresarial, una herramienta de análisis, un sistema de correo electrónico o un sistema de asistencia.
+* Active la información de atributos de perfil, incluida la pertenencia a audiencias, en almacenes de datos empresariales internos, herramientas de análisis, sistemas de correo electrónico o sistemas de asistencia.
 * Active la pertenencia de la audiencia de perfil a un anunciante externo para dirigirse a y personalizar el contenido del perfil.
 
 #### Consideraciones
@@ -150,17 +151,7 @@ Consulte la [Acciones personalizadas de Journey Optimizer](https://experiencelea
 
 #### Consideraciones
 
-* Protección del rendimiento soportado por [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) y enriquecimientos admitidos por el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) .
+* Protección del rendimiento soportado por [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es) y enriquecimientos admitidos por el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) .
 * Las acciones personalizadas se pueden llevar a cabo de una en una de forma continua para cada evento o perfil de un recorrido. No se pueden realizar operaciones masivas ni flujos masivos de datos en forma de archivos o solicitudes agregadas entre recorridos de clientes.
 * Acceso de flujo continuo a los atributos de perfil del cliente en tiempo real y a los eventos de experiencia que se pueden incluir en la carga útil de activación.
 * Los datos de evento se pueden filtrar y se pueden aplicar transformaciones de asignación sencillas antes de enviar eventos a destinos externos.
-
-
-
-
-
-
-
-
-
-
