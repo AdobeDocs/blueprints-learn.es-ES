@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '837'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Se pueden usar varias fuentes de datos B2B para asignar datos de cuentas, posibl
 
 * Tenga en cuenta que los guardas y los pasos de implementación relacionados con Marketo Engage solo son relevantes cuando Marketo Engage se utiliza como origen o destino.
 
-* Para obtener más detalles y protecciones para las latencias de extremo a extremo, consulte la [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md)
+* Para más detalles y guardas para las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md)
 
 
 ### Admisión de varias instancias y organizaciones de IMS:
@@ -50,7 +50,7 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 * Se admiten varias instancias de Marketo Engage en una instancia de Experience Platform.
 * No se admiten varias instancias de Marketo Engage en varias instancias de Experience Platform.
 * No se admite una instancia de Marketo Engage en varias instancias de Experience Platform.
-* Se admite una instancia de Marketo Engage en una instancia de Experience Platform y varios entornos aislados.
+* Se admite una instancia de Marketo Engage en una instancia de Experience Platform y varias zonas protegidas.
 
 #### Marketo como destino para Experience Platform:
 
@@ -59,7 +59,7 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 
 #### Guardas de perfil y segmentación de Experience Platform:
 
-* Consulte las protecciones de perfil y segmentación para el Experience Platform - [Protecciones de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+* Consulte las guardas de perfil y segmentación en Experience Platform: [Guardas de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * Los segmentos B2B que incluyen cuentas, posibles clientes y oportunidades utilizan relaciones de varias entidades que hace que la evaluación de segmentos se convierta en lote. La segmentación por flujo es compatible con segmentos que están limitados a personas y eventos.
 
 #### Experience Platform - Conector de origen de Marketo Engage:
@@ -78,7 +78,7 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 
 #### Guardas de destino
 
-* Consulte la documentación de destino para obtener instrucciones específicas sobre los destinos. [Guardas de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
+* Consulte la documentación de destino para obtener instrucciones específicas sobre los destinos. [Guardas de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=es)
 
 
 ## Pasos de implementación
@@ -98,7 +98,7 @@ Si la implementación va a utilizar Marketo Engage como fuente y este está cone
 
 ## Documentación relacionada
 
-* [Edición B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Edición B2B de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=es)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=es)
 * [Adobe Experience Platform: Conector de origen de Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=es)
