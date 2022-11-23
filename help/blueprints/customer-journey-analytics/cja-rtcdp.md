@@ -8,7 +8,7 @@ exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 44%
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,7 @@ Consulte la siguiente documentación para obtener instrucciones sobre la impleme
 
 ## Diagrama de guardas para los modelos de Customer Journey Analytics
 
-* Para obtener información detallada sobre las barreras y las latencias de extremo a extremo, consulte la [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md)
+* Para obtener más información sobre las guardas y las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md)
 
 ![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg)
 
