@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '500'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ El modelo de ciencia de datos personalizado para el enriquecimiento de perfiles 
 
 ## Guardas
 
-* Para obtener protecciones detalladas y latencias de extremo a extremo sobre la ingesta de resultados de ciencia de datos en Experience Platform y Perfil del cliente en tiempo real, consulte las protecciones de ingesta de datos y el diagrama de latencia a los que se hace referencia en el [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md).
+* Para obtener más información sobre las guardas y las latencias de extremo a extremo sobre la ingesta de resultados de ciencia de datos en Experience Platform y los perfiles de cliente en tiempo real, consulte las guardas de ingesta de datos y el diagrama de latencia que aparecen en el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md).
 
 ## Pasos de implementación
 
-1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
+1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
 
