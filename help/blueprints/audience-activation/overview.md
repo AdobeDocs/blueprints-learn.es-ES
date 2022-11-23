@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '869'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ La siguiente ilustración describe los distintos métodos de segmentación y los
 
 ## Guardas para los modelos de activación de audiencias y perfiles
 
-* Para obtener información detallada sobre las barreras y las latencias de extremo a extremo, consulte la [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md) y [Protecciones de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+* Para obtener más información sobre las guardas y las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md) y las [Guardas de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 ### Activación de atributos e identidades
 
