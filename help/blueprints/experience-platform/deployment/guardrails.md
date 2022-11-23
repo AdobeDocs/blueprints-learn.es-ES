@@ -5,15 +5,15 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Guardas
 
-Las guardas son umbrales recomendados que proporcionan directrices para el uso de los datos y del sistema, optimizando el rendimiento y evitando errores o resultados inesperados en Adobe Experience Platform y las aplicaciones. Las protecciones están pensadas para reflejar las restricciones del sistema y las expectativas de rendimiento a fin de facilitar la arquitectura del cliente y la optimización del rendimiento de los casos de uso. Las guardas no son acuerdos de nivel de servicio; para obtener información sobre los acuerdos de nivel de servicio específicos del producto, consulte la documentación de Descripciones de productos vinculado a continuación.
+Las guardas son umbrales recomendados que proporcionan directrices para el uso de los datos y del sistema, optimizando el rendimiento y evitando errores o resultados inesperados en Adobe Experience Platform y las aplicaciones. Las guardas están pensadas para reflejar las restricciones del sistema y las expectativas de rendimiento a fin de facilitar la arquitectura del cliente y la optimización del rendimiento de los casos de uso. Las guardas no son acuerdos de nivel de servicio; para obtener información sobre los acuerdos de nivel de servicio específicos del producto, consulte la documentación de Descripciones de productos vinculado a continuación.
 
 
 ## Guardas para Adobe Experience Platform y aplicaciones
@@ -28,13 +28,13 @@ Las guardas son umbrales recomendados que proporcionan directrices para el uso d
 
 [Guardas del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=es)
 
-[Protecciones de activación de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
+[Guardas de activación de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=es)
 
 [Guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es)
 
 <br>
 
-## Latencia de extremo a extremo Diagramas
+## Latencia de extremo a extremo  Diagramas
 
 ### Ingesta de datos
 
@@ -44,19 +44,19 @@ Las guardas son umbrales recomendados que proporcionan directrices para el uso d
 
 ### Segmentación
 
-<img src="../assets/segmentation_guardrails.svg" alt="Protecciones de segmentación del Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/segmentation_guardrails.svg" alt="Guardas de segmentación en Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform y Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="Protección RTCDP y Target" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="Guardas en RTCDP y Target" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="Protecciones de CJA" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/CJA_guardrails.svg" alt="Guardas en CJA" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
