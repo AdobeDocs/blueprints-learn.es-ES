@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ Consulte la siguiente documentación para obtener instrucciones sobre la impleme
 
 ## Preguntas frecuentes
 
-* Si en RTCDP no existe un perfil correspondiente enviado por CJA, ¿se creará un nuevo perfil o las audiencias solo se registrarán desde CJA para perfiles que ya están presentes? Sí, se creará un nuevo perfil. Como resultado, si la implementación de RTCDP es solo para clientes conocidos, las reglas de audiencia de CJA deben escribirse para filtrar solo perfiles con identidades conocidas. Esto garantizará que el recuento de perfiles RTCDP no aumente con respecto a los perfiles anónimos si no se desea.
+* Si en RTCDP no existe un perfil correspondiente al enviado por CJA, ¿se creará un nuevo perfil o las audiencias solo se registrarán desde CJA para perfiles que ya están presentes? Sí, se creará un nuevo perfil. Como resultado, si la implementación de RTCDP es solo para clientes conocidos, las reglas de audiencia de CJA deben escribirse para que filtren solo perfiles con identidades conocidas. Esto garantizará que el recuento de perfiles en RTCDP no aumente a partir de perfiles anónimos si no se desea.
 
-* ¿CJA envía los datos de audiencia como eventos de canalización o como un archivo plano que también se dirige al lago de datos? Las audiencias de CJA se transmiten a través de la canalización al servicio de perfil RTCDP, pero los datos también se almacenan en el lago de datos como un conjunto de datos.
+* ¿Envía CJA los datos de audiencia como eventos de canalización o como un archivo plano que también se dirige al lago de datos? Las audiencias de CJA se transmiten a través de la canalización al servicio de perfiles de RTCDP, pero los datos también se almacenan en el lago de datos como un conjunto.
 
-* ¿Qué identidades envía CJA? CJA envía cualquier identidad configurada como &quot;ID de persona&quot; durante la configuración de CJA.
+* ¿Qué identidades envía CJA? CJA envía cualquier identidad configurada como “ID de persona” durante la configuración de CJA.
 
-* ¿Qué se establece como identidad principal? Cualquiera que sea la identidad que el usuario seleccionó cuando configuró CJA como ID de &quot;persona&quot; principal.
+* ¿Qué se establece como identidad principal? Cualquiera que sea la identidad que el usuario seleccionó cuando configuró CJA como ID de “persona” principal.
 
-* ¿El servicio de identidad también procesa los mensajes de CJA? es decir, ¿puede CJA añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias? No, el servicio de identidad no procesa los mensajes de CJA.
+* ¿El servicio de identidad también procesa los mensajes de CJA? Es decir, ¿puede CJA añadir identidades a un gráfico de identidad de perfil mediante el uso compartido de audiencias? No, el servicio de identidad no procesa los mensajes de CJA.
 
 ## Entradas relacionadas en el blog
 
