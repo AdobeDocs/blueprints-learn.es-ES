@@ -6,15 +6,15 @@ kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
 source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Diagramas de la arquitectura de Adobe Experience Cloud
 
-## Adobe Experience Cloud Marketing
+## Marketectura de Adobe Experience Cloud
 
 En el siguiente diagrama se ilustran los distintos componentes de Adobe Experience Cloud en Perspectivas de datos y audiencias, Contenido y comercio, Recorridos del cliente, Flujo de trabajo de marketing, creados e integrados en la base de Adobe Experience Platform.
 
