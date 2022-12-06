@@ -5,9 +5,9 @@ product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Consulte la documentación de la [API de acceso al perfil del cliente en tiempo 
 
 * Se aplican las [guardas](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es) del perfil del cliente en tiempo real.
 * Diseñado para la búsqueda de un solo perfil a la vez. No se utiliza para acceder a perfiles por lotes ni para descargar toda la población de perfiles para el uso de análisis o ciencia de datos.
-* El tiempo de respuesta de búsqueda de perfiles se vincula a las guardas de perfil. Requisitos de latencia baja en tiempo real: por ejemplo, para los requisitos de personalización de la misma página, debe utilizar el perfil de Edge desde a [Conexión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es) o [Conexión de personalización personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=es) para acceder a perfiles en tiempo real de en el navegador y en la personalización de la aplicación.
+* El tiempo de respuesta de búsqueda de perfiles se vincula a las guardas de perfil. Requisitos de latencia baja en tiempo real: por ejemplo, para los requisitos de personalización de la misma página, debe utilizar el perfil de Edge desde [Conexión de Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es) o desde la [Conexión de personalización](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=es) para acceder a perfiles en tiempo real en el navegador y en la personalización de la aplicación.
 
 ### API de acceso a datos {#data-access-api}
 
@@ -130,7 +130,7 @@ Consulte la documentación [Destinos de Real-time Customer Data Platform](https:
 
 #### Casos de uso
 
-* Active la información de atributos de perfil, incluida la pertenencia a audiencias, en almacenes de datos empresariales internos, herramientas de análisis, sistemas de correo electrónico o sistemas de asistencia.
+* Active la información de atributos de perfil, como los abonos a audiencias en un almacén de datos empresarial, herramientas de análisis, sistemas de correo electrónico o sistemas de asistencia.
 * Active las pertenencias a audiencias del perfil a un anunciante externo para acotar y personalizar el contenido del perfil.
 
 #### Consideraciones
@@ -151,7 +151,7 @@ Consulte la documentación [Acciones personalizadas de Journey Optimizer](https:
 
 #### Consideraciones
 
-* Protección del rendimiento permitido por [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es) y enriquecimientos admitidos por el [perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en).
+* Protección del rendimiento permitido por [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es) y enriquecimientos admitidos por el [perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es).
 * Las acciones personalizadas se pueden llevar a cabo de una en una de forma continua para cada evento o perfil de un recorrido. No se pueden realizar operaciones masivas ni flujos masivos de datos en forma de archivos o solicitudes agregadas entre recorridos de clientes.
 * Acceso de flujo continuo a los atributos de perfil del cliente en tiempo real y a los eventos de experiencia que se pueden incluir en la carga útil de activación.
 * Los datos de evento se pueden filtrar y se pueden aplicar transformaciones de asignación sencillas antes de enviar eventos a destinos externos.
