@@ -6,7 +6,7 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
       + Gestión de decisiones {#decision-management}
          + [Información general](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Gestión de decisiones en Edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
-         + [Gestión de decisiones en el hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
+         + [Gestión de decisiones en el centro](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer con Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
@@ -81,6 +81,6 @@ ht-degree: 100%
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
-   + [Personalización basada en comportamiento     - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalización basada en comportamiento    - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalización de cliente conocida: Target y RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestión de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
