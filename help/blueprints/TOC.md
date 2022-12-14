@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 94%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 100%
    + [Información general](/help/blueprints/data-insights/overview.md)
    + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
++ Optimización de la cadena de suministro de Campaign con Marketo y Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+   + [Información general](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
+   + [Historias de éxito de clientes](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
+   + [Ingesta y creación](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
    + [Personalización basada en comportamiento    - Target](/help/blueprints/web-personalization/behavioral.md)
