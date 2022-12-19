@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Para obtener información general y detallada sobre el SDK web y móvil y la API de servidor de red de Edge, consulte lo siguiente.
 * [Información general de WebSDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)
-* [Información general de MobileSDK](https://aep-sdks.gitbook.io/docs/)
+* [Información general de MobileSDK](https://developer.adobe.com/client-sdks/documentation/)
 * [API del servidor de red de Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es)
 
 Para obtener una descripción detallada de la funcionalidad de la aplicación que se admite en WebSDK, consulte la siguiente documentación.
