@@ -2,7 +2,7 @@
 description: 'Admisión y creación: Optimice la cadena de suministro de campaña con Marketo y Workfront'
 title: Ingesta y creación
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -25,7 +25,7 @@ El flujo de trabajo siguiente muestra una solicitud de un seminario web que real
 
 >[!TIP]
 >
->Para obtener más información sobre los distintos tipos de objetos en Workfront que se utilizan para organizar el trabajo de la campaña de marketing y cómo se asigna a un programa de Marketo Engage, consulte la [Información general sobre Marketo y Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}.
+>Para obtener más información sobre los distintos tipos de objetos en Workfront que se utilizan para organizar el trabajo de la campaña de marketing y cómo se asigna a un programa de Marketo Engage, consulte la [Información general sobre Marketo y Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
 
 ## Preparación del proceso de desarrollo de campañas para la automatización {#prepare-your-campaign-development-process-for-automation}
 

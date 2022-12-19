@@ -5,7 +5,7 @@ landing-page-description: Descubra cómo personalizar según el comportamiento e
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
@@ -38,8 +38,8 @@ Personalización basada en el comportamiento en línea y datos de audiencia.
 
 El modelo de personalización web/móvil se puede implementar mediante los siguientes enfoques, tal como se describe a continuación.
 
-1. Con el [!UICONTROL SDK web de Platform] o [!UICONTROL SDK móvil de Platform] y [!UICONTROL Edge Network]. [Consulte el modelo del SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)
-1. Con SDK tradicionales específicos de cada aplicación (por ejemplo, AppMeasurement.js). [Consulte el modelo de SDK específico para aplicaciones](../data-ingestion/appsdk.md)
+1. Con el [!UICONTROL SDK web de Platform] o [!UICONTROL SDK móvil de Platform] y [!UICONTROL Edge Network]. [Consulte el modelo del SDK móvil y web de Experience Platform](../experience-platform/deployment/websdk.md)
+1. Con SDK tradicionales específicos de cada aplicación (por ejemplo, AppMeasurement.js). [Consulte el modelo de SDK específico para aplicaciones](../experience-platform/deployment/appsdk.md)
 
 ## Pasos de implementación
 
@@ -61,7 +61,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 ### Pasos de implementación de Real-time Customer Data Platform
 
-1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
+1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingestados se puedan combinar en un perfil unificado.
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
@@ -75,7 +75,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 
 * [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 * [Integrar Audience Manager con Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
-* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
 * Información general de [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
 * Descripción del producto [[!UICONTROL Real-time Customer Data Platform]](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)

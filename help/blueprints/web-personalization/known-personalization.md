@@ -5,8 +5,8 @@ landing-page-description: Sincronice la personalización web con el correo elect
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
-workflow-type: ht
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
+workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ La personalización de cliente conocida se admite mediante varios enfoques de im
 ### Patrón de implementación 1: red de Edge con SDK web/móvil o API de red de Edge (enfoque recomendado)
 
 * Uso de Edge Network con el SDK web/móvil. La segmentación perimetral en tiempo real requiere el enfoque de implementación del SDK web/móvil o la API de Edge.
-* [Consulte el modelo del SDK móvil y web de Experience Platform](../data-ingestion/websdk.md)    para la implementación basada en SDK.
+* [Consulte el modelo del SDK móvil y web de Experience Platform](../experience-platform/deployment/websdk.md)    para la implementación basada en SDK.
 * Para su uso en el SDK móvil, la [extensión Adobe Journey Optimizer - Decisioning](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) debe estar instalada en el SDK móvil.
 * [Consulte la API de servidor de red de Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es) para una implementación basada en API de Adobe Target con perfil de Edge.
 
@@ -66,7 +66,7 @@ La personalización de cliente conocida se admite mediante varios enfoques de im
 
 Con SDK tradicionales específicos de cada aplicación (por ejemplo, AT.js y AppMeasurement.js). La evaluación de segmentos en tiempo real de Edge no se admite con este enfoque de implementación. Sin embargo, el uso compartido de audiencias por flujo y por lotes desde el centro de Experience Platform se admite con este enfoque de implementación.
 
-[Consulte el modelo de SDK específico de la aplicación](../data-ingestion/appsdk.md)
+[Consulte el modelo de SDK específico de la aplicación](../experience-platform/deployment/appsdk.md)
 
 ### Pasos de implementación
 
