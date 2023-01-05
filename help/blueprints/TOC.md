@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
       + [Guardas](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Activación de audiencia anónima    (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Activación de audiencia anónima   (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activación de cliente conocida (RTCDP) {#known-customer-audience-activation}
       + [Información general](/help/blueprints/audience-activation/known.md)
       + Activación en canales publicitarios y sociales {#audience-activation}
@@ -45,7 +45,7 @@ ht-degree: 95%
 + Activación y marketing B2B {#b2b-activation}
    + [Información general](/help/blueprints/b2b/overview.md)
    + [Activación B2B](/help/blueprints/b2b/b2bactivation.md)
-   + Cadena de suministro de Campaign con Marketo y Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+   + Cadena de suministro de campañas con Marketo y Workfront {#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [Información general](/help/blueprints/b2b/campaign-supply-chain/overview.md)
       + [Ingesta y creación](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
       + [Historias de éxito de clientes](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
@@ -72,7 +72,7 @@ ht-degree: 95%
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP con Adobe Campaign    v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP con Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer con Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Recopilación, acceso y exportación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
@@ -85,6 +85,6 @@ ht-degree: 95%
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
-   + [Personalización basada en comportamiento    - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalización basada en comportamiento  - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalización de cliente conocida: Target y RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestión de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
