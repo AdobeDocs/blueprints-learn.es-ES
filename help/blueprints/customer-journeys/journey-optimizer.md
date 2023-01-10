@@ -4,7 +4,7 @@ description: Ejecute mensajes y experiencias activadas con Adobe Experience Plat
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Tenga en cuenta estos elementos no incluidos en el vínculo anterior:
 
 #### Esquemas/conjuntos de datos
 
-1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) según los datos ofrecidos por los clientes en Experience Platform.
+1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) según los datos ofrecidos por los clientes en Experience Platform.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) en Experience Platform para la ingesta.
 1. [Añadir etiquetas de uso de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=es) al conjunto de datos de Experience Platform para la gobernanza.
 1. [Crear políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=es) que refuercen la gobernanza en los destinos.
@@ -136,7 +136,7 @@ Tenga en cuenta estos elementos no incluidos en el vínculo anterior:
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identidad    para Edge Network
+1. Identidad     para Edge Network
 1. Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
 1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

@@ -31,7 +31,7 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen en miniatura del modelo de mensajería activada y Experience Platform" src="customer-journeys/assets/ajo-architecture.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Organización en canales múltiples</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><strong>Organización en canales múltiples</strong></a></div>
     <p><em>Envíe mensajes e influya en las experiencias de los clientes en tiempo real utilizando [!UICONTROL Platform] como sistema centralizado.</em></p>
   </td>
   <td>
@@ -41,7 +41,7 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es"><img alt="imagen en miniatura del modelo de consolidación de datos de comportamiento digital" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Análisis de recorridos multicanal</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=es"><strong>Análisis de recorridos multicanal</strong></a></div>
     <p><em>Obtenga una sola vista consolidada del comportamiento del cliente en varios canales.</em></p>
   </td>
 </tr>
