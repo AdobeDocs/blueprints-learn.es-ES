@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Contribución
@@ -17,7 +17,7 @@ Este proyecto se adhiere al [código de conducta](code-of-conduct.md) de Adobe. 
 
 ## Documentación de la guía del colaborador
 
-Consultar la [Guía del colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consultar la [Guía del colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es).
 
 ## ¿Tiene preguntas?
 
@@ -29,7 +29,7 @@ Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un
 
 ## Reseñas de código
 
-Todas las contribuciones deben presentarse en forma de &quot;pull requests&quot;, que examinarán los miembros del proyecto. Lea la documentación sobre [pull requests de GitHub](https://help.github.com/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes &quot;pull&quot;.
+Todas las contribuciones deben presentarse en forma de “pull requests”, que examinarán los miembros del proyecto. Lea la documentación sobre [pull requests de GitHub](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) para obtener más información sobre el envío de solicitudes “pull”.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
