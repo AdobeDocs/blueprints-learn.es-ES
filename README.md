@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 # Artículo de colaboración
@@ -15,13 +15,13 @@ Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](c
 
 ## Acerca de sus contribuciones al contenido de Adobe
 
-Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es).
 
 Su contribución dependerá de quién es y de qué clase de cambios desea implementar:
 
 ### Cambios menores
 
-Si contribuye con pequeñas actualizaciones por pura bondad, visite al artículo y haga clic en el enlace **Editar** para acceder al artículo original de GitHub. Una vez allí, simplemente utilice la interfaz de usuario de GitHub para implementar las actualizaciones. Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) general para obtener más información.
+Si contribuye con pequeñas actualizaciones por pura bondad, visite al artículo y haga clic en el enlace **Editar** para acceder al artículo original de GitHub. Una vez allí, simplemente utilice la interfaz de usuario de GitHub para implementar las actualizaciones. Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es) general para obtener más información.
 
 Las pequeñas aclaraciones y correcciones que envíe como documentación o ejemplo de códigos en este repositorio se incluyen en las Condiciones de uso de Adobe.
 
@@ -43,18 +43,18 @@ Si es escritor técnico, administrador de programas o desarrollador del equipo d
 
 Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub tanto para ediciones básicas como ramificar el repositorio para implementar colaboraciones importantes.
 
-Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obtener más información.
+Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es) para obtener más información.
 
 ## Uso de Markdown para dar formato al tema
 
 Todos los artículos de este repositorio utilizan Markdown al estilo GitHub. Si no está familiarizado con Markdown, consulte estas secciones:
 
-* [Aspectos básicos de Markdown](https://docs.github.com/es/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [Aspectos básicos de Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 * [Hoja de referencia imprimible de Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etiquetas
 
-En el repositorio público, las etiquetas automáticas se asignan para recibir solicitudes (pull request) que nos ayuden a administrar el flujo de trabajo de estas solicitudes &quot;pull&quot; y para ayudarle a saber qué está pasando con su solicitud &quot;pull&quot;.
+En el repositorio público, las etiquetas automáticas se asignan para recibir solicitudes (pull request) que nos ayuden a administrar el flujo de trabajo de estas solicitudes “pull” y para ayudarle a saber qué está pasando con su solicitud “pull”.
 
-* **Change sent to author**: se ha notificado al autor sobre la solicitud &quot;pull&quot; pendiente.
-* **ready-to-merge**: todo está listo para que lo revise nuestro equipo de revisión de solicitudes &quot;pull&quot;.
+* **Change sent to author**: se ha notificado al autor sobre la solicitud “pull” pendiente.
+* **ready-to-merge**: todo está listo para que lo revise nuestro equipo de revisión de solicitudes “pull”.
