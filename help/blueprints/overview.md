@@ -1,31 +1,39 @@
 ---
-title: Modelos de experiencia digital
-description: Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar problemas empresariales existentes. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
+title: Planes de experiencia digital
+description: Los modelos de experiencia digital son implementaciones repetibles para abordar la estrategia y resolver los problemas empresariales establecidos. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
+doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 73%
 
 ---
 
-# Modelos de experiencia digital
+# Planes de experiencia digital
 
-Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar rápidamente problemas empresariales existentes. Cada modelo ofrece una serie de artefactos que explican los problemas empresariales de alto valor, arquitecturas, pasos de implementación, consideraciones técnicas y enlaces a documentación importante.
+Los modelos de experiencia digital son implementaciones repetibles que le permiten abordar la estrategia y resolver rápidamente los problemas empresariales establecidos. Cada modelo ofrece una serie de artefactos que explican los problemas empresariales de alto valor, arquitecturas, pasos de implementación, consideraciones técnicas y enlaces a documentación importante.
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
 ## Novedades
 
 * **[Modelo de activación de audiencias y perfiles en destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Mantenga los perfiles de clientes actualizados en todos los sistemas para potenciar sus equipos de ventas y asistencia. &#x200B;*
-* **[Modelo de centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Modelo del centro de actividades del cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Ofrezca contexto a los agentes de ventas y atención al cliente.*
 * **[Modelo de análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)**
 
    *Realice consultas y análisis de los datos del repositorio.*
 
-## Modelos incluidos
+## Planes destacados
 
 <table style="table-layout:fixed">
 <tr>
@@ -35,7 +43,7 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
     <p><em>Envíe mensajes e influya en las experiencias de los clientes en tiempo real utilizando [!UICONTROL Platform] como sistema centralizado.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagen en miniatura del modelo conocido de activación de cliente" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagen en miniatura del modelo conocido de activación del cliente" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activación de cliente conocida</strong></a></div>
     <p><em>Ofrezca publicidad multicanal activada por audiencia.</em></p>
   </td>
@@ -47,9 +55,9 @@ Los modelos de experiencia digital son implementaciones repetibles creadas para 
 </tr>
 </table>
 
-## Entradas del blog
+## Publicaciones de blog
 
-* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Blueprint for Web/Mobile Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
