@@ -1,19 +1,19 @@
 ---
-title: Modelo de centro de actividad del cliente
-description: '"Busque [!UICONTROL perfiles de cliente en tiempo real] para ofrecer contexto a los agentes de atención al cliente y ventas."'
+title: Modelo del centro de actividades del cliente
+description: "Busque [!UICONTROL perfiles de cliente en tiempo real] para ofrecer contexto a los agentes de atención al cliente y ventas."
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Modelo de centro de actividad del cliente
+# Modelo del centro de actividades del cliente
 
-El modelo de centro de actividad del cliente muestra cómo ciertas aplicaciones externas pueden acceder a [!UICONTROL Real-time Customer Profile] de Adobe Experience Platform.
+El modelo de Customer Activity Hub muestra cómo las aplicaciones externas pueden acceder a Adobe Experience Platform [!UICONTROL Perfil del cliente en tiempo real].
 
 Las aplicaciones externas pueden acceder a los perfiles con una solicitud API GET. Los atributos, los eventos, las pertenencias a segmento y todos los recursos por modelo almacenados en el perfil se podrán utilizar posteriormente en las aplicaciones externas que no pertenezcan a Adobe.
 

@@ -1,17 +1,17 @@
 ---
-title: Activación B2B
+title: Modelo de activación de perfiles y audiencias B2B
 description: Ofrezca experiencias de cliente centradas en el perfil y audiencias basadas en la cuenta con Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Activación de audiencias y perfiles B2B
+# Activación de audiencias y perfiles B2B modelo
 
 Utilice la información de cuentas, oportunidades y posibles clientes vinculada a un cliente individual para crear perfiles B2B procesables y, así, mejorar la personalización y la segmentación en todos los canales.
 

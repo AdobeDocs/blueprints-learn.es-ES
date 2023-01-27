@@ -1,18 +1,18 @@
 ---
-title: Implementación del SDK específico para aplicaciones
+title: Diagrama de la arquitectura de implementación de SDK específica de la aplicación
 description: Este modelo muestra la arquitectura y la ingesta a través de SDK específicos para aplicaciones
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Implementación del SDK específico para aplicaciones
+# Diagrama de la arquitectura de implementación de SDK específica de la aplicación
 
 El diagrama de arquitectura siguiente ilustra las rutas de integración y la recopilación de datos con el uso de SDK específicos para aplicaciones en la implementación.
 

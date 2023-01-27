@@ -1,17 +1,17 @@
 ---
-title: Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
+title: Modelo de ciencia de datos personalizada para enriquecimiento de perfiles
 description: Este modelo muestra cómo se pueden incorporar perspectivas basadas en la ciencia de datos en Experience Platform para enriquecer Real-time Customer Profile.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: ht
-source-wordcount: '500'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
+# Modelo de ciencia de datos personalizada para enriquecimiento de perfiles
 
 El modelo de ciencia de datos personalizado para el enriquecimiento de perfiles ilustra cómo se pueden usar los datos para entrenar, implementar y puntuar modelos a fin de proporcionar perspectivas de aprendizaje automático para Experience Platform y Real-time Customer Data Platform a partir de las herramientas de aprendizaje automático y la ciencia de datos. Las perspectivas modeladas se pueden ingerir en Experience Platform para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
 
@@ -56,7 +56,7 @@ Para que los resultados del modelo se ingieran en el Perfil del cliente en tiemp
 * [Descripción del producto de inteligencia Adobe Experience Platform](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Servicio de consultas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es)
 
-## Entradas relacionadas en el blog
+## Publicaciones de blog relacionadas
 
 * [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)

@@ -1,16 +1,16 @@
 ---
-title: Patrón de integración de Real-Time CDP con Adobe Campaign v7 y Campaign Standard
+title: Real-Time CDP con Adobe Campaign v7 y patrón de integración de Campaign Standard
 description: Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Experience Platform y su herramienta de segmentación centralizada con Adobe Campaign para ofrecer conversaciones personalizadas.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Patrón de integración de Real-Time CDP con Adobe Campaign
+# Real-Time CDP con patrón de integración de Adobe Campaign
 
 Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Experience Platform y su herramienta de segmentación centralizada con Adobe Campaign para ofrecer conversaciones personalizadas.
 
@@ -25,7 +25,7 @@ Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Ex
 
 ## Arquitectura
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="Arquitectura de referencia del patrón de integración de Adobe Experience Platform y mensajería por lotes" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Arquitectura de referencia para el patrón de integración de Batch Messaging y Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -50,7 +50,7 @@ Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Ex
 * La activación se limita a cada 24 horas.
 * Solo los atributos de esquemas de unión están disponibles para la activación (no es compatible con eventos array/maps/experience)
 * Recomendación: máximo de 20 atributos por segmento.
-* Un archivo por segmento de todos los perfiles con la pertenencia a segmento “realized” O si la pertenencia a segmento se añade como atributo en el archivo como perfiles “realized” y “exited” a la vez.
+* Un archivo por segmento de todos los perfiles con pertenencia a segmentos &quot;realizada&quot; O si la pertenencia a segmentos se agrega como atributo en el archivo tanto perfiles &quot;realizados&quot; como perfiles &quot;salidos&quot;
 * Compatible con la exportación de segmentos incrementales y completos.
 * No es compatible con la criptografía de archivos.
 
@@ -60,7 +60,7 @@ Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Ex
 
 ### Adobe Experience Platform
 
-#### Esquemas/conjuntos de datos
+#### Esquema/conjuntos de datos
 
 1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) según los datos ofrecidos por los clientes en Experience Platform.
 1. Crear esquemas de Adobe Campaign para broadLog, trackingLog, direcciones que no se pueden enviar y preferencias de perfil (opcional).
@@ -76,7 +76,7 @@ Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Ex
 1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-time Customer Profile] (opcional).
 1. Crear segmentos para el uso en Adobe Campaign.
 
-#### Origen/destino
+#### Fuentes y destinos
 
 1. [Orígenes y destinos de Experience Platform y Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=es)
 1. [Orígenes y destinos de Experience Platform y Campaign v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=es)

@@ -3,14 +3,14 @@ title: 'Journey Optimizer: modelo de mensajería de terceros'
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Mensajería de terceros
+# modelo de mensajería de terceros
 
 Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas.
 
@@ -56,7 +56,7 @@ Guardas adicionales de Journey Optimizer:
    * No es compatible con una sola IP estática, ya que nuestra infraestructura es de varios inquilinos (debe realizar la lista de permitidos de todas las IP del centro de datos)
    * Solo se admiten métodos de PUT y POST para acciones personalizadas
    * Compatibilidad con autenticación: token | contraseña | OAuth2
-* No es posible empaquetar y mover componentes individuales de Adobe Experience Platform o Journey Optimizer entre varios entornos limitados. Debe volver a implementarse en nuevos entornos
+* No es posible empaquetar y mover componentes individuales de Adobe Experience Platform o Journey Optimizer entre varias zonas protegidas. Debe volver a implementarse en nuevos entornos
 
 <br>
 
@@ -69,8 +69,8 @@ Sistema de mensajería de terceros
    * Tipo de autenticación: token | contraseña | OAuth2 es compatible con Journey Optimizer
    * Duración de la caché de autenticación: ¿durante cuánto tiempo es válido el token? 
 * Si solo es compatible la ingesta por lotes, entonces debe transmitirse a un motor de almacenamiento en la nube como Amazon Kinesis o Azure Event Grid 1st
-   * Los datos de estos motores de almacenamiento en la nube se pueden agrupar por lotes y canalizar a terceros
-   * El cliente o terceros serían responsables de proporcionar cualquier middleware requerido
+   * Los datos se pueden agrupar por lotes de estos motores de almacenamiento en la nube y canalizar a terceros
+   * Cualquier middleware requerido sería responsabilidad del cliente o de terceros de proporcionar
 
 <br>
 
@@ -78,9 +78,9 @@ Sistema de mensajería de terceros
 
 ### Adobe Experience Platform
 
-#### Esquemas/conjuntos de datos
+#### Esquema/conjuntos de datos
 
-1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) según los datos ofrecidos por los clientes en Experience Platform.
+1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) según los datos ofrecidos por los clientes en Experience Platform.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) en Experience Platform para la ingesta.
 1. [Añadir etiquetas de uso de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=es) al conjunto de datos de Experience Platform para la gobernanza.
 1. [Crear políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=es) que refuercen la gobernanza en los destinos.
@@ -93,7 +93,7 @@ Sistema de mensajería de terceros
 1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-time Customer Profile] (opcional).
 1. Crear segmentos para el uso de Journey.
 
-#### Origen/destino
+#### Fuentes y destinos
 
 1. [Incorporar datos en Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) mediante API de flujo y conectores de origen.
 
@@ -103,13 +103,13 @@ Sistema de mensajería de terceros
 1. Configure orígenes externos de datos
 1. Configure acciones personalizadas para aplicaciones de terceros
 
-### Configuración push móvil (opcional, ya que terceros pueden recopilar tokens)
+### Configuración de push móvil (opcional, ya que terceros pueden recopilar tokens)
 
 1. Implemente el SDK móvil de Experience Platform para recopilar tokens push e información de inicio de sesión con el fin de volver a perfiles de cliente conocidos
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Identidad  para Edge Network
+   * Identidad     para Edge Network
    * Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
 1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

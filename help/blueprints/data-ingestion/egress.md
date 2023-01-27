@@ -1,36 +1,36 @@
 ---
-title: Modelo de acceso y exportación de datos
+title: Modelo de acceso a datos y exportación
 description: Este modelo proporciona información general sobre todos los métodos mediante los cuales se puede acceder y exportar datos desde Adobe Experience Platform y aplicaciones.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
-workflow-type: ht
-source-wordcount: '1513'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Modelo de acceso y exportación de datos
+# Modelo de acceso a datos y exportación
 
 El modelo de acceso y exportación de datos describe todos los métodos posibles para acceder a los datos o exportarlos desde Adobe Experience Platform y aplicaciones.
 
 El modelo se divide en dos categorías para el acceso a los datos desde Experience Platform y aplicaciones. En primer lugar, los enfoques para extraer datos de Experience Platform y aplicaciones; esto se consideraría un método de tipo push de salida de datos. En segundo lugar, los enfoques para el acceso a los datos de Experience Platform y aplicaciones; esto se consideraría un método de tipo pull de acceso a datos.
 
-Enfoques de acceso a datos
+Enfoques de acceso a datos:
 
 * [API de acceso al perfil del cliente en tiempo real](#rtcp-profile-access-api)
 * [API de acceso a datos](#data-access-api)
 * [Servicio de consultas](#query-service)
 
-Enfoques de exportación de datos
+Enfoques de exportación de datos:
 
 * [Etiquetas del lado del cliente](#client-side-tags-extensions)
 * [Reenvío de eventos](#event-forwarding)
 * [Destinos de Real-time Customer Data Platform](#RTCDP-destinations)
 * [Acciones personalizadas de Journey Optimizer](#jo-custom-actions)
 
-## Arquitectura general de acceso y exportación de datos
+## Arquitectura de información general sobre acceso a datos y exportación
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="width:90%; border:1px solid #4a4a4a" />
 
@@ -117,7 +117,7 @@ Consulte la documentación siguiente [Reenvío de eventos](https://experiencelea
 
 #### Consideraciones
 
-* Para utilizar el reenvío de eventos, los datos deben enviarse a la red Edge mediante WebSDK o MobileSDK.
+* Para utilizar el reenvío de eventos, los datos deben enviarse a la red perimetral mediante el SDK web o el SDK móvil.
 * El método de reenvío de eventos reduce el tiempo y el peso de la carga de la página porque se agregan etiquetas adicionales a la página.
 * Actualmente no se admite ningún enriquecimiento del perfil de Edge u otras fuentes de datos.
 * Los filtrados de datos limitados y las transformaciones de asignación sencillas son compatibles.

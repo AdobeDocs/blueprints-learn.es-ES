@@ -1,18 +1,18 @@
 ---
-title: Análisis de datos, inteligencia e IA/ML (aprendizaje automático)
+title: Análisis de datos, inteligencia y modelos AI/ML
 description: Este modelo muestra la habilidad de Adobe Experience Platform para realizar consultas y análisis de los datos presentes en el repositorio de datos.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Análisis de datos, inteligencia e IA/ML (aprendizaje automático)
+# Análisis de datos, inteligencia e IA/ML (aprendizaje automático) modelos
 
 El análisis de datos, inteligencia e IA/ML componen la habilidad de Adobe Experience Platform para realizar consultas y análisis de los datos presentes en el repositorio de datos.
 

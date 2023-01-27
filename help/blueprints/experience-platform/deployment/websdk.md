@@ -1,35 +1,38 @@
 ---
-title: SDK web/móvil, modelo de implementación de red de Edge
+title: SDK web/móvil, diagrama de arquitectura de implementación de red perimetral
 description: Este modelo muestra la arquitectura y la ingesta a través del SDK web y móvil del Experience Platform y la red de Edge
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Información general
+# Diagrama de la arquitectura de Experience Platform Web SDK y Edge Network
 
 Para obtener información general y detallada sobre el SDK web y móvil y la API de servidor de red de Edge, consulte lo siguiente.
-* [Información general de WebSDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)
-* [Información general de MobileSDK](https://developer.adobe.com/client-sdks/documentation/)
+
+* [Información general del SDK web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)
+* [Información general del SDK móvil](https://developer.adobe.com/client-sdks/documentation/)
 * [API del servidor de red de Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es)
 
-Para obtener una descripción detallada de la funcionalidad de la aplicación que se admite en WebSDK, consulte la siguiente documentación.
-* [Compatibilidad con la funcionalidad de la aplicación WebSDK](https://github.com/orgs/adobe/projects/18/views/1)
+Para obtener una descripción detallada de la funcionalidad de la aplicación que se admite en el SDK web, consulte la siguiente documentación.
+
+* [Compatibilidad con la funcionalidad de la aplicación de SDK web](https://github.com/orgs/adobe/projects/18/views/1)
 
 Para obtener más información sobre la migración de SDK específicos de aplicaciones a los SDK web y móviles, consulte la siguiente documentación.
+
 * [Servicios de identidad](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=es)
 * [Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html?lang=es)
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=es)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=es)
 
-## Implementación del SDK web/móvil del Experience Platform o de la API del servidor de red de Edge
+## Implementación del SDK web/móvil del Experience Platform o de la API del servidor de red perimetral
 
 El diagrama de arquitectura siguiente ilustra el despliegue y la recopilación de datos utilizando el SDK web de Experience Platform.
 

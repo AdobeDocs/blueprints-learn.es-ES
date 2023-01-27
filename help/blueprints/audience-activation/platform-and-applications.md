@@ -1,21 +1,21 @@
 ---
-title: Modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud
+title: Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud
 description: Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: ht
-source-wordcount: '896'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud
+# Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud
 
 Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud. Generar y compartir segmentos y datos enriquecidos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud.
 
-La activación con las aplicaciones de Experience Cloud se alinea con el [Modelo conocido de activación de cliente](known.md).
+La activación con aplicaciones Experience Cloud se alinea con la variable [Modelo conocido de activación de clientes](known.md).
 
 ## Casos de uso
 
@@ -41,9 +41,9 @@ La activación con las aplicaciones de Experience Cloud se alinea con el [Modelo
 
 Consulte la sección [Arquitectura de Experience Platform y otras aplicaciones](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=es) para ver más diagramas de arquitectura relacionados con las integraciones de Experience Platform con aplicaciones de Experience Cloud.
 
-### Activación de audiencias y perfiles con las aplicaciones de Experience Cloud
+### Activación de audiencias y perfiles con aplicaciones de Experience Cloud
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitectura de referencia de la activación de audiencias y perfiles con las aplicaciones de Experience Cloud" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitectura de referencia para la activación de audiencias y perfiles con aplicaciones de Experience Cloud" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas

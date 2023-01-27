@@ -1,23 +1,23 @@
 ---
-title: Activación de cliente conocida
+title: Activación de cliente conocida modelo
 description: Activación de audiencia en línea/sin conexión.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Modelo conocido de activación de cliente
+# Modelo conocido de activación de clientes
 
 Emplee atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.
 
 Los identificadores ampliados con controles de control integrados ofrecen más oportunidades para comunicarse con clientes conocidos. Active audiencias de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad.
 
-La información adicional ofrecida en el [modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md) es específica de la integración entre Experience Platform y las aplicaciones de Experience Cloud.
+Se proporcionan detalles adicionales en la [Modelo de activación de audiencias y perfiles con aplicaciones de Experience Cloud](platform-and-applications.md) específico para integraciones entre aplicaciones de Experience Platform y de Experience Cloud.
 
 ## Casos de uso
 
@@ -32,21 +32,21 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 ## Arquitectura
 
-### Activación de clientes conocida mediante Real-time Customer Data Platform
+### Activación conocida del cliente mediante Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Arquitectura de referencia para el modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### Activación de clientes conocida mediante destinos basados en personas en Audience Manager
+### Activación de clientes conocida mediante Destinos basados en personas Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Arquitectura de referencia para el modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas
 
 [Consulte los guardas definidos en la página de información general sobre la activación de audiencias y perfiles](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=es#guardrails-for-audience-and-profile-activation-blueprints).
 
-## Pasos de implementación de Real-time Customer Data Platform
+## Pasos de implementación para Real-time Customer Data Platform
 
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
@@ -61,9 +61,9 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 * Compartir datos de perfil con los destinos requiere incluir un valor de identidad específico utilizado por el destino en su carga. Cualquier identidad que requiera el destino específico debe ingerirse en Platform y configurarse como identidad en [!UICONTROL Real-time Customer Profile].
 
-* Consulte el [Modelo de activación de audiencias y perfiles con aplicaciones de Experience Cloud](platform-and-applications.md) para obtener más información sobre cómo compartir audiencias de Real-time Customer Data Platform con Audience Manager, Analytics, Target, Campaign y Journey Optimizer.
+* Consulte la [Modelo de activación de audiencias y perfiles con aplicaciones de Experience Cloud](platform-and-applications.md) para obtener más información sobre cómo compartir audiencias de Real-time Customer Data Platform con Audience Manager, Analytics, Target, Campaign y Journey Optimizer.
 
-## Pasos de implementación para destinos basados en personas en Audience Manager
+## Pasos de implementación para destinos basados en personas Audience Manager
 
 * Para obtener más información sobre la implementación de Audience Manager, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
 

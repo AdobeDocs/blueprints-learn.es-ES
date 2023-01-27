@@ -1,15 +1,15 @@
 ---
-description: 'Información general: Optimizar la cadena de suministro de campañas con Marketo y Workfront'
-title: Información general
+title: Cadena de suministro de Campaign con modelos de Marketo y Workfront
+description: 'Información general: Optimice la cadena de suministro de Campaign con modelos de Marketo y Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
-workflow-type: ht
-source-wordcount: '1738'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Información general {#overview}
+# Cadena de suministro de Campaign con modelos de Marketo y Workfront {#overview}
 
 ## Lograr un tiempo de salida al mercado más rápido con una cadena de suministro de campañas optimizada {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -30,7 +30,7 @@ Los equipos de operaciones de las campañas necesitan sistemas que les permitan 
 
 Al integrar el sistema de activación de marketing multicanal (Marketo Engage) con la planificación de marketing y el sistema de registro (Workfront), puede aumentar la velocidad de la campaña y proporcionar una mejor visibilidad a las partes interesadas.
 
-Con Workfront Fusion, los equipos de operaciones de marketing pueden en gran medida eliminar los pasos manuales y propensos a errores que se producen en la conversión de un informe de marketing a una campaña. Workfront Fusion ofrece una capa de integración predeterminada entre Workfront y Marketo Engage que permite flexibilidad y eficacia en el desarrollo de flujos de trabajo entre sistemas. Puede obtener más información sobre cómo configurar la integración y las acciones que se pueden realizar para automatizar los flujos de trabajo [aquí](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target=&quot;_blank&quot;}.
+Con Workfront Fusion, los equipos de operaciones de marketing pueden en gran medida eliminar los pasos manuales y propensos a errores que se producen en la conversión de un informe de marketing a una campaña. Workfront Fusion ofrece una capa de integración predeterminada entre Workfront y Marketo Engage que permite flexibilidad y eficacia en el desarrollo de flujos de trabajo entre sistemas. Puede obtener más información sobre cómo configurar la integración y las acciones que se pueden realizar para automatizar los flujos de trabajo [aquí](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}.
 
 ## De la planificación a la ejecución de campañas: casos de uso de automatización {#campaign-planning-to-execution-automation-use-cases}
 
@@ -147,7 +147,7 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 ### Introducción a la integración de Workfront Fusion, Workfront y Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [Ingesta y creación](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} - Automatización del desarrollo de campañas con Marketo Engage y Workfront
+* [Ingesta y creación](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Automatización del desarrollo de campañas con Marketo Engage y Workfront
 
 * Prueba y aprobación (próximamente)
 
@@ -155,10 +155,10 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 ### Administración de los nombres de campaña de Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
 
-La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en toda la cadena de suministro de campañas. Si está buscando herramientas que le ayuden en este proceso, le recomendamos que eche un vistazo a algunas herramientas de código abierto gratuitas de los [Servicios de Adobe Success](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target=&quot;_blank&quot;} que permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
+La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en toda la cadena de suministro de campañas. Si está buscando herramientas para ayudarle con esto, le recomendamos que verifique algunas herramientas de código abierto gratuitas de [Servicios de éxito de Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que le permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
 
 ### Recursos {#resources}
 
-* [Workfront Fusion para Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target=&quot;_blank&quot;}
+* [Workfront Fusion para Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}
 
-* [Workfront Fusion para Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target=&quot;_blank&quot;}
+* [Workfront Fusion para Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"}

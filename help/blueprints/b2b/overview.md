@@ -1,17 +1,17 @@
 ---
-title: Activación y análisis B2B
+title: Activación y análisis B2B modelos
 description: Ofrezca experiencias del cliente centradas en el perfil y audiencias basadas en la cuenta con Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: bd0a93ef2efa702b4d4f3eb20d126ee22fb113af
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Activación y análisis B2B
+# Modelos de activación y análisis B2B
 
 La activación de audiencias y perfiles B2B es la clave del éxito en el mundo del marketing basado en datos. Sin embargo, muchas marcas aún centran sus esfuerzos en la activación por canal en primer lugar, lo que suele producir un alcance y una personalización incoherentes.
 
