@@ -1,28 +1,28 @@
 ---
 title: Diagramas de arquitectura de Adobe Experience Platform & Applications
 description: Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relaciona con otras aplicaciones y servicios de aplicaciones de Adobe Experience Cloud.
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '989'
+ht-degree: 64%
 
 ---
 
-# Diagramas de arquitectura de Adobe Experience Platform y aplicaciones
+# Adobe Experience Platform y otras aplicaciones diagramas de arquitectura
 
-## Diagrama de arquitectura de Adobe Experience Platform y aplicaciones
+## Diagrama de la arquitectura de Adobe Experience Platform y otras aplicaciones
 
 Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relaciona con las aplicaciones y los servicios de aplicaciones de Adobe Experience Cloud.
 
-<img src="assets/aep+apps_vertical.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep+apps_vertical.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
-## Diagrama de arquitectura detallado de Adobe Experience Platform y aplicaciones
+## Diagrama detallado de la arquitectura de Adobe Experience Platform y otras aplicaciones
 
-<img src="assets/aep-app-architecture.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep-app-architecture.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
@@ -46,7 +46,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">Ad Cloud</td>
 <td colspan="1">
 <ul>
-<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Ad Cloud para su consiguiente segmentación mediante Audience Manager.</li>
+<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Ad Cloud para segmentar mediante Audience Manager.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -84,7 +84,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td>Audience Manager</td>
 <td>
 <ul>
-<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Audience Manager para su consiguiente activación en destinos de cookies de terceros.</li>
+<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con el Audience Manager para su activación en destinos de cookies de terceros.</li>
 </ul>
 </td>
 <td>
@@ -104,12 +104,12 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">Campaign Classic</td>
 <td colspan="1">
 <ul>
-<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Campaign Classic como audiencias para iniciar campañas.</li>
+<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con el Campaign Classic como audiencia para iniciar campañas.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Los datos de interacción y campaña que recopila Campaign se pueden ingerir en Experience Platform como fuente de datos para su uso posterior en la creación de audiencias mediante Real-time Customer Data Platform y en el análisis a través de Customer Journey Analytics y Experience Platform Query Service.</li>
+<li>Los datos de interacción y campaña recopilados por Campaign se pueden ingerir a Experience Platform como fuente de datos para su uso posterior en la creación de audiencias mediante Real-time Customer Data Platform y análisis mediante el servicio de consulta de Customer Journey Analytics y Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -122,12 +122,12 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">Campaign Standard</td>
 <td colspan="1">
 <ul>
-<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Campaign Standard como audiencias para iniciar campañas.</li>
+<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con el Campaign Standard como audiencia para iniciar campañas.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Los datos de interacción y campaña que recopila Campaign se pueden ingerir en Experience Platform como fuente de datos para su uso posterior en la creación de audiencias mediante Real-time Customer Data Platform y en el análisis a través de Customer Journey Analytics y Experience Platform Query Service.</li>
+<li>Los datos de interacción y campaña recopilados por Campaign se pueden ingerir a Experience Platform como fuente de datos para su uso posterior en la creación de audiencias mediante Real-time Customer Data Platform y análisis mediante el servicio de consulta de Customer Journey Analytics y Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -141,14 +141,14 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">
 <ul>
 <li>Los datos recopilados e ingeridos en el repositorio de datos de Experience Platform quedan disponibles para ser procesados en Customer Journey Analytics. </li>
-<li>Los datos de perfil y audiencias de Real-time Customer Data Platform se pueden introducir en CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=es">Integración de RTCDP con CJA</a>.
+<li>Los datos de perfil y audiencia de Real-time Customer Data Platform se pueden ingerir en CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=es">Integración de RTCDP con CJA</a>.
 </li>
 </ul>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Cree audiencias en Customer Journey Analtyics y comparta los resultados de audiencia con Real-time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es">Publicación de audiencias de CJA</a></li>
+<li>Cree audiencias en Customer Recorrido Analytics y comparta los resultados de audiencia con Real-time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es">Publicación de audiencias de CJA</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -184,7 +184,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 </td>
 <td colspan="1">
 <ul>
-<li>Los datos de interacción y campaña que genera Journey Optimizer se recopilan en Experience Platform para su uso posterior en la creación de audiencias mediante Real-time Customer Data Platform y en el análisis a través de Customer Journey Analytics y Experience Platform Query Service.</li>
+<li>Los datos de interacción y campaña producidos por Journey Optimizer se recopilan en Experience Platform para su uso posterior en la creación de audiencias a través de Real-time Customer Data Platform y el análisis mediante el servicio de consulta de Experience Platform y Customer Journey Analytics.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -197,7 +197,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Los perfiles y las audiencias creados en Real-time Customer Data Platform pueden hacerse personalizables en Adobe Commerce. </li>
+<li>Los perfiles y las audiencias creados en Real-time Customer Data Platform pueden estar disponibles para la personalización en Adobe Commerce. </li>
 </ul>
 </td>
 <td colspan="1">
@@ -211,7 +211,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">Marketo</td>
 <td colspan="1">
 <ul>
-<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Marketo como audiencias para iniciar campañas y actualizar objetos en Marketo.</li>
+<li>Las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Marketo como audiencia para iniciar campañas de Marketo y actualizar objetos de Marketo.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -226,10 +226,10 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 </td>
 </tr>
 <tr>
-<td colspan="1">Real-time CDP</td>
+<td colspan="1">Real-Time CDP</td>
 <td colspan="1">
 <ul>
-<li>Los datos ingeridos y recopilados en Experience Platform son la fuente de datos para ensamblar perfiles de clientes en tiempo real que alimentan Real-time Customer Data Platform.</li>
+<li>Los datos introducidos y recopilados en el Experience Platform son la fuente de datos para ensamblar perfiles de clientes en tiempo real que alimentan el Real-time Customer Data Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -249,12 +249,12 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Los atributos de perfil y las audiencias definidas en Real-time Customer Data Platform se pueden compartir con Target y usar en las experiencias de personalización y segmentación que Target proporcione.</li>
+<li>Las audiencias y los atributos de perfil definidos en Real-time Customer Data Platform se pueden compartir con Target y usar en las experiencias de personalización y segmentación que Target proporcione.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Los datos recopilados para las experiencias e interacciones de Target se pueden recoger en Experience Platform mediante el SDK web o móvil de Experience Platform. Estos datos se pueden utilizar en la creación de audiencias a través Real-time Customer Data Platform y en el análisis mediante Customer Journey Analytics y Experience Platform Query Service.</li>
+<li>Los datos recopilados para las experiencias e interacciones de Target se pueden recoger en Experience Platform mediante el SDK web o móvil de Experience Platform. Estos datos se pueden utilizar en la creación de audiencias a través de Real-time Customer Data Platform y para su análisis mediante el Customer Journey Analytics y el servicio de consulta Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">

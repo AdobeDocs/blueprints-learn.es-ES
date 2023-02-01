@@ -1,13 +1,13 @@
 ---
 title: Experience Platform y guardas de aplicaciones
 description: Las guardas definen las expectativas de rendimiento y el impacto para los componentes y servicios dentro de Adobe Experience Platform y las aplicaciones
-solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 Las guardas son umbrales recomendados que proporcionan directrices para el uso de los datos y del sistema, optimizando el rendimiento y evitando errores o resultados inesperados en Adobe Experience Platform y las aplicaciones. Las guardas están pensadas para reflejar las restricciones del sistema y las expectativas de rendimiento a fin de facilitar la arquitectura del cliente y la optimización del rendimiento de los casos de uso. Las guardas no son acuerdos de nivel de servicio; para obtener información sobre los acuerdos de nivel de servicio específicos del producto, consulte la documentación de Descripciones de productos vinculado a continuación.
 
 
-## Protecciones para Adobe Experience Platform y aplicaciones
+## Guardas para Adobe Experience Platform y aplicaciones
 
 [Protecciones de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
 

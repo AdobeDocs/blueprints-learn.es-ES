@@ -3,14 +3,14 @@ title: Planes de experiencia digital
 description: Los modelos de experiencia digital son implementaciones repetibles para abordar la estrategia y resolver los problemas empresariales establecidos. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 73%
 
 ---
 
-# Planes de experiencia digital
+# Modelos de experiencia digital
 
 Los modelos de experiencia digital son implementaciones repetibles que le permiten abordar la estrategia y resolver rápidamente los problemas empresariales establecidos. Cada modelo ofrece una serie de artefactos que explican los problemas empresariales de alto valor, arquitecturas, pasos de implementación, consideraciones técnicas y enlaces a documentación importante.
 

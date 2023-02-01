@@ -4,16 +4,16 @@ description: Este modelo muestra cómo se pueden incorporar perspectivas basadas
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 87%
 
 ---
 
 # Modelo de ciencia de datos personalizada para enriquecimiento de perfiles
 
-El modelo de ciencia de datos personalizado para el enriquecimiento de perfiles ilustra cómo se pueden usar los datos para entrenar, implementar y puntuar modelos a fin de proporcionar perspectivas de aprendizaje automático para Experience Platform y Real-time Customer Data Platform a partir de las herramientas de aprendizaje automático y la ciencia de datos. Las perspectivas modeladas se pueden ingerir en Experience Platform para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
+La ciencia de datos personalizada para el modelo de enriquecimiento de perfiles ilustra cómo se pueden usar los datos para entrenar, implementar y puntuar modelos a fin de proporcionar perspectivas de aprendizaje automático para el Experience Platform y el Real-time Customer Data Platform a partir de la ciencia de datos y las herramientas de aprendizaje automático. Las perspectivas modeladas se pueden ingerir en Experience Platform para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
 
 ## Casos de uso
 

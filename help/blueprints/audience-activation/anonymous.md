@@ -6,10 +6,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '380'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ La activación de audiencias anónimas permite dirigirse a audiencias y personal
 * Audience Manager
 * Real-time Customer Data Platform
 
-Tanto Audience Manager como Real-time Customer Data Platform se pueden aprovechar para usar las capacidades de activación de audiencias de forma anónima para destinos en el sitio y publicitarios. Tenga en cuenta que Real-time Customer Data Platform solo admite un subconjunto de destinos publicitarios con identificadores de dispositivo anónimos, tal como se catalogan en la [documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=es).
+Tanto el Audience Manager como Real-time Customer Data Platform se pueden aprovechar para impulsar el Audience Activation anónimo para destinos en el sitio y publicitarios. Tenga en cuenta que Real-time Customer Data Platform solo admite un subconjunto de destinos publicitarios con identificadores de dispositivo anónimos, tal como se catalogan en la variable [documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=es).
 
 Microsoft Bing, Google DV360 y TradeDesk son los principales destinos publicitarios de Real-time Customer Data Platform admitidos para la segmentación anónima basada en dispositivos. Además de esto, Real-time Customer Data Platform admite numerosos destinos conocidos basados en clientes, tal y como se catalogan en la variable [documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=es) y tal como se describe en la sección [Modelo conocido de activación de clientes](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es).
 
@@ -45,7 +45,7 @@ Microsoft Bing, Google DV360 y TradeDesk son los principales destinos publicitar
 
 ## Pasos de implementación para Real-time Customer Data Platform
 
-* Para ver los pasos de implementación de Real-time Customer Data Platform, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es).
+* Para ver los pasos de implementación de Real-time Customer Data Platform, consulte lo siguiente [documentación](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es).
 
 ## Documentación relacionada
 

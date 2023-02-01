@@ -1,24 +1,24 @@
 ---
-title: Customer Journey Analytics con Real-time Customer Data Platform modelo
+title: Customer Journey Analytics con modelo de Real-time Customer Data Platform
 description: Unifique y analice los datos y los comportamientos de los clientes desde todo el recorrido del cliente en Customer Journey Analytics y publique la audiencia de CJA a RTCDP
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 83%
 
 ---
 
-# Customer Journey Analytics con Real-time Customer Data Platform modelo
+# Customer Journey Analytics con modelo de Real-time Customer Data Platform
 
 Cree y publique audiencias identificadas en Customer Journey Analytics (CJA) en Real-time Customer Profile en Adobe Experience Platform para la segmentación y personalización de clientes. Ideal para crear audiencias que utilicen datos históricos o audiencias más refinadas a partir de filtros granulares y campos calculados en Customer Journey Analytics.
 
 ## Guía de publicación de audiencia de Customer Journey Analytics
 
-Consulte la siguiente documentación para obtener instrucciones sobre la implementación y configuración de la publicación de audiencias de Customer Journey Analytics en Real-time Customer Data Platform. [Documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es)
+Consulte la siguiente documentación para obtener instrucciones sobre la implementación y configuración de la publicación de audiencias de Customer Journey Analytics a Real-time Customer Data Platform. [Documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es)
 
 ## Arquitectura para modelos de Customer Journey Analytics
 

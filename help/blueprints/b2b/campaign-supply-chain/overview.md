@@ -2,16 +2,16 @@
 title: Cadena de suministro de Campaign con modelos de Marketo y Workfront
 description: 'Información general: Optimice la cadena de suministro de Campaign con modelos de Marketo y Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1743'
+ht-degree: 91%
 
 ---
 
 # Cadena de suministro de Campaign con modelos de Marketo y Workfront {#overview}
 
-## Lograr un tiempo de salida al mercado más rápido con una cadena de suministro de campañas optimizada {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
+## Lograr un tiempo de salida al mercado más rápido Con una cadena de suministro de campaña optimizada {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
 El trabajo del marketing sigue creciendo con nuevos canales y más formas de personalizar las comunicaciones cada día. Los equipos de marketing necesitan métodos para seguir automatizando y evolucionando de cara a admitir las demandas cambiantes de marketing a nivel mundial.
 
@@ -32,7 +32,7 @@ Al integrar el sistema de activación de marketing multicanal (Marketo Engage) c
 
 Con Workfront Fusion, los equipos de operaciones de marketing pueden en gran medida eliminar los pasos manuales y propensos a errores que se producen en la conversión de un informe de marketing a una campaña. Workfront Fusion ofrece una capa de integración predeterminada entre Workfront y Marketo Engage que permite flexibilidad y eficacia en el desarrollo de flujos de trabajo entre sistemas. Puede obtener más información sobre cómo configurar la integración y las acciones que se pueden realizar para automatizar los flujos de trabajo [aquí](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}.
 
-## De la planificación a la ejecución de campañas: casos de uso de automatización {#campaign-planning-to-execution-automation-use-cases}
+## Planificación de campañas para la ejecución: Casos de uso de automatización {#campaign-planning-to-execution-automation-use-cases}
 
 * Soporte a los equipos de operaciones de marketing mediante la automatización de la creación de campañas en Marketo Engage con solicitudes de ingesta en Workfront
 * Uso compartido de borradores de correos electrónicos y páginas de aterrizaje creadas en Marketo Engage con Workfront para obtener la revisión final y la aprobación de las partes interesadas interfuncionales
@@ -54,7 +54,7 @@ Tome nota de las diferentes fases del proceso de desarrollo de una campaña.
 >
 >En el ejemplo anterior, Workfront está administrando y planificando los esfuerzos de trabajo durante todo el ciclo de vida del programa de Marketo Engage. Dicho esto, la flexibilidad de Workfront puede extenderse a la gestión de todos los esfuerzos del equipo de marketing. Esto incluye marketing basado en cuentas, cadenas de suministro de contenido de marketing, administración de agencias, administración de campañas digitales y sociales y programas de habilitación de ventas.
 
-## Conceptos de representación de las iniciativas de marketing en Workfront {#understanding-how-marketing-initiatives-are-represented-in-workfront}
+## Explicación de cómo se representan las iniciativas de marketing en Workfront {#understanding-how-marketing-initiatives-are-represented-in-workfront}
 
 Adobe Workfront permite a las organizaciones administrar el trabajo para lograr una ejecución más eficiente. En Workfront, existe una jerarquía de objetos que proporciona un marco para la planificación, la administración de recursos y la colaboración entre varios equipos.
 
@@ -62,7 +62,7 @@ Será importante comprender cómo el proceso empresarial se correlaciona con est
 
 ![](assets/overview-2.png)
 
-### Jerarquía de portafolios definida {#portfolio-hierarchy-defined}
+### jerarquía de Portfolio definida {#portfolio-hierarchy-defined}
 
 <table> 
   <tr> 
@@ -107,7 +107,7 @@ Será importante comprender cómo el proceso empresarial se correlaciona con est
   </tbody>
 </table>
 
-## Ejemplo de administración de trabajo de una iniciativa de marketing {#marketing-initiative-work-management-example}
+## Ejemplo de gestión de trabajo de iniciativas de marketing {#marketing-initiative-work-management-example}
 
 Veamos cómo se desarrolla la jerarquía de portafolios de Workfront en un ejemplo real.
 
@@ -123,7 +123,7 @@ Con Workfront como sistema ascendente para la planificación de marketing y la o
 
 Para que estos sistemas funcionen en conjunto a medida que se desarrollan nuevas iniciativas de marketing, es importante entender cómo los diferentes tipos de registros de Workfront se correlacionan con los tipos de registros en Marketo Engage.
 
-### Correlación de proyectos de Workfront con programas de Marketo Engage {#mapping-workfront-projects-to-marketo-engage-programs}
+### Asignación de proyectos de Workfront a programas de Marketo Engage {#mapping-workfront-projects-to-marketo-engage-programs}
 
 Con Workfront Fusion como capa de integración, puede correlacionar sus proyectos en Workfront con un programa en Marketo Engage. Por ejemplo, en el caso anterior, Zeplin quiere generar sensibilización sobre el nuevo modelo Zeplin. Con este objetivo, se crea un nuevo programa en Workfront que aloja varias tácticas de marketing que se representan como proyectos. Una táctica es un correo electrónico de sensibilización que debe dirigirse a los clientes existentes del modelo Z10 para informarles sobre el nuevo modelo Z11. En Workfront habría un proyecto creado para representar esta táctica de correo electrónico con un conjunto de tareas asociadas a ella de cara a generar la audiencia, conseguir elementos creativos para las imágenes de correo electrónico y ensamblar el correo electrónico en Marketo Engage. El proyecto en Workfront puede correlacionarse con un programa de correo electrónico en Marketo Engage, para que la información se pueda sincronizar entre sistemas.
 
@@ -133,7 +133,7 @@ A continuación, se muestra un ejemplo de cómo un programa puede incluir varios
 
 Puede que desee poner en marcha una iniciativa de marketing de gran dimensión que necesite que varios proyectos de Workfront se alojen en un programa de Workfront, o puede que tenga una solicitud única para un seminario web o un correo electrónico que simplemente requiera crear un único proyecto de Workfront. Independientemente de sus necesidades, con Workfront, Workfront Fusion y Marketo Engage, su equipo tiene la flexibilidad de integrar su proceso de desarrollo de campañas de forma directa, desde la planificación hasta la ejecución.
 
-### Correlación de tareas de Workfront con activos de Marketo Engage {#mapping-workfront-tasks-to-marketo-engage-assets}
+### Asignación de tareas de Workfront a recursos de Marketo Engage {#mapping-workfront-tasks-to-marketo-engage-assets}
 
 A medida que comience a correlacionar el proceso de desarrollo de campañas en Workfront, también puede pensar en qué tareas se correlacionarán con el trabajo que debe realizarse en Marketo Engage y cómo se puede recoger la información en Workfront, ayudar a conseguir mayor coherencia, eficacia y precisión en la cadena de suministro de desarrollo de campañas.
 
@@ -153,7 +153,7 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 * Informe y auditoría (próximamente)
 
-### Administración de los nombres de campaña de Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
+### Administración de los nombres de campaña de los Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
 
 La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en toda la cadena de suministro de campañas. Si está buscando herramientas para ayudarle con esto, le recomendamos que verifique algunas herramientas de código abierto gratuitas de [Servicios de éxito de Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que le permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
 

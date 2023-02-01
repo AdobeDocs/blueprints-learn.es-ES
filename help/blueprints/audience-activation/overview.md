@@ -1,19 +1,19 @@
 ---
 title: Planes de activación de audiencias y perfiles
-description: Ofrezca experiencias de cliente activadas por la audiencia y centradas en el perfil a través de Real-time Customer Data Platform.
-solution: Real-time Customer Data Platform
+description: Ofrezca experiencias de cliente centradas en la audiencia y activadas en el perfil con Real-time Customer Data Platform ​.
+solution: Real-Time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '872'
+ht-degree: 88%
 
 ---
 
 
-# Activación de audiencias y perfiles modelos
+# Planes de activación de audiencias y perfiles
 
 La activación de audiencias y perfiles es la clave del éxito en un mundo de marketing basado en datos. Sin embargo, muchas marcas aún centran sus esfuerzos en la activación por canal en primer lugar, lo que suele producir un alcance y una personalización incoherentes.
 
@@ -50,7 +50,7 @@ La siguiente ilustración describe los distintos métodos de segmentación y los
 
 ### Activación de atributos e identidades
 
-* [!UICONTROL Real-time Customer Data Platform] puede activar las pertenencias a audiencia, así como los cambios de atributos e identidad que se producen en los perfiles que pertenecen a los segmentos seleccionados para la activación. Si su objetivo es activar atributos o identidades, debe definir un segmento global que incluya todos los perfiles a los que se envían las actualizaciones de atributos e identidades. En ese momento, puede seleccionar el segmento y los atributos deseados para activarlos como parte de la configuración de destino.
+* [!UICONTROL Real-time Customer Data Platform] puede activar suscripciones a audiencias, así como cambios en atributos e identidades que se producen en perfiles que son miembros de segmentos seleccionados para su activación. Si su objetivo es activar atributos o identidades, debe definir un segmento global que incluya todos los perfiles a los que se envían las actualizaciones de atributos e identidades. En ese momento, puede seleccionar el segmento y los atributos deseados para activarlos como parte de la configuración de destino.
 * Tenga en cuenta que los destinos por lotes no son compatibles con la activación de eventos de cambio solo por atributo. Se pueden enviar suscripciones de audiencia completas o incrementales junto con los atributos seleccionados para la activación.
 
 ### Activación de segmentos por lotes en destinos de streaming

@@ -1,13 +1,13 @@
 ---
 title: 'Sector de la moda: activación con aplicaciones de Experience Cloud'
 description: Se han utilizado varios modelos para habilitar el marketing en tiempo real, activación en canales múltiples y análisis en canales múltiples.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '336'
+ht-degree: 89%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: 'Sector del turismo y la hostelería: activación con datos en línea y sin conexión'
 description: Decisiones en tiempo real con una vista única consolidada del comportamiento del cliente en varios canales.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 ## enfoque de Adobe
 
 * Integración de Adobe Experience Platform en la pila de tecnología existente para ofrecer interacciones con clientes entre diferentes soluciones.
-* Activación de Real-time Customer Data Platform y Customer Journey Analytics para ofrecer análisis continuos y perfiles personalizados de clientes.
+* Se ha activado Real-time Customer Data Platform y Customer Journey Analytics para ofrecer análisis continuos y perfiles personalizados de clientes.
 * Desarrollo de una visión integral de su recorrido del cliente para respaldar una atribución de marketing efectiva y la asignación de recursos.
 * Respuesta al COVID-19 con una estrategia que ha preparado a la empresa y, al mismo tiempo, continúa atrayendo a sus clientes.
 

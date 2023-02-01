@@ -2,12 +2,12 @@
 title: Modelo de acceso a datos y exportación
 description: Este modelo proporciona información general sobre todos los métodos mediante los cuales se puede acceder y exportar datos desde Adobe Experience Platform y aplicaciones.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1513'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Enfoques de exportación de datos:
 
 ## Arquitectura de información general sobre acceso a datos y exportación
 
-<img src="../experience-platform/assets/aep_data_flow.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Enfoques para el acceso a datos
 
@@ -126,7 +126,7 @@ Consulte la documentación siguiente [Reenvío de eventos](https://experiencelea
 
 Los datos de atributos de perfil y de pertenencia a audiencias se pueden activar en destinos empresariales y publicitarios. Esto significa que los datos registrados deben introducirse en el perfil del cliente en tiempo real de Experience Platform.
 
-Consulte la documentación [Destinos de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es) para obtener más información.
+Consulte la [Destinos de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es) documentación para obtener más información.
 
 #### Casos de uso
 

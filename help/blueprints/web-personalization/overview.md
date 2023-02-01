@@ -1,14 +1,14 @@
 ---
 title: Personalización web y móvil modelos
 description: Ofrezca contenido personalizado web y móvil con [!UICONTROL Real-time Customer Profile].
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 91%
 
 ---
 
@@ -31,9 +31,9 @@ La personalización web y móvil aborda la habilidad de emplear la segmentación
 
 <br>
 
-### Diagrama de guardas de personalization de cliente conocida
+### Diagrama de protección de personalización de clientes conocido
 
-<img src="assets/personalization_guardrails.svg" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="Arquitectura de referencia del modelo de personalización del sitio web en línea/sin conexión" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Publicaciones de blog relacionadas
 
