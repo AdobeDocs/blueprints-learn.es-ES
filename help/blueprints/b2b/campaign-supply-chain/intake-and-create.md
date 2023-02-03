@@ -1,21 +1,21 @@
 ---
-title: Admisión y creación de un modelo
+title: Modelo de ingesta y creación
 description: 'Ingesta y creación: Optimizar la cadena de suministro de campañas con Marketo y Workfront'
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1307'
+ht-degree: 100%
 
 ---
 
-# Ingesta y creación modelo {#intake-and-create}
+# Ingesta y creación  modelo {#intake-and-create}
 
 El número de solicitudes de marketing que llegan a un equipo de operaciones de marketing para lanzar nuevas campañas puede convertir un equipo de alto rendimiento en un bucle de tareas repetitivas, con el consiguiente agotamiento y estancamiento de la innovación.
 
 Al establecer un proceso para enviar solicitudes de campaña y automatizar la creación de las campañas de marketing más solicitadas habitualmente, el usuario puede: aumentar la velocidad de sus campañas, reducir los errores, dirigir las solicitudes al miembro correcto de operaciones de marketing, equilibrar y mejorar la utilización de los recursos y centrar más sus operaciones de marketing en tareas de mayor estrategia.
 
-Con Workfront y Marketo Engage, una conexión de sistema a sistema permite obtener detalles de un [Formulario de solicitud de Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=es){target="_blank"} para crear un programa de Marketo Engage, rellene las variables clave como: líneas de asunto, copia de correo electrónico, imágenes, fechas, horas, información de evento, etc.
+Con Workfront y Marketo Engage, una conexión de sistema a sistema permite utilizar los detalles de un [Formulario de solicitud de Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=es){target="_blank"} para crear un programa de Marketo Engage y, posteriormente, completar las variables clave, como: líneas de asunto, copia por correo electrónico, imágenes, fechas, horas, información de un evento, etc.
 
 Para lograr esta integración, se utilizará Workfront Fusion, una capa de automatización de trabajo que permite automatizar flujos de trabajo entre Workfront y otros sistemas.
 
@@ -27,7 +27,7 @@ El flujo de trabajo siguiente muestra una solicitud de un seminario web realizad
 >
 >Para obtener más información sobre los distintos tipos de objetos en Workfront que se utilizan para organizar el trabajo de la campaña de marketing y cómo se correlacionan con un programa de Marketo Engage, consulte la [Información general sobre Marketo y Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
 
-## Prepare su proceso de desarrollo de campañas para la automatización {#prepare-your-campaign-development-process-for-automation}
+## Preparación del proceso de desarrollo de campañas para la automatización {#prepare-your-campaign-development-process-for-automation}
 
 Detrás de cada buena automatización del flujo de trabajo, hay un proceso definido que garantiza que los equipos y las partes interesadas obtengan el máximo valor de la automatización.
 
@@ -87,7 +87,7 @@ Piense en los elementos clave de información que deberán recogerse en el formu
 >
 >En la actualidad, la creación de audiencias de forma programática mediante automatización está limitada en Marketo Engage, ya que los tokens no son compatibles con las listas inteligentes. Esto significa que las audiencias deberá crearlas en Marketo Engage un usuario o, si se dispone de una audiencia predeterminada con la que se establece comunicación continuamente, se puede incluir una lista inteligente configurada como parte de la plantilla de programa clonada durante el proceso de automatización.
 
-### Establezca su centro de excelencia {#establish-your-center-of-excellence}
+### Establecer el centro de excelencia {#establish-your-center-of-excellence}
 
 Si desea automatizar la creación de programas, necesitará un centro de excelencia en Marketo Engage. Un centro de excelencia incluye programas y activos con plantillas para ayudar a acelerar y estandarizar el proceso de desarrollo de campañas. Por ejemplo, puede tener una plantilla de programa para las diferentes necesidades de campaña: correo electrónico, acompañamiento, evento presencial y seminario web. Además, puede tener varias plantillas de programa de correo electrónico que utilice para distintas regiones o diferentes tipos de anuncios de correo electrónico.
 
@@ -95,9 +95,9 @@ Crear su centro de excelencia con plantillas de programa en Marketo Engage es un
 
 Una vez que tenga un conjunto de plantillas de programa reutilizables, puede escalar aún más sus esfuerzos mediante la automatización descrita en este modelo para aumentar la velocidad del desarrollo de su campaña.
 
-Para obtener más información sobre la creación de su propio centro de excelencia, consulte la [Comunidad de Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} para prácticas recomendadas.
+Para obtener más información sobre la creación de su propio centro de excelencia, consulte la [Comunidad de Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} para conocer las prácticas recomendadas.
 
-### Usar tokens para rellenar el contenido {#use-tokens-to-populate-content}
+### Usar tokens para rellenar contenido {#use-tokens-to-populate-content}
 
 Con Marketo Engage, los tokens se pueden usar para rellenar contenido en los activos de campaña. Por ejemplo, después de clonar una plantilla de correo electrónico del centro de excelencia, Workfront Fusion puede adoptar los detalles de la solicitud de campaña en Workfront y pasarlos a Mis tokens en el programa de Marketo Engage. Los valores de token se pueden heredar directamente en el correo electrónico para crear el mensaje de salida.
 
@@ -113,7 +113,7 @@ Recuerde que tendrá que crear sus programas y plantillas de programa en Marketo
 >
 >AEM Assets no es necesario para admitir este flujo de trabajo, pero puede permitir un proceso más simplificado para administrar activos de campaña en toda la cadena de suministro de desarrollo de campañas.
 
-### Montar una biblioteca de búsqueda para todos los tipos de solicitud de programa {#assemble-a-lookup-library-for-all-program-request-types}
+### Crear una biblioteca de búsqueda para todos los tipos de solicitud de programa {#assemble-a-lookup-library-for-all-program-request-types}
 
 Al automatizar la creación de nuevos programas de Marketo Engage a partir de solicitudes de Workfront, es importante incluir un paso en la automatización de Workfront Fusion que pueda adoptar información de la solicitud de Workfront y buscar las plantillas de programa correctas que deben clonarse en Marketo Engage.
 
@@ -145,16 +145,16 @@ Algunos datos básicos que se deben incluir en la biblioteca de búsqueda de pla
   </tbody>
 </table>
 
-## Flujo de automatización de entrada y creación {#intake-and-create-automation-flow}
+## Flujo de ingesta y creación de automatización {#intake-and-create-automation-flow}
 
-A continuación, se muestra un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando precompilado [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} módulos que le permiten ofrecer automatización más rápido.
+A continuación, se muestra un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} precompilados que permitan disponer de automatización con mayor rapidez.
 
 ![](assets/intake-and-create-3.png)
 
 ## Recursos {#resources}
 
-* [Módulos Adobe Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}
+* [Módulos de Adobe Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}
 
-* [Módulos Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"}
+* [Módulos de Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"}
 
 * [Información general sobre Marketo y Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
