@@ -5,15 +5,15 @@ solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '228'
+ht-degree: 100%
 
 ---
 
 # Modelo de reenvío de eventos
 
-El modelo de reenvío de eventos muestra cómo los datos recopilados con los SDK Adobe Experience Platform Web/Mobile pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
+El modelo de reenvío de eventos muestra cómo los datos recopilados con los SDK web/móvil de Adobe Experience Platform pueden redireccionarse desde Experience Platform Edge Network a un destino elegido. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
 
 ## Casos de uso
 
@@ -34,7 +34,7 @@ El modelo de reenvío de eventos muestra cómo los datos recopilados con los SDK
 * [Vídeos de reenvío de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=es)
 * [Lección sobre el reenvío de eventos](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=es) del tutorial del SDK web
 
-## Publicaciones de blog relacionadas
+## Entradas relacionadas en el blog
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
