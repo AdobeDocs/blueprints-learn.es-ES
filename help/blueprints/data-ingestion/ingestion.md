@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ La preparación de datos incluye mapear los datos de origen en el esquema del Mo
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
-## Protecciones de ingesta de datos
+## Guardas de ingesta de datos
 
 El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio para la ingesta de datos en Adobe Experience Platform.
 
@@ -32,9 +32,9 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 
 | Métodos de ingesta | Descripción |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK Web/Mobile | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</ul>Documentación: <ul><li>[SDK Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)</li><li>[Tutorial de implementación de Adobe Experience Cloud con SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es)</li><li>[SDK Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es)</li><li>[Tutorial sobre implementación de Adobe Experience Cloud en aplicaciones móviles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=es)</li></ul> |
+| SDK web/móvil | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</ul>Documentación: <ul><li>[SDK Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)</li><li>[Tutorial de implementación de Adobe Experience Cloud con SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es)</li><li>[SDK móvil](https://experienceleague.adobe.com/docs/mobile.html?lang=es)</li><li>[Tutorial sobre implementación de Adobe Experience Cloud en aplicaciones móviles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=es)</li></ul> |
 | Orígenes de flujo | [Orígenes de flujo](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors)<br>Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li></ul> |
-| API de flujo | [API del servidor de red de Edge (preferida)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es): admite los servicios de Edge, incluida la segmentación de Edge y <br>[API Data Collection Core Service](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=es): no admite los servicios de Edge, dirige directamente al hub.<br>Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#what-can-you-do-with-streaming-ingestion%3F) |
+| API de flujo | [API del servidor de Edge Network (preferida)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es): admite los servicios de Edge, incluida la segmentación de Edge y <br>[API Data Collection Core Service](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=es): no admite los servicios de Edge, dirige directamente al hub.<br>Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#what-can-you-do-with-streaming-ingestion%3F) |
 | Herramientas ETL | Utiliza herramientas ETL para modificar y transformar datos empresariales antes de su ingesta en Experience Platform.<br><br>Latencia:<ul><li>El tiempo depende de la programación de la herramienta ETL externa. A continuación, se aplican guardas estándar de ingesta según el método de ingesta utilizado.</li></ul> |
 | Orígenes por lote | Extracción programada desde origen<br>Latencia: ~ 200 GB/hora.<br><br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors)<br>[Tutoriales en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=es) |
 | API por lote | Latencia:<ul><li>Ingesta por lotes a perfiles condicionados por tamaño y carga de tráfico ~45 minutos.</li><li>Ingesta por lotes a repositorios de datos condicionados por tamaño y carga de tráfico.</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=es#batch) |
@@ -49,7 +49,7 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 | [!UICONTROL Servicio de consultas]: preparación de datos | Une, divide, fusiona, transforma, consulta y filtra datos en un nuevo conjunto de datos. <br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=es#sql) sobre el uso de Create Table as Select (CTAS) |
 | Funciones del mapeador XDM y preparación de datos (flujo y lotes) | Mapear atributos de origen en formato CSV o JSON en atributos XDM durante la ingesta de Experience Platform.<br>Computa funciones de datos mientras se realiza la ingesta; esto es, les da formato, los divide, los concatena, etc.<br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=es) |
 
-## Publicaciones de blog relacionadas
+## Entradas relacionadas en el blog
 
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
 * [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
