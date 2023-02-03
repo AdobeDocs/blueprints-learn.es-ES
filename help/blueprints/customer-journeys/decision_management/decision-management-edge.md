@@ -1,16 +1,16 @@
 ---
-title: Administración de decisiones en el modelo de Edge
+title: Modelo de Gestión de decisiones en Edge
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '856'
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer: administración de decisiones en el modelo de Edge
+# Journey Optimizer: Modelo de Gestión de decisiones en Edge
 
 Para obtener más información sobre Gestión de decisiones, consulte la documentación del producto [AQUÍ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es) y la Información general sobre Gestión de decisiones [AQUÍ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=es)
 
@@ -24,7 +24,7 @@ Este modelo abarcará los aspectos específicos de Gestión de decisiones en Edg
 
 Para obtener más información sobre Gestión de decisiones en el hub, consulte el modelo [Gestión de decisiones en el hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=es).
 
-## Casos de uso para la gestión de decisiones en Edge
+## Casos de uso para Gestión de decisiones en Edge
 
 * Personalización en línea mediante experiencias entrantes web o móviles.
 * Ejecución de recorridos en varios canales: coherencia de ofertas en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
@@ -62,13 +62,13 @@ Adobe Experience Platform
 * Acceso al perfil de Edge en tiempo real. Solo estarán disponibles en el perfil las audiencias y los atributos de perfil proyectados de Edge.
 * Si se requiere personalización para la primera experiencia, hub es ideal, ya que el perfil completo está disponible. El perfil de Edge debe sincronizarse desde el hub para la primera experiencia en Edge. Por lo tanto, la primera experiencia en Edge no incluirá datos de perfil cargados previamente en el hub.
 
-### Protecciones de ingesta de datos
+### Guardas de ingesta de datos
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Protecciones de activación
+### Guardas de activación
 
 <img src="../../experience-platform/assets/AJO_guardrails.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -78,13 +78,13 @@ Adobe Experience Platform
 
 * Utilice el SDK web o móvil para la implementación en sitios web y aplicaciones móviles a fin de implementar Gestión de decisiones donde se implementó el SDK.
    * [Modelo de SDK web/móvil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=es)
-   * [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=es)
-   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
+   * [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=es)
+   * [SDK móvil](https://aep-sdks.gitbook.io/docs/)
 
 O
 
-* Para que un servidor de API e implementación basada en servidor utilicen la API de servicio de red de Edge para la implementación de Gestión de decisiones de servidor a servidor directo.
-   * [API del servidor de red de Edge](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=es)
+* Para que un servidor de API e implementación basada en servidor utilicen la API de servicio de Edge Network para la implementación de Gestión de decisiones de servidor a servidor directo.
+   * [API del servidor de Edge Network](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=es)
 
 <br>
 
@@ -92,7 +92,7 @@ O
 
 ### Adobe Experience Platform
 
-#### Esquema/conjuntos de datos
+#### Esquemas/conjuntos de datos
 
 1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) según los datos ofrecidos por los clientes en Experience Platform.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) en Experience Platform para la ingesta.
@@ -104,10 +104,10 @@ O
 1. [Crear áreas de nombres específicas para los clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
 1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
-1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-time Customer Profile] (opcional).
+1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-Time Customer Profile] (opcional).
 1. Crear segmentos para el uso de Journey.
 
-#### Fuentes y destinos
+#### Orígenes/destinos
 
 1. [Incorporar datos en Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) mediante API de flujo y conectores de origen.
 
