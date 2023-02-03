@@ -6,7 +6,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -26,7 +26,7 @@ Los modelos de experiencia digital son implementaciones repetibles que le permit
 * **[Modelo de activación de audiencias y perfiles en destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Mantenga los perfiles de clientes actualizados en todos los sistemas para potenciar sus equipos de ventas y asistencia. &#x200B;*
-* **[Modelo del centro de actividades del cliente](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Modelo de centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Ofrezca contexto a los agentes de ventas y atención al cliente.*
 * **[Modelo de análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)**
@@ -43,7 +43,7 @@ Los modelos de experiencia digital son implementaciones repetibles que le permit
     <p><em>Envíe mensajes e influya en las experiencias de los clientes en tiempo real utilizando [!UICONTROL Platform] como sistema centralizado.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagen en miniatura del modelo conocido de activación del cliente" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagen en miniatura del modelo conocido de activación de cliente" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Activación de cliente conocida</strong></a></div>
     <p><em>Ofrezca publicidad multicanal activada por audiencia.</em></p>
   </td>

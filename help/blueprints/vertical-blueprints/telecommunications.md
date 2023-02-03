@@ -7,23 +7,23 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
-# Desafío comercial de la industria de las telecomunicaciones
+# Desafío empresarial del sector de las telecomunicaciones
 
 Antes de implementar este modelo, las campañas de correo electrónico de “añadir una nueva línea” de la empresa de telecomunicaciones dependían de si el usuario se había convertido y solo se había comprobado después de un periodo de espera de 7 días. Una vez cumplidos estos criterios, se iniciaba un contacto adicional.
 
 Esta limitación tenía que resolverse para iniciar un seguimiento más oportuno de los usuarios que deseaban añadir una línea antes del periodo de espera de 7 días.
 
-## enfoque de Adobe
+## Enfoque de Adobe
 
 * Los datos de Adobe Analytics para identificar a los usuarios que no pudieron realizar la conversión para agregar una nueva línea se incluyen como fuente de datos para su uso por parte de Adobe Journey Optimizer.
-* Adobe Journey Optimizer utiliza una regla en el momento en que el cliente recibe un mensaje de &quot;abandono&quot; personalizado diseñado para animar a un cliente a realizar una conversión añadiendo una nueva línea a su cuenta.
+* Adobe Journey Optimizer utiliza una regla en el momento en que el cliente recibe un mensaje de “abandono” personalizado diseñado para animar a un cliente a realizar una conversión añadiendo una nueva línea a su cuenta.
 
 
-## Valor comercial entregado
+## Valor empresarial ofrecido
 
 | Objetivos | Tácticas | Valor conseguido |
 |---|---|---|
@@ -35,10 +35,10 @@ Esta limitación tenía que resolverse para iniciar un seguimiento más oportuno
 
 <ul><li>Ejecutar mensajes activados y de flujo con Adobe Experience Platform como repositorio central del flujo de datos, perfiles de clientes y segmentación; y con Journey Orchestration para la organización del recorrido de flujo y el envío de mensajes</li></ul>
 
-### aplicaciones Experience Cloud
+### Aplicaciones de Experience Cloud
 
 <ul><li>Adobe Journey Optimizer</li></ul>
 
-### Arquitectura de modelo
+### Arquitectura de modelos
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen en miniatura para una empresa de telecomunicaciones que ofrece ofertas adaptadas en tiempo real con una incorporación eficiente de clientes para una lealtad a largo plazo." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>

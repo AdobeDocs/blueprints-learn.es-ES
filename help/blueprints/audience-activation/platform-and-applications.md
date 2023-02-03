@@ -1,5 +1,5 @@
 ---
-title: Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud
+title: Modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud
 description: Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud.
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
@@ -7,15 +7,15 @@ exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 75%
+ht-degree: 81%
 
 ---
 
-# Modelo de activación de audiencias y perfiles con aplicaciones Experience Cloud
+# Modelo de activación de audiencias y perfiles con las aplicaciones de Experience Cloud
 
 Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud. Generar y compartir segmentos y datos enriquecidos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud.
 
-La activación con aplicaciones Experience Cloud se alinea con la variable [Modelo conocido de activación de clientes](known.md).
+La activación con las aplicaciones de Experience Cloud se alinea con el [Modelo conocido de activación de cliente](known.md).
 
 ## Casos de uso
 
@@ -25,7 +25,7 @@ La activación con aplicaciones Experience Cloud se alinea con la variable [Mode
 
 ## Aplicaciones
 
-* Adobe Experience Platform 
+* Adobe Experience Platform   
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Aplicaciones de Experience Cloud
@@ -41,18 +41,18 @@ La activación con aplicaciones Experience Cloud se alinea con la variable [Mode
 
 Consulte la sección [Arquitectura de Experience Platform y otras aplicaciones](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=es) para ver más diagramas de arquitectura relacionados con las integraciones de Experience Platform con aplicaciones de Experience Cloud.
 
-### Activación de audiencias y perfiles con aplicaciones de Experience Cloud
+### Activación de audiencias y perfiles con las aplicaciones de Experience Cloud
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitectura de referencia para la activación de audiencias y perfiles con aplicaciones de Experience Cloud" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitectura de referencia de la activación de audiencias y perfiles con las aplicaciones de Experience Cloud" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardas
 
-Consulte los [guardas de la página de información general sobre la activación de audiencias y perfiles](overview.md)  y la página [guardas de implementación](../experience-platform/deployment/guardrails.md).
+Consulte los [guardas de la página de información general sobre la activación de audiencias y perfiles](overview.md)   y la página [guardas de implementación](../experience-platform/deployment/guardrails.md).
 
 ## Consideraciones sobre la implementación
 
-* Compartir datos de perfil con los destinos requiere incluir un valor de identidad específico utilizado por el destino en su carga. Cualquier identidad que requiera el destino específico debe ingerirse en Platform y configurarse como identidad en [!UICONTROL Real-time Customer Profile].
+* Compartir datos de perfil con los destinos requiere incluir un valor de identidad específico utilizado por el destino en su carga. Cualquier identidad que requiera el destino específico debe ingerirse en Platform y configurarse como identidad en [!UICONTROL Real-Time Customer Profile].
 
 ### Uso compartido de audiencias de Real-time Customer Data Platform con el Audience Manager
 
@@ -63,7 +63,7 @@ Consulte los [guardas de la página de información general sobre la activación
 * Con la información de enrutamiento regional, estos perfiles son aptos para la activación de Edge y se activarán en cuestión de minutos después de la calificación de segmentos de RTCDP. Los perfiles que no cumplan los requisitos para la activación de Edge se clasificarán en el centro de Audience Manager y es posible que deba pasar un periodo de tiempo de 12 a 24 horas para que se procesen.
 * La información de enrutamiento regional en la que se almacena el perfil de Audience Manager de Edge se puede recopilar en Experience Platform desde Audience Manager, el servicio de ID de visitante, Analytics, Launch o directamente desde el SDK web como un conjunto de datos de clase de registro de perfil independiente mediante el grupo de campos XDM &quot;información de región de captura de datos&quot;. Consulte el documento de información regional para obtener más detalles [Enlace](https://experienceleague.adobe.com/docs/id-service/using/reference/regions.html?lang=es).
 * En los casos de activación en los que las audiencias se comparten de Experience Platform a Audience Manager, las siguientes identidades se comparten automáticamente: ECID, IDFA, GAID, direcciones de correo electrónico con hash (EMAIL_LC_SHA256), AdCloud ID. Actualmente, las áreas de nombres de los clientes no se comparten.
-* Las audiencias de Experience Platform se pueden compartir a través de los destinos de Audience Manager cuando las identidades de destino necesarias se incluyan en [!UICONTROL Real-time Customer Profile] o cuando las identidades de [!UICONTROL Real-time Customer Profile] se relacionen con las identidades requeridas en destino, si están vinculadas en Audience Manager.
+* Las audiencias de Experience Platform se pueden compartir a través de los destinos de Audience Manager cuando las identidades de destino necesarias se incluyan en [!UICONTROL Real-Time Customer Profile] o cuando las identidades de [!UICONTROL Real-Time Customer Profile] se relacionen con las identidades requeridas en destino, si están vinculadas en Audience Manager.
 
 ### Uso compartido de audiencias de Real-time Customer Data Platform en Target
 

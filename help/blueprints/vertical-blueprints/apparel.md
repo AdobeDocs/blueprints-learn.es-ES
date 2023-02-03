@@ -7,11 +7,11 @@ exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
-# Desafío comercial de la industria de ropa
+# Desafío empresarial del sector de la moda
 
 Esta empresa de moda específica es líder mundial en diseño, desarrollo, fabricación, marketing y venta en todo el mundo de calzado, ropa, equipamiento, accesorios y servicios.
 
@@ -21,14 +21,14 @@ Su equipo tecnológico internacional utiliza Adobe Experience Platform y solucio
 * Marketing en tiempo real basado en activadores
 * Personalización y capacidad para medir la eficacia de la campaña y la capacidad para realizar análisis y atribuciones del cliente globales
 
-## enfoque de Adobe
+## Enfoque de Adobe
 
 * Crear una base de Platform sólida para ofrecer valor al negocio y lograr la adopción en toda la empresa.
 * Colaborar con equipos técnicos para garantizar que la implementación de tecnología proporcione valor empresarial.
 * Crear una vista integral de los clientes de esta empresa de accesorios para segmentar y activar directamente las campañas, y crear informes al respecto.
 * Automatizar los activadores y organizar recorridos personalizados de clientes.
 
-## Valor comercial entregado
+## Valor empresarial ofrecido
 
 | Objetivos | Tácticas | Valor conseguido |
 |---|---|---|
@@ -40,10 +40,10 @@ Su equipo tecnológico internacional utiliza Adobe Experience Platform y solucio
 
 <ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud.</li><li>Generar y compartir segmentos ricos y datos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud.</li></ul>
 
-### aplicaciones Experience Cloud
+### Aplicaciones de Experience Cloud
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul>
+<ul><li>Adobe Experience Platform   </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul>
 
-### Arquitectura de modelo
+### Arquitectura de modelos
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen en miniatura de una empresa de moda, con audience activation, customer journey analytics y modelos de recorrido del cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>

@@ -1,5 +1,5 @@
 ---
-title: Modelo de acceso a datos y exportación
+title: Modelo de acceso y exportación de datos
 description: Este modelo proporciona información general sobre todos los métodos mediante los cuales se puede acceder y exportar datos desde Adobe Experience Platform y aplicaciones.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Tags
@@ -7,11 +7,11 @@ exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
-# Modelo de acceso a datos y exportación
+# Modelo de acceso y exportación de datos
 
 El modelo de acceso y exportación de datos describe todos los métodos posibles para acceder a los datos o exportarlos desde Adobe Experience Platform y aplicaciones.
 
@@ -30,7 +30,7 @@ Enfoques de exportación de datos:
 * [Destinos de Real-time Customer Data Platform](#RTCDP-destinations)
 * [Acciones personalizadas de Journey Optimizer](#jo-custom-actions)
 
-## Arquitectura de información general sobre acceso a datos y exportación
+## Arquitectura general de acceso y exportación de datos
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
@@ -70,7 +70,7 @@ Con la API de acceso a datos, los clientes pueden acceder directamente a los arc
 
 ### Servicio de consultas {#query-service}
 
-Con el uso del servicio de consultas de Experience Platform, los clientes pueden consultar conjuntos de datos dentro del Experience Platform y mantener los resultados de la consulta. Se puede usar un cliente SQL para consultar y mantener la respuesta de consulta en el destino de almacenamiento deseado que el cliente SQL pueda soportar. La interfaz de usuario del servicio de consulta se puede utilizar para almacenar el resultado de SQL en un conjunto de datos de destino en Experience Platform o bien se puede guardar en el equipo local.
+Con el uso del servicio de consultas de Experience Platform, los clientes pueden consultar conjuntos de datos dentro de Experience Platform y mantener los resultados de la consulta. Se puede usar un cliente SQL para consultar y mantener la respuesta de consulta en el destino de almacenamiento deseado que el cliente SQL pueda soportar. La interfaz de usuario del servicio de consulta se puede utilizar para almacenar el resultado de SQL en un conjunto de datos de destino en Experience Platform o bien se puede guardar en el equipo local.
 
 * Para obtener más información sobre la conexión con clientes SQL para mantener los resultados de SQL del servicio de consulta de Experience Platform, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=es).
 
@@ -83,7 +83,7 @@ Con el uso del servicio de consultas de Experience Platform, los clientes pueden
 #### Consideraciones
 
 * Como los datos se consultan de forma asíncrona y por lotes, el acceso a los datos estará inherentemente latente en comparación con los enfoques de salida de datos de flujo continuo, como la utilización de etiquetas, el reenvío de eventos o los destinos RTCDP.
-* Solo se pueden consultar los datos disponibles en el repositorio de datos de Experience Platform mediante el servicio de consulta. El almacén de perfiles de cliente en tiempo real, el gráfico de identidad y el Customer Journey Analytics no se pueden consultar directamente mediante el servicio de consulta. Solo cuando se exportan conjuntos de datos al repositorio de datos se pueden consultar estos conjuntos de datos, como en el ejemplo del conjunto de datos de instantánea de perfil.
+* Solo se pueden consultar los datos disponibles en el repositorio de datos de Experience Platform mediante el servicio de consulta. El almacén de Real-Time Customer Profile, el gráfico de identidad y el Customer Journey Analytics no se pueden consultar directamente mediante el servicio de consulta. Solo cuando se exportan conjuntos de datos al repositorio de datos se pueden consultar estos conjuntos de datos, como en el ejemplo del conjunto de datos de instantánea de perfil.
 * Tenga en cuenta que las guardas relativas al número de resultados de una consulta y el tiempo de espera de la consulta se aplican tal como se describe en la documentación [Guardas de los servicios de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=es).
 
 ## Enfoques para la exportación de datos
@@ -117,7 +117,7 @@ Consulte la documentación siguiente [Reenvío de eventos](https://experiencelea
 
 #### Consideraciones
 
-* Para utilizar el reenvío de eventos, los datos deben enviarse a la red perimetral mediante el SDK web o el SDK móvil.
+* Para utilizar el reenvío de eventos, los datos deben enviarse a la red Edge mediante el SDK web o el SDK móvil.
 * El método de reenvío de eventos reduce el tiempo y el peso de la carga de la página porque se agregan etiquetas adicionales a la página.
 * Actualmente no se admite ningún enriquecimiento del perfil de Edge u otras fuentes de datos.
 * Los filtrados de datos limitados y las transformaciones de asignación sencillas son compatibles.

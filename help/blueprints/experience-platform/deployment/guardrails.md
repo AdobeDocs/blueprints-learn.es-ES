@@ -7,7 +7,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -18,11 +18,11 @@ Las guardas son umbrales recomendados que proporcionan directrices para el uso d
 
 ## Guardas para Adobe Experience Platform y aplicaciones
 
-[Protecciones de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
+[Guardas de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
 
 [Protecciones de la API de red Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=es)
 
-[Guardas de Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+[Guardas de Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 [Guardas de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=es)
 
@@ -34,7 +34,7 @@ Las guardas son umbrales recomendados que proporcionan directrices para el uso d
 
 <br>
 
-## Diagramas de latencia end-to-end
+## Diagramas de latencia de extremo a extremo
 
 ### Ingesta de datos
 

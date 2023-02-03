@@ -6,7 +6,7 @@ exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign v7 es una herramienta de campaña diseñada para canales de marke
 | Escenario | Descripción | Competencias |
 | :-- | :--- | :--- |
 | [Real-Time CDP con Adobe Campaign](rtcdp-and-campaign.md) | Muestra cómo se puede utilizar el Real-Time CDP de Adobe Experience Platform y su herramienta de segmentación centralizada con Adobe Campaign para ofrecer conversaciones personalizadas | <ul><li>Uso compartido de perfiles y audiencias de Real-Time CDP con Adobe Campaign mediante el uso del intercambio de archivos de almacenamiento en la nube y los flujos de trabajo de ingesta de Adobe Campaign </li><li>Comparta fácilmente datos de entrega e interacción de conversaciones de clientes en Real-Time CDP desde Adobe Campaign para mejorar tanto el Perfil del cliente en tiempo real como los informes multicanal en campañas de mensajería</li></ul> |
-| [Journey Optimizer con Adobe Campaign](ajo-and-campaign.md) | Muestra cómo puede utilizar Adobe Journey Optimizer para orquestar experiencias 1:1 utilizando el perfil del cliente en tiempo real y aprovechar el sistema de mensajería transaccional nativo de Adobe Campaign para enviar el mensaje | Aproveche el perfil de cliente en tiempo real y la potencia de Journey Optimizer para orquestar en el momento las experiencias mientras utiliza las capacidades nativas de mensajería en tiempo real de Adobe Campaign para realizar la comunicación de último momento<br><br>Consideraciones:<br><ul><li>Se pueden enviar hasta 50 000 mensajes por hora a través del servidor de mensajes en tiempo real<li>No se establece ninguna limitación desde Journey Optimizer, por lo que debe asegurarse de que un arquitecto empresarial de preventas realice una comprobación técnica</li><li>Gestión de decisiones no se admite en cargas al servidor de mensajería en tiempo real de Campaign v7</li></ul> |
+| [Journey Optimizer con Adobe Campaign](ajo-and-campaign.md) | Muestra cómo puede utilizar Adobe Journey Optimizer para orquestar experiencias 1:1 utilizando el perfil del cliente en tiempo real y aprovechar el sistema de mensajería transaccional nativo de Adobe Campaign para enviar el mensaje | Aproveche Real-Time Customer Profile y la potencia de Journey Optimizer para orquestar en el momento las experiencias mientras utiliza las capacidades nativas de mensajería en tiempo real de Adobe Campaign para realizar la comunicación de último momento<br><br>Consideraciones:<br><ul><li>Se pueden enviar hasta 50 000 mensajes por hora a través del servidor de mensajes en tiempo real<li>No se establece ninguna limitación desde Journey Optimizer, por lo que debe asegurarse de que un arquitecto empresarial de preventas realice una comprobación técnica</li><li>Gestión de decisiones no se admite en cargas al servidor de mensajería en tiempo real de Campaign v7</li></ul> |
 
 <br>
 
@@ -48,7 +48,7 @@ Adobe Campaign v7 es una herramienta de campaña diseñada para canales de marke
 
 * Listado de direcciones IP permitidas
    * Identifique los rangos de IP que todos los usuarios aprovecharán durante el acceso a la consola del cliente
-   * Identificar qué sistemas empresariales podrán hablar con el servidor de mensajería en tiempo real y garantizar que tengan una IP o un rango asignado estáticamente que pueda lista de permitidos
+   * Identifique qué sistemas empresariales podrán hablar con el servidor de mensajería en tiempo real y asegúrese de que tienen una IP o un rango asignado estáticamente que pueda realizar la lista de permitidos
    * Esto se puede configurar y controlar mediante el panel de control de Campaign
 * Administración de claves sFTP
    * Tenga a disposición claves públicas SSH para su uso con el sFTP proporcionado por Campaign. Esto se puede configurar y controlar mediante el panel de control de Campaign.

@@ -1,5 +1,5 @@
 ---
-title: Activación y análisis B2B modelos
+title: Modelos de activación y análisis B2B
 description: Ofrezca audiencias basadas en cuentas y experiencias de cliente centradas en los perfiles con Real-time Customer Data Platform.
 solution: Real-Time Customer Data Platform
 kt: 9311
@@ -7,7 +7,7 @@ exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 

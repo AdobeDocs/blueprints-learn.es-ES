@@ -1,5 +1,5 @@
 ---
-title: Activación de audiencias y perfiles en el modelo de Destinos de flujo empresarial y de archivos
+title: Modelo de activación de audiencias y perfiles en destinos de streaming empresarial y de archivos
 description: Activación de audiencias y perfiles en destinos empresariales
 solution: Real-Time Customer Data Platform
 kt: 7475
@@ -7,11 +7,11 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
-# Activación de audiencias y perfiles en el modelo de Destinos de flujo empresarial y de archivos
+# Modelo de activación de audiencias y perfiles en destinos de streaming empresarial y de archivos
 
 Compartir cambios y eventos de perfil y audiencia en flujo continuo o por lotes desde [!UICONTROL Real-time Customer Data Platform] a almacenes de datos y aplicaciones empresariales. Estos eventos de perfil y audiencia pueden utilizarse para iniciar una acción de ventas o asistencia al cliente, como realizar un seguimiento de un proceso de aplicación abandonado o un registro de seminario web, o actualizar aplicaciones empresariales con los atributos de cliente e inteligencia más recientes de [!UICONTROL Real-time Customer Data Platform].
 
@@ -21,7 +21,7 @@ Compartir cambios y eventos de perfil y audiencia en flujo continuo o por lotes 
 
 ## Aplicaciones
 
-* Adobe Experience Platform   Activation
+* Adobe Experience Platform    Activation
 
 ## Arquitectura
 

@@ -1,18 +1,18 @@
 ---
-title: Patrón de integración de Real-Time CDP con Adobe Campaign v8
+title: Patrón de integración de Real-Time CDP con Adobe Campaign v8
 description: Muestra cómo se puede utilizar Adobe Experience Platform, su funcionalidad Real-Time Customer Profile y la herramienta de segmentación centralizada con Adobe Campaign v8 para ofrecer conversaciones personalizadas.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 76%
+ht-degree: 90%
 
 ---
 
-# Patrón de integración de Real-Time CDP con Adobe Campaign v8
+# Patrón de integración de Real-Time CDP con Adobe Campaign v8
 
-Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Experience Platform y su herramienta de segmentación centralizada con Adobe Campaign para ofrecer conversaciones personalizadas.
+Muestra cómo se puede utilizar Adobe Experience Platform, su Real-Time Customer Profile y su herramienta de segmentación centralizada con Adobe Campaign para ofrecer conversaciones personalizadas.
 
 <br>
 
@@ -25,7 +25,7 @@ Muestra cómo se puede utilizar el perfil del cliente en tiempo real de Adobe Ex
 
 ## Arquitectura
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Arquitectura de referencia para el patrón de integración de Batch Messaging y Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Arquitectura de referencia del patrón de integración de Adobe Experience Platform y mensajería por lotes" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -61,7 +61,7 @@ Consulte la siguiente documentación sobre la configuración del conector de ori
 * La latencia de activación es de 3 horas como mínimo
 * Solo los atributos de esquemas de unión están disponibles para la activación (no es compatible con eventos array/maps/experience)
 * Recomendación: máximo de 20 atributos por segmento.
-* Un archivo por segmento de todos los perfiles con pertenencia a segmentos &quot;realizada&quot; O si la pertenencia a segmentos se agrega como atributo en el archivo tanto perfiles &quot;realizados&quot; como perfiles &quot;salidos&quot;
+* Un archivo por segmento de todos los perfiles con la pertenencia a segmento “realized” O si la pertenencia a segmento se añade como atributo en el archivo como perfiles “realized” y “exited” a la vez
 * Compatible con la exportación de segmentos incrementales y completos.
 * No es compatible con la criptografía de archivos.
 * Consulte las guardas de ingesta de datos y perfiles para AEP: [vínculo](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)

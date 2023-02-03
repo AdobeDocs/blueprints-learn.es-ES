@@ -1,5 +1,5 @@
 ---
-title: Diagramas de arquitectura de Adobe Experience Platform & Applications
+title: Diagramas de la arquitectura de Adobe Experience Platform y otras aplicaciones
 description: Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relaciona con otras aplicaciones y servicios de aplicaciones de Adobe Experience Cloud.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
@@ -8,11 +8,11 @@ exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 64%
+ht-degree: 66%
 
 ---
 
-# Adobe Experience Platform y otras aplicaciones diagramas de arquitectura
+# Diagramas de la arquitectura de Adobe Experience Platform y otras aplicaciones
 
 ## Diagrama de la arquitectura de Adobe Experience Platform y otras aplicaciones
 
@@ -26,7 +26,7 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Integraciones de aplicaciones de Adobe Experience Platform y Experience Cloud
+## Integración de aplicaciones de Experience Cloud y Adobe Experience Platform
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>
@@ -161,12 +161,12 @@ Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relacio
 <td colspan="1">Experience Manager</td>
 <td colspan="1">
 <ul>
-<li>Se puede acceder directamente al perfil del Experience Platform en el servidor para potenciar las experiencias personalizadas ofrecidas mediante Experience Manager. Tenga en cuenta que las actividades de personalización generalmente se realizan en Experience Manager a través de la integración de Target. </li>
+<li>Se puede acceder directamente al perfil de Experience Platform en el servidor para potenciar las experiencias personalizadas ofrecidas mediante Experience Manager. Tenga en cuenta que las actividades de personalización generalmente se realizan en Experience Manager a través de la integración de Target. </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Ninguna integración actual, comportamientos ni interacciones realizadas en los sitios de Experience Manager se recopilan directamente mediante el SDK Web y Mobile de Experience Platform.</li>
+<li>Ninguna integración actual, comportamientos ni interacciones realizadas en los sitios de Experience Manager se recopilan directamente mediante el SDK web y móvil de Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">

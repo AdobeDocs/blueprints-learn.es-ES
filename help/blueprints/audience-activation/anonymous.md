@@ -1,5 +1,5 @@
 ---
-title: Modelo de Audience Activation anónimo
+title: Modelo de activación de audiencia anónima
 description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes. Con esto, se puede crear una experiencia del cliente coherente y personalizada en diversos dispositivos.
 landing-page-description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes.
 solution: Audience Manager
@@ -9,11 +9,11 @@ exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 63%
+ht-degree: 68%
 
 ---
 
-# Modelo de Audience Activation anónimo
+# Modelo de activación de audiencia anónima
 
 La activación de audiencias anónimas permite dirigirse a audiencias y personalizarlas a través de canales web, móviles y publicitarios en función de datos de comportamiento y dispositivos anónimos.
 
@@ -39,7 +39,7 @@ Microsoft Bing, Google DV360 y TradeDesk son los principales destinos publicitar
 
 <br>
 
-## Pasos de implementación para el Audience Manager
+## Pasos de implementación de Audience Manager
 
 * Para obtener más información sobre la implementación de Audience Manager, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=es).
 
@@ -53,5 +53,5 @@ Microsoft Bing, Google DV360 y TradeDesk son los principales destinos publicitar
 * [[!UICONTROL Audiencias] de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 * [Integrar Audience Manager con Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
 * [Compartir segmentos de Adobe Analytics a través de Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
-* [Modelo conocido de activación de clientes](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es).
+* [Modelo conocido de activación de cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=es).
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es)

@@ -1,5 +1,5 @@
 ---
-title: Modelo de personalización web basada en el comportamiento
+title: Modelo de personalización web basada en comportamiento
 description: Descubra cómo personalizar el contenido en función del comportamiento en línea y los datos de audiencia.
 landing-page-description: Descubra cómo personalizar según el comportamiento en línea y los datos de audiencia.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,11 +8,11 @@ exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
-# Modelo de personalización móvil/web basada en el comportamiento
+# Modelo de personalización web/móvil basada en comportamiento
 
 Personalización basada en el comportamiento en línea y datos de audiencia.
 
@@ -82,7 +82,7 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 * [Documentación de la segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es)
 * [Documentación de los destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
 
-## Publicaciones de blog relacionadas
+## Entradas relacionadas en el blog
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)

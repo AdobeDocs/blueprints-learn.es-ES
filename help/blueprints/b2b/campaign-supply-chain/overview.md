@@ -1,15 +1,15 @@
 ---
-title: Cadena de suministro de Campaign con modelos de Marketo y Workfront
-description: 'Información general: Optimice la cadena de suministro de Campaign con modelos de Marketo y Workfront'
+title: Modelos de cadena de suministro de campañas con Marketo y Workfront
+description: 'Información general: Modelos para optimizar la cadena de suministro de campañas con Marketo y Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
-# Cadena de suministro de Campaign con modelos de Marketo y Workfront {#overview}
+# Modelos de cadena de suministro de campañas con Marketo y Workfront {#overview}
 
 ## Lograr un tiempo de salida al mercado más rápido Con una cadena de suministro de campaña optimizada {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
@@ -155,7 +155,7 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 ### Administración de los nombres de campaña de los Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
 
-La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en toda la cadena de suministro de campañas. Si está buscando herramientas para ayudarle con esto, le recomendamos que verifique algunas herramientas de código abierto gratuitas de [Servicios de éxito de Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que le permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
+La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en toda la cadena de suministro de campañas. Si está buscando herramientas que le ayuden en este proceso, le recomendamos que eche un vistazo a algunas herramientas de código abierto gratuitas de los [Servicios de Adobe Success](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
 
 ### Recursos {#resources}
 
