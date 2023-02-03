@@ -1,19 +1,19 @@
 ---
-title: Modelo del centro de actividades del cliente
-description: "Busque [!UICONTROL perfiles de cliente en tiempo real] para ofrecer contexto a los agentes de atención al cliente y ventas."
+title: Modelo de centro de actividad del cliente
+description: "Busque [!UICONTROL Real-Time Customer Profile] para ofrecer contexto a los agentes de atención al cliente y ventas."
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
-# Modelo del centro de actividades del cliente
+# Modelo de centro de actividad del cliente
 
-El modelo de Customer Activity Hub muestra cómo las aplicaciones externas pueden acceder a Adobe Experience Platform [!UICONTROL Perfil del cliente en tiempo real].
+El modelo de centro de actividad del cliente muestra cómo ciertas aplicaciones externas pueden acceder a [!UICONTROL Real-Time Customer Profile] de Adobe Experience Platform.
 
 Las aplicaciones externas pueden acceder a los perfiles con una solicitud API GET. Los atributos, los eventos, las pertenencias a segmento y todos los recursos por modelo almacenados en el perfil se podrán utilizar posteriormente en las aplicaciones externas que no pertenezcan a Adobe.
 
@@ -25,7 +25,7 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 ## Casos de uso
 
-* Ofrecer un contexto más rico sobre el cliente a las interacciones realizadas por agentes, como las experiencias de asistencia y ventas. Utilizando la búsqueda de perfil en Experience Platform, los agentes pueden recibir más contexto sobre el cliente, tal como compras recientes, interacciones con campañas, tendencias, pertenencia a audiencia y otros atributos y datos que se almacenan en tiempo real en el perfil del cliente.
+* Ofrecer un contexto más rico sobre el cliente a las interacciones realizadas por agentes, como las experiencias de asistencia y ventas. Utilizando la búsqueda de perfil en Experience Platform, los agentes pueden recibir más contexto sobre el cliente, tal como compras recientes, interacciones con campañas, tendencias, pertenencia a audiencia y otros atributos y datos que se almacenan en Real-Time Customer Profile.
 
 ## Arquitectura
 
@@ -33,11 +33,11 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 ## Guardas
 
-* [Guardas de los datos de [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+* [Guardas de los datos de [!UICONTROL Real-Time Customer Profile]](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 ## Pasos de implementación
 
-1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para la ingesta de datos.
+1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingestados se puedan combinar en un perfil unificado.
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
@@ -48,6 +48,6 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 ## Documentación relacionada
 
 * [Descripción del producto Adobe Experience Platform Activation](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform0.html)
-* Documentación de [[!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es)
+* Documentación de [[!UICONTROL Real-Time Customer Profile]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es)
 * [Guardas de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * [API de búsqueda de perfiles](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
