@@ -3,13 +3,13 @@ title: Historias de éxito del sector de los modelos de experiencia digital
 description: Los casos de éxito de los modelos de experiencia digital muestran cómo varias sectores están obteniendo valor empresarial con las aplicaciones de Adobe Experience Cloud, con tecnología de Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Éxito del sector con modelos de Experiencia digital
+# Éxito del sector con modelos de experiencia digital
 
 Descubra cómo los clientes diseñan buenas experiencias y tienen éxito con los modelos de experiencia digital. Estas implementaciones comprobadas y repetibles le permiten seguir una estrategia y resolver rápidamente los problemas empresariales conocidos.
 
