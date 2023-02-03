@@ -1,18 +1,18 @@
 ---
-title: Planes de administración de decisiones
+title: Modelos de administración de decisiones
 description: Ofrezca ofertas personalizadas entre los recorridos de los clientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '757'
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer: Planes de administración de decisiones
+# Journey Optimizer: Modelos de Gestión de decisiones
 
-Para obtener más información sobre la gestión de decisiones, consulte [documentación del producto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es)
+Para obtener más información sobre Gestión de decisiones, consulte la [documentación del producto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es)
 
 Gestión de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación, y proporciona una explicación profunda de los diversos componentes y consideraciones sobre arquitectura que componen Gestión de decisiones.
 
@@ -25,7 +25,7 @@ La funcionalidad Gestión de decisiones consta de dos componentes principales:
 
 <img src="../assets/offers_overview.png" alt="Gestión de decisiones" style="width:100%; border:1px solid #4a4a4a" />
 
-Gestión de decisiones se puede implementar de una de las dos maneras siguientes: en Edge o a través del hub. Cada uno de estos métodos tiene un conjunto específico de interfaces y protocolos para operar el servicio como se describe en los respectivos modelos a los que se hace referencia a continuación. También puede obtener más información en la [Documentación de gestión de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=es).
+Gestión de decisiones se puede implementar de una de las dos maneras siguientes: en Edge o a través del hub. Cada uno de estos métodos tiene un conjunto específico de interfaces y protocolos para operar el servicio como se describe en los respectivos modelos a los que se hace referencia a continuación. También pueden obtenerse más detalles en la [documentación de Gestión de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=es).
 
 ## Gestión de decisiones en el hub
 
@@ -33,7 +33,7 @@ La primera es a través del hub de Adobe Experience Platform, que es una arquite
 
 * La idoneidad de la oferta puede operar con el perfil completo del cliente en tiempo real, incluidos todos los atributos y eventos de experiencia.
 
-### Casos de uso para la gestión de decisiones en el centro
+### Casos de uso para Gestión de decisiones en el hub
 
 * Ofertas personalizadas en quioscos y en experiencias de tienda.
 * Ofertas personalizadas a través de la experiencia asistida por agentes, como centros de llamadas o interacciones de ventas.
@@ -44,18 +44,18 @@ La primera es a través del hub de Adobe Experience Platform, que es una arquite
 
 * Solicitudes por segundo =2000.
 * Latencia de respuesta &lt;500ms.
-* Acceso a los perfiles de cliente completos en tiempo real, lo que incluye las suscripciones a audiencias, atributos y eventos de experiencia.
+* Acceso completo a Real-Time Customer Profile, lo que incluye las suscripciones a audiencias, atributos y eventos de experiencia.
 
 ## Gestión de decisiones en Edge
 
 El segundo enfoque es a través de la red Experience Edge, que es una infraestructura distribuida globalmente y ubicada geográficamente para ofrecer experiencias rápidas de subsegundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura de Edge más cercana a la ubicación geográfica del consumidor para minimizar la latencia. Gestión de decisiones en Edge está diseñado para ofrecer experiencias de consumidores en tiempo real, como solicitudes de personalización entrantes web o móviles. Para obtener más información sobre Gestión de decisiones en Edge, consulte el modelo [Gestión de decisiones en Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=es).
 
-### Casos de uso para la gestión de decisiones en Edge
+### Casos de uso para Gestión de decisiones en Edge
 
 * Personalización en línea mediante experiencias entrantes web o móviles.
 * Ejecución de recorridos en varios canales: coherencia de ofertas en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
-### Gestión de decisiones en Edge   consideraciones técnicas
+### Gestión de decisiones en Edge    consideraciones técnicas
 
 * Solicitudes por segundo =5000.
 * Latencia de respuesta &lt;250 ms.
