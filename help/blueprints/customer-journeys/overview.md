@@ -1,18 +1,18 @@
 ---
-title: Planes de Recorrido del cliente
+title: Modelos de recorrido del cliente
 description: Proporcione una experiencia del cliente individual y rápida en diversas pantallas.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
-# Planes de Recorrido del cliente
+# Modelos de recorrido del cliente
 
 Los recorridos del cliente permiten a las marcas interactuar de forma proactiva con sus clientes y comunicarse con ellos a través de canales como correo electrónico, SMS y alertas móviles. Las herramientas de organización también se pueden integrar con otros canales de integración como los de entrada para posibilitar la personalización web y móvil al compartir el estado de audiencia con los motores de decisión de los otros canales. Hay varios factores que influyen en las aplicaciones y las opciones de implementación que deben utilizarse para los recorridos del cliente, pero que pueden resumirse en dos enfoques diferentes: reaccionar a un cliente cuando participa (activación) O reaccionar a un grupo de clientes mientras participa (programación).
 
