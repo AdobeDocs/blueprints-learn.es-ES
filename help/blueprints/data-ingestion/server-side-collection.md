@@ -4,8 +4,8 @@ description: Transmita datos recogidos con los SDK de Experience Platform hacia 
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ El modelo de reenvío de eventos muestra cómo los datos recopilados con los SDK
 
 ## Arquitectura
 
-<img src="assets/enterprise_collection.svg" alt="Arquitectura de referencia para la recopilación de datos empresariales" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Arquitectura de referencia para la recopilación de datos empresariales" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Documentación relacionada
 

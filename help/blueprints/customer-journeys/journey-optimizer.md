@@ -3,8 +3,8 @@ title: Journey Optimizer - Modelo de mensajería activada y Adobe Experience Pla
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Journey Optimizer es un sistema diseñado específicamente para que los eq
 
 ## Arquitectura
 
-<img src="assets/ajo-architecture.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/ajo-architecture.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -91,13 +91,13 @@ Tenga en cuenta estos elementos no incluidos en el vínculo anterior:
 
 ### Guardas de ingesta de datos
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### Guardas de activación
 
-<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 

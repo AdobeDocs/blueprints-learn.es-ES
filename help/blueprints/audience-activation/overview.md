@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 94%
@@ -30,7 +30,7 @@ Abordando el canal en primer lugar, cada canal actúa como un depósito donde lo
 
 La siguiente ilustración describe los componentes principales de Real-Time Customer Profile de Experience Platform.
 
-<img src="assets/profile_architecture.jpg" alt="Arquitectura de referencia de Real-Time Customer Profile" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
+<img src="assets/profile_architecture.jpg" alt="Arquitectura de referencia de Real-Time Customer Profile" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 
 Las primeras fuentes de datos se ingieren en Experience Platform. Si la fuente de datos está configurada para el procesamiento de perfiles, se incluirá en Real-Time Customer Profile. Se crea un único fragmento o documento de perfil para cada fuente de datos y para cada registro de ID principal configurado para cada fuente de datos. Además, a medida que los datos se ingieren en el perfil, también los procesa el servicio de identidad. Cualquier registro de la fuente de datos que tenga más de una identidad marcada en el esquema y con los valores correspondientes rellenados en el registro se procesará como una relación de identidad dentro del servicio de identidad.
 
@@ -42,7 +42,7 @@ La fusión de fragmentos de perfil se produce cuando el gráfico de identidad pr
 
 La siguiente ilustración describe los distintos métodos de segmentación y los distintos patrones de activación de audiencias y perfiles.
 
-<img src="assets/segmentation_destination_overview.png" alt="Arquitectura de referencia de Real-Time Customer Profile" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
+<img src="assets/segmentation_destination_overview.png" alt="Arquitectura de referencia de Real-Time Customer Profile" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 
 ## Guardas para los modelos de activación de audiencias y perfiles
 

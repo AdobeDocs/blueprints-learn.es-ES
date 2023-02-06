@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 89%
+source-wordcount: '398'
+ht-degree: 88%
 
 ---
 
@@ -22,13 +22,13 @@ Consulte la siguiente documentación para obtener instrucciones sobre la impleme
 
 ## Modelos de arquitectura de Customer Journey Analytics
 
-![Diagrama de arquitectura](assets/CJA_RTCDP.svg)
+![Diagrama de arquitectura](assets/CJA_RTCDP.svg){zoomable=&quot;yes&quot;}
 
 ## Diagrama de guardas para los modelos de Customer Journey Analytics
 
 * Para obtener más información sobre las guardas y las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg)
+![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Preguntas frecuentes
 

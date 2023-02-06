@@ -4,8 +4,8 @@ description: Transmitir datos recopilados por los SDK de Experience Platform a m
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ La zona protegida de destino debería tener configurado un punto final de flujo 
 
 ## Arquitectura
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Arquitectura de referencia para el reenvío de eventos de múltiples zonas protegidas" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Arquitectura de referencia para el reenvío de eventos de múltiples zonas protegidas" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. Los autores de etiquetas definen tanto una propiedad de etiqueta como una propiedad de reenvío de eventos. Los autores definen aquí los elementos de datos, las reglas y las acciones que administran la recopilación de datos. Tenga en cuenta que el código de propiedad de etiqueta se ejecuta en el cliente y se distribuye mediante un host CDN. El código de propiedad Reenvío de eventos se ejecuta en el servidor de Adobe Edge.
 

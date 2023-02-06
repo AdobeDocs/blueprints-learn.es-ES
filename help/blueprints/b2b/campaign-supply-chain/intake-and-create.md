@@ -2,10 +2,10 @@
 title: Modelo de ingesta y creación
 description: 'Ingesta y creación: Optimizar la cadena de suministro de campañas con Marketo y Workfront'
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1307'
-ht-degree: 100%
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Para lograr esta integración, se utilizará Workfront Fusion, una capa de autom
 
 El flujo de trabajo siguiente muestra una solicitud de un seminario web realizada por un director de campaña mediante un formulario de solicitud de Workfront. Los detalles enviados en la solicitud activan un programa y un correo electrónico para crear en Marketo Engage de cara al seminario web. Además, se adoptan detalles del formulario de solicitud para rellenar el contenido del correo electrónico.
 
-![](assets/intake-and-create-1.png)
+![Admisión y creación de un modelo](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >

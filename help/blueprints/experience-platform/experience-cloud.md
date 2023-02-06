@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
@@ -25,10 +25,10 @@ En el siguiente diagrama se ilustran los distintos componentes de Adobe Experien
 
 El diagrama de arquitectura que aparece a continuación ilustra cómo se conectan e integran los distintos componentes de Adobe Experience Cloud para lograr la personalización a escala de datos, contenido y entrega de experiencia.
 
-<img src="assets/pers_at_scale.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="assets/pers_at_scale.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image"/>
 
 ## Adobe Experience Cloud en el entorno empresarial
 
 El diagrama de arquitectura que aparece a continuación ilustra cómo las aplicaciones de Adobe Experience Cloud y Adobe Experience Platform encajan en una arquitectura de experiencia del cliente empresarial a lo largo de las cuatro categorías de Datos, Perspectivas, Orquestación y Participación.
 
-<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />

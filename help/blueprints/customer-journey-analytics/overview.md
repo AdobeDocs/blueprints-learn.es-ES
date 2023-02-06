@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 95%
+source-wordcount: '406'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ Los [casos de uso comunes](https://experienceleague.adobe.com/docs/analytics-pla
 
 ## Arquitectura para el Customer Journey Analytics
 
-![Diagrama de arquitectura](assets/CJA.svg)
+![Diagrama de arquitectura](assets/CJA.svg){zoomable=&quot;yes&quot;}
 
 Algunos ejemplos de casos de uso principales son los siguientes:
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
@@ -44,7 +44,7 @@ Algunos ejemplos de casos de uso principales son los siguientes:
 
 * Para obtener más información sobre las guardas y las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg)
+![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Entradas relacionadas en el blog
 
