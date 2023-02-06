@@ -3,10 +3,10 @@ title: Coincidencia de segmentos  modelo
 description: Obtenga información sobre la [!UICONTROL Coincidencia de segmentos] para Adobe Experience Platform (AEP). La [!UICONTROL Coincidencia de segmentos] es un servicio de colaboración de datos que le permite intercambiar datos de segmentos basados en identificadores sectoriales comunes de una forma segura, regulada y compatible con la privacidad.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1766'
-ht-degree: 100%
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+workflow-type: tm+mt
+source-wordcount: '1774'
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ La [!UICONTROL Coincidencia de segmentos] ayuda a los equipos de marketing dispa
 
 ## Arquitectura
 
-![Arquitectura de la Coincidencia de segmentos](assets/architecture-segment-match.png)
+![Arquitectura de la Coincidencia de segmentos](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
 
 La [!UICONTROL Coincidencia de segmentos] no es un marketplace en el que se puedan adquirir datos. Es más bien una función de AEP que funciona con datos propios con socios seleccionados, utilizando controles de privacidad y consentimiento para ayudar a colaborar. La [!UICONTROL Coincidencia de segmentos] ayuda a centrar los esfuerzos en mejorar las relaciones con los clientes y en hacer crecer la marca. Resulta beneficiosa cuando hay marcas o relaciones con socios ya existentes. La experiencia de la [!UICONTROL Coincidencia de segmentos] es fácil de administrar, es escalable y permite a los administradores compartir segmentos de forma opcionalmente inclusiva y controlable.
 
@@ -77,7 +77,7 @@ Estos son los requisitos previos para la [!UICONTROL Coincidencia de segmentos]:
 
 El flujo de la [!UICONTROL Coincidencia de segmentos] para administrar socios está protegido mediante RBAC. Solo las personas con el permiso adecuado pueden iniciar, aceptar o administrar socios. Estas acciones se pueden llevar a cabo en la sección de ingesta de datos del perfil de producto. Se requieren los siguientes permisos:
 
-![Conexión de uso compartido de audiencias](assets/data-ingestion.png)
+![Conexión de uso compartido de audiencias](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
 
 | Permiso | Descripción |
 |---|---|
@@ -140,13 +140,13 @@ Como parte de este flujo de trabajo de uso compartido de segmentos, el socio rem
 
 El flujo general de proceso es el siguiente:
 
-![Uso compartido de segmentos](assets/segment-sharing.png)
+![Uso compartido de segmentos](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
 
 Estas estimaciones de superposición ofrecen información clave, descubrimiento de socios y datos para impulsar posibles acuerdos de colaboración de datos. No se mueve ningún dato de cliente o segmento entre zonas protegidas para obtener estas métricas de estimación de superposición. Las identidades aplicables con hash previo y seleccionadas por el cliente en cualquier zona protegida determinada se añaden a una estructura de datos probabilística que permite a Adobe realizar operaciones de unión e intersección entre ellas. Estas operaciones ayudan a la [!UICONTROL Coincidencia de segmentos] a obtener la intersección estimada de dos estructuras de datos compuestas de identidades de dos zonas protegidas diferentes sin tener que comparar los valores reales.
 
 El proceso de superposición de identidades depende del conjunto de datos de **exportación diaria de perfil completo** de las zonas protegidas del remitente y el destinatario, para identificar perfiles comunes que pertenezcan a los segmentos compartidos. A continuación se muestra el flujo de proceso detallado para el proceso de superposición:
 
-![Proceso de superposición de identidades](assets/overlap-process.png)
+![Proceso de superposición de identidades](assets/overlap-process.png){zoomable=&quot;yes&quot;}
 
 Una vez que el socio remitente ha completado el uso compartido de segmentos, el destinatario recibe una notificación sobre la fuente de segmentos compartida. Esta fuente de segmentos debe estar habilitada para que el perfil del destinatario inicie el flujo de datos de suscripción de segmentos. La suscripción de segmentos solo se ingiere en los fragmentos de perfil de superposición de la organización de IMS del destinatario, y no se transfiere ninguna identidad adicional del remitente al destinatario.
 

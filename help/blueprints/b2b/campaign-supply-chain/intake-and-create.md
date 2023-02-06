@@ -2,10 +2,10 @@
 title: Modelo de ingesta y creación
 description: 'Ingesta y creación: Optimizar la cadena de suministro de campañas con Marketo y Workfront'
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 99%
+source-wordcount: '1331'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Para obtener más información sobre la creación de su propio centro de excelen
 
 Con Marketo Engage, los tokens se pueden usar para rellenar contenido en los activos de campaña. Por ejemplo, después de clonar una plantilla de correo electrónico del centro de excelencia, Workfront Fusion puede adoptar los detalles de la solicitud de campaña en Workfront y pasarlos a Mis tokens en el programa de Marketo Engage. Los valores de token se pueden heredar directamente en el correo electrónico para crear el mensaje de salida.
 
-![](assets/intake-and-create-2.png)
+![Usar tokens para rellenar el diagrama de contenido](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### Rellenar imágenes desde AEM Assets {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ Algunos datos básicos que se deben incluir en la biblioteca de búsqueda de pla
 
 A continuación, se muestra un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} precompilados que permitan disponer de automatización con mayor rapidez.
 
-![](assets/intake-and-create-3.png)
+![Flujo de automatización de entrada y creación](assets/intake-and-create-3.png)Usar tokens para rellenar el contenido
 
 ## Recursos {#resources}
 

@@ -3,12 +3,13 @@ title: Información general de personalización web y móvil     - Adobe Target 
 description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 landing-page-description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
-kt: 7194thumb-web-personalization-scenario2.jpg
+kt: 7194
+thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
