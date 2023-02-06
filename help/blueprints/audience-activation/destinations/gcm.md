@@ -1,20 +1,20 @@
 ---
 title: Activación en Google Customer Match
 description: Activación en Google Customer Match.
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
 
 # Activación en Google Customer Match
 
-Incorpore datos de clientes de varias fuentes para crear una única vista de perfil del cliente, segmente estos perfiles para crear audiencias para marketing y personalización, y comparta estas audiencias en redes de publicidad sociales como Google Customer Match para dirigir y personalizar campañas contra esas audiencias. Google Customer Match le permite utilizar sus datos en línea y sin conexión para llegar a sus clientes y volver a interactuar con ellos en las propiedades que Google posee y gestiona, como: Buscar, Comprar, Gmail y YouTube.
+Incorpore datos de clientes de varias fuentes para crear una única vista de perfil del cliente, segmente estos perfiles para crear audiencias para marketing y personalización, y comparta estas audiencias en redes de publicidad sociales como Google Customer Match para dirigir y personalizar campañas contra esas audiencias. Google Customer Match le permite utilizar sus datos en línea y sin conexión para llegar a sus clientes y volver a interactuar con ellos en todas las propiedades que Google posee y gestiona, como: Buscar, Comprar, Gmail y YouTube.
 
 ## Casos de uso
 
@@ -27,7 +27,7 @@ Incorpore datos de clientes de varias fuentes para crear una única vista de per
 
 ## Arquitectura
 
-<img src="../assets/gcm.svg" alt="Arquitectura de referencia para la activación de Google Customer Match" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Arquitectura de referencia para la activación de Google Customer Match" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Pasos de implementación
 

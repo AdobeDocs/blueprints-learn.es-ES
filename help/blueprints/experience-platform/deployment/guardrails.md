@@ -1,10 +1,10 @@
 ---
 title: Experience Platform y guardas de aplicaciones
 description: Las guardas definen las expectativas de rendimiento y el impacto para los componentes y servicios dentro de Adobe Experience Platform y las aplicaciones
-solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 96%

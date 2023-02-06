@@ -1,10 +1,10 @@
 ---
 title: Modelo conocido de activación de cliente
 description: Activación de audiencia en línea/sin conexión.
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 83%
@@ -34,12 +34,12 @@ La información adicional ofrecida en el [modelo de activación de audiencias y 
 
 ### Activación conocida del cliente mediante Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ### Activación de clientes conocida mediante destinos basados en personas en Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Arquitectura de referencia del modelo conocido de activación de clientes" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## Guardas

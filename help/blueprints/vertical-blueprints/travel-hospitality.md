@@ -1,10 +1,10 @@
 ---
 title: 'Sector del turismo y la hostelería: activación con datos en línea y sin conexión'
 description: Decisiones en tiempo real con una vista única consolidada del comportamiento del cliente en varios canales.
-solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 92%
