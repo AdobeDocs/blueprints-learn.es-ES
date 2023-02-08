@@ -6,10 +6,10 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '609'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Personalización basada en el comportamiento en línea y datos de audiencia.
 * Adobe Target
 * Adobe Analytics (opcional)
 * Adobe Audience Manager (opcional)
-* Adobe Real-time Customer Data Platform (opcional)
+* Adobe Real-Time Customer Data Platform (opcional)
 
 ## Arquitectura
 
@@ -60,14 +60,14 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 1. Generar segmentos en [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) o [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=es) y [configurar las audiencias de modo que se compartan con Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es) (si se emplea Audience Manager o Adobe Analytics).
 1. Cuando las audiencias estén disponibles en Adobe Target, se podrán utilizar [para la segmentación de experiencias en Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=es).
 
-### Pasos de implementación: Real-time Customer Data Platform
+### Pasos de implementación: Real-Time Customer Data Platform
 
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingestados se puedan combinar en un perfil unificado.
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
 1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
-1. [Aprovisionar [!UICONTROL Real-time Customer Data Platform] uso compartido de segmentos](https://www.adobe.com/go/audiences) entre Experience Platform y Audience Manager para audiencias definidas en Experience Platform que se compartirán con Audience Manager.
+1. [Disponer el intercambio de segmentos de [!UICONTROL Real-Time Customer Data Platform]](https://www.adobe.com/go/audiences) entre Experience Platform y Audience Manager para que las audiencias definidas en Experience Platform se compartan con Audience Manager.
 1. [Crear segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=es) en Experience Platform. El sistema determina automáticamente si el segmento debe ser evaluado por lotes o streaming.
 1. [Configurar destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=es) para compartir atributos de perfil y pertenencias a audiencia a los destinos deseados.
 
@@ -77,8 +77,8 @@ El modelo de personalización web/móvil se puede implementar mediante los sigui
 * [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 * [Integrar Audience Manager con Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es)
 * [Intercambio de segmentos de Adobe Analytics mediante Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es)
-* [[!UICONTROL Real-time Customer Data Platform] información general](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
-* [[!UICONTROL Real-time Customer Data Platform] Descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform.html)
+* Información general de [[!UICONTROL Real-Time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=es)
+* Descripción del producto [[!UICONTROL Real-Time Customer Data Platform]](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Directrices de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * [Documentación de la segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es)
 * [Documentación de los destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)

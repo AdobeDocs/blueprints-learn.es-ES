@@ -4,10 +4,10 @@ description: Activación en Facebook Custom Audiences.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Incorpore datos de clientes de varias fuentes para crear una única vista de per
 
 ## Aplicaciones
 
-* Real-time Customer Data Platform
+* Real-Time Customer Data Platform
 
 ## Arquitectura
 
@@ -82,7 +82,7 @@ Incorpore datos de clientes de varias fuentes para crear una única vista de per
    * Compruebe si faltan perfiles omitidos para identidades de perfil o si faltan atributos que fueran obligatorios.
    * Compruebe si hay otros errores que puedan tener que resolverse.
 1. Compruebe que la audiencia se activó en el destino final con el número esperado de pertenencias a audiencias.
-   * Inicie sesión en el portal Audiencia personalizada de Facebook para comprobar que la audiencia de Real-time Customer Data Platform se ha entregado y que la tasa de coincidencia de perfiles de la audiencia en Facebook coincide razonablemente con el número de perfiles de la audiencia de Real-time Customer Data Platform.
+   * Inicie sesión en el portal Facebook Custom Audience para comprobar que la audiencia de Real-Time Customer Data Platform se ha entregado y que la tasa de coincidencia de perfiles de audiencia en Facebook coincide razonablemente con el número de perfiles de audiencia de Real-Time Customer Data Platform.
 
 ## Guardas
 

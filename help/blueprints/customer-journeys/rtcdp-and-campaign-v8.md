@@ -3,10 +3,10 @@ title: Patrón de integración de Real-Time CDP con Adobe Campaign v8
 description: Muestra cómo se puede utilizar Adobe Experience Platform, su funcionalidad Real-Time Customer Profile y la herramienta de segmentación centralizada con Adobe Campaign v8 para ofrecer conversaciones personalizadas.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Muestra cómo se puede utilizar Adobe Experience Platform, su Real-Time Customer
 
 ## Pasos de implementación
 
-Consulte la siguiente documentación sobre la configuración del conector de origen Campaign v8 en Adobe Experience Platform y el conector de destino Real-time Customer Data Platform en Campaign v8.
+Consulte la siguiente documentación sobre la configuración del conector de origen de Campaign v8 en Adobe Experience Platform y el conector de destino de Real-Time Customer Data Platform en Campaign v8.
 [Conectores de Campaign y AEP](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=es)
 
 ## Guardas
@@ -53,7 +53,7 @@ Consulte la siguiente documentación sobre la configuración del conector de ori
 * Adobe Campaign es la fuente de información verídica de todos los perfiles activos, esto es, que los perfiles deben existir en Adobe Campaign y los nuevos no deben crearse según los segmentos de Experience Platform.
 
 
-### Uso compartido de segmentos en Real-time Customer Data Platform de Experience Platform
+### Uso compartido de segmentos en Real-Time Customer Data Platform de Experience Platform
 
 * Consulte el conector de destino de RTCDP Campaign: [conexión de RTCDP Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=es)
 * Recomendación: máximo de 50 segmentos.

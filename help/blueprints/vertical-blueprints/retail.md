@@ -4,10 +4,10 @@ description: Ofrezca experiencias del cliente en tiempo real en medios digitales
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Esta empresa de experiencia integrada tenía como objetivo personalizar todo el 
 
 | Objetivos | Tácticas | Valor conseguido |
 |---|---|---|
-| **Orquestación de recorridos de clientes en tiempo real **<br></br>** Impulsar la repetición de compras de los clientes nuevos **<br></br>** Mejore la eficacia del marketing y reduzca los costes de los medios**</ul> | <ul><li>Sólida estrategia de datos e identidad para impulsar un perfil integral en tiempo real.</li><li>Flujo continuo de datos transaccionales y del cliente en tiempo real, incluida una carga histórica de 90 días.</li><li>Segmentación por flujo continuo a Google y Adobe Target para potenciar el gasto en medios y los esfuerzos de personalización.</li><li>Recorridos de clientes en tiempo real a través de Adobe Campaign, que incluye una estrategia para medir el rendimiento.</li></ul> | <ul><li><strong>Real-Time Customer Data Platform:</strong> entrega de experiencias del cliente en tiempo real en medios, correo electrónico, mensajes push y canales web.</li><li><strong>Fuentes de datos:</strong> datos de flujo que cubren las tiendas de perfiles, el sistema de pedidos, el catálogo de productos y los puntos de venta de este minorista.</li><li><strong>Activación de medios en tiempo real:</strong> transmisión de segmentos a medios de Google para la atribución y supresión de anuncios.</li><li><strong>Personalización web en tiempo real:</strong> transmisión de segmentos a Adobe Target para activarlos en la experiencia web del minorista.</li><li><strong>Journey Orchestration a escala:</strong> mensajería activada en tiempo real enriquecida con todos los datos de los clientes disponibles y activando en tiempo real en canales de correo electrónico y mensajes push.</li></ul> |
+| **Orquestación de recorridos de clientes en tiempo real **<br></br>** Impulsar la repetición de compras de los clientes nuevos **<br></br>** Mejore la eficacia del marketing y reduzca los costes de los medios**</ul> | <ul><li>Sólida estrategia de datos e identidad para impulsar un perfil integral en tiempo real.</li><li>Flujo continuo de datos transaccionales y del cliente en tiempo real, incluida una carga histórica de 90 días.</li><li>Segmentación por flujo continuo a Google y Adobe Target para potenciar el gasto en medios y los esfuerzos de personalización.</li><li>Recorridos de clientes en tiempo real a través de Adobe Campaign, que incluye una estrategia para medir el rendimiento.</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Entrega de experiencias de clientes en tiempo real en medios, correo electrónico, push y web</li><li><strong>Fuentes de datos:</strong> datos de flujo que cubren las tiendas de perfiles, el sistema de pedidos, el catálogo de productos y los puntos de venta de este minorista.</li><li><strong>Activación de medios en tiempo real:</strong> transmisión de segmentos a medios de Google para la atribución y supresión de anuncios.</li><li><strong>Personalización web en tiempo real:</strong> transmisión de segmentos a Adobe Target para activarlos en la experiencia web del minorista.</li><li><strong>Journey Orchestration a escala:</strong> mensajería activada en tiempo real enriquecida con todos los datos de los clientes disponibles y activando en tiempo real en canales de correo electrónico y mensajes push.</li></ul> |
 
 ## Modelo principal: Audiencia y activación con aplicaciones de Experience Cloud
 
@@ -34,7 +34,7 @@ Esta empresa de experiencia integrada tenía como objetivo personalizar todo el 
 
 ### Aplicaciones de Experience Cloud
 
-<ul><li>Adobe Experience Platform   </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul>
 
 ### Arquitectura de modelos
 

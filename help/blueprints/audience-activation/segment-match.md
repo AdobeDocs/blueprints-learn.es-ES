@@ -3,10 +3,10 @@ title: Coincidencia de segmentos  modelo
 description: Obtenga información sobre la [!UICONTROL Coincidencia de segmentos] para Adobe Experience Platform (AEP). La [!UICONTROL Coincidencia de segmentos] es un servicio de colaboración de datos que le permite intercambiar datos de segmentos basados en identificadores sectoriales comunes de una forma segura, regulada y compatible con la privacidad.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ La [!UICONTROL Coincidencia de segmentos] es un servicio de colaboración de dat
 
 El servicio permite a los clientes identificar de forma segura los ID coincidentes de una manera protegida y neutra, sin tener que revelar toda su base de datos. Los socios solo reciben atributos designados (nombre del segmento) para los ID con superposición, lo cual permite un uso compartido de forma más rápida y sencilla, controlada por el consentimiento.
 
-La [!UICONTROL Coincidencia de segmentos] utiliza el marco de consentimiento y control de datos de AEP como eje central. Está disponible para todos los clientes B2C y B2P de Real-Time Customer Data Platform. Entre las características principales de la [!UICONTROL [!UICONTROL Coincidencia de segmentos]] se incluye lo siguiente:
+La [!UICONTROL Coincidencia de segmentos] utiliza el marco de consentimiento y control de datos de AEP como eje central. Está disponible para todos los clientes de B2C y B2P Real-time Customer Data Platform. Entre las características principales de la [!UICONTROL [!UICONTROL Coincidencia de segmentos]] se incluye lo siguiente:
 
 * Uso compartido de segmentos para clientes con consentimiento de superposición
 * Informes de superposición previos al uso compartido para obtener información sobre el volumen de coincidencia estimado

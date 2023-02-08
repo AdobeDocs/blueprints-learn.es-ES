@@ -1,19 +1,19 @@
 ---
 title: Modelos de activación de audiencias y perfiles
-description: Ofrezca experiencias de cliente centradas en la audiencia y activadas en el perfil con Real-time Customer Data Platform ​.
+description: Ofrezca experiencias de cliente activadas por la audiencia y centradas en el perfil a través de Real-Time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Modelos de activación de audiencias y perfiles
+# Activación de audiencias y perfiles  modelos
 
 La activación de audiencias y perfiles es la clave del éxito en el mundo del marketing basado en datos. Sin embargo, muchas marcas aún centran sus esfuerzos en la activación por canal en primer lugar, lo que suele producir un alcance y una personalización incoherentes.
 
@@ -22,8 +22,8 @@ Abordando el canal en primer lugar, cada canal actúa como un depósito donde lo
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
 | **[Activación de audiencia anónima](anonymous.md)** | <ul><li>Segmentación de la audiencia a través del sitio web y otros canales de publicidad para conseguir datos anónimos de comportamiento del cliente.</li><li>Integración con datos de audiencia de terceros para una personalización mejorada.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Activación de cliente conocida](known.md)** | <ul><li>Activación de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad. </li><li>Utilización de atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |
-| **[Activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md)** | <ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud.</li><li>Generar y compartir segmentos ricos y datos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud.</li></ul> | <ul><li>Adobe Experience Platform   </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul> |
+| **[Activación de cliente conocida](known.md)** | <ul><li>Activación de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad. </li><li>Utilización de atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Activación de audiencias y perfiles con las aplicaciones de Experience Cloud](platform-and-applications.md)** | <ul><li>Administrar perfiles y audiencias en Experience Platform y compartirlas con las aplicaciones de Experience Cloud.</li><li>Generar y compartir segmentos ricos y datos de clientes en Experience Platform y compartirlos con las aplicaciones de Experience Cloud.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul> |
 | **[Coincidencia de segmentos](segment-match.md)** | <ul><li>Con un mejor gobierno, permisos y sistemas de administración de preferencias, los especialistas en marketing pueden hacer que sus audiencias propias autenticadas con los socios clave sean de más calidad.</li></ul> | <ul><li>Adobe Experience Platform </li></ul> |
 
 ## Arquitectura de Real-Time Customer Profile
@@ -50,7 +50,7 @@ La siguiente ilustración describe los distintos métodos de segmentación y los
 
 ### Activación de atributos e identidades
 
-* [!UICONTROL Real-time Customer Data Platform] puede activar suscripciones a audiencias, así como cambios en atributos e identidades que se producen en perfiles que son miembros de segmentos seleccionados para su activación. Si su objetivo es activar atributos o identidades, debe definir un segmento global que incluya todos los perfiles a los que se envían las actualizaciones de atributos e identidades. En ese momento, puede seleccionar el segmento y los atributos deseados para activarlos como parte de la configuración de destino.
+* [!UICONTROL Real-Time Customer Data Platform] puede activar las pertenencias a audiencia, así como los cambios de atributos e identidad que se producen en los perfiles que pertenecen a los segmentos seleccionados para la activación. Si su objetivo es activar atributos o identidades, debe definir un segmento global que incluya todos los perfiles a los que se envían las actualizaciones de atributos e identidades. En ese momento, puede seleccionar el segmento y los atributos deseados para activarlos como parte de la configuración de destino.
 * Tenga en cuenta que los destinos por lotes no son compatibles con la activación de eventos de cambio solo por atributo. Se pueden enviar suscripciones de audiencia completas o incrementales junto con los atributos seleccionados para la activación.
 
 ### Activación de segmentos por lotes en destinos de streaming

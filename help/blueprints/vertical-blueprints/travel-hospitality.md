@@ -4,10 +4,10 @@ description: Decisiones en tiempo real con una vista única consolidada del comp
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 ## Enfoque de Adobe
 
 * Integración de Adobe Experience Platform en la pila de tecnología existente para ofrecer interacciones con clientes entre diferentes soluciones.
-* Se ha activado Real-time Customer Data Platform y Customer Journey Analytics para ofrecer análisis continuos y perfiles personalizados de clientes.
+* Activación de Real-Time Customer Data Platform y Customer Journey Analytics para ofrecer análisis continuos y perfiles personalizados de clientes.
 * Desarrollo de una visión integral de su recorrido del cliente para respaldar una atribución de marketing efectiva y la asignación de recursos.
 * Respuesta al COVID-19 con una estrategia que ha preparado a la empresa y, al mismo tiempo, continúa atrayendo a sus clientes.
 
@@ -38,7 +38,7 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 
 ### Aplicaciones de Experience Cloud
 
-<ul><li>Adobe Experience Platform   </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Arquitectura de modelos
 

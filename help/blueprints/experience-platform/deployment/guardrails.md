@@ -4,10 +4,10 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 96f0e4793884b4f77b22fe42a2671d1eda830e15
+source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Las guardas son umbrales recomendados que proporcionan directrices para el uso d
 
 <br>
 
-### Real-time Customer Data Platform y Adobe Target
+### Real-Time Customer Data Platform y Adobe Target
 
 <img src="../assets/RTCDP_Target_guardrails.svg" alt="Guardas en RTCDP y Target" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -70,7 +70,7 @@ Las guardas son umbrales recomendados que proporcionan directrices para el uso d
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
-[Real-time Customer Data Platform](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform.html)
+[Real-Time Customer Data Platform](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform.html)
 
 [B2B Customer Data Platform](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-b2b.html)
 

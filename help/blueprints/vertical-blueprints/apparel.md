@@ -4,10 +4,10 @@ description: Se han utilizado varios modelos para habilitar el marketing en tiem
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Su equipo tecnológico internacional utiliza Adobe Experience Platform y solucio
 
 | Objetivos | Tácticas | Valor conseguido |
 |---|---|---|
-| **Experiencias conectadas entre canales **<br></br>** Aumento de la participación y la retención **<br></br>** Democratización de datos y perspectivas**</ul> | <ul><li>Incorporación de varios conjuntos de datos empresariales para crear decenas de millones de perfiles y cientos de segmentos, varios destinos y tableros de informes</li><li>Activación en varios destinos mediante Real-time Customer Data Platform</li><li>Capacidad de análisis de nivel de cliente desbloqueada con Customer Journey Analysis</li><li>Activadores de eventos automatizados para las interacciones de los clientes implementadas a través de Adobe Journey Optimizer</li></ul> | <ul><li><strong> Perfil del cliente: </strong>vista integral de los clientes para la segmentación</li><li><strong>Activaciones de destinos: </strong>activación en plataformas de medios de pago, correo electrónico y redes sociales</li><li><strong>Análisis y atribución del cliente: </strong>análisis de atribución en canales múltiples disponible de forma aleatoria y distribuidos fácilmente<li><strong>Journey Orchestration: </strong> creación y dirección de campañas activadas y campañas programadas con contexto en tiempo real</li></ul> |
+| **Experiencias conectadas entre canales **<br></br>** Aumento de la participación y la retención **<br></br>** Democratización de datos y perspectivas**</ul> | <ul><li>Incorporación de varios conjuntos de datos empresariales para crear decenas de millones de perfiles y cientos de segmentos, varios destinos y tableros de informes</li><li>Activación en varios destinos mediante Real-Time Customer Data Platform</li><li>Capacidad de análisis de nivel de cliente desbloqueada con Customer Journey Analysis</li><li>Activadores de eventos automatizados para las interacciones de los clientes implementadas a través de Adobe Journey Optimizer</li></ul> | <ul><li><strong> Perfil del cliente: </strong>vista integral de los clientes para la segmentación</li><li><strong>Activaciones de destinos: </strong>activación en plataformas de medios de pago, correo electrónico y redes sociales</li><li><strong>Análisis y atribución del cliente: </strong>análisis de atribución en canales múltiples disponible de forma aleatoria y distribuidos fácilmente<li><strong>Journey Orchestration: </strong> creación y dirección de campañas activadas y campañas programadas con contexto en tiempo real</li></ul> |
 
 ## Modelo principal: Audiencia y activación con aplicaciones de Experience Cloud
 
@@ -42,7 +42,7 @@ Su equipo tecnológico internacional utiliza Adobe Experience Platform y solucio
 
 ### Aplicaciones de Experience Cloud
 
-<ul><li>Adobe Experience Platform   </li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul>
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicaciones de Experience Cloud</li></ul>
 
 ### Arquitectura de modelos
 
