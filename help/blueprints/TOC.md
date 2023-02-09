@@ -5,9 +5,9 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -35,9 +35,7 @@ ht-degree: 100%
    + [Activación de audiencia anónima    (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activación de cliente conocida (RTCDP) {#known-customer-audience-activation}
       + [Información general](/help/blueprints/audience-activation/known.md)
-      + Activación en canales publicitarios y sociales {#audience-activation}
-         + [Activación en Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
-         + [Activación en Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Activación en canales publicitarios y sociales ](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activación en destinos de flujo empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
       + [Coincidencia de segmentos](/help/blueprints/audience-activation/segment-match.md)
