@@ -6,13 +6,13 @@ kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Diagrama de la arquitectura de implementación de SDK específica de la aplicación
+# Diagrama de la arquitectura de implementación de SDK específico de la aplicación
 
 El diagrama de arquitectura siguiente ilustra las rutas de integración y la recopilación de datos con el uso de SDK específicos para aplicaciones en la implementación.
 
