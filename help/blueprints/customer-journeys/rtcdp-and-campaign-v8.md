@@ -4,7 +4,7 @@ description: Muestra cómo se puede utilizar Adobe Experience Platform, su funci
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 

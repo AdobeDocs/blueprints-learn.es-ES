@@ -6,8 +6,8 @@ kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '333'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ Esta limitación tenía que resolverse para iniciar un seguimiento más oportuno
 |---|---|---|
 | **Aumentar las tasas de conversión de campañas:**<br></br>**aumento de los ingresos anuales de las cuentas**</ul> | <ul><li>Crear un nuevo segmento en tiempo casi real para los usuarios que hayan mostrado interés en agregar una línea, pero que aún no la hayan convertido.</li><li>Impulsar el seguimiento de clientes no convertidos con un segundo punto de contacto para los no convertidos interesados. </li><li>Utilizar una estrategia de prueba para medir el rendimiento del recorrido y optimizar la conversión mediante correo electrónico.</li></ul> | <ul><li><strong>Experiencias relevantes y de alta calidad:</strong> con Journey Orchestration en su lugar, los clientes ven mensajes más relevantes que reducen la pérdida de listas de correo electrónico.</li><li><strong>Journey Orchestration a escala:</strong> se puede crear un recorrido personalizado y más cronológico para impulsar las conversiones y los ingresos totales.</li></ul> |
 
-## Modelo principal: Audiencia y activación con aplicaciones de Experience Cloud
+## Modelo principal: audiencia y activación con aplicaciones de Experience Cloud
 
 ### Descripción
 
