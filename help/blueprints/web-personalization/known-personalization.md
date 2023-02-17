@@ -1,5 +1,5 @@
 ---
-title: Información general de personalización web y móvil     - Adobe Target y RTCDP
+title: Información general de personalización web y móvil      - Adobe Target y RTCDP
 description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 landing-page-description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -7,14 +7,14 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Personalización web y móvil con datos de clientes conocidos  modelo
+# Personalización web y móvil con datos de clientes conocidos   modelo
 
 ## Casos de uso
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 | Uso compartido de audiencias por flujo y por lotes desde Real-Time Customer Data Platform en Target con el enfoque de Edge | <ul><li>Comparta audiencias de flujo y por lotes de Real-Time Customer Data Platform en Target a través de Edge Network. Las audiencias evaluadas en tiempo real requieren la implementación del SDK web y Edge Network.</li></ul> | <ul><li>No se requiere el SDK web/móvil o la implementación de la API de Edge de Target para compartir audiencias RTCDP de flujo y por lotes a Target, aunque se requiere para permitir la evaluación de segmentos perimetrales en tiempo real descrita anteriormente.</li><li>Si utiliza AT.js, solo se admite la integración de perfiles con el área de nombres de identidad de ECID.</li><li>Para las búsquedas del área de nombres de identidad personalizadas en Edge, se necesita la implementación del SDK web o la API de Edge y cada identidad debe establecerse como tal en el mapa de identidades.</li><li>El destino de Target debe configurarse en los destinos de Real-Time Customer Data Platform. Solo se admite la zona protegida de producción por defecto en RTCDP.</li><li>La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</li></ul> |
 | Uso compartido de audiencias de streaming y lotes de Real-Time Customer Data Platform en Target y Audience Manager con el enfoque del servicio de uso compartido de audiencias | <ul><li>Este patrón de integración se puede aprovechar cuando se desea un enriquecimiento adicional de datos y audiencias de terceros en Audience Manager.</li></ul> | <ul><li>El SDK web/móvil no es necesario para compartir audiencias de flujo y por lotes en Target, aunque es necesario para habilitar la evaluación de segmentos de Edge en tiempo real.</li><li>Si utiliza AT.js, solo se admite la integración de perfiles con el área de nombres de identidad de ECID.</li><li>Para las búsquedas del área de nombres de identidad personalizadas en Edge, se necesita la implementación del SDK web o la API de Edge y cada identidad debe establecerse como tal en el mapa de identidades.</li><li>Se debe aprovisionar la proyección de audiencias mediante el servicio de uso compartido de audiencias.</li><li>La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</li><li>Solo las audiencias de la zona protegida del producto por defecto admiten el servicio principal de uso compartido de audiencias.</li></ul> |
 
-## Uso compartido de audiencias en tiempo real, de flujo continuo y por lotes en Adobe Target
+## Uso compartido de audiencias en tiempo real, por flujo y por lotes en Adobe Target
 
 Arquitectura
 
@@ -56,14 +56,14 @@ Vista general de la arquitectura
 
 La personalización de cliente conocida se admite mediante varios enfoques de implementación.
 
-### Patrón de implementación 1: red perimetral con SDK web/móvil o API de red perimetral (método recomendado)
+### Patrón de implementación 1: Edge Network con SDK web/móvil o API de Edge Network (enfoque recomendado)
 
 * Uso de Edge Network con el SDK web/móvil. La segmentación perimetral en tiempo real requiere el enfoque de implementación del SDK web/móvil o la API de Edge.
-* [Consulte el modelo del SDK móvil y web de Experience Platform](../experience-platform/deployment/websdk.md)     para la implementación basada en SDK.
+* [Consulte el modelo del SDK móvil y web de Experience Platform](../experience-platform/deployment/websdk.md)      para la implementación basada en SDK.
 * Para su uso en el SDK móvil, la [extensión Adobe Journey Optimizer - Decisioning](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) debe estar instalada en el SDK móvil.
 * [Consulte la API del servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es) para una implementación basada en API de Adobe Target con perfil de Edge.
 
-### Patrón de implementación 2: SDK específicos de la aplicación
+### Patrón de implementación 2: SDK específicos para aplicaciones
 
 Con SDK tradicionales específicos de cada aplicación (por ejemplo, AT.js y AppMeasurement.js). La evaluación de segmentos en tiempo real de Edge no se admite con este enfoque de implementación. Sin embargo, el uso compartido de audiencias por flujo y por lotes desde el centro de Experience Platform se admite con este enfoque de implementación.
 
@@ -104,7 +104,7 @@ Requisitos previos de identidad
 * [Documentación de las etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
 * [Documentación de Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es)
 
-### Documentación de conexión
+### Documentación de la conexión
 
 * [Conexión de Adobe Target para Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es)
 * [Configuración de la secuencia de datos de Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=es)
