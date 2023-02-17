@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytic
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 |---|---|---|
 | **Haga que cada experiencia sea relevante para ese invitado **<br></br>** Perspectivas empresariales y democracia de datos a través de paneles **<br></br>** Eficacia organizativa y operativa**</ul> | <ul><li>Creación de perfiles de invitado de programas de recompensas unificadas mediante datos en línea y sin conexión para activación y medición</li><li>Activación en tiempo real en diferentes canales a velocidad y escala</li><li>Capacidad de análisis de nivel de cliente desbloqueada con Customer Journey Analysis</li><li>Desarrolle inteligencia para mejorar la activación aprendiendo de los datos históricos de interacción del flujo de navegación.</li><li>Utilice los datos en línea y sin conexión para unificar una vista del cliente para obtener información sobre los recorridos y canales de los clientes.</li></ul> | <ul><li><strong> Activación en canales múltiples: </strong>impulsar la participación por correo electrónico para triplicarla, impulsar las audiencias direccionables y aumentar las impresiones, y experiencias web altamente personalizadas </li><li><strong>Inteligencia: </strong>el programa de premios a los invitados ofrece una campaña de activación para reducir las tasas de pérdida de miembros</li><li><strong>Informes: </strong>combinación de datos en línea y sin conexión con información de IA/ML en un panel de recorrido y atribución compatible con la empresa, a la vez que se reduce la latencia (en días)</li><li><strong>Pila de tecnología preparada para el futuro: </strong>decenas de millones de perfiles en 7 canales listos para ejecutarse en escenarios de optimización de ventas cruzadas, ventas superiores y gastos</li></ul> |
 
-## Modelo principal: Activación con datos en línea y sin conexión
+## Modelo principal: activación con datos en línea y sin conexión
 
 ### Descripción
 
@@ -38,7 +38,7 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 
 ### Aplicaciones de Experience Cloud
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
+<ul><li>Adobe Experience Platform   </li><li>[!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 
 ### Arquitectura de modelos
 
