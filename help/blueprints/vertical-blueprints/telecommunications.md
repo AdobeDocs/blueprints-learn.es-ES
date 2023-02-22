@@ -4,7 +4,7 @@ description: Proporcione a los clientes ofertas adaptadas en tiempo real con una
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: 1a0ce987fc615080bb78fb8ecf60c96e362a95c0
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 94%
@@ -41,4 +41,4 @@ Esta limitación tenía que resolverse para iniciar un seguimiento más oportuno
 
 ### Arquitectura de modelos
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen para una empresa de telecomunicaciones ofrece ofertas adaptadas en tiempo real, mientras que con una incorporación eficiente de clientes para lealtad a largo plazo." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=es"><img alt="imagen para una empresa de telecomunicaciones ofrece ofertas adaptadas en tiempo real, mientras que con una incorporación eficiente de clientes para lealtad a largo plazo." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
