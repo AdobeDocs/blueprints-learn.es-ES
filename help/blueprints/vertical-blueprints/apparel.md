@@ -4,7 +4,7 @@ description: Se han utilizado varios modelos para habilitar el marketing en tiem
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 95%
@@ -46,4 +46,4 @@ Su equipo tecnológico internacional utiliza Adobe Experience Platform y solucio
 
 ### Arquitectura de modelos
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen para una empresa de ropa que utiliza la activación de audiencias, el análisis de recorrido de clientes y modelos de recorridos de clientes" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen para una empresa de ropa que utiliza la activación de audiencias, el análisis de recorrido de clientes y modelos de recorridos de clientes" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image"/></a>
