@@ -3,9 +3,9 @@ title: Patrón de integración de Real-Time CDP con Adobe Campaign v8
 description: Muestra cómo se puede utilizar Adobe Experience Platform, su funcionalidad Real-Time Customer Profile y la herramienta de segmentación centralizada con Adobe Campaign v8 para ofrecer conversaciones personalizadas.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: 711d781e4b0cf967786808233badbc5eac8a5815
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ Consulte la siguiente documentación sobre la configuración del conector de ori
 
 * Consulte la documentación del conector de origen de Campaign: [conector de origen de Campaign](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=es)
 * Solamente compatible con la implementación de entidades organizativas únicas de Adobe Campaign
-* Adobe Campaign es la fuente de información verídica de todos los perfiles activos, esto es, que los perfiles deben existir en Adobe Campaign y los nuevos no deben crearse según los segmentos de Experience Platform.
 
 
 ### Uso compartido de segmentos en Real-Time Customer Data Platform de Experience Platform
