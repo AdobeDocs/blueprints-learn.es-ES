@@ -1,19 +1,19 @@
 ---
-title: Activación a destinos publicitarios y sociales desde la plataforma de datos del cliente en tiempo real
-description: Activación a destinos publicitarios y sociales desde la plataforma de datos del cliente en tiempo real
+title: Activación en destinos publicitarios y sociales desde Real-time Customer Data Platform
+description: Activación en destinos publicitarios y sociales desde Real-time Customer Data Platform
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1184'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Activación a destinos publicitarios y sociales desde la plataforma de datos del cliente en tiempo real
+# Activación en destinos publicitarios y sociales desde Real-time Customer Data Platform
 
-Ingeste datos de clientes de varias fuentes para crear una única vista de perfil del cliente, segmente estos perfiles para crear audiencias para marketing y personalización, comparta estas audiencias en redes de publicidad como Facebook y Google para dirigir y personalizar campañas contra esas audiencias.
+Incorpore datos de clientes de varias fuentes para crear una única vista de perfil del cliente, segmente estos perfiles para crear audiencias para marketing y personalización, y comparta estas audiencias en redes de publicidad como Facebook y Google para dirigir y personalizar campañas hacia esas audiencias.
 
 ## Casos de uso
 
@@ -73,7 +73,7 @@ Ingeste datos de clientes de varias fuentes para crear una única vista de perfi
    * Investigue el perfil que debe incluirse en el segmento para verificar que la pertenencia al segmento se incluye en la parte de pertenencia al segmento del perfil.
 1. Configure la entrega de la audiencia al destino en la configuración de destino.
    * Consulte la [Guía de destino de Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=es) para obtener más información sobre la configuración del destino de Facebook.
-   * Consulte la [Guía de destino de coincidencia del cliente de Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=es) para obtener más información sobre la configuración del destino de Google.
+   * Consulte la [Guía de destino de Google Customer Match](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=es) para obtener más información sobre la configuración del destino de Google.
    * Al configurar un destino, seleccione qué audiencia desea activar en el destino.
    * Determine la fecha de inicio programada en la que desea que el flujo de datos de destino comience a enviar la audiencia al destino.
    * Cada destino tiene atributos opcionales y requeridos que se envían.
@@ -84,7 +84,7 @@ Ingeste datos de clientes de varias fuentes para crear una única vista de perfi
       * Para Google Customer Match, las pertenencias a audiencias se entregan de forma de flujo continuo a un extremo de Google Customer Match en formato JSON.
       * Las pertenencias a audiencias se entregarán en forma de flujo continuo después de la evaluación de la segmentación por flujo continuo o por lotes en Experience Platform.
 1. Asegúrese de que el flujo de destino haya entregado la audiencia al destino según lo esperado.
-   * Compruebe la interfaz de monitorización para confirmar que la audiencia se ha enviado con el número de perfiles esperados. El tamaño de la audiencia debe reflejar el número esperado de perfiles activados, teniendo en cuenta que un destino específico como Facebook y Google requerirá ciertos campos, como una identidad de hash de correo electrónico, y si no está presente en el perfil que pertenece a la audiencia, no se activará en el destino.
+   * Compruebe la interfaz de monitorización para confirmar que la audiencia se ha enviado con el número de perfiles esperados. El tamaño de la audiencia tiene que reflejar el número esperado de perfiles activados, teniendo en cuenta que un destino específico como Facebook y Google requerirá ciertos campos, como una identidad hash de correo electrónico y, si no está presente en el perfil que pertenece a la audiencia, no se activará en el destino.
    * Compruebe si faltan perfiles omitidos para identidades de perfil o si faltan atributos que fueran obligatorios.
    * Compruebe si hay otros errores que puedan tener que resolverse.
 1. Compruebe que la audiencia se activó en el destino final con el número esperado de pertenencias a audiencias.
