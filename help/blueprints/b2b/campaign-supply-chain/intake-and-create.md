@@ -3,13 +3,13 @@ title: Modelo de ingesta y creación
 description: 'Ingesta y creación: Optimizar la cadena de suministro de campañas con Marketo y Workfront'
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Ingesta y creación  modelo {#intake-and-create}
+# Ingesta y creación   modelo {#intake-and-create}
 
 El número de solicitudes de marketing que llegan a un equipo de operaciones de marketing para lanzar nuevas campañas puede convertir un equipo de alto rendimiento en un bucle de tareas repetitivas, con el consiguiente agotamiento y estancamiento de la innovación.
 
@@ -21,7 +21,7 @@ Para lograr esta integración, se utilizará Workfront Fusion, una capa de autom
 
 El flujo de trabajo siguiente muestra una solicitud de un seminario web realizada por un director de campaña mediante un formulario de solicitud de Workfront. Los detalles enviados en la solicitud activan un programa y un correo electrónico para crear en Marketo Engage de cara al seminario web. Además, se adoptan detalles del formulario de solicitud para rellenar el contenido del correo electrónico.
 
-![Admisión y creación de un modelo](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Modelo de ingesta y creación](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >
@@ -149,7 +149,7 @@ Algunos datos básicos que se deben incluir en la biblioteca de búsqueda de pla
 
 A continuación, se muestra un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} precompilados que permitan disponer de automatización con mayor rapidez.
 
-![Flujo de automatización de entrada y creación](assets/intake-and-create-3.png)Usar tokens para rellenar el contenido
+![Flujo de ingesta y creación de automatización](assets/intake-and-create-3.png)Usar tokens para rellenar contenido
 
 ## Recursos {#resources}
 
