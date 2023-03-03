@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey 
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
 source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Esta empresa de experiencia integrada tenía como objetivo personalizar todo el 
 
 | Objetivos | Tácticas | Valor conseguido |
 |---|---|---|
-| **Orquestación de recorridos de clientes en tiempo real **<br></br>** Impulsar la repetición de compras de los clientes nuevos **<br></br>** Mejore la eficacia del marketing y reduzca los costes de los medios**</ul> | <ul><li>Sólida estrategia de datos e identidad para impulsar un perfil integral en tiempo real.</li><li>Flujo continuo de datos transaccionales y del cliente en tiempo real, incluida una carga histórica de 90 días.</li><li>Segmentación por flujo continuo a Google y Adobe Target para potenciar el gasto en medios y los esfuerzos de personalización.</li><li>Recorridos de clientes en tiempo real a través de Adobe Campaign, que incluye una estrategia para medir el rendimiento.</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Entrega de experiencias de clientes en tiempo real en medios, correo electrónico, push y web</li><li><strong>Fuentes de datos:</strong> datos de flujo que cubren las tiendas de perfiles, el sistema de pedidos, el catálogo de productos y los puntos de venta de este minorista.</li><li><strong>Activación de medios en tiempo real:</strong> transmisión de segmentos a medios de Google para la atribución y supresión de anuncios.</li><li><strong>Personalización web en tiempo real:</strong> transmisión de segmentos a Adobe Target para activarlos en la experiencia web del minorista.</li><li><strong>Journey Orchestration a escala:</strong> mensajería activada en tiempo real enriquecida con todos los datos de los clientes disponibles y activando en tiempo real en canales de correo electrónico y mensajes push.</li></ul> |
+| **Orquestación de recorridos de clientes en tiempo real **<br></br>** Impulsar la repetición de compras de los clientes nuevos **<br></br>** Mejore la eficacia del marketing y reduzca los costes de los medios**</ul> | <ul><li>Sólida estrategia de datos e identidad para impulsar un perfil integral en tiempo real.</li><li>Flujo continuo de datos transaccionales y del cliente en tiempo real, incluida una carga histórica de 90 días.</li><li>Segmentación por flujo continuo a Google y Adobe Target para potenciar el gasto en medios y los esfuerzos de personalización.</li><li>Recorridos de clientes en tiempo real a través de Adobe Campaign, que incluye una estrategia para medir el rendimiento.</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> entrega de experiencias del cliente en tiempo real en medios, correo electrónico, mensajes push y canales web.</li><li><strong>Fuentes de datos:</strong> datos de flujo que cubren las tiendas de perfiles, el sistema de pedidos, el catálogo de productos y los puntos de venta de este minorista.</li><li><strong>Activación de medios en tiempo real:</strong> transmisión de segmentos a medios de Google para la atribución y supresión de anuncios.</li><li><strong>Personalización web en tiempo real:</strong> transmisión de segmentos a Adobe Target para activarlos en la experiencia web del minorista.</li><li><strong>Journey Orchestration a escala:</strong> mensajería activada en tiempo real enriquecida con todos los datos de los clientes disponibles y activando en tiempo real en canales de correo electrónico y mensajes push.</li></ul> |
 
 ## Modelo principal: audiencia y activación con aplicaciones de Experience Cloud
 
@@ -38,4 +38,4 @@ Esta empresa de experiencia integrada tenía como objetivo personalizar todo el 
 
 ### Arquitectura de modelos
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen para una empresa comercial que ofrezca experiencias de cliente en tiempo real a través de medios digitales, correo electrónico, push y canales web" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image" /></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=es"><img alt="imagen para un negocio del sector minorista que ofrece experiencias del cliente en tiempo real en medios digitales, correo electrónico, mensajes push y canales web" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image" /></a>
