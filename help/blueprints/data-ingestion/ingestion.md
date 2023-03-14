@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 64%
 
 ---
 
@@ -29,6 +29,242 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## Métodos de ingesta de datos
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:1123px">
+<tbody>
+<tr>
+<td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:31px; vertical-align:top; width:1123px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">Orígenes de flujo</span></strong></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Método</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:401px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Casos de uso comunes</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Protocolos</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:20px; vertical-align:top; width:282px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Consideraciones</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es" style="color:#0563c1; text-decoration:underline">SDK web/móvil de Adobe</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Recopilación de datos de sitios web y aplicaciones móviles.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Método preferido para la colección del lado del cliente.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, HTTP, JSON</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Implemente varias aplicaciones de Adobe aprovechando un solo SDK.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=en" style="color:#0563c1; text-decoration:underline">Conector de API HTTP</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Recopilación de fuentes de flujo continuo, transacciones, eventos y señales relevantes de clientes</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, API de REST, JSON</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Los datos se transmiten directamente al concentrador, por lo que no se requiere segmentación de Edge ni reenvío de eventos en tiempo real.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en" style="color:#0563c1; text-decoration:underline">API de red perimetral</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Recopilación de fuentes de flujo continuo, transacciones, eventos de clientes relevantes y señales de la red perimetral distribuida globalmente</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, API de REST, JSON</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Los datos se transmiten a través de la red de Edge. Compatibilidad con la segmentación en tiempo real en Edge. </span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es" style="color:#0563c1; text-decoration:underline">Aplicaciones de Adobe</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Implementación previa de Adobe Analytics, Marketo AAM, Campaign, Target,</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, conectores de origen y API</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">El método recomendado es migrar al SDK web/móvil sobre los SDK de aplicaciones tradicionales.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es" style="color:#0563c1; text-decoration:underline">Conectores de origen de flujo</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ingesta de un flujo de eventos empresariales, que generalmente se utiliza para compartir datos empresariales con varias aplicaciones de flujo descendente. </span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, API de REST, JSON</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Debe transmitirse en formato XDM.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">SDK de fuentes de streaming</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Al igual que el conector de API HTTP, permite la tarjeta de configuración de autoservicio de un flujo de datos externo.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, API HTTP, JSON</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Red perimetral</span></span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:1105px">
+<tbody>
+<tr>
+<td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:37px; vertical-align:top; width:1105px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">Orígenes por lote</span></strong></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Método</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:397px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Casos de uso comunes</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Protocolos</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:34px; vertical-align:top; width:277px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Consideraciones</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en" style="color:#0563c1; text-decoration:underline">API de ingesta por lotes</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ingesta desde un que administrado por la empresa. Limpieza y transformación de datos antes de la ingesta.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, JSON o Parquet</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Debe administrar lotes y archivos para la ingesta</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob-s3.html?lang=en" style="color:#0563c1; text-decoration:underline">Conectores de origen por lotes</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Enfoque común para la ingesta de archivos desde ubicaciones de almacenamiento en la nube.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Conectores para aplicaciones comunes de CRM y marketing.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ideal para ingerir grandes cantidades de datos históricos.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Extraer, CSV, JSON, Parquet</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">No siempre activada, ingestión inmediata. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Comprobaciones de frecuencia recurrentes para introducir archivos delta como mínimo cada 15 minutos.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone.html?lang=en" style="color:#0563c1; text-decoration:underline">Zona de aterrizaje de datos</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Adobe la ubicación de almacenamiento de archivos aprovisionada para insertar archivos en para su ingesta.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, CSV, JSON, parquet</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">- Los archivos se proporcionan un TTL de 7 días</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/sdk/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">SDK de fuentes por lotes</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Permite la tarjeta de configuración de autoservicio de una fuente de datos externa.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ideal para conectores de socios o para una experiencia de flujo de trabajo adaptada para configurar un conector empresarial.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:215px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Archivos Pull, REST API, CSV o JSON</span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
+<ul>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Frecuencia mínima de 15 min</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ejemplos: MailChimp, One Trust, Zendesk</span></span></span></li>
+</ul>
+
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 | Métodos de ingesta | Descripción |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
