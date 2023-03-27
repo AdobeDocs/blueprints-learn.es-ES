@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Journey Optimizer con Adobe Campaign    modelo
+# Journey Optimizer con Adobe Campaign     modelo
 
 Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign.
 
