@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics con Journey Optimizer   modelo
+title: Customer Journey Analytics con Journey Optimizer    modelo
 description: Unifique y analice los datos y los comportamientos de los clientes desde el recorrido del cliente en Customer Journey Analytics, incluidos los datos de entrega e interacción de Journey Optimizer.
 solution: Customer Journey Analytics
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics con Journey Optimizer   modelo
+# Customer Journey Analytics con Journey Optimizer    modelo
 
 Los datos de Journey Optimizer se comparten con el lago de datos de Experience Platform y están disponibles para su ingesta, análisis y creación de informes dentro de Customer Journey Analytics. El envío de recorridos, la interacción y la eficacia pueden analizarse y notificarse desde Customer Journey Analytics.
 
