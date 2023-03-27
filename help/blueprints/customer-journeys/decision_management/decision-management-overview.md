@@ -55,7 +55,7 @@ El segundo enfoque es a través de la red Experience Edge, que es una infraestru
 * Personalización en línea mediante experiencias entrantes web o móviles.
 * Ejecución de recorridos en varios canales: coherencia de ofertas en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
-### Gestión de decisiones en Edge    consideraciones técnicas
+### Gestión de decisiones en las consideraciones técnicas de Edge
 
 * Solicitudes por segundo =5000.
 * Latencia de respuesta &lt;250 ms.
