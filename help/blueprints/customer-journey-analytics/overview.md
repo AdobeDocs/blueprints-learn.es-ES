@@ -1,18 +1,18 @@
 ---
-title: Customer Journey Analytics    modelos
+title: Customer Journey Analytics     modelos
 description: Unifique y analice datos y comportamiento de los clientes en todo su recorrido
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics    modelos
+# Customer Journey Analytics     modelos
 
 Customer Journey Analytics muestra cómo las marcas pueden unificar datos y comportamientos del cliente de varios canales y fuentes de interacción para crear una vista basada en el recorrido de todas las interacciones del cliente. La creación de informes y el análisis se pueden realizar en el servicio de la aplicación Customer Journey Analytics para evaluar y obtener datos sobre la interacción del cliente y sus patrones de comportamiento.
 
@@ -43,9 +43,9 @@ Algunos ejemplos de casos de uso principales son los siguientes:
 
 ## Diagrama de guardas para los modelos de Customer Journey Analytics
 
-* Para obtener más información sobre las guardas y las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md)
+* Para obtener más información sobre los mecanismos de protección y las latencias de extremo a extremo, consulte el [documento de mecanismos de protección de implementación](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de protección](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagrama de mecanismo de protección](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Entradas relacionadas en el blog
 
