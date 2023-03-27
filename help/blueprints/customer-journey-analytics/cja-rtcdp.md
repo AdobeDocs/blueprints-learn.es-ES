@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics con Real-Time Customer Data Platform   modelo
+title: Customer Journey Analytics con Real-Time Customer Data Platform    modelo
 description: Unifique y analice los datos y los comportamientos de los clientes desde todo el recorrido del cliente en Customer Journey Analytics y publique la audiencia de CJA a RTCDP
 solution: Customer Journey Analytics
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics con Real-Time Customer Data Platform   modelo
+# Customer Journey Analytics con Real-Time Customer Data Platform    modelo
 
 Cree y publique audiencias identificadas en Customer Journey Analytics (CJA) en Real-Time Customer Profile en Adobe Experience Platform para la segmentación y personalización de clientes. Ideal para crear audiencias que utilicen datos históricos o audiencias más refinadas a partir de filtros granulares y campos calculados en Customer Journey Analytics.
 
@@ -26,9 +26,9 @@ Consulte la siguiente documentación para obtener instrucciones sobre la impleme
 
 ## Diagrama de guardas para los modelos de Customer Journey Analytics
 
-* Para obtener más información sobre las guardas y las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md)
+* Para obtener más información sobre los mecanismos de protección y las latencias de extremo a extremo, consulte el [documento de mecanismos de protección de implementación](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de guardas](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagrama de mecanismo de protección](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Preguntas frecuentes
 
