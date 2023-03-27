@@ -9,7 +9,7 @@ ht-degree: 100%
 
 ---
 
-# Ingesta y creación   modelo {#intake-and-create}
+# Ingesta y creación    modelo {#intake-and-create}
 
 El número de solicitudes de marketing que llegan a un equipo de operaciones de marketing para lanzar nuevas campañas puede convertir un equipo de alto rendimiento en un bucle de tareas repetitivas, con el consiguiente agotamiento y estancamiento de la innovación.
 
