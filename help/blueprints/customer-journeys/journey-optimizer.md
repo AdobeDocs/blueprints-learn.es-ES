@@ -4,13 +4,13 @@ description: Ejecute mensajes y experiencias activadas con Adobe Experience Plat
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
 ht-degree: 100%
 
 ---
 
-# Journey Optimizer  modelos
+# Journey Optimizer   modelos
 
 Adobe Journey Optimizer es un sistema diseñado específicamente para que los equipos de marketing reaccionen en tiempo real a los comportamientos de los clientes y se dirijan a ellos dondequiera que estén. Las funcionalidades de gestión de datos se han trasladado a Adobe Experience Platform, lo que permite a los equipos de marketing centrarse en lo mejor saben: generar conversaciones personalizadas y de recorrido del cliente de primera clase. Este modelo describe las capacidades técnicas de la aplicación y proporciona información detallada de los distintos componentes arquitectónicos que forman Adobe Journey Optimizer.
 
@@ -136,7 +136,7 @@ Tenga en cuenta estos elementos no incluidos en el vínculo anterior:
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
 1. Adobe Journey Optimizer
 1. Adobe Experience Platform Edge Network
-1. Identidad      para Edge Network
+1. Identidad       para Edge Network
 1. Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
 1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
