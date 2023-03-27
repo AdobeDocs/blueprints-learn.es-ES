@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Journey Optimizer con Adobe Campaign    v7  modelo
+# Journey Optimizer con Adobe Campaign     v7   modelo
 
 Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign.
 
@@ -121,7 +121,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identidad      para Edge Network
+   * Identidad       para Edge Network
    * Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
 1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
