@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Preparación y recopilación de datos   modelos
+# Preparación y recopilación de datos    modelos
 
 El modelo de preparación y recopilación de datos engloba todos los métodos por los cuales se puede realizar la ingesta y preparación de datos en Adobe Experience Platform. Además de la capacidad de recopilar datos en Edge Network de Adobe Experience Platform y el subsiguiente reenvío de datos mediante seguimiento a destinos empresariales.
 
