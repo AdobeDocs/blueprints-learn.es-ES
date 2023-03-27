@@ -1,5 +1,5 @@
 ---
-title: Información general de personalización web y móvil      - Adobe Target y RTCDP
+title: Información general de personalización web y móvil       - Adobe Target y RTCDP
 description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 landing-page-description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 short-description: Synchronize web personalization with email and other known and anonymous channel personalization.
@@ -8,14 +8,14 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
 ht-degree: 100%
 
 ---
 
 
-# Personalización web y móvil con datos de clientes conocidos   modelo
+# Personalización web y móvil con datos de clientes conocidos    modelo
 
 ## Casos de uso
 
@@ -60,7 +60,7 @@ La personalización de cliente conocida se admite mediante varios enfoques de im
 ### Patrón de implementación 1: Edge Network con SDK web/móvil o API de Edge Network (enfoque recomendado)
 
 * Uso de Edge Network con el SDK web/móvil. La segmentación perimetral en tiempo real requiere el enfoque de implementación del SDK web/móvil o la API de Edge.
-* [Consulte el modelo del SDK móvil y web de Experience Platform](../experience-platform/deployment/websdk.md)      para la implementación basada en SDK.
+* [Consulte el modelo del SDK móvil y web de Experience Platform](../experience-platform/deployment/websdk.md)       para la implementación basada en SDK.
 * Para su uso en el SDK móvil, la [extensión Adobe Journey Optimizer - Decisioning](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) debe estar instalada en el SDK móvil.
 * [Consulte la API del servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es) para una implementación basada en API de Adobe Target con perfil de Edge.
 
