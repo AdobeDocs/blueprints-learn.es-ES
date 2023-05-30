@@ -3,7 +3,7 @@ title: 'Journey Optimizer: modelo de mensajería de terceros'
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 342b039e62ff3a8fc8a42cf292f4fc28781c21de
+source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 99%
@@ -112,12 +112,7 @@ Sistema de mensajería de terceros
    * Identidad       para Edge Network
    * Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
-1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/documentation/mobile-foundation-extensions/)
-
-<!--
-This step with a broken link was replaced by above step.
-1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
--->
+1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)
 
 <br>
 
