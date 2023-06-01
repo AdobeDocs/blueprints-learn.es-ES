@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 97%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 100%
       + [Journey Optimizer con Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Recopilación, acceso y exportación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
+   + [Recopilación de datos del reenvío de eventos de zona protegida múltiple](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Acceso y exportación de datos](/help/blueprints/data-ingestion/egress.md)
    + [Reenvío de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
