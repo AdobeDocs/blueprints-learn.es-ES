@@ -4,9 +4,9 @@ description: Muestra cómo se puede utilizar Adobe Journey Optimizer con sistema
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
