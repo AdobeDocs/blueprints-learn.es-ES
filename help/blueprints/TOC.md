@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 95%
       + [Guardas](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Activación de audiencia anónima       (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Activación de audiencia anónima  (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activación de cliente conocida (RTCDP) {#known-customer-audience-activation}
       + [Información general](/help/blueprints/audience-activation/known.md)
-      + [Activación en canales publicitarios y sociales ](/help/blueprints/audience-activation/advertising-activation.md)
+      + [Activación en canales publicitarios y sociales](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activación en destinos de flujo empresarial y de archivos](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
       + [Coincidencia de segmentos](/help/blueprints/audience-activation/segment-match.md)
@@ -59,22 +59,22 @@ ht-degree: 95%
          + [Información general](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Gestión de decisiones en Edge](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [Gestión de decisiones en el centro](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
-      + [Journey Optimizer con Adobe Campaign  ](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [Journey Optimizer con Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=es){target="_blank"}
       + [Real-Time CDP con Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=es){target="_blank"}
-   + Campaign v8 {#campaign-v8}
-      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + Campaign v8 {#campaign-v8}
+      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP con Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
-   + Campaign v7 {#campaign-v7}
-      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP con Adobe Campaign      v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+   + Campaign v7 {#campaign-v7}
+      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+      + [Real-Time CDP con Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer con Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Recopilación, acceso y exportación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
-   + [Recopilación de datos del reenvío de eventos de zona protegida múltiple](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
+   + [Recopilación de datos de reenvío de eventos de múltiples zonas protegidas](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [Preparación e ingesta de datos](/help/blueprints/data-ingestion/ingestion.md)
    + [Acceso y exportación de datos](/help/blueprints/data-ingestion/egress.md)
    + [Reenvío de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
@@ -84,6 +84,6 @@ ht-degree: 95%
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
-   + [Personalización basada en comportamiento      - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalización basada en comportamiento  - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalización de cliente conocida: Target y RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestión de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
