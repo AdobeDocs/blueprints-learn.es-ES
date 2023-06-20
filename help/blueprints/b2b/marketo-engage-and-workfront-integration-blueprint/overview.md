@@ -1,17 +1,17 @@
 ---
-title: Información general sobre el modelo de integración de Marketo Engage y Workfront
-description: 'Información general: información general sobre el modelo de integración de Marketo Engage y Workfront'
+title: Información general sobre Marketo Engage y el modelo de integración de Workfront
+description: 'información general: Marketo Engage y modelo de integración de Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Información general sobre el modelo de integración de Marketo Engage y Workfront {#overview}
+# Información general sobre Marketo Engage y el modelo de integración de Workfront {#overview}
 
-## Obtención de un tiempo de comercialización más rápido con Marketo Engage y Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
+## Consiga un tiempo de salida al mercado más rápido con Marketo Engage y Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 El trabajo del marketing sigue creciendo con nuevos canales y más formas de personalizar las comunicaciones cada día. Los equipos de marketing necesitan métodos para seguir automatizando y evolucionando de cara a admitir las demandas cambiantes de marketing a nivel mundial.
 
@@ -153,7 +153,7 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 ### Administración de los nombres de campaña de Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
 
-La estandarización de las convenciones de nomenclatura para campañas y direcciones URL es una base clave para una administración precisa del programa en Marketo Engage y ayuda a impulsar un proceso más coherente en todo el ciclo de vida de desarrollo de la campaña. Si está buscando herramientas que le ayuden en este proceso, le recomendamos que eche un vistazo a algunas herramientas de código abierto gratuitas de los [Servicios de Adobe Success](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
+La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en todo el ciclo de vida de desarrollo de campañas. Si está buscando herramientas que le ayuden en este proceso, le recomendamos que eche un vistazo a algunas herramientas de código abierto gratuitas de los [Servicios de Adobe Success](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
 
 ### Recursos {#resources}
 
