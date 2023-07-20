@@ -5,8 +5,8 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 2d7d2fff6c430b66e4a2935d4c68b5a8b9ecfae2
-workflow-type: ht
+source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Consulte la siguiente documentación para obtener instrucciones sobre la impleme
 
 * Para obtener más información sobre los mecanismos de protección y las latencias de extremo a extremo, consulte el [documento de mecanismos de protección de implementación](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de mecanismo de protección](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagrama de mecanismo de protección](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Preguntas frecuentes
 
