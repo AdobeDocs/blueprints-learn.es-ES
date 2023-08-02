@@ -5,9 +5,9 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 Las guardas son umbrales recomendados que proporcionan directrices para el uso de los datos y del sistema, optimizando el rendimiento y evitando errores o resultados inesperados en Adobe Experience Platform y las aplicaciones. Las guardas están pensadas para reflejar las restricciones del sistema y las expectativas de rendimiento a fin de facilitar la arquitectura del cliente y la optimización del rendimiento de los casos de uso. Las guardas no son acuerdos de nivel de servicio; para obtener información sobre los acuerdos de nivel de servicio específicos del producto, consulte la documentación de Descripciones de productos vinculado a continuación.
 
 
-## Documentación de referencia de protecciones para Adobe Experience Platform y aplicaciones
+## Documentación de referencia de guardas para Adobe Experience Platform y aplicaciones
 
 [Guardas de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
 
