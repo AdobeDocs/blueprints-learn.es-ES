@@ -2,9 +2,9 @@
 title: Modelo de ingesta y creación
 description: 'Ingesta y creación: modelo de integración de Marketo Engage y Workfront'
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Algunos datos básicos que se deben incluir en la biblioteca de búsqueda de pla
 
 A continuación, se muestra un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} precompilados que permitan disponer de automatización con mayor rapidez.
 
-![Flujo de ingesta y creación de automatización](assets/intake-and-create-3.png)Usar tokens para rellenar contenido
+![Flujo de ingesta y creación de automatización](assets/intake-and-create-3.png)
 
 ## Recursos {#resources}
 

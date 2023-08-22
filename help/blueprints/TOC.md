@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 100%
    + Marketo Engage y modelo de integración de Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Información general](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Ingesta y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+      + [Revisar y aprobar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Historias de éxito de clientes](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)

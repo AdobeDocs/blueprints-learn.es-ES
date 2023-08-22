@@ -2,10 +2,10 @@
 title: Información general sobre Marketo Engage y el modelo de integración de Workfront
 description: 'información general: Marketo Engage y modelo de integración de Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Tome nota de las diferentes fases del proceso de desarrollo de una campaña.
 
 1. Ingesta y creación: la solicitud de campaña se lleva a cabo y los activos de campaña se ensamblan mediante programación.
 
-1. Prueba y aprobación: una vez que la campaña se ha organizado, es el momento de que las partes interesadas revisen y aprueben los activos de la campaña, por ejemplo, correos electrónicos y páginas de aterrizaje.
+1. Revisar y aprobar: una vez montada la campaña, es hora de que las partes interesadas revisen y firmen los recursos de la campaña, como correos electrónicos y páginas de aterrizaje.
 
 1. Informe y auditoría: comparta los resultados de la campaña con Workfront para proporcionar una visibilidad superior a las partes interesadas interfuncionales.
 
@@ -149,7 +149,7 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 * [Ingesta y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Automatización del desarrollo de campañas con Marketo Engage y Workfront
 
-* Prueba y aprobación (próximamente)
+* [Revisar y aprobar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Administración de los nombres de campaña de Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
 
