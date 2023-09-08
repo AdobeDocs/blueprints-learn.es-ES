@@ -1,18 +1,20 @@
 ---
 title: Diagramas de la arquitectura de Adobe Experience Cloud
-description: Este diagrama de arquitectura muestra cómo las aplicaciones y los servicios de aplicaciones de Adobe Experience Cloud y Adobe Experience Platform encajan en una arquitectura de marketing empresarial.
+description: Descubra cómo las aplicaciones Experience Cloud, los servicios de aplicaciones y los Experience Platform encajan en una arquitectura de marketing empresarial.
 solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 655545ab9e1b173244a239967b6c173d66f74633
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 79%
 
 ---
 
 # Diagramas de la arquitectura de Adobe Experience Cloud
+
+Estos diagramas muestran cómo las aplicaciones Experience Cloud, los servicios de aplicaciones y los Experience Platform encajan en una arquitectura de marketing empresarial.
 
 ## Marketectura de Adobe Experience Cloud
 
