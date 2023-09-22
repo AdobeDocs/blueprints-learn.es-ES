@@ -4,19 +4,23 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 72%
 
 ---
 
 # Guardas
 
-Las guardas son umbrales recomendados que proporcionan directrices para el uso de los datos y del sistema, optimizando el rendimiento y evitando errores o resultados inesperados en Adobe Experience Platform y las aplicaciones. Las guardas están pensadas para reflejar las restricciones del sistema y las expectativas de rendimiento a fin de facilitar la arquitectura del cliente y la optimización del rendimiento de los casos de uso. Las guardas no son acuerdos de nivel de servicio; para obtener información sobre los acuerdos de nivel de servicio específicos del producto, consulte la documentación de Descripciones de productos vinculado a continuación.
+Las protecciones son umbrales recomendados que proporcionan directrices para el uso de datos y sistemas en Adobe Experience Platform y aplicaciones. Las protecciones reflejan las restricciones del sistema y las expectativas de rendimiento para optimizar la arquitectura del cliente y el rendimiento de los casos de uso, y ayudan a evitar errores o resultados inesperados. Las protecciones no están pensadas para ser acuerdos de nivel de servicio.
+
+Para obtener información sobre acuerdos de nivel de servicio específicos para aplicaciones y funciones, consulte &quot;Descripciones de aplicaciones y funciones&quot; en la parte inferior de esta página.
 
 
 ## Documentación de referencia de guardas para Adobe Experience Platform y aplicaciones
+
+Las siguientes páginas proporcionan información sobre las protecciones para las funciones, los servicios y las aplicaciones de Adobe Experience Platform:
 
 [Guardas de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
 
@@ -70,7 +74,9 @@ Las guardas son umbrales recomendados que proporcionan directrices para el uso d
 
 <br>
 
-## Descripciones de productos
+## Descripciones de aplicaciones y funciones
+
+Para obtener información sobre los acuerdos de nivel de servicio específicos de las funciones, consulte las siguientes descripciones:
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/es/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
