@@ -24,14 +24,11 @@ Los modelos de experiencia digital son implementaciones repetibles que le permit
 ## Novedades
 
 * **[Modelo de activación de audiencias y perfiles en destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)**
-
-   *Mantenga los perfiles de clientes actualizados en todos los sistemas para potenciar sus equipos de ventas y asistencia. &#x200B;*
+  *Mantenga los perfiles de clientes actualizados en todos los sistemas para potenciar sus equipos de ventas y asistencia. &#x200B;*
 * **[Modelo de centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)**
-
-   *Ofrezca contexto a los agentes de ventas y atención al cliente.*
+  *Ofrezca contexto a los agentes de ventas y atención al cliente.*
 * **[Modelo de análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)**
-
-   *Realice consultas y análisis de los datos del repositorio.*
+  *Realice consultas y análisis de los datos del repositorio.*
 
 ## Modelos incluidos
 

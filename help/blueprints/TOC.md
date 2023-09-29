@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
       + [Guardas](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Activación de audiencia anónima   (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Activación de audiencia anónima  (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Activación de cliente conocida (RTCDP) {#known-customer-audience-activation}
       + [Información general](/help/blueprints/audience-activation/known.md)
       + [Activación en canales publicitarios y sociales](/help/blueprints/audience-activation/advertising-activation.md)
@@ -46,7 +46,7 @@ ht-degree: 98%
    + Marketo Engage y modelo de integración de Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Información general](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Ingesta y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
-      + [Revisar y aprobar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
+      + [Revisión y aprobación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Historias de éxito de clientes](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
@@ -71,7 +71,7 @@ ht-degree: 98%
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP con Adobe Campaign   v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP con Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer con Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Recopilación, acceso y exportación de datos {#data-ingestion}
    + [Información general](/help/blueprints/data-ingestion/overview.md)
@@ -85,6 +85,6 @@ ht-degree: 98%
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
 + Personalización web y móvil {#web-personalization}
    + [Información general](/help/blueprints/web-personalization/overview.md)
-   + [Personalización basada en comportamiento   - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalización basada en comportamiento  - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalización de cliente conocida: Target y RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestión de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
