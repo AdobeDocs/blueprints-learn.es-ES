@@ -3,10 +3,10 @@ title: Coincidencia de segmentos    modelo
 description: Obtenga información sobre la [!UICONTROL Coincidencia de segmentos] para Adobe Experience Platform (AEP). La [!UICONTROL Coincidencia de segmentos] es un servicio de colaboración de datos que le permite intercambiar datos de segmentos basados en identificadores sectoriales comunes de una forma segura, regulada y compatible con la privacidad.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
-source-wordcount: '1774'
-ht-degree: 100%
+source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+workflow-type: tm+mt
+source-wordcount: '2180'
+ht-degree: 81%
 
 ---
 
@@ -100,25 +100,25 @@ La configuración de consentimiento para la [!UICONTROL Coincidencia de segmento
 
 * En el nivel de organización, durante la incorporación, se utiliza la configuración de exclusión o inclusión para las comprobaciones de consentimiento.
 
-   Este ajuste determina si los datos del usuario se pueden compartir o no. El valor predeterminado es la exclusión, que indica que los datos de usuario se pueden compartir con la suposición de que el cliente de AEP ya tiene el acuerdo de consentimiento necesario para el uso compartido de datos. Este ajuste se puede cambiar a inclusión poniéndose en contacto con el administrador de cuentas de Adobe, para aplicar una comprobación adicional que obligue a los clientes de AEP a realizar un seguimiento explícito del consentimiento.
+  Este ajuste determina si los datos del usuario se pueden compartir o no. El valor predeterminado es la exclusión, que indica que los datos de usuario se pueden compartir con la suposición de que el cliente de AEP ya tiene el acuerdo de consentimiento necesario para el uso compartido de datos. Este ajuste se puede cambiar a inclusión poniéndose en contacto con el administrador de cuentas de Adobe, para aplicar una comprobación adicional que obligue a los clientes de AEP a realizar un seguimiento explícito del consentimiento.
 
 * Configuración del atributo de uso compartido específico de identidades (idSpecific) mediante el uso del [grupo de campos de consentimientos y preferencias](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es).
 
-   Este grupo de campos proporciona un único campo de tipo objeto, consentimientos, para capturar información de consentimiento y preferencias. La [!UICONTROL Coincidencia de segmentos], de forma predeterminada, incluye todas las identidades que no se hayan excluido explícitamente, por ejemplo:
+  Este grupo de campos proporciona un único campo de tipo objeto, consentimientos, para capturar información de consentimiento y preferencias. La [!UICONTROL Coincidencia de segmentos], de forma predeterminada, incluye todas las identidades que no se hayan excluido explícitamente, por ejemplo:
 
-   ```
-   "share": {
-   `                `"val": "n"
-   `     `}
-   ```
+  ```
+  "share": {
+  `                `"val": "n"
+  `     `}
+  ```
 
-   Este ajuste se puede cambiar poniéndose en contacto con el administrador de cuentas de Adobe para que solo incorpore las identidades con una inclusión explícita, como por ejemplo:
+  Este ajuste se puede cambiar poniéndose en contacto con el administrador de cuentas de Adobe para que solo incorpore las identidades con una inclusión explícita, como por ejemplo:
 
-   ```
-   "share": {
-   `                `"val": "y"
-   `     `}
-   ```
+  ```
+  "share": {
+  `                `"val": "y"
+  `     `}
+  ```
 
 ### Alertas
 
@@ -163,6 +163,48 @@ Durante el proceso diario de superposición de identidades, si existe la identid
 #### Revocación de segmentos
 
 La revocación/eliminación de segmentos del remitente es un proceso bajo demanda en el que la lista de todos los perfiles con los ID de segmento revocados se obtiene del destinatario. Los ID de segmento se eliminan de la suscripción de segmentos de esas identidades y el destinatario vuelve a ingerirlos. Esta acción sobrescribe el fragmento de suscripción de segmentos existente, lo cual elimina la suscripción para dicho segmento.
+
+## Uso de la coincidencia de segmentos en ofertas programáticas
+
+Con las crecientes restricciones en torno a las cookies de terceros y los identificadores de dispositivos, la publicidad programática busca nuevas formas de crear y segmentar audiencias. Se ha propuesto un número cada vez mayor de soluciones de &quot;ID universal&quot;, pero el sector sigue en constante cambio sin una forma acordada y escalable de lograr el mismo nivel de segmentación, al tiempo que se equilibran las preocupaciones de privacidad aplicables.
+
+Puede utilizar Coincidencia de segmentos de Adobe Experience Platform para colaborar en audiencias centradas en la privacidad y mejorar las ofertas privadas programáticas entre anunciantes y editores. Con Coincidencia de segmentos, puede:
+
+* Split **Tráfico publicitario** y **Audiencia** flujos de trabajo.
+* Permita que las marcas asociadas compartan metadatos de audiencia para identidades mutuamente compartidas y consentidas mediante identificadores duraderos, como correo electrónico con hash y número de teléfono con hash, dentro de un proceso impuesto por el consentimiento.
+
+### Casos de uso
+
+* Segmentación de audiencias de origen mediante acuerdos privados programáticos.
+* Supresión de la audiencia propia mediante acuerdos programáticos privados.
+* Segmentación de audiencias de similitud de audiencias de origen predefinidas mediante ofertas privadas programáticas.
+
+>[!BEGINSHADEBOX]
+
+**Consideremos el siguiente ejemplo de flujo de trabajo entre una marca (Luma) y una red de medios (ACME):**
+
+1. Una marca (Luma) lleva a cabo una coincidencia de audiencia con una red de medios (ACME) mediante Coincidencia de segmentos.
+2. ACME envía la audiencia al servidor de publicidad o al SSP programático a través de los destinos de Adobe Real-Time CDP.
+3. ACME configura un acuerdo de inventario privado (ID) con los criterios de objetivo aplicables, incluida la audiencia establecida en el paso anterior. DSP A continuación, el ID de acuerdo de inventario privado se inserta en la cuenta de usuario de.
+4. Luma configura un acuerdo de inventario privado y una campaña de tráfico/publicidad creativa.
+5. A continuación, la campaña se realiza mediante un acuerdo programático de inventario privado.
+6. A continuación, el servidor de publicidad o SSP ofrece impresiones de publicidad que cumplen con los criterios de segmentación establecidos. DSP (Los criterios de segmentación adicionales, como el límite de frecuencia, están disponibles a través del servidor de publicidad o de la red de distribución, en función de si se ha establecido una operación Garantizada o Preferida en el acuerdo).
+7. El tráfico se dirige a las propiedades de marca de Luma.
+8. A continuación, ACME vuelve a compartir las perspectivas o audiencias posteriores a la campaña a través de Coincidencia de segmentos para su redireccionamiento.
+
+>[!ENDSHADEBOX]
+
+![Diagrama del flujo de trabajo entre marca y editor.](./assets/segment-match-blueprints.png)
+
+>[!IMPORTANT]
+>
+> Aunque la solución descrita anteriormente proporciona una forma sencilla de dirigirse a datos de origen a través de acuerdos privados programáticos, puede haber algunas consideraciones antes de la ejecución, incluidos, entre otros, los siguientes ejemplos:
+>
+>* Consentimiento: recopilación de consentimiento aplicable por parte de la marca, el editor o la red de medios minoristas para aprovechar los datos de esta manera.
+>
+>* Políticas y acuerdos de licencia: cumplimiento de cualquier política aplicable (incluidas las políticas de privacidad y los acuerdos con proveedores externos) por parte de la marca, el editor o la red de medios minoristas para aprovechar y activar los datos de esta manera.
+
+
 
 ## Más información
 
