@@ -4,10 +4,10 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4379f372241248ea6c70c766f13a182783fcac0c
+source-git-commit: 76ad3dceda37c5f991a43df5828a926f6dfc42a5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 64%
+source-wordcount: '625'
+ht-degree: 41%
 
 ---
 
@@ -38,39 +38,37 @@ Las siguientes páginas proporcionan información sobre las protecciones para la
 * [Guardas del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=es)
 * [Guardas de activación de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=es)
 
+## Diagramas de latencia de extremo a extremo {#end-to-end-latency}
 
+### Ingesta de datos {#data-ingestion}
 
-## Diagramas de latencia de extremo a extremo
+El diagrama siguiente muestra los valores de latencia de ingesta de datos esperados a través de [ingesta por streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) y [ingesta por lotes](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=es) al introducir datos en Real-Time CDP. Haga clic en la imagen para ver una versión de alta resolución.
 
-### Ingesta de datos
+![Información general visual de alto nivel sobre la ingesta de datos.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Introducción visual de alto nivel a la ingesta de datos y valores de latencia"){width="1000" zoomable="yes"}
 
-<img src="assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+### Segmentación {#segmentation}
 
-<br>
+El diagrama siguiente muestra los valores de latencia esperados al trabajar con audiencias en [Servicio de segmentación de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es). Haga clic en la imagen para ver una versión de alta resolución.
 
-### Segmentación
+![Resumen visual de alto nivel de segmentación.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Información general visual de alto nivel de segmentación y valores de latencia"){width="1000" zoomable="yes"}
 
-<img src="assets/segmentation_guardrails.svg" alt="Guardas de segmentación en Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+### Real-Time Customer Data Platform y Adobe Target {#adobe-target-latency}
 
-<br>
+El diagrama siguiente muestra los valores de latencia esperados al exportar audiencias de Real-Time CDP a [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es). Haga clic en la imagen para ver una versión de alta resolución.
 
-### Real-Time Customer Data Platform y Adobe Target
+![Información general visual de alto nivel sobre la exportación a Adobe Target.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Exportar audiencias a valores de latencia e información general visual de alto nivel de Adobe Target"){width="1000" zoomable="yes"}
 
-<img src="assets/RTCDP_Target_guardrails.svg" alt="Guardas en RTCDP y Target" style="border:1px solid #4a4a4a" width="85%" />
+### Customer Journey Analytics     {#customer-journey-analytics}
 
-<br>
+El diagrama siguiente muestra los valores de latencia esperados al trabajar con [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Haga clic en la imagen para ver una versión de alta resolución.
 
-### Customer Journey Analytics
+![Información general sobre el trabajo con Customer Journey Analytics visual de alto nivel.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Uso de valores de latencia e información general visual de alto nivel de Customer Journey Analytics"){width="1000" zoomable="yes"}
 
-<img src="assets/CJA_guardrails.svg" alt="Guardas en CJA" style="border:1px solid #4a4a4a" width="85%" />
+### Journey Optimizer   {#journey-optimizer}
 
-<br>
+El diagrama siguiente muestra los valores de latencia esperados al trabajar con [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Haga clic en la imagen para ver una versión de alta resolución.
 
-### Journey Optimizer
-
-<img src="assets/AJO_guardrails.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:85%; border:1px solid #4a4a4a" />
-
-<br>
+![Información general visual de alto nivel sobre el uso de Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Uso de valores de latencia e información general visual de alto nivel de Adobe Journey Optimizer"){width="1000" zoomable="yes"}
 
 ## Descripciones de aplicaciones y funciones {#application-feature-descriptions}
 
