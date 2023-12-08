@@ -5,7 +5,7 @@ solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
 source-git-commit: 8a47b73065a5591673804301c61a73947346813c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Para obtener una lista completa de los eventos admitidos, consulte [Eventos de C
 
 ## Guías de implementación relacionadas
 
-| Guía de  | Vínculo |
+| Guía | Vínculo |
 |:----|:----|
 | Platform Connector | [Información general sobre el conector del Experience Platform Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Destino comercial | [Conexión de Adobe Commerce en RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
