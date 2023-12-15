@@ -1,17 +1,17 @@
 ---
-title: Experience Platform y protecciones de aplicaciones y latencias de extremo a extremo
+title: Experience Platform y guardas de aplicaciones
 description: Las guardas definen las expectativas de rendimiento y el impacto para los componentes y servicios dentro de Adobe Experience Platform y las aplicaciones
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 22%
+source-wordcount: '463'
+ht-degree: 24%
 
 ---
 
-# Protecciones y latencias de extremo a extremo
+# Guardas
 
 Las protecciones son umbrales recomendados que proporcionan directrices para los datos, las latencias observadas y el uso del sistema en Adobe Experience Platform y aplicaciones. Las protecciones reflejan las restricciones del sistema y las expectativas de rendimiento para optimizar la arquitectura del cliente y el rendimiento de los casos de uso, y ayudan a evitar errores o resultados inesperados. Las protecciones no están pensadas para ser acuerdos de nivel de servicio.
 
