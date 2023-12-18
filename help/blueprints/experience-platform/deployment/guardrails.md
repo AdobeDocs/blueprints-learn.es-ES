@@ -4,18 +4,20 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 24%
+source-wordcount: '630'
+ht-degree: 18%
 
 ---
 
 # Guardas
 
-Las protecciones son umbrales recomendados que proporcionan directrices para los datos, las latencias observadas y el uso del sistema en Adobe Experience Platform y aplicaciones. Las protecciones reflejan las restricciones del sistema y las expectativas de rendimiento para optimizar la arquitectura del cliente y el rendimiento de los casos de uso, y ayudan a evitar errores o resultados inesperados. Las protecciones no están pensadas para ser acuerdos de nivel de servicio.
+Las protecciones son umbrales recomendados que proporcionan directrices para los datos, las latencias observadas y el uso del sistema en Adobe Experience Platform y aplicaciones. Las protecciones reflejan las restricciones del sistema y las expectativas de rendimiento para optimizar la arquitectura del cliente y el rendimiento de los casos de uso, y ayudan a evitar errores o resultados inesperados. Las protecciones no están pensadas para ser acuerdos de nivel de servicio, los acuerdos de nivel de servicio se documentan en las descripciones de productos vinculadas a continuación y en los acuerdos de licencia de cliente. Las protecciones están pensadas para proporcionar orientación en la arquitectura de soluciones para casos de uso específicos de clientes a fin de garantizar la estabilidad y la ejecución.
 
 Para obtener información sobre los acuerdos de nivel de servicio específicos para aplicaciones y funciones, consulte la [Descripciones de aplicaciones y funciones](#application-feature-descriptions) en la parte inferior de esta página.
+
+Tenga en cuenta que, para cualquier caso de uso de cliente que tenga requisitos estrictos de latencia o volumen, Adobe recomienda revisar en detalle el caso de uso con el equipo de la cuenta de Adobe y el socio de implementación. En determinados casos, es aconsejable probar y observar la implementación de un caso de uso determinado antes del lanzamiento de producción del caso de uso para observar y comprender el comportamiento esperado, ya que cada implementación de cliente tiene diferentes factores en juego, incluida la naturaleza y cadencia de la ingesta de datos, los detalles específicos de las reglas de segmentos que se están creando y los distintos desafíos de activación y cargas útiles. Cada implementación de caso de uso tendrá un rendimiento observado variable. Como tal, es mejor establecer y probar el rendimiento esperado por adelantado para garantizar una arquitectura e implementación adecuadas de acuerdo con los requisitos de latencia y rendimiento del caso de uso.
 
 
 ## Documentación de referencia de guardas para Adobe Experience Platform y aplicaciones
