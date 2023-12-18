@@ -3,10 +3,10 @@ title: Modelo de Gestión de decisiones en el centro
 description: Entrega de ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por agentes, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 98%
 
 ---
 
@@ -56,22 +56,8 @@ Adobe Experience Platform
 
 * Para obtener más información sobre las guardas de Journey Optimizer, consulte las [Guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=es).
 * Si quiere información sobre las guardas de Gestión de decisiones, consulte la siguiente [Descripción del producto de Gestión de decisiones](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html).
-* Solicitudes por segundo =2000.
-* Latencia de respuesta &lt;500ms.
-* Acceso completo a Real-Time Customer Profile, lo que incluye las suscripciones a audiencias, atributos y eventos de experiencia.
 
-
-### Guardas de ingesta de datos
-
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Guardas de activación
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Patrones de implementación
 

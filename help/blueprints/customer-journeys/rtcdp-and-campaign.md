@@ -3,9 +3,9 @@ title: Patrón de integración de Real-Time CDP con Adobe Campaign v7 y Campaig
 description: Muestra cómo se puede utilizar Adobe Experience Platform, su Real-Time Customer Profile y su herramienta de segmentación centralizada con Adobe Campaign para ofrecer conversaciones personalizadas.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '663'
 ht-degree: 100%
 
 ---
@@ -46,15 +46,9 @@ Muestra cómo se puede utilizar Adobe Experience Platform, su Real-Time Customer
 
 ### Uso compartido de segmentos de CDP de Experience Platform
 
-* Recomendación: máximo de 20 segmentos.
-* La activación se limita a cada 24 horas.
-* Solo los atributos de esquemas de unión están disponibles para la activación (no es compatible con eventos array/maps/experience)
-* Recomendación: máximo de 20 atributos por segmento.
-* Un archivo por segmento de todos los perfiles con la pertenencia a segmento “realized” O si la pertenencia a segmento se añade como atributo en el archivo como perfiles “realized” y “exited” a la vez
-* Compatible con la exportación de segmentos incrementales y completos.
-* No es compatible con la criptografía de archivos.
+* Consulte el conector de destino de RTCDP Campaign: [conexión de RTCDP Campaign](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=es)
 
-<br>
+* Consulte las guardas de ingesta de datos y perfiles para AEP: [vínculo](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 ## Pasos de implementación
 

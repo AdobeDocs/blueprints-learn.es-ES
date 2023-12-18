@@ -3,14 +3,14 @@ title: Modelo de Journey Optimizer con Adobe Campaign v7
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '975'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 98%
 
 ---
 
-# Journey Optimizer con Adobe Campaign     v7   modelo
+# Modelo de Journey Optimizer con Adobe Campaign v7
 
 Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign.
 
@@ -45,40 +45,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 
 [Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
 
-### Guardas adicionales de Journey Optimizer
-
-* Es posible configurar la limitación a través de la API para asegurar que el sistema de destino no se sature hasta el punto que dé errores. Esto significa que los mensajes que excedan el tope se descartarán completamente y no se enviarán jamás. No se admite establecer limitaciones.
-   * Número máximo de conexiones: número máximo de conexiones de http/s que admite el destino.
-   * Recuento máximo de llamadas: número máximo de llamadas que se pueden realizar en el parámetro periodInMs.
-   * periodInMs: tiempo en milisegundos.
-* Los recorridos iniciados por pertenencia a segmentos pueden funcionar de dos modos:
-   * Segmentos por lotes (actualizados cada 24 horas)
-   * Segmentos por flujo (calificación &lt;5 minutos)
-* Segmentos por lotes: debe conocer el volumen diario de usuarios adecuados y garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos los recorridos.
-* Segmentos por flujo: debe asegurarse de que el pico inicial de calificaciones de perfil pueda gestionarse junto con el volumen de calificación de flujo diario por recorrido y durante todos los recorridos.
-* Gestión de decisiones no es compatible
-* No se admiten los eventos comerciales
-* Integraciones salientes a sistemas de terceros
-   * No es compatible con una sola IP estática, ya que nuestra infraestructura es de varios inquilinos (debe realizar la lista de permitidos de todas las IP del centro de datos)
-   * Solo se admiten métodos de PUT y POST para acciones personalizadas
-   * Compatibilidad con autenticación: token | contraseña | OAuth2
-* No es posible empaquetar y mover componentes individuales de Adobe Experience Platform o Journey Optimizer entre varias zonas protegidas. Debe volver a implementarse en nuevos entornos
-
-<br>
-
-### Campaign (v7)
-
-* La instancia de ejecución del Centro de mensajes debe estar alojada por Adobe Managed Cloud Services
-* Debe estar en la v7 y una compilación >21.1
-* Rendimiento de mensajería
-   * AC (v7) 50 000 por hora
-* AC (v7) solo admite el recorrido iniciado por evento
-   * Recorrido no iniciado por segmento o pertenencia a segmento
-   * La lectura de los recorridos basados en eventos de audiencia y de negocio no es compatible debido al volumen que puede enviar a las instancias de ejecución
-* AC (v7) no admite la gestión de decisiones en los mensajes
-* No se restringen las llamadas de API salientes realizadas a Campaign
-
-<br>
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Pasos de implementación
 
@@ -121,7 +88,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
-   * Identidad       para Edge Network
+   * Identidad para la red perimetral
    * Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
 1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

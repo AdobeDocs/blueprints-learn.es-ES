@@ -3,9 +3,9 @@ title: Journey Optimizer - Modelo de mensajería activada y Adobe Experience Pla
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3102ab35e48fe51010185ea5a0352c77f068d0d4
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '563'
 ht-degree: 97%
 
 ---
@@ -74,22 +74,7 @@ Push móvil
 
 [Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-Tenga en cuenta las siguientes consideraciones adicionales:
-
-* Segmentos por lotes: debe conocer el volumen diario de usuarios adecuados y garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos los recorridos.
-* Segmentos por flujo: debe asegurarse de que el pico inicial de calificaciones de perfil pueda gestionarse junto con el volumen de calificación de flujo diario por recorrido y durante todos los recorridos.
-* Compatibilidad nativa con Gestión de decisiones solo en los mensajes (sin acciones personalizadas)
-* Tipos de mensajes admitidos:
-   * Correo electrónico
-   * Push (FCM/APNS)
-   * Acciones personalizadas (a través de la API Rest)
-* Integraciones salientes a sistemas de terceros
-   * No es compatible con una sola IP estática, ya que nuestra infraestructura es de varios inquilinos (debe realizar la lista de permitidos de todas las IP del centro de datos)
-   * Solo se admiten métodos de PUT y POST para acciones personalizadas
-   * Autenticación mediante usuario/contraseña o token de autorización
-* No es posible empaquetar y mover componentes individuales de Adobe Experience Platform o Journey Optimizer entre varias zonas protegidas. Debe volver a implementarse en nuevos entornos
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentación relacionada
 

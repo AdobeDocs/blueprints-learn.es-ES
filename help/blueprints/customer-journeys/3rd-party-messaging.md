@@ -3,10 +3,10 @@ title: 'Journey Optimizer: modelo de mensajería de terceros'
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -40,39 +40,8 @@ Aplicación de mensajería de terceros
 
 [Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
 
-Guardas adicionales de Journey Optimizer:
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-* Es posible configurar la limitación a través de la API para asegurar que el sistema de destino no se sature hasta el punto que dé errores. Esto significa que los mensajes que excedan el tope se descartarán completamente y no se enviarán jamás. No se admite establecer limitaciones.
-   * Número máximo de conexiones: número máximo de conexiones de http/s que admite el destino.
-   * Recuento máximo de llamadas: número máximo de llamadas que se pueden realizar en el parámetro periodInMs.
-   * periodInMs: tiempo en milisegundos.
-* Los recorridos iniciados por pertenencia a segmentos pueden funcionar de dos modos:
-   * Segmentos por lotes (actualizados cada 24 horas)
-   * Segmentos por flujo (calificación &lt;5 minutos)
-* Segmentos por lotes: debe conocer el volumen diario de usuarios adecuados y garantizar que el sistema de destino pueda soportar el pico de rendimiento por recorrido y durante todos los recorridos.
-* Segmentos por flujo: debe asegurarse de que el pico inicial de calificaciones de perfil pueda gestionarse junto con el volumen de calificación de flujo diario por recorrido y durante todos los recorridos.
-* Gestión de decisiones no es compatible
-* Integraciones salientes a sistemas de terceros
-   * No es compatible con una sola IP estática, ya que nuestra infraestructura es de varios inquilinos (debe realizar la lista de permitidos de todas las IP del centro de datos)
-   * Solo se admiten métodos de PUT y POST para acciones personalizadas
-   * Compatibilidad con autenticación: token | contraseña | OAuth2
-* No es posible empaquetar y mover componentes individuales de Adobe Experience Platform o Journey Optimizer entre varias zonas protegidas. Debe volver a implementarse en nuevos entornos
-
-<br>
-
-Sistema de mensajería de terceros
-
-* Debe comprender qué carga puede soportar el sistema para las llamadas de API transaccionales
-   * Número de llamadas permitidas por segundo
-   * Número de conexiones
-* Debe comprender qué autenticación se requiere para realizar llamadas de API
-   * Tipo de autenticación: token | contraseña | OAuth2 es compatible con Journey Optimizer
-   * Duración de la caché de autenticación: ¿durante cuánto tiempo es válido el token? 
-* Si solo es compatible la ingesta por lotes, entonces debe transmitirse a un motor de almacenamiento en la nube como Amazon Kinesis o Azure Event Grid 1st
-   * Los datos de estos motores de almacenamiento en la nube se pueden agrupar por lotes y canalizar a terceros
-   * El cliente o terceros serían responsables de proporcionar cualquier middleware requerido
-
-<br>
 
 ## Pasos de implementación
 
@@ -109,7 +78,7 @@ Sistema de mensajería de terceros
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
    * Adobe Journey Optimizer
    * Adobe Experience Platform Edge Network
-   * Identidad       para Edge Network
+   * Identidad para la red perimetral
    * Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
 1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)

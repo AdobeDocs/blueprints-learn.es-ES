@@ -3,10 +3,10 @@ title: Modelo de Gestión de decisiones en Edge
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -56,23 +56,11 @@ Adobe Experience Platform
 ## Guardas
 
 * Para obtener más información sobre las guardas de Journey Optimizer, consulte las [Guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=es).
+
 * Si quiere información sobre las guardas de Gestión de decisiones, consulte la siguiente [Descripción del producto de Gestión de decisiones](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html).
-* Solicitudes por segundo =5000.
-* Latencia de respuesta &lt;250 ms.
-* Acceso al perfil de Edge en tiempo real. Solo estarán disponibles en el perfil las audiencias y los atributos de perfil proyectados de Edge.
-* Si se requiere personalización para la primera experiencia, hub es ideal, ya que el perfil completo está disponible. El perfil de Edge debe sincronizarse desde el hub para la primera experiencia en Edge. Por lo tanto, la primera experiencia en Edge no incluirá datos de perfil cargados previamente en el hub.
 
-### Guardas de ingesta de datos
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Guardas de activación
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## Patrones de implementación
 
