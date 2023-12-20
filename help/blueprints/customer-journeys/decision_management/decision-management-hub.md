@@ -3,10 +3,10 @@ title: Modelo de Gestión de decisiones en el centro
 description: Entrega de ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por agentes, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 98%
+source-wordcount: '832'
+ht-degree: 87%
 
 ---
 
@@ -28,11 +28,16 @@ Para obtener más información sobre Gestión de decisiones en Edge, consulte el
 
 ## Casos de uso para Gestión de decisiones en el hub
 
+* Casos de uso de streaming en los que la latencia de contexto del perfil no es estricta: 15 minutos o más.
 * Ofertas personalizadas en quioscos y en experiencias de tienda.
 * Ofertas personalizadas a través de la experiencia asistida por agentes, como centros de llamadas o interacciones de ventas.
 * Ofertas incluidas en correos electrónicos, SMS, notificaciones push móviles u otras interacciones salientes.
 * Proporcionar ofertas a proveedores de servicio externos y sistemas de mensajería para su envío.
 * Ejecución de recorridos en varios canales: coherencia de ofertas en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
+
+>[!IMPORTANT]
+>
+>Para casos de uso de ofertas y recorridos que requieren acceder al perfil de para obtener información y contexto adicionales. Es importante tener en cuenta la latencia asociada de la ingesta de datos en el perfil del concentrador para garantizar que estén disponibles en el momento de la decisión. En el caso de los escenarios en los que el contexto se transmite o se ingiere en el perfil y la oferta o el recorrido deben tener ese contexto disponible en cuestión de segundos o minutos después de la decisión de oferta, estos escenarios se proporcionan mejor con Administración de decisiones en el perímetro.
 
 <br>
 

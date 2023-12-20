@@ -3,10 +3,10 @@ title: Modelo de Gestión de decisiones en Edge
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 98%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Para obtener más información sobre Gestión de decisiones en el hub, consulte 
 
 ## Casos de uso para Gestión de decisiones en Edge
 
+* Casos de uso de streaming en los que la latencia de contexto de perfil es estricta por debajo de los 15 minutos de latencia y la ejecución de la administración de decisiones es de subsegundo.
 * Personalización en línea mediante experiencias entrantes web o móviles.
 * Ejecución de recorridos en varios canales: coherencia de ofertas en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
