@@ -3,10 +3,10 @@ title: Modelo de Campaign v8, Campaign y Platform
 description: Adobe Campaign v8 es la herramienta de campañas de próxima generación diseñada para canales de marketing tradicionales como correo electrónico y correo directo. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para cosas como restablecimiento de contraseña, confirmación de pedido, recepción electrónica y mucho más.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
-source-wordcount: '1147'
-ht-degree: 100%
+source-git-commit: ac6e27e88854f5a05a7ff7428cd4375b3532f632
+workflow-type: tm+mt
+source-wordcount: '1074'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,18 @@ Adobe Campaign v8 es la herramienta de campañas de próxima generación diseña
 
 <br>
 
-## Arquitectura
+## Diagramas de arquitectura
 
-<img src="assets/campaign-v8-architecture.svg" alt="Arquitectura de referencia para el modelo de Campaign v8" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+Obtenga más información acerca de los modelos de implementación de Campaign v8 en [esta página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+
+### Implementación de Campaign Enterprise (FDAC)
+
+<img src="assets/P4-architecture.png" alt="Arquitectura de referencia para el modelo de Campaign v8 (P4)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+
+
+### Implementación de FDA de Campaign v8
+
+<img src="assets/P1-P3-architecture.png" alt="Arquitectura de referencia para el modelo de Campaign v8 (P1-P3)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -84,7 +93,7 @@ Adobe Campaign v8 es la herramienta de campañas de próxima generación diseña
    * La compatibilidad con la carga de datos de API se utiliza principalmente para administrar perfiles u objetos simples dentro de la base de datos (es decir, crear y actualizar). No se pretende utilizar para cargar grandes volúmenes de datos u operaciones similares a lotes.
    * No se admite el uso de API para leer datos con fines de aplicación personalizados
    * Los datos cargados mediante API se almacenan en la base de datos de la aplicación y, a continuación, se replican cada hora en la base de datos de Cloud
-* Las llamadas de API están limitadas a 15 por segundo o a 150 000 por día a escala
+* Se aplican límites a las llamadas API. Obtenga más información en la [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### Tamaño del servidor de mensajería por lotes
 
@@ -104,16 +113,6 @@ Adobe Campaign v8 es la herramienta de campañas de próxima generación diseña
    * SMS MO (móvil originado): un SMS que un móvil envía a Adobe Campaign a través del proveedor SMPP.
    * SMS SR (informe de estado), DR o DLR (recibo de envío): un recibo devuelto enviado por el móvil a Adobe Campaign a través del proveedor SMPP que indica que el SMS se ha recibido correctamente. Adobe Campaign también puede recibir SR para indicar que el mensaje no se ha podido entregar, a menudo con una descripción del error.
 
-### Configuración push móvil
-
-* Solo se admite el SDK de Campaign para Campaign v8. Póngase en contacto con el Servicio de atención al cliente de Adobe para obtener acceso
-* Siga la [Documentación del SDK de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=es) para aprender a instalar y configurar el SDK
-
-   >[!IMPORTANT]
-   >Otras aplicaciones de Experience Cloud requerirán el uso del SDK móvil de Experience Platform para la recopilación de datos. Se trata de un SDK diferente y deberá instalarse junto al SDK de Campaign
-
-<br>
-
 ## Pasos de implementación
 
 Consulte la guía de introducción para la [Implementación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=es)
@@ -121,7 +120,7 @@ Consulte la guía de introducción para la [Implementación de Adobe Campaign v8
 
 ## Documentación relacionada
 
-* [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es)
+* [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
 * [Descripción del producto Campaign v8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Documentación de las etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=es)
-* [Documentación del SDK móvil de Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
+* [Documentación de las etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/launch.html)
+* [Documentación del SDK móvil de Experience Platform](https://experienceleague.adobe.com/docs/mobile.html)
