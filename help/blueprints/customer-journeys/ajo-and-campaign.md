@@ -1,16 +1,16 @@
 ---
 title: Modelo de Journey Optimizer con Adobe Campaign
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign
-solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
+solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
+workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 100%
 
 ---
 
-# Journey Optimizer con Adobe Campaign     modelo
+# Modelo de Journey Optimizer con Adobe Campaign
 
 Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign.
 
