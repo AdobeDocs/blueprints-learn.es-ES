@@ -5,7 +5,7 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
+source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 92%
@@ -40,6 +40,11 @@ ht-degree: 92%
       + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
       + [Coincidencia de segmentos](/help/blueprints/audience-activation/segment-match.md)
    + [Activación con las aplicaciones de Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
+   + Personalización web y móvil {#web-personalization}
+      + [Información general](/help/blueprints/audience-activation/web-personalization/overview.md)
+      + [Personalización del comportamiento: Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+      + [Personalización de cliente conocida: Target y RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+      + [Gestión de decisiones](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + Activación y marketing B2B {#b2b-activation}
    + [Información general](/help/blueprints/b2b/overview.md)
    + [Activación B2B](/help/blueprints/b2b/b2bactivation.md)
@@ -85,8 +90,3 @@ ht-degree: 92%
    + [Información general](/help/blueprints/data-insights/overview.md)
    + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
    + [Ciencia de datos personalizada para el enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
-+ Personalización web y móvil {#web-personalization}
-   + [Información general](/help/blueprints/web-personalization/overview.md)
-   + [Personalización del comportamiento: Target](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalización de cliente conocida: Target y RTCDP](/help/blueprints/web-personalization/known-personalization.md)
-   + [Gestión de decisiones](/help/blueprints/web-personalization/decision-management-edge.md)
