@@ -3,7 +3,7 @@ title: Personalización web/móvil con Gestión de decisiones
 description: Ofrecer ofertas personalizadas a los consumidores a través de canales, incluidos quioscos y experiencias asistidas por agentes.
 solution: Experience Platform, Journey Optimizer
 exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
-source-git-commit: 47ae9808a53fd59583bd26b70e58c34a15e47493
+source-git-commit: 1ee81e6e2e9847f53f51bc96e55ea434a0a1cbda
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 100%
@@ -14,4 +14,4 @@ ht-degree: 100%
 
 Gestión de decisiones de Adobe Journey Optimizer se puede utilizar para personalizar y entregar ofertas en canales entrantes como sitios web, aplicaciones móviles, kioscos y otros puntos de contacto con los clientes.
 
-El modelo para la personalización web y móvil mediante Gestión de decisiones se encuentra en la sección del modelo Gestión de decisiones de Recorrido del cliente, [AQUÍ](/customer-journeys/decision_management/decision-management-edge.md).
+El modelo para la personalización web y móvil mediante Gestión de decisiones se encuentra en la sección del modelo Gestión de decisiones de Recorrido del cliente, [AQUÍ](//customer-journeys/decision_management/decision-management-edge.md).
