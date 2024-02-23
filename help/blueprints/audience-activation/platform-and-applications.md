@@ -4,10 +4,10 @@ description: Administrar perfiles y audiencias en Experience Platform y comparti
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Consulte la sección [Arquitectura de Experience Platform y otras aplicaciones](
 
 ## Guardas
 
-Consulte los [guardas de la página de información general sobre la activación de audiencias y perfiles](overview.md)     y la página [guardas de implementación](../experience-platform/deployment/guardrails.md).
+Consulte la [protecciones en la página Información general de activación de audiencia y perfil](overview.md) y el [protecciones de implementación](../experience-platform/deployment/guardrails.md) página.
 
 ## Consideraciones sobre la implementación
 
@@ -67,7 +67,7 @@ Consulte los [guardas de la página de información general sobre la activación
 
 ### Uso compartido de audiencias de Real-Time Customer Data Platform con Target
 
-* Consulte el [modelo de Personalización de cliente conocida: Target y RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=es) para obtener más información sobre cómo compartir perfiles y audiencias de Real-Time Customer Data Platform en Target.
+* Consulte el [modelo de Personalización de cliente conocida: Target y RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html) para obtener más información sobre cómo compartir perfiles y audiencias de Real-Time Customer Data Platform en Target.
 
 ### Uso compartido de audiencias de Real-Time Customer Data Platform con Campaign y Journey Optimizer
 
