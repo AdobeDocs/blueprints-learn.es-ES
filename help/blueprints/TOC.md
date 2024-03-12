@@ -5,17 +5,17 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 3cb8d1566e0ce1356c864e360f660a739d0a472a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 92%
+source-wordcount: '252'
+ht-degree: 90%
 
 ---
 
 
 # Modelos de experiencia digital {#architecture}
 
-+ [Información general](/help/blueprints/overview.md)
++ [Modelos de experiencias digitales](/help/blueprints/overview.md)
 + Modelos sectoriales verticales {#vertical-blueprints}
    + [Información general](/help/blueprints/vertical-blueprints/overview.md)
    + [Moda](/help/blueprints/vertical-blueprints/apparel.md)
