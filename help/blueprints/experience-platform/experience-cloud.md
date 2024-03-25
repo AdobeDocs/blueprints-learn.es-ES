@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: acbf600dbfb711c99eda2029bd48549e673f0361
+source-git-commit: 20ec9197752bbafea6e601d7a36406b5786f372b
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 79%
@@ -20,7 +20,7 @@ Estos diagramas muestran cómo las aplicaciones Experience Cloud, los servicios 
 
 En el siguiente diagrama se ilustran los distintos componentes de Adobe Experience Cloud en Perspectivas de datos y audiencias, Contenido y comercio, Recorridos del cliente, Flujo de trabajo de marketing, creados e integrados en la base de Adobe Experience Platform.
 
-<img src="assets/AEC.png" alt="Información general del Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.jpg" alt="Información general del Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## Arquitectura de integración de datos y perspectivas, Contenido y comercio y Entrega de experiencias
