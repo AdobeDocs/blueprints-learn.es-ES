@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 886cae3895f3adc85f516ab8b4241bfe1fa9a541
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 98%
+source-wordcount: '838'
+ht-degree: 91%
 
 ---
 
@@ -90,11 +90,11 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es" style="color:#0563c1; text-decoration:underline">API de Edge Network</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es" style="color:#0563c1; text-decoration:underline">[!DNL Edge Network] API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Recopilación a partir de orígenes de flujo, transacciones, eventos relevantes del cliente y señales de Edge Network distribuida globalmente</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Recopilación de fuentes de flujo continuo, transacciones, eventos de clientes relevantes y señales de la distribución global [!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -102,7 +102,7 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Los datos se transmiten a través de Edge Network. Es compatible con la segmentación en tiempo real en Edge. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Los datos se transmiten a través del [!DNL Edge Network]. Es compatible con la segmentación en tiempo real en Edge. </span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -156,7 +156,7 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Edge Network</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">[!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -268,9 +268,9 @@ El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio 
 
 | Métodos de ingesta | Descripción |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK web/móvil | Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Transmisión de la ingesta a Perfil &lt; 15 minutos en el percentil 95</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</ul>Documentación: <ul><li>[SDK Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)</li><li>[Tutorial de implementación de Adobe Experience Cloud con SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es)</li><li>[SDK móvil](https://experienceleague.adobe.com/docs/mobile.html?lang=es)</li><li>[Tutorial sobre implementación de Adobe Experience Cloud en aplicaciones móviles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=es)</li></ul> |
-| Orígenes de flujo | [Orígenes de flujo](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors)<br>Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li></ul> |
-| API de flujo | [API del servidor de Edge Network (preferida)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es): admite los servicios de Edge, incluida la segmentación de Edge y <br>[API Data Collection Core Service](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=es): no admite los servicios de Edge, dirige directamente al hub.<br>Latencia:<ul><li>Tiempo real, misma colección de páginas que Edge Network.</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#what-can-you-do-with-streaming-ingestion%3F) |
+| SDK web/móvil | Latencia:<ul><li>Tiempo real: la misma colección de páginas que [!DNL Edge Network]</li><li>Transmisión de la ingesta a Perfil &lt; 15 minutos en el percentil 95</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</ul>Documentación: <ul><li>[SDK Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)</li><li>[Tutorial de implementación de Adobe Experience Cloud con SDK web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=es)</li><li>[SDK móvil](https://experienceleague.adobe.com/docs/mobile.html?lang=es)</li><li>[Tutorial sobre implementación de Adobe Experience Cloud en aplicaciones móviles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=es)</li></ul> |
+| Orígenes de flujo | [Orígenes de flujo](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors)<br>Latencia:<ul><li>Tiempo real: la misma colección de páginas que [!DNL Edge Network]</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li></ul> |
+| API de flujo | [[!DNL Edge Network] API de servidor (preferido)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es) : admite servicios perimetrales, incluida la segmentación de Edge y <br>[API del servicio principal de recopilación de datos](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=es) : no admite servicios perimetrales, enruta directamente al concentrador.<br>Latencia:<ul><li>Tiempo real: la misma colección de páginas que [!DNL Edge Network]</li><li>Ingesta de flujo al perfil ~1 minuto.</li><li>Ingesta de flujo al repositorio de datos (lote pequeño ~15 minutos).</li><li>7 GB/hora</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es#what-can-you-do-with-streaming-ingestion%3F) |
 | Herramientas ETL | Utiliza herramientas ETL para modificar y transformar datos empresariales antes de su ingesta en Experience Platform.<br><br>Latencia:<ul><li>El tiempo depende de la programación de la herramienta ETL externa. A continuación, se aplican guardas estándar de ingesta según el método de ingesta utilizado.</li></ul> |
 | Orígenes por lote | Extracción programada desde origen<br>Latencia: ~ 200 GB/hora.<br><br>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es#connectors)<br>[Tutoriales en vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=es) |
 | API por lote | Latencia:<ul><li>Ingesta por lotes a perfiles condicionados por tamaño y carga de tráfico ~45 minutos.</li><li>Ingesta por lotes a repositorios de datos condicionados por tamaño y carga de tráfico.</li></ul>[Documentación](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=es#batch) |

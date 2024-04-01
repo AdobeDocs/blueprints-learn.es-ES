@@ -1,13 +1,13 @@
 ---
-title: 'Sector del turismo y la hostelería: activación con datos en línea y sin conexión'
-description: Decisiones en tiempo real con una vista única consolidada del comportamiento del cliente en varios canales.
+title: 'Viajes y hospitalidad: activación con datos en línea y sin conexión'
+description: Aprenda a tomar decisiones en tiempo real con una sola vista consolidada del comportamiento de los clientes en varios canales.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Aprovechando las tecnologías y servicios de Adobe, esta organización está pre
 |---|---|---|
 | **Haga que cada experiencia sea relevante para ese invitado **<br></br>** Perspectivas empresariales y democracia de datos a través de paneles **<br></br>** Eficacia organizativa y operativa**</ul> | <ul><li>Creación de perfiles de invitado de programas de recompensas unificadas mediante datos en línea y sin conexión para activación y medición</li><li>Activación en tiempo real en diferentes canales a velocidad y escala</li><li>Capacidad de análisis de nivel de cliente desbloqueada con Customer Journey Analysis</li><li>Desarrolle inteligencia para mejorar la activación aprendiendo de los datos históricos de interacción del flujo de navegación.</li><li>Utilice los datos en línea y sin conexión para unificar una vista del cliente para obtener información sobre los recorridos y canales de los clientes.</li></ul> | <ul><li><strong> Activación en canales múltiples: </strong>impulsar la participación por correo electrónico para triplicarla, impulsar las audiencias direccionables y aumentar las impresiones, y experiencias web altamente personalizadas </li><li><strong>Inteligencia: </strong>el programa de premios a los invitados ofrece una campaña de activación para reducir las tasas de pérdida de miembros</li><li><strong>Informes: </strong>combinación de datos en línea y sin conexión con información de IA/ML en un panel de recorrido y atribución compatible con la empresa, a la vez que se reduce la latencia (en días)</li><li><strong>Pila de tecnología preparada para el futuro: </strong>decenas de millones de perfiles en 7 canales listos para ejecutarse en escenarios de optimización de ventas cruzadas, ventas superiores y gastos</li></ul> |
 
-## Modelo principal: activación con datos en línea y sin conexión
+## Modelo principal: Activación con datos en línea y sin conexión
 
 ### Descripción
 

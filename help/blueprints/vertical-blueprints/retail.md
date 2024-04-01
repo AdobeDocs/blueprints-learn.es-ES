@@ -1,13 +1,13 @@
 ---
-title: 'Sector minorista: activación con aplicaciones de Experience Cloud'
-description: Ofrezca experiencias del cliente en tiempo real en medios digitales, correo electrónico, mensajes push y canales web.
+title: 'Industria minorista: activación con aplicaciones Experience Cloud'
+description: Obtenga información sobre cómo ofrecer experiencias de cliente en tiempo real en medios digitales, correo electrónico, push y canales web.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 99%
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,6 @@ Esta empresa de experiencia integrada tenía como objetivo personalizar todo el 
 
 
 ## Modelos relacionados
-
 
 | Caso de uso/Integración  | Vínculo |
 |:----|:----|

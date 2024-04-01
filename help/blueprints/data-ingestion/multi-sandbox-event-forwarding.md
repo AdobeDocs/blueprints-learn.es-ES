@@ -4,10 +4,10 @@ description: Descubra cómo se pueden configurar los datos recopilados con los S
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +44,7 @@ No se considera que el [!UICONTROL reenvío de eventos] esté preparado para cum
 
 ### Secuencias de datos y puntos de conexión de streaming distintos
 
-A medida que los datos se transmiten a través de secuencias de datos desde [!UICONTROL Platform Edge Network], al utilizar el [!UICONTROL reenvío de eventos] a otra zona protegida de AEP, un requisito que se debe cumplir es no utilizar nunca la misma secuencia de datos o punto de conexión de streaming que la secuencia de datos que realiza la recopilación original. Esto puede resultar perjudicial para la instancia de AEP y posiblemente provocar una situación de DoS.
+A medida que los datos fluyen por flujos de datos desde [!DNL Platform Edge Network], al utilizar [!UICONTROL Reenvío de eventos] En otra zona protegida de AEP, un requisito es no utilizar nunca el mismo conjunto de datos o punto final de flujo que el conjunto de datos que hace la colección original. Esto puede resultar perjudicial para la instancia de AEP y posiblemente provocar una situación de DoS.
 
 ### Volúmenes de tráfico estimados
 
@@ -54,11 +54,11 @@ Es necesario revisar los volúmenes de tráfico en cada caso de uso. Esto es imp
 
 ![Zona protegida múltiple [!UICONTROL Reenvío de eventos]](assets/multi-sandbox-data-collection.png)
 
-1. Es necesario recopilar y enviar datos de evento a [!UICONTROL Platform Edge Network] para utilizar el [!UICONTROL reenvío de eventos]. Los clientes pueden utilizar las etiquetas de Adobe para el lado del cliente o la API del servidor de [!UICONTROL Platform Edge Network] para la recopilación de datos de servidor a servidor. La API de [!UICONTROL Platform Edge Network] puede ofrecer una funcionalidad de recopilación de servidor a servidor. Sin embargo, su implementación requiere un modelo de programación diferente. Consulte la [información general sobre la API del servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es).
+1. Recopilación y envío de datos de evento a [!DNL Platform Edge Network] es necesario para utilizar [!UICONTROL Reenvío de eventos]. Los clientes pueden utilizar etiquetas de Adobe para el lado del cliente o el [!DNL Platform Edge Network Server API] para la recopilación de datos de servidor a servidor. El [!DNL Platform Edge Network API] puede proporcionar una capacidad de recopilación de servidor a servidor. Sin embargo, su implementación requiere un modelo de programación diferente. Consulte la [información general sobre la API del servidor de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es).
 
-1. Las cargas útiles recopiladas se envían desde la implementación de etiquetas a [!UICONTROL Platform Edge Network] y luego al servicio de [!UICONTROL reenvío de eventos], y se procesan mediante sus propios [!UICONTROL elementos de datos], [!UICONTROL reglas] y [!UICONTROL acciones]. Puede obtener más información sobre las diferencias entre las [etiquetas y el [!UICONTROL reenvío de eventos]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=es#differences-from-tags).
+1. Las cargas útiles recopiladas se envían desde la implementación de etiquetas a [!DNL Platform Edge Network] a la [!UICONTROL Reenvío de eventos] servicio y procesado por su propia cuenta [!UICONTROL Elementos de datos], [!UICONTROL Reglas] y [!UICONTROL Acciones]. Puede obtener más información sobre las diferencias entre las [etiquetas y el [!UICONTROL reenvío de eventos]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=es#differences-from-tags).
 
-1. También es necesaria una propiedad de [!UICONTROL reenvío de eventos] para recibir los datos de evento recopilados de [!UICONTROL Platform Edge Network]. independientemente de si los datos de evento se enviaron a Platform Edge Network mediante una implementación de etiquetas implementada o una recopilación de servidor a servidor. Los autores definen los elementos de datos, las reglas y las acciones que se utilizan para mejorar los datos de evento antes del reenvío a la segunda zona protegida. Considere la posibilidad de utilizar el elemento de datos de código personalizado [!DNL JavaScript] para estructurar los datos para la ingesta en zonas protegidas. En combinación con las funcionalidades de preparación de datos de Platform, tiene varias opciones para administrar la estructura de datos.
+1. Un [!UICONTROL Reenvío de eventos] también es necesaria para recibir los datos de evento recopilados del [!DNL Platform Edge Network]. Si los datos de evento se enviaron a [!DNL Platform Edge Network] mediante una implementación de Etiquetas implementada o una colección de servidor a servidor. Los autores definen los elementos de datos, las reglas y las acciones que se utilizan para mejorar los datos de evento antes del reenvío a la segunda zona protegida. Considere la posibilidad de utilizar el elemento de datos de código personalizado [!DNL JavaScript] para estructurar los datos para la ingesta en zonas protegidas. En combinación con las funcionalidades de preparación de datos de Platform, tiene varias opciones para administrar la estructura de datos.
 
 1. Actualmente, es necesario el uso de la extensión de Adobe [!UICONTROL Cloud Connector] en la propiedad de [!UICONTROL reenvío de eventos]. Una vez que las reglas procesan o mejoran los datos de evento, Cloud Connector se utiliza en una llamada de recuperación configurada para realizar una solicitud POST que envía la carga útil a la segunda zona protegida.
 

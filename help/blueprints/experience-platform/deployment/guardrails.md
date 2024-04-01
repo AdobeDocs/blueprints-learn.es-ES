@@ -4,9 +4,9 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ Las siguientes páginas proporcionan información sobre las protecciones para la
 **servicios de Experience Platform**
 
 * [Guardas de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [Protecciones de la API de red Edge](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] Protecciones de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [Perfil del cliente en tiempo real y protecciones de segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * [Guardas de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=es)
 * [Guardas del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=es)
@@ -46,7 +46,7 @@ Las siguientes páginas proporcionan información sobre las protecciones para la
 
 En el diagrama siguiente se muestran las latencias observadas en el eje y la arista principales que deben tenerse en cuenta al crear casos de uso en el Experience Platform y las aplicaciones.
 
-![Latencias observadas principales de Experience Platform Edge Network y hub.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Latencias observadas principales de Experience Platform Edge Network y hub"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] latencias observadas principales de y hub.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Latencias observadas principales de Experience Platform Edge Network y hub"){width="1000" zoomable="yes"}
 
 ### Ingesta de datos {#data-ingestion}
 
@@ -60,9 +60,9 @@ El diagrama siguiente muestra los valores de latencia esperados al trabajar con 
 
 ![Resumen visual de alto nivel de segmentación.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Información general visual de alto nivel de segmentación y valores de latencia"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform y Edge Network {#adobe-edge-latency}
+### REAL-TIME CUSTOMER DATA PLATFORM y [!DNL Edge Network] {#adobe-edge-latency}
 
-El diagrama siguiente muestra los valores de latencia esperados al aprovechar Edge Network; por ejemplo, para aprovechar las audiencias de RTCDP en [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es). Haga clic en la imagen para ver una versión de alta resolución.
+El diagrama siguiente muestra los valores de latencia esperados al aprovechar el [!DNL Edge Network] : por ejemplo, para aprovechar las audiencias de RTCDP en [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=es). Haga clic en la imagen para ver una versión de alta resolución.
 
 ![Información general visual de alto nivel sobre Adobe Edge Network y Experience Platform.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Información general y latencia visual de alto nivel sobre la exportación de audiencias a Adobe Target"){width="1000" zoomable="yes"}
 

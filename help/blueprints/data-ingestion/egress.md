@@ -1,21 +1,25 @@
 ---
 title: Modelo de acceso y exportación de datos
-description: Este modelo proporciona información general sobre todos los métodos mediante los cuales se puede acceder y exportar datos desde Adobe Experience Platform y aplicaciones.
+description: Obtenga información sobre los métodos mediante los cuales se puede acceder a los datos y exportarlos desde Adobe Experience Platform y aplicaciones.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 91%
 
 ---
 
 # Modelo de acceso y exportación de datos
 
-El modelo de acceso y exportación de datos describe todos los métodos posibles para acceder a los datos o exportarlos desde Adobe Experience Platform y aplicaciones.
+El modelo Acceso a datos y Exportación describe todos los métodos posibles por los que se puede acceder a los datos o exportarlos desde [!DNL Experience Platform] y aplicaciones.
 
-El modelo se divide en dos categorías para el acceso a los datos desde Experience Platform y aplicaciones. En primer lugar, los enfoques para extraer datos de Experience Platform y aplicaciones; esto se consideraría un método de tipo push de salida de datos. En segundo lugar, los enfoques para el acceso a los datos de Experience Platform y aplicaciones; esto se consideraría un método de tipo pull de acceso a datos.
+El modelo se divide en dos categorías para el acceso a los datos desde [!DNL Experience Platform] y aplicaciones.
+
+El primero incluye enfoques para la salida de datos del Experience Platform y las aplicaciones. Esto se consideraría un _push_ método de tipo de salida de datos.
+
+El segundo incluye enfoques para el acceso a los datos desde el Experience Platform y las aplicaciones. Esto se consideraría un _extraer_ método de tipo de acceso a datos.
 
 Enfoques de acceso a datos:
 
@@ -30,11 +34,11 @@ Enfoques de exportación de datos:
 * [Destinos de Real-Time Customer Data Platform](#RTCDP-destinations)
 * [Acciones personalizadas de Journey Optimizer](#jo-custom-actions)
 
-## Arquitectura general de acceso y exportación de datos
+## Arquitectura de información general de acceso a datos y exportación
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Arquitectura de referencia para el modelo de preparación e ingesta de datos" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
-## Métodos de acceso y exportación de datos
+## Métodos de acceso a datos y exportación
 
 <table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
 <tbody>
@@ -408,7 +412,7 @@ Consulte la documentación [Información general sobre etiquetas](https://experi
 
 ### Reenvío de eventos {#event-forwarding}
 
-Las solicitudes de recopilación de datos se recopilan directamente en la red Edge de Adobe. Desde la red Edge se pueden configurar las solicitudes hasta los extremos externos RESTful para que estas se reenvíen al destino externo.
+Las solicitudes de recopilación de datos se recopilan directamente en la base de datos de Adobe [!DNL Edge Network]. Desde el [!DNL Edge Network] Las solicitudes a extremos RESTful externos se pueden configurar para reenviar estas solicitudes al destino externo.
 
 Consulte la documentación siguiente [Reenvío de eventos](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=es) para obtener más información.
 
@@ -418,7 +422,7 @@ Consulte la documentación siguiente [Reenvío de eventos](https://experiencelea
 
 #### Consideraciones
 
-* Para utilizar el reenvío de eventos, los datos deben enviarse a la red Edge mediante el SDK web o el SDK móvil.
+* Para utilizar el reenvío de eventos, los datos deben enviarse a [!DNL Edge Network] mediante el SDK web o el SDK móvil.
 * El método de reenvío de eventos reduce el tiempo y el peso de la carga de la página porque se agregan etiquetas adicionales a la página.
 * Actualmente no se admite ningún enriquecimiento del perfil de Edge u otras fuentes de datos.
 * Los filtrados de datos limitados y las transformaciones de asignación sencillas son compatibles.

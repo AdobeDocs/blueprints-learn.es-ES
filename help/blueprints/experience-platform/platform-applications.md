@@ -1,36 +1,43 @@
 ---
-title: Diagramas de la arquitectura de Adobe Experience Platform y otras aplicaciones
-description: Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relaciona con otras aplicaciones y servicios de aplicaciones de Adobe Experience Cloud.
+title: Diagramas de arquitectura de aplicaciones y Experience Platform (AEP)
+description: Vea diagramas de arquitectura que muestran la relación de Adobe Experience Platform (AEP) con otras aplicaciones y servicios de aplicaciones de Experience Cloud.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 91%
 
 ---
 
-# Diagramas de la arquitectura de Adobe Experience Platform y otras aplicaciones
+# Diagramas de arquitectura de aplicaciones y Adobe Experience Platform
 
-## Diagrama de la arquitectura de Adobe Experience Platform y otras aplicaciones
+Estos diagramas de arquitectura muestran cómo se relaciona Experience Platform (AEP) con otras aplicaciones y servicios de aplicaciones de Experience Cloud.
+
+>[!MORELIKETHIS]
+>
+>[Configuraciones de integración para integraciones de aplicaciones de Experience Cloud](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+
+
+## Diagrama de arquitectura
 
 Este diagrama de arquitectura muestra cómo Adobe Experience Platform se relaciona con las aplicaciones y los servicios de aplicaciones de Adobe Experience Cloud.
 
 <img src="assets/aep+apps.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Diagrama de información general sobre Adobe Experience Platform y otras aplicaciones
+## Diagrama de información general
 
 <img src="assets/aep+apps_overview.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Diagrama detallado de la arquitectura de Adobe Experience Platform y otras aplicaciones
+## Diagrama detallado de la arquitectura
 
 <img src="assets/aep+apps_detailed.svg" alt="Experience Platform y otras aplicaciones" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Integración de aplicaciones de Experience Cloud y Adobe Experience Platform
+## Integraciones de aplicaciones de AEP y Experience Cloud
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>
