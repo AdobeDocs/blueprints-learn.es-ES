@@ -4,22 +4,22 @@ description: Obtenga información sobre los métodos mediante los cuales se pued
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1834'
 ht-degree: 91%
 
 ---
 
-# Modelo de acceso y exportación de datos
+# Acceso a datos y modelo de exportación
 
-El modelo Acceso a datos y Exportación describe todos los métodos posibles por los que se puede acceder a los datos o exportarlos desde [!DNL Experience Platform] y aplicaciones.
+El modelo de acceso y exportación de datos describe todos los métodos posibles por los que se puede acceder a los datos o exportarlos desde [!DNL Experience Platform] y aplicaciones.
 
 El modelo se divide en dos categorías para el acceso a los datos desde [!DNL Experience Platform] y aplicaciones.
 
-El primero incluye enfoques para la salida de datos del Experience Platform y las aplicaciones. Esto se consideraría un _push_ método de tipo de salida de datos.
+El primero incluye métodos para la salida de datos de [!DNL Experience Platform] y aplicaciones. Esto se consideraría un _push_ método de tipo de salida de datos.
 
-El segundo incluye enfoques para el acceso a los datos desde el Experience Platform y las aplicaciones. Esto se consideraría un _extraer_ método de tipo de acceso a datos.
+El segundo incluye enfoques para el acceso a datos de [!DNL Experience Platform] y aplicaciones. Esto se consideraría un _extraer_ método de tipo de acceso a datos.
 
 Enfoques de acceso a datos:
 
