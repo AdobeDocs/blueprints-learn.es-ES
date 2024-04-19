@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 55%
+source-wordcount: '240'
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 55%
       + [Guardas](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activación de audiencias y perfiles {#audience-activation}
    + [Información general](/help/blueprints/audience-activation/overview.md)
-   + [Audience Activation AAM anónimo ()](/help/blueprints/audience-activation/anonymous.md)
+   + [Activación de audiencia anónima ](/help/blueprints/audience-activation/anonymous.md)
    + Activación de cliente conocida (RTCDP) {#known-customer-audience-activation}
       + [Información general](/help/blueprints/audience-activation/known.md)
       + [Activación en canales sociales y publicitarios](/help/blueprints/audience-activation/advertising-activation.md)
