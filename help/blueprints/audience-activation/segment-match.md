@@ -5,8 +5,8 @@ solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2126'
-ht-degree: 79%
+source-wordcount: '2118'
+ht-degree: 80%
 
 ---
 
@@ -44,7 +44,7 @@ La [!UICONTROL Coincidencia de segmentos] ayuda a los equipos de marketing dispa
 
 ## Arquitectura
 
-![Arquitectura de coincidencia de segmentos](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![Arquitectura de la Coincidencia de segmentos](assets/architecture-segment-match.png){zoomable="yes"}
 
 La [!UICONTROL Coincidencia de segmentos] no es un marketplace en el que se puedan adquirir datos. Es más bien una función de AEP que funciona con datos propios con socios seleccionados, utilizando controles de privacidad y consentimiento para ayudar a colaborar. La [!UICONTROL Coincidencia de segmentos] ayuda a centrar los esfuerzos en mejorar las relaciones con los clientes y en hacer crecer la marca. Resulta beneficiosa cuando hay marcas o relaciones con socios ya existentes. La experiencia de la [!UICONTROL Coincidencia de segmentos] es fácil de administrar, es escalable y permite a los administradores compartir segmentos de forma opcionalmente inclusiva y controlable.
 
@@ -77,7 +77,7 @@ Estos son los requisitos previos para la [!UICONTROL Coincidencia de segmentos]:
 
 El flujo de la [!UICONTROL Coincidencia de segmentos] para administrar socios está protegido mediante RBAC. Solo las personas con el permiso adecuado pueden iniciar, aceptar o administrar socios. Estas acciones se pueden llevar a cabo en la sección de ingesta de datos del perfil de producto. Se requieren los siguientes permisos:
 
-![Conexión de Audience Share](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![Conexión de uso compartido de audiencias](assets/data-ingestion.png){zoomable="yes"}
 
 | Permiso | Descripción |
 |---|---|
@@ -140,13 +140,13 @@ Como parte de este flujo de trabajo de uso compartido de segmentos, el socio rem
 
 El flujo general de proceso es el siguiente:
 
-![Uso compartido de segmentos](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
+![Uso compartido de segmentos](assets/segment-sharing.png){zoomable="yes"}
 
 Estas estimaciones de superposición ofrecen información clave, descubrimiento de socios y datos para impulsar posibles acuerdos de colaboración de datos. No se mueve ningún dato de cliente o segmento entre zonas protegidas para obtener estas métricas de estimación de superposición. Las identidades aplicables con hash previo y seleccionadas por el cliente en cualquier zona protegida determinada se añaden a una estructura de datos probabilística que permite a Adobe realizar operaciones de unión e intersección entre ellas. Estas operaciones ayudan a la [!UICONTROL Coincidencia de segmentos] a obtener la intersección estimada de dos estructuras de datos compuestas de identidades de dos zonas protegidas diferentes sin tener que comparar los valores reales.
 
 El proceso de superposición de identidades depende del conjunto de datos de **exportación diaria de perfil completo** de las zonas protegidas del remitente y el destinatario, para identificar perfiles comunes que pertenezcan a los segmentos compartidos. A continuación se muestra el flujo de proceso detallado para el proceso de superposición:
 
-![Proceso de superposición de identidad](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![Proceso de superposición de identidades](assets/overlap-process.png){zoomable="yes"}
 
 Una vez que el socio remitente ha completado el uso compartido de segmentos, el destinatario recibe una notificación sobre la fuente de segmentos compartida. Esta fuente de segmentos debe estar habilitada para que el perfil del destinatario inicie el flujo de datos de suscripción de segmentos. La suscripción de segmentos solo se ingiere en los fragmentos de perfil de superposición de la organización de IMS del destinatario, y no se transfiere ninguna identidad adicional del remitente al destinatario.
 
@@ -170,7 +170,7 @@ Con las crecientes restricciones en torno a las cookies de terceros y los identi
 
 Puede utilizar Coincidencia de segmentos de Adobe Experience Platform para colaborar en audiencias centradas en la privacidad y mejorar las ofertas privadas programáticas entre anunciantes y editores. Con Coincidencia de segmentos, puede:
 
-* Split **Tráfico publicitario** y **Audiencia** flujos de trabajo.
+* Dividir **tráfico de anuncios** y **Audiencia** flujos de trabajo.
 * Permita que las marcas asociadas compartan metadatos de audiencia para identidades mutuamente compartidas y consentidas mediante identificadores duraderos, como correo electrónico con hash y número de teléfono con hash, dentro de un proceso impuesto por el consentimiento.
 
 ### Casos de uso
@@ -181,7 +181,7 @@ Puede utilizar Coincidencia de segmentos de Adobe Experience Platform para colab
 
 >[!BEGINSHADEBOX]
 
-**Consideremos el siguiente ejemplo de flujo de trabajo entre una marca (Luma) y una red de medios (ACME):**
+**Consideremos el siguiente ejemplo de flujo de trabajo entre una marca (Luma) y una red multimedia (ACME):**
 
 1. Una marca (Luma) lleva a cabo una coincidencia de audiencia con una red de medios (ACME) mediante Coincidencia de segmentos.
 2. ACME envía la audiencia al servidor de publicidad o al SSP programático a través de los destinos de Adobe Real-Time CDP.
@@ -194,7 +194,7 @@ Puede utilizar Coincidencia de segmentos de Adobe Experience Platform para colab
 
 >[!ENDSHADEBOX]
 
-![Diagrama del flujo de trabajo entre marca y editor.](./assets/segment-match-blueprints.png)
+![Diagrama del flujo de trabajo entre la marca y el editor.](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >

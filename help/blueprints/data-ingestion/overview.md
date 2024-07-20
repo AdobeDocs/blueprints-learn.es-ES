@@ -1,6 +1,6 @@
 ---
 title: Preparación y recopilación de datos
-description: Conozca los métodos mediante los cuales se pueden introducir y preparar los datos en Adobe [!DNL Experience Platform].
+description: Conozca los métodos mediante los cuales se pueden introducir y preparar los datos en el Adobe  [!DNL Experience Platform].
 solution: Data Collection
 kt: 7204
 thumbnail: null
@@ -20,5 +20,5 @@ La preparación de datos incluye mapear los datos de origen en el esquema del Mo
 
 | Modelo | Descripción | Aplicaciones de Experience Cloud |
 |---|---|---|
-| **[Preparación e ingesta de datos](ingestion.md)** | <ul><li>El modelo de preparación e ingesta de datos abarca todos los métodos mediante los cuales se pueden preparar e ingerir datos en el Adobe [!DNL Experience Platform].</ul></li> | <ul><li> Adobe[!DNL Experience Platform] </ul></li> |
+| **[Preparación e ingesta de datos](ingestion.md)** | <ul><li>Modelo de preparación e ingesta de datos incluye todos los métodos mediante los cuales se pueden preparar e ingerir datos en el Adobe [!DNL Experience Platform].</ul></li> | <ul><li> Adobe[!DNL Experience Platform] </ul></li> |
 | **[Recopilación de datos empresariales del lado del servidor](server-side-collection.md)** | <ul><li>Activación de destinos conocidos basados en perfiles, tales como proveedores de email, redes sociales y destinos de publicidad. </li><li>Utilización de atributos y eventos sin conexión, tales como pedidos sin conexión, transacciones, CRM o datos de fidelidad y comportamiento en línea para la segmentación y personalización en línea.</li></ul> | <ul><li>Adobe[!DNL Experience Platform]</li><li> [!UICONTROL Real-Time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |

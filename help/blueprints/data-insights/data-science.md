@@ -1,6 +1,6 @@
 ---
 title: Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
-description: Descubra cómo se pueden introducir perspectivas basadas en la ciencia de datos en [!DNL Experience Platform] para enriquecer el Perfil del cliente en tiempo real.
+description: Descubra cómo se pueden ingerir perspectivas basadas en la ciencia de datos en  [!DNL Experience Platform] para enriquecer el Perfil del cliente en tiempo real.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
@@ -13,7 +13,7 @@ ht-degree: 69%
 
 # Ciencia de datos personalizada para modelo de enriquecimiento de perfil
 
-El modelo de ciencia de datos personalizada para enriquecimiento de perfiles ilustra cómo se pueden utilizar los datos para entrenar, implementar y puntuar modelos para proporcionar perspectivas de aprendizaje automático en [!DNL Experience Platform] y el [!DNL Real-Time Customer Data Platform] de las herramientas de ciencia de datos y aprendizaje automático.
+El modelo de enriquecimiento de perfil de ciencia de datos personalizada ilustra cómo se pueden usar los datos para entrenar, implementar y puntuar modelos para proporcionar perspectivas de aprendizaje automático de [!DNL Experience Platform] y [!DNL Real-Time Customer Data Platform] desde la ciencia de datos y las herramientas de aprendizaje automático.
 
 Las perspectivas modeladas se pueden ingerir en [!DNL Experience Platform] para enriquecer el perfil del cliente en tiempo real. Algunos ejemplos de datos recogidos por el aprendizaje informático incluyen calificación de valor de duración, afinidad de categoría y producto o tendencia a la conversión o cancelación.
 
@@ -29,13 +29,13 @@ Las perspectivas modeladas se pueden ingerir en [!DNL Experience Platform] para 
 
 ## Guardas
 
-* Para obtener protecciones detalladas y latencias de extremo a extremo en la ingesta de resultados de ciencia de datos en [!DNL Experience Platform] y el Perfil del cliente en tiempo real hacen referencia a las protecciones de ingesta de datos y al diagrama de latencia al que se hace referencia en la [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md).
+* Para obtener protecciones detalladas y latencias de extremo a extremo sobre la ingesta de resultados de ciencia de datos en [!DNL Experience Platform] y el perfil del cliente en tiempo real, consulte las protecciones de ingesta de datos y el diagrama de latencia a los que se hace referencia en el [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md).
 
 ## Pasos de implementación
 
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
-1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
+1. [Ingresar datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
 
 Para que los resultados del modelo se ingieran en Real-Time Customer Profile, debe hacer lo siguiente antes de introducir los datos:
 
@@ -61,6 +61,6 @@ Para que los resultados del modelo se ingieran en Real-Time Customer Profile, de
 ## Entradas relacionadas en el blog
 
 * [IA para contenido y comercio: personalizar las interacciones con el cliente a través de la inteligencia de contenido](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [Una mirada introductoria al análisis exploratorio de datos sobre el Adobe [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
+* [Introducción al análisis exploratorio de datos en el Adobe [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
 * [Atajar productos de Adobe Experience con el aprendizaje automático para conseguir una mejor experiencia del usuario](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
-* [Segmentation.AI: Automated Audience-Clustering-as-a-Service en Adobe [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
+* [Segmentation.AI: clúster de audiencias automatizado como servicio en el Adobe [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)

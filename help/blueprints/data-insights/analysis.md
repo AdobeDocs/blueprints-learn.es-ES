@@ -1,6 +1,6 @@
 ---
 title: Modelo de análisis de datos e inteligencia
-description: Usar Adobe [!DNL Experience Platform] AEM () para realizar consultas exploratorias y análisis de los datos que existen en el lago de datos.
+description: Utilice el Adobe AEM  [!DNL Experience Platform] () para realizar consultas exploratorias y análisis de los datos que existen en el lago de datos.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
@@ -14,11 +14,11 @@ ht-degree: 59%
 
 # Modelo de análisis de datos e inteligencia
 
-El análisis y la inteligencia de datos comprenden la capacidad dentro de [!DNL Experience Platform] para realizar consultas exploratorias y análisis de los datos que existen en el lago de datos.
+El análisis y la inteligencia de datos comprende la capacidad de [!DNL Experience Platform] para realizar consultas exploratorias y análisis de los datos que existen en el lago de datos.
 
-[!DNL Experience Platform]de [!UICONTROL Servicio de consultas] permite realizar consultas SQL en los datos.
+El [!UICONTROL servicio de consulta] de [!DNL Experience Platform] permite realizar consultas SQL en los datos.
 
-[!DNL Experience Platform] permite conexiones con clientes SQL de terceros, interfaces y herramientas de Business Intelligence (BI) para conectarse directamente a los datos de, acceder a ellos y consultarlos [!DNL Experience Platform], usando el [!DNL PostgreSQL] protocolo.
+[!DNL Experience Platform] permite que las conexiones con clientes SQL de terceros, interfaces y herramientas de Business Intelligence (BI) se conecten directamente a los datos de [!DNL Experience Platform], accedan a ellos y los consulten mediante el protocolo [!DNL PostgreSQL].
 
 ## Casos de uso
 
@@ -45,7 +45,7 @@ Consulte la documentación del producto Query Service para obtener más informac
 
 1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
-1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
+1. [Ingresar datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
 1. Confirme que los datos están disponibles para [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=es).
 1. [Conectar herramientas de inteligencia empresarial y clientes SQL a [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=es) para la posterior visualización, consulta y análisis de datos.
 

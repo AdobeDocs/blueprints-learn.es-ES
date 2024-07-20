@@ -1,6 +1,6 @@
 ---
-title: SDK web/móvil, [!DNL Edge Network] Diagrama de arquitectura de implementación
-description: Este modelo muestra la arquitectura y la ingesta a través del SDK web y móvil de Experience Platform y [!DNL Edge Network]
+title: SDK web/móvil, [!DNL Edge Network] diagrama de arquitectura de implementación
+description: Este modelo muestra la arquitectura y la ingesta a través del SDK móvil y web de Experience Platform y  [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
@@ -13,9 +13,9 @@ ht-degree: 69%
 ---
 
 
-# SDK web de Experience Platform &amp; [!DNL Edge Network] diagrama de arquitectura
+# SDK web de Experience Platform y diagrama de arquitectura de [!DNL Edge Network]
 
-Para obtener información general y detalles sobre el SDK web y móvil, y la [!DNL Edge Network] La API del servidor de puede consultar lo siguiente.
+Para obtener información general y detalles sobre el SDK web y móvil y la API de servidor [!DNL Edge Network], consulte lo siguiente.
 
 * [Información general del SDK web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=es)
 * [Información general del SDK móvil](https://developer.adobe.com/client-sdks/documentation/)
@@ -32,7 +32,7 @@ Para obtener más información sobre la migración de SDK específicos de aplica
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=es)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=es)
 
-## SDK web/móvil de Experience Platform o [!DNL Edge Network] Implementación de API de servidor
+## Implementación del SDK web/móvil de Experience Platform o de la API de servidor [!DNL Edge Network]
 
 El diagrama de arquitectura siguiente ilustra el despliegue y la recopilación de datos utilizando el SDK web de Experience Platform.
 

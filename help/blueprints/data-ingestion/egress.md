@@ -13,13 +13,13 @@ ht-degree: 91%
 
 # Acceso a datos y modelo de exportación
 
-El modelo de acceso y exportación de datos describe todos los métodos posibles por los que se puede acceder a los datos o exportarlos desde [!DNL Experience Platform] y aplicaciones.
+El modelo de acceso a datos y exportación describe todos los métodos posibles mediante los cuales se puede acceder a datos o exportarlos desde [!DNL Experience Platform] y aplicaciones.
 
-El modelo se divide en dos categorías para el acceso a los datos desde [!DNL Experience Platform] y aplicaciones.
+El modelo se divide en dos categorías para el acceso a los datos desde [!DNL Experience Platform] y las aplicaciones.
 
-El primero incluye métodos para la salida de datos de [!DNL Experience Platform] y aplicaciones. Esto se consideraría un _push_ método de tipo de salida de datos.
+El primero incluye enfoques para la salida de datos de [!DNL Experience Platform] y aplicaciones. Esto se consideraría un método de tipo _push_ de salida de datos.
 
-El segundo incluye enfoques para el acceso a datos de [!DNL Experience Platform] y aplicaciones. Esto se consideraría un _extraer_ método de tipo de acceso a datos.
+El segundo incluye enfoques para acceder a datos de [!DNL Experience Platform] y aplicaciones. Esto se consideraría un método de tipo _pull_ de acceso a datos.
 
 Enfoques de acceso a datos:
 
@@ -412,7 +412,7 @@ Consulte la documentación [Información general sobre etiquetas](https://experi
 
 ### Reenvío de eventos {#event-forwarding}
 
-Las solicitudes de recopilación de datos se recopilan directamente en la base de datos de Adobe [!DNL Edge Network]. Desde el [!DNL Edge Network] Las solicitudes a extremos RESTful externos se pueden configurar para reenviar estas solicitudes al destino externo.
+Las solicitudes de recopilación de datos se recopilan directamente en el Adobe [!DNL Edge Network]. Desde [!DNL Edge Network] solicitudes a extremos RESTful externos se pueden configurar para reenviar estas solicitudes al destino externo.
 
 Consulte la documentación siguiente [Reenvío de eventos](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=es) para obtener más información.
 

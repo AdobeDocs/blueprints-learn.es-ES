@@ -1,6 +1,6 @@
 ---
 title: Modelo de reenvío de eventos
-description: Transmitir datos recopilados por [!DNL Experience Platform] SDK a destinos
+description: Transmitir datos recopilados por  [!DNL Experience Platform] SDK a destinos
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # Modelo de reenvío de eventos
 
-El modelo de reenvío de eventos muestra cómo se recopilan los datos con Adobe [!DNL Experience Platform] Los SDK web y móvil se pueden reenviar desde [!DNL Experience Platform] [!DNL Edge Network] a un destino deseado. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
+El modelo de reenvío de eventos muestra cómo se pueden reenviar los datos recopilados con los SDK web y móvil del Adobe [!DNL Experience Platform] desde [!DNL Experience Platform] [!DNL Edge Network] a un destino deseado. Puede dirigir todos los datos brutos recopilados con los SDK, o bien datos específicos basados en eventos y reglas configurados en propiedades de etiquetas (anteriormente, Launch).
 
 ## Casos de uso
 
@@ -22,7 +22,7 @@ El modelo de reenvío de eventos muestra cómo se recopilan los datos con Adobe 
 
 ## Aplicaciones
 
-* Adobe [!DNL Experience Platform] Recopilación de datos
+* Recopilación de datos del Adobe [!DNL Experience Platform]
 
 ## Arquitectura
 
@@ -37,10 +37,10 @@ El modelo de reenvío de eventos muestra cómo se recopilan los datos con Adobe 
 ## Entradas relacionadas en el blog
 
 * [Aumento del rendimiento del sitio web con Adobe [!DNL Experience Platform] SDK web y [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [Solución de problemas de implementación con Adobe [!DNL Experience Platform] SDK web y [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [Adobe [!DNL Experience Platform] SDK web para Gestión de público](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [Adobe [!DNL Experience Platform] SDK web de Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Solucionando problemas de implementación con Adobe [!DNL Experience Platform] SDK web y [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [Adobe [!DNL Experience Platform] SDK web para la administración de audiencias](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe [!DNL Experience Platform] SDK web - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
 * [Adobe [!DNL Experience Platform] Escenarios de migración del SDK web para Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [Unificar el Adobe [!DNL Experience Platform] Servicios con Adobe [!DNL Experience Platform] SDK web](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [Acelerar el desarrollo de aplicaciones móviles con Adobe [!DNL Experience Platform] SDK móvil y Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
-* [Simplificación de flujos de trabajo de clientes con Adobe [!DNL Experience Platform] SDK web](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
+* [Unificar los servicios de Adobe [!DNL Experience Platform] con Adobe [!DNL Experience Platform] SDK web](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Acelere el desarrollo de aplicaciones móviles con el Adobe [!DNL Experience Platform] SDK móvil y Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Simplificar los flujos de trabajo de los clientes con el Adobe [!DNL Experience Platform] SDK web](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

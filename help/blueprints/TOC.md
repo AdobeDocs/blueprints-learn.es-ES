@@ -16,7 +16,7 @@ ht-degree: 56%
 # Modelos de experiencia digital {#architecture}
 
 + [Modelos de experiencias digitales](/help/blueprints/overview.md)
-+ Planes industriales verticales{#vertical-blueprints}
++ Modelos verticales del sector{#vertical-blueprints}
    + [Información general](/help/blueprints/vertical-blueprints/overview.md)
    + [Moda](/help/blueprints/vertical-blueprints/apparel.md)
    + [Sector minorista](/help/blueprints/vertical-blueprints/retail.md)
@@ -53,7 +53,7 @@ ht-degree: 56%
       + [Admisión y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [Revisar y aprobar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Historias de éxito de clientes](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Content &amp; Commerce de{#content-commerce}
++ Contenido y Commerce{#content-commerce}
    + [ADOBE COMMERCE Y RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
@@ -74,7 +74,7 @@ ht-degree: 56%
       + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=es){target="_blank"}
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
-      + [Real-Time CDP con Adobe [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Real-Time CDP con Adobe  [!DNL Campaign] v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)

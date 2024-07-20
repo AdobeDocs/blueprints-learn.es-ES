@@ -35,7 +35,7 @@ Modelos en la activación de audiencia y perfil
 
 La siguiente ilustración describe los componentes principales de Real-Time Customer Profile de Experience Platform.
 
-Para obtener documentación adicional relacionada con el perfil, la segmentación y la activación, consulte la [Documentación general de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) y el [Resumen del perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) páginas.
+Para obtener documentación adicional relacionada con el perfil, la segmentación y la activación, consulte la [Documentación general de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) y las páginas de [Información general del perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home).
 
 <img src="assets/profile_architecture.jpg" alt="Arquitectura de referencia de Real-Time Customer Profile" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 

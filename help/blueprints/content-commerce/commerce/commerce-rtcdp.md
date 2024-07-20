@@ -6,13 +6,13 @@ exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
 source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # ADOBE COMMERCE Y RTCDP
 
-El [!DNL Data Connection] Esta extensión ayuda a los clientes de Adobe Commerce a integrarse perfectamente con Adobe Experience Platform para enriquecer el perfil del cliente y personalizar experiencias en tiendas digitales y otros canales.
+La extensión [!DNL Data Connection] ayuda a los clientes de Adobe Commerce a integrarse perfectamente con Adobe Experience Platform para enriquecer el perfil del cliente y personalizar experiencias en tiendas digitales y otros canales.
 
 ## Capacidades técnicas habilitadas
 
@@ -23,33 +23,33 @@ El [!DNL Data Connection] Esta extensión ayuda a los clientes de Adobe Commerce
 
 ## Requisitos previos
 
-Para usar la variable [!DNL Data Connection] Extensión, debe tener lo siguiente:
+Para usar la extensión [!DNL Data Connection], debe tener lo siguiente:
 
 * Adobe Commerce 2.4.4 o posterior
 * Adobe ID e ID de organización
 * Adobe Experience Platform/RTCDP
-* [Capa de datos del cliente de Adobe (ACDL)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html). La ACDL es necesaria para recopilar datos de evento de tienda.
+* [Capa de datos de cliente de Adobe (ACDL)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html). La ACDL es necesaria para recopilar datos de evento de tienda.
 
 ## Pasos de incorporación
 
 ### Recopilación de datos de Adobe Commerce a Adobe Experience Platform
 
-* [Instalar](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html) el [!DNL Data Connection] extensión.
-* [Iniciar sesión](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) Vaya a la cuenta de Adobe y consulte para confirmar el ID de organización. El ID de organización es el ID asociado con la empresa de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse).
-* [Crear o actualizar](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html) Cree su esquema XDM con grupos de campos específicos de Commerce.
-* [Crear un conjunto de datos](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) en función del esquema que haya creado o actualizado. Este conjunto de datos contendrá los datos de Commerce que envíe.
-* [Creación de una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) y seleccione el esquema XDM que contiene los grupos de campos específicos de Commerce.
-* [Conexión a los servicios de Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
-* [Conectar con Adobe Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html).
+* [Instalar](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/install.html) la extensión [!DNL Data Connection].
+* [Inicia sesión](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) en tu cuenta de Adobe y consulta para confirmar tu ID de organización. El ID de organización es el ID asociado con la empresa de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse).
+* [Cree o actualice](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html) su esquema XDM con grupos de campos específicos de Commerce.
+* [Crear un conjunto de datos](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) basado en el esquema que creó o actualizó. Este conjunto de datos contendrá los datos de Commerce que envíe.
+* [Cree una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) y seleccione el esquema XDM que contiene los grupos de campos específicos de Commerce.
+* [Conectarse a los servicios de Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+* [Conectarse a Adobe Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html).
 
 ### Conectarse al destino de Commerce desde Adobe Experience Platform para compartir audiencias
 
 Para conectarse al destino de Adobe Commerce:
 
-* En el [Interfaz de Adobe Experience Platform](https://experience.adobe.com/platform/), vaya a Destinos > Catálogo.
-* Seleccione Personalización.
+* En la [interfaz de Adobe Experience Platform](https://experience.adobe.com/platform/), vaya a Destinos > Catálogo.
+* Seleccione Personalization.
 * Seleccione el destino de Adobe Commerce para resaltarlo y, a continuación, seleccione Configurar.
-* Siga los pasos descritos en la sección [tutorial de configuración de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html).
+* Siga los pasos descritos en el [tutorial de configuración de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html).
 
 ## Datos de fábrica
 
@@ -67,6 +67,6 @@ Para obtener una lista completa de los eventos admitidos, consulte [Eventos de C
 
 | Guía | Vínculo |
 |:----|:----|
-| Platform Connector | [Información general sobre el conector del Experience Platform Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
+| Platform Connector | [Descripción general del conector de Experience Platform de Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Destino de Commerce | [Conexión de Adobe Commerce en RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| Personalización de Edge | [Activación de audiencias en destinos de personalización de Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |
+| Edge Personalization | [Activar audiencias en destinos de personalización Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |

@@ -1,5 +1,5 @@
 ---
-title: 'Información general sobre la personalización web/móvil: Adobe Target y RTCDP'
+title: 'Información general sobre Web/Mobile Personalization: Adobe Target y RTCDP'
 description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 landing-page-description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
 short-description: Sincronice la personalización web con el correo electrónico y otras personalizaciones de canales anónimos y conocidos.
@@ -15,7 +15,7 @@ ht-degree: 79%
 ---
 
 
-# Personalización web/móvil con modelo de datos de clientes conocidos
+# Personalization web/móvil con modelo de datos de clientes conocidos
 
 ## Casos de uso
 
@@ -42,8 +42,8 @@ ht-degree: 79%
 
 | Patrón de integración | Capacidad | Requisitos previos |
 |---|---|---|
-| Evaluación de segmentos en tiempo real en Edge compartida desde Real-Time Customer Data Platform en Target | <ul><li>Evalúe las audiencias en tiempo real para la personalización de la misma página o de la siguiente en Edge.</li><li>Además, cualquier segmento evaluado en flujo continuo o en lote también se proyectará a la variable [!DNL Edge Network] para que se incluya en la evaluación y personalización de segmentos de Edge.</li></ul> | <ul><li>El SDK web/móvil debe implementarse para que [!DNL Edge Network] API de servidor</li><li>La secuencia de datos debe estar configurada en Experience Edge con Target y la extensión de Experience Platform habilitadas.</li><li>El destino de Target debe configurarse en los destinos de Real-Time Customer Data Platform.</li><li>La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</li></ul> |
-| Uso compartido de audiencias por flujo y por lotes desde Real-Time Customer Data Platform en Target con el enfoque de Edge | <ul><li>Comparta audiencias de flujo continuo y por lotes de Real-time Customer Data Platform a Target a través del [!DNL Edge Network]. Las audiencias evaluadas en tiempo real requieren el SDK web y [!DNL Edge Network] implementación.</li></ul> | <ul><li>No se requiere el SDK web/móvil o la implementación de la API de Edge de Target para compartir audiencias RTCDP de flujo y por lotes a Target, aunque se requiere para permitir la evaluación de segmentos perimetrales en tiempo real descrita anteriormente.</li><li>Si utiliza AT.js, solo se admite la integración de perfiles con el área de nombres de identidad de ECID.</li><li>Para las búsquedas del área de nombres de identidad personalizadas en Edge, se necesita la implementación del SDK web o la API de Edge y cada identidad debe establecerse como tal en el mapa de identidades.</li><li>El destino de Target debe configurarse en los destinos de Real-Time Customer Data Platform. Solo se admite la zona protegida de producción por defecto en RTCDP.</li><li>La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</li></ul> |
+| Evaluación de segmentos en tiempo real en Edge compartida desde Real-Time Customer Data Platform en Target | <ul><li>Evalúe las audiencias en tiempo real para la personalización de la misma página o de la siguiente en Edge.</li><li>Además, cualquier segmento evaluado en flujo continuo o en lote también se proyectará a [!DNL Edge Network] para que se incluya en la evaluación y personalización de segmentos de Edge.</li></ul> | <ul><li>El SDK web/móvil debe estar implementado para la API de servidor [!DNL Edge Network]</li><li>La secuencia de datos debe estar configurada en Experience Edge con Target y la extensión de Experience Platform habilitadas.</li><li>El destino de Target debe configurarse en los destinos de Real-Time Customer Data Platform.</li><li>La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</li></ul> |
+| Uso compartido de audiencias por flujo y por lotes desde Real-Time Customer Data Platform en Target con el enfoque de Edge | <ul><li>Comparta audiencias de flujo continuo y por lotes de Real-time Customer Data Platform a Target a través de [!DNL Edge Network]. Las audiencias evaluadas en tiempo real requieren el SDK web y la implementación de [!DNL Edge Network].</li></ul> | <ul><li>No se requiere el SDK web/móvil o la implementación de la API de Edge de Target para compartir audiencias RTCDP de flujo y por lotes a Target, aunque se requiere para permitir la evaluación de segmentos perimetrales en tiempo real descrita anteriormente.</li><li>Si utiliza AT.js, solo se admite la integración de perfiles con el área de nombres de identidad de ECID.</li><li>Para las búsquedas del área de nombres de identidad personalizadas en Edge, se necesita la implementación del SDK web o la API de Edge y cada identidad debe establecerse como tal en el mapa de identidades.</li><li>El destino de Target debe configurarse en los destinos de Real-Time Customer Data Platform. Solo se admite la zona protegida de producción por defecto en RTCDP.</li><li>La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</li></ul> |
 | Uso compartido de audiencias de streaming y lotes de Real-Time Customer Data Platform en Target y Audience Manager con el enfoque del servicio de uso compartido de audiencias | <ul><li>Este patrón de integración se puede aprovechar cuando se desea un enriquecimiento adicional de datos y audiencias de terceros en Audience Manager.</li></ul> | <ul><li>El SDK web/móvil no es necesario para compartir audiencias de flujo y por lotes en Target, aunque es necesario para habilitar la evaluación de segmentos de Edge en tiempo real.</li><li>Si utiliza AT.js, solo se admite la integración de perfiles con el área de nombres de identidad de ECID.</li><li>Para las búsquedas del área de nombres de identidad personalizadas en Edge, se necesita la implementación del SDK web o la API de Edge y cada identidad debe establecerse como tal en el mapa de identidades.</li><li>Se debe aprovisionar la proyección de audiencias mediante el servicio de uso compartido de audiencias.</li><li>La integración con Target requiere la misma organización de IMS que la instancia de Experience Platform.</li><li>Solo las audiencias de la zona protegida del producto por defecto admiten el servicio principal de uso compartido de audiencias.</li></ul> |
 
 ## Uso compartido de audiencias en tiempo real, por flujo y por lotes en Adobe Target
@@ -64,25 +64,25 @@ Vista general de la arquitectura
 
 La personalización de cliente conocida se admite mediante varios enfoques de implementación.
 
-### Patrón de implementación 1 - [!DNL Edge Network] con SDK web/móvil o [!DNL Edge Network] API (enfoque recomendado)
+### Patrón de implementación 1 - [!DNL Edge Network] con SDK web/móvil o API [!DNL Edge Network] (enfoque recomendado)
 
-* Uso del [!DNL Edge Network] con el SDK web/móvil. La segmentación perimetral en tiempo real requiere el enfoque de implementación del SDK web/móvil o la API de Edge.
+* Usando [!DNL Edge Network] con el SDK web/móvil. La segmentación perimetral en tiempo real requiere el enfoque de implementación del SDK web/móvil o la API de Edge.
 * [Consulte el modelo del SDK móvil y web de Experience Platform](../../experience-platform/deployment/websdk.md) para la implementación basada en SDK.
 * Para su uso en el SDK móvil, la [extensión Adobe Journey Optimizer - Decisioning](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) debe estar instalada en el SDK móvil.
-* [Consulte la [!DNL Edge Network] API de servidor](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es) para una implementación basada en API de Adobe Target con Edge Profile.
+* [Consulte la [!DNL Edge Network] API de servidor](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es) para obtener una implementación basada en API de Adobe Target con perfil de Edge.
 
 ### Patrón de implementación 2: SDK específicos para aplicaciones
 
 Con SDK tradicionales específicos de cada aplicación (por ejemplo, AT.js y AppMeasurement.js). La evaluación de segmentos en tiempo real de Edge no se admite con este enfoque de implementación. Sin embargo, el uso compartido de audiencias por flujo y por lotes desde el centro de Experience Platform se admite con este enfoque de implementación.
 
-[Consulte la Documentación del conector de Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Consulte la documentación del conector de Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Consulte el modelo de SDK específico de la aplicación](../../experience-platform/deployment/appsdk.md)
 
 ## Consideraciones sobre la implementación
 
 Requisitos previos de identidad
 
-* Cualquier identidad principal se puede aprovechar al utilizar el patrón de implementación 1 descrito anteriormente con la variable [!DNL Edge Network] y SDK web. La personalización del primer inicio de sesión requiere que la identidad principal del conjunto de solicitudes de personalización coincida con la identidad principal del perfil de Real-time Customer Data Platform.
+* Cualquier identidad principal se puede aprovechar al utilizar el patrón de implementación 1 descrito anteriormente con [!DNL Edge Network] y el SDK web. La personalización del primer inicio de sesión requiere que la identidad principal del conjunto de solicitudes de personalización coincida con la identidad principal del perfil de Real-time Customer Data Platform.
 
 ## Documentación relacionada
 

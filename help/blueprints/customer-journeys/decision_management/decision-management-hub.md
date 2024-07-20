@@ -20,7 +20,7 @@ Journey Optimizer se utiliza para ofrecer la mejor oferta y experiencia a sus cl
 
 Gestión de decisiones se puede implementar de una de las dos maneras siguientes. La primera es a través del hub de Adobe Experience Platform, que es una arquitectura de centro de datos central. En el enfoque «hub», las ofertas se ejecutan, personalizan y entregan con una latencia de más de 500 ms. Por lo tanto, la arquitectura del hub es la más adecuada para las experiencias de los clientes que no requieren latencia de subsegundo. Algunos ejemplos incluyen tomas de decisiones sobre ofertas que se proporcionan para los quioscos o experiencias asistidas por agentes, como en los centros de llamadas o en las interacciones personales. Las ofertas que se insertan en correos electrónicos y en campañas salientes también emplean el enfoque hub.
 
-El segundo método es mediante Experience [!DNL [!DNL Edge Network]], que es una infraestructura distribuida geográficamente a nivel global para ofrecer experiencias rápidas de segundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura de Edge más cercana a la ubicación geográfica del consumidor para minimizar la latencia. Gestión de decisiones en Edge está diseñado para ofrecer experiencias de consumidores en tiempo real, como solicitudes de personalización entrantes web o móviles.
+El segundo método es a través de Experience [!DNL [!DNL Edge Network]], que es una infraestructura con ubicación geográfica distribuida globalmente para ofrecer experiencias rápidas en subsegundos y milisegundos. La experiencia del consumidor final que ejecuta la infraestructura de Edge más cercana a la ubicación geográfica del consumidor para minimizar la latencia. Gestión de decisiones en Edge está diseñado para ofrecer experiencias de consumidores en tiempo real, como solicitudes de personalización entrantes web o móviles.
 
 Este modelo abarcará los aspectos específicos de Gestión de decisiones en el hub.
 
@@ -37,7 +37,7 @@ Para obtener más información sobre Gestión de decisiones en Edge, consulte el
 
 >[!IMPORTANT]
 >
->Para casos de uso de ofertas y recorridos que requieren acceder al perfil de para obtener información y contexto adicionales. Es importante tener en cuenta la latencia asociada de la ingesta de datos en el perfil del concentrador para garantizar que estén disponibles en el momento de la decisión. En el caso de los escenarios en los que el contexto se transmite o se ingiere en el perfil y la oferta o el recorrido deben tener ese contexto disponible en cuestión de segundos o minutos después de la decisión de oferta, estos escenarios se proporcionan mejor con Administración de decisiones en el perímetro.
+>Para casos de uso de ofertas y recorridos que requieren acceder al perfil de para obtener información y contexto adicionales. Es importante tener en cuenta la latencia asociada de la ingesta de datos en el perfil del concentrador para garantizar que estén disponibles en el momento de la decisión. En el caso de los escenarios en los que el contexto se transmite o se ingiere en el perfil y la oferta o el recorrido deben tener ese contexto disponible en cuestión de segundos o minutos después de la decisión de oferta, estos escenarios se proporcionan mejor con Administración de decisiones en Edge.
 
 <br>
 

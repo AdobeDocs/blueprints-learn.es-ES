@@ -4,7 +4,7 @@ description: 'información general: Marketo Engage y modelo de integración de W
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1737'
 ht-degree: 98%
 
 ---
@@ -40,13 +40,13 @@ Con Workfront Fusion, los equipos de operaciones de marketing pueden en gran med
 
 A continuación, puede ver un diagrama de flujo de trabajo del proceso de desarrollo de una campaña en el caso de una solicitud de envío masivo de correo electrónico. Además, puede ver cómo Workfront Fusion puede desempeñar un papel entre Workfront y Marketo Engage para impulsar la automatización de procesos y flujos de trabajo a lo largo del ciclo de desarrollo de las campañas.
 
-![De la planificación a la ejecución de campañas: casos de uso de automatización](assets/overview-1.png){zoomable=&quot;yes&quot;}
+![Planificación de la campaña para la ejecución: casos de uso de automatización](assets/overview-1.png){zoomable="yes"}
 
 Tome nota de las diferentes fases del proceso de desarrollo de una campaña.
 
 1. Ingesta y creación: la solicitud de campaña se lleva a cabo y los activos de campaña se ensamblan mediante programación.
 
-1. Revisar y aprobar: una vez montada la campaña, es hora de que las partes interesadas revisen y firmen los recursos de la campaña, como correos electrónicos y páginas de aterrizaje.
+1. Revisión y aprobación: una vez que la campaña se ha organizado, es el momento de que las partes interesadas revisen y aprueben los activos de la campaña, por ejemplo, correos electrónicos y páginas de aterrizaje.
 
 1. Informe y auditoría: comparta los resultados de la campaña con Workfront para proporcionar una visibilidad superior a las partes interesadas interfuncionales.
 
@@ -60,7 +60,7 @@ Adobe Workfront permite a las organizaciones administrar el trabajo para lograr 
 
 Será importante comprender cómo el proceso empresarial se correlaciona con estos objetos, para comprender la relación entre Workfront y Marketo Engage.
 
-![Comprender cómo las iniciativas de marketing se representan en Workfront](assets/overview-2.png){zoomable=&quot;yes&quot;}
+![Explicación de cómo se representan las iniciativas de marketing en Workfront](assets/overview-2.png){zoomable="yes"}
 
 ### Jerarquía de portafolios definida {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ La Compañía Zeplin está lanzando una versión actualizada de uno de sus acces
 
 La jerarquía siguiente muestra de qué forma la estrategia, las tácticas, las tareas y los activos se correlacionan con Workfront para esta campaña de marketing.
 
-![Ejemplo de gestión de trabajo de iniciativas de marketing](assets/overview-3.png){zoomable=&quot;yes&quot;}
+![Ejemplo de administración de trabajo de iniciativa de marketing](assets/overview-3.png){zoomable="yes"}
 
 ## Correlación de Workfront con Marketo {#mapping-workfront-to-marketo}
 
@@ -129,7 +129,7 @@ Con Workfront Fusion como capa de integración, puede correlacionar sus proyecto
 
 A continuación, se muestra un ejemplo de cómo un programa puede incluir varios proyectos y cómo esos proyectos de Workfront pueden correlacionarse con programas en Marketo Engage.
 
-![Correlación de proyectos de Workfront con programas de Marketo Engage](assets/overview-4.png){zoomable=&quot;yes&quot;}
+![Asignación de proyectos de Workfront a programas de Marketo Engage](assets/overview-4.png){zoomable="yes"}
 
 Puede que desee poner en marcha una iniciativa de marketing de gran dimensión que necesite que varios proyectos de Workfront se alojen en un programa de Workfront, o puede que tenga una solicitud única para un seminario web o un correo electrónico que simplemente requiera crear un único proyecto de Workfront. Independientemente de sus necesidades, con Workfront, Workfront Fusion y Marketo Engage, su equipo tiene la flexibilidad de integrar su proceso de desarrollo de campañas de forma directa, desde la planificación hasta la ejecución.
 
@@ -147,9 +147,9 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 ### Introducción a la integración de Workfront Fusion, Workfront y Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [Ingesta y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Automatización del desarrollo de campañas con Marketo Engage y Workfront
+* [Ingesta y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"}: Automatización del desarrollo de campañas con Marketo Engage y Workfront
 
-* [Revisar y aprobar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
+* [Revisión y aprobación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Administración de los nombres de campaña de Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
 

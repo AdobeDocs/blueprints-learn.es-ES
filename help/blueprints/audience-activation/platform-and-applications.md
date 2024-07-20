@@ -48,7 +48,7 @@ Consulte la sección [Arquitectura de Experience Platform y otras aplicaciones](
 
 ## Guardas
 
-Consulte la [protecciones en la página Información general de activación de audiencia y perfil](overview.md) y el [protecciones de implementación](../experience-platform/deployment/guardrails.md) página.
+Consulte las [protecciones de la página Información general sobre la activación de audiencias y perfiles](overview.md) y la página [protecciones de implementación](../experience-platform/deployment/guardrails.md).
 
 ## Consideraciones sobre la implementación
 

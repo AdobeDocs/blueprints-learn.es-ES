@@ -12,7 +12,7 @@ ht-degree: 64%
 
 # Modelo de Journey Optimizer con Adobe Campaign v8
 
-Muestra el Adobe [!DNL Journey Optimizer] se puede utilizar con Adobe [!DNL Campaign] para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real de [!DNL Campaign].
+Muestra cómo se puede utilizar el Adobe [!DNL Journey Optimizer] con el Adobe [!DNL Campaign] para enviar mensajes de forma nativa mediante el servidor de mensajería en tiempo real de [!DNL Campaign].
 
 ## Arquitectura
 
@@ -39,9 +39,9 @@ Revise los siguientes requisitos previos para cada aplicación.
 
 ## Guardas
 
-* [Limitaciones de productos de Journey Optimizer Protections](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
+* [Limitaciones de productos de la protección de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
 
-* [Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [Protecciones e instrucciones de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Pasos de implementación
 
@@ -67,30 +67,30 @@ Siga las implementaciones para cada aplicación que se describen a continuación
 
 #### Orígenes/destinos
 
-1. [Ingesta de datos en [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) uso de API de flujo continuo y conectores de origen.
+1. [Ingesta de datos en [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) mediante la transmisión de API y conectores de origen.
 
 ### Journey Optimizer  
 
-1. Configure su [!DNL Experience Platform] fuente de datos y determinar qué campos deben almacenarse en caché como parte del perfilLos datos de flujo de datos utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación. Este ID de organización debe entregarse al desarrollador para usarse con la ingesta.
+1. Configure su origen de datos [!DNL Experience Platform] y determine qué campos deben almacenarse en caché como parte del perfil. Los datos de streaming utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Optimizer para obtener un ID de orquestación. Este ID de organización debe entregarse al desarrollador para usarse con la ingesta.
 1. Configurar orígenes externos de datos.
 1. Configure acciones personalizadas para la instancia de Campaign.
 
 ### Campaign v8
 
 * Las plantillas de mensajería deben configurarse con el contexto de personalización adecuado.
-* Para [!DNL Campaign] estándar: Es necesario configurar los flujos de trabajo de exportación para exportar los registros de mensajería transaccional de nuevo al Experience Platform. La recomendación es que se ejecute como máximo cada cuatro horas.
-* Para [!DNL Campaign] v8.4 es posible aprovechar el Adobe [!DNL Campaign] Conector de origen de Managed Services en Experience Platform para sincronizar el envío y el seguimiento de eventos de Campaign a Experience Platform. Consulte la [Conector de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es) documentación para obtener más información.
+* Para el estándar [!DNL Campaign]: es necesario configurar los flujos de trabajo de exportación para exportar los registros de mensajería transaccional de nuevo al Experience Platform. La recomendación es que se ejecute como máximo cada cuatro horas.
+* Para [!DNL Campaign] v8.4 es posible aprovechar el Adobe [!DNL Campaign] Managed Services Source Connector en Experience Platform para sincronizar los eventos de envío y seguimiento de Campaign en Experience Platform. Consulte la documentación de [Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es) para obtener detalles.
 
 ### Configuración push móvil (opcional)
 
-1. Implementación [!DNL Experience Platform] El SDK móvil para recopilar tokens push e información de inicio de sesión para vincularlos a perfiles de clientes conocidos.
+1. Implemente el SDK móvil [!DNL Experience Platform] para recopilar tokens push e información de inicio de sesión con el fin de vincularlos a perfiles de clientes conocidos.
 1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
    * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
    * Adobe [!DNL Experience Platform] [!DNL Edge Network]
-   * Identidad para [!DNL Edge Network]
+   * Identidad de [!DNL Edge Network]
    * Núcleo móvil
 1. Asegúrese de tener un flujo de datos dedicado para implementaciones de aplicaciones móviles en lugar de implementaciones web.
-1. Para obtener más información, consulte [Guía de Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. Para obtener más información, consulte la [Guía de Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
 
    >[!IMPORTANT]
    >Puede que sea necesario recopilar los tokens móviles tanto en Journey Optimizer como en Campaign si se desea enviar comunicaciones en tiempo real a través de Journey Optimizer y notificaciones push por lotes a través de Campaign. Campaign v8 requiere el uso exclusivo del SDK de Campaign para capturar tokens push.

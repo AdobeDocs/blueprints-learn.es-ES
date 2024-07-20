@@ -4,8 +4,8 @@ description: 'Ingesta y creación: modelo de integración de Marketo Engage y Wo
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Para lograr esta integración, se utilizará Workfront Fusion, una capa de autom
 
 El flujo de trabajo siguiente muestra una solicitud de un seminario web realizada por un director de campaña mediante un formulario de solicitud de Workfront. Los detalles enviados en la solicitud activan un programa y un correo electrónico para crear en Marketo Engage de cara al seminario web. Además, se adoptan detalles del formulario de solicitud para rellenar el contenido del correo electrónico.
 
-![Modelo de ingesta y creación](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Admisión y creación de modelo](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Para obtener más información sobre la creación de su propio centro de excelen
 
 Con Marketo Engage, los tokens se pueden usar para rellenar contenido en los activos de campaña. Por ejemplo, después de clonar una plantilla de correo electrónico del centro de excelencia, Workfront Fusion puede adoptar los detalles de la solicitud de campaña en Workfront y pasarlos a Mis tokens en el programa de Marketo Engage. Los valores de token se pueden heredar directamente en el correo electrónico para crear el mensaje de salida.
 
-![Usar tokens para rellenar el diagrama de contenido](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![Use tokens para rellenar el diagrama de contenido](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Rellenar imágenes desde AEM Assets {#populate-images-from-aem-assets}
 
@@ -147,7 +147,7 @@ Algunos datos básicos que se deben incluir en la biblioteca de búsqueda de pla
 
 ## Flujo de ingesta y creación de automatización {#intake-and-create-automation-flow}
 
-A continuación, se muestra un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} precompilados que permitan disponer de automatización con mayor rapidez.
+Este es un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos pregenerados de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} y [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} que le permiten ofrecer automatización más rápido.
 
 ![Flujo de ingesta y creación de automatización](assets/intake-and-create-3.png)
 
