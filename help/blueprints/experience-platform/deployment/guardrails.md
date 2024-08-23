@@ -4,7 +4,7 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 15%
@@ -46,7 +46,7 @@ Las siguientes páginas proporcionan información sobre las protecciones para la
 
 En el diagrama siguiente se muestran las latencias observadas en el eje y la arista principales que deben tenerse en cuenta al crear casos de uso en el Experience Platform y las aplicaciones.
 
-![Latencias observadas principales del Experience Platform [!DNL Edge Network] y del concentrador.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Latencias observadas principales del Edge Network Experience Platform y el concentrador"){width="1000" zoomable="yes"}
+![Latencias observadas principales del Experience Platform [!DNL Edge Network] y del concentrador.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Latencias observadas principales del Edge Network Experience Platform y el concentrador"){width="1000" zoomable="yes"}
 
 ### Ingesta de datos {#data-ingestion}
 
