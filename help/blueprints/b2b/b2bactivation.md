@@ -4,10 +4,10 @@ description: Ofrezca experiencias de cliente centradas en el perfil y audiencias
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 3dfdb1a237995e7f17e280e24f8865e992d9eb5f
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '895'
+ht-degree: 52%
 
 ---
 
@@ -19,6 +19,7 @@ Utilice la información de cuentas, oportunidades y posibles clientes vinculada 
 
 * Cree audiencias de personas para segmentación y personalización entre canales con datos B2B, incluidas cuentas, oportunidades y posibles clientes.
 * Active audiencias en cualquier destino de Experience Platform para segmentación y personalización.
+* Cree audiencias de cuentas (por ejemplo, listas de empresas) y diríjase a esas empresas a través de destinos como LinkedIn que acepten listas de empresas como entrada o exportación a destinos de almacenamiento en la nube para la segmentación y el alcance de las ventas.
 
 ## Aplicaciones
 
@@ -26,19 +27,18 @@ Utilice la información de cuentas, oportunidades y posibles clientes vinculada 
 
 ## Patrones de integración
 
-* Fuentes de datos B2B (Marketo, Salesforce, etc.) -> Real-Time Customer Data Platform edición B2B -> Destinos
-Se pueden usar varias fuentes de datos B2B para asignar datos de cuentas, posibles clientes, oportunidades y personas a la edición B2B de Real-Time Customer Data Platform.
+* Fuentes de datos B2B (Marketo, Salesforce, etc.) -> Real-time Customer Data Platform B2B Edition -> Destinos
+* Se pueden utilizar varias fuentes de datos B2B para asignar datos de cuenta, posible cliente, oportunidad y personas a B2B Edition de Real-time Customer Data Platform.
 
 ## Arquitectura
 
-<img src="assets/b2b-activation.svg" alt="Arquitectura de referencia para el modelo de activación B2B" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-<br>
+![Arquitectura de referencia para el modelo de activación B2B](assets/b2b-activation.png)
 
 ## Guardas
 
 * Tenga en cuenta que los guardas y los pasos de implementación relacionados con Marketo Engage solo son relevantes cuando Marketo Engage se utiliza como origen o destino.
 
-* Para más detalles y guardas para las latencias de extremo a extremo, consulte el [documento de guardas de implementación](../experience-platform/deployment/guardrails.md)
+* Para obtener detalles y protecciones adicionales para el modelo de datos, el tamaño y la segmentación, consulte el [documento de protecciones de implementación](../experience-platform/deployment/guardrails.md)
 
 
 ### Admisión de varias instancias y organizaciones de IMS:
@@ -48,7 +48,6 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 #### Marketo como fuente de datos para Experience Platform:
 
 * Se admiten varias instancias de Marketo Engage en una instancia de Experience Platform.
-* No se admiten varias instancias de Marketo Engage en varias instancias de Experience Platform.
 * No se admite una instancia de Marketo Engage en varias instancias de Experience Platform.
 * Se admite una instancia de Marketo Engage en una instancia de Experience Platform y varias zonas protegidas.
 
@@ -61,20 +60,22 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 
 * Consulte las guardas de perfil y segmentación en Experience Platform: [Guardas de perfil y segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * Los segmentos B2B que incluyen cuentas, posibles clientes y oportunidades utilizan relaciones de varias entidades que hace que la evaluación de segmentos se convierta en lote. La segmentación por flujo es compatible con segmentos que están limitados a personas y eventos.
+* Incluya un segmento b2b por lotes como entrada para un segmento de streaming o Edge para admitir casos de uso de segmentos b2b de streaming. El abono de los segmentos por lotes se basa en el último resultado diario de evaluación de la segmentación por lotes.
 
 #### Experience Platform - Conector de origen de Marketo Engage:
 
 * El relleno histórico puede tardar hasta 7 días en completarse según el volumen de datos.
-* Las actualizaciones de datos y los cambios en curso de Marketo se envían a Experience Platform a través de la API de flujo continuo, que puede estar latente hasta unos 5 minutos en el caso del perfil y hasta unos 15 minutos en el caso del lago de datos en función del volumen.
+* Las actualizaciones y cambios de datos en curso de Marketo se envían al Experience Platform a través de la API de flujo continuo, que puede estar latente hasta unos 10 minutos en el perfil y puede tardar hasta 60 minutos en el lago de datos en función del volumen.
 
 #### Experience Platform - Conector de destino de Marketo:
 
-* El uso compartido de segmentos de flujo de Real-Time Customer Data Platform en Marketo Engage puede tardar hasta 5 minutos.
-* La segmentación por lotes se comparte una vez al día en función de la programación de segmentación de Experience Platform. Los segmentos B2B que incluyen cuentas, posibles clientes y oportunidades utilizan relaciones de varias entidades que hace que el segmento se convierta en lote.
+* El uso compartido de segmentos de streaming de Real-time Customer Data Platform a Marketo Engage puede tardar hasta 15 minutos. Los perfiles de relleno que ya existían en el segmento antes de la activación por primera vez pueden tardar hasta 24 horas.
+* La segmentación por lotes se comparte una vez al día en función de la programación de segmentación de Experience Platform. Los segmentos B2B que utilizan relaciones de varias entidades, por ejemplo, los segmentos que utilizan datos en los objetos de cuenta y oportunidad, siempre se ejecutan en modo por lotes.
 
 #### Guardas de Marketo Engage:
 
 * Los contactos y posibles clientes deben ingerirse y definirse directamente en Marketo Engage para que la audiencia de Real-Time Customer Data Platform coincida con un posible cliente y un contacto de Marketo Engage.
+* El destino de Marketo de RTCDP puede, opcionalmente, crear nuevos posibles clientes en Marketo para clientes que están en un segmento pero que no existen en Marketo.
 
 #### Guardas de destino
 
@@ -92,13 +93,14 @@ Existen dos patrones de implementación posibles. Tanto la capacidad de ingerir 
 Directrices sobre consideraciones y configuraciones clave del modelo.
 
 * Integración de CRM con y sin Marketo:
-Si la implementación va a utilizar Marketo Engage como fuente y este está conectado a CRM, utilice el conector de origen de Marketo en Experience Platform para introducir los datos de CRM en Experience Platform. Utilice el conector de origen de Experience Platform si es necesario introducir tablas adicionales. Si la implementación no va a utilizar Marketo Engage como origen, conecte el origen del CRM directamente con AEP a través del conector de Experience Platform de origen del CRM.
-* No se recomienda la iniciación ni la potenciación de posibles clientes con la edición B2B de Real-Time Customer Data Platform por sí sola. Se recomienda el uso de una herramienta de potenciación de posibles clientes (como Marketo Engage) para este caso de uso.
-* El conector de destino de Marketo Engage para AEP, que envía audiencias a Marketo Engage para su activación, solo inserta direcciones de correo electrónico y ECID. No crea un nuevo posible cliente si el contacto no existe todavía; por lo tanto, es necesario introducir el perfil y los datos del posible cliente en Marketo Engage.
+Si la implementación utiliza Marketo Engage como origen y Marketo Engage está conectado a CRM, los datos de CRM fluirán automáticamente a través de la misma conexión, lo que elimina la necesidad de conectar el CRM directamente a Platform a menos que haya objetos de datos de CRM adicionales que no pasen a través de Marketo. Utilice el conector de origen de Experience Platform si es necesario introducir tablas adicionales. Si la implementación no utiliza Marketo Engage como fuente, conecte el origen de CRM directamente a Platform mediante el conector del Experience Platform de origen de CRM.
+* El conector de destino del Marketo Engage para Platform, que envía las audiencias al Marketo Engage para su activación, comparte miembros de la audiencia en función de direcciones de correo electrónico y ECID coincidentes. Tiene la opción de crear un nuevo posible cliente si el contacto aún no existe. Al crear un nuevo posible cliente, se pueden asignar hasta 50 atributos de perfil (atributos que no sean de matriz o asignación) de Real-time Customer Data Platform a los campos Persona de Marketo.
 
 ## Documentación relacionada
 
 * [Edición B2B de Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=es)
+* [Introducción a Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Protecciones para Real-time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=es)
 * [Adobe Experience Platform: Conector de origen de Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=es)
