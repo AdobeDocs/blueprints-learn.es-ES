@@ -4,12 +4,13 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7ccabe2d11467b02d7fb5a2f920ebc5af8a17983
+source-git-commit: 64d5e2514d54b3879b09a1dc49d37a2867e21deb
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 10%
 
 ---
+
 
 # Guardas
 Las protecciones reflejan las restricciones del sistema, las latencias esperadas y las expectativas de rendimiento para optimizar la arquitectura del cliente y el rendimiento de los casos de uso y ayudan a garantizar la estabilidad, evitar errores o resultados inesperados.
