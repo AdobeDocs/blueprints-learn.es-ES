@@ -4,9 +4,9 @@ description: Las guardas definen las expectativas de rendimiento y el impacto pa
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ Las protecciones reflejan las restricciones del sistema, las latencias esperadas
 
 >[!NOTE]
 >
-> En el caso de casos de uso con estrictas necesidades de latencia o rendimiento, el Adobe sugiere discutir los detalles con el equipo de cuenta de Adobe y el socio de implementación. La configuración de cada cliente puede variar según los patrones de ingesta de datos, las reglas de segmentos y los canales de activación. Es importante probar y revisar su caso de uso antes de lanzarlo, para comprender cómo se comportará.
+> En el caso de casos de uso con estrictas necesidades de latencia o rendimiento, el Adobe sugiere discutir los detalles con el equipo de cuenta de Adobe y el socio de implementación. La configuración de cada cliente puede variar según los patrones de ingesta de datos, los recuentos y la riqueza de perfiles, las reglas de segmentos y los canales de activación. Por lo tanto, es importante crear y probar el caso de uso para optimizar su rendimiento y comprender plenamente las características de rendimiento esperadas.
 
 ## Documentación de referencia de guardas para Adobe Experience Platform y aplicaciones
 
