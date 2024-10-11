@@ -3,10 +3,10 @@ title: Modelo de Gestión de decisiones en Edge
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 80%
+source-wordcount: '395'
+ht-degree: 68%
 
 ---
 
@@ -32,29 +32,15 @@ Para obtener más información sobre Gestión de decisiones en el hub, consulte 
 * Personalización en línea mediante experiencias entrantes web o móviles.
 * Ejecución de recorridos en varios canales: coherencia de ofertas en todos los canales de interacción web, móvil, correo electrónico y otros a través de Adobe Journey Optimizer.
 
-<br>
-
 ## Arquitectura
 
 <img src="../assets/offers_edge.svg" alt="Arquitectura de referencia Gestión de decisiones en el modelo de Edge" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## Patrones de integración
 
 | Integración | Descripción |
 | :-- | :--- |
 | [Gestión de decisiones con Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=es) | Gestión de decisiones se puede integrar con Adobe Target de modo que las ofertas se puedan probar y entregar como experiencias de Target. |
-
-## Prerrequisitos
-
-Adobe Experience Platform
-
-* Los esquemas y conjuntos de datos deben configurarse en el sistema para poder configurar las fuentes de datos de Journey Optimizer
-* Para los esquemas basados en clases de eventos de experiencia, agregue el grupo de campos &#39;ID de evento de orquestación&#39; cuando desee que se active un evento que no sea un evento basado en reglas
-* Para los esquemas basados en clases de perfil individual, agregue el grupo de campos &#39;Detalles de prueba de perfil&#39; para poder cargar perfiles de prueba para utilizarlos con Journey Optimizer
-
-<br>
 
 ## Guardas
 
@@ -63,44 +49,6 @@ Adobe Experience Platform
 * Si quiere información sobre las guardas de Gestión de decisiones, consulte la siguiente [Descripción del producto de Gestión de decisiones](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html).
 
 [Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-
-## Patrones de implementación
-
-* Utilice el SDK web o móvil para la implementación en sitios web y aplicaciones móviles a fin de implementar Gestión de decisiones donde se implementó el SDK.
-   * [Modelo de SDK web/móvil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=es)
-   * [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=es)
-   * [SDK móvil](https://aep-sdks.gitbook.io/docs/)
-
-O
-
-* Para que un servidor de API e implementación basada en servidor utilicen la API de servicio de Edge Network para la implementación de Gestión de decisiones de servidor a servidor directo.
-   * [API del servidor de Edge Network](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html?lang=es)
-
-<br>
-
-## Pasos de implementación
-
-### Adobe Experience Platform
-
-#### Esquemas/conjuntos de datos
-
-1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) según los datos ofrecidos por los clientes en Experience Platform.
-1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) en Experience Platform para la ingesta.
-1. [Añadir etiquetas de uso de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=es) al conjunto de datos de Experience Platform para la gobernanza.
-1. [Crear políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=es) que refuercen la gobernanza en los destinos.
-
-#### Perfil/identidad
-
-1. [Crear áreas de nombres específicas para los clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
-1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
-1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
-1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-Time Customer Profile] (opcional).
-1. Crear segmentos para el uso de Journey.
-
-#### Orígenes/destinos
-
-1. [Incorporar datos en Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) mediante API de flujo y conectores de origen.
 
 ## Documentación relacionada
 
