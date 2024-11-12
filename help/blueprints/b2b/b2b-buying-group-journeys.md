@@ -2,7 +2,8 @@
 title: Modelo de gestión de Recorridos y marketing basado en grupos de compra
 description: Aprenda a idear, diseñar y crear un recorrido que permita a los posibles clientes formar un grupo de compra en Adobe Journey Optimizer B2B edition.
 solution: Journey Optimizer B2B Edition
-source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Los grupos de compra representan a un grupo de personas en la empresa interesada
 Como resultado de las capacidades mejoradas de B2B proporcionadas por Journey Optimizer B2B edition, ahora puede solucionar estos desafíos:
 
 * Falta de _campañas de marketing que dan prioridad a los clientes_.
-* Conversión incoherente de cliente potencial cualificado de marketing (MQL) en cliente potencial cualificado de ventas (SQL), que requiere la alineación de las iniciativas con las ventas para fomentar el MQL
+* Conversión incoherente de cliente potencial cualificado de marketing (MQL) en cliente potencial cualificado de ventas (SQL), lo que requiere la alineación de las iniciativas con las ventas para fomentar el MQL
 * Falta de un mecanismo vendible para identificar y segmentar _competir_ cuentas.
 * Riesgo de concentración en ingresos y canalizaciones.
 
