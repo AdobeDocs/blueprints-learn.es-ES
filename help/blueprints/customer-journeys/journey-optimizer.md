@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Journey Optimizer] - Mensajería activada y modelo de Adobe Experience Platform"
+title: '[!DNL Journey Optimizer]: mensaje activado y modelo de Adobe Experience Platform'
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878

@@ -1,6 +1,6 @@
 ---
 title: Modelo de centro de actividad del cliente
-description: "Busque [!UICONTROL Real-Time Customer Profile] para ofrecer contexto a los agentes de atención al cliente y ventas."
+description: Búsquedas en [!UICONTROL Real-time Customer Profile] para ofrecer contexto a los agentes de atención al cliente y ventas.
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
