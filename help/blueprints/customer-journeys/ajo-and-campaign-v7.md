@@ -3,7 +3,7 @@ title: Modelo de Journey Optimizer con Adobe Campaign v7
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 97%
@@ -43,7 +43,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 
 ## Guardas
 
-[Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
+[Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 [Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
