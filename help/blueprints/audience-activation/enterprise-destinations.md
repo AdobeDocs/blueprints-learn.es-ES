@@ -4,10 +4,10 @@ description: Activación de audiencias y perfiles en destinos empresariales
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICO
 
 ## Guardas
 
-[Consulte los guardas definidos en la página de información general sobre la activación de audiencias y perfiles.](overview.md)
+[Consulte las protecciones como se describe en la página de protecciones.](../experience-platform/deployment/guardrails.md)
 
 ## Pasos de implementación
 

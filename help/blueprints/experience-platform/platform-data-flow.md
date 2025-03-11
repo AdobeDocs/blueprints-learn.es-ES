@@ -1,14 +1,14 @@
 ---
-title: Diagramas de arquitectura de flujo de datos Experience Platform
+title: Diagramas de arquitectura de flujo de datos de Experience Platform
 description: Este diagrama de la arquitectura muestra cómo viajan los datos por Adobe Experience Platform.
 solution: Data Collection
 kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 90%
+source-wordcount: '75'
+ht-degree: 60%
 
 ---
 
@@ -22,12 +22,4 @@ El diagrama siguiente ilustra las distintas rutas para la ingesta y salida de da
 
 ## Patrones de entrada y salida de datos
 
-Para obtener una lista detallada de todos los patrones de ingesta, recopilación y entrada de datos, consulte el [modelo de preparación e ingesta de datos](../data-ingestion/ingestion.md).
-
-Para obtener una lista detallada de todos los patrones de salida y acceso de datos, consulte el [modelo de acceso y exportación de datos](../data-ingestion/egress.md).
-
-## Guardas de ingesta de datos
-
-El diagrama siguiente ilustra la latencia y los guardas de rendimiento promedio para la ingesta de datos en Adobe Experience Platform.
-
-<img src="deployment/assets/aep_data_flow_guardrails.svg" alt="Flujo de datos de Experience Platform" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" class="modal-image" />
+Para obtener una lista detallada de todos los patrones de ingesta, recopilación, entrada y salida de datos, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home).
