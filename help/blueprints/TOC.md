@@ -5,7 +5,7 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
+source-git-commit: ec6778d0b3cd37442be2731cafba26388e4355ea
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -30,8 +30,8 @@ ht-degree: 53%
       + [Activación en canales sociales y publicitarios](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activación a destinos de flujo de archivos y empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Centro de actividad del cliente](/help/blueprints/audience-activation/customer-activity.md)
-      + [Coincidencia de segmento](/help/blueprints/audience-activation/segment-match.md)
       + [Target y RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [Coincidencia de segmento](/help/blueprints/audience-activation/segment-match.md)
 + Activación y marketing B2B {#b2b-activation}
    + [Información general](/help/blueprints/b2b/overview.md)
    + [Activación B2B](/help/blueprints/b2b/b2bactivation.md)
