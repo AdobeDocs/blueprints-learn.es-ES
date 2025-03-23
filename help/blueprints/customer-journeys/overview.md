@@ -1,11 +1,9 @@
 ---
 title: Modelos de recorrido del cliente
 description: Proporcione una experiencia del cliente individual y rápida en diversas pantallas.
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard, Experience Platform
-kt: null
-thumbnail: null
+solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 67%
@@ -18,9 +16,9 @@ Los Recorridos del cliente permiten a las marcas interactuar de forma proactiva 
 
 Las herramientas de organización también se pueden integrar con otros canales de integración como los de entrada para posibilitar la personalización web y móvil al compartir el estado de audiencia con los motores de decisión de los otros canales. Hay varios factores que influyen en las aplicaciones y las opciones de implementación que deben utilizarse para los recorridos del cliente, pero que pueden resumirse en dos enfoques diferentes: reaccionar a un cliente cuando participa (activación) O reaccionar a un grupo de clientes mientras participa (programación).
 
-Hoy en día, hay dos opciones de Adobe para que los clientes seleccionen cuando desean una solución de Recorrido del cliente:
+Adobe Hoy en día, hay dos opciones para que los clientes puedan seleccionar cuando deseen una solución de Recorrido del cliente:
 
-<ul><li>Adobe [!DNL Campaign] Cloud Service administrados</li><li>Adobe Journey Optimizer</li></ul>
+<ul><li>Servicios administrados en la nube de Adobe [!DNL Campaign]</li><li>Adobe Journey Optimizer</li></ul>
 
 | Modelo | Descripción | Arquitectura |
 |---|---|---|
