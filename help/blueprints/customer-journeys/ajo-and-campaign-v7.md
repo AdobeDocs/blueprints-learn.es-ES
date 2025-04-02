@@ -3,7 +3,7 @@ title: Modelo de Journey Optimizer con Adobe Campaign v7
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
    * Identidad de [!DNL Edge Network]
    * Núcleo móvil
 1. Asegúrese de tener un conjunto de datos dedicado para implementaciones de aplicaciones móviles vs. implementaciones web
-1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+1. Para obtener más información, siga la [Guía móvil de Adobe Journey Optimizer](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/)
 
    >[!IMPORTANT]
    >Puede que sea necesario recopilar los tokens móviles tanto en Journey Optimizer como en Campaign si se desea enviar comunicaciones en tiempo real a través de Journey Optimizer y notificaciones push por lotes a través de Campaign. Campaign v8 requiere el uso exclusivo del SDK de Campaign para capturar tokens push.
