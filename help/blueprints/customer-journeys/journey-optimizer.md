@@ -66,9 +66,9 @@ Inserción móvil:
 
 ## Guardas
 
-[[!DNL Journey Optimizer] Vínculo de producto de protecciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] Vínculo de producto de protecciones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails)
 
-[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=es)
 
 ## Documentación relacionada
 

@@ -66,7 +66,7 @@ Si desea lanzar una nueva campaña por correo electrónico, debe contar con una 
 
 ### Active su correo electrónico de Marketo Engage para sincronizarlo con Workfront con un cambio de estado de tarea {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
-Como parte de su proceso de revisión, querrá poder sincronizar los correos electrónicos con su proyecto de Workfront una vez que estén listos para que su equipo de marketing los revise. Para ello, le recomendamos que configure una tarea Lista para revisión con un [estado de tarea](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html){target="_blank"} que indique cuándo estará listo el correo electrónico para su revisión. En nuestro ejemplo, hemos añadido a la tarea un estado Revisar correo electrónico de Marketo que puede seleccionarse cuando el borrador del correo electrónico esté listo para que lo revisen los responsables de departamento.
+Como parte de su proceso de revisión, querrá poder sincronizar los correos electrónicos con su proyecto de Workfront una vez que estén listos para que su equipo de marketing los revise. Para ello, le recomendamos que configure una tarea Lista para revisión con un [estado de tarea](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html?lang=es){target="_blank"} que indique cuándo estará listo el correo electrónico para su revisión. En nuestro ejemplo, hemos añadido a la tarea un estado Revisar correo electrónico de Marketo que puede seleccionarse cuando el borrador del correo electrónico esté listo para que lo revisen los responsables de departamento.
 
 Con este estado en el proyecto de Workfront, puede configurar el escenario de Workfront Fusion para que espere a que la tarea Listo para revisar se actualice a Revisar correo electrónico de Marketo. Una vez actualizado, el escenario puede recuperar el correo electrónico de Marketo Engage como un archivo HTML, comprimirlo y guardar una copia en los documentos del proyecto de Workfront para su revisión.
 
@@ -78,7 +78,7 @@ Una vez que la tarea “Listo para revisión” pasa al estado “Revisar correo
 
 ### Utilice las pruebas de Workfront para colaborar mediante comentarios y anotaciones {#use-workfront-proofing-to-collaborate}
 
-Las funciones de [corrección de Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permiten a su equipo de marketing tomar un nuevo recurso, como una imagen o un correo electrónico, y colaborar mediante comentarios y anotaciones. Una vez que una prueba está lista para ejecutarse, los responsables de la toma de decisiones pueden aprobarla desde la herramienta de prueba.
+Las funciones de [corrección de Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=es){target="_blank"} permiten a su equipo de marketing tomar un nuevo recurso, como una imagen o un correo electrónico, y colaborar mediante comentarios y anotaciones. Una vez que una prueba está lista para ejecutarse, los responsables de la toma de decisiones pueden aprobarla desde la herramienta de prueba.
 
 ![convertir pantalla de correo electrónico](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 

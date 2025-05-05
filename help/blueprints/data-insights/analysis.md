@@ -43,9 +43,9 @@ Consulte la documentación del producto Query Service para obtener más informac
 
 ## Pasos de implementación
 
-1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
+1. [Crear esquemas](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
-1. [Ingresar datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
+1. [Ingresar datos](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
 1. Confirme que los datos están disponibles para [[!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=es).
 1. [Conectar herramientas de inteligencia empresarial y clientes SQL a [!UICONTROL Query Service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=es) para la posterior visualización, consulta y análisis de datos.
 

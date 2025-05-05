@@ -33,9 +33,9 @@ Las perspectivas modeladas se pueden ingerir en [!DNL Experience Platform] para 
 
 ## Pasos de implementación
 
-1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
+1. [Crear esquemas](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
-1. [Ingresar datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
+1. [Ingresar datos](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) en [!DNL Experience Platform].
 
 Para que los resultados del modelo se ingieran en Real-Time Customer Profile, debe hacer lo siguiente antes de introducir los datos:
 

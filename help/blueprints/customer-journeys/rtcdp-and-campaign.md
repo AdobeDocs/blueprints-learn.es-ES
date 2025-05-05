@@ -52,7 +52,7 @@ Las secciones siguientes describen los pasos de las implementaciones para cada a
 
 #### Esquemas/conjuntos de datos
 
-1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) según los datos ofrecidos por los clientes en Experience Platform.
+1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) según los datos ofrecidos por los clientes en Experience Platform.
 1. Cree esquemas de Adobe [!DNL Campaign] para broadLog, trackingLog, direcciones no entregables y preferencias de perfil (opcional).
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) en Experience Platform para la ingesta.
 1. [Añadir etiquetas de uso de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=es) al conjunto de datos de Experience Platform para la gobernanza.
@@ -70,7 +70,7 @@ Las secciones siguientes describen los pasos de las implementaciones para cada a
 
 1. [Experience Platform y [!DNL Campaign] orígenes y destinos estándar](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=es)
 1. [Experience Platform y [!DNL Campaign] orígenes y destinos v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=es)
-1. [Incorporar datos en Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) mediante API de flujo y conectores de origen.
+1. [Incorporar datos en Experience Platform](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) mediante API de flujo y conectores de origen.
 1. Configure el destino de almacenamiento del blob [!DNL Azure] para utilizarlo con el Adobe [!DNL Campaign].
 
 #### Adobe[!DNL Campaign]

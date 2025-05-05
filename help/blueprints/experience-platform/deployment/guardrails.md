@@ -21,7 +21,7 @@ Las protecciones reflejan las restricciones del sistema, las latencias esperadas
 | Tipo de protección | Descripción |
 |---|---|
 | Protección de rendimiento (límite suave) | Las protecciones de rendimiento son límites de uso relacionados con el ámbito de los casos de uso y el esquema del rendimiento esperado en condiciones normales. Cuando se supera, puede experimentar una degradación y latencia del rendimiento. Las protecciones de rendimiento se documentan en los documentos del Experience League en las secciones de protección para cada solución, como se describe a continuación. |
-| Límite estático (límite estricto) | Estos son límites impuestos por el sistema que no se pueden superar. Los límites estáticos suelen estar vinculados y descritos contractualmente en el contrato de cliente y en las [descripciones de productos](https://helpx.adobe.com/legal/product-descriptions.html). |
+| Límite estático (límite estricto) | Estos son límites impuestos por el sistema que no se pueden superar. Los límites estáticos suelen estar vinculados y descritos contractualmente en el contrato de cliente y en las [descripciones de productos](https://helpx.adobe.com/es/legal/product-descriptions.html). |
 
 >[!NOTE]
 >
@@ -37,15 +37,15 @@ Las siguientes páginas proporcionan información sobre las protecciones para la
 
 **aplicaciones de Experience Platform**
 
-* [descripción general de las protecciones de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [protecciones para compartir audiencias de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [protecciones de ingesta de datos de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [protecciones de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [descripción general de las protecciones de Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=es)
+* [protecciones para compartir audiencias de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency)
+* [protecciones de ingesta de datos de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [protecciones de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es)
 
 **servicios de Experience Platform**
 
-* [Guardas de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network] Protecciones de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Guardas de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
+* [[!DNL Edge Network] Protecciones de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=es)
 * [Perfil del cliente en tiempo real y protecciones de segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * [Guardas de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=es)
 * [Guardas del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=es)
@@ -61,7 +61,7 @@ En el diagrama siguiente se muestran las latencias observadas en el eje y la ari
 
 ### Ingesta de datos {#data-ingestion}
 
-El diagrama siguiente muestra los valores de latencia de ingesta de datos esperados mediante [ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) e [ingesta por lotes](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=es) al introducir datos en Real-Time CDP. Haga clic en la imagen para ver una versión de alta resolución.
+El diagrama siguiente muestra los valores de latencia de ingesta de datos esperados mediante [ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es) e [ingesta por lotes](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=es) al introducir datos en Real-Time CDP. Haga clic en la imagen para ver una versión de alta resolución.
 
 ![Resumen visual de alto nivel de ingesta de datos.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Valores de latencia e información general visual de alto nivel de ingesta de datos"){width="1000" zoomable="yes"}
 
@@ -79,12 +79,12 @@ El diagrama siguiente muestra los valores de latencia esperados al aprovechar [!
 
 ### Customer Journey Analytics     {#customer-journey-analytics}
 
-El diagrama siguiente muestra los valores de latencia esperados al trabajar con [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Haga clic en la imagen para ver una versión de alta resolución.
+El diagrama siguiente muestra los valores de latencia esperados al trabajar con [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). Haga clic en la imagen para ver una versión de alta resolución.
 
 ![Información general sobre el trabajo con Customer Journey Analytics de alto nivel visual.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Trabajar con valores de latencia y descripción general visual de alto nivel de Customer Journey Analytics"){width="1000" zoomable="yes"}
 
 ### Journey Optimizer   {#journey-optimizer}
 
-El diagrama siguiente muestra los valores de latencia esperados al trabajar con [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Haga clic en la imagen para ver una versión de alta resolución.
+El diagrama siguiente muestra los valores de latencia esperados al trabajar con [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=es). Haga clic en la imagen para ver una versión de alta resolución.
 
 ![Información general visual de alto nivel sobre el trabajo con Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Trabajar con valores de latencia y descripción general visual de alto nivel de Adobe Journey Optimizer"){width="1000" zoomable="yes"}

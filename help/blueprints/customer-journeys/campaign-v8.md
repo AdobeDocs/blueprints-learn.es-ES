@@ -28,7 +28,7 @@ También viene acompañado de un servidor de mensajería en tiempo real escalabl
 
 ## Diagramas de arquitectura
 
-Obtenga más información acerca de [modelos de implementación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Obtenga más información acerca de [modelos de implementación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=es#ac-deployment){target="_blank"}.
 
 ### Implementación empresarial de Campaign (FDAC)
 
@@ -114,7 +114,7 @@ Consulte la guía de introducción para la [Implementación de Adobe Campaign v8
 
 ## Documentación relacionada
 
-* [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
+* [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es)
 * [Descripción del producto Campaign v8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Documentación de las etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/launch.html)
-* [Documentación del SDK móvil de Experience Platform](https://experienceleague.adobe.com/docs/mobile.html)
+* [Documentación de las etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=es)
+* [Documentación del SDK móvil de Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
