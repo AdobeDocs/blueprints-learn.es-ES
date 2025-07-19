@@ -121,7 +121,7 @@ Esta consulta devuelve el número de registros de persona que se combinarán com
 >[!NOTE]
 >
 >La tabla de conjuntos de datos marketo_person_ajo_b2b se utiliza para proporcionar un ejemplo completo de cómo trabajar con el conjunto de datos de persona de Marketo.
->>Puede encontrar el conjunto de datos de su zona protegida en el área de trabajo [Conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide).
+>&#x200B;>Puede encontrar el conjunto de datos de su zona protegida en el área de trabajo [Conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide).
 
 ```sql
 select
