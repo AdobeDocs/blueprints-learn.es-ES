@@ -4,7 +4,7 @@ description: Activación de audiencias y perfiles en destinos empresariales
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 80%
@@ -29,8 +29,8 @@ Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICO
 
 ## Documentación relacionada
 
-Encontrará más información sobre la configuración del almacenamiento en la nube y los destinos empresariales en la [Documentación de destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Encontrará más información sobre la configuración del almacenamiento en la nube y los destinos empresariales en la [Documentación de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Guardas
 
-[Consulte las protecciones tal como se describe en la página protecciones.](../experience-platform/deployment/guardrails.md)
+[Consulte las protecciones tal como se describe en la página protecciones.](../experience-platform/guardrails.md)

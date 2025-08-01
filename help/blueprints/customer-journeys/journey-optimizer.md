@@ -3,16 +3,16 @@ title: '[!DNL Journey Optimizer]: mensaje activado y modelo de Adobe Experience 
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 53%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
 # [!DNL Journey Optimizer] modelos
 
-El Adobe [!DNL Journey Optimizer] es un sistema creado específicamente para que los equipos de marketing reaccionen en tiempo real a los comportamientos de los clientes y los cumplan allí donde se encuentren. Las funcionalidades de administración de datos se han trasladado al Adobe [!DNL Experience Platform], lo que permite a los equipos de marketing centrarse en lo que mejor saben hacer: crear recorridos de clientes de primer nivel y conversaciones personalizadas.
+Adobe [!DNL Journey Optimizer] es un sistema creado específicamente para que los equipos de marketing reaccionen en tiempo real a los comportamientos de los clientes y los cumplan allí donde se encuentren. Las funcionalidades de administración de datos se han trasladado a Adobe [!DNL Experience Platform], lo que permite a los equipos de marketing centrarse en lo que mejor saben hacer: crear conversaciones personalizadas y recorridos de clientes de primer nivel.
 
 Este modelo describe las capacidades técnicas de la aplicación y proporciona una explicación detallada de los distintos componentes de arquitectura que conforman [!DNL Journey Optimizer].
 
@@ -33,7 +33,7 @@ Este modelo describe las capacidades técnicas de la aplicación y proporciona u
 
 | Escenario | Descripción | Competencias |
 | :-- | :--- | :--- |
-| [Mensajería de terceros](3rd-party-messaging.md) | Muestra cómo se puede utilizar el Adobe [!DNL Journey Optimizer] con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas | Entregue comunicaciones personalizadas 1:1 en el momento a los clientes a medida que interactúan con su marca o empresa<br><br>Consideraciones:<br><ul><li>El sistema de terceros debe admitir tokens de portador para la autenticación</li><li>No hay compatibilidad con IP estáticas debido a la arquitectura de varios inquilinos</li><li>Tenga en cuenta las limitaciones arquitectónicas del sistema de terceros cuando se trata de llamadas API por segundo. Puede ser necesario que el cliente compre volumen adicional del proveedor de terceros para admitir el volumen procedente de [!DNL Journey Optimizer]</li><li>No admite Gestión de decisiones en mensajes o cargas útiles</li></ul> |
+| [Mensajería de terceros](3rd-party-messaging.md) | Muestra cómo se puede utilizar Adobe [!DNL Journey Optimizer] con sistemas de mensajería de terceros para organizar y enviar comunicaciones personalizadas | Envíe 1:1 comunicaciones personalizadas en el momento a los clientes mientras interactúan con su marca o compañía<br><br>Consideraciones:<br><ul><li>El sistema de terceros debe admitir tokens de portador para la autenticación</li><li>No hay compatibilidad con IP estáticas debido a la arquitectura de varios inquilinos</li><li>Tenga en cuenta las limitaciones arquitectónicas del sistema de terceros cuando se trata de llamadas API por segundo. Puede ser necesario que el cliente compre volumen adicional del proveedor de terceros para admitir el volumen procedente de [!DNL Journey Optimizer]</li><li>No admite Gestión de decisiones en mensajes o cargas útiles</li></ul> |
 
 <br>
 
@@ -41,7 +41,7 @@ Este modelo describe las capacidades técnicas de la aplicación y proporciona u
 
 | Integración | Descripción | Competencias |
 | :-- | :--- | :--- |
-| [[!DNL Journey Optimizer] con Adobe Campaign](ajo-and-campaign.md) | Muestra cómo puede usar el Adobe [!DNL Journey Optimizer] para orquestar experiencias 1:1 mediante el Perfil del cliente en tiempo real y aprovechar el sistema nativo de mensajería transaccional de Adobe Campaign para enviar el mensaje | Aproveche el perfil del cliente en tiempo real y la potencia de [!DNL Journey Optimizer] para orquestar las experiencias del momento mientras utiliza las capacidades nativas de mensajería en tiempo real de Adobe Campaign para realizar la comunicación de la última milla<br><br>Consideraciones:<br><ul><li>La aplicación Campaign debe estar en la v7 >21.1 o v8</li><li>Rendimiento de mensajería</li><ul><li>Campaign v7: hasta 50 000 por hora</li><li>Campaign v8: hasta 1 millón por hora</li><li>Campaign Standard: hasta 50 000 por hora</li></ul><li>No se establece ninguna limitación, por lo que los casos de uso necesitan una revisión técnica de un arquitecto empresarial</li><li>No se admite la utilización de Gestión de decisiones en el mensaje enviado por Campaign</li></ul> |
+| [[!DNL Journey Optimizer] con Adobe Campaign](ajo-and-campaign.md) | Muestra cómo puede usar Adobe [!DNL Journey Optimizer] para orquestar experiencias de tipo 1:1 mediante el Perfil del cliente en tiempo real y aprovechar el sistema nativo de mensajería transaccional de Adobe Campaign para enviar el mensaje | Aproveche el perfil del cliente en tiempo real y la potencia de [!DNL Journey Optimizer] para orquestar las experiencias del momento mientras utiliza las capacidades nativas de mensajería en tiempo real de Adobe Campaign para realizar la comunicación de la última milla<br><br>Consideraciones:<br><ul><li>La aplicación Campaign debe estar en la v7 >21.1 o v8</li><li>Rendimiento de mensajería</li><ul><li>Campaign v7: hasta 50 000 por hora</li><li>Campaign v8: hasta 1 millón por hora</li><li>Campaign Standard: hasta 50 000 por hora</li></ul><li>No se establece ninguna limitación, por lo que los casos de uso necesitan una revisión técnica de un arquitecto empresarial</li><li>No se admite la utilización de Gestión de decisiones en el mensaje enviado por Campaign</li></ul> |
 
 <br>
 
@@ -66,9 +66,9 @@ Inserción móvil:
 
 ## Guardas
 
-[[!DNL Journey Optimizer] Vínculo de producto de protecciones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] Vínculo de producto de protecciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=es)
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Documentación relacionada
 
