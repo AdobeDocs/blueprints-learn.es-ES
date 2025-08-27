@@ -1,27 +1,39 @@
 ---
 title: Modelos de recorrido del cliente
-description: Proporcione una experiencia del cliente individual y rápida en diversas pantallas.
+description: Ofrezca experiencias de cliente individuales, puntuales y orquestadas en todas las pantallas.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 67%
+source-wordcount: '221'
+ht-degree: 13%
 
 ---
 
-# Modelos de recorrido del cliente
+# Modelos de Recorrido del cliente
 
-Los Recorridos del cliente permiten a las marcas interactuar de forma proactiva con sus clientes y comunicarse con ellos a través de canales como correo electrónico, SMS y alertas móviles.
+Los equipos de marketing modernos requieren plataformas que puedan admitir la participación reactiva (que responda a los comportamientos de los clientes individuales) y la divulgación proactiva (que inicie campañas que guíen a las audiencias hacia canales de conversión). Estos casos de uso abarcan canales como correo electrónico, SMS, push y, cada vez más, experiencias web y en la aplicación.
 
-Las herramientas de organización también se pueden integrar con otros canales de integración como los de entrada para posibilitar la personalización web y móvil al compartir el estado de audiencia con los motores de decisión de los otros canales. Hay varios factores que influyen en las aplicaciones y las opciones de implementación que deben utilizarse para los recorridos del cliente, pero que pueden resumirse en dos enfoques diferentes: reaccionar a un cliente cuando participa (activación) O reaccionar a un grupo de clientes mientras participa (programación).
+Adobe Journey Optimizer y Adobe Campaign v8 admiten dos modelos fundamentales para la participación del cliente:
 
-Adobe Hoy en día, hay dos opciones para que los clientes puedan seleccionar cuando deseen una solución de Recorrido del cliente:
+- Recorridos activados por el cliente: orquestación en tiempo real basada en comportamientos y señales individuales.
+- Campañas iniciadas por marcas: Inserciones programadas estratégicamente que introducen audiencias en canales de participación basados en la segmentación o la lógica empresarial.
 
-<ul><li>Servicios administrados en la nube de Adobe [!DNL Campaign]</li><li>Adobe Journey Optimizer</li></ul>
+Ambas soluciones permiten la comunicación saliente entre canales tradicionales y digitales. AJO también admite la integración con canales entrantes (por ejemplo, aplicaciones web y móviles) mediante servicios de decisiones y uso compartido de estados de audiencia, lo que permite una personalización unificada entre canales.
+
+La selección entre estas herramientas depende de consideraciones arquitectónicas como la tolerancia de latencia, los requisitos de canal, la estrategia de integración de datos y la escalabilidad.
+
+<br>
 
 | Modelo | Descripción | Arquitectura |
-|---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | Se creó de forma nativa sobre el perfil del cliente en tiempo real de [!DNL Experience Platforms], lo que permite a los equipos de marketing reaccionar en tiempo real ante los cambios en el comportamiento de los clientes y cumplirlos donde se encuentren en cualquier canal en cualquier momento | <img src="assets/ajo-architecture.svg" alt="Arquitectura de referencia para el modelo de Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | Herramienta de campaña de próxima generación optimizada para procesos de campaña y administración de datos muy complejos. Permite a los clientes combinar el descubrimiento y la creación de comunicaciones de campañas de marketing enriquecidas. | <img src="assets/campaign-v8-architecture.svg" alt="Arquitectura de referencia para el modelo de Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | Herramienta de campaña tradicional creada para campañas de marketing por lotes en canales como correo electrónico, SMS y correo directo. Permite a los clientes organizar y administrar las distintas comunicaciones con los clientes en un solo lugar. | <img src="assets/campaign-v7-architecture.svg" alt="Arquitectura de referencia para el modelo de Campaign v7" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+|---|---|:---:|
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | Combina organización de perfiles 1:1 basada en eventos con comunicaciones de marca basadas en audiencias en varios canales, como correo electrónico, sms, web, push, mensajería en la aplicación, escritorio, etc. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Arquitectura de referencia para el modelo de Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md)** | Se centra en la administración de campañas multicanal por lotes, ideal para canales de marketing tradicionales como correo electrónico, SMS y correo directo. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Arquitectura de referencia para el modelo de Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+
+<br>
+
+## Modelos obsoletos
+
+| Modelo | Arquitectura |
+|---|:---:|
+| **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7-overview.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Arquitectura de referencia para el modelo de Campaign v7" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |

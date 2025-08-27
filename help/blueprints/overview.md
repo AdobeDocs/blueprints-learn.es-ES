@@ -3,7 +3,7 @@ title: Modelos de experiencia digital
 description: Los modelos de experiencia digital son implementaciones repetibles creadas para tratar estrategias y solucionar problemas empresariales existentes. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 5b1df5d6fb0da7de2054366cead10e549e650633
+source-git-commit: 003e8ebf32150cf6527ed588ff05f22ea8cfb209
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 24%
@@ -39,11 +39,11 @@ Los modelos de experiencia digital proporcionan diagramas de la arquitectura del
     </div>
   </td>
   <td>
-    <a href="customer-journeys/journey-optimizer.md">
-      <img alt="Diagrama de información general de Journey Optimizer" src="customer-journeys/assets/ajo-architecture.svg" />
+    <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <img alt="Diagrama de información general de Journey Optimizer" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
     </a>
     <div>
-      <a href="customer-journeys/journey-optimizer.md">
+      <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
     <strong>Diagrama de información general de Adobe Journey Optimizer</strong>
     </a>
     </div>
