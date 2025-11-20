@@ -29,7 +29,7 @@ Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICO
 
 ## Documentación relacionada
 
-Encontrará más información sobre la configuración del almacenamiento en la nube y los destinos empresariales en la [Documentación de destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Encontrará más información sobre la configuración del almacenamiento en la nube y los destinos empresariales en la [Documentación de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Guardas
 

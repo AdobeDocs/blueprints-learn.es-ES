@@ -22,4 +22,4 @@ El diagrama siguiente ilustra las distintas rutas para la ingesta y salida de da
 
 ## Patrones de entrada y salida de datos
 
-Para obtener una lista detallada de todos los patrones de ingesta, recopilación, entrada y salida de datos, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/home).
+Para obtener una lista detallada de todos los patrones de ingesta, recopilación, entrada y salida de datos, consulte la [Documentación de ingesta de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home).
