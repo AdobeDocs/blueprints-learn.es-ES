@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - Modelo de Recorrido'
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
+source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 15%
@@ -52,7 +52,7 @@ Este modelo describe las capacidades técnicas de la aplicación y proporciona u
 | Escenario | Descripción |
 | :-- | :-- |
 | [Recorridos](journey-optimizer-journeys.md) | Los Recorridos de AJO en Adobe Journey Optimizer son experiencias del cliente automatizadas y personalizadas activadas por eventos en tiempo real o segmentos de audiencia, lo que permite a los especialistas en marketing enviar mensajes relevantes a través de canales como correo electrónico, SMS y notificaciones push. |
-| [Orquestación de campaña](journey-optimizer-campaigns.md) | AJO Campaign Orchestration permite a los especialistas en marketing diseñar y ejecutar campañas personalizadas en canales múltiples utilizando datos en tiempo real y perspectivas de audiencia. Admite direccionamiento dinámico, envío de mensajes y lógica de recorrido para optimizar la participación de los clientes en los canales de correo electrónico, SMS, push y personalizados. | |
+| [Orquestación de campaña](journey-optimizer-campaigns.md) | AJO Campaign Orchestration permite a los especialistas en marketing diseñar y ejecutar campañas personalizadas en canales múltiples utilizando datos en tiempo real y perspectivas de audiencia. Admite direccionamiento dinámico, envío de mensajes y lógica de recorrido para optimizar la participación de los clientes en los canales de correo electrónico, SMS, push y personalizados. |
 
 <br>
 
@@ -94,12 +94,12 @@ Inserción móvil:
 
 [[!DNL Journey Optimizer] Vínculo de producto de protecciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=es)
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentación relacionada
 
 - [[!DNL Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 - [[!DNL Experience Platform] Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
-- [[!DNL Experience Platform Mobile SDK] documentación](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
-- [[!DNL Journey Optimizer] documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
+- [[!DNL Experience Platform Mobile SDK] documentación](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
