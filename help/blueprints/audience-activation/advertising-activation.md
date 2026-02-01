@@ -1,19 +1,19 @@
 ---
-title: Activación a destinos sociales y publicitarios desde RTCDP
+title: Destinos de Audience Activation a Social y Advertising
 description: Obtenga información sobre cómo introducir datos de clientes de varias fuentes para crear una única vista de perfil del cliente.
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 92%
+source-wordcount: '1128'
+ht-degree: 93%
 
 ---
 
-# Activación a destinos sociales y publicitarios desde RTCDP
+# Destinos de Audience Activation a Social y Advertising
 
-Ingeste datos de clientes de varias fuentes para crear una única vista de perfil del cliente. Puede segmentar estos perfiles para crear audiencias de marketing y personalización, y compartir estas audiencias con redes de publicidad como Facebook y Google para dirigir y personalizar campañas en relación con esas audiencias.
+Ingeste datos de clientes de varias fuentes para crear una única vista de perfil del cliente. Puede segmentar estos perfiles para crear audiencias de marketing y personalización, y compartir estas audiencias con redes de publicidad como Facebook y Google para dirigir y personalizar campañas contra esas audiencias.
 
 ## Casos de uso
 

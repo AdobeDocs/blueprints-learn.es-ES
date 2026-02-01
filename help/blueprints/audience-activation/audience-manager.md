@@ -1,5 +1,5 @@
 ---
-title: Modelo de Audience Manager
+title: 'Basado en dispositivo: segmentación de audiencias anónimas con Audience Manager'
 description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes. Con esto, se puede crear una experiencia del cliente coherente y personalizada en diversos dispositivos.
 landing-page-description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes.
 short-description: Descubra cómo segmentar audiencias de sitios web y otros canales de publicidad basándose en los datos anónimos de comportamiento de los clientes.
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '246'
+ht-degree: 89%
 
 ---
 
-# Modelo de Audience Manager
+# Basado en dispositivo: segmentación de audiencias anónimas con Audience Manager
 
 La activación de audiencias anónimas permite dirigirse a audiencias y personalizarlas a través de canales web, móviles y publicitarios en función de datos de comportamiento y dispositivos anónimos.
 
@@ -44,4 +44,4 @@ Tanto Audience Manager como Real-Time Customer Data Platform se pueden aprovecha
 
 ## Pasos de implementación de Real-Time Customer Data Platform
 
-* Para ver los pasos de implementación de Real-Time Customer Data Platform, consulte la siguiente [documentación](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home).
+* Para ver los pasos de implementación de Real-Time Customer Data Platform, consulte la siguiente [documentación](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).

@@ -1,17 +1,17 @@
 ---
-title: Modelo de activación de audiencias y perfiles en destinos de streaming empresarial y de archivos
+title: Modelo de Activación de audiencias y perfiles para destinos empresariales
 description: Activación de audiencias y perfiles en destinos empresariales
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 80%
+source-wordcount: '161'
+ht-degree: 72%
 
 ---
 
-# Modelo de activación de audiencias y perfiles en destinos de streaming empresarial y de archivos
+# Modelo de Activación de audiencias y perfiles para destinos empresariales
 
 Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICONTROL Real-Time Customer Data Platform] a aplicaciones y almacenes de datos empresariales. Estos eventos de perfil y audiencia se pueden utilizar para iniciar una acción de ventas o asistencia al cliente, como realizar el seguimiento de un proceso abandono de aplicación, un registro en un seminario web o actualizar aplicaciones empresariales con los últimos atributos de cliente e inteligencia de [!UICONTROL Real-Time Customer Data Platform].
 
@@ -21,7 +21,7 @@ Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICO
 
 ## Aplicaciones
 
-* Adobe Experience Platform Activation
+* Real-Time Customer Data Platform
 
 ## Arquitectura
 
@@ -29,7 +29,7 @@ Comparta cambios y eventos de perfil y audiencia por streaming o lotes de [!UICO
 
 ## Documentación relacionada
 
-Encontrará más información sobre la configuración del almacenamiento en la nube y los destinos empresariales en la [Documentación de destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Encontrará más información sobre la configuración del almacenamiento en la nube y los destinos empresariales en la [Documentación de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Guardas
 

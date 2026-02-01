@@ -1,16 +1,16 @@
 ---
-title: Modelo de coincidencia de segmentos
+title: Audience Collaboration con coincidencia de segmentos
 description: Obtenga información sobre la [!UICONTROL Coincidencia de segmentos] para Adobe Experience Platform (AEP). La [!UICONTROL Coincidencia de segmentos] es un servicio de colaboración de datos que le permite intercambiar datos de segmentos basados en identificadores sectoriales comunes de una forma segura, regulada y compatible con la privacidad.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2123'
 ht-degree: 80%
 
 ---
 
-# Modelo de coincidencia de segmentos
+# Audience Collaboration con modelo de coincidencia de segmentos
 
 La coincidencia de segmentos permite a las marcas de socios compartir audiencias en sus respectivos entornos de Experience Platform. Para las marcas, la clave reside en establecer contacto con sus clientes basándose en los datos recopilados de sus relaciones directas con los consumidores. Con un mejor gobierno, permisos y sistemas de administración de preferencias, los especialistas en marketing pueden hacer que sus audiencias propias autenticadas con los socios clave sean de más calidad.
 
@@ -185,10 +185,10 @@ Puede utilizar Coincidencia de segmentos de Adobe Experience Platform para colab
 
 1. Una marca (Luma) lleva a cabo una coincidencia de audiencia con una red de medios (ACME) mediante Coincidencia de segmentos.
 2. ACME envía la audiencia al servidor de publicidad o al SSP programático a través de los destinos de Adobe Real-Time CDP.
-3. ACME configura un acuerdo de inventario privado (ID) con los criterios de objetivo aplicables, incluida la audiencia establecida en el paso anterior. DSP A continuación, el ID de acuerdo de inventario privado se inserta en la cuenta de usuario de.
+3. ACME configura un acuerdo de inventario privado (ID) con los criterios de objetivo aplicables, incluida la audiencia establecida en el paso anterior. A continuación, el ID de acuerdo de inventario privado se inserta en el DSP de Luma.
 4. Luma configura un acuerdo de inventario privado y una campaña de tráfico/publicidad creativa.
 5. A continuación, la campaña se realiza mediante un acuerdo programático de inventario privado.
-6. A continuación, el servidor de publicidad o SSP ofrece impresiones de publicidad que cumplen con los criterios de segmentación establecidos. DSP (Los criterios de segmentación adicionales, como el límite de frecuencia, están disponibles a través del servidor de publicidad o de la red de distribución, en función de si se ha establecido una operación Garantizada o Preferida en el acuerdo).
+6. A continuación, el servidor de publicidad o SSP ofrece impresiones de publicidad que cumplen con los criterios de segmentación establecidos. (Los criterios de segmentación adicionales, como la restricción de frecuencia, están disponibles a través del servidor de publicidad o DSP, dependiendo de si se estableció una operación Garantizada o Preferida en el acuerdo).
 7. El tráfico se dirige a las propiedades de marca de Luma.
 8. A continuación, ACME vuelve a compartir las perspectivas o audiencias posteriores a la campaña a través de Coincidencia de segmentos para su redireccionamiento.
 

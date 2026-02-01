@@ -1,19 +1,19 @@
 ---
-title: Modelo de centro de actividad del cliente
+title: Acceso a perfiles en tiempo real para escenarios de soporte y ventas
 description: Búsquedas en [!UICONTROL Real-time Customer Profile] para ofrecer contexto a los agentes de atención al cliente y ventas.
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 65%
 
 ---
 
-# Modelo de centro de actividad del cliente
+# Acceso a perfiles en tiempo real para escenarios de soporte y ventas
 
-El modelo de centro de actividad del cliente muestra cómo ciertas aplicaciones externas pueden acceder a [!UICONTROL Real-Time Customer Profile] de Adobe Experience Platform.
+El modelo de acceso a perfiles en tiempo real para escenarios de soporte y ventas muestra cómo las aplicaciones externas pueden acceder al [!UICONTROL Perfil del cliente en tiempo real] de Adobe Experience Platform.
 
 Las aplicaciones externas pueden acceder a los perfiles con una solicitud API GET. Los atributos, los eventos, las pertenencias a segmento y todos los recursos por modelo almacenados en el perfil se podrán utilizar posteriormente en las aplicaciones externas que no pertenezcan a Adobe.
 
@@ -21,7 +21,7 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 >[!NOTE]
 >
->La latencia actual admitida por la API de búsqueda de perfiles es de aproximadamente 500 milisegundos, lo que hace que este enfoque no sea adecuado para la integración del perfil con motores de decisión en tiempo real, como la personalización móvil o web en la misma página.
+>La búsqueda de perfiles en el concentrador no está diseñada para casos de uso de alto rendimiento y baja latencia, como la personalización de entrada web/móvil. La búsqueda de perfiles en el concentrador está diseñada para escenarios de latencia más baja, como soporte asistido por agentes o interacciones de ventas. Para escenarios de baja latencia y alto rendimiento, como personalización web/móvil o Offer Decisioning en tiempo real, se debe aprovechar el perfil de Edge. El perfil de Edge habilita el acceso en tiempo real mediante la [conexión personalizada de Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) de Real-time Customer Data Platform.
 
 ## Casos de uso
 
@@ -37,13 +37,13 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 
 ## Pasos de implementación
 
-1. [Crear esquemas](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=es) para la ingesta de datos.
+1. [Crear esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=es) para la ingesta de datos.
 1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) para la ingesta de datos.
 1. [Configurar las identidades e identidad de áreas de nombres correctas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es) en el esquema para asegurar que los datos ingestados se puedan combinar en un perfil unificado.
 1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
-1. [Ingesta de datos](https://experienceleague.adobe.com/?lang=es&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=es) a Experience Platform.
+1. [Ingesta de datos](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=es) a Experience Platform.
 1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es).
-1. Utilizar la [API de las entidades para buscar un atributo de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=es), tanto de la entidad de registro como de la de evento de experiencia.
+1. Use la API [Entidades para buscar un atributo de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=es).
 
 ## Documentación relacionada
 
