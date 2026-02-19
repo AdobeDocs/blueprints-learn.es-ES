@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
+source-git-commit: 747e685bb897dd15774748c20940e49e9c234b31
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 38%
+source-wordcount: '234'
+ht-degree: 37%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 38%
    + [Información general](/help/blueprints/b2b/overview.md)
    + [Activación B2B](/help/blueprints/b2b/b2bactivation.md)
    + [Activación de cuenta B2B](/help/blueprints/b2b/b2b-account-activation.md)
+   + [Controladora de medios de pago B2B](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + [Adquisición de gestión de recorridos y marketing basada en grupos](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [Recorridos B2B con datos de Marketo](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
    + Modelo de integración de Marketo Engage y Workfront{#marketo-engage-and-workfront-integration-blueprint}
@@ -53,7 +54,7 @@ ht-degree: 38%
 + Recorridos del cliente{#customer-journeys}
    + [Información general](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO Recorrido](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [AJO Campaigns](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -67,8 +68,8 @@ ht-degree: 38%
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Modelos obsoletos{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Análisis de datos, inteligencia e IA/ML (aprendizaje automático) {#data-exploration}
