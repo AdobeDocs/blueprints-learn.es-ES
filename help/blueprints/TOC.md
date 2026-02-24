@@ -1,52 +1,51 @@
 ---
-user-guide-title: Modelos de experiencia digital
-breadcrumb-title: Modelos
+user-guide-title: Modelos de Customer Experience Orchestration
+breadcrumb-title: modelos
 user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 747e685bb897dd15774748c20940e49e9c234b31
+source-git-commit: 4fece5535efcbcdc37a87aedc188c5a8d27269cc
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 37%
+source-wordcount: '235'
+ht-degree: 31%
 
 ---
 
 
-# Modelos de experiencia digital {#architecture}
+# Modelos de organización de experiencia del cliente {#architecture}
 
-+ [Modelos de experiencias digitales](/help/blueprints/overview.md)
++ [Modelos de orquestaciones de experiencia del cliente](/help/blueprints/overview.md)
 + Información general de arquitectura{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
    + [Flujo de datos de Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + [Protecciones de Experience Platform](/help/blueprints/experience-platform/guardrails.md)
+   + [protecciones de Experience Platform](/help/blueprints/experience-platform/guardrails.md)
    + Implementación{#deployment}
       + [Experience Platform Web SDK &amp;  [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [SDK para aplicaciones](/help/blueprints/experience-platform/deployment/appsdk.md)
 + Activación de audiencias y perfiles{#audience-activation}
-   + [Basado en dispositivo: segmentación de audiencias anónimas con Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
-   + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [Destinos de Audience Activation a Social y Advertising](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Activación de audiencias y perfiles en destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [Acceso a perfiles en tiempo real para escenarios de soporte y ventas](/help/blueprints/audience-activation/customer-activity.md)
-      + [Acceso al perfil de Edge en tiempo real para Personalization web y móvil](/help/blueprints/audience-activation/real-time-lookup.md)
-      + [Audience Collaboration con coincidencia de segmentos](/help/blueprints/audience-activation/segment-match.md)
-      + [Personalization de cliente conocido con Target](/help/blueprints/audience-activation/rtcdp-target.md)
+   + [Basado en dispositivo: segmentación de audiencia anónima con Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
+   + Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
+      + [Activación de audiencias en destinos sociales y publicitarios](/help/blueprints/audience-activation/advertising-activation.md)
+      + [Modelo de activación de audiencia y perfil a destinos empresariales](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Acceso a perfiles en tiempo real para casos de soporte y ventas](/help/blueprints/audience-activation/customer-activity.md)
+      + [Acceso a perfiles Edge en tiempo real para personalización web y móvil](/help/blueprints/audience-activation/real-time-lookup.md)
+      + [Colaboración de audiencias con Coincidencia de segmentos](/help/blueprints/audience-activation/segment-match.md)
+      + [Personalización de clientes conocida con Target](/help/blueprints/audience-activation/rtcdp-target.md)
 + Activación y marketing B2B{#b2b-activation}
    + [Información general](/help/blueprints/b2b/overview.md)
    + [Activación B2B](/help/blueprints/b2b/b2bactivation.md)
    + [Activación de cuenta B2B](/help/blueprints/b2b/b2b-account-activation.md)
-   + [Controladora de medios de pago B2B](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + [Adquisición de gestión de recorridos y marketing basada en grupos](/help/blueprints/b2b/b2b-buying-group-journeys.md)
-   + [Recorridos B2B con datos de Marketo](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+   + [Recorridos B2B que utilizan datos de Marketo](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
    + Modelo de integración de Marketo Engage y Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Información general](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Admisión y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [Revisar y aprobar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Historias de éxito de clientes](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Contenido y Commerce{#content-commerce}
-   + [ADOBE COMMERCE y RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
++ Contenido y comercio{#content-commerce}
+   + [ADOBE COMMERCE y REAL-TIME CDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics    {#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
    + [Uso compartido de audiencias de CJA con RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -54,9 +53,9 @@ ht-degree: 37%
 + Recorridos del cliente{#customer-journeys}
    + [Información general](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
-      + [AJO Recorrido](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
-      + [AJO Campaigns](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
+      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Recorridos de AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+      + [Campañas de AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
    + Gestión de decisiones{#decision-management}
       + [Información general](/help/blueprints/customer-journeys/decision-management/decision-management-overview.md)
@@ -68,8 +67,8 @@ ht-degree: 37%
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Modelos obsoletos{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Análisis de datos, inteligencia e IA/ML (aprendizaje automático) {#data-exploration}

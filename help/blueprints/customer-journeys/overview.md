@@ -3,14 +3,14 @@ title: Modelos de recorrido del cliente
 description: Ofrezca experiencias de cliente individuales, puntuales y orquestadas en todas las pantallas.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# Modelos de Recorrido del cliente
+# Modelos de recorrido del cliente
 
 Los equipos de marketing modernos requieren plataformas que puedan admitir la participación reactiva (que responda a los comportamientos de los clientes individuales) y la divulgación proactiva (que inicie campañas que guíen a las audiencias hacia canales de conversión). Estos casos de uso abarcan canales como correo electrónico, SMS, push y, cada vez más, experiencias web y en la aplicación.
 
