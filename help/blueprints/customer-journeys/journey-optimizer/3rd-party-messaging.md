@@ -38,9 +38,9 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajer
 
 ## Guardas
 
-[Vínculo del producto de protecciones Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
+[Vínculo del producto de protecciones Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
 
-[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=es)
 
 <br>
 
@@ -91,6 +91,6 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajer
 
 * [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Documentación de etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
-* [Documentación de Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
-* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+* [Documentación de Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
+* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
 * [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)

@@ -42,9 +42,9 @@ Revise los siguientes requisitos previos para cada aplicación.
 
 ## Guardas
 
-* [Limitaciones de productos de Journey Optimizer Protections](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Limitaciones de productos de Journey Optimizer Protections](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+* [Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=es)
 
 ## Pasos de implementación
 

@@ -137,11 +137,11 @@ Los siguientes requisitos previos existen para este modelo.
 
 ## Pasos de implementación
 
-Consulte la guía de introducción para la [Implementación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
+Consulte la guía de introducción para la [Implementación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=es)
 
 ## Documentación relacionada
 
-- [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es)
 - [Descripción del producto de Campaign v8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Documentación de etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/launch.html)
-- [Documentación de Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+- [Documentación de etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=es)
+- [Documentación de Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
