@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: fb814fe6f5e4e774a96cbe75fea2499d849716b4
+source-git-commit: ffef3a39ae84b85167a3b8b8a3622c76fb6cb251
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 30%
+source-wordcount: '276'
+ht-degree: 25%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 30%
    + [Activación de cuenta B2B](/help/blueprints/b2b/b2b-account-activation.md)
    + [Adquisición de gestión de recorridos y marketing basada en grupos](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [Recorridos B2B que utilizan datos de Marketo](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+   + [Customer Journey Analytics B2B](/help/blueprints/customer-journey-analytics/b2b-cja.md)
    + [Controladora de medios de pago B2B](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + Modelo de integración de Marketo Engage y Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Información general](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
@@ -47,15 +48,16 @@ ht-degree: 30%
       + [Historias de éxito de clientes](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Contenido y comercio{#content-commerce}
    + [ADOBE COMMERCE y REAL-TIME CDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
-+ Customer Journey Analytics    {#customer-journey-analytics}
++ Customer Journey Analytics{#customer-journey-analytics}
    + [Información general](/help/blueprints/customer-journey-analytics/overview.md)
+   + [Customer Journey Analytics B2B](/help/blueprints/customer-journey-analytics/b2b-cja.md)
    + [Uso compartido de audiencias de CJA con RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA y Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Recorridos del cliente{#customer-journeys}
    + [Información general](/help/blueprints/customer-journeys/overview.md)
-   + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
-      + [Recorridos de AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
+   + Journey Optimizer{#journey-optimizer}
+      + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [AJO recorrido](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [Campañas de AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Mensajería de terceros](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
    + Gestión de decisiones{#decision-management}
@@ -68,10 +70,10 @@ ht-degree: 30%
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Modelos obsoletos{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
-+ Análisis de datos, inteligencia e IA/ML (aprendizaje automático) {#data-exploration}
++ Análisis de datos, inteligencia e IA/ML (aprendizaje automático){#data-exploration}
    + [Análisis de datos e inteligencia](/help/blueprints/data-insights/analysis.md)
    + [Ciencia de datos personalizada para enriquecimiento de perfiles](/help/blueprints/data-insights/data-science.md)
