@@ -2,10 +2,10 @@
 title: Modelo de ingesta y creación
 description: 'Ingesta y creación: modelo de integración de Marketo Engage y Workfront'
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 97%
+source-wordcount: '1372'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ El número de solicitudes de marketing que llegan a un equipo de operaciones de 
 
 Al establecer un proceso para enviar solicitudes de campaña y automatizar la creación de las campañas de marketing más solicitadas habitualmente, el usuario puede: aumentar la velocidad de sus campañas, reducir los errores, dirigir las solicitudes al miembro correcto de operaciones de marketing, equilibrar y mejorar la utilización de los recursos y centrar más sus operaciones de marketing en tareas de mayor estrategia.
 
-Con Workfront y Marketo Engage, una conexión de sistema a sistema permite utilizar los detalles de un [Formulario de solicitud de Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=es){target="_blank"} para crear un programa de Marketo Engage y, posteriormente, completar las variables clave, como: líneas de asunto, copia por correo electrónico, imágenes, fechas, horas, información de un evento, etc.
+Con Workfront y Marketo Engage, una conexión de sistema a sistema permite obtener detalles desde un [formulario de solicitud de Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=es){target="_blank"} para crear un programa de Marketo Engage y, a continuación, rellenar variables clave como: líneas de asunto, copia de correo electrónico, imágenes, fechas, horas, información de eventos y mucho más.
 
 Para lograr esta integración, se utilizará Workfront Fusion, una capa de automatización de trabajo que permite automatizar flujos de trabajo entre Workfront y otros sistemas.
 
@@ -95,7 +95,7 @@ Crear su centro de excelencia con plantillas de programa en Marketo Engage es un
 
 Una vez que tenga un conjunto de plantillas de programa reutilizables, puede escalar aún más sus esfuerzos mediante la automatización descrita en este modelo para aumentar la velocidad del desarrollo de su campaña.
 
-Para obtener más información sobre la creación de su propio centro de excelencia, consulte la [Comunidad de Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} para conocer las prácticas recomendadas.
+Para obtener más información sobre cómo crear su propio centro de excelencia, visite la [Comunidad de Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"}, donde encontrará prácticas recomendadas.
 
 ### Usar tokens para rellenar contenido {#use-tokens-to-populate-content}
 
@@ -153,8 +153,8 @@ Este es un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo e
 
 ## Recursos {#resources}
 
-* [Módulos de Adobe Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}
+* [Módulos Adobe Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}
 
-* [Módulos de Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"}
+* [Módulos Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"}
 
 * [Información general sobre Marketo y Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}

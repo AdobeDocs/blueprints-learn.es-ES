@@ -2,10 +2,11 @@
 title: '[!DNL Journey Optimizer] - Orquestación de campaña'
 description: Permite a los especialistas en marketing coordinar comunicaciones de marketing programadas, basadas en audiencias y de varios pasos entre canales de mensajería salientes.
 solution: Journey Optimizer
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+exl-id: a8ff16f8-146d-4e1f-9bd0-9eda6af0c69b
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 2%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -46,7 +47,7 @@ AJO Campaign Orchestration permite a los especialistas en marketing diseñar y e
 
 ## Guardas
 
-[Vínculo de producto de campañas orquestadas](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
+[Vínculo de producto de campañas organizadas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
 
 [Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
@@ -54,9 +55,9 @@ AJO Campaign Orchestration permite a los especialistas en marketing diseñar y e
 
 ## Documentación relacionada
 
-- [[!DNL Journey Optimizer] Campañas orquestadas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
-- [[!DNL Experience Platform] documentación](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
-- [[!DNL Experience Platform] Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
-- [[!DNL Experience Platform Mobile SDK] documentación](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
-- [[!DNL Journey Optimizer] documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
+- [[!DNL Journey Optimizer] campañas organizadas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
+- [Documentación de [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
+- [Documentación de etiquetas [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
+- [Documentación de [!DNL Experience Platform Mobile SDK]](https://experienceleague.adobe.com/docs/mobile.html)
+- [Documentación de [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)

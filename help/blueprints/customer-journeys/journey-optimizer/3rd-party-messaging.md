@@ -3,9 +3,9 @@ title: 'Journey Optimizer: modelo de mensajería de terceros'
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para enviar comunicaciones personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 8fcc71abcc29f5dc7d2e2b3a5afcc60d9e844fcc
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '563'
 ht-degree: 62%
 
 ---
@@ -38,9 +38,9 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajer
 
 ## Guardas
 
-[Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=es)
+[Vínculo del producto de protecciones Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=es)
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -90,7 +90,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajer
 ## Documentación relacionada
 
 * [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
-* [Documentación de las etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
-* [Documentación del SDK móvil de Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
-* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
-* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Documentación de etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
+* [Documentación de Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+* [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)

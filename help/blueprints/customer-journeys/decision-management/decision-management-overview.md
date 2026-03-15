@@ -3,18 +3,18 @@ title: Modelos de administración de decisiones
 description: Ofrezca ofertas personalizadas entre los recorridos de los clientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
+source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 78%
+source-wordcount: '731'
+ht-degree: 76%
 
 ---
 
-# Journey Optimizer: Modelos de Gestión de decisiones
+# Journey Optimizer: modelos de gestión de decisiones
 
 Consulte la siguiente documentación para [Administración de decisiones](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es)
 
-Consulte la siguiente documentación para ver las protecciones relacionadas con la gestión de decisiones. [Protecciones de administración de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+Consulte la siguiente documentación para ver las protecciones relacionadas con la gestión de decisiones. [Protecciones de administración de decisiones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 Gestión de decisiones de Adobe es un servicio que se proporciona como parte de Adobe Journey Optimizer. Este modelo describe los casos de uso y las capacidades técnicas de la aplicación, y proporciona una explicación profunda de los diversos componentes y consideraciones sobre arquitectura que componen Gestión de decisiones.
 
@@ -46,7 +46,7 @@ La primera es a través del hub de Adobe Experience Platform, que es una arquite
 
 * Acceso completo a Real-Time Customer Profile, lo que incluye las suscripciones a audiencias, atributos y eventos de experiencia.
 
-## Gestión de decisiones en Edge   
+## Gestión de decisiones en Edge
 
 El segundo método es a través de Experience [!DNL Edge Network], que es una infraestructura distribuida geográficamente a nivel global para ofrecer experiencias rápidas de segundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura de Edge más cercana a la ubicación geográfica del consumidor para minimizar la latencia. Gestión de decisiones en Edge está diseñado para ofrecer experiencias de consumidores en tiempo real, como solicitudes de personalización entrantes web o móviles. Para obtener más información sobre Gestión de decisiones en Edge, consulte el modelo [Gestión de decisiones en Edge](decision-management-edge.md).
 
@@ -64,5 +64,5 @@ El segundo método es a través de Experience [!DNL Edge Network], que es una in
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
 * [Gestión de decisiones de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es)
-* [Descripción del producto Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Descripción del producto de Gestión de decisiones de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Descripción del producto de Adobe Decision Management](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html)

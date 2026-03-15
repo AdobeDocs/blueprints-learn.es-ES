@@ -3,10 +3,10 @@ title: Modelo de Gestión de decisiones en Edge
 description: Ofrezca ofertas personalizadas a los consumidores en todos los canales, incluidas las experiencias web y móviles en tiempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: b24b1200e605914c501c0f98562ca40beee1138e
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 68%
+source-wordcount: '480'
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 [!DNL Decision Management] se puede implementar de una de las dos maneras siguientes. La primera se realiza a través del concentrador [!DNL Experience Platform], que es una arquitectura de centro de datos única. En el método &quot;hub&quot;, las ofertas se ejecutan, personalizan y entregan con una latencia de un segundo. Por lo tanto, la arquitectura del hub es la más adecuada para la experiencia del cliente que no requiere latencia de subsegundo. Algunos ejemplos incluyen tomas de decisiones sobre ofertas que se proporcionan para los quioscos o experiencias asistidas por agentes, como en los centros de llamadas o en las interacciones personales.
 
-El segundo método es a través de Experience Platform [!DNL Edge Network], que es una infraestructura distribuida geográficamente a nivel global para ofrecer experiencias rápidas de segundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura de Edge más cercana a la geolocalización de los consumidores para minimizar la latencia. [!DNL Decision Management] en Edge está diseñado para ofrecer experiencias de consumidores en tiempo real. Estas incluyen experiencias como solicitudes de personalización de entrada web o móvil.
+El segundo método es a través de Experience Platform [!DNL Edge Network], que es una infraestructura distribuida geográficamente a nivel global para ofrecer experiencias rápidas de segundo y milisegundo. La experiencia del consumidor final que ejecuta la infraestructura de Edge más cercana a la geolocalización de los consumidores para minimizar la latencia. [!DNL Decision Management] en Edge está diseñado para ofrecer experiencias de consumo en tiempo real. Estas incluyen experiencias como solicitudes de personalización de entrada web o móvil.
 
 Este modelo abarcará los aspectos específicos de Gestión de decisiones en Edge.
 
@@ -48,12 +48,12 @@ Para obtener más información sobre Gestión de decisiones en el hub, consulte 
 
 * Si quiere información sobre las guardas de Gestión de decisiones, consulte la siguiente [Descripción del producto de Gestión de decisiones](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=es)
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Documentación relacionada
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
 * [Gestión de decisiones de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es)
-* [Descripción del producto Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Descripción del producto de Gestión de decisiones de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Descripción del producto de Adobe Decision Management](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html)

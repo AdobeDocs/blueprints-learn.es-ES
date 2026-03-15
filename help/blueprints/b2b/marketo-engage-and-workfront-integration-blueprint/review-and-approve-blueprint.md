@@ -2,10 +2,10 @@
 title: Revisar y aprobar el modelo
 description: 'Revisar y aprobar el modelo: Marketo Engage y modelo de integración de Workfront'
 exl-id: a446faab-7db4-42a2-b4b9-395725c49c9f
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 87%
+source-wordcount: '1276'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ Con Workfront y Marketo Engage, los equipos de marketing pueden disponer de un s
 
 En lo que respecta a la creación de campañas de marketing, debemos tener en cuenta que múltiples sistemas sean compatibles con los diferentes pasos implicados, entre los que se incluyen la planificación, la creación, la revisión, la retroalimentación, la aprobación y la ejecución. Con Workfront y Marketo Engage, los equipos disponen de todas las herramientas necesarias para guiarles a lo largo de todo el proceso de planificación y lanzamiento de una nueva campaña de marketing. Además, los equipos pueden agilizar aún más su proceso de revisión y aprobación para aumentar la velocidad de desarrollo de las campañas, y garantizar al mismo tiempo que la precisión y la conformidad se mantengan al más alto nivel.
 
-### Revisar y aprobar casos de uso desbloqueados con Marketo Engage y Workfront {#review-and-approve-use-cases-unlocked-with-marketo-engage-and-workfront}
+### Revisión y aprobación de casos de uso desbloqueados con Marketo Engage y Workfront {#review-and-approve-use-cases-unlocked-with-marketo-engage-and-workfront}
 
 * Elimine los comentarios inconexos y aumente la colaboración en un lugar centralizado a través de las funcionalidades de anotación y comentarios de Workfront en los activos de Marketo Engage.
 
@@ -56,7 +56,7 @@ Para ello, considere los siguientes pasos como parte del proceso para una experi
 
 ### Configure un proyecto de Workfront con una tarea Lista para revisión {#configure-a-workfront-project-with-a-ready-for-review-task}
 
-Use [plantillas de proyectos](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html?lang=es){target="_blank"} para capturar la mayoría de los procesos repetibles, la información y los ajustes asociados a los proyectos de su organización. Puede definir tareas, temas de cola, crear formularios personalizados y adjuntar documentos en la plantilla.
+Use [plantillas de proyecto](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html?lang=es){target="_blank"} para capturar la mayoría de los procesos, la información y la configuración repetibles asociados con los proyectos de su organización. Puede definir tareas, temas de cola, crear formularios personalizados y adjuntar documentos en la plantilla.
 
 Incluya tareas en la plantilla del proyecto en Workfront para revisar los activos que forman parte de la campaña de marketing. Además, puede añadir un proceso de aprobación para gestionar aprobaciones únicas u otras más complejas de varios niveles.
 
@@ -66,7 +66,7 @@ Si desea lanzar una nueva campaña por correo electrónico, debe contar con una 
 
 ### Active su correo electrónico de Marketo Engage para sincronizarlo con Workfront con un cambio de estado de tarea {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
-Como parte de su proceso de revisión, querrá poder sincronizar los correos electrónicos con su proyecto de Workfront una vez que estén listos para que su equipo de marketing los revise. Para ello, le recomendamos que configure una tarea Lista para revisión con un [estado de tarea](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html?lang=es){target="_blank"} que indique cuándo estará listo el correo electrónico para su revisión. En nuestro ejemplo, hemos añadido a la tarea un estado Revisar correo electrónico de Marketo que puede seleccionarse cuando el borrador del correo electrónico esté listo para que lo revisen los responsables de departamento.
+Como parte de su proceso de revisión, querrá poder sincronizar los correos electrónicos con su proyecto de Workfront una vez que estén listos para que su equipo de marketing los revise. Para ello, se recomienda configurar una tarea Listo para revisión con un [estado de tarea](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html){target="_blank"} que indique cuándo el correo electrónico está listo para revisarse. En nuestro ejemplo, hemos añadido a la tarea un estado Revisar correo electrónico de Marketo que puede seleccionarse cuando el borrador del correo electrónico esté listo para que lo revisen los responsables de departamento.
 
 Con este estado en el proyecto de Workfront, puede configurar el escenario de Workfront Fusion para que espere a que la tarea Listo para revisar se actualice a Revisar correo electrónico de Marketo. Una vez actualizado, el escenario puede recuperar el correo electrónico de Marketo Engage como un archivo HTML, comprimirlo y guardar una copia en los documentos del proyecto de Workfront para su revisión.
 
@@ -78,13 +78,13 @@ Una vez que la tarea “Listo para revisión” pasa al estado “Revisar correo
 
 ### Utilice las pruebas de Workfront para colaborar mediante comentarios y anotaciones {#use-workfront-proofing-to-collaborate}
 
-Las funciones de [corrección de Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=es){target="_blank"} permiten a su equipo de marketing tomar un nuevo recurso, como una imagen o un correo electrónico, y colaborar mediante comentarios y anotaciones. Una vez que una prueba está lista para ejecutarse, los responsables de la toma de decisiones pueden aprobarla desde la herramienta de prueba.
+Las funciones de [corrección de Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permiten a su equipo de marketing tomar un nuevo recurso, como una imagen o un correo electrónico, y colaborar mediante comentarios y anotaciones. Una vez que una prueba está lista para ejecutarse, los responsables de la toma de decisiones pueden aprobarla desde la herramienta de prueba.
 
 ![convertir pantalla de correo electrónico](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 
 ### Aprobar Workfront Proof y déclencheur la aprobación de recursos en Marketo Engage, marcar la tarea como completada {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 
-Workfront Fusion puede detectar cuándo las partes interesadas han aprobado el correo electrónico y enviar una solicitud al Marketo Engage para que apruebe el correo electrónico dentro de Marketo.
+Workfront Fusion puede detectar cuándo las partes interesadas han aprobado el correo electrónico y enviar una solicitud a Marketo Engage para que apruebe el correo electrónico dentro de Marketo.
 
 Con el correo electrónico revisado/aprobado por los miembros del equipo adecuados, el correo electrónico está listo para su publicación en Marketo Engage.
 

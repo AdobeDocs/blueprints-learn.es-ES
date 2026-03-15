@@ -2,10 +2,10 @@
 title: Información general sobre Marketo Engage y el modelo de integración de Workfront
 description: 'información general: Marketo Engage y modelo de integración de Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 98%
+source-wordcount: '1797'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +30,7 @@ Los equipos de operaciones de las campañas necesitan sistemas que les permitan 
 
 Al integrar el sistema de activación de marketing multicanal (Marketo Engage) con la planificación de marketing y el sistema de registro (Workfront), puede aumentar la velocidad de la campaña y proporcionar una mejor visibilidad a las partes interesadas.
 
-Con Workfront Fusion, los equipos de operaciones de marketing pueden en gran medida eliminar los pasos manuales y propensos a errores que se producen en la conversión de un informe de marketing a una campaña. Workfront Fusion ofrece una capa de integración predeterminada entre Workfront y Marketo Engage que permite flexibilidad y eficacia en el desarrollo de flujos de trabajo entre sistemas. Puede obtener más información sobre cómo configurar la integración y las acciones que se pueden realizar para automatizar los flujos de trabajo [aquí](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}.
+Con Workfront Fusion, los equipos de operaciones de marketing pueden en gran medida eliminar los pasos manuales y propensos a errores que se producen en la conversión de un informe de marketing a una campaña. Workfront Fusion ofrece una capa de integración predeterminada entre Workfront y Marketo Engage que permite flexibilidad y eficacia en el desarrollo de flujos de trabajo entre sistemas. Puede obtener más información sobre cómo configurar la integración y qué acciones se pueden realizar para automatizar los flujos de trabajo [aquí](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}.
 
 ## De la planificación a la ejecución de campañas: casos de uso de automatización {#campaign-planning-to-execution-automation-use-cases}
 
@@ -71,38 +71,38 @@ Será importante comprender cómo el proceso empresarial se correlaciona con est
   </tr>
   <tr> 
    <td>Portafolios</td>
-   <td>Puede utilizar portafolios y programas en Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se invertirán mejor los recursos.<br /><br />
-   (p. ej., se crean portafolios para una unidad de negocio dentro de una empresa centrada en la venta de servicios o productos).</td>
+   <td>Puede utilizar portafolios y programas en Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se gastarán mejor los recursos.<br /><br />
+   (por ejemplo, se crea un Portfolio para una unidad comercial dentro de una compañía centrada en la venta de servicios o productos).</td>
   </tr>
   <tr>
    <td>Programa</td>
-   <td>Puede usar programas de Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se invertirán mejor los recursos.<br /><br />
-   (p. ej., una estrategia de marketing con un objetivo de nivel general, como crear conciencia e impulsar la demanda de un nuevo lanzamiento de producto).</td>
+   <td>Puede usar programas de Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se gastarán mejor los recursos.<br /><br />
+   (por ejemplo, una estrategia de marketing con un objetivo de alto nivel, como crear conciencia e impulsar la demanda de un nuevo lanzamiento de producto).</td>
   </tr>
   <tr>
    <td>Proyecto</td>
-   <td>Los proyectos de Workfront son una colección de elementos de trabajo que deben completarse para lograr un objetivo específico, un entregable, un producto, etc.<br /><br />
-   (p. ej., una táctica de marketing como un envío masivo de correo electrónico, una campaña de acompañamiento, un seminario web o un evento presencial). Un solo proyecto también puede ser más complejo si abarca varias tácticas, como un correo electrónico, un anuncio en pantalla, una página de aterrizaje y un documento técnico descargable, todas ellas dirigidas a la obtención del mismo resultado).</td>
+   <td>Los proyectos de Workfront son una colección de elementos de trabajo que deben completarse para lograr un objetivo, un producto, una entrega, etc.<br /><br /> específicos
+   (p. ej., una táctica de marketing como una ráfaga de correo electrónico, una campaña de nutrición, un seminario web o un evento en persona. Un solo proyecto también puede ser más complejo si abarca varias tácticas, como un correo electrónico, un anuncio en pantalla, una página de aterrizaje y un documento técnico descargable, todas ellas dirigidas a la obtención del mismo resultado).</td>
   </tr>
   <tr>
    <td>Tarea</td>
-   <td>Las tareas de Workfront son elementos de trabajo planificados que pueden formar parte de un proyecto o una iniciativa. Las tareas se asignan a usuarios o equipos para que las completen.<br /><br />
-   (p. ej., una tarea para crear un segmento de audiencia o para generar un borrador de correo electrónico puede ser una tarea asociada con un proyecto de cara a desarrollar un programa de correo electrónico de Marketo Engage).</td>
+   <td>Las tareas de Workfront son elementos de trabajo planificados que pueden formar parte de un proyecto o una iniciativa. Se han asignado tareas a usuarios o equipos para que las completen.<br /><br />
+   (Por ejemplo, una tarea para crear un segmento de audiencia o crear un borrador de correo electrónico puede ser una tarea asociada a un proyecto para desarrollar un programa de correo electrónico de Marketo Engage).</td>
   </tr>
   <tr>
    <td>Problema</td>
-   <td>Los problemas son elementos de trabajo no planificados en Workfront. Pueden ser problemas que se producen durante un proyecto o solicitudes que se envían a través de una cola de solicitudes.<br /><br />
-   (p. ej., se notifica un problema porque la imagen del banner de correo electrónico tiene dimensiones incorrectas).</td>
+   <td>Los problemas son elementos de trabajo no planificados en Workfront. Pueden ser problemas que se producen durante un proyecto o solicitudes enviadas a través de una cola de solicitudes.<br /><br />
+   (Por ejemplo, se genera un problema porque la imagen del banner de correo electrónico tiene las dimensiones incorrectas).</td>
   </tr>
   <tr>
    <td>Documento</td>
-   <td>Los documentos pueden ser documentos tradicionales, como documentos de un procesador de texto o presentaciones. También pueden ser archivos de imagen. Workfront permite la revisión de activos mediante comentarios y anotaciones en documentos e imágenes para mejorar la colaboración entre equipos.<br /><br />
-   (por ejemplo, una imagen de encabezado de correo electrónico que debe revisarse).</td>
+   <td>Los documentos pueden ser documentos tradicionales, como documentos de un procesador de texto o presentaciones. También pueden ser archivos de imagen. Workfront permite la revisión de recursos mediante comentarios y anotaciones en documentos e imágenes para permitir la colaboración entre equipos.<br /><br />
+   (p. ej., una imagen de encabezado de correo electrónico que debe revisarse).</td>
   </tr>
   <tr>
    <td>Actualización</td>
    <td>Incluye comentarios y registros de auditoría para realizar un seguimiento del trabajo y facilitar la colaboración en Workfront.<br /><br />
-   (por ejemplo, el registro de auditoría de la nueva versión de una imagen).</td>
+   (por ejemplo, Registro de auditoría de la nueva versión de la imagen).</td>
   </tr>
   </tbody>
 </table>
@@ -149,11 +149,11 @@ Ahora que ya ha aprendido algunos conceptos básicos sobre cómo Workfront y Mar
 
 * [Ingesta y creación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"}: Automatización del desarrollo de campañas con Marketo Engage y Workfront
 
-* [Revisión y aprobación](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
+* [Revisar y aprobar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Administración de los nombres de campaña de Marketo Engage y sus direcciones URL asociadas {#managing-marketo-engage-campaign-names}
 
-La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en todo el ciclo de vida de desarrollo de campañas. Si está buscando herramientas que le ayuden en este proceso, le recomendamos que eche un vistazo a algunas herramientas de código abierto gratuitas de los [Servicios de Adobe Success](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que permiten crear un enfoque coherente para crear y administrar campañas de Marketo Engage y sus direcciones URL asociadas.
+La estandarización de las convenciones de nomenclatura para las campañas y las direcciones URL es una base clave para una administración de programas precisa en Marketo Engage y ayuda a conseguir un proceso más coherente en todo el ciclo de vida de desarrollo de campañas. Si está buscando herramientas que le ayuden con esto, le recomendamos que revise algunas herramientas de código abierto gratuitas de [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que le permiten crear un enfoque consistente para crear y administrar campañas de Marketo Engage y sus URL asociadas.
 
 ### Recursos {#resources}
 

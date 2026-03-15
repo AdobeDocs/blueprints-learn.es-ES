@@ -3,10 +3,10 @@ title: Modelo de Journey Optimizer con Adobe Campaign v7
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: b24b1200e605914c501c0f98562ca40beee1138e
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 97%
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
@@ -43,9 +43,9 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 
 ## Guardas
 
-[Vínculo del producto de guardas de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails)
+[Vínculo del producto de protecciones Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=es)
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Pasos de implementación
 
@@ -101,5 +101,5 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para 
 ## Documentación relacionada
 
 * [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
-* [Descripción del producto Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Documentación de Campaign v7](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=es)

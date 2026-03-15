@@ -3,10 +3,10 @@ title: Modelo de Gestión de decisiones en el centro
 description: Entrega de ofertas personalizadas a los consumidores en todos los canales, incluidos los quioscos, las experiencias asistidas por agentes, y en correos electrónicos y otros envíos salientes.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 65eaffe8af093cc410b556778ae327ed16202f10
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 76%
+source-wordcount: '764'
+ht-degree: 78%
 
 ---
 
@@ -62,5 +62,5 @@ Para obtener más información sobre Gestión de decisiones en Edge, consulte el
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=es)
 * [Gestión de decisiones de Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=es)
-* [Descripción del producto Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Descripción del producto de Gestión de decisiones de Adobe](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Descripción del producto de Adobe Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Descripción del producto de Adobe Decision Management](https://helpx.adobe.com/es/legal/product-descriptions/offer-decisioning-app-service.html)
