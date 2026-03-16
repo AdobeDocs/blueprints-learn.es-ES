@@ -3,10 +3,10 @@ title: Modelos de Customer Experience Orchestration
 description: Los modelos de organización de la experiencia del cliente son implementaciones repetibles para abordar la estrategia y resolver los problemas empresariales establecidos. Aceleran el tiempo de creación de valor y ofrecen una ruta rápida hacia el éxito.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 478f2a44974ba36d87300486337b669fa38989f3
+source-git-commit: cf76bfcb0a6d3f2a23f42494f3944934954cac89
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 7%
+source-wordcount: '168'
+ht-degree: 9%
 
 ---
 
@@ -51,4 +51,26 @@ Los modelos de organización de la experiencia del cliente (anteriormente, _expe
 </tr>
 </table>
 
-</div>
+## Explorar por sector
+
+Encuentre casos de uso adaptados a su sector, cada uno asignado a patrones de implementación y objetivos empresariales.
+
+<table>
+<tr>
+  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>Sector minorista</strong></a></td>
+  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>Servicios financieros</strong></a></td>
+  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>Asistencia sanitaria</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>Automoción</strong></a></td>
+  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>Viajes y hospitalidad</strong></a></td>
+  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>Telecomunicaciones</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>Medios de comunicación y entretenimiento</strong></a></td>
+  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>Seguro</strong></a></td>
+  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
+</tr>
+</table>
+
+[Ver todos los casos de uso del sector](industry-use-cases/overview.md)

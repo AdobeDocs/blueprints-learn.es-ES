@@ -5,10 +5,10 @@ user-guide-description: Los modelos son implementaciones repetibles, creadas par
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 1b722db275b3360fc443a67e07c7162909c32d72
+source-git-commit: cf76bfcb0a6d3f2a23f42494f3944934954cac89
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 26%
+source-wordcount: '449'
+ht-degree: 18%
 
 ---
 
@@ -16,6 +16,68 @@ ht-degree: 26%
 # Modelos de organización de experiencia del cliente {#architecture}
 
 + [Modelos de orquestaciones de experiencia del cliente](/help/blueprints/overview.md)
++ Ejemplo de objetivos comerciales clave para AEP y aplicaciones{#business-objectives}
+   + [Información general](/help/blueprints/business-objectives/overview.md)
+   + Adquisición y crecimiento{#acquisition-growth}
+      + [Adquirir nuevos clientes](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
+      + [Aumentar generación de posibles clientes](/help/blueprints/business-objectives/acquisition-growth/increase-lead-generation.md)
+      + [Aumentar la participación del sitio web](/help/blueprints/business-objectives/acquisition-growth/increase-website-engagement.md)
+   + Ingresos y monetización{#revenue-monetization}
+      + [Aumentar tasas de conversión](/help/blueprints/business-objectives/revenue-monetization/increase-conversion-rates.md)
+      + [Aumentar ingresos y ventas](/help/blueprints/business-objectives/revenue-monetization/increase-revenue-sales.md)
+      + [Aumentar los ingresos de venta cruzada y aumento de ventas](/help/blueprints/business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+      + [Aumentar la lealtad del cliente y el valor de duración](/help/blueprints/business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)
+   + Coste y eficiencia{#cost-efficiency}
+      + [Reducción del coste de adquisición de clientes](/help/blueprints/business-objectives/cost-efficiency/reduce-customer-acquisition-cost.md)
+      + [Optimizar el gasto y el retorno de la inversión en marketing](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)
+      + [Mejorar la calidad y la gobernanza de los datos](/help/blueprints/business-objectives/cost-efficiency/improve-data-quality-governance.md)
+      + [Consolidar y modernizar la tecnología de marketing](/help/blueprints/business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md)
+   + Experiencia del cliente{#customer-experience-objectives}
+      + [Ofrezca experiencias de cliente personalizadas](/help/blueprints/business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+      + [Mejore la retención de clientes](/help/blueprints/business-objectives/customer-experience/improve-customer-retention.md)
+      + [Mejore la incorporación del cliente](/help/blueprints/business-objectives/customer-experience/improve-customer-onboarding.md)
+      + [Recuperar carritos y Recorridos abandonados](/help/blueprints/business-objectives/customer-experience/recover-abandoned-carts-journeys.md)
+   + Analytics y perspectivas{#analytics-insights}
+      + [Mejorar análisis e informes](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md)
+      + [Habilitar la toma de decisiones basada en datos](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)
+      + [Mejorar la atribución de marketing](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)
+   + Calificación y ventas (B2B){#qualification-sales-b2b}
+      + [Mejore la calificación y conversión de posibles clientes](/help/blueprints/business-objectives/qualification-sales-b2b/improve-lead-qualification-conversion.md)
+      + [Mejore la participación del cliente](/help/blueprints/business-objectives/qualification-sales-b2b/improve-customer-engagement.md)
++ Patrones de casos de uso{#use-case-patterns}
+   + [Información general](/help/blueprints/use-case-patterns/overview.md)
+   + Generación y activación de audiencias{#audience-building-activation}
+      + [Audience Activation a destinos](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
+      + [Audience Collaboration con coincidencia de segmentos](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
+      + [Reenvío de eventos](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
+      + [Audience Activation B2B](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
+   + Personalización{#personalization-patterns}
+      + [Personalization web de visitante anónimo](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
+      + [Personalization de aplicación/web de visitante conocido](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
+      + [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
+      + [Recomendación de comportamiento](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
+   + Administración y orquestación de campañas{#campaign-orchestration-patterns}
+      + [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
+      + [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
+      + [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
+      + [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+      + [Adquisición de gestión de Recorridos y marketing basada en grupos](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
+   + Análisis{#analysis-patterns}
+      + [Generación de Customer Analytics y Insight](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
+      + [Análisis B2B](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
+   + Experiencia de conversación{#conversational-experience-patterns}
+      + [Experiencia de conversación en Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
++ Ejemplos de casos de uso del sector{#industry-use-cases}
+   + [Información general](/help/blueprints/industry-use-cases/overview.md)
+   + [Automoción](/help/blueprints/industry-use-cases/automotive/automotive-overview.md)
+   + [B2B](/help/blueprints/industry-use-cases/b2b/b2b-overview.md)
+   + [Servicios financieros](/help/blueprints/industry-use-cases/financial-services/financial-services-overview.md)
+   + [Asistencia sanitaria](/help/blueprints/industry-use-cases/healthcare/healthcare-overview.md)
+   + [Seguro](/help/blueprints/industry-use-cases/insurance/insurance-overview.md)
+   + [Medios de comunicación y entretenimiento](/help/blueprints/industry-use-cases/media-entertainment/media-entertainment-overview.md)
+   + [Sector minorista](/help/blueprints/industry-use-cases/retail/retail-overview.md)
+   + [Telecomunicaciones](/help/blueprints/industry-use-cases/telecommunications/telecommunications-overview.md)
+   + [Viajes y hospitalidad](/help/blueprints/industry-use-cases/travel-hospitality/travel-hospitality-overview.md)
 + Información general de arquitectura{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform y aplicaciones](/help/blueprints/experience-platform/platform-applications.md)
@@ -67,8 +129,8 @@ ht-degree: 26%
       + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Modelos obsoletos{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Análisis de datos, inteligencia e IA/ML (aprendizaje automático){#data-exploration}
