@@ -80,9 +80,9 @@ En esta sección se describe el patrón y la cadena de funciones utilizada para 
 
 En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 
-- **[!DNL Adobe Experience Platform](Edge Network)**: recibe y enruta datos de evento en tiempo real desde Web SDK, Mobile SDK o la API de servidor a través de flujos de datos configurados
-- **[!DNL Adobe Experience Platform](Reenvío de eventos)**: proporciona el motor de reglas del lado del servidor para evaluar, filtrar, transformar y reenviar datos de eventos a destinos externos
-- **[!DNL Adobe Experience Platform](Etiquetas / Recopilación de datos)**: administra el ciclo de vida de la propiedad de reenvío de eventos, las extensiones, las reglas y el flujo de trabajo de publicación
+- **[!DNL Adobe Experience Platform] (Edge Network)**: recibe y enruta datos de evento en tiempo real desde Web SDK, Mobile SDK o la API de servidor a través de flujos de datos configurados
+- **[!DNL Adobe Experience Platform] (Reenvío de eventos)**: proporciona el motor de reglas del lado del servidor para evaluar, filtrar, transformar y reenviar datos de eventos a destinos externos
+- **[!DNL Adobe Experience Platform] (Etiquetas / Recopilación de datos)**: administra el ciclo de vida de la propiedad de reenvío de eventos, las extensiones, las reglas y el flujo de trabajo de publicación
 
 ## Funciones básicas
 

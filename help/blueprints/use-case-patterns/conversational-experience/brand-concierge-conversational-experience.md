@@ -107,8 +107,8 @@ Transforme las propiedades digitales en experiencias conversacionales seguras pa
 Las siguientes aplicaciones se utilizan para implementar este patrón de caso de uso.
 
 - **[!DNL Brand Concierge]**: aplicación de experiencia conversacional con tecnología de IA que proporciona el agente de orquestación, Product Advisor Agent, el agente de asesoramiento de sitio, el control de marca y el análisis conversacional
-- **[!DNL Adobe Experience Platform](AEP)**: base de datos unificada que proporciona esquemas XDM, resolución de identidades, perfiles de clientes en tiempo real e infraestructura de recopilación de datos para señales conversacionales
-- **[!DNL Real-Time CDP]([!DNL RT-CDP])**: la plataforma de datos del cliente proporciona búsqueda de perfiles en tiempo real para conversaciones personalizadas, segmentación de audiencia a partir de señales conversacionales y enriquecimiento de perfiles con datos de intención y opinión
+- **[!DNL Adobe Experience Platform] (AEP)**: base de datos unificada que proporciona esquemas XDM, resolución de identidades, perfiles de clientes en tiempo real e infraestructura de recopilación de datos para señales conversacionales
+- **[!DNL Real-Time CDP] ([!DNL RT-CDP])**: la plataforma de datos del cliente proporciona búsqueda de perfiles en tiempo real para conversaciones personalizadas, segmentación de audiencia a partir de señales conversacionales y enriquecimiento de perfiles con datos de intención y opinión
 
 ## Funciones básicas
 

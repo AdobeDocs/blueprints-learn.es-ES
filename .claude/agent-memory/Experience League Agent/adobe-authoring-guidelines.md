@@ -15,7 +15,7 @@ ht-degree: 0%
 Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 Rastreado: 15-03-2026
 
----
+&#x200B;---
 
 ## &#x200B;1. METADATOS / MATERIA PRINCIPAL
 
@@ -54,7 +54,7 @@ Rastreado: 15-03-2026
 ### Campos obsoletos
 seo-title, seo-description, audience, difference, uuid (from migration era)
 
----
+&#x200B;---
 
 ## &#x200B;2. SINTAXIS DE MARKDOWN (CON SABOR A ADOBE)
 
@@ -120,10 +120,13 @@ seo-title, seo-description, audience, difference, uuid (from migration era)
 
   ```
   ```javascript
+
   code here
+
   ```
 
   ```
+
   
   
 - Opciones: `{line-numbers="true"}`, `{start-line="7"}`, `{highlight="11-13, 16"}`
@@ -140,7 +143,7 @@ seo-title, seo-description, audience, difference, uuid (from migration era)
 - Opción de diseño de tabla de Markdown: agregar `{style="table-layout:auto"}` después de la tabla con líneas en blanco
 - Evite tablas muy anchas/altas debido a problemas de visibilidad de la barra de desplazamiento horizontal
 
----
+&#x200B;---
 
 ## &#x200B;3. EXTENSIONES ESPECIALES DE SINTAXIS DE ADOBE
 
@@ -174,7 +177,8 @@ seo-title, seo-description, audience, difference, uuid (from migration era)
 >[!ERROR]
 >[!SUCCESS]
 ```
-- CRÍTICO: No hay espacio entre `>` y `[!` — usar `>[!NOTE]` NO `> [!NOTE]`
+
+- CRÍTICO: No hay espacio entre `>` y `[ !` — usar `>[!NOTE]` NO `> [!NOTE]`
 - Agregar línea en blanco entre `>[!NOTE]` y la línea de texto del cuerpo
 
 ### Fichas
@@ -198,6 +202,7 @@ Content here
 Content inside
 +++
 ```
+
 Nota: NO se admiten secciones contraíbles anidadas.
 
 ### Cuadros de sombra
@@ -213,6 +218,7 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
+
 Agregar `{transcript=true}` para transcripciones.
 
 ### Más como esto
@@ -238,6 +244,7 @@ Agregar `{transcript=true}` para transcripciones.
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
+
 Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (gris), `Caution` (amarillo)
 
 ### Resaltado de texto (vista previa)
@@ -271,7 +278,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 - Reglas horizontales
 - Secciones contraíbles anidadas
 
----
+&#x200B;---
 
 ## &#x200B;4. NOMENCLATURA DE ARCHIVOS Y ESTRUCTURA DE CARPETAS
 
@@ -301,7 +308,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 - Metadatos de TDC: `user-guide-description`, opcionalmente `breadcrumb-title`
 - `mini-toc-levels`: controla la visualización de encabezados de navegación derecha (1-6, predeterminado 2)
 
----
+&#x200B;---
 
 ## &#x200B;5. CALIDAD DE CONTENIDO Y ESTÁNDARES EDITORIALES
 
@@ -347,7 +354,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 - Solo mayúsculas y minúsculas en el título del campo de metadatos `title`
 - Los sustantivos propios siempre aparecen en mayúsculas
 
----
+&#x200B;---
 
 ## &#x200B;6. PRÁCTICAS RECOMENDADAS DE SEO
 
@@ -364,7 +371,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 - Utilice herramientas como AnswerThePublic o Google Trends para buscar palabras clave
 - El contenido debe demostrar E-E-A-T (experiencia, experiencia, autoridad, fiabilidad)
 
----
+&#x200B;---
 
 ## &#x200B;7. LOCALIZACIÓN
 
@@ -384,7 +391,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 - `[!DNL ProductName]`: evita que se traduzcan los nombres de productos o marcas
 - Las imágenes de una carpeta &quot;no localizar&quot; se excluyen de la localización
 
----
+&#x200B;---
 
 ## &#x200B;8. TIPOS DE CONTENIDO
 
@@ -395,13 +402,13 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 - **Artículos de la base de conocimiento**: contenido de solución de problemas breve y relevante temporalmente
 - **Página de aterrizaje/página principal**: administrado por separado (SCCM)
 
----
+&#x200B;---
 
 ## &#x200B;9. ERRORES DE VALIDACIÓN COMUNES QUE SE DEBEN EVITAR
 
 - Faltan los metadatos `title` o `description`, o están en blanco
 - `description` no comienza con &quot;Más información...&quot; o &quot;Aprenda a...&quot;
-- Espacio entre `>` y `[!` en la sintaxis de llamada (`> [!NOTE]` en lugar de `>[!NOTE]`)
+- Espacio entre `>` y `[ !` en la sintaxis de llamada (`> [!NOTE]` en lugar de `>[!NOTE]`)
 - Espacios en marcadores en negrita: `**text **` (espacios finales en negrita)
 - Sintaxis de Markdown dentro de tablas de HTML (por ejemplo, las llamadas no funcionan allí)
 - Duplicar ID de anclaje de encabezado en un documento

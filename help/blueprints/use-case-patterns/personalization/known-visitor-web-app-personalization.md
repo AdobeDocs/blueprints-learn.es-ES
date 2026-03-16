@@ -102,9 +102,9 @@ Ofrezca contenido, ofertas o promociones personalizados a un visitante identific
 
 En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 
-- **[!DNL Adobe Journey Optimizer](AJO)**: configuración del canal web, configuración del canal en la aplicación, configuración del canal de la tarjeta de contenido, toma de decisiones (selección de ofertas y clasificación), creación de mensajes (creación de contenido personalizado), ejecución de campañas, experimentación de contenido y creación de informes
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Evaluación de audiencias (Edge, streaming y por lotes), búsqueda de perfiles en tiempo real mediante Edge Network, enriquecimiento de perfiles con atributos calculados y puntuaciones de tendencia
-- **[!DNL Adobe Experience Platform](AEP)**: almacén de perfiles, servicio de identidad, Web SDK, Mobile SDK, configuración de secuencia de datos, entrega de red perimetral
+- **[!DNL Adobe Journey Optimizer] (AJO)**: configuración del canal web, configuración del canal en la aplicación, configuración del canal de la tarjeta de contenido, toma de decisiones (selección de ofertas y clasificación), creación de mensajes (creación de contenido personalizado), ejecución de campañas, experimentación de contenido y creación de informes
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Evaluación de audiencias (Edge, streaming y por lotes), búsqueda de perfiles en tiempo real mediante Edge Network, enriquecimiento de perfiles con atributos calculados y puntuaciones de tendencia
+- **[!DNL Adobe Experience Platform] (AEP)**: almacén de perfiles, servicio de identidad, Web SDK, Mobile SDK, configuración de secuencia de datos, entrega de red perimetral
 
 ## Funciones básicas
 

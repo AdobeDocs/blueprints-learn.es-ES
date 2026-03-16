@@ -106,9 +106,9 @@ Escuche un evento del sistema o de comportamiento en tiempo real y, a continuaci
 
 En este patrón de caso de uso se utilizan las siguientes aplicaciones de Adobe.
 
-- **[!DNL Adobe Journey Optimizer](AJO)**: orquestación de Recorrido con entrada de evento unitario, evaluación de condición, pasos de espera, creación de mensajes, configuración de canal, control de frecuencia e informes de envío
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)**: evaluación de audiencias para filtrado basado en condiciones dentro de los recorridos, aplicación del consentimiento y del control, enriquecimiento de perfiles
-- **[!DNL Adobe Experience Platform](AEP)**: ingesta de eventos en tiempo real mediante Web SDK, Mobile SDK o API del lado del servidor; modelado de datos; resolución de identidades; Edge Network
+- **[!DNL Adobe Journey Optimizer] (AJO)**: orquestación de Recorrido con entrada de evento unitario, evaluación de condición, pasos de espera, creación de mensajes, configuración de canal, control de frecuencia e informes de envío
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)**: evaluación de audiencias para filtrado basado en condiciones dentro de los recorridos, aplicación del consentimiento y del control, enriquecimiento de perfiles
+- **[!DNL Adobe Experience Platform] (AEP)**: ingesta de eventos en tiempo real mediante Web SDK, Mobile SDK o API del lado del servidor; modelado de datos; resolución de identidades; Edge Network
 
 ## Funciones básicas
 
