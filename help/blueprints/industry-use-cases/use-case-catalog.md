@@ -41,7 +41,7 @@ Las organizaciones comerciales usan [!DNL Adobe Experience Platform] para unific
 
 >[!TAB Servicios financieros]
 
-Los casos de uso de los servicios financieros llegarán pronto. [Ver casos de uso actuales de Financial Services ](financial-services/financial-services-overview.md).
+Los casos de uso de los servicios financieros llegarán pronto. [Ver casos de uso actuales de Financial Services &#x200B;](financial-services/financial-services-overview.md).
 
 >[!TAB Atención médica]
 
@@ -57,7 +57,7 @@ Los casos de uso de Viajes y hospitalidad llegarán pronto. [Ver los casos de us
 
 >[!TAB Telecomunicaciones]
 
-Los casos de uso de telecomunicaciones llegarán pronto. [Ver casos de uso de telecomunicaciones actuales ](telecommunications/telecommunications-overview.md).
+Los casos de uso de telecomunicaciones llegarán pronto. [Ver casos de uso de telecomunicaciones actuales &#x200B;](telecommunications/telecommunications-overview.md).
 
 >[!TAB Medios de comunicación y entretenimiento]
 
@@ -69,7 +69,7 @@ Los casos de uso del seguro llegarán pronto. [Ver casos de uso actuales del seg
 
 >[!TAB B2B]
 
-Los casos de uso de B2B llegarán pronto. [Ver casos de uso B2B actuales ](b2b/b2b-overview.md).
+Los casos de uso de B2B llegarán pronto. [Ver casos de uso B2B actuales &#x200B;](b2b/b2b-overview.md).
 
 >[!ENDTABS]
 
