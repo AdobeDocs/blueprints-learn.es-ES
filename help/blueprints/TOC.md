@@ -1,14 +1,14 @@
 ---
-user-guide-title: Modelos de Customer Experience Orchestration
-breadcrumb-title: modelos
-user-guide-description: Los modelos son implementaciones repetibles, creadas para solucionar problemas empresariales existentes y que contienen diagramas de arquitectura, consideraciones técnicas y enlaces a documentación relevante.
+user-guide-title: Objetivos empresariales, casos de uso, diagramas y modelos de arquitectura de Customer Experience Orchestration
+breadcrumb-title: Casos de uso y modelos
+user-guide-description: Explore los objetivos comerciales clave, los patrones de casos de uso y los casos de uso del sector para Adobe Experience Platform y aplicaciones. Los diagramas y modelos de arquitectura visual proporcionan referencias técnicas para la integración de sistemas, flujos de datos y el diseño de soluciones, lo que conecta el valor empresarial con la implementación.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 021e6b48e09ce2d3da80ffe7ca1b7f4ce4a4a3a4
+source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 17%
+source-wordcount: '474'
+ht-degree: 12%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 17%
          + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + Modelos obsoletos{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard){target="_blank"}
-            + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
