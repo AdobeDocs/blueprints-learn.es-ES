@@ -3,14 +3,14 @@ title: Casos de uso de Customer Experience Orchestration, diagramas de arquitect
 description: Explore los objetivos comerciales clave, los patrones de casos de uso y los casos de uso del sector para Adobe Experience Platform y sus aplicaciones. Los diagramas y modelos de arquitectura visual proporcionan referencias técnicas para la integración de sistemas, flujos de datos y el diseño de soluciones, lo que conecta el valor empresarial con la implementación.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: cb112d3fe3c6a95437de69815efb50492c9bf13b
+source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 2%
 
 ---
 
-# Modelos de organización de experiencia del cliente
+# Objetivos empresariales, casos de uso y diagramas de arquitectura de Customer Experience Orchestration
 
 Este sitio contiene **Objetivos empresariales clave** que describen un ejemplo del valor empresarial principal y los objetivos que se pueden lograr con Adobe Experience Platform y aplicaciones. **Los patrones de casos de uso** describen capacidades comunes de aplicaciones y plataformas con enfoques de implementación repetibles. **Casos de uso del sector** aplican patrones a escenarios comerciales verticales específicos. **Los diagramas y modelos de arquitectura** son diagramas de referencia de flujo de datos y arquitectura visual que ilustran los puntos de integración del sistema, los flujos de contenido y datos y la secuencia de operaciones, proporcionando una referencia técnica para el diseño de soluciones. Juntas, estas capas conectan el valor empresarial con las dependencias y la arquitectura de la implementación.
 
