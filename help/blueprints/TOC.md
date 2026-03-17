@@ -5,9 +5,9 @@ user-guide-description: Explore los objetivos comerciales clave, los patrones de
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
+source-git-commit: 8ad59ff130dae13553f10049eb685cf557a73ead
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '477'
 ht-degree: 12%
 
 ---
@@ -69,6 +69,7 @@ ht-degree: 12%
       + [Experiencia de conversación en Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
 + Ejemplos de casos de uso del sector{#industry-use-cases}
    + [Información general](/help/blueprints/industry-use-cases/overview.md)
+   + [Catálogo de casos de uso](/help/blueprints/industry-use-cases/use-case-catalog.md)
    + [Automoción](/help/blueprints/industry-use-cases/automotive/automotive-overview.md)
    + [B2B](/help/blueprints/industry-use-cases/b2b/b2b-overview.md)
    + [Servicios financieros](/help/blueprints/industry-use-cases/financial-services/financial-services-overview.md)
@@ -132,7 +133,7 @@ ht-degree: 12%
          + [Journey Optimizer con Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + Modelos obsoletos{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard){target="_blank"}
-            + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/es/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Real-Time CDP con Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campaign v7{#campaign-v7}
             + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
