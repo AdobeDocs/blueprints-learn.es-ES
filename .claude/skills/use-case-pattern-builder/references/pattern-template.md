@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Este archivo contiene la plantilla Markdown completa para una página de patrones de casos de uso. Reemplazar todos los `{{placeholder}}` valores con contenido real al generar un nuevo patrón.
 
----
+&#x200B;---
 
 ## Plantilla
 
@@ -227,7 +227,7 @@ Complete the following before beginning the implementation.
 | Scalability | {{description}} | {{description}} | {{description}} |
 ````
 
----
+&#x200B;---
 
 ## Notas sobre el uso de esta plantilla
 

@@ -117,9 +117,9 @@ Consulte la sección de inventario de iconos existentes de la guía de estilo y 
 
 Dé un formato claro a la salida con estas secciones:
 
----
+&#x200B;---
 
-### Especificación del icono: {Use Case Name}
+### Especificación del icono: &lbrace;Use Case Name&rbrace;
 
 **Sector:** {Industry}
 
@@ -151,7 +151,7 @@ Dé un formato claro a la salida con estas secciones:
 6. Compruebe que el icono tenga un aspecto claro y reconocible con un tamaño de visualización de 40 píxeles.
 7. Utilice el fragmento de HTML del catálogo al añadir este caso de uso a la tabla del catálogo.
 
----
+&#x200B;---
 
 ## Pautas
 
