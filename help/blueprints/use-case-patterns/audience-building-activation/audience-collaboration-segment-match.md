@@ -97,11 +97,11 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 | Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Administración y gobernanza | Requerido | Las organizaciones de remitente y destinatario deben tener zonas protegidas aprovisionadas con las funciones y los permisos adecuados. Los usuarios que administran [!DNL Segment Match] deben tener permisos para ver y compartir segmentos, configurar conexiones y administrar fuentes de socios. Las políticas ABAC deben configurarse para controlar qué usuarios pueden iniciar y aceptar acciones de segmentos. | [Resumen de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Modelado y preparación de datos | Se asume en contexto | Los esquemas XDM para perfiles y eventos deben existir con los grupos de campos requeridos. Los conjuntos de datos de perfil y evento deben crearse y habilitarse para [!DNL Real-Time Customer Profile]. El modelo de datos debe admitir las áreas de nombres de identidad utilizadas para la coincidencia de segmentos (normalmente correo electrónico con hash o teléfono con hash). | [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Fuentes de datos y recopilación | Se asume en contexto | Los datos del cliente deben fluir activamente a [!DNL Experience Platform] a través de las fuentes de datos configuradas (SDK, conectores de origen, ingesta por lotes). Los perfiles deben rellenarse con los tipos de identidad utilizados para [!DNL Segment Match] (por ejemplo, correo electrónico con hash). | [Resumen de orígenes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| Configuración de identidad y perfil | Requerido | Las áreas de nombres de identidad deben configurarse para los identificadores utilizados en la coincidencia de segmentos. Tanto el remitente como el receptor deben utilizar áreas de nombres de identidad compatibles. Las políticas de combinación deben configurarse para unificar los perfiles correctamente. Deben establecerse reglas de vinculación de identidad para garantizar una resolución precisa del perfil. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| Definición de audiencia y segmentación | Requerido | Las audiencias de Source deben definirse y evaluarse antes de poder compartirse mediante [!DNL Segment Match]. Las audiencias deben generarse usando [!DNL Segment Builder] o [!DNL Audience Composition] con la evaluación por lotes completada. Solo las audiencias evaluadas por lotes pueden compartir [!DNL Segment Match]. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| Administración y gobernanza | Requerido | Las organizaciones de remitente y destinatario deben tener zonas protegidas aprovisionadas con las funciones y los permisos adecuados. Los usuarios que administran [!DNL Segment Match] deben tener permisos para ver y compartir segmentos, configurar conexiones y administrar fuentes de socios. Las políticas ABAC deben configurarse para controlar qué usuarios pueden iniciar y aceptar acciones de segmentos. | [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
+| Modelado y preparación de datos | Se asume en contexto | Los esquemas XDM para perfiles y eventos deben existir con los grupos de campos requeridos. Los conjuntos de datos de perfil y evento deben crearse y habilitarse para [!DNL Real-Time Customer Profile]. El modelo de datos debe admitir las áreas de nombres de identidad utilizadas para la coincidencia de segmentos (normalmente correo electrónico con hash o teléfono con hash). | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) |
+| Fuentes de datos y recopilación | Se asume en contexto | Los datos del cliente deben fluir activamente a [!DNL Experience Platform] a través de las fuentes de datos configuradas (SDK, conectores de origen, ingesta por lotes). Los perfiles deben rellenarse con los tipos de identidad utilizados para [!DNL Segment Match] (por ejemplo, correo electrónico con hash). | [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home) |
+| Configuración de identidad y perfil | Requerido | Las áreas de nombres de identidad deben configurarse para los identificadores utilizados en la coincidencia de segmentos. Tanto el remitente como el receptor deben utilizar áreas de nombres de identidad compatibles. Las políticas de combinación deben configurarse para unificar los perfiles correctamente. Deben establecerse reglas de vinculación de identidad para garantizar una resolución precisa del perfil. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) |
+| Definición de audiencia y segmentación | Requerido | Las audiencias de Source deben definirse y evaluarse antes de poder compartirse mediante [!DNL Segment Match]. Las audiencias deben generarse usando [!DNL Segment Builder] o [!DNL Audience Composition] con la evaluación por lotes completada. Solo las audiencias evaluadas por lotes pueden compartir [!DNL Segment Match]. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home) |
 
 ## Funciones de soporte
 
@@ -109,11 +109,11 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 
 | Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como el valor de compra de por vida, la puntuación de participación o la afinidad del producto, pueden crear segmentos más precisos para compartir. Los segmentos de entrada de mayor calidad generan una colaboración de audiencia más valiosa. | [Resumen de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Administración del ciclo de datos | Recomendado | Las políticas de consentimiento y retención de datos garantizan que los segmentos compartidos cumplan con las normas de privacidad. Las políticas de caducidad del conjunto de datos ayudan a administrar el ciclo vital de los datos de audiencia recibidos. La aplicación del consentimiento impide compartir los perfiles que han optado por la exclusión. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etiquetado y aplicación del uso de datos | Incluido | Las políticas de gobernanza de datos deben evaluarse antes de compartir segmentos para garantizar el cumplimiento. Las etiquetas en los campos de identidad y los atributos de perfil determinan lo que se puede compartir. La aplicación de la gobernanza evita que se incluyan datos no autorizados en los recursos compartidos de segmentos. | [Resumen de control de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Monitorización y observabilidad | Recomendado | La supervisión del proceso de uso compartido de [!DNL Segment Match], los trabajos de estimación de superposición y los flujos de datos de activación ayuda a detectar errores de forma temprana. Las alertas se pueden configurar para errores de uso compartido o tasas de coincidencia inesperadamente bajas. | [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Informes y análisis | Recomendado | La medición del rendimiento de las campañas que utilizan audiencias coincidentes valida el valor de la colaboración. [!DNL Customer Journey Analytics] analysis puede comparar el rendimiento de audience campaign con los grupos de control. | [Información general de CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como el valor de compra de por vida, la puntuación de participación o la afinidad del producto, pueden crear segmentos más precisos para compartir. Los segmentos de entrada de mayor calidad generan una colaboración de audiencia más valiosa. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
+| Administración del ciclo de datos | Recomendado | Las políticas de consentimiento y retención de datos garantizan que los segmentos compartidos cumplan con las normas de privacidad. Las políticas de caducidad del conjunto de datos ayudan a administrar el ciclo vital de los datos de audiencia recibidos. La aplicación del consentimiento impide compartir los perfiles que han optado por la exclusión. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
+| Etiquetado y aplicación del uso de datos | Incluido | Las políticas de gobernanza de datos deben evaluarse antes de compartir segmentos para garantizar el cumplimiento. Las etiquetas en los campos de identidad y los atributos de perfil determinan lo que se puede compartir. La aplicación de la gobernanza evita que se incluyan datos no autorizados en los recursos compartidos de segmentos. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home) |
+| Monitorización y observabilidad | Recomendado | La supervisión del proceso de uso compartido de [!DNL Segment Match], los trabajos de estimación de superposición y los flujos de datos de activación ayuda a detectar errores de forma temprana. Las alertas se pueden configurar para errores de uso compartido o tasas de coincidencia inesperadamente bajas. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
+| Informes y análisis | Recomendado | La medición del rendimiento de las campañas que utilizan audiencias coincidentes valida el valor de la colaboración. [!DNL Customer Journey Analytics] analysis puede comparar el rendimiento de audience campaign con los grupos de control. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funciones de aplicación
 
@@ -179,8 +179,8 @@ Este enfoque es sencillo y proporciona control total a ambas partes. El remitent
 
 **Experience League:**
 
-- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Solución de problemas de Coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Solución de problemas de Coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Opción B: Distribución de segmentos de varios socios (uno a varios)
 
@@ -217,7 +217,7 @@ Este método utiliza el mismo mecanismo [!DNL Segment Match] subyacente que la o
 
 **Experience League:**
 
-- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Opción C: federación de audiencias en zonas protegidas cruzadas
 
@@ -254,7 +254,7 @@ Este enfoque es especialmente valioso cuando los requisitos de residencia de dat
 
 **Experience League:**
 
-- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Información general de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home)
 
 ### Comparación de opciones
@@ -344,10 +344,10 @@ Asegúrese de que las audiencias de origen de la zona protegida de envío utilic
 
 **Documentación de Experience League:**
 
-- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Resumen de composición de audiencia](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Métodos de evaluación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
-- [Referencia de Profile Query Language](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder)
+- [Resumen de composición de audiencia](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-composition)
+- [Métodos de evaluación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home#evaluation-methods)
+- [Referencia de Profile Query Language](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/pql/overview)
 
 ### Fase 2: Configuración de la coincidencia y el control
 
@@ -405,9 +405,9 @@ Establezca conexiones de zona protegida a zona protegida dentro de la organizaci
 
 **Documentación de Experience League:**
 
-- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Aplicación de políticas](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home)
+- [Aplicación de políticas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/overview)
 - [Consentimiento y preferencias](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 ### Fase 3: Superposición estimada
@@ -443,7 +443,7 @@ Esta fase ejecuta la estimación de superposición entre los segmentos del remit
 
 **Documentación de Experience League:**
 
-- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Fase 4: Compartir audiencias
 
@@ -498,8 +498,8 @@ Ejecute el recurso compartido entre zonas protegidas. La audiencia coincidente a
 
 **Documentación de Experience League:**
 
-- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Solución de problemas de Coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Solución de problemas de Coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Fase 5: Activar audiencias coincidentes
 
@@ -557,10 +557,10 @@ La zona protegida de recepción debe tener sus propias configuraciones de destin
 
 **Documentación de Experience League:**
 
-- [Información general sobre los destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Catálogo de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Monitorización de flujos de datos para destinos](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Protecciones de activación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Información general sobre los destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home)
+- [Catálogo de destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/overview)
+- [Monitorización de flujos de datos para destinos](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Protecciones de activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails)
 
 ## Consideraciones sobre la implementación
 
@@ -568,11 +568,11 @@ Revise las siguientes consideraciones antes y durante la implementación para ev
 
 ### Protecciones y límites
 
-- [!DNL Segment Match] usa identificadores hash para la coincidencia: ninguna PII cruza los límites de la organización. Consulte [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview).
+- [!DNL Segment Match] usa identificadores hash para la coincidencia: ninguna PII cruza los límites de la organización. Consulte [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview).
 - Solo se pueden compartir audiencias evaluadas por lotes a través de [!DNL Segment Match]. Los segmentos de streaming y evaluados por Edge deben convertirse a una evaluación por lotes antes de compartirse.
-- Se aplica un máximo de 4000 definiciones de segmentos por zona protegida tanto a los segmentos de origen como a los recibidos. Consulte [Protecciones de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails).
+- Se aplica un máximo de 4000 definiciones de segmentos por zona protegida tanto a los segmentos de origen como a los recibidos. Consulte [Protecciones de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails).
 - La precisión de la estimación de superposición depende del volumen de identificadores coincidentes. Las audiencias pequeñas pueden mostrar estimaciones menos precisas.
-- Las protecciones de activación se aplican a audiencias coincidentes igual que cualquier otra audiencia: un máximo de 100 flujos de datos por destino. Consulte [Protecciones de activación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails).
+- Las protecciones de activación se aplican a audiencias coincidentes igual que cualquier otra audiencia: un máximo de 100 flujos de datos por destino. Consulte [Protecciones de activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails).
 - Las audiencias compuestas se evalúan según una programación por lotes y están limitadas a 10 lienzos de composición por zona protegida. Consulte [Protecciones de composición de audiencia](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails).
 
 ### Peligros comunes
@@ -630,61 +630,61 @@ Los siguientes recursos proporcionan detalles adicionales sobre las capacidades 
 
 ### [!DNL Segment Match]
 
-- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Solución de problemas de Coincidencia de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Resumen de coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Solución de problemas de Coincidencia de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Segmentación y audiencias
 
-- [Resumen del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Resumen de composición de audiencia](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Referencia de Profile Query Language](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Segmentación de streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Segmentación de Edge](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home)
+- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder)
+- [Resumen de composición de audiencia](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-composition)
+- [Referencia de Profile Query Language](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/pql/overview)
+- [Segmentación de streaming](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Segmentación de Edge](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### Identidad y perfil
 
-- [Introducción al servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
 - [Información general sobre áreas de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces)
-- [Resumen de políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [Resumen del perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Resumen de políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview)
+- [Resumen del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home)
 
 ### Gobernanza de datos y consentimiento
 
-- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home)
 - [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview)
-- [Aplicación de políticas](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [Aplicación de políticas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/overview)
 - [Consentimiento y preferencias](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Grupo de campos de consentimiento y preferencias](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Grupo de campos de consentimiento y preferencias](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/consents)
 
 ### Destinos y activación
 
-- [Información general sobre los destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Catálogo de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Monitorización de flujos de datos para destinos](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Información general sobre los destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home)
+- [Catálogo de destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/overview)
+- [Monitorización de flujos de datos para destinos](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 ### Modelado y esquema de datos
 
-- [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Conceptos básicos de composición](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)
+- [Conceptos básicos de composición](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
 
 ### Administración y control de acceso
 
-- [Información general de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+- [Información general de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
 - [Información general de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home)
 
 ### Monitorización y observabilidad
 
-- [Resumen de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview)
+- [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home)
 
 ### Guardas
 
-- [Protecciones del perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Protecciones del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
 - [Protecciones de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
-- [Protecciones de activación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Protecciones de activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails)
 
 ### Tutoriales
 
 - [Creación de un esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/union-schema)
-- [Habilitar un conjunto de datos para el perfil](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile)
+- [Habilitar un conjunto de datos para el perfil](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/enable-for-profile)

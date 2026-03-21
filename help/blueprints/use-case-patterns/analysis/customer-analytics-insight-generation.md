@@ -955,7 +955,7 @@ Los siguientes recursos proporcionan información adicional para este patrón de
 
 ### Fundamentos de AEP
 
-- [Información general sobre conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
+- [Información general sobre conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)
 - [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)
 - [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 - [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
