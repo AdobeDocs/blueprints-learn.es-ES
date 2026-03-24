@@ -2,13 +2,13 @@
 title: Análisis B2B
 description: Aprenda a incluir información de nivel de cuenta B2B en el análisis de recorrido de clientes en canales múltiples.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
 
 ---
-
 
 # Análisis B2B
 
@@ -61,25 +61,25 @@ Los siguientes escenarios ilustran cómo se puede aplicar este patrón en la pr�
 - **Análisis de puntuación de participación de cuenta**: mida y clasifique cuentas según su participación agregada en la web, el correo electrónico, los eventos y las interacciones de contenido para identificar cuentas de alta intención para el seguimiento de ventas
 - **Seguimiento de la integridad del grupo de compra** — Analice la composición del grupo de compra en todas las cuentas para identificar lagunas en la cobertura de roles y priorizar la adquisición de posibles clientes para los grupos de compra incompletos
 - **Correlación de canalización de oportunidad**: correlacione los datos de participación de marketing con la progresión de la fase de oportunidad para comprender qué campañas y puntos de contacto impulsan el avance de la canalización
-- **Atribución B2B multitáctil**: aplique modelos de atribución con ventanas retrospectivas de 13 meses a puntos de contacto de marketing de crédito en todo el recorrido de compra B2B desde el primer contacto hasta el cerrado ganado
-- **Asignación de recorridos de cuenta**: visualice el recorrido de cuentas en canales múltiples desde la percepción inicial hasta la creación y el cierre de oportunidades, identificando rutas comunes y puntos de fricción
-- **Influencia de la campaña en la canalización**: mida cómo influyen las campañas específicas en la creación de la canalización de la cuenta, el avance de la oportunidad y la generación de ingresos
-- **Progresión de la participación del grupo de compra**: efectúe el seguimiento de la evolución de las puntuaciones de participación del grupo de compra a lo largo del tiempo y correlacione los umbrales de participación con los resultados de la oportunidad
-- **Rendimiento del contenido basado en cuentas**: Analice qué recursos y temas de contenido resuenan en segmentos de cuenta específicos, industrias o roles de grupo de compra
-- **Paneles de alineación de ventas y marketing**: cree paneles compartidos que proporcionen a los equipos de ventas y marketing una vista unificada de la participación de la cuenta, el estado de la canalización y la atribución de ingresos
-- **Segmentación de cuentas para activación**: cree segmentos B2B basados en análisis de nivel de cuenta (por ejemplo, &quot;cuentas con un alto nivel de participación sin oportunidades abiertas&quot;) y publíquelos para su activación descendente
+- **Multi-touch B2B attribution** -- Apply attribution models with 13-month lookback windows to credit marketing touchpoints across the full B2B buying journey from first touch to closed-won
+- **Account journey mapping** -- Visualize the cross-channel account journey from initial awareness through opportunity creation and close, identifying common paths and friction points
+- **Campaign influence on pipeline** -- Measure how specific campaigns influence account pipeline creation, opportunity advancement, and revenue generation
+- **Buying group engagement progression** -- Track how buying group engagement scores evolve over time and correlate engagement thresholds with opportunity outcomes
+- **Account-based content performance** -- Analyze which content assets and topics resonate with specific account segments, industries, or buying group roles
+- **Sales and marketing alignment dashboards** -- Build shared dashboards that provide both marketing and sales teams with a unified view of account engagement, pipeline health, and revenue attribution
+- **Account segmentation for activation** -- Create B2B segments based on account-level analytics (for example, &quot;highly engaged accounts without open opportunities&quot;) and publish them for downstream activation
 
 ## Indicadores clave de rendimiento
 
-Los siguientes KPI ayudan a medir el éxito de este patrón de caso de uso.
+The following KPIs help measure the success of this use case pattern.
 
-| KPI | Descripción | Método de medición |
+| KPI | Descripción | Measurement approach |
 | --- | --- | --- |
-| Puntuación de participación de cuenta | Métrica de participación agregada en todos los contactos de una cuenta | Métrica calculada que combina visitas web, interacciones por correo electrónico, asistencia a eventos y descargas de contenido a nivel de cuenta |
-| Integridad del grupo de compra | Porcentaje de funciones requeridas dentro de un grupo de compra | Proporción de puestos ocupados respecto al total de puestos necesarios por grupo de compra, con seguimiento en el tiempo |
-| Canalización influenciada por el marketing | Ingresos en canalización que se han visto afectados por las actividades de marketing | Valor de oportunidad donde los contactos de cuenta asociados tienen puntos de contacto de marketing dentro de la ventana de atribución |
-| Tasa de conversión de cuenta a oportunidad | Porcentaje de cuentas comprometidas que generan oportunidades cualificadas | Cuentas con oportunidades divididas por el total de cuentas comprometidas durante un periodo definido |
-| Duración media del ciclo de oferta | Tiempo desde el primer contacto de marketing hasta el cerrado ganado | Duración media desde el primer punto de contacto atribuido hasta la fecha de cierre de la oportunidad |
+| Account Engagement Score | Aggregate engagement metric across all contacts within an account | Computed metric combining web visits, email interactions, event attendance, and content downloads at the account level |
+| Buying Group Completeness | Percentage of required roles filled within a buying group | Ratio of filled roles to total required roles per buying group, tracked over time |
+| Pipeline Influenced by Marketing | Revenue in pipeline that has been touched by marketing activities | Opportunity value where associated account contacts have marketing touchpoints within the attribution window |
+| Account-to-Opportunity Conversion Rate | Percentage of engaged accounts that generate qualified opportunities | Accounts with opportunities divided by total engaged accounts over a defined period |
+| Average Deal Cycle Length | Time from first marketing touch to closed-won | Average duration from first attributed touchpoint to opportunity close date |
 | Ingresos de atribución de marketing | Ingresos atribuidos a puntos de contacto de marketing | Ingresos de oportunidades ganadas a puerta cerrada con toques de marketing, distribuidos por modelo de atribución |
 | Alcance y penetración de la cuenta | Número de contactos contratados por cuenta de destinatario | Contactos únicos con interacciones de marketing por cuenta, en comparación con el total de contactos conocidos |
 | Participación en el contenido por rol de compra | Métricas de participación segmentadas mediante la compra de un rol de grupo | Vistas de página, descargas y tiempo empleado desglosados por persona o función dentro de los grupos compradores |
@@ -106,10 +106,10 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 | Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Requerido | Zona protegida configurada con [!DNL CJA] derechos de B2B edition y [!DNL RT-CDP] B2B edition. Roles aprovisionados para ingenieros de datos, analistas y usuarios de operaciones de marketing con acceso a [!DNL CJA] y al modelo de datos B2B. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home) |
-| Modelado y preparación de datos | Requerido | Esquemas XDM B2B configurados con clases B2B: miembros de lista de marketing empresarial de XDM, relación de persona de cuenta empresarial de XDM, relación de persona de oportunidad empresarial de XDM y miembros de lista de marketing empresarial de XDM. Deben definirse grupos de campos para atributos de cuenta, fases de oportunidad y roles de grupo de compra. Conjuntos de datos creados y habilitados para el perfil. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [esquemas de B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) |
-| Fuentes de datos y recopilación | Requerido | Fuentes de datos B2B conectadas, normalmente a través del conector de origen [!DNL Marketo Engage] o del conector de origen CRM [!DNL Salesforce]. Los registros de cuenta, los registros de oportunidad, las relaciones persona-cuenta y los eventos de participación de comportamiento deben fluir a los conjuntos de datos de AEP. [!DNL Web SDK] o la integración [!DNL Marketo] debe estar capturando eventos de comportamiento con asociación de cuenta. | [Resumen de fuentes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home), [conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| Configuración de identidad y perfil | Requerido | Resolución de identidad B2B configurada para resolver relaciones persona a cuenta. Se deben vincular el ID de cuenta, el ID de persona ([!DNL Marketo] ID de posible cliente o ID de contacto de CRM) y las identidades entre dispositivos (ECID, correo electrónico). El gráfico de identidad debe admitir la asignación de persona a cuenta de varios a varios inherente a los modelos de datos B2B. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home), [resolución de identidad B2B](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) |
-| Definición de audiencia y segmentación | Se asume en contexto | Las definiciones de audiencia de nivel de cuenta deben estar disponibles si los segmentos B2B se publicarán de [!DNL CJA] de nuevo en AEP para su activación. Para casos de uso solo de análisis, no se trata de un requisito previo estricto, pero se recomienda para el análisis basado en segmentos. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home) |
+| Modelado y preparación de datos | Requerido | Esquemas XDM B2B configurados con clases B2B: miembros de lista de marketing empresarial de XDM, relación de persona de cuenta empresarial de XDM, relación de persona de oportunidad empresarial de XDM y miembros de lista de marketing empresarial de XDM. Deben definirse grupos de campos para atributos de cuenta, fases de oportunidad y roles de grupo de compra. Conjuntos de datos creados y habilitados para el perfil. | [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [esquemas de B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
+| Fuentes de datos y recopilación | Requerido | Fuentes de datos B2B conectadas, normalmente a través del conector de origen [!DNL Marketo Engage] o del conector de origen CRM [!DNL Salesforce]. Los registros de cuenta, los registros de oportunidad, las relaciones persona-cuenta y los eventos de participación de comportamiento deben fluir a los conjuntos de datos de AEP. [!DNL Web SDK] o la integración [!DNL Marketo] debe estar capturando eventos de comportamiento con asociación de cuenta. | [Resumen de fuentes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [conector de Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Configuración de identidad y perfil | Requerido | Resolución de identidad B2B configurada para resolver relaciones persona a cuenta. Se deben vincular el ID de cuenta, el ID de persona ([!DNL Marketo] ID de posible cliente o ID de contacto de CRM) y las identidades entre dispositivos (ECID, correo electrónico). El gráfico de identidad debe admitir la asignación de persona a cuenta de varios a varios inherente a los modelos de datos B2B. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [resolución de identidad B2B](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
+| Definición de audiencia y segmentación | Se asume en contexto | Las definiciones de audiencia de nivel de cuenta deben estar disponibles si los segmentos B2B se publicarán de [!DNL CJA] de nuevo en AEP para su activación. Para casos de uso solo de análisis, no se trata de un requisito previo estricto, pero se recomienda para el análisis basado en segmentos. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## Funciones de soporte
 
@@ -117,26 +117,26 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 
 | Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados en los perfiles de cuenta (por ejemplo, puntuación de participación total, días transcurridos desde la última actividad, recuento de oportunidades) enriquecen las dimensiones analíticas disponibles en [!DNL CJA] para el análisis a nivel de cuenta. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
-| Administración del ciclo de datos | Recomendado | Los conjuntos de datos B2B, en particular los datos de eventos de comportamiento de [!DNL Marketo Engage], pueden crecer rápidamente. Las políticas de caducidad de conjuntos de datos ayudan a administrar el almacenamiento y garantizar el cumplimiento de los requisitos de retención de datos. | [Administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
-| Etiquetado y aplicación del uso de datos | Recomendado | Los datos B2B suelen contener información empresarial confidencial (valores contractuales, inteligencia competitiva). Las etiquetas de uso de datos y las políticas de gobernanza garantizan que estos datos se utilicen correctamente en los flujos de trabajo de análisis y activación. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home) |
-| Monitorización y observabilidad | Recomendado | Los conectores de origen B2B ([!DNL Marketo], [!DNL Salesforce]) requieren supervisión para el estado de la ingesta. La supervisión del estado de la conexión en [!DNL CJA] garantiza la actualización de los datos para Analytics. Las reglas de alerta para errores de ingesta evitan paneles obsoletos. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
-| Informes y análisis | Incluido | Este patrón es en sí mismo un patrón de análisis. Esta función se incluye de forma inherente ya que la cadena de funciones principales ofrece funciones de creación de informes y análisis. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados en los perfiles de cuenta (por ejemplo, puntuación de participación total, días transcurridos desde la última actividad, recuento de oportunidades) enriquecen las dimensiones analíticas disponibles en [!DNL CJA] para el análisis a nivel de cuenta. | [Resumen de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Administración del ciclo de datos | Recomendado | Los conjuntos de datos B2B, en particular los datos de eventos de comportamiento de [!DNL Marketo Engage], pueden crecer rápidamente. Las políticas de caducidad de conjuntos de datos ayudan a administrar el almacenamiento y garantizar el cumplimiento de los requisitos de retención de datos. | [Administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Etiquetado y aplicación del uso de datos | Recomendado | Los datos B2B suelen contener información empresarial confidencial (valores contractuales, inteligencia competitiva). Las etiquetas de uso de datos y las políticas de gobernanza garantizan que estos datos se utilicen correctamente en los flujos de trabajo de análisis y activación. | [Resumen de control de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Monitorización y observabilidad | Recomendado | Los conectores de origen B2B ([!DNL Marketo], [!DNL Salesforce]) requieren supervisión para el estado de la ingesta. La supervisión del estado de la conexión en [!DNL CJA] garantiza la actualización de los datos para Analytics. Las reglas de alerta para errores de ingesta evitan paneles obsoletos. | [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Informes y análisis | Incluido | Este patrón es en sí mismo un patrón de análisis. Esta función se incluye de forma inherente ya que la cadena de funciones principales ofrece funciones de creación de informes y análisis. | [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funciones de aplicación
+## Application functions
 
-Este plan utiliza las siguientes funciones del Catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+This plan exercises the following functions from the Application Function Catalog. Functions are mapped to implementation phases rather than numbered steps.
 
-### [!DNL Customer Journey Analytics] B2B edition
+### [!DNL Customer Journey Analytics] B2B Edition
 
-| Función | Fase de implementación | Descripción |
+| Function | Implementation phase | Descripción |
 | --- | --- | --- |
-| Conexión basada en cuentas | Fase 1: Conexión de datos B2B | Configure conexiones utilizando Cuenta o Cuenta global como identificador principal para el análisis en el nivel de organización |
-| Configuración de vista de datos B2B | Fase 2: Configuración de vista de datos de cuenta | Defina vistas de datos con contenedores específicos de B2B (cuenta, cuenta global, oportunidad, grupo de compra) junto con contenedores estándar de persona, sesión y evento |
-| Análisis de Workspace a nivel de cuenta | Fase 3: Análisis de Workspace | Cree análisis de forma libre utilizando dimensiones, métricas y contenedores B2B de nivel de cuenta para obtener perspectivas de recorrido de nivel de organización |
-| Análisis del grupo de compra | Fase 3: Análisis de Workspace | Analizar la composición, la participación y la progresión del grupo de compra a través del proceso de decisión de compra |
-| Análisis de oportunidad | Fase 3: Análisis de Workspace | Rastree la progresión de la oportunidad a través de las fases de funnel de ventas y correlóciela con los datos de participación de marketing |
-| Segmentación B2B | Fase 3: Análisis de Workspace | Creación de segmentos utilizando contenedores B2B para el análisis filtrado a nivel de cuenta |
+| Account-Based Connection | Phase 1: B2B Data Connection | Configure connections using Account or Global Account as the primary identifier for organization-level analysis |
+| B2B Data View Configuration | Phase 2: Account Data View Configuration | Define data views with B2B-specific containers (Account, Global Account, Opportunity, Buying Group) alongside standard Person, Session, and Event containers |
+| Account-Level Workspace Analysis | Phase 3: Workspace Analysis | Build freeform analysis using account-level dimensions, metrics, and B2B containers for organization-level journey insights |
+| Buying Group Analysis | Phase 3: Workspace Analysis | Analyze buying group composition, engagement, and progression through the purchase decision process |
+| Opportunity Analysis | Phase 3: Workspace Analysis | Track opportunity progression through sales funnel stages and correlate with marketing engagement data |
+| B2B Segmentation | Phase 3: Workspace Analysis | Create segments using B2B containers for filtered account-level analysis |
 | Atribución B2B | Fase 3: Análisis de Workspace | Aplicar modelos de atribución con ventanas retrospectivas de cuenta ampliadas de 13 meses para el análisis del ciclo de ventas B2B |
 | Creación de métricas calculadas | Fase 3: Análisis de Workspace | Defina métricas calculadas para KPI B2B como la tasa de participación en la cuenta, la integridad del grupo de compra y la influencia de la canalización |
 | Publicación de paneles y cuadros de resultados | Fase 4: Publicación del panel | Cree y comparta paneles y cuadros de resultados móviles para el liderazgo de marketing y ventas |
@@ -149,32 +149,32 @@ Este plan utiliza las siguientes funciones del Catálogo de funciones de la apli
 | Conexión de datos | Fase 1: Conexión de datos B2B | Enlazar conjuntos de datos B2B de AEP a [!DNL CJA] conexiones para análisis en canales múltiples |
 | Configuración de vista de datos | Fase 2: Configuración de vista de datos de cuenta | Configure dimensiones, métricas, atribuciones y configuraciones de persistencia estándar en la vista de datos B2B |
 | Análisis de Workspace | Fase 3: Análisis de Workspace | Cree análisis de forma libre con tablas, visitas en orden previsto, flujo, cohorte y visualizaciones de atribución |
-| Análisis guiado | Fase 3: Análisis de Workspace | Uso de flujos de trabajo guiados para el análisis de funnel, tendencias y retención a nivel de cuenta |
+| Análisis guiado | Fase 3: Análisis de Workspace | Use guided workflows for funnel, trend, and retention analysis at the account level |
 
-### [!DNL Real-Time CDP] B2B edition
+### [!DNL Real-Time CDP] B2B Edition
 
-| Función | Fase de implementación | Descripción |
+| Function | Implementation phase | Descripción |
 | --- | --- | --- |
-| Unificación del perfil de cuenta | Requisitos previos (F2/F4) | Consolidar datos B2B de fuentes cruzadas en perfiles de cuenta unificados mediante clases de esquema B2B XDM especializadas |
-| Resolución de identidad B2B | Requisito previo (F4) | Resolver relaciones persona a cuenta compatibles con jerarquías de cuentas de varios niveles y asignaciones de varios a varios |
-| Integración de [!DNL Marketo Engage] | Requisito previo (F3) | Ingesta de datos de participación de comportamiento y registros de cuenta/posible cliente de [!DNL Marketo Engage] mediante conectores de origen B2B nativos |
+| Account Profile Unification | Prerequisite (F2/F4) | Consolidate cross-source B2B data into unified account profiles using specialized XDM B2B schema classes |
+| B2B Identity Resolution | Prerequisite (F4) | Resolve person-to-account relationships supporting multi-level account hierarchies and many-to-many mappings |
+| [!DNL Marketo Engage] Integration | Prerequisite (F3) | Ingest behavioral engagement data and account/lead records from [!DNL Marketo Engage] via native B2B source connectors |
 
 ## Prerrequisitos
 
-Los siguientes elementos deben estar implementados antes de que comience la implementación.
+The following items must be in place before implementation begins.
 
-- La licencia de B2B edition [!DNL CJA] está activa y aprovisionada para la organización
-- La licencia de B2B edition [!DNL RT-CDP] está activa con esquemas B2B y perfiles de cuenta configurados
-- Se definen los esquemas XDM B2B (cuenta, oportunidad, relación de persona de cuenta, relación de persona de oportunidad, miembros de lista de marketing)
-- [!DNL Marketo Engage] y/o los conectores de origen CRM están configurados e ingiriendo datos activamente
-- Los datos de evento de comportamiento de nivel de cuenta (visitas web, interacciones por correo electrónico, envíos de formularios) fluyen a AEP con la asociación de cuentas
-- Las relaciones persona a cuenta se establecen en el gráfico de identidades
-- Hay disponibles al menos 30 días de datos históricos de participación B2B para un análisis significativo
-- Las partes interesadas han acordado comprar definiciones de funciones de grupo y asignaciones de intereses de soluciones
-- Las cuentas de usuario de [!DNL CJA] se han aprovisionado con perfiles de producto apropiados para las funciones de B2B edition
-- Los KPI de objetivo y los requisitos de informes han sido definidos por el liderazgo de marketing y ventas
+- [ ] [!DNL CJA] B2B Edition license is active and provisioned for the organization
+- [ ] [!DNL RT-CDP] B2B Edition license is active with B2B schemas and account profiles configured
+- [ ] B2B XDM schemas are defined (Account, Opportunity, Account Person Relation, Opportunity Person Relation, Marketing List Members)
+- [ ] [!DNL Marketo Engage] and/or CRM source connectors are configured and actively ingesting data
+- [ ] Account-level behavioral event data (web visits, email interactions, form submissions) is flowing into AEP with account association
+- [ ] Person-to-account relationships are established in the identity graph
+- [ ] At least 30 days of historical B2B engagement data is available for meaningful analysis
+- [ ] Stakeholders have agreed on buying group role definitions and solution interest mappings
+- [ ] [!DNL CJA] user accounts are provisioned with appropriate product profiles for B2B Edition features
+- [ ] Target KPIs and reporting requirements have been defined by marketing and sales leadership
 
-## Opciones de implementación
+## Implementation options
 
 Las secciones siguientes describen diferentes enfoques para implementar este patrón de caso de uso.
 
@@ -210,7 +210,7 @@ El análisis centrado en cuentas proporciona la vista más natural para las orga
 **Experience League:**
 
 - [Información general sobre CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [Esquemas de B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b)
+- [Esquemas de B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
 
 ### Opción B: análisis global centrado en las cuentas
 
@@ -276,8 +276,8 @@ La vista de datos centrada en las personas proporciona un análisis de recorrido
 
 **Experience League:**
 
-- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Resumen de vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Resumen de vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
 ### Comparación de opciones
 
@@ -365,9 +365,9 @@ Cree una sola conexión con todos los conjuntos de datos B2B. Utilice ID de cuen
 
 **Documentación de Experience League:**
 
-- [Información general sobre Conexiones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview)
-- [Crear o editar una conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection)
-- [Administrar conexiones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/manage-connections)
+- [Información general sobre Conexiones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [Crear o editar una conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [Administrar conexiones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
 - [Información general sobre CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### Fase 2: Configuración de la vista de datos de cuenta
@@ -383,19 +383,19 @@ Determine qué contenedores B2B deben habilitarse y cómo deben asignarse.
 | Opción | Cuándo elegir | Consideraciones |
 | --- | --- | --- |
 | Cuenta + Persona + Sesión + Evento | B2B estándar sin grupo de compra ni análisis de oportunidad | La jerarquía de contenedor B2B más sencilla. La cuenta es el contenedor de nivel superior. |
-| Cuenta + Oportunidad + Persona + Sesión + Evento | Análisis de canalización e ingresos obligatorio | Agrega la oportunidad como nivel de contenedor, lo que permite un análisis con alcance de oportunidad. |
-| Cuenta + Grupo de compra + Oportunidad + Persona + Sesión + Evento | Análisis B2B completo, incluida la composición del grupo comprador | El más completo. Permite el análisis en todos los niveles del modelo de datos B2B. |
-| Cuenta Global + Cuenta + Persona + Sesión + Evento | Análisis de jerarquía de cuenta global | Agrega Cuenta global como el contenedor de nivel superior sobre Cuenta. |
+| Cuenta + Oportunidad + Persona + Sesión + Evento | Pipeline and revenue analysis required | Adds opportunity as a container level, enabling opportunity-scoped analysis. |
+| Account + Buying Group + Opportunity + Person + Session + Event | Full B2B analysis including buying group composition | Most comprehensive. Enables analysis at every level of the B2B data model. |
+| Global Account + Account + Person + Session + Event | Global account hierarchy analysis | Adds Global Account as the highest-level container above Account. |
 
-#### Decisión: modelo de atribución para métricas B2B
+#### Decision: Attribution model for B2B metrics
 
-Determine qué modelo de atribución debe ser el predeterminado para las métricas de conversión.
+Determine which attribution model should be the default for conversion metrics.
 
-| Opción | Cuándo elegir | Consideraciones |
+| Option | When to choose | Considerations |
 | --- | --- | --- |
-| Atribución lineal (retrospectiva de 13 meses) | Igual crédito a todos los puntos de contacto del recorrido B2B | Lo mejor para comprender la combinación completa de actividades de marketing. Punto de partida recomendado para B2B. |
-| Atribución en forma de U (retrospectiva de 13 meses) | Énfasis en el primer y último contacto con el crédito a los toques medios | Resalta los momentos de creación de posibles clientes y conversión de oportunidades. Frecuentes en el análisis de generación de demanda. |
-| Deterioro de tiempo (retrospectiva de 13 meses) | Los puntos de contacto más recientes deben recibir más crédito | Lo mejor cuando la actualización de la participación es una señal importante para la preparación de las ventas. |
+| Linear attribution (13-month lookback) | Equal credit to all touchpoints in the B2B journey | Best for understanding the full mix of marketing activities. Recommended starting point for B2B. |
+| U-shaped attribution (13-month lookback) | Emphasis on first and last touch with credit to middle touches | Highlights lead creation and opportunity conversion moments. Common in demand generation analysis. |
+| Time decay (13-month lookback) | More recent touchpoints should receive more credit | Best when recency of engagement is an important signal for sales readiness. |
 | Último contacto | Creación de informes sencillos del punto de contacto final antes de la conversión | Es fácil de entender, pero infravalora el marketing en las primeras etapas. Se utiliza únicamente para informes de funcionamiento rápidos. |
 
 #### Decisión: Definición de la sesión para B2B
@@ -436,13 +436,13 @@ Cree dos vistas de datos desde la misma conexión. La vista de datos 1 utiliza l
 
 **Documentación de Experience League:**
 
-- [Resumen de vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Resumen de configuración de componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Configuración de persistencia](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Configuración de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Campos derivados](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/derived-fields)
-- [Configuración de sesión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Resumen de vistas de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Resumen de configuración de componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Configuración de persistencia](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Configuración de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Campos derivados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Configuración de sesión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
 
 ### Fase 3: Análisis de Workspace
 
@@ -502,18 +502,18 @@ Detalles de configuración clave:
 
 **Documentación de Experience League:**
 
-- [Información general de Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home)
-- [Crear un proyecto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Panel de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [Visualización de flujo](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Visualización de abandonos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Tabla de cohortes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Resumen de filtros](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Resumen de métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Creación de métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Resumen de anotaciones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/annotations/overview)
-- [Resumen del análisis guiado](https://experienceleague.adobe.com/es/docs/analytics-platform/using/guided-analysis/overview)
+- [Información general de Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [Crear un proyecto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Visualización de flujo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Visualización de abandonos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Tabla de cohortes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Resumen de filtros](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Resumen de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Creación de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Resumen de anotaciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Resumen del análisis guiado](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
 - [Dimensiones de desglose](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 ### Fase 4: Publicación del panel
@@ -530,26 +530,26 @@ Determine cómo deben entregarse las perspectivas de análisis B2B a las partes 
 | --- | --- | --- |
 | Proyecto de Workspace (escritorio) | Analistas y operaciones de marketing que necesitan exploración interactiva | Interactividad completa, desglose, alternancia de filtros. Requiere acceso de [!DNL CJA]. |
 | Cuadro de resultados móvil | Ejecutivos y líderes de ventas que necesitan KPI de un vistazo | Números de resumen con líneas de tendencia. Se puede acceder a través de la aplicación de paneles [!DNL Adobe Analytics]. Interactividad limitada. |
-| Exportación programada de PDF/CSV | Partes interesadas sin acceso de [!DNL CJA] que necesitan actualizaciones regulares | Entrega automatizada según lo programado. No hay interactividad. Ideal para resúmenes ejecutivos semanales/mensuales. |
-| Todo lo anterior | Grandes organizaciones con diversas necesidades para las partes interesadas | Alcance máximo. Mayor mantenimiento. Recomendado para programas de análisis B2B consolidados. |
+| Exportación programada de PDF/CSV | Partes interesadas sin acceso de [!DNL CJA] que necesitan actualizaciones regulares | Entrega automatizada según lo programado. No interactivity. Best for weekly/monthly executive summaries. |
+| All of the above | Large organizations with diverse stakeholder needs | Maximum reach. Higher maintenance effort. Recommended for mature B2B analytics programs. |
 
-#### Decisión: publicación de audiencia de [!DNL CJA]
+#### Decision: Audience publishing from [!DNL CJA]
 
-Determine si los segmentos B2B deben volver a publicarse en AEP para su activación.
+Determine whether B2B segments should be published back to AEP for activation.
 
-| Opción | Cuándo elegir | Consideraciones |
+| Option | When to choose | Considerations |
 | --- | --- | --- |
-| Publicación de audiencias basadas en cuentas | Las perspectivas de Analytics deben informar sobre la segmentación y la supresión | Habilita la activación de [!DNL CJA] segmentos definidos por el usuario (por ejemplo, &quot;cuentas altamente comprometidas sin oportunidades abiertas&quot;) mediante [!DNL RT-CDP]. Actualizar cadencia: de 4 horas a semanalmente. |
-| No publicar | Analytics es solo para informes, no para activación | Configuración más sencilla. La activación se administra por separado en [!DNL RT-CDP]. |
+| Publish account-based audiences | Analytics insights should inform targeting and suppression | Enables activation of [!DNL CJA]-defined segments (for example, &quot;highly engaged accounts without open opportunities&quot;) via [!DNL RT-CDP]. Refresh cadence: 4 hours to weekly. |
+| Do not publish | Analytics is for reporting only, not activation | Simpler configuration. Activation handled separately in [!DNL RT-CDP]. |
 
-#### Publicación de paneles y audiencias
+#### Publish dashboards and audiences
 
-**Navegación de la interfaz de usuario:** [!DNL Customer Journey Analytics] > Proyectos > Compartir (para Workspace), Proyectos > Crear > Cuadro de resultados móvil (para cuadros de resultados), Componentes > Audiencias > Publicar (para publicación de audiencias)
+**UI navigation:** [!DNL Customer Journey Analytics] > Projects > Share (for Workspace), Projects > Create > Mobile scorecard (for scorecards), Components > Audiences > Publish (for audience publishing)
 
-Detalles de configuración clave:
+Key configuration details:
 
-- Cree paneles ejecutivos con números de resumen para los KPI clave B2B (cuentas comprometidas totales, valor de la canalización, integridad del grupo de compra)
-- Configurar periodos de comparación (mes tras mes, trimestre tras trimestre) para indicadores de tendencia
+- Build executive dashboards with summary numbers for key B2B KPIs (total engaged accounts, pipeline value, buying group completeness)
+- Configure comparison periods (month-over-month, quarter-over-quarter) for trend indicators
 - Cree cuadros de resultados móviles con mosaicos para las métricas de participación de la cuenta, estado de la canalización y atribución
 - Agregue filtros para que los ejecutivos cambien de vista por región, sector o nivel de cuenta
 - Configurar la entrega programada del proyecto para los informes ejecutivos semanales
@@ -557,13 +557,13 @@ Detalles de configuración clave:
 
 **Documentación de Experience League:**
 
-- [Creación de un cuadro de resultados móvil](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dashboards/create-scorecard)
-- [Uso compartido de proyectos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Programar proyectos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Creación de un cuadro de resultados móvil](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Uso compartido de proyectos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Programar proyectos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [Configurar y depurar informes de valoración](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Paneles de Adobe Analytics: guía ejecutiva](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [Resumen de audiencias](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Crear y publicar públicos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Paneles de Adobe Analytics: guía ejecutiva](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Resumen de audiencias](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Crear y publicar públicos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
 ## Consideraciones sobre la implementación
 
@@ -571,7 +571,7 @@ Las secciones siguientes abarcan protecciones, escollos comunes, prácticas reco
 
 ### Protecciones y límites
 
-- [!DNL CJA] conexiones pueden incluir conjuntos de datos de una sola zona protegida de AEP: [protecciones de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-admin/guardrails)
+- [!DNL CJA] conexiones pueden incluir conjuntos de datos de una sola zona protegida de AEP: [protecciones de CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 - Máximo de 5000 dimensiones y 5000 métricas por vista de datos
 - Máximo de 100 campos derivados por vista de datos
 - La atribución B2B admite ventanas retrospectivas de hasta 13 meses para análisis de nivel de cuenta
@@ -621,105 +621,105 @@ Las ventanas retrospectivas más largas (13 meses) capturan más puntos de conta
 
 - **Favoritos de retrospectiva más largos (13 meses):** Capturar el recorrido B2B completo, acreditar las actividades de la fase de sensibilización y dar cabida a ciclos de ventas largos.
 - **Favoritos de retrospectiva más cortos (6 meses):** Se centra en la participación reciente, reduce el ruido de los puntos de contacto antiguos y refleja mejor la intención de compra actual.
-- **Recomendación:** Use retrospectiva de 13 meses para cuentas empresariales con ciclos de ventas largos (más de 12 meses). Utilice una ventana retrospectiva de 6 meses para cuentas de mercado medio con ciclos más cortos. Cree métricas calculadas independientes para cada ventana con el fin de compararlas.
+- **Recomendación:** Use retrospectiva de 13 meses para cuentas empresariales con ciclos de ventas largos (más de 12 meses). Use 6-month lookback for mid-market accounts with shorter cycles. Create separate computed metrics for each window to compare.
 
-**Vista de datos integral única vs. múltiples vistas de datos enfocadas**
+**Single comprehensive data view vs. multiple focused data views**
 
-El mantenimiento de una vista de datos con todos los contenedores y dimensiones B2B es más sencillo, pero puede saturar a los analistas con complejidad. Las vistas de datos centradas múltiples (participación, canalización, atribución) son más fáciles de usar, pero más difíciles de mantener.
+One data view with all B2B containers and dimensions is simpler to maintain but may overwhelm analysts with complexity. Multiple focused data views (engagement, pipeline, attribution) are easier to use but harder to maintain.
 
-- **Una sola vista favorece:** Coherencia, mantenimiento más sencillo, análisis entre dominios dentro de un solo proyecto
-- **Favoritos de varias vistas:** Simplicidad para los analistas, tiempos de carga más rápidos, listas de componentes personalizadas por caso de uso
-- **Recomendación:** Comience con una sola vista de datos completa. Si los analistas informan de dificultades para encontrar las dimensiones y métricas adecuadas, cree grupos de componentes depurados dentro de la misma vista antes de dividirlos en varias vistas. Utilice plantillas de Workspace para guiar a los analistas hacia los componentes adecuados.
+- **Single view favors:** Consistency, easier maintenance, cross-domain analysis within a single project
+- **Multiple views favors:** Simplicity for analysts, faster loading times, tailored component lists per use case
+- **Recommendation:** Start with a single comprehensive data view. If analysts report difficulty finding the right dimensions and metrics, create curated component groups within the same view before splitting into multiple views. Use workspace templates to guide analysts to the right components.
 
 ## Documentación relacionada
 
-Los siguientes recursos proporcionan información adicional para implementar este patrón de caso de uso.
+The following resources provide additional information for implementing this use case pattern.
 
-**[!DNL CJA]B2B edition**
+**[!DNL CJA]B2B Edition**
 
-- [Información general sobre CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview)
-- [protecciones de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJA B2B Edition overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
+- [CJA overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA guardrails](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 
-**Conexiones**
+**Connections**
 
-- [Información general sobre Conexiones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/overview)
-- [Crear o editar una conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection)
-- [Administrar conexiones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/manage-connections)
+- [Connections overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [Crear o editar una conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [Administrar conexiones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
 
-**Vistas de datos**
+**Data views**
 
-- [Resumen de vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Resumen de configuración de componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Configuración de persistencia](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Configuración de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Configuración de formato](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [Campos derivados](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/derived-fields)
-- [Configuración de sesión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Data views overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Resumen de configuración de componentes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Configuración de persistencia](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Configuración de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Configuración de formato](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [Campos derivados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Configuración de sesión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
 
 **Workspace y análisis**
 
-- [Información general de Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home)
-- [Crear un proyecto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Visualización de flujo](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Visualización de abandonos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Tabla de cohortes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Panel de atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [Uso compartido de proyectos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Programar proyectos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Información general de Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [Crear un proyecto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Tabla de forma libre](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Visualización de flujo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Visualización de abandonos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Tabla de cohortes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Uso compartido de proyectos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Programar proyectos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [Dimensiones de desglose](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 **Componentes**
 
-- [Resumen de filtros](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Creación de filtros](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [Resumen de métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Creación de métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Resumen de anotaciones](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Resumen de filtros](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Creación de filtros](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [Resumen de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Creación de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Resumen de anotaciones](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
 - [Intervalos de fechas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
 
 **Audiencias**
 
-- [Resumen de audiencias](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Crear y publicar públicos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish)
-- [Administrar audiencias](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/manage)
+- [Resumen de audiencias](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Crear y publicar públicos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Administrar audiencias](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
 
 **Paneles y cuadros de resultados**
 
-- [Creación de un cuadro de resultados móvil](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Creación de un cuadro de resultados móvil](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [Configurar y depurar informes de valoración](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Paneles de Adobe Analytics: guía ejecutiva](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Paneles de Adobe Analytics: guía ejecutiva](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
 
 **Análisis guiado**
 
-- [Resumen del análisis guiado](https://experienceleague.adobe.com/es/docs/analytics-platform/using/guided-analysis/overview)
+- [Resumen del análisis guiado](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
 - [Vista de funnel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Vista de tendencias](https://experienceleague.adobe.com/es/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Vista Retención](https://experienceleague.adobe.com/es/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Vista de tendencias](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Vista Retención](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 **[!DNL RT-CDP]B2B edition**
 
 - [Información general sobre RT-CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#702702)
-- [Esquemas de B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b)
-- [Resumen de fuentes B2B](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/sources/b2b)
+- [Esquemas de B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [Resumen de fuentes B2B](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/sources/b2b)
 
 **AEP data foundation**
 
-- [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)
-- [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
-- [Conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
+- [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [Resumen de orígenes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Conector de Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Introducción al servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [Información general de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home)
 
 **Gobernanza de datos y ciclo vital**
 
-- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home)
-- [Administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home)
+- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
 
 **Tutoriales y guías**
 
-- [Conceptos básicos de composición](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
-- [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview)
-- [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home)
+- [Conceptos básicos de composición](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [Resumen de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)

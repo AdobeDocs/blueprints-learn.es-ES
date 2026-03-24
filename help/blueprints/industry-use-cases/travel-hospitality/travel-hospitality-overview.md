@@ -2,13 +2,13 @@
 title: Casos de uso de viajes y hospitalidad
 description: Descubra cómo las organizaciones de viajes y hospitalidad utilizan Adobe Experience Platform para personalizar las experiencias de reserva, recuperar las reservas abandonadas y crear lealtad de los huéspedes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '3648'
 ht-degree: 0%
 
 ---
-
 
 # Casos de uso de viajes y hospitalidad
 
@@ -20,11 +20,11 @@ Muestre recomendaciones personalizadas sobre cruceros, hoteles y destinos en la 
 
 ### Impacto empresarial
 
-La personalización de la página de inicio para nuevos visitantes suele impulsar un aumento de entre el 15 y el 20 % en la tasa de conversión, al presentar opciones de viaje que coinciden con la ubicación y los intereses del visitante, en lugar de contenido genérico.
+La personalización de la página de inicio para nuevos visitantes mejora las tasas de conversión al presentar opciones de viaje que coinciden con la ubicación y los intereses del visitante, en lugar de contenido genérico.
 
 ### Cómo implementar
 
-Usar el patrón [Personalization web de visitante anónimo](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md). Este método ofrece contenido personalizado a los visitantes que aún no se han identificado a sí mismos, mediante señales disponibles como geolocalización, tipo de dispositivo y fuente de referencia para personalizar la experiencia desde la primera página.
+Usar el patrón [Personalization web de visitante anónimo](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md). Este método ofrece contenido personalizado a los visitantes que aún no se han identificado a sí mismos, mediante señales disponibles como geolocalización, tipo de dispositivo y fuente de referencia para personalizar la experiencia desde la primera página. Este es el patrón correcto cuando el visitante aún no se ha identificado y la personalización debe depender de señales disponibles como geolocalización, tipo de dispositivo y fuente de referencia: la personalización de visitante conocido requiere un perfil autenticado que aún no existe.
 
 ### Consideraciones técnicas
 
@@ -40,11 +40,11 @@ Detecte automáticamente cuando un cliente abandone su carro de déclencheur y e
 
 ### Impacto empresarial
 
-Los programas efectivos de recuperación de reservas logran una tasa de recuperación del carro de compras del 25-35% y pueden generar entre 50.000 y 200.000 dólares adicionales en ingresos mensuales según el volumen de reserva y el valor promedio del viaje.
+Los programas efectivos de recuperación de reservas logran tasas significativas de recuperación del carro de compras y pueden generar ingresos incrementales significativos en función del volumen de reserva y el valor promedio del viaje.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a un evento de abandono del carro de compras en tiempo real, lo que envía un recordatorio oportuno mientras la intención de viaje del cliente sigue siendo alta.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a un evento de abandono del carro de compras en tiempo real, lo que envía un recordatorio oportuno mientras la intención de viaje del cliente sigue siendo alta. Este es el patrón correcto cuando el déclencheur es un evento de comportamiento del cliente en tiempo real y la respuesta requerida es un mensaje único y con distinción de tiempo, en lugar de una secuencia de cultivo de varios pasos o una selección de ofertas dinámicas que cambian según la respuesta del cliente.
 
 ### Consideraciones técnicas
 
@@ -60,11 +60,11 @@ Identifique a los visitantes con una intención de compra alta mediante una punt
 
 ### Impacto empresarial
 
-La segmentación de visitantes con intención alta con ofertas personalizadas aumenta en un 30-40 % la conversión para estos segmentos, concentrando la inversión en marketing donde ofrece el mayor rendimiento.
+La segmentación de visitantes con intención alta con ofertas personalizadas mejora la conversión de estos segmentos y concentra la inversión en marketing donde ofrece el mayor rendimiento.
 
 ### Cómo implementar
 
-Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método utiliza datos de perfil en tiempo real y señales de comportamiento para personalizar la experiencia web para visitantes identificados, ofreciendo contenido y ofertas adaptados que coinciden con su nivel de preparación para la compra.
+Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método utiliza datos de perfil en tiempo real y señales de comportamiento para personalizar la experiencia web para visitantes identificados, ofreciendo contenido y ofertas adaptados que coinciden con su nivel de preparación para la compra. Este es el patrón correcto cuando la personalización está impulsada por atributos de perfil y puntuaciones de tendencia para clientes identificados en lugar de un modelo de afinidad de comportamiento y cuando el cliente ya se ha autenticado, lo que hace que los miembros de su segmento y las señales de intención estén disponibles.
 
 ### Consideraciones técnicas
 
@@ -80,11 +80,11 @@ Una vez que el cliente completa una reserva, déclencheur automáticamente campa
 
 ### Impacto empresarial
 
-Las campañas de ampliación de ventas posteriores a la reserva suelen aumentar el valor promedio de los pedidos en entre 200 y 500 dólares y aumentar los ingresos complementarios en un 15-25%, lo que convierte una sola reserva en una transacción significativamente más valiosa.
+Las campañas de ampliación de ventas posteriores a la reserva aumentan el valor promedio de los pedidos y aumentan los ingresos complementarios, lo que convierte una sola reserva en una transacción significativamente más valiosa.
 
 ### Cómo implementar
 
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de varios pasos guía a los clientes que realizaron su reserva a través de una secuencia programada de oportunidades de ampliación de venta, adaptando las ofertas en función de lo que el huésped ya ha comprado y su participación con mensajes anteriores.
+Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de varios pasos guía a los clientes que realizaron su reserva a través de una secuencia programada de oportunidades de ampliación de venta, adaptando las ofertas en función de lo que el huésped ya ha comprado y su participación con mensajes anteriores. Este es el patrón correcto cuando el caso de uso requiere un flujo de mensajes múltiples secuenciado a lo largo de los días con ramificación condicional basada en eventos de participación y disponibilidad de inventario: un solo mensaje activado no puede dar cabida a la lógica de dependencia entre momentos de ampliación de venta o ajustes de tiempo basados en la proximidad de la fecha de viaje.
 
 ### Consideraciones técnicas
 
@@ -100,11 +100,11 @@ Identifique a los clientes que no hayan reservado en doce o más meses y ocúpes
 
 ### Impacto empresarial
 
-Las campañas de recuperación bien dirigidas logran una tasa de reactivación del 10-15% entre los clientes caducados, lo que recupera los ingresos de los huéspedes que, de lo contrario, nunca regresarían.
+Las campañas de recuperación bien dirigidas logran tasas de reactivación significativas entre los clientes caducados, recuperando los ingresos de los huéspedes que, de lo contrario, nunca regresarían.
 
 ### Cómo implementar
 
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de varios pasos vuelve a atraer a los clientes caducados con una serie progresiva de mensajes que evolucionan desde la inspiración hasta los incentivos en función de la respuesta del cliente.
+Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de varios pasos vuelve a atraer a los clientes caducados con una serie progresiva de mensajes que evolucionan desde la inspiración hasta los incentivos en función de la respuesta del cliente. Este es el patrón correcto cuando no hay ningún evento de activación discreto y el tiempo debe calcularse a partir de los modelos de ciclo de vida del cliente y los patrones de reserva estacionales: los mensajes activados por evento no pueden manejar la lógica de escalación progresiva o la necesidad de programar ofertas en ventanas típicas de planificación de viajes.
 
 ### Consideraciones técnicas
 
@@ -120,11 +120,11 @@ Muestre itinerarios de crucero y destinos personalizados en función de las rese
 
 ### Impacto empresarial
 
-Las recomendaciones de itinerarios personalizadas impulsan un aumento de entre el 20 y el 30 % en la participación con las páginas de itinerarios, lo que ayuda a los clientes a encontrar el viaje correcto más rápido y reduce la tasa de abandono que se produce cuando los viajeros se sienten abrumados por demasiadas opciones.
+Las recomendaciones de itinerarios personalizadas mejoran la participación con las páginas de itinerarios, lo que ayuda a los clientes a encontrar el viaje correcto más rápido y reduce el tiempo de entrega que se produce cuando los viajeros se sienten abrumados por demasiadas opciones.
 
 ### Cómo implementar
 
-Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este enfoque personaliza el contenido del sitio web para visitantes identificados, utilizando los datos de perfil y el historial de comportamiento para mostrar los itinerarios y destinos más relevantes.
+Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este enfoque personaliza el contenido del sitio web para visitantes identificados, utilizando los datos de perfil y el historial de comportamiento para mostrar los itinerarios y destinos más relevantes. Este es el patrón correcto cuando la personalización está impulsada por atributos de perfil e historial de reservas en lugar de un modelo de afinidad de comportamiento, lo que permite que la lógica basada en reglas tenga en cuenta la logística de viajes, como los puertos y las fechas de salida, junto con las preferencias de los clientes.
 
 ### Consideraciones técnicas
 
@@ -140,11 +140,11 @@ Muestre los cruceros, hoteles o destinos vistos recientemente en la página de i
 
 ### Impacto empresarial
 
-Al mostrar los productos de viajes consultados recientemente en la página principal, la participación en las visitas de retorno aumenta entre un 15 y un 20 %, lo que ayuda a los clientes a retomar lo que han dejado y acorta el camino hacia la reserva.
+Al mostrar los productos de viajes consultados recientemente en la página principal, aumenta la participación en las visitas de retorno, lo que ayuda a los clientes a recoger lo que han dejado y acorta el camino hacia la reserva.
 
 ### Cómo implementar
 
-Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método utiliza los datos de perfil almacenados del visitante para representar los elementos visualizados anteriormente en la página principal, lo que crea continuidad entre las sesiones de navegación.
+Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método utiliza los datos de perfil almacenados del visitante para representar los elementos visualizados anteriormente en la página principal, lo que crea continuidad entre las sesiones de navegación. Este es el patrón correcto cuando la personalización se basa en datos de perfil persistentes entre sesiones y dispositivos, en lugar de en la afinidad de comportamiento en tiempo real, y cuando las reglas para la relevancia se basan en el tiempo (actualización) en lugar de en la clasificación algorítmica.
 
 ### Consideraciones técnicas
 
@@ -160,11 +160,11 @@ Cuando un visitante muestra el intento de salida, muestra un modal personalizado
 
 ### Impacto empresarial
 
-Los modelos de intención de salida con ofertas de viajes personalizadas recuperan una tasa de conversión de entre el 5 y el 10 % entre los visitantes que, de lo contrario, se irían sin reservar, lo que captura ingresos que se perderían por completo.
+Los modelos de intención de salida con ofertas de viajes personalizadas recuperan conversiones significativas entre visitantes que, de lo contrario, se irían sin reservar, capturando ingresos que se perderían por completo.
 
 ### Cómo implementar
 
-Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Este método utiliza la lógica de decisión centralizada para evaluar todas las ofertas disponibles y seleccionar la más relevante para el visitante que sale en función del comportamiento de su sesión y los datos de perfil.
+Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Este método utiliza la lógica de decisión centralizada para evaluar todas las ofertas disponibles y seleccionar la más relevante para el visitante que sale en función del comportamiento de su sesión y los datos de perfil. Este es el patrón correcto cuando la selección de ofertas debe tener en cuenta la idoneidad del nivel de lealtad y las restricciones empresariales en torno a la restricción de frecuencia: restricciones que requieren una lógica de toma de decisiones regida en lugar de una recomendación de comportamiento simple o un mensaje activado único.
 
 ### Consideraciones técnicas
 
@@ -180,11 +180,11 @@ Personalice la experiencia del sitio web, las ofertas y las comunicaciones en fu
 
 ### Impacto empresarial
 
-La personalización basada en niveles impulsa un aumento de la participación de entre el 25 y el 35 % de los miembros socio, lo que profundiza la relación y acelera los comportamientos de ingresos y canje que mantienen los ingresos a largo plazo.
+La personalización basada en niveles impulsa una participación mejorada de los miembros fieles, lo que profundiza la relación y acelera los comportamientos de ingresos y canje que mantienen los ingresos a largo plazo.
 
 ### Cómo implementar
 
-Usar el patrón [Cross-Channel Recorrido with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Este método combina la orquestación de recorridos con la toma de decisiones en tiempo real para ofrecer la oferta correcta a través del canal adecuado para cada miembro socio, adaptándose a su nivel, preferencias y actividad reciente.
+Usar el patrón [Cross-Channel Recorrido with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Este método combina la orquestación de recorridos con la toma de decisiones en tiempo real para ofrecer la oferta correcta a través del canal adecuado para cada miembro socio, adaptándose a su nivel, preferencias y actividad reciente. Este es el patrón correcto cuando el recorrido debe coordinar la entrega a través de los canales para evitar ofertas duplicadas y cuando la selección de ofertas requiere reglas de elegibilidad basadas en niveles y restricciones de canje: la orquestación de recorridos por sí sola no proporciona el nivel de toma de decisiones multicanal necesario.
 
 ### Consideraciones técnicas
 
@@ -200,11 +200,11 @@ Envíe recordatorios de reserva personalizados por correo electrónico, mensajes
 
 ### Impacto empresarial
 
-Los recordatorios de reservas multicanal mejoran las tasas de finalización de reservas en un 20-30 %, recuperando ingresos significativos de los clientes que tenían la intención de reservar, pero que fueron desviados antes de finalizar.
+Los recordatorios de reservas multicanal mejoran las tasas de finalización de las reservas, recuperando ingresos significativos de los clientes que tenían la intención de reservar, pero que fueron desviados antes de finalizar.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur automáticamente los recordatorios cuando se detecta un evento de reserva incompleto y envía mensajes puntuales a través de los canales preferidos del cliente.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur automáticamente los recordatorios cuando se detecta un evento de reserva incompleto y envía mensajes puntuales a través de los canales preferidos del cliente. Este es el patrón correcto cuando el déclencheur es una acción del cliente discreta (iniciar una reserva) y la respuesta necesaria es una entrega con distinción de tiempo en todos los canales preferidos, en lugar de una secuencia de varios pasos en la que cada mensaje depende de la participación previa o de los cambios de disponibilidad.
 
 ### Consideraciones técnicas
 
@@ -220,11 +220,11 @@ Personalice campañas y ofertas en función de las preferencias de temporada, la
 
 ### Impacto empresarial
 
-Las campañas personalizadas de temporada aumentan la conversión de reservas estacionales en un 15-25 %, lo que garantiza que la inversión en marketing se concentre en los destinos y productos de viaje que tienen más probabilidades de interesar a cada cliente.
+Las campañas personalizadas de temporada aumentan la conversión de reservas estacionales, lo que garantiza que la inversión en marketing se concentre en los destinos y los productos de viaje que tienen más probabilidades de interesar a cada cliente.
 
 ### Cómo implementar
 
-Usar el patrón [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Este método permite enviar mensajes personalizados de campañas de temporada a grandes audiencias de forma programada, segmentando a los clientes según sus patrones y preferencias de viajes estacionales.
+Usar el patrón [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Este método permite enviar mensajes personalizados de campañas de temporada a grandes audiencias de forma programada, segmentando a los clientes según sus patrones y preferencias de viajes estacionales. Este es el patrón correcto cuando la audiencia es grande y está predefinida por el historial de reservas estacionales, el tiempo de entrega se programa en función de los períodos de planificación estacional en lugar de basarse en el evento, y no se requiere bifurcación ni toma de decisiones en tiempo real.
 
 ### Consideraciones técnicas
 
@@ -240,11 +240,11 @@ Identifique a los clientes que reservan con frecuencia viajes de grupo y recomie
 
 ### Impacto empresarial
 
-Las recomendaciones proactivas de reservas de grupo aumentan el valor promedio de los pedidos en entre 1000 y 3000 dólares por reserva, capturando el valor total de las transacciones de viajes de grupo que, de lo contrario, podrían dividirse en varias reservas individuales.
+Las recomendaciones proactivas de reservas de grupo aumentan el valor promedio de pedido por reserva, capturando el valor completo de las transacciones de viajes de grupo que de otra manera podrían dividirse en varias reservas individuales.
 
 ### Cómo implementar
 
-Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos impulsados por IA que aprenden de los patrones y el comportamiento de las reservas de los clientes para recomendar las opciones de viaje en grupo más relevantes para cada cliente.
+Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos impulsados por IA que aprenden de los patrones y el comportamiento de las reservas de los clientes para recomendar las opciones de viaje en grupo más relevantes para cada cliente. Este es el patrón correcto cuando el conjunto de artículos es grande y cambia continuamente (los paquetes de grupos evolucionan con los precios y la disponibilidad) y la selección se basa en patrones de comportamiento del historial de reservas de grupos en lugar de un conjunto limitado de ofertas gobernadas por reglas de elegibilidad.
 
 ### Consideraciones técnicas
 
@@ -252,3 +252,23 @@ Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/
 - Los precios de los paquetes grupales se deben extraer del sistema de reservas de forma dinámica, ya que las tarifas grupales a menudo difieren de las tarifas individuales y pueden requerir tamaños mínimos de partes o ventanas de reservas por adelantado.
 - El contenido de la recomendación debe abordar las necesidades únicas de los organizadores del grupo, incluida la información sobre opciones de restaurantes para grupos, espacios de reunión, descuentos de reserva de bloques y disponibilidad de excursiones para grupos.
 - El enriquecimiento del perfil [!DNL Real-Time Customer Data Platform] debe marcar a los clientes como organizadores de viajes grupales según sus patrones de reserva, lo que permite campañas dirigidas durante períodos de planificación de grupos pico, como la temporada de reuniones familiares o períodos de retiro corporativos.
+
+
+## AI Booking Concierge
+
+Las organizaciones de viajes y hospitalidad ofrecen recorridos de compra complejos y de alta consideración en los que los huéspedes deben navegar por vuelos, habitaciones, categorías de habitaciones, servicios auxiliares y beneficios de fidelidad antes de comprometerse con una reserva. Las interfaces estáticas de exploración y filtrado crean fatiga de decisión y aumentan la capacidad de entrega. Un conserje de reservas de IA involucra a los huéspedes en una conversación natural para comprender su intención de viaje, tamaño de la fiesta, preferencias y presupuesto, y luego los guía paso a paso a través de la planificación del itinerario, la selección del alojamiento y las opciones de complementos, todo mientras muestra los beneficios de lealtad relevantes para el nivel del huésped.
+
+### Impacto empresarial
+
+La guía de reserva conversacional mejora las tasas de finalización del itinerario y el apego auxiliar, al tiempo que reduce el volumen del centro de llamadas para los huéspedes que, de lo contrario, llamarían por teléfono para aclarar opciones.
+
+### Cómo implementar
+
+Usar el patrón [Experiencia de conversación en Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Este método implementa Product Advisor Agent con el catálogo de propiedades e itinerarios, utilizando AEP Agent Orchestrator y datos de perfil del cliente en tiempo real para mostrar opciones personalizadas y recomendaciones relevantes para la lealtad a través del diálogo guiado de varias vueltas. Este es el patrón correcto cuando el objetivo es un descubrimiento conversacional interactivo y de varias vueltas que se construye hacia una decisión de reserva compleja, distinta de la mensajería activada por evento, que reacciona a las acciones discretas del viajero con un alcance unidireccional, y de las experiencias web personalizadas, que muestran recomendaciones pasivamente sin involucrar al huésped en el diálogo. Requiere la configuración de AEP Agent Orchestrator y gobernanza de marca.
+
+### Consideraciones técnicas
+
+- Los datos de disponibilidad y tarifa deben mantenerse actualizados mediante la integración casi en tiempo real entre el sistema de reservas y la capa de contenido de Brand Concierge, ya que recomendar tipos de habitaciones no disponibles o precios incorrectos dentro de una conversación erosiona la confianza inmediatamente.
+- La búsqueda del perfil del cliente en tiempo real debe mostrar el nivel de lealtad, el historial de estancia y las preferencias declaradas para que el agente pueda reconocer de forma proactiva el estado del huésped y adaptar las recomendaciones sin que este tenga que volver a explicar sus preferencias en cada visita.
+- El control de marca debe definir cómo gestiona el agente las consultas de coincidencia de tarifas, las referencias de la competencia y las situaciones en las que las fechas preferidas del invitado o el tipo de habitación no están disponibles, lo que garantiza que el agente responda correctamente dentro de la voz de la marca en lugar de presentar un callejón sin salida.
+- Las señales de intención de conversación, incluidos el interés de destino, la composición de la parte de viaje y las preferencias auxiliares expresadas durante el diálogo, deben volver a AEP como datos de ExperienceEvent, lo que enriquece los perfiles de los invitados para informar las campañas de correo electrónico descendente, lealtad y renovación de la participación.

@@ -2,13 +2,13 @@
 title: Casos de uso de telecomunicaciones
 description: Descubra cómo las organizaciones de telecomunicaciones utilizan Adobe Experience Platform para reducir la pérdida, impulsar las actualizaciones de los dispositivos y mejorar la participación de los clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: 653632f0-81be-435c-a703-56c5bc132794
+source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
 workflow-type: tm+mt
-source-wordcount: '2295'
-ht-degree: 1%
+source-wordcount: '3822'
+ht-degree: 0%
 
 ---
-
 
 # Casos de uso de telecomunicaciones
 
@@ -20,11 +20,11 @@ Identifique a los clientes aptos para las actualizaciones de dispositivos y pres
 
 ### Impacto empresarial
 
-Las organizaciones que implementan recomendaciones de actualización de dispositivos suelen ver un aumento de entre el 30 y el 40 % en las tasas de conversión de la actualización al ofrecer la oferta correcta en el momento adecuado a través del canal preferido del cliente.
+Las organizaciones que implementan recomendaciones de actualización de dispositivos ven tasas de conversión de actualización mejoradas al ofrecer la oferta correcta en el momento adecuado a través del canal preferido del cliente.
 
 ### Cómo implementar
 
-Use el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para organizar recorridos de actualización que evalúen la elegibilidad, las preferencias del dispositivo y la afinidad del canal de cada suscriptor y así ofrecer ofertas de actualización personalizadas por correo electrónico, notificaciones de aplicaciones y experiencias en la tienda.
+Use el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para organizar recorridos de actualización que evalúen la elegibilidad, las preferencias del dispositivo y la afinidad del canal de cada suscriptor y así ofrecer ofertas de actualización personalizadas por correo electrónico, notificaciones de aplicaciones y experiencias en la tienda. Este es el patrón correcto cuando la selección de ofertas debe tener en cuenta las ventanas de idoneidad del dispositivo, las preferencias de canal y las restricciones de inventario: restricciones que requieren una lógica de toma de decisiones controlada en lugar de simples recomendaciones de comportamiento por sí solas.
 
 ### Consideraciones técnicas
 
@@ -40,11 +40,11 @@ Analice los patrones de uso de los clientes y recomiende cambios de plan óptimo
 
 ### Impacto empresarial
 
-Las campañas de optimización del plan suelen impulsar un aumento de entre el 25 y el 35 % en las tasas de cambio del plan, lo que mejora la satisfacción del cliente y, al mismo tiempo, aumenta los ingresos promedio por usuario cuando los suscriptores se trasladan a planes que se adaptan mejor a su consumo.
+Las campañas de optimización del plan mejoran las tasas de cambio del plan, mejoran la satisfacción del cliente y, al mismo tiempo, aumentan los ingresos promedio por usuario cuando los suscriptores se mudan a planes que mejor se ajustan a su consumo.
 
 ### Cómo implementar
 
-Use el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para crear una campaña multitáctil que identifique las discrepancias de uso a plan, eduque a los suscriptores sobre mejores opciones y los guíe a través del proceso de cambio de plan con seguimientos oportunos.
+Use el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para crear una campaña multitáctil que identifique las discrepancias de uso a plan, eduque a los suscriptores sobre mejores opciones y los guíe a través del proceso de cambio de plan con seguimientos oportunos. Este es el patrón correcto cuando el caso de uso requiere un flujo secuenciado de varios mensajes a lo largo de los días con ramas condicionales basadas en la participación del suscriptor y la adopción del plan: un solo mensaje activado no puede adaptarse al recorrido educativo y a la lógica de dependencia entre los pasos de educación y conversión.
 
 ### Consideraciones técnicas
 
@@ -60,11 +60,11 @@ Identifique a los clientes de alto valor que corren el riesgo de sufrir una pér
 
 ### Impacto empresarial
 
-Los programas de prevención de pérdida dirigidos a suscriptores de alto valor generalmente logran una reducción de entre el 20 y el 30 % en la pérdida, lo que protege los ingresos recurrentes significativos y reduce el coste de adquirir clientes de reemplazo.
+Los programas de prevención de pérdida dirigidos a suscriptores de alto valor logran reducciones significativas en la pérdida, protegiendo ingresos recurrentes significativos y reduciendo el coste de adquisición de clientes de reemplazo.
 
 ### Cómo implementar
 
-Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para monitorizar las señales de riesgo de pérdida en tiempo real, determinar la mejor oferta de retención para cada suscriptor y organizar una comunicación personalizada entre canales digitales y el centro de llamadas.
+Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para monitorizar las señales de riesgo de pérdida en tiempo real, determinar la mejor oferta de retención para cada suscriptor y organizar una comunicación personalizada entre canales digitales y el centro de llamadas. Este es el patrón correcto cuando el recorrido debe coordinar la entrega a través de canales digitales y asistidos por agentes para evitar ofertas de retención duplicadas y cuando la selección de ofertas requiere puntuación de riesgo y restricciones empresariales: la orquestación de varios pasos por sí sola no proporciona la capa de toma de decisiones en tiempo real ni la coordinación de agentes necesaria.
 
 ### Consideraciones técnicas
 
@@ -80,11 +80,11 @@ Automatice un recorrido de incorporación personalizado para nuevos clientes con
 
 ### Impacto empresarial
 
-Los recorridos de incorporación bien diseñados suelen aumentar las tasas de activación de las funciones en un 50-60 %, lo que conduce a puntuaciones de satisfacción más altas y a una menor pérdida de la vida útil temprana entre los nuevos suscriptores.
+Los recorridos de incorporación bien diseñados mejoran las tasas de activación de funciones, lo que conduce a puntuaciones de satisfacción más altas y a una menor pérdida de la vida útil temprana entre los nuevos suscriptores.
 
 ### Cómo implementar
 
-Utilice el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para crear una experiencia de incorporación secuenciada que se adapte según el tipo de plan, el dispositivo y la participación de cada suscriptor con los pasos de incorporación anteriores.
+Utilice el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para crear una experiencia de incorporación secuenciada que se adapte según el tipo de plan, el dispositivo y la participación de cada suscriptor con los pasos de incorporación anteriores. Este es el patrón correcto cuando el caso de uso requiere un flujo secuenciado de varios mensajes a lo largo de días con ramificación condicional basada en la detección de funciones y la participación: un solo mensaje activado no puede admitir la lógica de dependencia adaptable entre los pasos de incorporación basados en el plan del suscriptor y el tipo de dispositivo.
 
 ### Consideraciones técnicas
 
@@ -100,11 +100,11 @@ Envíe alertas personalizadas cuando los clientes se aproximen a los límites de
 
 ### Impacto empresarial
 
-Las alertas proactivas de uso de datos suelen impulsar un aumento del 40 al 50 % en las compras de complementos de datos, a la vez que reducen las quejas por shock en las facturas y mejoran la satisfacción general del cliente.
+Las alertas proactivas de uso de datos impulsan compras de complementos de datos mejorados, a la vez que reducen las quejas por shock en las facturas y mejoran la satisfacción general del cliente.
 
 ### Cómo implementar
 
-Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar alertas en tiempo real cuando se superen los umbrales de uso, con recomendaciones personalizadas basadas en los patrones de consumo históricos y los detalles del plan del suscriptor.
+Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar alertas en tiempo real cuando se superen los umbrales de uso, con recomendaciones personalizadas basadas en los patrones de consumo históricos y los detalles del plan del suscriptor. Este es el patrón correcto cuando el déclencheur es un evento del sistema (cruce del umbral de uso) en lugar de una conducta del cliente, y la comunicación necesaria es inmediata y reactiva en lugar de una secuencia de nutrición sostenida.
 
 ### Consideraciones técnicas
 
@@ -120,11 +120,11 @@ Notificar a los clientes de forma proactiva sobre interrupciones del servicio, m
 
 ### Impacto empresarial
 
-Las notificaciones proactivas de interrupción suelen lograr una tasa de reconocimiento de notificaciones del 60-70% y reducir sustancialmente el volumen del centro de llamadas durante las interrupciones del servicio, lo que reduce los costes de asistencia y mejora la percepción de los clientes.
+Las notificaciones de interrupción proactivas logran tasas de confirmación de notificaciones sólidas y reducen sustancialmente el volumen del centro de llamadas durante las interrupciones del servicio, lo que reduce los costes de asistencia y mejora la percepción del cliente.
 
 ### Cómo implementar
 
-Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para detectar eventos de red y notificar inmediatamente a los suscriptores afectados a través de sus canales preferidos con detalles relevantes, tiempos de resolución estimados y una compensación apropiada cuando esté justificado.
+Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para detectar eventos de red y notificar inmediatamente a los suscriptores afectados a través de sus canales preferidos con detalles relevantes, tiempos de resolución estimados y una compensación apropiada cuando esté justificado. Este es el patrón correcto cuando el déclencheur es un evento del sistema (interrupción de la red) en lugar de una conducta del cliente, y la comunicación necesaria es inmediata y reactiva en lugar de una secuencia de nutrición sostenida.
 
 ### Consideraciones técnicas
 
@@ -140,11 +140,11 @@ Personalice las comunicaciones y ofertas para los administradores de planes fami
 
 ### Impacto empresarial
 
-Las comunicaciones personalizadas de administración de planes familiares suelen aumentar la participación en los planes familiares en un 30-40%, lo que conduce a una mayor retención de líneas y a un mayor valor de duración por cuenta.
+Las comunicaciones personalizadas de administración de planes familiares mejoran la participación en los planes familiares, lo que conduce a una mayor retención de líneas y a un mayor valor de por vida por cuenta.
 
 ### Cómo implementar
 
-Use el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para analizar el uso en todos los miembros de la familia, identificar oportunidades como agregar líneas o ajustar límites individuales, y ofrecer recomendaciones personalizadas al administrador del plan.
+Use el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para analizar el uso en todos los miembros de la familia, identificar oportunidades como agregar líneas o ajustar límites individuales, y ofrecer recomendaciones personalizadas al administrador del plan. Este es el patrón correcto cuando la selección de ofertas debe tener en cuenta los permisos de la jerarquía familiar, la agregación de uso de varios miembros y las restricciones de privacidad, restricciones que requieren una lógica de toma de decisiones controlada en lugar de recomendaciones de suscriptores individuales por sí solos.
 
 ### Consideraciones técnicas
 
@@ -160,11 +160,11 @@ Clientes objetivo elegibles para actualizaciones de red 5G con ofertas y benefic
 
 ### Impacto empresarial
 
-Las campañas de actualización 5G dirigidas suelen impulsar un aumento del 25 al 35% en las tasas de adopción de 5G entre los suscriptores elegibles, lo que respalda los retornos de inversión en red y la diferenciación competitiva.
+Las campañas de actualización 5G dirigidas impulsan tasas de adopción de 5G mejoradas entre los suscriptores elegibles, lo que respalda los retornos de inversión en red y la diferenciación competitiva.
 
 ### Cómo implementar
 
-Utilice el patrón [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para segmentar a los suscriptores según la disponibilidad de cobertura 5G, la compatibilidad del dispositivo y la elegibilidad del plan. Luego, ofrezca campañas de actualización personalizadas que resalten los beneficios más relevantes para el perfil de uso de cada suscriptor.
+Utilice el patrón [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para segmentar a los suscriptores según la disponibilidad de cobertura 5G, la compatibilidad del dispositivo y la elegibilidad del plan. Luego, ofrezca campañas de actualización personalizadas que resalten los beneficios más relevantes para el perfil de uso de cada suscriptor. Este es el patrón correcto cuando la audiencia está predefinida y es grande, el tiempo de entrega está programado en lugar de depender del evento y no se requiere bifurcación en tiempo real ni toma de decisiones. La campaña se puede planificar completamente por adelantado en función de los plazos de despliegue de la cobertura.
 
 ### Consideraciones técnicas
 
@@ -180,11 +180,11 @@ Envíe recordatorios personalizados de pago de factura a través de los canales 
 
 ### Impacto empresarial
 
-Los recordatorios personalizados de pago de factura generalmente mejoran las tasas de pago a tiempo en un 20-30%, reduciendo los gastos de cobro y minimizando las suspensiones de servicio que generan insatisfacción en los clientes.
+Los recordatorios personalizados de pago de factura mejoran las tasas de pago a tiempo, reduciendo los gastos de cobro y minimizando las suspensiones de servicio que generan insatisfacción en los clientes.
 
 ### Cómo implementar
 
-Usa el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar recordatorios en momentos óptimos antes de la fecha límite, personalizados con el saldo del suscriptor, el método de pago preferido y un enlace directo para completar el pago.
+Usa el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar recordatorios en momentos óptimos antes de la fecha límite, personalizados con el saldo del suscriptor, el método de pago preferido y un enlace directo para completar el pago. Este es el patrón correcto cuando el déclencheur es un evento del sistema basado en el tiempo (fecha de vencimiento de facturación) en lugar de un comportamiento del cliente, y la comunicación necesaria es inmediata y transaccional, en lugar de una secuencia de participación de varios pasos.
 
 ### Consideraciones técnicas
 
@@ -200,11 +200,11 @@ Recomendar servicios adicionales relevantes, como seguros de dispositivos, almac
 
 ### Impacto empresarial
 
-Las recomendaciones de servicios de complementos personalizados suelen impulsar un aumento de entre el 15 y el 25 % en las tasas de adopción de complementos, lo que amplía los ingresos de la base de suscriptores existente sin el coste de la adquisición de nuevos clientes.
+Las recomendaciones de servicios de complementos personalizados mejoran las tasas de adopción de complementos, lo que aumenta los ingresos de la base de suscriptores existente sin el coste de la adquisición de nuevos clientes.
 
 ### Cómo implementar
 
-Utilice el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) para evaluar el perfil, los servicios actuales y las señales de comportamiento de cada suscriptor con el fin de determinar la oferta de complemento más relevante y presentarla en el canal y el momento óptimos.
+Utilice el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) para evaluar el perfil, los servicios actuales y las señales de comportamiento de cada suscriptor con el fin de determinar la oferta de complemento más relevante y presentarla en el canal y el momento óptimos. Este es el patrón correcto cuando la selección de ofertas debe tener en cuenta la propiedad del servicio actual y las reglas comerciales que rigen la elegibilidad del servicio complementario: reglas que requieren una lógica de toma de decisiones regida en lugar de una clasificación de afinidad de comportamiento por sí sola.
 
 ### Consideraciones técnicas
 
@@ -220,11 +220,11 @@ Personalice la información y las recomendaciones de rendimiento de red en funci
 
 ### Impacto empresarial
 
-Las experiencias de rendimiento de red personalizadas suelen aumentar la participación de la aplicación en un 35-45 %, a medida que los suscriptores regresan para comprobar la cobertura, solucionar problemas y descubrir consejos de optimización adaptados a su situación.
+Las experiencias de rendimiento de red personalizadas mejoran la participación de la aplicación, a medida que los suscriptores vuelven para comprobar la cobertura, solucionar problemas y descubrir consejos de optimización adaptados a su situación.
 
 ### Cómo implementar
 
-Use el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones y web de visitantes conocidos para ofrecer paneles de rendimiento de red personalizados, información de cobertura y recomendaciones de optimización dentro de la experiencia de la cuenta web y la aplicación del suscriptor.
+Use el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones y web de visitantes conocidos para ofrecer paneles de rendimiento de red personalizados, información de cobertura y recomendaciones de optimización dentro de la experiencia de la cuenta web y la aplicación del suscriptor. Este es el patrón correcto cuando la personalización está impulsada por atributos de perfil y datos de ubicación en lugar de un modelo de afinidad de comportamiento.
 
 ### Consideraciones técnicas
 
@@ -236,15 +236,15 @@ Use el patrón [Personalization](/help/blueprints/use-case-patterns/personalizat
 
 ## Participación del programa de fidelización
 
-Personalice las comunicaciones, las recompensas y las ofertas del programa de fidelidad en función del nivel del cliente, el saldo de puntos y el historial de canje. Una experiencia de lealtad bien personalizada fortalece la conexión emocional con la marca y crea costes de cambio significativos más allá de los términos del contrato.
+Personalice las comunicaciones, las recompensas y las ofertas del programa de fidelidad en función del nivel del cliente, el saldo de puntos y el historial de canje, al tiempo que arbitra en tiempo real en los canales de aplicaciones, web, SMS y tiendas minoristas para evitar que las ofertas duplicadas o en conflicto lleguen al mismo suscriptor. Las restricciones de elegibilidad basadas en la capa determinan a qué recompensas, canjes de socios y promociones puede acceder cada suscriptor, y esas reglas deben aplicarse en el nivel de toma de decisiones en lugar de incrustarse en la lógica de campaña individual. El programa de fidelización también debe coordinarse con campañas de retención y actualización activas para que las ofertas de prevención de pérdida y las recompensas de fidelidad se complementen en lugar de duplicarse la entrega a los suscriptores que están simultáneamente en varios recorridos.
 
 ### Impacto empresarial
 
-La participación personalizada en el programa de fidelización suele aumentar la participación en el programa y recompensar el canje en un 30-40 %, lo que aumenta las tasas de retención entre los suscriptores inscritos.
+La participación personalizada en el programa de fidelización mejora la participación en el programa y recompensa el canje, lo que aumenta las tasas de retención entre los suscriptores inscritos.
 
 ### Cómo implementar
 
-Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para organizar comunicaciones de fidelidad personalizadas que destaquen recompensas relevantes, notifiquen a los suscriptores del progreso del nivel y presenten oportunidades de canje alineadas con sus preferencias y comportamientos.
+Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para organizar comunicaciones de fidelidad personalizadas que destaquen recompensas relevantes, notifiquen a los suscriptores del progreso del nivel y presenten oportunidades de canje alineadas con sus preferencias y comportamientos. Este es el patrón correcto cuando el recorrido debe coordinar la entrega a través de los canales para evitar ofertas de lealtad duplicadas y cuando la selección de ofertas requiere estado de nivel e historial de canje: la orquestación de varios pasos por sí sola no proporciona el nivel de toma de decisiones en tiempo real necesario.
 
 ### Consideraciones técnicas
 
@@ -252,3 +252,62 @@ Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/hel
 - Conecte los catálogos de recompensas de los socios para presentar una amplia gama de opciones de canje adaptadas a los intereses demostrados y las amortizaciones anteriores de cada suscriptor.
 - Coordine la mensajería de fidelidad con otros recorridos de la campaña para garantizar que las ofertas de retención y las recompensas de fidelidad se complementen en lugar de entrar en conflicto entre sí.
 - Apoye los empujones de progresión del nivel calculando qué tan cerca está un suscriptor del siguiente nivel y presentando pasos procesables para alcanzarlo.
+
+
+## Asesor de plan de IA
+
+Los suscriptores de telecomunicaciones se enfrentan a un desafío persistente: comprender cómo se compara su plan actual con las opciones disponibles, y si un plan diferente se ajustaría mejor a su uso real. Las páginas de comparación de planes estáticos requieren que los suscriptores se autointerpreten los datos que es posible que no comprendan por completo, lo que conduce a selecciones de planes subóptimas, shock en las facturas y pérdidas evitables. Un asesor del plan de IA involucra a los suscriptores en una conversación natural, revisa sus patrones de uso desde su perfil en tiempo real, hace preguntas de calificación sobre las necesidades del equipo y los requisitos del hogar y los guía hacia el plan —o combinación de planes y complementos— que mejor se adapte a su situación.
+
+### Impacto empresarial
+
+La guía del plan conversacional reduce la pérdida basada en el plan, aumenta el archivo adjunto de actualización para los suscriptores que no reciben el servicio de su plan actual y reduce el volumen del centro de contacto para las consultas de facturación y cambio de plan.
+
+### Cómo implementar
+
+Usar el patrón [Experiencia de conversación en Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Este método implementa Product Advisor Agent con el plan y el catálogo de complementos, utilizando AEP Agent Orchestrator y datos de perfil del cliente en tiempo real, incluido el historial de uso y los detalles del plan actual, para guiar a los suscriptores a través de la selección personalizada de planes mediante el diálogo natural. Este es el patrón correcto cuando el objetivo es un descubrimiento conversacional interactivo de varias vueltas que ayuda a los suscriptores a evaluar y seleccionar activamente el plan correcto, distinto de la mensajería activada por eventos, que notifica a los suscriptores de forma reactiva sobre los umbrales de uso o los cambios del plan, y de las experiencias web personalizadas, que muestran las comparaciones del plan de forma pasiva sin involucrar a los suscriptores en el diálogo correspondiente. Requiere la configuración de AEP Agent Orchestrator y gobernanza de marca.
+
+### Consideraciones técnicas
+
+- La búsqueda de perfiles de clientes en tiempo real debe mostrar detalles actuales del plan, patrones de uso de voz y datos, compatibilidad de dispositivos y estado del contrato para que el asesor pueda proporcionar orientación precisa y específica de la cuenta en lugar de descripciones genéricas del plan que requieran que el suscriptor se aplique a sí mismo en su situación.
+- El plan y el catálogo de complementos deben mantenerse actualizados mediante la integración con el sistema de administración de productos, ya que recomendar un plan o precio promocional que ya no está disponible (u omitir una opción recién lanzada) socava directamente la confianza de los suscriptores y puede crear problemas de expectativas de servicio.
+- Las protecciones de gobernanza de marca deben definir cómo gestiona el agente las comparaciones competitivas de operadores, las reclamaciones de precios promocionales y las discusiones de compromiso de contratos, lo que garantiza que las respuestas del agente se ajusten a las normas regulatorias y de marca sin crear compromisos engañosos que el suscriptor pueda impugnar más adelante.
+- Las señales de conversación, incluido el tamaño del hogar declarado, el recuento de dispositivos, el interés de uso internacional y la intención de cambio de plan expresada durante el diálogo, deben capturarse como ExperienceEvents de XDM y transmitirse de nuevo a AEP, enriqueciendo los perfiles de los suscriptores para informar sobre las campañas de prevención de pérdida, actualización y venta cruzada en el flujo descendente.
+
+
+## Tendencia de cancelación y análisis de experiencia de red
+
+Correlacione las métricas de experiencia de red (caídas de llamadas, degradación del rendimiento de datos, exposición a interrupciones) con las tasas de contacto del servicio al cliente y los resultados de cancelación de suscripciones para identificar dónde se traducen los problemas de calidad de la red en un riesgo de desgaste mensurable. Los proveedores de telecomunicaciones que analizan el rendimiento de la red y el comportamiento de los clientes en sistemas separados no pueden determinar qué fallos de calidad del servicio realmente provocan la pérdida en comparación con cuáles se absorben sin consecuencias.
+
+### Impacto empresarial
+
+La conexión de los datos de experiencia de red con los resultados de comportamiento y pérdida del cliente permite que las operaciones de red, los productos y los equipos de retención prioricen las inversiones de corrección en función del impacto de desgaste demostrado, en lugar de la gravedad técnica por sí sola.
+
+### Cómo implementar
+
+Usar el patrón [Customer Analytics y Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md). Este método conecta los datos de eventos de red, los registros de interacción del servicio de atención al cliente, las señales de comportamiento digital y los eventos del ciclo vital de los suscriptores con Customer Journey Analytics, donde el análisis correlacionado identifica los umbrales de experiencia de red y los patrones de contacto que están asociados estadísticamente con la pérdida y la no renovación de contrato. Este es el patrón correcto cuando el objetivo es la generación de insight y el análisis de las causas raíz (comprender qué eventos de calidad de servicio provocan la desgaste) en lugar de activar una oferta de retención o activar una audiencia de riesgo de pérdida en un CDP.
+
+### Consideraciones técnicas
+
+- Los eventos de experiencia de red deben unirse a los registros de suscriptor mediante identificadores de cuenta o dispositivo que sean coherentes con el ID de persona configurado en la conexión de CJA, ya que los sistemas de telemetría de red suelen utilizar identificadores de equipo en lugar de identificadores de cliente de forma nativa.
+- Los datos de contacto del servicio al cliente, incluidos los códigos de motivo de contacto, el canal utilizado y el estado de resolución, deben ingerirse como eventos con marcas de tiempo que permitan a los analistas crear rutas secuenciales desde incidencias de red hasta contactos de servicio, pasando por la pérdida en las visualizaciones de flujo o visitas en orden previsto de CJA.
+- Los datos de plan y contrato del suscriptor, incluidas las fechas de finalización del contrato, el nivel de plan y el ejercicio, deben estar disponibles como dimensiones de consulta en la vista de datos de CJA para que el análisis de cancelación se pueda segmentar por proximidad de contrato y nivel de valor en lugar de tratar la base de suscriptor como homogénea.
+- Los volúmenes de datos de telemetría de red pueden ser extremadamente grandes; se deben considerar estrategias de muestreo de conjuntos de datos o preagregación en AEP para mantener el rendimiento de las consultas de conexión de CJA dentro de intervalos aceptables para el uso de autoservicio de analistas.
+
+## Prevención de pérdida y recuperación
+
+Utilice modelos predictivos y señales de comportamiento para identificar a los clientes en riesgo y déclencheur campañas de retención personalizadas con ofertas adaptadas antes de que se produzcan. Los proveedores de telecomunicaciones se enfrentan a una presión de pérdida persistente, y llegar a los suscriptores en riesgo con la oferta correcta antes de que contacten con la cola de cancelación es significativamente más rentable que las campañas de recuperación después del hecho.
+
+### Impacto empresarial
+
+Los proveedores de telecomunicaciones con programas proactivos de prevención de pérdida ven reducciones significativas en la pérdida voluntaria para segmentos específicos, con el mayor impacto entre los clientes de valor medio donde las ofertas de retención específicas son más rentables que los descuentos generales.
+
+### Cómo implementar
+
+Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para generar un recorrido de retención que identifique a los suscriptores en riesgo en función de las puntuaciones de tendencia a la pérdida, seleccione la oferta de retención adecuada mediante la lógica de toma de decisiones y envíela a través de los canales preferidos del suscriptor con pasos de seguimiento si se ignora el primer contacto. Este es el patrón correcto cuando se requieren la selección de ofertas y la orquestación de recorrido: un solo mensaje activado no puede admitir la lógica de clasificación de ofertas y el seguimiento multitáctil necesarios para una retención eficaz.
+
+### Consideraciones técnicas
+
+- Los modelos de tendencia a la pérdida deben recibir formación sobre los datos de pérdida históricos que incluyen experiencia de red, eventos de facturación, llamadas de servicio y edad del dispositivo. Los modelos formados solo en datos de participación suelen tener un rendimiento inferior al de los controladores de pérdida específicos de telecomunicaciones.
+- Las ofertas de retención deben estar restringidas por umbrales de coste a conservar por segmento de valor del cliente; el motor de decisión debe evitar que las ofertas de retención de alto coste se apliquen a suscriptores de bajo valor.
+- El procesamiento de señales de pérdida en tiempo real debe detectar eventos de consulta de contratos y visitas a la página de cancelación de servicios para almacenar en déclencheur respuestas de retención urgentes antes de que el suscriptor escale.
+- La integración del servicio de atención al cliente es fundamental: los suscriptores que llaman a la cola de retención deben reconocerse como participantes del recorrido para que los agentes tengan el contexto de oferta de retención listo antes de que comience la llamada.

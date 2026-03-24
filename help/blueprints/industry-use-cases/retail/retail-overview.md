@@ -2,13 +2,13 @@
 title: Casos de uso minorista
 description: Descubra cómo las organizaciones de minoristas utilizan Adobe Experience Platform para personalizar las experiencias de compra, recuperar los carros de compras abandonados e impulsar la lealtad de los clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
+source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '6166'
 ht-degree: 0%
 
 ---
-
 
 # Casos de uso minorista
 
@@ -20,11 +20,11 @@ Muestre recomendaciones de productos personalizadas en la página de inicio, en 
 
 ### Impacto empresarial
 
-Los minoristas suelen ver un aumento de entre el 20 y el 30 % en las tasas de clics y una mejora de entre el 15 y el 25 % en las tasas de conversión al ofrecer recomendaciones personalizadas en lugar de listas de productos estáticas.
+Los minoristas ven tasas de clics y tasas de conversión mejoradas al ofrecer recomendaciones personalizadas en lugar de listas de productos estáticas.
 
 ### Cómo implementar
 
-Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos de recomendación impulsados por IA que aprenden continuamente de las interacciones de los clientes para mostrar los productos más relevantes para cada individuo.
+Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos de recomendación impulsados por IA que aprenden continuamente de las interacciones de los clientes para mostrar los productos más relevantes para cada individuo. Este es el patrón correcto cuando el conjunto de elementos es grande y cambia continuamente, y la selección depende de la afinidad del comportamiento, en lugar de un conjunto limitado de ofertas gobernadas por reglas de idoneidad.
 
 ### Consideraciones técnicas
 
@@ -40,11 +40,11 @@ Envíe automáticamente recordatorios por correo electrónico personalizados a l
 
 ### Impacto empresarial
 
-Los programas efectivos de recuperación del carro de compras ofrecen una tasa de recuperación del carro de compras del 25-35% y pueden generar ingresos mensuales adicionales de entre 100 000 y 500 000 dólares, según el volumen de la tienda.
+Los programas eficaces de recuperación del carro de compras mejoran las tasas de recuperación del carro de compras y pueden generar ingresos incrementales significativos según el volumen de la tienda.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a un evento de abandono del carro de compras en tiempo real, lo que envía un recordatorio oportuno mientras la intención de compra sigue siendo alta.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a un evento de abandono del carro de compras en tiempo real, lo que envía un recordatorio oportuno mientras la intención de compra sigue siendo alta. Este es el patrón correcto cuando el déclencheur es una acción de cliente discreta y la respuesta necesaria es un mensaje único, con distinción de tiempo, en lugar de una secuencia de varios pasos o una selección de oferta dinámica.
 
 ### Consideraciones técnicas
 
@@ -60,11 +60,11 @@ Déclencheur alertas y campañas en tiempo real cuando el inventario de producto
 
 ### Impacto empresarial
 
-Las campañas de baja urgencia de inventario generalmente impulsan un aumento de entre el 30 y el 40 % en la conversión de los productos destacados, a la vez que ayudan a reducir el exceso de existencias al acelerar las ventas de artículos de movimiento lento.
+Las campañas de baja urgencia de inventario impulsan una conversión mejorada para los productos destacados, a la vez que ayudan a reducir el exceso de existencias al acelerar la venta de artículos de movimiento lento.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a los eventos de umbral de inventario, activando automáticamente los mensajes de urgencia cuando los niveles de stock caen por debajo de los límites definidos.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a los eventos de umbral de inventario, activando automáticamente los mensajes de urgencia cuando los niveles de stock caen por debajo de los límites definidos. Este es el patrón correcto cuando el déclencheur es un evento del sistema en lugar de un comportamiento del cliente, y la comunicación necesaria es inmediata y reactiva en lugar de una secuencia de nutrición sostenida.
 
 ### Consideraciones técnicas
 
@@ -80,11 +80,11 @@ Muestre los productos de venta cruzada y de ampliación de ventas relevantes al 
 
 ### Impacto empresarial
 
-Las estrategias de venta cruzada y aumento de ventas bien ejecutadas aumentan el valor promedio de los pedidos en 25 a 75 dólares y aumentan los ingresos por transacción en un 10 a 15%.
+Las estrategias de venta cruzada y de ampliación de ventas bien ejecutadas aumentan el valor promedio de los pedidos y aumentan los ingresos por transacción, lo que contribuye a una economía general de la canasta más sólida.
 
 ### Cómo implementar
 
-Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Este método emplea una lógica de decisión centralizada que evalúa todas las ofertas disponibles y selecciona la mejor opción de venta cruzada o ampliación de venta para cada cliente y contexto.
+Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Este método emplea una lógica de decisión centralizada que evalúa todas las ofertas disponibles y selecciona la mejor opción de venta cruzada o ampliación de venta para cada cliente y contexto. Este es el patrón correcto cuando la selección de ofertas debe tener en cuenta el margen, la disponibilidad de inventario y las reglas de relación de productos: restricciones empresariales que requieren una lógica de toma de decisiones controlada en lugar de una clasificación de afinidad de comportamiento por sí sola.
 
 ### Consideraciones técnicas
 
@@ -100,11 +100,11 @@ Automatice una serie de bienvenida de varios correos electrónicos para nuevos c
 
 ### Impacto empresarial
 
-Una serie de bienvenida bien diseñada genera una tasa de participación del 40-50 % entre los nuevos clientes y mejora significativamente el valor de duración al crear afinidad de marca desde el principio.
+Una serie de bienvenida bien diseñada genera una fuerte participación entre los nuevos clientes y mejora significativamente el valor de por vida al crear afinidad de marca desde el principio.
 
 ### Cómo implementar
 
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de nutrición multitáctil guía a los nuevos clientes a través de una secuencia de mensajes de presentación de marca, descubrimiento de productos e incentivos, adaptándose en función de su participación.
+Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de nutrición multitáctil guía a los nuevos clientes a través de una secuencia de mensajes de presentación de marca, descubrimiento de productos e incentivos, adaptándose en función de su participación. Este es el patrón correcto cuando el caso de uso requiere un flujo de mensajes múltiples secuenciado a lo largo de días con ramificación condicional basada en eventos de participación: un solo mensaje activado no puede dar cabida a la lógica de dependencia entre pasos.
 
 ### Consideraciones técnicas
 
@@ -120,11 +120,11 @@ Notificar a los clientes por correo electrónico o mediante una notificación pu
 
 ### Impacto empresarial
 
-Las alertas de caída de precios generan una tasa de conversión del 20 al 30 % entre los destinatarios y aumentan de forma mensurable la satisfacción del cliente, ya que ayudan a los compradores a sentir que obtienen el mejor valor.
+Las alertas de bajada de precios generan tasas de conversión mejoradas entre los destinatarios y aumentan de forma mensurable la satisfacción del cliente, ya que ayudan a los compradores a sentir que obtienen el mejor valor.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a los eventos de cambio de precios de los productos, contrastándolos con las señales de interés de los clientes para enviar notificaciones oportunas.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a los eventos de cambio de precios de los productos, contrastándolos con las señales de interés de los clientes para enviar notificaciones oportunas. Este es el patrón correcto cuando el déclencheur es un evento del sistema de catálogo y la ventana de envío es sensible al tiempo: un recorrido sostenido sería demasiado lento y no se necesita un seguimiento de varios pasos más allá de la notificación inicial.
 
 ### Consideraciones técnicas
 
@@ -140,11 +140,11 @@ Envíe recordatorios automatizados a los clientes sobre los productos que compra
 
 ### Impacto empresarial
 
-Los programas de recordatorio de reposición ofrecen una tasa de repetición de compras del 30-40% y mejoran significativamente la retención de clientes al hacer que sea fácil para los compradores reponer los productos en los que dependen.
+Los programas de recordatorio de reposición impulsan las tasas de repetición de compras mejoradas y mejoran la retención de clientes al hacer que sea fácil para los compradores reponer existencias de los productos en los que dependen.
 
 ### Cómo implementar
 
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido programado recurrente utiliza predicciones de frecuencia de compra para enviar recordatorios en el momento óptimo antes de que sea probable que un cliente necesite una recarga.
+Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido programado recurrente utiliza predicciones de frecuencia de compra para enviar recordatorios en el momento óptimo antes de que sea probable que un cliente necesite una recarga. Este es el patrón correcto cuando no hay ningún evento de activación discreto y el tiempo debe calcularse a partir de modelos de frecuencia de compra que se recalibran dinámicamente. Los mensajes activados por eventos no pueden gestionar la programación predictiva o los ajustes de tiempo cuando los clientes realizan un pedido anticipado o tardío.
 
 ### Consideraciones técnicas
 
@@ -160,11 +160,11 @@ Personalice de forma dinámica las páginas de categorías para mostrar primero 
 
 ### Impacto empresarial
 
-Las páginas de categoría personalizadas generan un aumento de entre un 25 y un 35 % en la participación en páginas de categoría y mejoran significativamente la detección de productos, especialmente para los minoristas con catálogos grandes.
+Las páginas de categoría personalizadas mejoran la participación de las páginas de categoría y el descubrimiento de productos, especialmente para los minoristas con catálogos grandes.
 
 ### Cómo implementar
 
-Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este método utiliza estrategias de selección y modelos de clasificación para reordenar los productos en páginas de categoría en función del perfil de cada visitante y del comportamiento en tiempo real.
+Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este método utiliza estrategias de selección y modelos de clasificación para reordenar los productos en páginas de categoría en función del perfil de cada visitante y del comportamiento en tiempo real. Este es el patrón correcto cuando la tarea clasifica un conjunto de productos grande y abierto mediante señales de afinidad de comportamiento . Offer Decisioning no es adecuado aquí porque no hay reglas de elegibilidad ni restricciones comerciales que limiten qué productos aparecen.
 
 ### Consideraciones técnicas
 
@@ -180,11 +180,11 @@ Envíe correos electrónicos posteriores a la compra con consejos de atención d
 
 ### Impacto empresarial
 
-Las campañas efectivas posteriores a la compra aumentan las tasas de envío de revisión en un 15-20 % y generan una tasa de repetición de compras del 10-15 %, lo que convierte a los compradores únicos en clientes leales.
+Las campañas efectivas posteriores a la compra aumentan las tasas de envío de revisión y aumentan las tasas de repetición de compras, convirtiendo a los compradores únicos en clientes fieles.
 
 ### Cómo implementar
 
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este flujo posterior a la compra de varios pasos utiliza la lógica de ramificación para adaptar los mensajes de seguimiento en función del tipo de producto, el segmento del cliente y la participación con correos electrónicos anteriores de la serie.
+Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este flujo posterior a la compra de varios pasos utiliza la lógica de ramificación para adaptar los mensajes de seguimiento en función del tipo de producto, el segmento del cliente y la participación con correos electrónicos anteriores de la serie. Este es el patrón correcto porque el seguimiento abarca varios días, depende de eventos de estado de cumplimiento y ramas basadas en la categoría del producto y eventos de devolución: un solo mensaje activado no puede admitir la lógica condicional requerida en toda la cronología posterior a la compra.
 
 ### Consideraciones técnicas
 
@@ -200,11 +200,11 @@ Identifique clientes de alto valor y proporcione ofertas exclusivas, acceso anti
 
 ### Impacto empresarial
 
-Los programas de VIP suelen generar una tasa de participación del 50 % al 70 % entre los clientes de nivel superior y mejoran de forma mensurable el valor de duración del cliente al reducir la pérdida entre los segmentos más rentables.
+Los programas de VIP generan una fuerte participación de los clientes de nivel superior y mejoran de forma mensurable el valor de duración del cliente al reducir la pérdida entre los segmentos más rentables.
 
 ### Cómo implementar
 
-Usar el patrón [Cross-Channel Recorrido with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Este enfoque combina la orquestación de recorridos con la toma de decisiones en tiempo real para la selección de ofertas, lo que garantiza que cada cliente de VIP reciba la oferta exclusiva más relevante en cada canal.
+Usar el patrón [Cross-Channel Recorrido with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Este enfoque combina la orquestación de recorridos con la toma de decisiones en tiempo real para la selección de ofertas, lo que garantiza que cada cliente de VIP reciba la oferta exclusiva más relevante en cada canal. Este es el patrón correcto cuando el recorrido debe coordinar la entrega a través de los canales para evitar ofertas duplicadas y cuando la selección de ofertas requiere reglas de elegibilidad y restricciones empresariales: la orquestación de varios pasos por sí sola no proporciona el nivel de toma de decisiones en tiempo real necesario para gobernar qué oferta exclusiva recibe cada VIP.
 
 ### Consideraciones técnicas
 
@@ -220,11 +220,11 @@ Permita que los clientes se registren para recibir notificaciones cuando los pro
 
 ### Impacto empresarial
 
-Las notificaciones de vuelta en stock logran una tasa de conversión del 40-50% entre los suscriptores y reducen significativamente la pérdida de ventas de productos de alta demanda que experimentan existencias temporales.
+Las notificaciones de vuelta en stock logran fuertes tasas de conversión entre los suscriptores y reducen significativamente la pérdida de ventas de productos de alta demanda que experimentan agotamientos temporales de existencias.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método pone en déclencheur las notificaciones de eventos de reserva, comparando las actualizaciones de inventario con los registros de notificaciones de clientes para ofrecer alertas oportunas.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método pone en déclencheur las notificaciones de eventos de reserva, comparando las actualizaciones de inventario con los registros de notificaciones de clientes para ofrecer alertas oportunas. Este es el patrón correcto porque el déclencheur es un evento de sistema de inventario discreto, la entrega es esencial en función del tiempo (el inventario puede agotarse de nuevo rápidamente) y la comunicación es una sola notificación, no un recorrido continuo.
 
 ### Consideraciones técnicas
 
@@ -240,11 +240,11 @@ Muestre pruebas sociales personalizadas, incluidas críticas, clasificaciones y 
 
 ### Impacto empresarial
 
-La prueba social personalizada aumenta las tasas de conversión en un 10-15 % y mejora la confianza de los compradores, especialmente en el caso de los compradores nuevos y los productos con precios más altos, donde las dudas sobre las compras son mayores.
+La prueba social personalizada aumenta las tasas de conversión y mejora la confianza de los compradores, especialmente en el caso de los compradores nuevos y los productos con precios más altos, donde las dudas sobre las compras son mayores.
 
 ### Cómo implementar
 
-Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método personaliza el contenido web de los visitantes identificados, seleccionando las revisiones más relevantes y los elementos de prueba social en función del perfil del cliente, las preferencias y el contexto de navegación.
+Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método personaliza el contenido web de los visitantes identificados, seleccionando las revisiones más relevantes y los elementos de prueba social en función del perfil del cliente, las preferencias y el contexto de navegación. Este es el patrón correcto cuando la personalización está impulsada por atributos de perfil y la pertenencia a segmentos en lugar de por un modelo de afinidad de comportamiento: la recomendación de comportamiento no es apropiada aquí porque la selección de pruebas sociales depende de quién sea el cliente, no de qué artículos haya buscado.
 
 ### Consideraciones técnicas
 
@@ -252,3 +252,242 @@ Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personaliza
 - Los elementos de prueba de Social se deben cargar de forma asíncrona para evitar el bloqueo del procesamiento de la página del producto principal, ya que los datos de revisión pueden proceder de una plataforma de revisión de terceros con tiempos de respuesta variables.
 - Las regulaciones de privacidad requieren que cualquier dato de cliente utilizado para relacionar las reseñas con los visitantes se gestione de acuerdo con las preferencias de consentimiento; la visualización del contenido &quot;clientes como usted&quot; implica la creación de perfiles que pueden requerir divulgación.
 - [!DNL Experience Platform] miembros de la audiencia pueden usarse para seleccionar qué críticas resaltar, mostrando las opiniones de los amantes de las actividades al aire libre de otros compradores en lugar de las críticas genéricas de mejor puntuación.
+
+
+## Asesor de productos de IA
+
+Los minoristas en línea llevan miles de SKU a través de complejas jerarquías de categorías, lo que dificulta a los compradores encontrar el producto adecuado sin una navegación prolongada o búsquedas abandonadas. Un asesor de productos con tecnología de IA involucra a los compradores en diálogos naturales de varias vueltas (haciendo preguntas de calificación sobre necesidades, preferencias y presupuesto) y luego reduce la variedad a un conjunto seleccionado de recomendaciones personalizadas. La experiencia refleja la orientación que un experto en la tienda podría proporcionar, ofrecida a escala digital.
+
+### Impacto empresarial
+
+Los minoristas que implementan la detección conversacional guiada ven tasas de conversión mejoradas y un valor de pedido promedio en comparación con la exploración no asistida, a la vez que reducen la devolución de productos a través de decisiones de compra mejor informadas.
+
+### Cómo implementar
+
+Usar el patrón [Experiencia de conversación en Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Este enfoque implementa Product Advisor Agent con un catálogo de productos estructurado, utilizando AEP Agent Orchestrator y datos de perfil del cliente en tiempo real para generar recomendaciones de productos personalizadas y seguras de marca a través del diálogo natural. Este es el patrón correcto cuando el objetivo es un descubrimiento conversacional interactivo de varias vueltas impulsado por necesidades declaradas por el cliente, distinto de la mensajería activada por eventos, que es unidireccional y reactiva a una acción específica, y de las experiencias web personalizadas, que muestran recomendaciones de forma pasiva en lugar de involucrar a los clientes en una conversación. Requiere la configuración de AEP Agent Orchestrator y gobernanza de marca.
+
+### Consideraciones técnicas
+
+- El catálogo de productos debe estar estructurado con datos de atributos enriquecidos, incluidos el tamaño, el material, la compatibilidad, la disponibilidad y los precios, porque Product Advisor Agent basa las recomendaciones en el contenido del catálogo y no puede aconsejar de forma fiable sobre los productos con atributos incompletos.
+- La búsqueda de perfiles de clientes en tiempo real mediante RT-CDP debe configurarse con activación de Edge para que el historial de compras, el comportamiento de navegación y los datos del nivel de lealtad sean accesibles durante la conversación en directo sin latencia que interrumpa la experiencia.
+- Deben definirse protecciones de gobernanza de marca para especificar cómo gestiona el agente los artículos sin existencias, las comparaciones de productos competitivos, las declaraciones de precios promocionales y los temas prohibidos, lo que garantiza que cada respuesta se ajuste a los estándares de marca minorista.
+- Los eventos de conversación, incluidas las señales de intención, las interacciones de productos y la aceptación de recomendaciones, deben capturarse como ExperienceEvents de XDM y transmitirse de nuevo a AEP, lo que enriquece los perfiles de los clientes con los datos de afinidad del producto y mejora la futura personalización en todos los canales.
+
+
+## Análisis de atribución en canales múltiples
+
+Mida cómo cada punto de contacto de marketing (búsquedas de pago, promociones por correo electrónico, medios sociales y en tienda) contribuye a las conversiones de compras en línea y sin conexión. Los minoristas que dependen de la atribución de último contacto infravaloran sistemáticamente los canales de funnel superior y toman decisiones de asignación de presupuesto basadas en una imagen incompleta de la ruta de compra.
+
+### Impacto empresarial
+
+Los equipos de marketing minorista que pasan de la atribución de último contacto a la de múltiples contactos obtienen una visión más clara de qué canales impulsan la intención de compra, lo que conduce a decisiones de presupuesto mejor informadas y a un rendimiento mejorado del gasto en marketing.
+
+### Cómo implementar
+
+Usar el patrón [Customer Analytics y Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md). Este método conecta los datos de eventos en línea y sin conexión (clics en la web, participaciones por correo electrónico, transacciones de fidelidad y registros del punto de venta) con Customer Journey Analytics, donde los modelos de atribución se pueden configurar y comparar en la ruta de compra completa. Este es el patrón correcto cuando el objetivo es la medición y la generación de insight en un recorrido complejo de varios canales, en lugar de activar audiencias o activar mensajes, y cuando el análisis requiere Customer Journey Analytics en lugar de una herramienta CDP o de orquestación de campaña.
+
+### Consideraciones técnicas
+
+- Los datos de transacciones de puntos de venta y comercio electrónico deben compartir un identificador de cliente coherente para que las conversiones en tienda y en línea se puedan vincular en una sola vista multicanal en CJA.
+- Los modelos de atribución múltiple (de primer toque, de último toque, lineal y de decadencia de tiempo) deben configurarse en la vista de datos de CJA para que los analistas puedan compararlos en paralelo sin reconstruir el análisis.
+- Los datos de impresiones y clics de medios pagados de plataformas de publicidad externas deben ingerirse mediante conectores de origen o cargas por lotes para incluir canales pagados en la ruta de atribución junto con los canales propios.
+- Las ventanas de conversión y los periodos retrospectivos de crédito deben definirse por tipo de canal, ya que la ventana de atribución relevante para un clic de búsqueda de pago difiere significativamente de la de una campaña de correo electrónico estacional.
+
+## Segmentación de audiencias y activación para medios de pago
+
+Cree segmentos de audiencia de alto valor a partir de perfiles de clientes unificados y actívelos en destinos de medios de pago como Google Ads, Meta y Trade Desk para campañas de adquisición y retargeting. La unificación de los datos de comportamiento, transaccionales y de lealtad permite un direccionamiento más preciso que reduce el gasto publicitario desperdiciado y mejora la rentabilidad de la inversión en la campaña.
+
+### Impacto empresarial
+
+Los minoristas que activan audiencias de origen de alta calidad ven tasas de coincidencia mejoradas en las plataformas de medios de pago, coste por adquisición reducido y un mayor retorno de la inversión en publicidad en comparación con los segmentos de terceros.
+
+### Cómo implementar
+
+Utilice el patrón [Audience Activation a destinos](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) para evaluar la pertenencia de la audiencia con perfiles unificados y publicar segmentos en destinos de medios de pago conectados de forma programada o por streaming. Este es el patrón correcto cuando el requisito principal es la publicación de segmentos en sistemas externos, en lugar de la mensajería organizada o la toma de decisiones en tiempo real.
+
+### Consideraciones técnicas
+
+- Se requiere la resolución de identidades en los datos web, móviles y de fidelidad para crear perfiles de cliente completos antes de la activación: los perfiles fragmentados reducen la calidad de la audiencia y las tasas de coincidencia.
+- Los conectores de destino deben configurarse para cada plataforma de medios de pago, con indicadores de consentimiento adecuados respetados en el nivel de perfil para evitar que se activen los datos no consentidos.
+- La frecuencia de actualización de los segmentos debe alinearse con los objetivos de la campaña: las audiencias de adquisición pueden necesitar actualizaciones diarias, mientras que las audiencias de retargeting se benefician de las actualizaciones casi en tiempo real para excluir a los compradores recientes.
+- El análisis de superposición entre audiencias de adquisición y retención ayuda a evitar la contaminación cruzada en la que los clientes existentes reciben mensajes de adquisición de nuevos clientes.
+
+
+## Supresión de clientes para campañas de adquisición
+
+Elimine los clientes existentes y los convertidores recientes de la adquisición y el gasto mediante la activación de audiencias de exclusión en destinos de medios de pago, lo que reduce el gasto desperdiciado. La sincronización continua de las listas de supresión garantiza que los presupuestos pagados se dirijan a nuevos clientes potenciales netos en lugar de a personas que ya se han convertido o que participan activamente.
+
+### Impacto empresarial
+
+La supresión de los clientes existentes de las campañas de adquisición reduce el gasto en medios pagados desperdiciados, mejora las métricas de coste por adquisición y evita que los clientes existentes reciban mensajes que son irrelevantes en su fase de relación.
+
+### Cómo implementar
+
+Use el patrón [Audience Activation a destinos](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) para publicar audiencias de exclusión (compradores recientes, suscriptores activos y clientes de alto valor) en cada destino de medios de pago con una programación frecuente. Este es el patrón correcto cuando el objetivo es la publicación de segmentos para su supresión en lugar de orquestar un recorrido orientado al cliente.
+
+### Consideraciones técnicas
+
+- Las audiencias de supresión requieren una definición clara de a quién excluir, normalmente clientes que compraron en los últimos 30-90 días, miembros de fidelidad activos y conversiones de correo electrónico recientes.
+- Las listas de exclusión deben actualizarse con la frecuencia suficiente para excluir a los compradores antes de que se publiquen los anuncios; las listas de supresión antiguas causan la mayor fricción de marca en los períodos de venta minorista de gran volumen.
+- La calidad de coincidencia de identidad afecta directamente a la precisión de la supresión: la coincidencia deficiente de ID de dispositivo o correo electrónico hará que los clientes existentes sigan viendo anuncios de adquisición.
+- Asegúrese de que las audiencias de supresión sean independientes de las audiencias de retención para que las campañas de recuperación puedan llegar a los clientes que hayan caducado y que no se deban suprimir.
+
+
+## Experiencias web personalizadas para visitantes conocidos
+
+Ofrezca titulares personalizados, recomendaciones de productos y contenido promocional a los visitantes de sitios web autenticados en función de su perfil en tiempo real, pertenencia a segmentos e historial de comportamiento. Cuando los clientes que regresan ven experiencias adaptadas a su estado de lealtad, historial de compras y preferencias, las tasas de participación y la conversión mejoran significativamente en comparación con las experiencias de página principal genéricas.
+
+### Impacto empresarial
+
+Los minoristas que personalizan para visitantes conocidos ven una mejora significativa en las métricas de participación, incluido el tiempo en el sitio, las páginas por sesión y la tasa de conversión, con el mayor impacto entre los miembros fieles que visitan con frecuencia.
+
+### Cómo implementar
+
+Use el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos para ofrecer experiencias personalizadas basadas en perfiles al cargar la página mediante la pertenencia a segmentos en tiempo real y atributos de perfil. Este es el patrón correcto cuando la experiencia debe estar impulsada por datos de perfil vinculados a la identidad en lugar de señales de solo sesión y cuando las decisiones de contenido no requieren restricciones comerciales o de clasificación de ofertas complejas.
+
+### Consideraciones técnicas
+
+- La autenticación debe producirse antes de que se pueda activar la personalización basada en perfiles; el sitio web necesita un mecanismo para identificar al visitante y resolver su ECID en un perfil conocido.
+- Las búsquedas de perfiles en tiempo real deben completarse dentro del presupuesto de latencia de carga de página, lo que generalmente requiere una evaluación de perfiles implementada en el perímetro en lugar de llamadas de API del lado del servidor en la ruta de procesamiento crítica.
+- Las variaciones de contenido deben diseñarse para todos los segmentos de audiencia a los que se van a dirigir, incluida una experiencia predeterminada para los visitantes que no coinciden con ninguna regla de personalización.
+- Las decisiones de Personalization deben registrarse para su análisis, lo que permite realizar pruebas A/B de las variaciones de contenido y atribuir mejoras de participación a segmentos específicos.
+
+
+## Personalization web de visitante anónimo
+
+Personalice el contenido para visitantes de sitios web no identificados mediante señales de comportamiento en la sesión, como páginas vistas, categorías de productos exploradas y fuentes de referencia. Dado que la mayoría del tráfico web minorista es anónimo, la personalización para visitantes no reconocidos amplía significativamente el alcance de la personalización en el sitio más allá del segmento autenticado.
+
+### Impacto empresarial
+
+Los minoristas que ofrecen experiencias personalizadas a visitantes anónimos ven tasas de participación y conversión en la primera visita mejoradas, con un impacto especialmente fuerte en los visitantes que llegan desde fuentes de campañas específicas o exploran páginas de categorías de alta intención.
+
+### Cómo implementar
+
+Use el patrón [Personalization web de visitantes anónimos](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) para evaluar las señales de comportamiento en la sesión en el perímetro y servir variaciones de contenido relevantes sin requerir autenticación. Este es el patrón correcto cuando la personalización debe funcionar inmediatamente desde la primera interacción sin depender de un perfil persistente, especialmente para el tráfico de adquisición y los visitantes que aún no han iniciado sesión.
+
+### Consideraciones técnicas
+
+- La personalización en sesión se basa en los datos de evento de streaming recopilados mediante Edge Network; las reglas de evaluación de Edge deben implementarse y probarse antes de que se les envíe el tráfico.
+- Las variaciones de contenido deben diseñarse en torno a comportamientos de alta señal en la sesión (fuente de referencia, primera página vista, categoría de producto explorada) en lugar de atributos de baja señal que no predicen la intención de forma fiable.
+- Los requisitos de privacidad deben evaluarse cuidadosamente; algunas jurisdicciones tratan la personalización del comportamiento como un requisito de consentimiento, incluso para visitantes anónimos.
+- Las reglas de Personalization para visitantes anónimos deberían ser más sencillas y rápidas de evaluar que las reglas de visitantes conocidos, ya que las restricciones de latencia de Edge son más estrictas.
+
+
+## Recorrido de serie de bienvenida
+
+Organice un recorrido de bienvenida de varios pasos para los clientes recién registrados, lo que ofrece contenido de incorporación, educación sobre productos y un incentivo de primera compra en canales push y de correo electrónico. Una serie de bienvenida bien diseñada establece el tono de la relación con el cliente y aumenta significativamente la probabilidad de que un nuevo registrante se convierta en su primera compra.
+
+### Impacto empresarial
+
+Los programas de la serie Welcome impulsan mejoras significativas en las nuevas tasas de activación de clientes y en la conversión de primera compra, con el mayor impacto cuando la serie combina contenido educativo con un incentivo personalizado y oportuno.
+
+### Cómo implementar
+
+Use el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para diseñar una secuencia de incorporación de varios días con pasos de espera, ramificación de canales basada en la participación y supresión cuando se logre el primer objetivo de compra. Este es el patrón correcto cuando el caso de uso requiere un flujo de comunicación secuenciado y espaciado por tiempo con lógica condicional: un solo mensaje activado no es suficiente para guiar a un nuevo cliente a través de la experiencia de incorporación.
+
+### Consideraciones técnicas
+
+- La entrada de recorridos debe activarse mediante eventos de registro de cuenta en tiempo real para que el primer mensaje de bienvenida llegue rápidamente mientras la intención de registro sea alta.
+- El recorrido debe incluir condiciones de salida que supriman los mensajes restantes cuando un nuevo cliente complete su primera compra: continuar con la serie de bienvenida después de la compra socava la relevancia del mensaje.
+- La preferencia de canal debe respetarse en todo; los pasos de la notificación push requieren la instalación de la aplicación y la inclusión push, con reserva de correo electrónico para los clientes sin inclusión.
+- Personalization en la serie de bienvenida mejora la conversión, pero requiere suficientes datos de perfil para que sean significativos; los nuevos perfiles suelen necesitar una alternativa a los productos más vendidos o de tendencias.
+
+
+## Recuperación de abandono del carro
+
+Déclencheur notificaciones push y por correo electrónico en tiempo real cuando un cliente abandone el carro de compras, con recordatorios de productos personalizados e incentivos limitados en el tiempo para completar la compra. El abandono del carro de compras se encuentra entre los casos de uso con un ROI más alto en el comercio minorista, ya que recupera los ingresos de los clientes que ya han demostrado tener una intención de compra sólida.
+
+### Impacto empresarial
+
+Los programas de abandono del carro de compras bien ejecutados recuperan una parte significativa de los ingresos abandonados, con tasas de recuperación más altas cuando el primer mensaje llega dentro de la hora de abandono e incluye los artículos exactos que quedan en el carro de compras.
+
+### Cómo implementar
+
+Utilice el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para responder al evento de abandono del carro de compras con una comunicación activada inmediata mientras la intención de compra aún está activa. Este es el patrón correcto cuando el déclencheur es una acción del cliente discreta y el requisito principal es una respuesta oportuna y personalizada, en lugar de una secuencia de promoción de varias semanas o una decisión de oferta compleja con restricciones comerciales.
+
+### Consideraciones técnicas
+
+- La detección de abandono del carro de compras requiere un umbral de inactividad definido (normalmente de 30 a 60 minutos) para evitar enviar mensajes a los clientes que aún están explorando o completando de forma activa el flujo de cierre de compra.
+- El contenido del correo electrónico debe representar dinámicamente las imágenes del producto, los precios y el estado de inventario actuales en el momento de la entrega, ya que los artículos pueden agotarse o cambiar el precio entre el abandono y la entrega del mensaje.
+- La lógica de supresión debe excluir a los clientes que completaron su compra a través de otro canal entre la detección de abandono y el envío de mensajes.
+- Las reglas de restricción de frecuencia deben evitar mensajes repetidos de abandono del carro de compras en ventanas cortas, especialmente para los clientes que habitualmente abandonan los carros de compras como comportamiento de navegación.
+
+
+## Recorrido de participación posterior a la compra
+
+Envíe comunicaciones posteriores a la compra, incluida la confirmación del pedido, las actualizaciones de envío, las recomendaciones de venta cruzada y las solicitudes de revisión a través de un recorrido organizado de varios pasos. La ventana posterior a la compra es uno de los momentos de mayor participación en el ciclo de vida del cliente, lo que la convierte en un momento ideal para generar lealtad e introducir productos complementarios relevantes.
+
+### Impacto empresarial
+
+Los minoristas con recorridos estructurados después de la compra ven tasas de repetición de compras mejoradas y tasas de envío de revisiones de clientes, lo que contribuye a la lealtad a largo plazo y a una  social que respalda la adquisición futura.
+
+### Cómo implementar
+
+Utilice el patrón [Recorrido orquestado en varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para orquestar una secuencia de comunicaciones posteriores a la compra programadas para alcanzar hitos clave: confirmación de pedido, envío, entrega y seguimiento posterior a la entrega. Este es el patrón correcto cuando el caso de uso abarca varios días con varios objetivos: un solo mensaje activado no puede acomodar el arco desde la confirmación transaccional hasta la creación de lealtad para revisar la solicitud.
+
+### Consideraciones técnicas
+
+- La integración del sistema de gestión de pedidos es necesaria para recibir eventos de compra y envío en tiempo real; los retrasos en la ingesta de eventos crean tiempos incómodos en las comunicaciones posteriores a la compra.
+- Las recomendaciones de venta cruzada en la secuencia posterior a la compra requieren datos del catálogo de productos en tiempo real e inferencia del modelo de recomendación en el momento del procesamiento del mensaje para reflejar el inventario y los precios actuales.
+- Los mensajes de solicitud de revisión deben cumplir con los términos de servicio de la plataforma para las revisiones incentivadas y deben programarse después de que el cliente haya tenido tiempo suficiente para utilizar el producto.
+- La coordinación de canales es importante: los clientes no deben recibir correos electrónicos ni mensajes push para el mismo hito a menos que se hayan comprometido con el primer canal.
+
+
+## Campaña de actualización de nivel de fidelización
+
+Identifique a los clientes que se acercan a los umbrales de nivel de lealtad y publique campañas dirigidas para alentarlos a llegar al siguiente nivel con ofertas personalizadas basadas en el historial de compras y las preferencias. Cuando los clientes están al alcance de una actualización de nivel, la mensajería segmentada con incentivos personalizados crea urgencia e impulsa un comportamiento de compra incremental.
+
+### Impacto empresarial
+
+Las campañas de actualización del nivel de fidelización aumentan el volumen de compra incremental y mejoran la participación en el programa, con el mayor impacto entre los miembros de nivel medio que están cerca del siguiente umbral y que han mostrado una actividad de compra reciente.
+
+### Cómo implementar
+
+Use el patrón [Recorrido orquestado en varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para crear una campaña de proximidad de nivel que entre a los clientes cuando alcancen un umbral de gasto definido por debajo de su siguiente nivel y los guíe a través de una secuencia de mensajes de beneficios y ofertas de incentivos. Este es el patrón correcto cuando el caso de uso requiere monitorizar un atributo de perfil calculado a lo largo del tiempo y organizar una campaña de varios pasos vinculada al progreso del cliente hacia un objetivo.
+
+### Consideraciones técnicas
+
+- Los datos de la plataforma de fidelización (saldo de puntos, estado de nivel, umbrales de nivel) deben introducirse y mantenerse actualizados en el perfil del cliente para que los cálculos de proximidad de nivel sean precisos.
+- Las campañas de actualización de nivel deben suprimirse para los clientes que ya han alcanzado el nivel de objetivo o cuyo estado de lealtad ha cambiado desde la entrada de la campaña.
+- Los incentivos personalizados en la campaña de actualización deben limitarse a las ofertas para las que el cliente es realmente elegible y que no socavan el valor percibido de la estructura de niveles.
+- La campaña debe incluir condiciones de salida claras para los clientes que completen la actualización de su nivel a mitad del recorrido, pivotando hacia un mensaje de felicitación en lugar de continuar con la secuencia de persuasión.
+
+
+## Orquestación de campañas en canales múltiples
+
+Orqueste campañas de marketing coordinadas en canales web, push, SMS y de correo electrónico con ramificación de recorridos, pasos de espera y límite de frecuencia para maximizar la participación sin fatiga. La orquestación coordinada entre canales garantiza que los clientes reciban una experiencia de campaña coherente independientemente del canal al que respondan primero, lo que elimina los mensajes duplicados y las ofertas en conflicto.
+
+### Impacto empresarial
+
+Los minoristas con funciones de orquestación entre canales ven tasas de participación y conversión de campañas más altas que las de un solo canal, al tiempo que reducen las tasas de cancelación de suscripción impulsadas por la fatiga del canal debido a la mensajería descoordinada.
+
+### Cómo implementar
+
+Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para crear campañas que dirijan a los clientes a través de secuencias de canales personalizadas en función de su historial de participación, preferencias de canal y señales de respuesta en tiempo real. Este es el patrón correcto cuando la campaña requiere una selección de ofertas regida, un enrutamiento de preferencias de canal y una ramificación dinámica basada en la participación en el recorrido, en lugar de una secuencia fija enviada a todos los destinatarios de la campaña.
+
+### Consideraciones técnicas
+
+- Los límites de frecuencia globales deben configurarse en todos los canales para evitar que los clientes reciban comunicaciones excesivas cuando se ejecuten simultáneamente varios recorridos.
+- Los datos de preferencias de canal deben estar actualizados y ser procesables. Los perfiles de preferencias que estén meses desactualizados enrutarán a los clientes hacia canales con los que ya no interactúan.
+- La lógica de orquestación de recorrido debe gestionar la reentrada correctamente, lo que evita que los clientes entren en la misma campaña dos veces y, al mismo tiempo, garantiza que no se excluyan de las campañas realmente nuevas.
+- Las señales de participación en tiempo real (aperturas de correo electrónico, clics en vínculos, sesiones web) deben retroceder al recorrido para habilitar el cambio de canal y la salida anticipada para los clientes que ya se han convertido.
+
+
+## Experiencia de conversación en Brand Concierge
+
+Implemente un agente conversacional con tecnología de IA y seguridad de marca en todas las propiedades digitales para proporcionar orientación personalizada sobre el producto, ayuda para la navegación del sitio y transferencia perfecta a los agentes activos. Un conserje de IA en el sitio amplía el servicio personalizado a escala, ayudando a los compradores a descubrir productos, comparar opciones y completar compras sin requerir la intervención de un agente humano para consultas comunes.
+
+### Impacto empresarial
+
+Los minoristas con capacidades de conserjería de IA informan de tasas de resolución de autoservicio mejoradas, volumen de asistencia entrante reducido para preguntas sobre productos y navegación, y mayor conversión entre los clientes que interactúan con la orientación conversacional antes de realizar la compra.
+
+### Cómo implementar
+
+Utilice el patrón de [Experiencia conversacional de Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) para implementar un agente de IA controlado basado en los datos del catálogo de productos, las directrices de marca y el contexto del perfil del cliente en tiempo real. Este es el patrón correcto cuando el caso de uso requiere interacción de lenguaje natural en un conjunto de productos grande y dinámico, en lugar de un bot de chat con scripts e intenciones fijas o un patrón que coincida con un canal específico, como el correo electrónico.
+
+### Consideraciones técnicas
+
+- El agente de IA debe basarse en los datos actuales del catálogo de productos, incluidas las descripciones, especificaciones, disponibilidad y precios, para proporcionar una orientación precisa; los datos de productos antiguos conducen a recomendaciones incorrectas.
+- Las protecciones de seguridad de marca deben configurarse para evitar que el agente hable de productos de la competencia, realice compromisos de precios que entren en conflicto con las promociones o responda a consultas fuera de tema.
+- La lógica de transferencia a los agentes activos requiere integración con la plataforma de servicio y debe activarse cuando el agente de IA no pueda resolver la consulta del cliente después de un número definido de turnos.
+- La integración de datos de perfil permite al agente personalizar las respuestas en función del historial de compras y el estado de lealtad, pero esto requiere la resolución de la identidad antes de que comience la sesión conversacional.

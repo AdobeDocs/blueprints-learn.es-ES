@@ -2,13 +2,13 @@
 title: Casos de uso de medios y entretenimiento
 description: Descubra cómo las organizaciones de medios y entretenimiento utilizan Adobe Experience Platform para personalizar la detección de contenido, reducir la pérdida de suscriptores y aumentar la participación de la audiencia.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2644'
+source-wordcount: '3363'
 ht-degree: 0%
 
 ---
-
 
 # Casos de uso de medios y entretenimiento
 
@@ -20,11 +20,11 @@ Proporcione recomendaciones de contenido personalizadas, incluidas películas, p
 
 ### Impacto empresarial
 
-Las organizaciones que implementan motores de recomendación de contenido personalizado suelen ver un aumento de entre el 30 y el 40 % en la participación en el contenido y un aumento significativo del tiempo total de visualización o escucha por usuario.
+Las organizaciones que implementan motores de recomendación de contenido personalizados ven una participación de contenido mejorada y un aumento significativo en el tiempo total de visualización o escucha por usuario.
 
 ### Cómo implementar
 
-Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos de recomendación impulsados por IA que aprenden continuamente de las interacciones de audiencia para mostrar el contenido más relevante para cada individuo.
+Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos de recomendación impulsados por IA que aprenden continuamente de las interacciones de audiencia para mostrar el contenido más relevante para cada individuo. Este es el patrón correcto cuando el conjunto de elementos es grande y cambia continuamente (catálogos de contenido) y la selección está impulsada por la afinidad de comportamiento aprendida al ver el historial, en lugar de un conjunto limitado de ofertas gobernadas por reglas de elegibilidad.
 
 ### Consideraciones técnicas
 
@@ -40,11 +40,11 @@ Identifique a los suscriptores que corren el riesgo de cancelarse y envíeles re
 
 ### Impacto empresarial
 
-Los programas eficaces de prevención de pérdida ofrecen una reducción del 20-30 % en la pérdida de suscriptores, protegen los ingresos recurrentes y mejoran el valor de duración de la audiencia a largo plazo.
+Los programas eficaces de prevención de pérdida ofrecen reducciones significativas en la pérdida de suscriptores, protegen los ingresos recurrentes y mejoran el valor a largo plazo de la duración de la audiencia.
 
 ### Cómo implementar
 
-Usar el patrón [Cross-Channel Recorrido with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Este método combina la orquestación de recorridos con la toma de decisiones en tiempo real para seleccionar la mejor oferta de retención o recomendación de contenido para cada suscriptor en riesgo de todos los canales.
+Usar el patrón [Cross-Channel Recorrido with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Este método combina la orquestación de recorridos con la toma de decisiones en tiempo real para seleccionar la mejor oferta de retención o recomendación de contenido para cada suscriptor en riesgo de todos los canales. Este es el patrón correcto cuando el recorrido debe coordinar la entrega a través de los canales para evitar ofertas de retención duplicadas y cuando la selección de ofertas requiere reglas de elegibilidad basadas en el valor del suscriptor y el nivel de riesgo: la orquestación de varios pasos por sí sola no proporciona el nivel de toma de decisiones en tiempo real necesario.
 
 ### Consideraciones técnicas
 
@@ -60,11 +60,11 @@ Notificar a los suscriptores sobre nuevas versiones de contenido que coincidan c
 
 ### Impacto empresarial
 
-Las notificaciones personalizadas de la versión suelen impulsar un aumento de entre el 40 y el 50 % en la participación del nuevo contenido durante la primera semana de la versión, lo que acelera la audiencia y aumenta las métricas de rendimiento del contenido.
+Las notificaciones personalizadas de la versión mejoran la participación de nuevo contenido en la primera semana de lanzamiento, lo que acelera el número de visualizaciones y aumenta las métricas de rendimiento del contenido.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a los eventos de lanzamiento de contenido, comparando los nuevos títulos con los perfiles de preferencias del suscriptor para enviar notificaciones oportunas y relevantes.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a los eventos de lanzamiento de contenido, comparando los nuevos títulos con los perfiles de preferencias del suscriptor para enviar notificaciones oportunas y relevantes. Este es el patrón correcto cuando el déclencheur es un evento del sistema (publicación de contenido) en lugar de una conducta del cliente, y la comunicación necesaria es inmediata y reactiva en lugar de una secuencia de nutrición sostenida.
 
 ### Consideraciones técnicas
 
@@ -80,11 +80,11 @@ Personalice de forma dinámica las páginas de inicio y de detección de conteni
 
 ### Impacto empresarial
 
-Las experiencias personalizadas de página principal impulsan un aumento de entre el 25 y el 35 % en la participación en la página principal y mejoran significativamente la detección de contenido, especialmente para plataformas con bibliotecas de contenido grandes y en crecimiento.
+Las experiencias personalizadas de página de inicio mejoran la participación en la página principal y mejoran significativamente la detección de contenido, especialmente para plataformas con bibliotecas de contenido grandes y en crecimiento.
 
 ### Cómo implementar
 
-Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este método utiliza estrategias de selección y modelos de clasificación para reordenar las filas de contenido y los títulos destacados de la página principal en función del perfil de cada visitante y del comportamiento en tiempo real.
+Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este método utiliza estrategias de selección y modelos de clasificación para reordenar las filas de contenido y los títulos destacados de la página principal en función del perfil de cada visitante y del comportamiento en tiempo real. Este es el patrón correcto cuando el conjunto de elementos es grande y cambia continuamente, y la selección se basa en la afinidad de comportamiento para clasificar filas de contenido de forma dinámica, en lugar de un conjunto depurado estático o una personalización simple basada en atributos.
 
 ### Consideraciones técnicas
 
@@ -100,11 +100,11 @@ Envíe recordatorios a los usuarios sobre el contenido de su lista de observaci�
 
 ### Impacto empresarial
 
-Los programas de recordatorio de listas de observación suelen lograr un aumento del 30 al 40 % en la tasa de finalización de listas de observación, lo que convierte la intención guardada en participación activa y aumenta el uso general de la plataforma.
+Los programas de recordatorio de listas de observación mejoran las tasas de finalización de las listas de observación, convirtiendo la intención guardada en participación activa y aumentando el uso general de la plataforma.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur los recordatorios en función de las señales de actividad e inactividad de la lista de observación, y envía avisos puntuales cuando el contenido se ha guardado, pero aún no se ha iniciado.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur los recordatorios en función de las señales de actividad e inactividad de la lista de observación, y envía avisos puntuales cuando el contenido se ha guardado, pero aún no se ha iniciado. Este es el patrón correcto cuando una señal de comportamiento discreta (inactividad de la lista de observación) es el déclencheur y la respuesta requerida es un mensaje único y con distinción de tiempo, en lugar de una secuencia de varios pasos o un flujo de recomendaciones continuo.
 
 ### Consideraciones técnicas
 
@@ -120,11 +120,11 @@ Fomente la participación de usuarios de prueba gratuita con recomendaciones y o
 
 ### Impacto empresarial
 
-Las campañas de conversión de prueba bien diseñadas ofrecen una mejora de entre el 25 y el 35 % en las tasas de conversión de prueba a pago, lo que aumenta directamente la eficiencia de adquisición de los suscriptores y reduce el coste por adquisición.
+Las campañas de conversión de prueba bien diseñadas ofrecen mejoras significativas en las tasas de conversión de prueba a pago, lo que aumenta directamente la eficiencia de adquisición de los suscriptores y reduce el coste por adquisición.
 
 ### Cómo implementar
 
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de nutrición multitáctil guía a los usuarios de prueba a través de una secuencia de mensajes de conversión, demostración de valor y detección de contenido, adaptándose en función de su participación durante toda la prueba.
+Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de nutrición multitáctil guía a los usuarios de prueba a través de una secuencia de mensajes de conversión, demostración de valor y detección de contenido, adaptándose en función de su participación durante toda la prueba. Este es el patrón correcto cuando el caso de uso requiere un flujo secuenciado de varios mensajes a lo largo de días con ramificación condicional basada en eventos de participación y en el tiempo de prueba restante: un solo mensaje activado no puede dar cabida a la lógica de dependencia entre pasos o a la necesidad de ajustes de cadencia.
 
 ### Consideraciones técnicas
 
@@ -140,11 +140,11 @@ Notificar a los usuarios sobre próximos eventos en directo, juegos deportivos o
 
 ### Impacto empresarial
 
-Los recordatorios personalizados de eventos en directo suelen aumentar la audiencia de eventos en directo en un 50-60%, lo que maximiza la audiencia para una programación en tiempo real de alto valor.
+Los recordatorios personalizados de eventos en directo mejoran la visualización de eventos en directo, lo que maximiza la audiencia para una programación en tiempo real de alto valor.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur las notificaciones en función de los datos de programación de eventos, haciendo coincidir los próximos eventos con los perfiles de interés de los suscriptores para enviar recordatorios oportunos.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur las notificaciones en función de los datos de programación de eventos, haciendo coincidir los próximos eventos con los perfiles de interés de los suscriptores para enviar recordatorios oportunos. Este es el patrón correcto cuando el déclencheur es un evento del sistema (programación de eventos) en lugar de una conducta del cliente, y la comunicación requerida es inmediata y está sujeta a un tiempo en lugar de una secuencia de nutrición sostenida.
 
 ### Consideraciones técnicas
 
@@ -160,11 +160,11 @@ Genere y actualice automáticamente listas de reproducción personalizadas basad
 
 ### Impacto empresarial
 
-La generación personalizada de listas de reproducción aumenta en un 40-50% la participación en la lista de reproducción y amplía significativamente la duración promedio de la sesión de escucha, fortaleciendo los hábitos diarios de uso de la plataforma.
+La generación personalizada de listas de reproducción mejora la participación en la lista de reproducción y amplía significativamente la duración promedio de la sesión de escucha, fortaleciendo los hábitos diarios de uso de la plataforma.
 
 ### Cómo implementar
 
-Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos impulsados por IA que analizan los patrones de escucha, el comportamiento de omisión y las señales contextuales para generar y actualizar listas de reproducción adaptadas a cada usuario.
+Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Este enfoque utiliza modelos impulsados por IA que analizan los patrones de escucha, el comportamiento de omisión y las señales contextuales para generar y actualizar listas de reproducción adaptadas a cada usuario. Este es el patrón correcto cuando el conjunto de elementos es grande y cambia continuamente, y la selección está impulsada por la afinidad de comportamiento de la historia de la escucha y las señales de estado de ánimo, en lugar de un conjunto limitado de listas de reproducción regidas por reglas editoriales.
 
 ### Consideraciones técnicas
 
@@ -180,11 +180,11 @@ Ofrezca una experiencia de contenido perfecta en todos los dispositivos sincroni
 
 ### Impacto empresarial
 
-La sincronización de contenido entre plataformas aumenta en un 30-40 % la participación entre dispositivos y reduce de forma significativa la fricción que puede provocar el abandono de la sesión cuando los usuarios cambian entre dispositivos.
+La sincronización de contenido entre plataformas mejora la participación entre dispositivos y reduce de forma significativa la fricción que puede provocar el abandono de la sesión cuando los usuarios cambian entre dispositivos.
 
 ### Cómo implementar
 
-Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método personaliza la experiencia de los usuarios identificados en todas las plataformas web y de aplicación, lo que garantiza un estado de contenido y recomendaciones coherentes independientemente del dispositivo.
+Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método personaliza la experiencia de los usuarios identificados en todas las plataformas web y de aplicación, lo que garantiza un estado de contenido y recomendaciones coherentes independientemente del dispositivo. Este es el patrón correcto cuando la personalización está impulsada por atributos de perfil (identidad entre dispositivos, estado de progreso de observación) y pertenencia a segmentos, en lugar de un modelo de afinidad de comportamiento o una secuencia de orquestación de recorrido.
 
 ### Consideraciones técnicas
 
@@ -200,11 +200,11 @@ Personalice los indicadores y las recomendaciones de uso compartido en redes soc
 
 ### Impacto empresarial
 
-Los estímulos personalizados para compartir en redes sociales suelen lograr un aumento del 20 al 30% en la tasa de intercambio social, amplificando el alcance orgánico y reduciendo los costos de adquisición pagados.
+Los indicadores de intercambio social personalizados logran mejores tasas de intercambio social, amplificando el alcance orgánico y reduciendo los costos de adquisición pagados.
 
 ### Cómo implementar
 
-Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método personaliza las experiencias de uso compartido en la aplicación para usuarios identificados, y muestra mensajes de uso compartido relevantes para el contexto en función de las preferencias y los patrones de participación del usuario.
+Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método personaliza las experiencias de uso compartido en la aplicación para usuarios identificados, y muestra mensajes de uso compartido relevantes para el contexto en función de las preferencias y los patrones de participación del usuario. Este es el patrón correcto cuando la personalización se basa en atributos de perfil y contexto de participación conocido en lugar de en un modelo de afinidad de comportamiento. El objetivo es mejorar la experiencia en el momento sin orquestar una secuencia de recorrido.
 
 ### Consideraciones técnicas
 
@@ -220,11 +220,11 @@ Identifique a los usuarios que se beneficiarían de las funciones avanzadas y pr
 
 ### Impacto empresarial
 
-Las campañas personalizadas de ampliación de venta de premium impulsan un aumento de entre el 15 y el 25 % en la adopción de funciones de premium, lo que aumenta los ingresos promedio por usuario y, al mismo tiempo, ofrece funciones que coinciden genuinamente con las necesidades de los suscriptores.
+Las campañas personalizadas de ampliación de ventas de Premium impulsan la adopción mejorada de funciones de Premium, aumentando los ingresos promedio por usuario y al mismo tiempo ofreciendo funciones que coinciden genuinamente con las necesidades de los suscriptores.
 
 ### Cómo implementar
 
-Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Este enfoque utiliza una lógica de decisión centralizada para evaluar los patrones de uso de cada suscriptor y seleccionar la oferta Premium más relevante en el momento adecuado.
+Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Este enfoque utiliza una lógica de decisión centralizada para evaluar los patrones de uso de cada suscriptor y seleccionar la oferta Premium más relevante en el momento adecuado. Este es el patrón correcto cuando la selección de ofertas debe tener en cuenta las restricciones del patrón de uso y las reglas de elegibilidad del nivel Premium, restricciones que requieren una lógica de toma de decisiones regida en lugar de una clasificación de afinidad de comportamiento por sí sola.
 
 ### Consideraciones técnicas
 
@@ -240,11 +240,11 @@ Recuerde a los usuarios que terminen de ver o escuchar el contenido que iniciaro
 
 ### Impacto empresarial
 
-Las campañas de finalización de contenido suelen lograr una mejora de entre el 35 y el 45 % en la tasa de finalización de contenido, lo que aumenta el tiempo total de participación y refuerza la percepción del suscriptor del valor de la plataforma.
+Las campañas de finalización de contenido mejoran las tasas de finalización de contenido, lo que aumenta el tiempo total de participación y refuerza la percepción del suscriptor sobre el valor de la plataforma.
 
 ### Cómo implementar
 
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur los recordatorios en función de los eventos de abandono de contenido, y envía mensajes puntuales cuando un usuario se ha pausado parcialmente a través de un título y no ha regresado dentro de una ventana definida.
+Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método déclencheur los recordatorios en función de los eventos de abandono de contenido, y envía mensajes puntuales cuando un usuario se ha pausado parcialmente a través de un título y no ha regresado dentro de una ventana definida. Este es el patrón correcto cuando una señal de comportamiento discreta (abandono de contenido) es el déclencheur y la respuesta requerida es un mensaje único, con distinción de tiempo y contexto, en lugar de un recorrido de varios pasos o una selección de oferta dinámica.
 
 ### Consideraciones técnicas
 
@@ -252,3 +252,23 @@ Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-pat
 - Los mensajes de recordatorio deben incluir el título de contenido específico, una miniatura visual y un vínculo profundo directo que reanude la reproducción en el punto exacto en el que el usuario lo dejó.
 - La restricción de frecuencia debe evitar recordatorios excesivos para los usuarios que toman muestras del contenido de forma rutinaria sin terminar; los empujones repetidos para el contenido que un usuario ha elegido abandonar pueden resultar intrusivos.
 - La disponibilidad del contenido debe verificarse en el momento de la entrega, ya que los títulos pueden salir de la plataforma o cambiar las regiones de disponibilidad entre el evento de abandono y la entrega del recordatorio.
+
+
+## Controlador de cancelación de suscriptor y análisis de participación de contenido
+
+Identifique qué patrones de consumo de contenido, cambios de frecuencia de participación y comportamientos de interacción del catálogo preceden a la cancelación de suscriptores y mida cómo varía la afinidad del contenido entre segmentos de suscriptores y cohortes de adquisición. Las empresas de streaming y publicación que no pueden conectar el comportamiento del contenido para producir resultados toman decisiones de inversión en contenido basadas en recuentos de vistas agregados en lugar de impacto en la retención.
+
+### Impacto empresarial
+
+La correlación de patrones de participación de contenido con los resultados de retención de suscriptores proporciona a los equipos de marketing, estrategia de contenido y producto una base fáctica para priorizar las inversiones en catálogos y diseñar campañas de renovación de participación en torno a los comportamientos que realmente mantienen las suscripciones.
+
+### Cómo implementar
+
+Usar el patrón [Customer Analytics y Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md). Este método conecta los datos de eventos de streaming, los metadatos de contenido, los registros del ciclo vital de suscripción y el historial de interacciones de campañas con Customer Journey Analytics, donde el análisis de retención de cohortes mide cómo se correlaciona la afinidad del contenido con la tenencia del suscriptor y el análisis de abandonos identifica los patrones de abandonos de participación que preceden a la cancelación. Este es el patrón correcto cuando el objetivo es comprender los impulsores de comportamiento de la pérdida y el rendimiento del contenido, en lugar de activar un mensaje de recuperación o activar una audiencia de riesgo de pérdida para la supresión.
+
+### Consideraciones técnicas
+
+- Los eventos de consumo de contenido deben incluir identificadores de contenido y metadatos de nivel de sesión (eventos de inicio, pausa, finalización y omisión) para que se pueda medir la profundidad de la participación más allá de los recuentos de reproducción sin procesar en CJA.
+- Los eventos de ciclo vital de suscripción, incluidos el inicio de prueba, la conversión, los errores de pago, la reducción de categoría y la cancelación, deben ingerirse como eventos discretos con marcas de tiempo precisas para que los intervalos de comportamiento antes de la cancelación se puedan definir con precisión en los filtros de CJA.
+- Los atributos del catálogo de contenido, como el género, el formato, la asociación de series y la actualización de la versión, deben estar disponibles como un conjunto de datos de consulta en la conexión de CJA para que el análisis de participación de contenido se pueda desglosar por dimensión de catálogo en lugar de requerir un análisis en el nivel de título individual.
+- El análisis de cohorte que compara curvas de retención por canal de adquisición y contenido original visualizado requiere que tanto el origen de adquisición como el contenido visualizado por primera vez se capturen como dimensiones de perfil o de primer evento, disponibles para la definición de cohorte en CJA.
