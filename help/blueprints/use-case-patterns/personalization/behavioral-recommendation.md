@@ -97,11 +97,11 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 | Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Administración y gobernanza | Se asume en contexto | Zona protegida de AJO con permisos de Decisioning habilitados. Funciones de usuario aprovisionadas con acceso a la administración del catálogo de elementos, la configuración de la estrategia de selección y la administración de superficies de canal. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Modelado y preparación de datos | Requerido | Esquema de Experience Event que captura señales de comportamiento (vistas de productos, complementos al carro de compras, compras, interacciones de contenido) con identificadores de artículo/producto. Esquema del catálogo de artículos (atributos de producto, categorías, imágenes, precios) para el conjunto de artículos de recomendación. Esquema de perfil con campos de identidad. Todos los esquemas habilitados para [!DNL Real-Time Customer Profile]. | [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition), [Crear un conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create) |
-| Fuentes de datos y recopilación | Requerido | La transmisión de eventos de comportamiento en tiempo real a través de [!DNL Web SDK] o [!DNL Mobile SDK] es crítica; la calidad de la recomendación depende de nuevas señales de comportamiento. Los datos del catálogo de artículos deben ingerirse (por lotes o streaming). Flujos de datos configurados con el servicio AJO habilitado para Edge Decisioning. | [Información general de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), [Información general de Mobile SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview), [Configurar flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
-| Configuración de identidad y perfil | Requerido | Las señales de comportamiento deben asociarse con una identidad (conocida o anónima a través de ECID) para crear perfiles de comportamiento. Para las recomendaciones de visitantes conocidos, se debe configurar una identidad autenticada (ID de CRM, correo electrónico). Política de combinación activa en Edge para la entrega de recomendaciones en tiempo real. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Introducción a las políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| Definición de audiencia y segmentación | Recomendado | Las audiencias pueden utilizarse para aplicar recomendaciones (por ejemplo, recomendar solo productos Premium a los miembros Premium) o para filtrar. No es estrictamente necesario si las recomendaciones son puramente de comportamiento. Necesario para que las recomendaciones basadas en correo electrónico (Opción C) definan la audiencia de destino. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| Administración y gobernanza | Se asume en contexto | Zona protegida de AJO con permisos de Decisioning habilitados. Funciones de usuario aprovisionadas con acceso a la administración del catálogo de elementos, la configuración de la estrategia de selección y la administración de superficies de canal. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
+| Modelado y preparación de datos | Requerido | Esquema de Experience Event que captura señales de comportamiento (vistas de productos, complementos al carro de compras, compras, interacciones de contenido) con identificadores de artículo/producto. Esquema del catálogo de artículos (atributos de producto, categorías, imágenes, precios) para el conjunto de artículos de recomendación. Esquema de perfil con campos de identidad. Todos los esquemas habilitados para [!DNL Real-Time Customer Profile]. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition), [Crear un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/create) |
+| Fuentes de datos y recopilación | Requerido | La transmisión de eventos de comportamiento en tiempo real a través de [!DNL Web SDK] o [!DNL Mobile SDK] es crítica; la calidad de la recomendación depende de nuevas señales de comportamiento. Los datos del catálogo de artículos deben ingerirse (por lotes o streaming). Flujos de datos configurados con el servicio AJO habilitado para Edge Decisioning. | [Información general de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home), [Información general de Mobile SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview), [Configurar flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) |
+| Configuración de identidad y perfil | Requerido | Las señales de comportamiento deben asociarse con una identidad (conocida o anónima a través de ECID) para crear perfiles de comportamiento. Para las recomendaciones de visitantes conocidos, se debe configurar una identidad autenticada (ID de CRM, correo electrónico). Política de combinación activa en Edge para la entrega de recomendaciones en tiempo real. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home), [Introducción a las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview) |
+| Definición de audiencia y segmentación | Recomendado | Las audiencias pueden utilizarse para aplicar recomendaciones (por ejemplo, recomendar solo productos Premium a los miembros Premium) o para filtrar. No es estrictamente necesario si las recomendaciones son puramente de comportamiento. Necesario para que las recomendaciones basadas en correo electrónico (Opción C) definan la audiencia de destino. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home), [Guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Funciones de soporte
 
@@ -109,11 +109,11 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 
 | Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como las puntuaciones de afinidad de la categoría, la frecuencia de interacción del producto, la actualización de la compra y el gasto total, mejoran la calidad de la clasificación de recomendaciones. [!DNL Customer AI] las puntuaciones de tendencia pueden mejorar aún más la relevancia al predecir la probabilidad de compra. | [Resumen de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [Resumen de inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
-| Administración del ciclo de datos | Recomendado | Los datos de evento de comportamiento deben tener políticas de caducidad adecuadas; la relevancia de la recomendación se degrada con datos antiguos. La configuración de directivas de caducidad de conjuntos de datos en conjuntos de datos de evento de comportamiento garantiza la actualización y administra el almacenamiento. La aplicación del consentimiento garantiza el uso compatible de los datos de comportamiento. | [Caducidad de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etiquetado y aplicación del uso de datos | Recomendado | Las etiquetas de gobernanza en los datos de comportamiento garantizan el uso compatible del historial de interacciones para las recomendaciones. Especialmente importante cuando los datos de comportamiento incluyen patrones de navegación, historial de compras o señales de interés de productos financieros/de salud. | [Resumen de control de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Resumen de etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) |
-| Monitorización y observabilidad | Recomendado | Se debe monitorizar la latencia de entrega de Recommendations, las tasas de reserva y el estado de ingesta del catálogo de artículos. Las alertas sobre errores de ingesta de eventos de comportamiento y errores de toma de decisiones ayudan a mantener la calidad de la recomendación. | [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [Resumen de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Informes y análisis | Incluido | Los informes de rendimiento de recomendaciones forman parte del paso 4 de la cadena de funciones. [!DNL Customer Journey Analytics] el análisis de la eficacia de las recomendaciones, el impacto en los ingresos y el rendimiento de nivel de elemento en todas las superficies y segmentos proporciona perspectivas de optimización. | [Información general de CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Información general de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
+| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como las puntuaciones de afinidad de la categoría, la frecuencia de interacción del producto, la actualización de la compra y el gasto total, mejoran la calidad de la clasificación de recomendaciones. [!DNL Customer AI] las puntuaciones de tendencia pueden mejorar aún más la relevancia al predecir la probabilidad de compra. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview), [Resumen de inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/es/docs/experience-platform/intelligent-services/customer-ai/overview) |
+| Administración del ciclo de datos | Recomendado | Los datos de evento de comportamiento deben tener políticas de caducidad adecuadas; la relevancia de la recomendación se degrada con datos antiguos. La configuración de directivas de caducidad de conjuntos de datos en conjuntos de datos de evento de comportamiento garantiza la actualización y administra el almacenamiento. La aplicación del consentimiento garantiza el uso compatible de los datos de comportamiento. | [Caducidad de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
+| Etiquetado y aplicación del uso de datos | Recomendado | Las etiquetas de gobernanza en los datos de comportamiento garantizan el uso compatible del historial de interacciones para las recomendaciones. Especialmente importante cuando los datos de comportamiento incluyen patrones de navegación, historial de compras o señales de interés de productos financieros/de salud. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home), [Resumen de etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) |
+| Monitorización y observabilidad | Recomendado | Se debe monitorizar la latencia de entrega de Recommendations, las tasas de reserva y el estado de ingesta del catálogo de artículos. Las alertas sobre errores de ingesta de eventos de comportamiento y errores de toma de decisiones ayudan a mantener la calidad de la recomendación. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home), [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview) |
+| Informes y análisis | Incluido | Los informes de rendimiento de recomendaciones forman parte del paso 4 de la cadena de funciones. [!DNL Customer Journey Analytics] el análisis de la eficacia de las recomendaciones, el impacto en los ingresos y el rendimiento de nivel de elemento en todas las superficies y segmentos proporciona perspectivas de optimización. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Información general de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Funciones de aplicación
 
@@ -186,7 +186,7 @@ Las recomendaciones se representan en la página a través de experiencias basad
 **Experience League:**
 
 - [Entrega de ofertas mediante la API de Edge Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api/offer-delivery-api/edge-decisioning-api)
-- [Información general de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Información general de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home)
 
 ### Opción B: recomendaciones de aplicaciones móviles
 
@@ -256,7 +256,7 @@ Esta opción se basa en el historial de comportamiento acumulado en lugar de en 
 
 **Experience League:**
 
-- [Crear un correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
+- [Crear un correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/create-email)
 - [Entrega de ofertas en mensajes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
 
 ### Comparación de opciones
@@ -323,11 +323,11 @@ Esta fase establece los esquemas XDM, los conjuntos de datos y los mecanismos de
 
 **Documentación de Experience League:**
 
-- [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Conceptos básicos de composición](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [Información general de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Configuración de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Definición de una relación entre dos esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-api)
+- [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)
+- [Conceptos básicos de composición](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
+- [Información general de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home)
+- [Configuración de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+- [Definición de una relación entre dos esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-api)
 
 ### Fase 2: Configuración de la identidad y el perfil
 
@@ -365,10 +365,10 @@ Esta fase configura áreas de nombres de identidad, designaciones de identidad p
 
 **Documentación de Experience League:**
 
-- [Introducción al servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
 - [Información general sobre áreas de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces)
-- [Resumen de políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [Reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
+- [Resumen de políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview)
+- [Reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-linking-logic)
 
 ### Fase 3: Configurar el catálogo de artículos y la estrategia de selección
 
@@ -432,8 +432,8 @@ Esta fase configura el catálogo de elementos (elementos de decisión), las estr
 **Documentación de Experience League:**
 
 - [Información general de Administración de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [Creación de ubicaciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Creación de reglas de decisión](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Creación de ubicaciones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [Creación de reglas de decisión](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Crear ofertas personalizadas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Crear ofertas de reserva](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Crear colecciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -473,9 +473,9 @@ Configure una superficie de canal de correo electrónico con delegación de subd
 
 **Documentación de Experience League:**
 
-- [Configuración de superficies de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [Introducción a la configuración de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [Configuración del canal SMS](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [Configuración de superficies de canal](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Introducción a la configuración de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Configuración del canal SMS](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Configuración del canal de notificaciones push](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 
 ### Fase 5: Configuración de contenido y envío
@@ -534,8 +534,8 @@ Diseño del contenido del correo electrónico con Email Designer. Inserte ubicac
 - [Sintaxis de Personalization](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [Contenido dinámico](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [Entrega de ofertas en mensajes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
-- [Previsualización y prueba del contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
-- [Trabajo con plantillas de contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [Previsualización y prueba del contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Trabajo con plantillas de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 
 ### Fase 6: Configurar el ámbito de audiencia y la campaña/recorrido (solo opción C)
 
@@ -573,8 +573,8 @@ Para las recomendaciones basadas en correo electrónico (Opción C), esta fase d
 
 **Documentación de Experience League:**
 
-- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Segmentación de streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder)
+- [Segmentación de streaming](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Informe en vivo de la campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 
 ### Fase 7: Configuración de informes y optimización
@@ -608,10 +608,10 @@ Esta fase establece la monitorización del rendimiento para las métricas de cli
 - [Informe global de campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [Informe global de recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Trabajo con Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Crear o editar una conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Información general de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Resumen de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Crear o editar una conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection)
+- [Creación o edición de una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Información general de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home)
+- [Resumen de métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
 
 ## Consideraciones sobre la implementación
 
@@ -619,17 +619,17 @@ Revise las siguientes barreras, escollos, prácticas recomendadas y compensacion
 
 ### Protecciones y límites
 
-- Máximo de 10 000 ofertas personalizadas aprobadas (elementos de decisión) por zona protegida: [protecciones de administración de decisiones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- Máximo de 10 000 ofertas personalizadas aprobadas (elementos de decisión) por zona protegida: [protecciones de administración de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails)
 - Máximo de 30 colocaciones por decisión
 - Máximo de 30 ámbitos de recopilación por solicitud de decisión
 - Tiempo de respuesta de entrega de la oferta SLA: menos de 500 ms a P95 para solicitudes de Edge de un solo ámbito
 - Los modelos de clasificación de IA requieren un mínimo de 1000 eventos de conversión para la formación.
 - Los contadores de límite de oferta pueden tener un retraso de hasta unos segundos en escenarios de alto rendimiento
 - Las decisiones de Edge se limitan a atributos de perfil disponibles en el almacén de perfiles Edge
-- Solo puede haber una política de combinación activa en Edge por zona protegida — [Protecciones de perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- Máximo de 25 atributos calculados activos por zona protegida: [Controles de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- Máximo de 4000 definiciones de segmento por zona protegida — [Protecciones de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- Ingesta de transmisión: máximo de 20 000 registros por segundo por conexión HTTP — [Protecciones de ingesta](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- Solo puede haber una política de combinación activa en Edge por zona protegida — [Protecciones de perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
+- Máximo de 25 atributos calculados activos por zona protegida: [Controles de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview)
+- Máximo de 4000 definiciones de segmento por zona protegida — [Protecciones de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
+- Ingesta de transmisión: máximo de 20 000 registros por segundo por conexión HTTP — [Protecciones de ingesta](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails)
 
 ### Peligros comunes
 
@@ -694,12 +694,12 @@ Los siguientes recursos proporcionan detalles adicionales sobre las tecnologías
 ### Administración de decisiones
 
 - [Información general de Administración de decisiones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [Creación de ubicaciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Creación de reglas de decisión](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Creación de ubicaciones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [Creación de reglas de decisión](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Crear ofertas personalizadas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Crear ofertas de reserva](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Crear colecciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
-- [Crear calificadores de colección](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-tags)
+- [Crear calificadores de colección](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-tags)
 - [Crear decisiones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-activities)
 - [Estrategias de clasificación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/ranking/ranking-strategies)
 - [Entrega de ofertas en mensajes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
@@ -707,43 +707,43 @@ Los siguientes recursos proporcionan detalles adicionales sobre las tecnologías
 
 ### Recopilación de datos y SDK web/móvil
 
-- [Información general de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Instalación de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
+- [Información general de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home)
+- [Instalación de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/install/overview)
 - [Información general de Mobile SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [Configuración de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Información general sobre API de Edge Network Server](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
+- [Configuración de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+- [Información general sobre API de Edge Network Server](https://experienceleague.adobe.com/es/docs/experience-platform/edge-network-server-api/overview)
 
 ### XDM y modelado de datos
 
-- [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Conceptos básicos de composición](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [Crear un conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create)
-- [Definición de una relación entre dos esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-api)
+- [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)
+- [Conceptos básicos de composición](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition)
+- [Crear un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/create)
+- [Definición de una relación entre dos esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-api)
 
 ### Identidad y perfil
 
-- [Introducción al servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
 - [Información general sobre áreas de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces)
-- [Resumen de políticas de combinación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [Resumen del perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Resumen de políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview)
+- [Resumen del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home)
 
 ### Audiencias y segmentación
 
-- [Resumen del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Segmentación de streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Segmentación de Edge](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home)
+- [Guía de IU del Generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder)
+- [Segmentación de streaming](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Segmentación de Edge](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### Atributos calculados y enriquecimiento de perfiles
 
-- [Resumen de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [Guía de IU de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
-- [Información general sobre Customer AI](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview)
+- [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview)
+- [Guía de IU de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/ui)
+- [Información general sobre Customer AI](https://experienceleague.adobe.com/es/docs/experience-platform/intelligent-services/customer-ai/overview)
 
 ### Configuración de canal
 
-- [Introducción a la configuración de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [Configuración de superficies de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Introducción a la configuración de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Configuración de superficies de canal](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
 - [Delegar subdominios](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 
 ### Creación y personalización de mensajes
@@ -752,38 +752,38 @@ Los siguientes recursos proporcionan detalles adicionales sobre las tecnologías
 - [Añadir personalización](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Sintaxis de Personalization](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [Contenido dinámico](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [Trabajo con plantillas de contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [Trabajo con plantillas de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 
 ### Informes y análisis
 
 - [Informe global de campaña](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [Informe global de recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Trabajo con Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Información general de CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Información general de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Resumen de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Información general de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home)
+- [Resumen de métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
 
 ### Gobernanza de datos y ciclo vital
 
-- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home)
 - [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview)
-- [Información general sobre Advanced Data Lifecycle Management](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
-- [Caducidad de conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration)
+- [Información general sobre Advanced Data Lifecycle Management](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home)
+- [Caducidad de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/ui/dataset-expiration)
 
 ### Monitorización y observabilidad
 
-- [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
-- [Resumen de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home)
+- [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview)
 
 ### Guardas
 
-- [protecciones de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- [Protecciones del perfil del cliente en tiempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Protecciones de ingesta](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- [Protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- [protecciones de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails)
+- [Protecciones del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
+- [Protecciones de ingesta](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails)
+- [Protecciones del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails)
 
 ### Tutoriales y guías
 
-- [Resumen de orígenes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Información general sobre etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
-- [Grupo de campos de consentimiento y preferencias](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+- [Información general sobre etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home)
+- [Grupo de campos de consentimiento y preferencias](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/consents)
