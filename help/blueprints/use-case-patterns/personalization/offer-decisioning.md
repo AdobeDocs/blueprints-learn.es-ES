@@ -84,9 +84,9 @@ Consulte la sección [Opciones de implementación](#implementation-options) para
 
 En este patrón de caso de uso se utilizan las siguientes aplicaciones de Adobe.
 
-- **[!DNL Adobe Journey Optimizer](AJO)**: motor de administración de decisiones para la creación de ofertas, reglas de elegibilidad, estrategias de clasificación, ubicaciones y políticas de decisión; configuración de canal y creación de mensajes para la entrega de ofertas; ejecución de campañas y recorridos
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Evaluación de audiencia para segmentos de elegibilidad de ofertas; datos de perfil y atributos calculados utilizados en la elegibilidad y la clasificación
-- **[!DNL Adobe Experience Platform](AEP)**: almacén de perfiles unificado, resolución de identidades y base de datos compatible con AJO y RT-CDP
+- **[!DNL Adobe Journey Optimizer] (AJO)**: motor de administración de decisiones para la creación de ofertas, reglas de elegibilidad, estrategias de clasificación, ubicaciones y políticas de decisión; configuración de canal y creación de mensajes para la entrega de ofertas; ejecución de campañas y recorridos
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Evaluación de audiencia para segmentos de elegibilidad de ofertas; datos de perfil y atributos calculados utilizados en la elegibilidad y la clasificación
+- **[!DNL Adobe Experience Platform] (AEP)**: almacén de perfiles unificado, resolución de identidades y base de datos compatible con AJO y RT-CDP
 
 ## Funciones básicas
 

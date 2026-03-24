@@ -87,9 +87,9 @@ Consulte la sección Composición del patrón en Consideraciones de implementaci
 
 En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 
-- **[!DNL Adobe Journey Optimizer](AJO) Decisioning**: Estrategias de selección, modelos de clasificación, catálogos de elementos y políticas de decisión que evalúan las señales de comportamiento y devuelven los elementos más relevantes para cada visitante
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)**: acumulación de datos de perfil de comportamiento, evaluación de audiencia para ámbitos de recomendación y atributos calculados para puntuación de afinidad de comportamiento
-- **[!DNL Adobe Experience Platform](AEP)** — Ingesta de evento de comportamiento a través de [!DNL Web SDK] y [!DNL Mobile SDK], procesamiento de [!DNL Edge Network], administración de esquema XDM para datos de catálogo y evento
+- **[!DNL Adobe Journey Optimizer] (AJO) Decisioning**: Estrategias de selección, modelos de clasificación, catálogos de elementos y políticas de decisión que evalúan las señales de comportamiento y devuelven los elementos más relevantes para cada visitante
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)**: acumulación de datos de perfil de comportamiento, evaluación de audiencia para ámbitos de recomendación y atributos calculados para puntuación de afinidad de comportamiento
+- **[!DNL Adobe Experience Platform] (AEP)** — Ingesta de evento de comportamiento a través de [!DNL Web SDK] y [!DNL Mobile SDK], procesamiento de [!DNL Edge Network], administración de esquema XDM para datos de catálogo y evento
 
 ## Funciones básicas
 

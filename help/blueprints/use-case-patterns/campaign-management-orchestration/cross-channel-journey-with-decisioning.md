@@ -94,10 +94,10 @@ Orqueste un recorrido de varios pasos y canales que incorpore la toma de decisio
 
 Las siguientes aplicaciones se utilizan para implementar este patrón de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer]([!DNL AJO])**: orquestación de Recorrido (diseño de lienzo de varios pasos, condiciones de entrada, esperas, condiciones, criterios de salida), creación de mensajes en todos los canales, configuración de superficie de canal, administración de conflictos y prioridades
+- **[!DNL Adobe Journey Optimizer] ([!DNL AJO])**: orquestación de Recorrido (diseño de lienzo de varios pasos, condiciones de entrada, esperas, condiciones, criterios de salida), creación de mensajes en todos los canales, configuración de superficie de canal, administración de conflictos y prioridades
 - **[!DNL Adobe Journey Optimizer]decisión**: administración de ofertas y elementos de contenido, reglas de elegibilidad, estrategias de clasificación (prioridad, fórmula, IA), políticas de decisión, ubicaciones, ofertas de reserva
-- **[!DNL Adobe Real-Time Customer Data Platform]([!DNL RT-CDP])**: evaluación de audiencia para segmentos de idoneidad de entrada de recorrido y oferta, enriquecimiento de perfil con atributos calculados y puntuaciones de tendencia, aplicación de consentimiento y gobernanza
-- **[!DNL Adobe Experience Platform]([!DNL AEP])**: almacén de perfiles de cliente en tiempo real, servicio de identidad para resolución en canales múltiples, modelado de datos e infraestructura de ingesta
+- **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])**: evaluación de audiencia para segmentos de idoneidad de entrada de recorrido y oferta, enriquecimiento de perfil con atributos calculados y puntuaciones de tendencia, aplicación de consentimiento y gobernanza
+- **[!DNL Adobe Experience Platform] ([!DNL AEP])**: almacén de perfiles de cliente en tiempo real, servicio de identidad para resolución en canales múltiples, modelado de datos e infraestructura de ingesta
 
 ## Funciones básicas
 

@@ -90,9 +90,9 @@ Evalúe una audiencia y luego envíe un mensaje saliente programado (correo elec
 
 Las siguientes aplicaciones se utilizan para implementar este patrón.
 
-- **[!DNL Adobe Journey Optimizer](AJO)**: creación de mensajes, configuración de canal, ejecución de campañas, orquestación de recorrido, experimentación de contenido, reglas de frecuencia y generación de informes
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)**: evaluación de audiencias, cumplimiento de consentimiento y gobernanza
-- **[!DNL Adobe Experience Platform](AEP)**: almacén de perfiles, servicio de identidad, esquemas, conjuntos de datos, recopilación de datos
+- **[!DNL Adobe Journey Optimizer] (AJO)**: creación de mensajes, configuración de canal, ejecución de campañas, orquestación de recorrido, experimentación de contenido, reglas de frecuencia y generación de informes
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)**: evaluación de audiencias, cumplimiento de consentimiento y gobernanza
+- **[!DNL Adobe Experience Platform] (AEP)**: almacén de perfiles, servicio de identidad, esquemas, conjuntos de datos, recopilación de datos
 
 ## Funciones básicas
 
