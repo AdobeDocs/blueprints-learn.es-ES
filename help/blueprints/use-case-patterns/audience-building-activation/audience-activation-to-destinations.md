@@ -357,8 +357,8 @@ El método de evaluación debe adaptarse al destino más exigente. Si algún des
 - [Referencia de Profile Query Language](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/pql/overview)
 - [Segmentación de streaming](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Segmentación de Edge](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Resumen de composición de audiencia](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Métodos de evaluación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
+- [Resumen de composición de audiencia](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-composition)
+- [Métodos de evaluación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home#evaluation-methods)
 
 
 ### Fase 2: Configuración del destino
@@ -435,7 +435,7 @@ Repita esta fase para cada destino. Cada conexión es independiente: puede tener
 - [Activar audiencias para destinos de exportación de perfiles por lotes](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [Activar audiencias en destinos de flujo continuo](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
 - [Información general de Destination SDK](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/destination-sdk/overview)
-- [Opciones de configuración de Destination SDK](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [Opciones de configuración de Destination SDK](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### Fase 3: Activación de audiencia
@@ -544,7 +544,7 @@ Repita el flujo de trabajo de activación para cada destino. La misma audiencia 
 - [Aplicación de políticas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/overview)
 - [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview)
 - [Consentimiento y preferencias](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Aplicación de políticas de consentimiento](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
+- [Aplicación de políticas de consentimiento](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/policies/user-guide)
 
 
 ### Fase 5: Monitorización y validación
@@ -567,7 +567,7 @@ Repita el flujo de trabajo de activación para cada destino. La misma audiencia 
 
 - [Monitorización de flujos de datos para destinos](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview)
-- [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home)
 - [Panel de control de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## Consideraciones sobre la implementación
@@ -582,7 +582,7 @@ Revise las siguientes consideraciones antes y durante la implementación.
 - **Rendimiento de destino de streaming:** Cada socio de destino establece límites de rendimiento por segundo; los cambios de audiencia de gran volumen pueden verse limitados
 - **Capacidad de evaluación por lotes:** Hasta 24 millones de perfiles por trabajo de evaluación de segmentos de forma predeterminada
 - **Composición de audiencia:** máximo de 10 bloques de composición por lienzo; las audiencias compuestas solo se evalúan por lotes
-- **Gráfico de identidad:** Máximo de 50 identidades por gráfico: [protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- **Gráfico de identidad:** Máximo de 50 identidades por gráfico: [protecciones del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails)
 - **Atributos calculados:** Máximo de 25 atributos calculados por zona protegida — [Protecciones de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **Introducción a las protecciones de activación:** [Protecciones de activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails)
 
@@ -669,15 +669,15 @@ Revise las siguientes consideraciones antes y durante la implementación.
 - [Referencia de Profile Query Language](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/pql/overview)
 - [Segmentación de streaming](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Segmentación de Edge](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Resumen de composición de audiencia](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [Resumen de composición de audiencia](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-composition)
 - [Protecciones de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
 
 **Identidad y perfil**
 
 - [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
 - [Información general sobre áreas de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces)
-- [Reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [Resumen del perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Reglas de vinculación de gráficos de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-linking-logic)
+- [Resumen del perfil](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home)
 - [Resumen de políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview)
 
 **Esquemas y modelado de datos**
@@ -689,7 +689,7 @@ Revise las siguientes consideraciones antes y durante la implementación.
 
 - [Información general sobre la gobernanza de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home)
 - [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview)
-- [Políticas de gobernanza de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+- [Políticas de gobernanza de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/policies/overview)
 - [Aplicación de políticas](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/overview)
 - [Consentimiento y preferencias](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
@@ -697,13 +697,13 @@ Revise las siguientes consideraciones antes y durante la implementación.
 
 - [Monitorización de flujos de datos para destinos](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview)
-- [Resumen de Observability Insights](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home)
 - [Panel de control de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **Atributos calculados**
 
 - [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview)
-- [Guía de IU de atributos calculados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [Guía de IU de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/ui)
 
 **Recopilación de datos y orígenes**
 
@@ -715,11 +715,11 @@ Revise las siguientes consideraciones antes y durante la implementación.
 
 - [Información general de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home)
 - [Información general de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home)
-- [Control de acceso basado en atributos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [Control de acceso basado en atributos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/overview)
 
 **Protecciones**
 
 - [Protecciones del perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
-- [Protecciones del servicio de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- [Protecciones del servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/guardrails)
 - [Protecciones de activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails)
-- [Protecciones de ingesta](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Protecciones de ingesta](https://experienceleague.adobe.com/es/docs/experience-platform/ingestion/guardrails)

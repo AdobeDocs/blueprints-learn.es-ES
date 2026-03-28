@@ -90,9 +90,9 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 | Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Administración y gobernanza | Requerido | Una zona protegida debe estar activa con las funciones de usuario y los permisos adecuados configurados. Los usuarios que administran el reenvío de eventos necesitan permisos de recopilación de datos en [!DNL Adobe Admin Console], incluidos los derechos para administrar las propiedades, extensiones y reglas del reenvío de eventos. | [Resumen de control de acceso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Modelado y preparación de datos | Requerido | Se deben definir esquemas XDM para los datos de evento que fluyen a través de Edge Network. La secuencia de datos debe hacer referencia a un esquema XDM ExperienceEvent válido para que las reglas del reenvío de eventos puedan acceder a campos estructurados para el filtrado, la transformación y la asignación. | [Información general del sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Fuentes de datos y recopilación | Requerido | Un mecanismo de recopilación de datos debe estar activo (Web SDK, Mobile SDK o API de servidor de Edge Network) y enviar eventos a través de un flujo de datos configurado. La secuencia de datos es la capa de enrutamiento fundamental que conecta la colección del lado del cliente con el reenvío de eventos del lado del servidor. | [Configurar flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| Administración y gobernanza | Requerido | Una zona protegida debe estar activa con las funciones de usuario y los permisos adecuados configurados. Los usuarios que administran el reenvío de eventos necesitan permisos de recopilación de datos en [!DNL Adobe Admin Console], incluidos los derechos para administrar las propiedades, extensiones y reglas del reenvío de eventos. | [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
+| Modelado y preparación de datos | Requerido | Se deben definir esquemas XDM para los datos de evento que fluyen a través de Edge Network. La secuencia de datos debe hacer referencia a un esquema XDM ExperienceEvent válido para que las reglas del reenvío de eventos puedan acceder a campos estructurados para el filtrado, la transformación y la asignación. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) |
+| Fuentes de datos y recopilación | Requerido | Un mecanismo de recopilación de datos debe estar activo (Web SDK, Mobile SDK o API de servidor de Edge Network) y enviar eventos a través de un flujo de datos configurado. La secuencia de datos es la capa de enrutamiento fundamental que conecta la colección del lado del cliente con el reenvío de eventos del lado del servidor. | [Configurar flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) |
 | Configuración de identidad y perfil | No aplicable | El reenvío de eventos funciona con datos de evento sin procesar en la capa de Edge Network, antes de que se produzca la resolución de identidades o la unificación de perfiles. Las áreas de nombres de identidad y las políticas de combinación no son necesarias a menos que los eventos reenviados también tengan que contribuir al Perfil del cliente en tiempo real (que es una configuración de servicio de flujo de datos independiente, no un problema de reenvío de eventos). | |
 | Definición de audiencia y segmentación | No aplicable | El reenvío de eventos procesa eventos individuales en tiempo real y no evalúa la pertenencia a audiencias. El filtrado basado en audiencias no forma parte de la cadena de funciones del reenvío de eventos. Si es necesaria la activación basada en audiencias, consulte el plan de referencia de Audience Activation a destinos. | |
 
@@ -103,10 +103,10 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | No aplicable | El reenvío de eventos funciona con datos de evento sin procesar, no con atributos calculados de nivel de perfil. Los atributos calculados no están disponibles en el contexto del reenvío de eventos. | |
-| Administración del ciclo de datos | Recomendado | Si los datos de evento también se están introduciendo en conjuntos de datos de AEP (a través del mismo flujo de datos), deben configurarse políticas de retención de datos (caducidad) para esos conjuntos de datos a fin de administrar los costes de almacenamiento y el cumplimiento de la normativa. El reenvío de eventos en sí no almacena datos, pero la ruta de ingesta de AEP paralela sí. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etiquetado y aplicación del uso de datos | Recomendado | Aunque las reglas del reenvío de eventos proporcionan un filtrado a nivel de campo (que le permite excluir datos confidenciales de las cargas útiles reenviadas), la aplicación de etiquetas de uso de datos a los esquemas y conjuntos de datos subyacentes garantiza que las políticas de gobernanza se apliquen si los mismos datos se utilizan para la activación o personalización de audiencias. | [Resumen de control de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Monitorización y observabilidad | Incluido | La monitorización es esencial para el reenvío de eventos. El panel Supervisión del reenvío de eventos proporciona visibilidad sobre las tasas de éxito de reenvío, las tasas de error y los códigos de respuesta de destino. Las alertas deben configurarse para los errores de destino. | [Supervisión del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
-| Informes y análisis | Recomendado | Si los eventos reenviados alimentan una plataforma de análisis de terceros, considere la posibilidad de conectar los mismos conjuntos de datos de eventos de AEP a CJA para obtener una vista unificada en canales múltiples. Esto permite comparar análisis del lado de Adobe con análisis de terceros. | [Información general de CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Administración del ciclo de datos | Recomendado | Si los datos de evento también se están introduciendo en conjuntos de datos de AEP (a través del mismo flujo de datos), deben configurarse políticas de retención de datos (caducidad) para esos conjuntos de datos a fin de administrar los costes de almacenamiento y el cumplimiento de la normativa. El reenvío de eventos en sí no almacena datos, pero la ruta de ingesta de AEP paralela sí. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
+| Etiquetado y aplicación del uso de datos | Recomendado | Aunque las reglas del reenvío de eventos proporcionan un filtrado a nivel de campo (que le permite excluir datos confidenciales de las cargas útiles reenviadas), la aplicación de etiquetas de uso de datos a los esquemas y conjuntos de datos subyacentes garantiza que las políticas de gobernanza se apliquen si los mismos datos se utilizan para la activación o personalización de audiencias. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home) |
+| Monitorización y observabilidad | Incluido | La monitorización es esencial para el reenvío de eventos. El panel Supervisión del reenvío de eventos proporciona visibilidad sobre las tasas de éxito de reenvío, las tasas de error y los códigos de respuesta de destino. Las alertas deben configurarse para los errores de destino. | [Supervisión del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/monitoring) |
+| Informes y análisis | Recomendado | Si los eventos reenviados alimentan una plataforma de análisis de terceros, considere la posibilidad de conectar los mismos conjuntos de datos de eventos de AEP a CJA para obtener una vista unificada en canales múltiples. Esto permite comparar análisis del lado de Adobe con análisis de terceros. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funciones de aplicación
 
@@ -153,7 +153,7 @@ La compensación es que la disponibilidad de la extensión determina qué destin
 
 **Consideraciones clave:**
 
-- La disponibilidad de la extensión varía: compruebe el [catálogo de extensiones de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview) antes de planificar
+- La disponibilidad de la extensión varía: compruebe el [catálogo de extensiones de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/overview) antes de planificar
 - Adobe o sus socios mantienen las extensiones; las actualizaciones pueden introducir cambios importantes que requieran ajustes de las reglas
 - Algunas extensiones solo admiten tipos de evento específicos o requieren asignaciones de campo XDM específicas
 - Las extensiones administran la autenticación y la administración de credenciales en su IU de configuración
@@ -175,11 +175,11 @@ La compensación es que la disponibilidad de la extensión determina qué destin
 
 **Experience League:**
 
-- [Catálogo de extensiones de reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Extensión de API de conversiones de Meta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Extensión de Google Cloud Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [Extensión de AWS](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Extensión de Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Catálogo de extensiones de reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/overview)
+- [Extensión de API de conversiones de Meta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Extensión de Google Cloud Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [Extensión de AWS](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Extensión de Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/snowflake/overview)
 
 ### Opción B: reenvío de eventos de webhook personalizado (API de recuperación)
 
@@ -218,8 +218,8 @@ La compensación es un mayor esfuerzo de implementación y mantenimiento continu
 
 **Experience League:**
 
-- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Secretos del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Secretos del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/secrets)
 
 ### Opción C: híbrida (extensiones + webhooks personalizados)
 
@@ -253,8 +253,8 @@ Este método maximiza la cobertura y minimiza el desarrollo personalizado innece
 
 **Experience League:**
 
-- [Resumen del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Introducción al reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Resumen del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/overview)
+- [Introducción al reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### Comparación de opciones
 
@@ -325,9 +325,9 @@ Las siguientes fases describen el proceso de implementación de extremo a extrem
 
 **Documentación de Experience League:**
 
-- [Configuración de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Resumen de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Resumen del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Configuración de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+- [Resumen de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview)
+- [Resumen del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/overview)
 
 ### Fase 2: propiedad y extensiones del reenvío de eventos
 
@@ -372,10 +372,10 @@ Las siguientes fases describen el proceso de implementación de extremo a extrem
 
 **Documentación de Experience League:**
 
-- [Introducción al reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Catálogo de extensiones de reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Secretos del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
-- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Introducción al reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Catálogo de extensiones de reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/overview)
+- [Secretos del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/secrets)
+- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Fase 3: Definición de regla de evento
 
@@ -448,10 +448,10 @@ Cree reglas independientes para cada destino. Las reglas basadas en extensiones 
 
 **Documentación de Experience League:**
 
-- [Reglas de reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Elementos de datos en el reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
-- [Reglas en la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
-- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Reglas de reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/overview)
+- [Elementos de datos en el reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/data-elements)
+- [Reglas en la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/rules)
+- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Fase 4: Publicación y activación
 
@@ -484,10 +484,10 @@ Cree reglas independientes para cada destino. Las reglas basadas en extensiones 
 
 **Documentación de Experience League:**
 
-- [Resumen de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
-- [Bibliotecas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)
+- [Resumen de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview)
+- [Bibliotecas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/libraries)
 - [Entornos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments)
-- [Versiones](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds)
+- [Versiones](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/builds)
 
 ### Fase 5: Monitorización y validación
 
@@ -521,9 +521,9 @@ Cree reglas independientes para cada destino. Las reglas basadas en extensiones 
 
 **Documentación de Experience League:**
 
-- [Supervisión del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)
-- [Resumen de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Supervisión del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/es/docs/experience-platform/debugger/home)
+- [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview)
 
 ## Consideraciones sobre la implementación
 
@@ -605,26 +605,26 @@ Los siguientes recursos proporcionan detalles adicionales sobre los temas tratad
 
 **Reenvío de eventos**
 
-- [Resumen del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Introducción al reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Supervisión del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Secretos del reenvío de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Resumen del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/overview)
+- [Introducción al reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Supervisión del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Secretos del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/secrets)
 
 **Extensiones de reenvío de eventos**
 
-- [Catálogo de extensiones del lado del servidor](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Extensión de API de conversiones de Meta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Extensión de Google Cloud Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [Extensión de AWS](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Extensión de Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Extensión de conversiones mejoradas de Google Ads](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Extensión de Mailchimp](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [Catálogo de extensiones del lado del servidor](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/overview)
+- [Extensión de conector de Adobe Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Extensión de API de conversiones de Meta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Extensión de Google Cloud Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [Extensión de AWS](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Extensión de Snowflake](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Extensión de conversiones mejoradas de Google Ads](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Extensión de Mailchimp](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **Recopilación de datos y Edge Network**
 
-- [Configuración de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Resumen de flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Información general de Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Información general sobre API de Edge Network Server](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [Información general sobre etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [Configuración de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+- [Resumen de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview)
+- [Información general de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home)
+- [Información general sobre API de Edge Network Server](https://experienceleague.adobe.com/es/docs/experience-platform/edge-network-server-api/overview)
+- [Información general sobre etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home)
