@@ -3,9 +3,9 @@ title: Casos de uso minorista
 description: Descubra cómo las organizaciones de minoristas utilizan Adobe Experience Platform para personalizar las experiencias de compra, recuperar los carros de compras abandonados e impulsar la lealtad de los clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '6166'
+source-wordcount: '7216'
 ht-degree: 0%
 
 ---
@@ -491,3 +491,111 @@ Utilice el patrón de [Experiencia conversacional de Brand Concierge](/help/blue
 - Las protecciones de seguridad de marca deben configurarse para evitar que el agente hable de productos de la competencia, realice compromisos de precios que entren en conflicto con las promociones o responda a consultas fuera de tema.
 - La lógica de transferencia a los agentes activos requiere integración con la plataforma de servicio y debe activarse cuando el agente de IA no pueda resolver la consulta del cliente después de un número definido de turnos.
 - La integración de datos de perfil permite al agente personalizar las respuestas en función del historial de compras y el estado de lealtad, pero esto requiere la resolución de la identidad antes de que comience la sesión conversacional.
+
+## Recordatorio de llegada con la descarga de la aplicación para CTA
+
+Recuerde a los huéspedes que deben registrarse y animarlos a descargar la aplicación para acceder a la información fácilmente. Los recordatorios de registro oportunos junto con las indicaciones de descarga de aplicaciones impulsan la participación móvil y permiten experiencias in situ más enriquecidas.
+
+### Impacto empresarial
+
+Los minoristas que combinan recordatorios de registro con llamadas a la acción de descarga de aplicaciones ven mayores tasas de adopción de aplicaciones y una mayor participación en la tienda, ya que los clientes que utilizan la aplicación móvil tienden a interactuar con mayor frecuencia con las promociones y el contenido del lugar de celebración.
+
+### Cómo implementar
+
+Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para almacenar en déclencheur un recordatorio de ingreso con el CTA de descarga de aplicación basado en la asistencia al evento o en los datos de reservaciones. Este es el patrón correcto cuando es necesario enviar un único mensaje puntual en respuesta a un evento conocido o a un déclencheur de programación.
+
+### Consideraciones técnicas
+
+- Los recordatorios de llegada deben programarse adecuadamente en relación con el evento o la fecha de visita para maximizar la participación sin que se perciban como demasiado pronto o demasiado tarde.
+- Los vínculos profundos de descarga de aplicaciones deben enrutarse a la tienda de aplicaciones correcta en función de la plataforma de dispositivo del cliente (iOS o Android).
+- Los clientes que ya tengan la aplicación instalada deben recibir una variante de mensaje diferente que omita la descarga de CTA y se centre en la funcionalidad de registro.
+
+## Campañas de cumpleaños para fans
+
+Segmenta a los fans en su cumpleaños con un mensaje de cumpleaños personalizado y una oferta exclusiva. Las campañas de cumpleaños crean conexiones emocionales con los fans e impulsan compras incrementales a través de un alcance personalizado y oportuno.
+
+### Impacto empresarial
+
+Las campañas de cumpleaños consistentemente ofrecen tasas de apertura y conversión por encima del promedio porque llegan en un momento de importancia personal, lo que crea buena voluntad y anima a los fans a regalarse una compra especial.
+
+### Cómo implementar
+
+Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar un mensaje de cumpleaños personalizado cuando llegue la fecha de cumpleaños del cliente. Este es el patrón correcto cuando se envía un único mensaje controlado por evento basado en un déclencheur de fecha de atributo de perfil.
+
+### Consideraciones técnicas
+
+- La fecha de cumpleaños debe capturarse en el perfil del cliente y validarse para evitar el envío de mensajes en fechas incorrectas.
+- Las ofertas deben tener un periodo de validez definido (como la semana de cumpleaños) para crear urgencia, al tiempo que ofrecen a los clientes un tiempo razonable para el canje.
+- Los seguidores que no tengan un cumpleaños registrado deben ser excluidos de la campaña en lugar de enviar un mensaje genérico.
+
+## Campañas de cumpleaños para compradores
+
+Segmente a los compradores en su cumpleaños con un mensaje de cumpleaños personalizado y una oferta exclusiva. Las campañas de cumpleaños fortalecen la lealtad de marca al reconocer a los clientes personalmente y alentar una compra de celebración.
+
+### Impacto empresarial
+
+Las ofertas de cumpleaños personalizadas generan tasas de canje más altas que las promociones genéricas porque se alinean con un momento en el que los compradores ya están inclinados a hacer compras discrecionales por sí mismos.
+
+### Cómo implementar
+
+Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para almacenar en déclencheur un mensaje y una oferta de cumpleaños en función del atributo de perfil de fecha de nacimiento del comprador. Este es el patrón correcto cuando se necesita enviar un único mensaje personalizado en una fecha de calendario específica vinculada al perfil del cliente.
+
+### Consideraciones técnicas
+
+- La fecha de cumpleaños debe almacenarse como atributo de perfil y debe recopilarse durante el registro o el registro de fidelidad.
+- La personalización de la oferta debe tener en cuenta el historial de compras y las preferencias del comprador para presentar sugerencias de productos relevantes junto con el descuento de cumpleaños.
+- Se necesita una lógica de supresión duplicada para los clientes que aparecen en varios sistemas para evitar enviar varios mensajes de cumpleaños.
+
+## Campañas de promoción de Game Day
+
+Segmenta a los fans para comprar entradas para un próximo juego con promociones y ofertas personalizadas. Las promociones del día del juego impulsan la venta de entradas al llegar a la audiencia correcta con mensajes oportunos y específicos del evento.
+
+### Impacto empresarial
+
+Las promociones de día de juego dirigidas mejoran las tasas de venta de entradas al llegar a los fans con ofertas relevantes en función de las preferencias de su equipo, la asistencia pasada y la proximidad al lugar de celebración.
+
+### Cómo implementar
+
+Use el patrón [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para enviar mensajes promocionales a audiencias de fans segmentadas antes de los próximos juegos. Este es el patrón correcto cuando se necesita enviar un lote de mensajes personalizados a un segmento de audiencia creado previamente de forma programada.
+
+### Consideraciones técnicas
+
+- Los datos de programación de juegos deben integrarse en las promociones de déclencheur en el tiempo de espera adecuado antes de cada evento.
+- La segmentación de audiencia debe tener en cuenta la afinidad del equipo, la proximidad geográfica y los patrones de asistencia anteriores para maximizar la relevancia.
+- Los clientes que ya hayan comprado entradas para el juego promocionado deben suprimirse de los mensajes de adquisición y, en su lugar, pueden recibir ofertas de ampliación de venta para actualizaciones o complementos.
+
+## Campañas de promoción de productos
+
+Segmente a los compradores para que compren productos durante una campaña de promoción de productos en curso. Las campañas promocionales generan ingresos conectando a los clientes adecuados con ofertas oportunas y adaptadas a las promociones activas.
+
+### Impacto empresarial
+
+Las campañas de promoción de productos dirigidas superan a las promociones de amplio alcance al centrarse en los compradores que tienen más probabilidades de convertirse, reducir el desperdicio promocional y mejorar el retorno de la inversión en marketing.
+
+### Cómo implementar
+
+Utilice el patrón [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para enviar mensajes promocionales a segmentos de audiencia calificados durante ventanas de campaña activas. Este es el patrón correcto cuando un lote programado de mensajes promocionales personalizados necesita llegar a una audiencia definida durante una campaña con tiempo limitado.
+
+### Consideraciones técnicas
+
+- Las fechas de inicio y finalización de la promoción deben administrarse para garantizar que los mensajes solo se envíen durante la ventana de promoción activa.
+- La segmentación de audiencia debe aprovechar el historial de compras, el comportamiento de navegación y la afinidad del producto para dirigirse a los compradores que tienen más probabilidades de interactuar con los productos promocionados.
+- La restricción de frecuencia debe aplicarse para evitar la fatiga promocional, especialmente cuando se ejecutan varias campañas simultáneamente.
+
+## Abandonar carro de compras
+
+Vuelva a atraer a los clientes que abandonen su carro de compras con recordatorios e incentivos personalizados para completar la compra. La recuperación del abandono del carro de compras es uno de los casos de uso de ROI más altos en el marketing minorista.
+
+### Impacto empresarial
+
+Las campañas de recuperación de abandono del carro de compras recuperan un porcentaje significativo de los ingresos que, de lo contrario, se perderían al volver a atraer a los compradores en el momento de la intención de compra más alta con recordatorios e incentivos personalizados.
+
+### Cómo implementar
+
+Utilice el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para almacenar en déclencheur un mensaje de recuperación cuando se detecte un evento de abandono del carro de compras. Este es el patrón correcto cuando es necesario enviar un único mensaje en tiempo real en respuesta a un evento de comportamiento, como dejar elementos en el carro de compras sin completar el cierre de compra.
+
+### Consideraciones técnicas
+
+- La detección de abandono del carro de compras requiere un umbral de inactividad definido (normalmente de 30 a 60 minutos) para distinguir el abandono verdadero de los clientes que aún están explorando.
+- El contenido del carro de compras debe pasarse en la carga útil de evento para habilitar recordatorios de producto personalizados en el mensaje de recuperación.
+- Los clientes que completan su compra entre el evento de abandono y el envío del mensaje deben estar suprimidos para evitar mensajes irrelevantes.

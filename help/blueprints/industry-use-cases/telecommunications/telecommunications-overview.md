@@ -3,9 +3,9 @@ title: Casos de uso de telecomunicaciones
 description: Descubra cómo las organizaciones de telecomunicaciones utilizan Adobe Experience Platform para reducir la pérdida, impulsar las actualizaciones de los dispositivos y mejorar la participación de los clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3533'
 ht-degree: 0%
 
 ---
@@ -232,26 +232,6 @@ Use el patrón [Personalization](/help/blueprints/use-case-patterns/personalizat
 - Conecte los datos de diagnóstico del dispositivo para ofrecer recomendaciones de resolución de problemas adaptadas en función del modelo de dispositivo y la versión de software específicos del suscriptor.
 - Utilice los servicios perimetrales [!DNL Adobe Experience Platform] para ofrecer personalización con baja latencia dentro de la experiencia de la aplicación sin afectar el rendimiento.
 - Implemente bucles de comentarios para que los suscriptores puedan informar sobre problemas de cobertura, enriqueciendo los datos de red y mostrando al mismo tiempo la capacidad de respuesta a su experiencia.
-
-
-## Participación del programa de fidelización
-
-Personalice las comunicaciones, las recompensas y las ofertas del programa de fidelidad en función del nivel del cliente, el saldo de puntos y el historial de canje, al tiempo que arbitra en tiempo real en los canales de aplicaciones, web, SMS y tiendas minoristas para evitar que las ofertas duplicadas o en conflicto lleguen al mismo suscriptor. Las restricciones de elegibilidad basadas en la capa determinan a qué recompensas, canjes de socios y promociones puede acceder cada suscriptor, y esas reglas deben aplicarse en el nivel de toma de decisiones en lugar de incrustarse en la lógica de campaña individual. El programa de fidelización también debe coordinarse con campañas de retención y actualización activas para que las ofertas de prevención de pérdida y las recompensas de fidelidad se complementen en lugar de duplicarse la entrega a los suscriptores que están simultáneamente en varios recorridos.
-
-### Impacto empresarial
-
-La participación personalizada en el programa de fidelización mejora la participación en el programa y recompensa el canje, lo que aumenta las tasas de retención entre los suscriptores inscritos.
-
-### Cómo implementar
-
-Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para organizar comunicaciones de fidelidad personalizadas que destaquen recompensas relevantes, notifiquen a los suscriptores del progreso del nivel y presenten oportunidades de canje alineadas con sus preferencias y comportamientos. Este es el patrón correcto cuando el recorrido debe coordinar la entrega a través de los canales para evitar ofertas de lealtad duplicadas y cuando la selección de ofertas requiere estado de nivel e historial de canje: la orquestación de varios pasos por sí sola no proporciona el nivel de toma de decisiones en tiempo real necesario.
-
-### Consideraciones técnicas
-
-- Integre la plataforma de fidelidad para acceder a los saldos de puntos en tiempo real, el estado del nivel y el historial de canje para conseguir una personalización precisa.
-- Conecte los catálogos de recompensas de los socios para presentar una amplia gama de opciones de canje adaptadas a los intereses demostrados y las amortizaciones anteriores de cada suscriptor.
-- Coordine la mensajería de fidelidad con otros recorridos de la campaña para garantizar que las ofertas de retención y las recompensas de fidelidad se complementen en lugar de entrar en conflicto entre sí.
-- Apoye los empujones de progresión del nivel calculando qué tan cerca está un suscriptor del siguiente nivel y presentando pasos procesables para alcanzarlo.
 
 
 ## Asesor de plan de IA

@@ -3,9 +3,9 @@ title: Casos de uso del seguro
 description: Descubra cómo las organizaciones de seguros utilizan Adobe Experience Platform para personalizar la administración de pólizas, mejorar las experiencias de las reclamaciones e impulsar la retención de clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -132,26 +132,6 @@ Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-pat
 - Configurar reglas de tiempo que equilibren la urgencia con el respeto: seguimiento inicial en cuestión de horas, con un número limitado de recordatorios posteriores en los días siguientes.
 - Aplique reglas de consentimiento y privacidad para garantizar que el seguimiento solo se envíe a los posibles clientes que hayan elegido participar en comunicaciones de marketing, especialmente a los clientes que aún no hayan establecido una relación de directiva.
 - Incluya vínculos profundos que devuelvan al cliente potencial directamente a su cotización guardada en lugar de exigirle que reinicie el proceso desde el principio.
-
-
-## Ofertas de productos por fases de Life
-
-Identifique a los clientes que entran en nuevas etapas de vida, como matrimonio, compra de vivienda, familia en crecimiento o jubilación, y ofrezca productos de seguro relevantes que coincidan con sus cambiantes necesidades de protección. La segmentación por etapas de vida ayuda a los asegurados a construir la cobertura correcta en el momento adecuado.
-
-### Impacto empresarial
-
-Las ofertas de productos basadas en etapas de vida obtienen tasas de adopción de productos mejoradas en las etapas de vida, lo que profundiza las relaciones con los clientes durante los momentos clave de toma de decisiones.
-
-### Cómo implementar
-
-Usar el patrón [Cross-Channel Recorrido with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Las transiciones de fase de vida se benefician de la orquestación entre canales combinada con la toma de decisiones en tiempo real para seleccionar el producto más relevante y entregarlo a través del canal preferido del cliente en el momento óptimo. Este es el patrón correcto cuando el recorrido debe coordinar la entrega a través de varios canales para garantizar ofertas coherentes y, al mismo tiempo, aprovechar la toma de decisiones para seleccionar el producto más adecuado para la fase de vida detectada: la orquestación de varios pasos por sí sola no puede proporcionar la elegibilidad en tiempo real y la evaluación de idoneidad necesarias para las recomendaciones de productos de seguro.
-
-### Consideraciones técnicas
-
-- Genere modelos de detección de etapas de vida usando señales de comportamiento como cambios de dirección, actualizaciones de beneficiarios y patrones de investigación en línea, combinados con eventos de cambio de políticas.
-- Configure el motor de toma de decisiones con reglas de idoneidad y elegibilidad del producto que coincidan con cada fase de vida útil y con las recomendaciones de cobertura adecuadas.
-- Coordine las ofertas de fase de vida con el agente o corredor asignado para que estén preparados para ayudar al cliente con una conversación consultiva cuando se entregue la oferta.
-- Aplique etiquetas de control de datos a cualquier fuente de datos de terceros que se utilice para la inferencia de la fase de vida a fin de garantizar el cumplimiento de las normas de privacidad de datos y las prácticas de marketing leales.
 
 
 ## Oportunidades de Descuento y Ahorro
