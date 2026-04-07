@@ -3,9 +3,9 @@ title: Casos de uso de viajes y hospitalidad
 description: Descubra cómo las organizaciones de viajes y hospitalidad utilizan Adobe Experience Platform para personalizar las experiencias de reserva, recuperar las reservas abandonadas y crear lealtad de los huéspedes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '4015'
+source-wordcount: '3744'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,6 @@ Usar el patrón [Personalization web de visitante anónimo](/help/blueprints/use
 - Las reglas de Personalization deben tener en cuenta las tendencias estacionales de los viajes por región, mostrando destinos con clima cálido a visitantes en climas fríos durante los meses de invierno, por ejemplo.
 - Las estrategias de contenido de reserva son esenciales para los visitantes cuya ubicación no se puede determinar o que llegan a través de servicios de anonimato.
 - La integración con la fuente de disponibilidad del sistema de reservas garantiza que las propiedades e itinerarios destacados se puedan reservar, lo que evita que la frustración promocione las opciones agotadas.
-
-
-## Recorrido de recuperación de abandono del carro
-
-Detecte automáticamente cuando un cliente abandone su carro de déclencheur y envíe un recorrido de correo electrónico de varios pasos con ofertas personalizadas para fomentar la finalización. Las reservas abandonadas representan una de las mayores fugas de ingresos en viajes y hospitalidad, y el seguimiento oportuno mientras la intención de viaje sigue siendo fresca recupera una parte significativa de esas reservas.
-
-### Impacto empresarial
-
-Los programas efectivos de recuperación de reservas logran tasas significativas de recuperación del carro de compras y pueden generar ingresos incrementales significativos en función del volumen de reserva y el valor promedio del viaje.
-
-### Cómo implementar
-
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a un evento de abandono del carro de compras en tiempo real, lo que envía un recordatorio oportuno mientras la intención de viaje del cliente sigue siendo alta. Este es el patrón correcto cuando el déclencheur es un evento de comportamiento del cliente en tiempo real y la respuesta requerida es un mensaje único y con distinción de tiempo, en lugar de una secuencia de cultivo de varios pasos o una selección de ofertas dinámicas que cambian según la respuesta del cliente.
-
-### Consideraciones técnicas
-
-- Los umbrales de detección de abandono del carro de compras deben tener en cuenta los ciclos de consideración más largos típicos de las compras de viajes; un retraso de 2 a 4 horas antes del primer recordatorio suele ser más apropiado que los 30 a 60 minutos utilizados en el comercio minorista.
-- El contenido del correo electrónico debe extraer dinámicamente los precios actuales, la disponibilidad de la habitación o la cabina y las imágenes del sistema de reservas en el momento de la entrega, ya que el inventario de viajes y las tarifas cambian con frecuencia.
-- Los incentivos personalizados, como las actualizaciones gratuitas o los créditos de resort, se deben administrar a través de reglas comerciales que tengan en cuenta el margen, la estacionalidad y el nivel de lealtad del cliente.
-- La lógica de supresión debe excluir a los clientes que completaron su reserva a través de otro canal, como un centro de llamadas o una agencia de viajes, para evitar mensajes de seguimiento irrelevantes.
 
 
 ## Segmentación de visitantes con intención alta
