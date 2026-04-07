@@ -3,9 +3,9 @@ title: Casos de uso del seguro
 description: Descubra cómo las organizaciones de seguros utilizan Adobe Experience Platform para personalizar la administración de pólizas, mejorar las experiencias de las reclamaciones e impulsar la retención de clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3016'
+source-wordcount: '2543'
 ht-degree: 0%
 
 ---
@@ -152,46 +152,6 @@ Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personali
 - Configure reglas de decisión que tengan en cuenta las limitaciones de apilamiento de descuentos y garantice que las cantidades de ahorro comunicadas sean precisas actuarialmente y aprobadas por el equipo de asignación de precios.
 - Aplique reglas reguladoras específicas del estado a las comunicaciones de descuento, ya que ciertos estados tienen restricciones sobre cómo se pueden comercializar y aplicar los descuentos de seguro.
 - Realice un seguimiento de los resultados de adopción de descuentos para perfeccionar continuamente el modelo de toma de decisiones y priorizar los mensajes de ahorro que más interesan a los distintos segmentos de clientes.
-
-
-## Prevención de fraude de reclamaciones
-
-Utilice la detección inteligente de fraudes para identificar patrones de reclamaciones sospechosas y personalizar las comunicaciones de investigación al tiempo que mantiene la confianza de los clientes. La prevención eficaz del fraude protege a los asegurados honestos al mantener las primas justas y garantizar que las reclamaciones legítimas se procesen rápidamente.
-
-### Impacto empresarial
-
-Los programas inteligentes de prevención del fraude de reclamaciones logran mejores tasas de detección del fraude, reduciendo los pagos fraudulentos y reduciendo los costes generales de las reclamaciones.
-
-### Cómo implementar
-
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Los eventos de puntuación de riesgo de fraude déclencheur comunicaciones de investigación y ajustes de proceso adecuados en tiempo real, lo que garantiza que las reclamaciones marcadas reciban atención inmediata. Este es el patrón correcto cuando un evento derivado del sistema (puntuación de riesgo de fraude) es el déclencheur y la acción necesaria es el ajuste inmediato del proceso interno con una comunicación cuidadosa con el cliente, en lugar de un recorrido de varios pasos o un escenario de toma de decisiones.
-
-### Consideraciones técnicas
-
-- Integre las puntuaciones de riesgo de fraude del sistema de análisis de reclamaciones en el perfil del cliente, al tiempo que aplica etiquetas estrictas de gobernanza de datos para evitar que los datos de investigación de fraude aparezcan en comunicaciones dirigidas al cliente.
-- Diseñe rutas de comunicación que mantengan un tono profesional y respetuoso para los clientes cuyas reclamaciones están en revisión, preservando la relación independientemente del resultado de la investigación.
-- Implemente controles de acceso basados en funciones para garantizar que los indicadores de fraude solo estén visibles para los equipos de investigación autorizados y que nunca aparezcan en las vistas estándar del agente o del servicio al cliente.
-- Coordínese con el servicio de resolución de identidades [!DNL Adobe Experience Platform] para detectar patrones en perfiles relacionados, como direcciones compartidas o números de teléfono vinculados a varias notificaciones sospechosas.
-
-
-## Programas de Bienestar y Prevención
-
-Personalice las comunicaciones del programa de bienestar, los recordatorios de participación y las notificaciones de recompensa para los clientes de seguros de salud y vida en función de sus objetivos y nivel de participación. Los programas activos de bienestar mejoran los resultados de salud de los asegurados y construyen una base de clientes más fuerte y comprometida.
-
-### Impacto empresarial
-
-Las comunicaciones personalizadas del programa de bienestar y prevención impulsan mejores tasas de participación en el programa, lo que contribuye a mejores resultados de salud y a una menor frecuencia de reclamaciones.
-
-### Cómo implementar
-
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Los programas de bienestar son experiencias de participación sostenida con hitos, desafíos y recompensas que requieren orquestación adaptativa basada en la actividad y el progreso de cada participante. Este es el patrón correcto cuando el caso de uso requiere un flujo de varios mensajes a largo plazo con ramas basadas en la participación y ajustes de tiempo adaptables: la mensajería activada por eventos no puede gestionar la compleja lógica de hito ni la necesidad de ajustar la cadencia de la comunicación en función del seguimiento de actividad sostenido.
-
-### Consideraciones técnicas
-
-- Integre con fuentes de datos de aplicaciones de salud y dispositivos portátiles usando la ingesta de transmisión [!DNL Adobe Experience Platform], aplicando etiquetas de control de datos claras para distinguir los datos de salud de los datos de suscripciones o reclamaciones.
-- Implemente mecanismos de consentimiento independientes para la recopilación de datos de bienestar a fin de garantizar que los participantes comprendan cómo se utilizan los datos de sus actividades de salud y puedan excluirse sin afectar a su política.
-- Diseñe una lógica de recorrido que ajuste la intensidad del programa y la frecuencia de la comunicación en función del nivel de participación de cada participante para evitar la fatiga y fomentar la participación sostenida.
-- Involucre a sus equipos legales y de cumplimiento para revisar las estructuras de incentivos de bienestar y los programas de descuento por primas para el cumplimiento con las regulaciones de seguros estatales aplicables antes del lanzamiento.
 
 
 ## Coordinación entre agentes e intermediarios

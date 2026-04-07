@@ -3,9 +3,9 @@ title: Casos de uso minorista
 description: Descubra cómo las organizaciones de minoristas utilizan Adobe Experience Platform para personalizar las experiencias de compra, recuperar los carros de compras abandonados e impulsar la lealtad de los clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '7216'
+source-wordcount: '6082'
 ht-degree: 0%
 
 ---
@@ -34,26 +34,6 @@ Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/
 - El rendimiento de carga de la página debe monitorizarse cuidadosamente, ya que las llamadas de personalización no deben añadir una latencia marcada a la experiencia de compra.
 
 
-## Recuperación de correo electrónico del carro abandonado
-
-Envíe automáticamente recordatorios por correo electrónico personalizados a los clientes que abandonaron su carro de compras, incluidos los artículos exactos que quedaron y las ofertas relevantes para fomentar la finalización. El abandono del carro de compras es una de las mayores fuentes de pérdida de ingresos en el comercio minorista, y el seguimiento oportuno puede recuperar una parte significativa de esas ventas.
-
-### Impacto empresarial
-
-Los programas eficaces de recuperación del carro de compras mejoran las tasas de recuperación del carro de compras y pueden generar ingresos incrementales significativos según el volumen de la tienda.
-
-### Cómo implementar
-
-Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Este método responde a un evento de abandono del carro de compras en tiempo real, lo que envía un recordatorio oportuno mientras la intención de compra sigue siendo alta. Este es el patrón correcto cuando el déclencheur es una acción de cliente discreta y la respuesta necesaria es un mensaje único, con distinción de tiempo, en lugar de una secuencia de varios pasos o una selección de oferta dinámica.
-
-### Consideraciones técnicas
-
-- La detección de abandonos del carro de compras requiere la definición de un umbral de inactividad (normalmente, de 30 a 60 minutos) antes de activar el primer recordatorio, lo que evita enviar mensajes a los clientes que aún realizan compras de forma activa.
-- El contenido del correo electrónico debe extraer dinámicamente las imágenes del producto, los precios y la disponibilidad actuales del catálogo en el momento de la entrega, ya que los artículos pueden agotarse o cambiar el precio entre el abandono y la entrega.
-- Las reglas de restricción de frecuencia deben evitar que los clientes reciban varios correos electrónicos sobre el carro de compras de abandono en un corto período, especialmente si abandonan el carro de compras con frecuencia.
-- Las listas de consentimiento y supresión deben comprobarse antes de la entrega, y los clientes que completaron su compra a través de otro canal deben excluirse en tiempo real.
-
-
 ## Campañas de urgencia basadas en inventario
 
 Déclencheur alertas y campañas en tiempo real cuando el inventario de productos es bajo, lo que crea urgencia y fomenta la compra inmediata. Los compradores que ven que solo quedan unos pocos artículos están motivados a actuar rápidamente en lugar de retrasar su decisión.
@@ -72,7 +52,6 @@ Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-pat
 - Los niveles de umbral deben configurarse por categoría de producto, ya que un umbral de &quot;existencias bajas&quot; para una mercancía de gran volumen difiere significativamente de uno para un artículo de lujo.
 - La mensajería debe ser veraz y cumplir con las regulaciones de protección al consumidor; mostrar una falsa escasez puede dañar la confianza de la marca y puede violar los estándares de publicidad en ciertos mercados.
 - Los canales de mensajería in situ y de correo electrónico deben coordinarse para que un cliente que ya ha adquirido no siga recibiendo notificaciones de urgencia para el mismo producto.
-
 
 ## Recomendaciones de venta cruzada y ampliación de venta
 
@@ -93,27 +72,6 @@ Usar el patrón [Offer Decisioning](/help/blueprints/use-case-patterns/personali
 - Las recomendaciones de venta cruzada al finalizar la compra deben cargarse rápidamente y no interrumpir el flujo de compra. Las sugerencias lentas o intrusivas pueden reducir la conversión.
 - [!DNL Journey Optimizer] reglas de decisión deben incluir ofertas de reserva para que todos los clientes elegibles reciban una recomendación, incluso cuando la opción de mayor clasificación no esté disponible.
 
-
-## Nueva serie de bienvenida al cliente
-
-Automatice una serie de bienvenida de varios correos electrónicos para nuevos clientes con recomendaciones de productos personalizadas, narración de marcas y ofertas especiales. Las primeras interacciones después de que un cliente se una dan forma a su relación a largo plazo con la marca, lo que convierte a esta serie en uno de los programas de mayor impacto que puede ejecutar un retailer.
-
-### Impacto empresarial
-
-Una serie de bienvenida bien diseñada genera una fuerte participación entre los nuevos clientes y mejora significativamente el valor de por vida al crear afinidad de marca desde el principio.
-
-### Cómo implementar
-
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Este recorrido de nutrición multitáctil guía a los nuevos clientes a través de una secuencia de mensajes de presentación de marca, descubrimiento de productos e incentivos, adaptándose en función de su participación. Este es el patrón correcto cuando el caso de uso requiere un flujo de mensajes múltiples secuenciado a lo largo de días con ramificación condicional basada en eventos de participación: un solo mensaje activado no puede dar cabida a la lógica de dependencia entre pasos.
-
-### Consideraciones técnicas
-
-- El déclencheur de entrada de recorrido debe capturar de forma fiable los nuevos eventos de creación de clientes desde todas las fuentes de registro, incluidos los mercados web, de aplicaciones móviles, de puntos de venta en tienda y de terceros.
-- Los pasos de espera entre correos electrónicos deben configurarse en función de los datos de participación; los clientes que abran y hagan clic pueden recibir el siguiente mensaje antes, mientras que los clientes menos comprometidos se benefician de un mayor espaciado.
-- Las recomendaciones de productos dentro de los correos electrónicos de bienvenida deben reflejar lo que el cliente navegó o compró durante su primera visita, no los productos genéricos más vendidos.
-- Los clientes que realizan una compra durante la serie de bienvenida deben ramificarse en un flujo posterior a la compra en lugar de seguir recibiendo mensajes centrados en la adquisición.
-
-
 ## Alertas de bajada de precios
 
 Notificar a los clientes por correo electrónico o mediante una notificación push cuando los productos de su lista de deseos o los artículos vistos anteriormente bajen de precio. Los compradores que mostraron interés pero no compraron son muy receptivos a las reducciones de precios, lo que lo convierte en una de las formas más eficientes de convertir la consideración en ventas.
@@ -132,7 +90,6 @@ Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-pat
 - Las señales de interés del cliente (adiciones a listas de deseos, vistas de páginas de productos, tiempo invertido en páginas de productos) deben almacenarse y compararse de forma eficaz con posibles miles de cambios diarios de precios.
 - Las notificaciones deben incluir el precio original, el nuevo precio y la cantidad de ahorro para comunicar claramente el valor; los mensajes vagos de &quot;precio reducido&quot; no permiten llamadas de ahorro específicas.
 - Se pueden usar [!DNL Real-Time Customer Data Platform] segmentos para compradores sensibles al precio para priorizar la entrega de alertas y adaptar el tono de la mensajería.
-
 
 ## Recordatorios de reposición
 
@@ -153,7 +110,6 @@ Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case
 - Los recordatorios deben incluir un enlace de reorden directo o una opción de recompra con un solo clic para minimizar la fricción y maximizar la conversión a partir de la notificación.
 - Los clientes que ya hayan realizado un repedido a través de otro canal (en tienda, servicio de suscripción) deben suprimirse para evitar el envío de recordatorios irrelevantes.
 
-
 ## Páginas de categoría personalizadas
 
 Personalice de forma dinámica las páginas de categorías para mostrar primero los productos más relevantes en función de las preferencias, las compras anteriores y el comportamiento de navegación de cada cliente. Cuando los compradores ven los productos alineados con sus gustos en la parte superior de la página, descubren lo que quieren más rápido y convierten a tasas más altas.
@@ -173,7 +129,6 @@ Usar el patrón [Behavioral Recommendations](/help/blueprints/use-case-patterns/
 - Debe contarse con una infraestructura de prueba A/B para medir de forma continua el impacto en los ingresos de la clasificación personalizada frente a las reglas de comercialización predeterminadas.
 - La implementación de Web SDK de [!DNL Experience Platform] debe capturar las interacciones entre páginas de categorías (profundidad de desplazamiento, clics en productos, uso de filtros) para refinar continuamente los modelos de clasificación.
 
-
 ## Campañas de seguimiento posteriores a la compra
 
 Envíe correos electrónicos posteriores a la compra con consejos de atención del producto, sugerencias de productos relacionados, solicitudes de revisión e información del programa de fidelidad. El periodo inmediatamente posterior a una compra es cuando los clientes están más comprometidos con la marca, lo que la convierte en una ventana ideal para profundizar la relación e impulsar la actividad futura.
@@ -192,7 +147,6 @@ Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case
 - El contenido específico del producto (instrucciones de cuidado, guías de uso, sugerencias de accesorios) requiere un sistema de asignación de contenido que asocie cada categoría de producto con materiales de seguimiento relevantes.
 - El tiempo de solicitud de revisión debe optimizarse en función de la categoría del producto; los productos electrónicos pueden necesitar un periodo de uso más largo antes de una revisión significativa, mientras que la ropa puede revisarse poco después de la entrega.
 - Los clientes que inician una devolución o un intercambio deben eliminarse automáticamente del flujo estándar posterior a la compra y redirigirse a una ruta de recuperación del servicio.
-
 
 ## Ofertas exclusivas para clientes de VIP
 
@@ -232,27 +186,6 @@ Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-pat
 - Cuando un producto popular vuelve a estar disponible en cantidades limitadas, las notificaciones deben escalonarse o priorizarse por fecha de registro para evitar enviar alertas a más clientes de los que puede entregar el inventario disponible.
 - El mecanismo de registro de notificaciones debe capturar la preferencia de canal (correo electrónico o mensaje de texto) y cumplir con los requisitos de inclusión de cada canal, especialmente en el caso de los SMS.
 - [!DNL Real-Time Customer Data Platform] atributos de perfil deben rastrear qué productos está viendo cada cliente, de modo que se eviten las notificaciones duplicadas si el mismo producto se reabastece varias veces.
-
-
-## Personalization de Social Proof
-
-Muestre pruebas sociales personalizadas, incluidas críticas, clasificaciones y sugerencias de &quot;los clientes que compraron esto también compraron&quot;, en función del perfil y las preferencias de cada cliente. Adaptar la prueba social para reflejar las experiencias de clientes similares crea confianza de forma más eficaz que las clasificaciones genéricas por sí solas.
-
-### Impacto empresarial
-
-La prueba social personalizada aumenta las tasas de conversión y mejora la confianza de los compradores, especialmente en el caso de los compradores nuevos y los productos con precios más altos, donde las dudas sobre las compras son mayores.
-
-### Cómo implementar
-
-Usar el patrón [Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) de aplicaciones/web de visitantes conocidos. Este método personaliza el contenido web de los visitantes identificados, seleccionando las revisiones más relevantes y los elementos de prueba social en función del perfil del cliente, las preferencias y el contexto de navegación. Este es el patrón correcto cuando la personalización está impulsada por atributos de perfil y la pertenencia a segmentos en lugar de por un modelo de afinidad de comportamiento: la recomendación de comportamiento no es apropiada aquí porque la selección de pruebas sociales depende de quién sea el cliente, no de qué artículos haya buscado.
-
-### Consideraciones técnicas
-
-- Los datos de revisión y clasificación deben estar estructurados y etiquetados por atributos del cliente (como el contexto de compra, el segmento del cliente y el caso de uso del producto) para permitir un filtrado y una personalización significativos.
-- Los elementos de prueba de Social se deben cargar de forma asíncrona para evitar el bloqueo del procesamiento de la página del producto principal, ya que los datos de revisión pueden proceder de una plataforma de revisión de terceros con tiempos de respuesta variables.
-- Las regulaciones de privacidad requieren que cualquier dato de cliente utilizado para relacionar las reseñas con los visitantes se gestione de acuerdo con las preferencias de consentimiento; la visualización del contenido &quot;clientes como usted&quot; implica la creación de perfiles que pueden requerir divulgación.
-- [!DNL Experience Platform] miembros de la audiencia pueden usarse para seleccionar qué críticas resaltar, mostrando las opiniones de los amantes de las actividades al aire libre de otros compradores en lugar de las críticas genéricas de mejor puntuación.
-
 
 ## Asesor de productos de IA
 
@@ -312,7 +245,6 @@ Utilice el patrón [Audience Activation a destinos](/help/blueprints/use-case-pa
 - La frecuencia de actualización de los segmentos debe alinearse con los objetivos de la campaña: las audiencias de adquisición pueden necesitar actualizaciones diarias, mientras que las audiencias de retargeting se benefician de las actualizaciones casi en tiempo real para excluir a los compradores recientes.
 - El análisis de superposición entre audiencias de adquisición y retención ayuda a evitar la contaminación cruzada en la que los clientes existentes reciben mensajes de adquisición de nuevos clientes.
 
-
 ## Supresión de clientes para campañas de adquisición
 
 Elimine los clientes existentes y los convertidores recientes de la adquisición y el gasto mediante la activación de audiencias de exclusión en destinos de medios de pago, lo que reduce el gasto desperdiciado. La sincronización continua de las listas de supresión garantiza que los presupuestos pagados se dirijan a nuevos clientes potenciales netos en lugar de a personas que ya se han convertido o que participan activamente.
@@ -352,7 +284,6 @@ Use el patrón [Personalization](/help/blueprints/use-case-patterns/personalizat
 - Las variaciones de contenido deben diseñarse para todos los segmentos de audiencia a los que se van a dirigir, incluida una experiencia predeterminada para los visitantes que no coinciden con ninguna regla de personalización.
 - Las decisiones de Personalization deben registrarse para su análisis, lo que permite realizar pruebas A/B de las variaciones de contenido y atribuir mejoras de participación a segmentos específicos.
 
-
 ## Personalization web de visitante anónimo
 
 Personalice el contenido para visitantes de sitios web no identificados mediante señales de comportamiento en la sesión, como páginas vistas, categorías de productos exploradas y fuentes de referencia. Dado que la mayoría del tráfico web minorista es anónimo, la personalización para visitantes no reconocidos amplía significativamente el alcance de la personalización en el sitio más allá del segmento autenticado.
@@ -372,7 +303,6 @@ Use el patrón [Personalization web de visitantes anónimos](/help/blueprints/us
 - Los requisitos de privacidad deben evaluarse cuidadosamente; algunas jurisdicciones tratan la personalización del comportamiento como un requisito de consentimiento, incluso para visitantes anónimos.
 - Las reglas de Personalization para visitantes anónimos deberían ser más sencillas y rápidas de evaluar que las reglas de visitantes conocidos, ya que las restricciones de latencia de Edge son más estrictas.
 
-
 ## Recorrido de serie de bienvenida
 
 Organice un recorrido de bienvenida de varios pasos para los clientes recién registrados, lo que ofrece contenido de incorporación, educación sobre productos y un incentivo de primera compra en canales push y de correo electrónico. Una serie de bienvenida bien diseñada establece el tono de la relación con el cliente y aumenta significativamente la probabilidad de que un nuevo registrante se convierta en su primera compra.
@@ -391,7 +321,6 @@ Use el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-
 - El recorrido debe incluir condiciones de salida que supriman los mensajes restantes cuando un nuevo cliente complete su primera compra: continuar con la serie de bienvenida después de la compra socava la relevancia del mensaje.
 - La preferencia de canal debe respetarse en todo; los pasos de la notificación push requieren la instalación de la aplicación y la inclusión push, con reserva de correo electrónico para los clientes sin inclusión.
 - Personalization en la serie de bienvenida mejora la conversión, pero requiere suficientes datos de perfil para que sean significativos; los nuevos perfiles suelen necesitar una alternativa a los productos más vendidos o de tendencias.
-
 
 ## Recuperación de abandono del carro
 
@@ -432,7 +361,6 @@ Utilice el patrón [Recorrido orquestado en varios pasos](/help/blueprints/use-c
 - Los mensajes de solicitud de revisión deben cumplir con los términos de servicio de la plataforma para las revisiones incentivadas y deben programarse después de que el cliente haya tenido tiempo suficiente para utilizar el producto.
 - La coordinación de canales es importante: los clientes no deben recibir correos electrónicos ni mensajes push para el mismo hito a menos que se hayan comprometido con el primer canal.
 
-
 ## Campaña de actualización de nivel de fidelización
 
 Identifique a los clientes que se acercan a los umbrales de nivel de lealtad y publique campañas dirigidas para alentarlos a llegar al siguiente nivel con ofertas personalizadas basadas en el historial de compras y las preferencias. Cuando los clientes están al alcance de una actualización de nivel, la mensajería segmentada con incentivos personalizados crea urgencia e impulsa un comportamiento de compra incremental.
@@ -451,7 +379,6 @@ Use el patrón [Recorrido orquestado en varios pasos](/help/blueprints/use-case-
 - Las campañas de actualización de nivel deben suprimirse para los clientes que ya han alcanzado el nivel de objetivo o cuyo estado de lealtad ha cambiado desde la entrada de la campaña.
 - Los incentivos personalizados en la campaña de actualización deben limitarse a las ofertas para las que el cliente es realmente elegible y que no socavan el valor percibido de la estructura de niveles.
 - La campaña debe incluir condiciones de salida claras para los clientes que completen la actualización de su nivel a mitad del recorrido, pivotando hacia un mensaje de felicitación en lugar de continuar con la secuencia de persuasión.
-
 
 ## Orquestación de campañas en canales múltiples
 
@@ -472,7 +399,6 @@ Utilice el patrón [Recorrido en canales múltiples con toma de decisiones](/hel
 - La lógica de orquestación de recorrido debe gestionar la reentrada correctamente, lo que evita que los clientes entren en la misma campaña dos veces y, al mismo tiempo, garantiza que no se excluyan de las campañas realmente nuevas.
 - Las señales de participación en tiempo real (aperturas de correo electrónico, clics en vínculos, sesiones web) deben retroceder al recorrido para habilitar el cambio de canal y la salida anticipada para los clientes que ya se han convertido.
 
-
 ## Experiencia de conversación en Brand Concierge
 
 Implemente un agente conversacional con tecnología de IA y seguridad de marca en todas las propiedades digitales para proporcionar orientación personalizada sobre el producto, ayuda para la navegación del sitio y transferencia perfecta a los agentes activos. Un conserje de IA en el sitio amplía el servicio personalizado a escala, ayudando a los compradores a descubrir productos, comparar opciones y completar compras sin requerir la intervención de un agente humano para consultas comunes.
@@ -491,24 +417,6 @@ Utilice el patrón de [Experiencia conversacional de Brand Concierge](/help/blue
 - Las protecciones de seguridad de marca deben configurarse para evitar que el agente hable de productos de la competencia, realice compromisos de precios que entren en conflicto con las promociones o responda a consultas fuera de tema.
 - La lógica de transferencia a los agentes activos requiere integración con la plataforma de servicio y debe activarse cuando el agente de IA no pueda resolver la consulta del cliente después de un número definido de turnos.
 - La integración de datos de perfil permite al agente personalizar las respuestas en función del historial de compras y el estado de lealtad, pero esto requiere la resolución de la identidad antes de que comience la sesión conversacional.
-
-## Recordatorio de llegada con la descarga de la aplicación para CTA
-
-Recuerde a los huéspedes que deben registrarse y animarlos a descargar la aplicación para acceder a la información fácilmente. Los recordatorios de registro oportunos junto con las indicaciones de descarga de aplicaciones impulsan la participación móvil y permiten experiencias in situ más enriquecidas.
-
-### Impacto empresarial
-
-Los minoristas que combinan recordatorios de registro con llamadas a la acción de descarga de aplicaciones ven mayores tasas de adopción de aplicaciones y una mayor participación en la tienda, ya que los clientes que utilizan la aplicación móvil tienden a interactuar con mayor frecuencia con las promociones y el contenido del lugar de celebración.
-
-### Cómo implementar
-
-Use el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para almacenar en déclencheur un recordatorio de ingreso con el CTA de descarga de aplicación basado en la asistencia al evento o en los datos de reservaciones. Este es el patrón correcto cuando es necesario enviar un único mensaje puntual en respuesta a un evento conocido o a un déclencheur de programación.
-
-### Consideraciones técnicas
-
-- Los recordatorios de llegada deben programarse adecuadamente en relación con el evento o la fecha de visita para maximizar la participación sin que se perciban como demasiado pronto o demasiado tarde.
-- Los vínculos profundos de descarga de aplicaciones deben enrutarse a la tienda de aplicaciones correcta en función de la plataforma de dispositivo del cliente (iOS o Android).
-- Los clientes que ya tengan la aplicación instalada deben recibir una variante de mensaje diferente que omita la descarga de CTA y se centre en la funcionalidad de registro.
 
 ## Campañas de cumpleaños para fans
 
@@ -582,20 +490,3 @@ Utilice el patrón [Activación de mensaje saliente por lotes](/help/blueprints/
 - La segmentación de audiencia debe aprovechar el historial de compras, el comportamiento de navegación y la afinidad del producto para dirigirse a los compradores que tienen más probabilidades de interactuar con los productos promocionados.
 - La restricción de frecuencia debe aplicarse para evitar la fatiga promocional, especialmente cuando se ejecutan varias campañas simultáneamente.
 
-## Abandonar carro de compras
-
-Vuelva a atraer a los clientes que abandonen su carro de compras con recordatorios e incentivos personalizados para completar la compra. La recuperación del abandono del carro de compras es uno de los casos de uso de ROI más altos en el marketing minorista.
-
-### Impacto empresarial
-
-Las campañas de recuperación de abandono del carro de compras recuperan un porcentaje significativo de los ingresos que, de lo contrario, se perderían al volver a atraer a los compradores en el momento de la intención de compra más alta con recordatorios e incentivos personalizados.
-
-### Cómo implementar
-
-Utilice el patrón [Mensajería activada por eventos](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para almacenar en déclencheur un mensaje de recuperación cuando se detecte un evento de abandono del carro de compras. Este es el patrón correcto cuando es necesario enviar un único mensaje en tiempo real en respuesta a un evento de comportamiento, como dejar elementos en el carro de compras sin completar el cierre de compra.
-
-### Consideraciones técnicas
-
-- La detección de abandono del carro de compras requiere un umbral de inactividad definido (normalmente de 30 a 60 minutos) para distinguir el abandono verdadero de los clientes que aún están explorando.
-- El contenido del carro de compras debe pasarse en la carga útil de evento para habilitar recordatorios de producto personalizados en el mensaje de recuperación.
-- Los clientes que completan su compra entre el evento de abandono y el envío del mensaje deben estar suprimidos para evitar mensajes irrelevantes.

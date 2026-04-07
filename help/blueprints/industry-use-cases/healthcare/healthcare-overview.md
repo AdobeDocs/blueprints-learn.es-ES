@@ -3,9 +3,9 @@ title: Casos de uso de atención sanitaria
 description: Descubra cómo las organizaciones de atención médica utilizan Adobe Experience Platform para mejorar la participación de los pacientes, optimizar la coordinación de la atención e impulsar mejores resultados en materia de salud.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '3589'
 ht-degree: 0%
 
 ---
@@ -95,26 +95,6 @@ Usar el patrón [Mensajería activada por eventos](/help/blueprints/use-case-pat
 - Aplique etiquetas de uso de datos a cualquier contenido de instrucciones de atención médica para garantizar que la información médica protegida se comparta únicamente a través de canales seguros y autorizados por el paciente.
 - Configure reglas de tiempo que tengan en cuenta el tipo de visita; por ejemplo, los controles postquirúrgicos pueden requerir un tiempo diferente al de las revisiones de rutina.
 - Incluya enlaces seguros al portal del paciente para la finalización de la encuesta y la programación de citas en lugar de recopilar información médica a través de canales no seguros.
-
-
-## Programas de manejo de enfermedades crónicas
-
-Personalice las comunicaciones sobre el manejo de enfermedades crónicas, el contenido educativo y los recordatorios de monitoreo basados en la condición específica y el plan de tratamiento de cada paciente. La participación sostenida y relevante ayuda a los pacientes a tomar un papel activo en la gestión de su salud a lo largo del tiempo.
-
-### Impacto empresarial
-
-Los programas personalizados de manejo de enfermedades crónicas ven mayores tasas de participación en el programa, lo que conduce a mejores resultados de manejo de enfermedades y a una menor utilización de la atención de emergencia.
-
-### Cómo implementar
-
-Usar el patrón [Recorrido orquestado de varios pasos](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). La gestión de enfermedades crónicas es inherentemente una experiencia de largo plazo, con múltiples puntos de contacto que requiere mensajes adaptables basados en la participación del paciente y los hitos de salud. Este es el patrón correcto porque la gestión de enfermedades crónicas requiere mensajes adaptativos durante un período prolongado con ramificación condicional basada en métricas clínicas y patrones de participación; la mensajería activada por eventos no puede manejar la reevaluación dinámica y continua necesaria para ajustar las intervenciones en función de los datos de salud en evolución.
-
-### Consideraciones técnicas
-
-- Diseñe una lógica de ramificación de recorridos que se adapte en función de las métricas específicas de la enfermedad (por ejemplo, las tendencias de la glucosa en sangre para el tratamiento de la diabetes o las lecturas de la presión arterial para los programas de hipertensión).
-- Implemente un control de datos estricto con [!DNL Adobe Experience Platform] etiquetas de uso de datos para clasificar y proteger los datos de mantenimiento específicos de la condición en todo el recorrido.
-- Integre con dispositivos remotos de monitorización de pacientes y sistemas de resultados informados por los pacientes para alimentar los datos de salud en tiempo real en los puntos de decisión del recorrido.
-- Cree rutas de escalación del equipo de atención médica dentro del recorrido para que la falta de participación o las tendencias sanitarias generen déclencheur de alerta para el personal clínico apropiado.
 
 
 ## Nuevo Recorrido de incorporación del paciente
