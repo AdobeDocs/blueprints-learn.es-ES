@@ -94,8 +94,8 @@ Desarrolle recorridos de nivel de cuenta que califiquen clientes potenciales en 
 
 En este patrón de caso de uso se utilizan las siguientes aplicaciones de Adobe.
 
-- **[!DNL Journey Optimizer B2B Edition]([!DNL AJO B2B])**: Orquesta recorridos de nivel de cuenta, administra grupos de compras con plantillas de roles e intereses de soluciones, puntúa la participación a nivel de persona y grupo de compras, crea contenido de correo electrónico B2B, envía mensajes SMS, configura alertas de ventas y proporciona paneles de análisis B2B.
-- **[!DNL Real-Time CDP B2B Edition]([!DNL RT-CDP B2B])**: unifica perfiles de cuenta a partir de datos B2B de origen cruzado, resuelve relaciones persona a cuenta, evalúa audiencias a nivel de cuenta, configura destinos específicos B2B ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) y aplica el control de datos en los datos B2B.
+- **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])**: Orquesta recorridos de nivel de cuenta, administra grupos de compras con plantillas de roles e intereses de soluciones, puntúa la participación a nivel de persona y grupo de compras, crea contenido de correo electrónico B2B, envía mensajes SMS, configura alertas de ventas y proporciona paneles de análisis B2B.
+- **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])**: unifica perfiles de cuenta a partir de datos B2B de origen cruzado, resuelve relaciones persona a cuenta, evalúa audiencias a nivel de cuenta, configura destinos específicos B2B ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) y aplica el control de datos en los datos B2B.
 
 ## Funciones básicas
 

@@ -42,11 +42,11 @@ sólo una breve descripción general.
 
 ### Señales del diagrama (cada una = +1 Diagrama)
 
-6. **Imagen de flujo de datos/arquitectura presente** — `.svg`, `.png` o `.jpg` que muestra la topología del sistema,
+&#x200B;6. **Imagen de flujo de datos/arquitectura presente** — `.svg`, `.png` o `.jpg` que muestra la topología del sistema,
 flujo de datos o flechas de integración.
-7. **Topología de integración entre sistemas, forma de implementación o protecciones**: describe cómo
+&#x200B;7. **Topología de integración entre sistemas, forma de implementación o protecciones**: describe cómo
 los componentes se conectan, donde residen los datos, los modelos de implementación (edge o hub) o los límites de capacidad.
-8. **La audiencia es arquitectos de soluciones**: la creación de marcos usa la implementación, SDK, edge, hub o similar
+&#x200B;8. **La audiencia es arquitectos de soluciones**: la creación de marcos usa la implementación, SDK, edge, hub o similar
 terminología orientada al arquitecto en lugar de marcos orientados al experto en marketing (campañas, recorridos,
 audiencias).
 
