@@ -1,16 +1,24 @@
 ---
 title: Audience Collaboration con coincidencia de segmentos
-description: Obtenga información acerca de [!UICONTROL Coincidencia de segmento] para Adobe Experience Platform (AEP). [!UICONTROL Coincidencia de segmentos &#x200B;] es un servicio de colaboración de datos que le permite intercambiar datos de segmentos basados en identificadores comunes del sector de una manera segura, controlada y compatible con la privacidad.
+description: Obtenga información sobre la [!UICONTROL Coincidencia de segmentos] para Adobe Experience Platform (AEP). La [!UICONTROL Coincidencia de segmentos] es un servicio de colaboración de datos que le permite intercambiar datos de segmentos basados en identificadores sectoriales comunes de una forma segura, regulada y compatible con la privacidad.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/RnmmHdxJbt0Ljjovo0rYwGvYilcihcqeeI5KOkP4VmU
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 72%
+source-wordcount: 2249
+ht-degree: 80%
 
 ---
 
 # Audience Collaboration con modelo de coincidencia de segmentos
+
+>[!TIP]
+>Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) en Generación de audiencias y activación.
 
 La coincidencia de segmentos permite a las marcas de socios compartir audiencias en sus respectivos entornos de Experience Platform. Para las marcas, la clave reside en establecer contacto con sus clientes basándose en los datos recopilados de sus relaciones directas con los consumidores. Con un mejor gobierno, permisos y sistemas de administración de preferencias, los especialistas en marketing pueden hacer que sus audiencias propias autenticadas con los socios clave sean de más calidad.
 
@@ -30,7 +38,7 @@ La [!UICONTROL Coincidencia de segmentos] utiliza el marco de consentimiento y c
 
 Marca a editor:
 
-El &quot;caso práctico del editor&quot; es el que se ve más afectado por la retirada de las cookies de terceros y los datos de ID de publicidad móvil. Este caso de uso tiene un impacto importante en la industria de medios y entretenimiento, que se centra en la venta de publicidad como modelo de negocio. [!UICONTROL Coincidencia de segmento] es una ruta para los editores con grandes audiencias de origen que buscan colaborar directamente con sus anunciantes. Los anunciantes pueden trabajar directamente con los editores para dirigir la publicidad a las audiencias coincidentes en las propiedades del editor de cara a realizar unas campañas de prospección o segmentación más personalizadas.
+El &quot;caso práctico del editor&quot; es el que se ve más afectado por la retirada de las cookies de terceros y los datos de ID de publicidad móvil. Este caso práctico tiene un gran impacto en el sector de los medios de comunicación y el entretenimiento, que se centra en la venta de publicidad como modelo de negocio. La [!UICONTROL Coincidencia de segmentos] es una vía para los editores con grandes audiencias propias que buscan colaborar directamente con sus anunciantes. Los anunciantes pueden trabajar directamente con los editores para dirigir la publicidad a las audiencias coincidentes en las propiedades del editor de cara a realizar unas campañas de prospección o segmentación más personalizadas.
 
 ### Marca a marca
 
@@ -46,7 +54,7 @@ La [!UICONTROL Coincidencia de segmentos] ayuda a los equipos de marketing dispa
 
 ![Arquitectura de la Coincidencia de segmentos](assets/architecture-segment-match.png){zoomable="yes"}
 
-La [!UICONTROL Coincidencia de segmentos] no es un marketplace en el que se puedan adquirir datos. En su lugar, se trata de una función de AEP que funciona con datos de origen con socios seleccionados, utilizando controles de privacidad y consentimiento para ayudar a colaborar. [!UICONTROL Coincidencia de segmentos] ayuda a enfocar los esfuerzos en mejorar las relaciones con los clientes y en hacer crecer la marca. Es beneficioso cuando existen marcas preexistentes o relaciones de socio. [!UICONTROL La experiencia de Coincidencia de segmentos &#x200B;] es fácil de administrar, escalable y permite a los administradores compartir segmentos de una manera controlable y de inclusión.
+La [!UICONTROL Coincidencia de segmentos] no es un marketplace en el que se puedan adquirir datos. Es más bien una función de AEP que funciona con datos propios con socios seleccionados, utilizando controles de privacidad y consentimiento para ayudar a colaborar. La [!UICONTROL Coincidencia de segmentos] ayuda a centrar los esfuerzos en mejorar las relaciones con los clientes y en hacer crecer la marca. Resulta beneficiosa cuando hay marcas o relaciones con socios ya existentes. La experiencia de la [!UICONTROL Coincidencia de segmentos] es fácil de administrar, es escalable y permite a los administradores compartir segmentos de forma opcionalmente inclusiva y controlable.
 
 Esta son algunas de las ventajas que aporta la [!UICONTROL Coincidencia de segmentos]:
 
@@ -104,7 +112,7 @@ La configuración de consentimiento para la [!UICONTROL Coincidencia de segmento
 
 * Configuración del atributo de uso compartido específico de identidades (idSpecific) mediante el uso del [grupo de campos de consentimientos y preferencias](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=es).
 
-  Este grupo de campos proporciona un único campo de tipo de objeto, consentimientos, para capturar la información de consentimiento y preferencia. [!UICONTROL La coincidencia de segmentos &#x200B;], de forma predeterminada, incluirá todas las identidades que no se hayan excluido explícitamente, por ejemplo:
+  Este grupo de campos proporciona un único campo de tipo objeto, consentimientos, para capturar información de consentimiento y preferencias. La [!UICONTROL Coincidencia de segmentos], de forma predeterminada, incluye todas las identidades que no se hayan excluido explícitamente, por ejemplo:
 
   ```
   "share": {

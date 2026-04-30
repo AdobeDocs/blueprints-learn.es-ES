@@ -1,24 +1,14 @@
 ---
 title: Revisar y aprobar el modelo
 description: 'Revisar y aprobar el modelo: Marketo Engage y modelo de integración de Workfront'
-exl-id: a446faab-7db4-42a2-b4b9-395725c49c9f
-TQID: https://experienceleague.adobe.com/Tr0ZR0G6UFCb5KzWwzOkcFzsmmYa3fJTguTr8TUY-CE
-product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1290
-ht-degree: 82%
+source-wordcount: '1276'
+ht-degree: 83%
 
 ---
 
 # Revisar y aprobar el modelo {#review-and-approve-blueprint}
-
->[!TIP]
->Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/b2b/campaign-review-and-approval.md) en Activación y marketing B2B.
 
 Garantizar que los activos y las campañas de marketing cumplan las expectativas y los estándares de una empresa va más allá de ofrecer el contenido y los mensajes adecuados al público indicado. Las organizaciones también tienen la responsabilidad de respetar las políticas internas, las normativas del sector e incluso los requisitos legales cuando se embarcan en nuevas iniciativas de marketing. Al incorporar pasos de revisión y aprobación en el proceso de desarrollo de campañas, los equipos de marketing pueden garantizar que el contenido y los mensajes sean precisos y estén en conformidad con las normas de su sector, especialmente en sectores como el financiero, el sanitario y el farmacéutico.
 
@@ -71,7 +61,7 @@ Incluya tareas en la plantilla del proyecto en Workfront para revisar los activo
 
 Si desea lanzar una nueva campaña por correo electrónico, debe contar con una plantilla de proyecto que incluya una tarea para revisar el correo electrónico, así como un proceso de aprobación para garantizar que los responsables de departamento pertinentes aprueben el correo electrónico antes de enviarlo.
 
-![pantalla de tareas](assets/review-and-approve-blueprint-1.png){zoomable="yes"}
+![pantalla de tareas](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-1.png){zoomable="yes"}
 
 ### Active su correo electrónico de Marketo Engage para sincronizarlo con Workfront con un cambio de estado de tarea {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
@@ -79,7 +69,7 @@ Como parte de su proceso de revisión, querrá poder sincronizar los correos ele
 
 Con este estado en el proyecto de Workfront, puede configurar el escenario de Workfront Fusion para que espere a que la tarea Listo para revisar se actualice a Revisar correo electrónico de Marketo. Una vez actualizado, el escenario puede recuperar el correo electrónico de Marketo Engage como un archivo HTML, comprimirlo y guardar una copia en los documentos del proyecto de Workfront para su revisión.
 
-![listo para la pantalla de revisión](assets/review-and-approve-blueprint-2.png){zoomable="yes"}
+![listo para la pantalla de revisión](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-2.png){zoomable="yes"}
 
 ### Convierta el correo electrónico de Marketo Engage en una prueba revisable en Workfront {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
@@ -89,7 +79,7 @@ Una vez que la tarea “Listo para revisión” pasa al estado “Revisar correo
 
 Las funciones de [corrección de Workfront](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} permiten a su equipo de marketing tomar un nuevo recurso, como una imagen o un correo electrónico, y colaborar mediante comentarios y anotaciones. Una vez que una prueba está lista para ejecutarse, los responsables de la toma de decisiones pueden aprobarla desde la herramienta de prueba.
 
-![convertir pantalla de correo electrónico](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
+![convertir pantalla de correo electrónico](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 
 ### Aprobar Workfront Proof y déclencheur la aprobación de recursos en Marketo Engage, marcar la tarea como completada {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 
@@ -105,12 +95,12 @@ Hemos creado Plantillas de Fusión que le ayudarán a comenzar con la integraci�
 
 El siguiente escenario de fusión le guiará a lo largo de la primera mitad del flujo de revisión y aprobación, en el que el borrador del correo electrónico puede extraerse de Marketo Engage y guardarse en Workfront como una Prueba. Una vez guardado como Prueba en los documentos del proyecto de Workfront, los responsables de departamento pueden revisarlo, comentarlo y anotarlo como parte del proceso de revisión.
 
-![flujo de revisión y aprobación del escenario de fusión](assets/review-and-approve-blueprint-4.png){zoomable="yes"}
+![flujo de revisión y aprobación del escenario de fusión](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-4.png){zoomable="yes"}
 
 ### Aprobar un correo electrónico en Workfront que desencadena la aprobación del activo en Marketo Engage {#approve-an-email-in-workfront-that-triggers-approval}
 
 El siguiente escenario de fusión se puede utilizar para detectar cuándo una Prueba en Workfront se ha aprobado, y enrutar esa aprobación a Marketo Engage para actualizar el borrador de correo electrónico para que esté activo y listo para su uso en un programa de Marketo Engage.
 
-![aprobación de revisión de escenario de fusión](assets/review-and-approve-blueprint-5.png){zoomable="yes"}
+![aprobación de revisión de escenario de fusión](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/review-and-approve-blueprint-5.png){zoomable="yes"}
 
 En conjunto, estos dos escenarios se pueden usar para crear una ruta bidireccional que extraiga activos de marketing desde Marketo Engage hacia flujos de trabajo robustos de revisión y aprobación de Workfront, y devuelva las aprobaciones a Marketo Engage desde Workfront.

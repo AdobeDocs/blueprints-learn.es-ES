@@ -2,13 +2,13 @@
 title: Aumentar generación de posibles clientes
 description: Obtenga información sobre cómo generar posibles clientes más cualificados para el canal de ventas a través de formularios, eventos, contenido y participación multicanal.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
-
 
 # Aumentar la generación de posibles clientes
 
@@ -30,6 +30,6 @@ Los siguientes patrones de casos de uso respaldan este objetivo empresarial.
 
 | Patrón | Categoría | Cómo apoya este objetivo |
 | --- | --- | --- |
-| [Activación de audiencia B2B](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Generación y activación de audiencias | Activa audiencias basadas en cuentas para generar posibles clientes a partir de cuentas de destino |
-| [Administración de Recorridos y marketing basado en grupos de compras](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Administración y orquestación de campañas | Orquesta campañas de varias partes interesadas dirigidas a grupos de compra para generar posibles clientes B2B cualificados |
+| [Activación de audiencia B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Generación y activación de audiencias | Activa audiencias basadas en cuentas para generar posibles clientes a partir de cuentas de destino |
+| [Administración de Recorridos y marketing basado en grupos de compras](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Administración y orquestación de campañas | Orquesta campañas de varias partes interesadas dirigidas a grupos de compra para generar posibles clientes B2B cualificados |
 | [Activación de mensaje saliente por lotes](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Administración y orquestación de campañas | Ofrece campañas por lotes dirigidas a segmentos potenciales para impulsar la captura de posibles clientes |

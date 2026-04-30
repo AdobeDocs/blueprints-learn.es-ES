@@ -3,7 +3,7 @@ title: Casos de uso B2B
 description: Descubra cómo las organizaciones B2B utilizan Adobe Experience Platform para acelerar la canalización, mejorar la calidad del cliente potencial e impulsar la expansión del cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Las organizaciones que implementan la personalización de marketing basada en cu
 
 ### Cómo implementar
 
-Use el patrón [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) para crear audiencias de nivel de cuenta y activar contenido personalizado en todos los canales. Este patrón está diseñado específicamente para estrategias basadas en cuentas y admite la segmentación a nivel de cuenta y persona. Este es el patrón correcto cuando la segmentación debe operar a nivel de cuenta en lugar de a nivel individual: la activación de audiencia de RT-CDP estándar no admite el modelo de datos basado en cuentas requerido para las estrategias ABM.
+Use el patrón [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) para crear audiencias de nivel de cuenta y activar contenido personalizado en todos los canales. Este patrón está diseñado específicamente para estrategias basadas en cuentas y admite la segmentación a nivel de cuenta y persona. Este es el patrón correcto cuando la segmentación debe operar a nivel de cuenta en lugar de a nivel individual: la activación de audiencia de RT-CDP estándar no admite el modelo de datos basado en cuentas requerido para las estrategias ABM.
 
 ### Consideraciones técnicas
 
@@ -267,7 +267,7 @@ Las organizaciones B2B con activación de audiencia basada en cuentas ven una in
 
 ### Cómo implementar
 
-Utilice el patrón [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) para generar segmentos de nivel de cuenta mediante relaciones entre la cuenta y la persona y activarlos en destinos de medios de pago compatibles con B2B. Este es el patrón correcto cuando la creación de audiencias debe funcionar a nivel de cuenta (combinando señales de varios contactos dentro de una organización compradora) en lugar de a nivel de persona individual.
+Utilice el patrón [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) para generar segmentos de nivel de cuenta mediante relaciones entre la cuenta y la persona y activarlos en destinos de medios de pago compatibles con B2B. Este es el patrón correcto cuando la creación de audiencias debe funcionar a nivel de cuenta (combinando señales de varios contactos dentro de una organización compradora) en lugar de a nivel de persona individual.
 
 ### Consideraciones técnicas
 
@@ -287,7 +287,7 @@ Las organizaciones B2B que utilizan la orquestación de recorrido de grupo de co
 
 ### Cómo implementar
 
-Use el patrón [Marketing basado en grupos de compras](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) para crear recorridos calificados para la cuenta que segmenten a los miembros del grupo de compras por función, evalúen las señales de participación a nivel de grupo y organicen campañas multipersona y multitáctil coordinadas con ramificación condicional basada en el estado de la cuenta. Este es el patrón correcto cuando la lógica de recorrido debe funcionar a nivel de grupo de cuentas en lugar de a nivel de persona individual: la orquestación de recorrido estándar a nivel de persona no puede gestionar los requisitos de cualificación de grupo y coordinación interpersonal de la gestión de grupos de compra B2B.
+Use el patrón [Marketing basado en grupos de compras](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) para crear recorridos calificados para la cuenta que segmenten a los miembros del grupo de compras por función, evalúen las señales de participación a nivel de grupo y organicen campañas multipersona y multitáctil coordinadas con ramificación condicional basada en el estado de la cuenta. Este es el patrón correcto cuando la lógica de recorrido debe funcionar a nivel de grupo de cuentas en lugar de a nivel de persona individual: la orquestación de recorrido estándar a nivel de persona no puede gestionar los requisitos de cualificación de grupo y coordinación interpersonal de la gestión de grupos de compra B2B.
 
 ### Consideraciones técnicas
 
@@ -307,7 +307,7 @@ Las organizaciones B2B con personalización a nivel de cuenta informan de tasas 
 
 ### Cómo implementar
 
-Utilice el patrón [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) para activar perfiles de nivel de cuenta para la personalización en canales web y de salida. Este es el patrón correcto cuando el requisito principal es la segmentación a nivel de cuenta para la personalización en lugar de la orquestación de recorrido a nivel de contacto: los datos de perfil de cuenta impulsan las decisiones de personalización en lugar de las señales de comportamiento individuales.
+Utilice el patrón [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) para activar perfiles de nivel de cuenta para la personalización en canales web y de salida. Este es el patrón correcto cuando el requisito principal es la segmentación a nivel de cuenta para la personalización en lugar de la orquestación de recorrido a nivel de contacto: los datos de perfil de cuenta impulsan las decisiones de personalización en lugar de las señales de comportamiento individuales.
 
 ### Consideraciones técnicas
 

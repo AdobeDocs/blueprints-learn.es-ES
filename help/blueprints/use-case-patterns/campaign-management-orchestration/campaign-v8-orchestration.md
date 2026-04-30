@@ -3,24 +3,14 @@ title: Modelo, Campaign y plataforma de Campaign v8
 description: Obtenga información acerca del modelo para Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
-exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-TQID: https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: afa4204e-6d08-4e29-bc35-26aafb656d48id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f529d0bd-1401-4c88-9833-43228cc1d40fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1045'
 ht-degree: 29%
 
 ---
 
 # Modelo de Campaign v8
-
->[!TIP]
->Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md) en Administración y orquestación de campañas.
 
 Adobe Campaign v8 es una plataforma de administración de campañas de próxima generación diseñada para canales de marketing tradicionales como correo electrónico y correo directo. Ofrece sólidas capacidades de ETL y administración de datos para admitir segmentación compleja y segmentación de audiencias, además de un potente motor de orquestación para crear programas de marketing multitáctil y por lotes.
 
@@ -60,13 +50,13 @@ Obtenga más información acerca de [modelos de implementación de Campaign v8](
 
 ### Implementación empresarial de Campaign (FDAC)
 
-<img src="images/campaign-v8-ffda.svg" alt="Arquitectura de referencia para el modelo de implementación de Campaign v8 (FDAC)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-ffda.svg" alt="Arquitectura de referencia para el modelo de implementación de Campaign v8 (FDAC)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
 ### Implementación de FDA de Campaign v8
 
-<img src="images/campaign-v8-fda.svg" alt="Arquitectura de referencia para el modelo de Campaign v8 (FDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/customer-journeys/campaign-v8/images/campaign-v8-fda.svg" alt="Arquitectura de referencia para el modelo de Campaign v8 (FDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -74,8 +64,8 @@ Obtenga más información acerca de [modelos de implementación de Campaign v8](
 
 | Escenario | Descripción | Consideraciones técnicas |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] con Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Muestra cómo Adobe Experience Platform y su herramienta de segmentación centralizada y el Perfil del cliente en tiempo real se pueden utilizar con Adobe [!DNL Campaign] para ofrecer conversaciones personalizadas | <ul><li>Uso compartido de perfiles y audiencias de [!DNL Real-Time CDP] en Adobe [!DNL Campaign] mediante el uso del intercambio de archivos de almacenamiento en la nube y los flujos de trabajo de ingesta de Adobe [!DNL Campaign] </li><li>Comparta fácilmente datos de interacción y envío de las conversaciones con los clientes en [!DNL Real-Time CDP] desde Adobe [!DNL Campaign] para mejorar tanto el perfil del cliente en tiempo real como para proporcionar informes multicanal sobre las campañas de mensajería</li></ul> |
-| [[!DNL Journey Optimizer] con Adobe [!DNL Campaign]](ajo-and-campaign-v8.md) | Muestra cómo puede usar Adobe Journey Optimizer para orquestar experiencias de 1:1 mediante el Perfil del cliente en tiempo real y aprovechar el sistema nativo de mensajería transaccional de Adobe [!DNL Campaign] para enviar el mensaje | <ul><li>Se pueden enviar hasta 1 millón de mensajes por hora a través del servidor de mensajes en tiempo real<li>No se realiza ninguna restricción desde [!DNL Journey Optimizer]. Asegúrese de que un arquitecto de empresa de preventa realice un examen técnico</li><li>Gestión de decisiones no se admite en cargas útiles a Campaign v8</li></ul> |
+| [[!DNL Real-time Customer Data Platform] con Adobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md) | Muestra cómo Adobe Experience Platform y su herramienta de segmentación centralizada y el Perfil del cliente en tiempo real se pueden utilizar con Adobe [!DNL Campaign] para ofrecer conversaciones personalizadas | <ul><li>Uso compartido de perfiles y audiencias de [!DNL Real-Time CDP] en Adobe [!DNL Campaign] mediante el uso del intercambio de archivos de almacenamiento en la nube y los flujos de trabajo de ingesta de Adobe [!DNL Campaign] </li><li>Comparta fácilmente datos de interacción y envío de las conversaciones con los clientes en [!DNL Real-Time CDP] desde Adobe [!DNL Campaign] para mejorar tanto el perfil del cliente en tiempo real como para proporcionar informes multicanal sobre las campañas de mensajería</li></ul> |
+| [[!DNL Journey Optimizer] con Adobe [!DNL Campaign]](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md) | Muestra cómo puede usar Adobe Journey Optimizer para orquestar experiencias de 1:1 mediante el Perfil del cliente en tiempo real y aprovechar el sistema nativo de mensajería transaccional de Adobe [!DNL Campaign] para enviar el mensaje | <ul><li>Se pueden enviar hasta 1 millón de mensajes por hora a través del servidor de mensajes en tiempo real<li>No se realiza ninguna restricción desde [!DNL Journey Optimizer]. Asegúrese de que un arquitecto de empresa de preventa realice un examen técnico</li><li>Gestión de decisiones no se admite en cargas útiles a Campaign v8</li></ul> |
 
 <br>
 
