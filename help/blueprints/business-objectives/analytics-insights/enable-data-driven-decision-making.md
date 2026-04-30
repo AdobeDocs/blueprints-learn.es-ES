@@ -2,13 +2,13 @@
 title: Habilitar la toma de decisiones basada en datos
 description: Aprenda a potenciar a los equipos con análisis de autoservicio, perspectivas de clientes en tiempo real y predicciones impulsadas por IA para guiar la estrategia.
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # Habilitar la toma de decisiones basada en datos
 
@@ -30,4 +30,4 @@ Los siguientes patrones de casos de uso respaldan este objetivo empresarial.
 | Patrón | Categoría | Cómo apoya este objetivo |
 | --- | --- | --- |
 | [Generación de Customer Analytics y Insight](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Análisis | Proporciona espacios de trabajo de análisis de autoservicio y flujos de trabajo de análisis guiados para perspectivas impulsadas por datos |
-| [Análisis B2B](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Análisis | Permite la toma de decisiones B2B basada en datos mediante análisis de nivel de cuenta y perspectivas de grupo de compra |
+| [Análisis B2B](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | Análisis | Permite la toma de decisiones B2B basada en datos mediante análisis de nivel de cuenta y perspectivas de grupo de compra |

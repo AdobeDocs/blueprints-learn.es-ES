@@ -2,15 +2,18 @@
 title: Modelo de Customer Journey Analytics B2B
 description: Incluya datos de cuenta B2B, oportunidad y grupo de compra en Customer Journey Analytics para la creación de informes basados en cuentas y el análisis de recorridos.
 solution: Customer Journey Analytics
-source-git-commit: 10e54d97082143b61e43bae56250a524d1759d45
+exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '743'
 ht-degree: 7%
 
 ---
 
-
 # Modelo de Customer Journey Analytics B2B
+
+>[!TIP]
+>Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/b2b/account-analytics.md) en Activación y marketing B2B.
 
 Customer Journey Analytics B2B edition permite los informes y análisis basados en cuentas para las organizaciones B2B. A diferencia del análisis B2C centrado en las personas, este modelo coloca la **cuenta** en el centro del modelo de datos para que pueda analizar recorridos de compra B2B complejos entre varias partes interesadas, grupos de compra y ciclos de ventas. Utilice [!DNL Customer Journey Analytics] para unificar los datos de comportamiento con dimensiones B2B (cuentas, oportunidades, campañas y listas de marketing) para obtener información basada en el recorrido y crear audiencias.
 

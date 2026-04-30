@@ -3,7 +3,7 @@ title: Adquisición de gestión de Recorridos y marketing basada en grupos
 description: Aprenda a desarrollar recorridos de nivel de cuenta que califiquen clientes potenciales en grupos de compra para mejorar la eficacia del marketing B2B.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -119,7 +119,7 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Administración del ciclo de datos | Recomendado | La administración de consentimientos es crítica para las comunicaciones por correo electrónico y SMS B2B. Las políticas de caducidad del conjunto de datos ayudan a administrar el ciclo vital de los datos de participación transitorios y garantizan el cumplimiento de los requisitos de retención de datos. | [Administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
 | Etiquetado y aplicación del uso de datos | Recomendado | Los datos B2B suelen contener información confidencial de la compañía y datos personales de contactos comerciales. Las políticas de gobernanza de datos garantizan el uso compatible de los datos B2B entre destinos, especialmente al activarlos en plataformas publicitarias o sistemas de terceros. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home) |
 | Monitorización y observabilidad | Recomendado | La supervisión garantiza que las canalizaciones de datos B2B (sincronizaciones CRM/[!DNL Marketo]) estén en buen estado, que los perfiles de cuenta se estén actualizando y que las ejecuciones del recorrido de cuentas se lleven a cabo sin errores. Las alertas sobre errores del flujo de datos de origen son críticas para mantener la moneda de los datos. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
-| Informes y análisis | Incluido | Los paneles de análisis B2B de [!DNL AJO B2B Edition] proporcionan la participación del grupo comprador, el rendimiento del recorrido de la cuenta y las métricas de canalización. [!DNL CJA B2B Edition] amplía el análisis con análisis de espacio de trabajo a nivel de cuenta, análisis de grupos de compra y correlación de oportunidades. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Informes y análisis | Incluido | Los paneles de análisis B2B de [!DNL AJO B2B Edition] proporcionan la participación del grupo comprador, el rendimiento del recorrido de la cuenta y las métricas de canalización. [!DNL CJA B2B Edition] amplía el análisis con el análisis del espacio de trabajo de nivel de cuenta, el análisis de grupos de compra y la correlación de oportunidades. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funciones de aplicación
 
@@ -566,7 +566,7 @@ Esta fase establece el puente entre marketing y ventas mediante la configuració
 
 **Funciones de la aplicación:** [!DNL AJO B2B]: Paneles de B2B Analytics
 
-En esta fase se establece el marco de informes y análisis para medir el rendimiento del grupo de compra, la efectividad del recorrido de cuentas y el impacto en la canalización. [!DNL AJO B2B Edition] proporciona paneles de analytics integrados; [!DNL CJA B2B Edition] (si tiene licencia) amplía el análisis con perspectivas más profundas a nivel de cuenta en canales múltiples.
+En esta fase se establece el marco de informes y análisis para medir el rendimiento del grupo de compra, la efectividad del recorrido de cuentas y el impacto en la canalización. [!DNL AJO B2B Edition] proporciona paneles de análisis integrados; [!DNL CJA B2B Edition] (si tiene licencia) amplía el análisis con información más detallada a nivel de cuenta de canales cruzados.
 
 #### Decisión: enfoque de informes
 
@@ -695,7 +695,7 @@ Los siguientes recursos proporcionan detalles adicionales sobre las aplicaciones
 
 - [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)
 - [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
-- [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+- [Información general de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 - [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home)
 
 ### Configuración de canal

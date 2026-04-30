@@ -3,14 +3,33 @@ title: Modelo de gestión de Recorridos y marketing basado en grupos de compra
 description: Aprenda a idear, diseñar y crear un recorrido que permita a los posibles clientes formar un grupo de compra en Adobe Journey Optimizer B2B edition.
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: 2349
 ht-degree: 0%
 
 ---
 
 # Modelo de compra de gestión de Recorridos y marketing basado en grupos
+
+>[!TIP]
+>Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) en Activación y marketing B2B.
 
 En la actualidad, los equipos de marketing se enfrentan a muchos desafíos a la hora de ofrecer oportunidades de venta con clientes potenciales cualificados. Uno de estos desafíos es trabajar con las personas adecuadas en la organización y por lo general es evidente en esfuerzo y precisión. Con _puntuación de posibles clientes_, el grupo es demasiado estrecho y es posible que los equipos no vean a las personas adecuadas. Con la _puntuación de cuenta_, se requiere un mayor esfuerzo para identificar a la persona correcta con una vista tan amplia de una cuenta.
 

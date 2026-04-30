@@ -4,9 +4,9 @@ description: Conozca los patrones de casos de uso para implementar Adobe Experie
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 27f7e230982807ec70ca96af7f737944a6588f27
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,8 @@ Los siguientes patrones le ayudan a crear, evaluar y activar segmentos de audien
 | [Activación de audiencia en destinos](audience-building-activation/audience-activation-to-destinations.md) | Evaluar y publicar segmentos de audiencia en destinos externos para la segmentación o supresión | [!DNL Real-Time CDP] |
 | [Audience Collaboration](audience-building-activation/audience-collaboration-segment-match.md) | Comparta y haga coincidir segmentos de audiencia en entornos limitados u organizaciones mediante Coincidencia de segmentos | [!DNL Real-Time CDP], [!DNL Experience Platform] |
 | [Reenvío de eventos](audience-building-activation/event-forwarding.md) | Reenviar datos de eventos en tiempo real recopilados mediante Edge Network a destinos que no sean de Adobe | [!DNL Experience Platform] (Edge Network, reenvío de eventos) |
-| [Activación de audiencia B2B](audience-building-activation/b2b-audience-activation.md) | Activar audiencias B2B basadas en cuentas en canales web, de correo electrónico y de publicidad | [!DNL Real-Time CDP] B2B edition |
+| [Búsqueda de perfil en tiempo real para soporte técnico y ventas](audience-building-activation/real-time-profile-lookup.md) | Búsquedas del perfil del cliente en tiempo real que proporcionan contexto para escenarios de ventas y soporte asistido por agentes | [!DNL Real-Time CDP], [!DNL Experience Platform] |
+| [Ciencia de datos personalizados para el enriquecimiento de perfiles](audience-building-activation/data-science-profile-enrichment.md) | Ingesta de perspectivas basadas en la ciencia de datos en Experience Platform para enriquecer el Perfil del cliente en tiempo real | [!DNL Experience Platform] |
 
 ## Personalización
 
@@ -38,6 +39,8 @@ Los siguientes patrones ofrecen experiencias adaptadas a visitantes conocidos y 
 | [Personalización web/aplicación de visitante conocido](personalization/known-visitor-web-app-personalization.md) | Ofrezca contenido, ofertas o promociones personalizados a visitantes identificados en función de perfiles en tiempo real y abonos a segmentos | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [Offer Decisioning](personalization/offer-decisioning.md) | Utilice la lógica de decisión centralizada para seleccionar la mejor oferta o el contenido siguiente para un perfil entre canales | [!DNL Journey Optimizer] (Toma de decisiones), [!DNL Real-Time CDP] |
 | [Recomendación de comportamiento](personalization/behavioral-recommendation.md) | Generar recomendaciones de elementos y contenido mediante estrategias de selección y modelos de clasificación | [!DNL Journey Optimizer] (Toma de decisiones), [!DNL Real-Time CDP] |
+| [Acceso al perfil de Edge para Personalization web/móvil](personalization/edge-profile-access.md) | Acceso a perfiles Edge en tiempo real para personalización móvil y web de alto rendimiento y baja latencia | [!DNL Real-Time CDP], [!DNL Experience Platform] (Edge Network) |
+| [Uso compartido de audiencias con Adobe Target](personalization/audience-sharing-with-target.md) | Comparta perfiles y audiencias de Real-Time CDP con Adobe Target para la personalización móvil y web de clientes conocidos | [!DNL Real-Time CDP], [!DNL Target], [!DNL Experience Platform] |
 
 ## Administración y orquestación de campañas
 
@@ -49,7 +52,8 @@ Los siguientes patrones abarcan la entrega de mensajes programados, activados y 
 | [Mensajería activada por eventos](campaign-management-orchestration/event-triggered-messaging.md) | Escuche un evento del sistema o de comportamiento en tiempo real y, a continuación, envíe un mensaje contextual al perfil de activación | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md) | Guía de un perfil a través de un recorrido ramificado y multitáctil con esperas, condiciones y varias acciones de mensaje | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
 | [recorrido en canales múltiples con toma de decisiones](campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Orquestación de un recorrido de varios pasos que incorpore la toma de decisiones en tiempo real para seleccionar un canal, contenido u oferta óptimos | [!DNL Journey Optimizer], [!DNL Real-Time CDP] |
-| [Comprar administración de recorridos y marketing basada en grupos](campaign-management-orchestration/buying-group-based-marketing.md) | Desarrolle recorridos de nivel de cuenta que califiquen clientes potenciales en grupos de compra para mejorar la eficacia del marketing B2B | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [Orquestación por lotes y mensajería transaccional de Campaign v8](campaign-management-orchestration/campaign-v8-orchestration.md) | Ejecución de campañas por lotes, orquestación multitáctil, administración de datos impulsada por ETL y mensajería transaccional en Campaign v8 | [!DNL Campaign] v8 |
+| [Integración de mensajería de terceros con Journey Optimizer](campaign-management-orchestration/third-party-messaging.md) | Integre Journey Optimizer con sistemas de mensajería de terceros para comunicaciones personalizadas mediante la API de REST | [!DNL Journey Optimizer] |
 
 ## Análisis
 
@@ -58,7 +62,20 @@ Los siguientes patrones admiten el análisis del comportamiento y el rendimiento
 | Patrón | Funcionalidad principal | Soluciones principales |
 | --- | --- | --- |
 | [Generación de Customer Analytics y insight](analysis/customer-analytics-insight-generation.md) | Cree espacios de trabajo de análisis en canales múltiples, métricas calculadas y paneles para el análisis de comportamiento y rendimiento | [!DNL Customer Journey Analytics], [!DNL Experience Platform] |
-| [Análisis B2B](analysis/b2b-analytics.md) | Incluir información de nivel de cuenta B2B en el análisis de recorrido de clientes en canales múltiples | [!DNL Customer Journey Analytics] B2B edition, [!DNL Real-Time CDP] B2B edition |
+
+## Activación y marketing B2B
+
+Los siguientes patrones tratan los escenarios de marketing específicos de B2B: audiencias basadas en cuentas, orquestación de grupos de compra y análisis B2B.
+
+| Patrón | Funcionalidad principal | Soluciones principales |
+| --- | --- | --- |
+| [Activación de audiencia B2B](b2b/account-audience-activation.md) | Activar audiencias B2B basadas en cuentas en canales web, de correo electrónico y de publicidad | [!DNL Real-Time CDP] B2B edition |
+| [Comprar administración de recorridos y marketing basada en grupos](b2b/buying-group-marketing.md) | Desarrolle recorridos de nivel de cuenta que califiquen clientes potenciales en grupos de compra para mejorar la eficacia del marketing B2B | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [Análisis B2B](b2b/account-analytics.md) | Incluir información de nivel de cuenta B2B en el análisis de recorrido de clientes en canales múltiples | [!DNL Customer Journey Analytics] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [Recorridos B2B que usan datos de Marketo](b2b/marketo-data-journeys.md) | Implemente Journey Optimizer B2B edition con datos de Marketo para organizar los recorridos de grupo de compra y la participación de la cuenta | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
+| [Controlador de medios de pago AJO B2B](b2b/paid-media-orchestration.md) | Orqueste campañas de medios pagados B2B con la lógica de cascada para asignar cuentas a campañas y activarlas en destinos | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
+| [Admisión y creación de Marketo y Workfront](b2b/campaign-intake-and-creation.md) | Automatice la admisión de solicitudes de campaña de marketing y la creación de programas de Marketo Engage mediante Workfront Forms y Fusion | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
+| [Marketo y Workfront revisan y aprueban](b2b/campaign-review-and-approval.md) | Integración de flujos de trabajo de revisión y aprobación de Workfront con recursos de correo electrónico de Marketo Engage mediante la automatización de Fusion | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 
 ## Experiencia de conversación
 

@@ -1,32 +1,14 @@
 ---
 title: Modelo de ingesta y creación
 description: 'Ingesta y creación: modelo de integración de Marketo Engage y Workfront'
-exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-TQID: https://experienceleague.adobe.com/p0lDMluV6wyWfV7TzUEnPWhycpIImpl3z5Erooy2Bxk
-product_v2:
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2:
-  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 1386
+source-wordcount: '1372'
 ht-degree: 86%
 
 ---
 
 # Modelo de ingesta y creación {#intake-and-create}
-
->[!TIP]
->Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/b2b/campaign-intake-and-creation.md) en Activación y marketing B2B.
 
 El número de solicitudes de marketing que llegan a un equipo de operaciones de marketing para lanzar nuevas campañas puede convertir un equipo de alto rendimiento en un bucle de tareas repetitivas, con el consiguiente agotamiento y estancamiento de la innovación.
 
@@ -38,7 +20,7 @@ Para lograr esta integración, se utilizará Workfront Fusion, una capa de autom
 
 El flujo de trabajo siguiente muestra una solicitud de un seminario web realizada por un director de campaña mediante un formulario de solicitud de Workfront. Los detalles enviados en la solicitud activan un programa y un correo electrónico para crear en Marketo Engage de cara al seminario web. Además, se adoptan detalles del formulario de solicitud para rellenar el contenido del correo electrónico.
 
-![Admisión y creación de modelo](assets/intake-and-create-1.png){zoomable="yes"}
+![Admisión y creación de modelo](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -118,7 +100,7 @@ Para obtener más información sobre cómo crear su propio centro de excelencia,
 
 Con Marketo Engage, los tokens se pueden usar para rellenar contenido en los activos de campaña. Por ejemplo, después de clonar una plantilla de correo electrónico del centro de excelencia, Workfront Fusion puede adoptar los detalles de la solicitud de campaña en Workfront y pasarlos a Mis tokens en el programa de Marketo Engage. Los valores de token se pueden heredar directamente en el correo electrónico para crear el mensaje de salida.
 
-![Use tokens para rellenar el diagrama de contenido](assets/intake-and-create-2.png){zoomable="yes"}
+![Use tokens para rellenar el diagrama de contenido](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Rellenar imágenes desde AEM Assets {#populate-images-from-aem-assets}
 
@@ -166,7 +148,7 @@ Algunos datos básicos que se deben incluir en la biblioteca de búsqueda de pla
 
 Este es un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos pregenerados de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} y [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} que le permiten ofrecer automatización más rápido.
 
-![Flujo de ingesta y creación de automatización](assets/intake-and-create-3.png)
+![Flujo de ingesta y creación de automatización](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
 
 ## Recursos {#resources}
 

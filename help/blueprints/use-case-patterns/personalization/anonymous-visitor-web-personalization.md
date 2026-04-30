@@ -2,13 +2,13 @@
 title: Personalization web de visitante anónimo
 description: Aprenda a ofrecer contenido web personalizado a visitantes no identificados en función de las señales de comportamiento durante la sesión.
 solution: Journey Optimizer, Real-Time Customer Data Platform
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '8076'
+source-wordcount: '8109'
 ht-degree: 1%
 
 ---
-
 
 # Personalización web de visitante anónimo
 
@@ -104,13 +104,19 @@ En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Segmentación de Edge para la evaluación de audiencias en tiempo real basada en señales de comportamiento en la sesión; administración anónima de perfiles de Edge
 - **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK] para la recopilación de señales de comportamiento, [!DNL Edge Network] para el enrutamiento de datos en tiempo real y la entrega de personalización, configuración de secuencia de datos
 
+## Arquitectura
+
+La siguiente arquitectura de referencia ilustra cómo se recopilan las señales de visitantes anónimos en el perímetro, se evalúan en relación con las reglas de audiencia y se utilizan para ofrecer contenido personalizado.
+
+![Arquitectura de referencia para la personalización y activación anónima de audiencias](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+
 ## Funciones básicas
 
 Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
 | Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Administración y gobernanza | Se asume en contexto | Zona protegida de AJO con permisos de canal web configurados. [!DNL Web SDK] permisos de implementación y acceso al flujo de datos concedido al equipo de implementación. Los usuarios aprovisionados con funciones que permiten la configuración del canal web, la administración de audiencias y la ejecución de campañas. | [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
+| Administración y gobernanza | Se asume en contexto | Zona protegida de AJO con permisos de canal web configurados. [!DNL Web SDK] permisos de implementación y acceso a secuencia de datos concedido al equipo de implementación. Los usuarios aprovisionados con funciones que permiten la configuración del canal web, la administración de audiencias y la ejecución de campañas. | [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Esquema de Experience Event que captura señales de comportamiento web (vistas de página, clics, profundidad de desplazamiento, datos de referencia, parámetros de UTM). El esquema debe incluir grupos de campos de interacción web estándar y estar habilitado para que el perfil de Edge admita la evaluación en tiempo real. Se debe crear un conjunto de datos correspondiente y habilitar para el perfil. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) |
 | Fuentes de datos y recopilación | Requerido | [!DNL Web SDK] debe implementarse en todas las propiedades web de destino con una secuencia de datos configurada para enrutar datos a [!DNL AEP Edge Network]. La secuencia de datos debe tener los servicios [!DNL Adobe Experience Platform] y [!DNL Adobe Journey Optimizer] habilitados. Esta es una dependencia esencial — sin [!DNL Web SDK], no es posible la recopilación de señales de comportamiento ni la entrega de experiencias. | [Información general del SDK web](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home) |
 | Configuración de identidad y perfil | Requerido | ECID ([!DNL Experience Cloud ID]) configurado como el área de nombres de identidad principal para visitantes anónimos. La política de combinación de Edge debe configurarse con `isActiveOnEdge: true` para resolver los datos de perfil anónimos en el perímetro de. Solo puede haber una política de combinación activa en Edge por zona protegida. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home) |

@@ -6,45 +6,15 @@ short-description: Integre perfiles y públicos RTCDP con Adobe Target.
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-TQID: https://experienceleague.adobe.com/1ti2SqfAFOgnKbaJ70xwGI-xHDE1WXJ7-oTStcJJy1E
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-subfeature_v2:
-  - id: cbd4a8d8-97a6-4ac9-b8d6-b6c1f28d3342
-  - id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-  - id: ee602049-8a18-43df-9299-a689a025a371
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 37%
+source-wordcount: '1086'
+ht-degree: 33%
 
 ---
 
-# Personalization de cliente conocido con Target
 
->[!TIP]
->Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/personalization/audience-sharing-with-target.md) en Personalization.
+# Personalization de cliente conocido con Target
 
 ## Casos de uso
 
@@ -75,15 +45,39 @@ ht-degree: 37%
 
 Arquitectura
 
-![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](assets/RTCDP+Target.svg)
+![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](/help/blueprints/audience-activation/assets/RTCDP+Target.svg)
 
 Detalle de secuencia
 
-![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](assets/RTCDP+Target_flow.svg)
+![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.svg)
 
 Vista general de la arquitectura
 
-![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](assets/personalization_with_apps.svg)
+![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](/help/blueprints/audience-activation/assets/personalization_with_apps.svg)
+
+## Patrones de implementación
+
+La personalización de cliente conocida se admite mediante varios enfoques de implementación.
+
+### Patrón de implementación 1 - [!DNL Edge Network] con SDK web/móvil o API [!DNL Edge Network] (enfoque recomendado)
+
+* Usando [!DNL Edge Network] con Web/Mobile SDK. La segmentación perimetral en tiempo real requiere el enfoque de implementación del SDK web/móvil o la API de Edge.
+* [Consulte el modelo web y SDK móvil de Experience Platform](/help/blueprints/experience-platform/deployment/websdk.md) para la implementación basada en SDK.
+* Para su uso en Mobile SDK, debe estar instalada la extensión [Adobe Journey Optimizer - Decisioning](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/).
+* [Consulte la [!DNL Edge Network] API de servidor](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es) para obtener una implementación basada en API de Adobe Target con perfil de Edge.
+
+### Patrón de implementación 2: SDK específicos para aplicaciones
+
+Con SDK tradicionales específicos de cada aplicación (por ejemplo, AT.js y AppMeasurement.js). La evaluación de segmentos en tiempo real de Edge no se admite con este enfoque de implementación. Sin embargo, el uso compartido de audiencias por flujo y por lotes desde el centro de Experience Platform se admite con este enfoque de implementación.
+
+[Consulte la documentación del conector de Adobe Target](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Consulte el modelo de SDK específico de la aplicación](/help/blueprints/experience-platform/deployment/appsdk.md)
+
+## Consideraciones sobre la implementación
+
+* Cualquier identidad principal se puede aprovechar al utilizar el patrón de implementación 1 descrito anteriormente con [!DNL Edge Network] y Web SDK.
+* La primera personalización de inicio de sesión con datos de clientes conocidos introducidos anteriormente en RTCDP requiere que la solicitud de personalización tenga una identidad principal que coincida con el gráfico de identidad de clientes conocidos en Real-time Customer Data Platform. Si el ID principal se establece en ECID o en una identidad que aún no se ha vinculado con el perfil de cliente conocido, la unión de identidad tardará varios minutos en realizarse en el perímetro y que la personalización de Edge incluya datos de clientes conocidos ingeridos anteriormente.
+* Actualmente, los perfiles de Edge tienen un TTL de 14 días. Por lo tanto, si un usuario no ha iniciado sesión o ha estado activo durante 14 días en el perímetro, el perfil del perímetro puede haber caducado y, por lo tanto, el perímetro debe recuperar el perfil del centro de datos para tener la vista de perfil histórica para impulsar la personalización que incluye atributos de perfil ingeridos anteriormente y segmentos, esto resultará en la personalización con la vista histórica de los perfiles que se producen en vistas de página posteriores en comparación con el primer inicio de sesión.
 
 ## Documentación relacionada
 

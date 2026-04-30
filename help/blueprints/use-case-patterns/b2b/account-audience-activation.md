@@ -3,7 +3,7 @@ title: Audience Activation B2B
 description: Obtenga información sobre cómo activar audiencias B2B basadas en cuentas en canales web, de correo electrónico y de publicidad.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7611'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Los equipos de marketing B2B necesitan segmentar y activar audiencias en el nive
 Las audiencias de cuentas activadas alimentan los casos de uso en toda la funnel de generación de demanda: campañas de sensibilización de funnel en [!DNL LinkedIn] y publicidad de visualización, programas de nutrición de funnel en [!DNL Marketo Engage] y activación de ventas de funnel de nivel inferior mediante la integración de CRM. Las audiencias de supresión de cuentas evitan el gasto desperdiciado al excluir a los clientes existentes, las cuentas cerradas y perdidas o las cuentas que ya están en ciclos de ventas activos.
 
 >[!NOTE]
->Si su caso de uso implica la activación de audiencias a nivel de persona (B2C) en lugar de a nivel de cuenta, consulte [Activación de audiencias a destinos](audience-activation-to-destinations.md). Ese patrón utiliza el modelo de datos estándar RT-CDP y no requiere B2B edition.
+>Si su caso de uso implica la activación de audiencias a nivel de persona (B2C) en lugar de a nivel de cuenta, consulte [Activación de audiencias a destinos](../audience-building-activation/audience-activation-to-destinations.md). Ese patrón utiliza el modelo de datos estándar RT-CDP y no requiere B2B edition.
 
 ## Objetivos empresariales clave
 
@@ -181,7 +181,7 @@ Las siguientes opciones describen diferentes enfoques para implementar este patr
 
 **Cómo funciona:**
 
-Esta opción usa el conector de destino nativo [!DNL Marketo Engage] en [!DNL RT-CDP] para transmitir los cambios de pertenencia de la audiencia de la cuenta directamente a [!DNL Marketo Engage]. Cuando una cuenta califica para un segmento de audiencia o sale de él, los posibles clientes y contactos asociados en [!DNL Marketo] se actualizan con los atributos de pertenencia al segmento. [!DNL Marketo] las campañas inteligentes pueden generar déclencheur en función de estos cambios de pertenencia.
+Esta opción usa el conector de destino nativo [!DNL Marketo Engage] en [!DNL RT-CDP] para transmitir los cambios de pertenencia de la audiencia de la cuenta directamente a [!DNL Marketo Engage]. Cuando una cuenta califica para un segmento de audiencia o sale de él, los posibles clientes y contactos asociados en [!DNL Marketo] se actualizan con los atributos de pertenencia al segmento. [!DNL Marketo] campañas inteligentes pueden generar déclencheur en función de estos cambios de pertenencia.
 
 El destino [!DNL Marketo Engage] es un destino de flujo continuo, lo que significa que los cambios en la pertenencia a audiencias se envían de forma incremental a medida que se producen en lugar de en lotes programados. Esto proporciona un tiempo de acción más rápido para las campañas que necesitan responder a los cambios de calificación de cuentas. Las asignaciones de campos conectan atributos de perfil de [!DNL RT-CDP] a [!DNL Marketo] campos de posible cliente/contacto, lo que permite enriquecer los registros de [!DNL Marketo] con los datos de nivel de cuenta de [!DNL RT-CDP].
 
@@ -767,7 +767,7 @@ Los siguientes recursos proporcionan contexto adicional e instrucciones detallad
 
 **Fuentes de datos y conectores**
 
-- [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+- [Información general de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 - [Conector de Marketo Engage](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 - [Conector de Salesforce](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/crm/salesforce)
 

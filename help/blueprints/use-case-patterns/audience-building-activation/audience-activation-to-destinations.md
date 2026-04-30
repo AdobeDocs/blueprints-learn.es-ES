@@ -3,9 +3,9 @@ title: Activación de audiencias en destinos
 description: Obtenga información sobre cómo evaluar y publicar segmentos de audiencia en destinos externos para la segmentación o supresión mediante Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '7043'
+source-wordcount: '7080'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Este patrón se aplica siempre que el objetivo sea obtener datos de audiencia de
 Entre las partes interesadas habituales se incluyen equipos de marketing digital que administran medios de pago, equipos de datos que enriquecen los almacenes, equipos CRM que preparan listas de contactos para campañas y equipos de privacidad que garantizan el cumplimiento de la gobernanza en los flujos de datos salientes.
 
 >[!NOTE]
->Si su organización utiliza [!DNL Real-Time CDP] B2B edition y activa para destinos basados en cuentas, consulte [Activación de audiencia B2B](b2b-audience-activation.md). Ese patrón comparte la misma mecánica de activación, pero utiliza una cuenta B2B y un modelo de datos de persona y requiere la licencia de B2B edition.
+>Si su organización utiliza [!DNL Real-Time CDP] B2B edition y activa para destinos basados en cuentas, consulte [Activación de audiencia B2B](../b2b/account-audience-activation.md). Ese patrón comparte la misma mecánica de activación, pero utiliza una cuenta B2B y un modelo de datos de persona y requiere la licencia de B2B edition.
 
 ## Objetivos empresariales clave
 
@@ -89,6 +89,12 @@ Mejore el retorno de la inversión en marketing mediante una mejor segmentación
 
 - **Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP)**: evaluación de audiencias, administración de destinos, activación de audiencias, consentimiento y aplicación de gobernanza
 - **Adobe [!DNL Experience Platform] (AEP)**: almacén de perfiles, servicio de identidad, motor de segmentación, control de datos
+
+## Arquitectura
+
+La siguiente arquitectura de referencia ilustra cómo los datos de audiencia y perfil fluyen desde Real-Time CDP a destinos empresariales, incluido el almacenamiento en la nube, los extremos de streaming y las aplicaciones SaaS.
+
+![Arquitectura de referencia para la activación de perfiles y audiencias en destinos empresariales](/help/blueprints/audience-activation/assets/known_activation.svg)
 
 ## Funciones básicas
 
@@ -707,7 +713,7 @@ Revise las siguientes consideraciones antes y durante la implementación.
 
 **Recopilación de datos y orígenes**
 
-- [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+- [Información general de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 - [Información general de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home)
 - [Configuración de flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
 

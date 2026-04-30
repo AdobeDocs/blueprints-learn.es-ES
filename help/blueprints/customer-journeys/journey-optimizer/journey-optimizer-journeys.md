@@ -3,14 +3,32 @@ title: '[!DNL Journey Optimizer]: mensaje activado y modelo de Adobe Experience 
 description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
 solution: Journey Optimizer
 exl-id: 70573eb9-cd69-4fe6-b2ae-dae81665a308
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/MuodOvJ52G9lmUAmsuj06q1aTXkRg7W0Bj6nxLp96N8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 357
 ht-degree: 12%
 
 ---
 
 # [!DNL Journey Optimizer] - Modelo de Recorrido
+
+>[!TIP]
+>Este modelo también está disponible como [patrón de caso de uso](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) en Administración y orquestación de campañas.
 
 Los Recorridos de Adobe Journey Optimizer son flujos de trabajo en tiempo real impulsados por eventos que ofrecen experiencias personalizadas de varios pasos basadas en los comportamientos individuales de los clientes. Admiten una amplia gama de canales, incluidos correo electrónico, SMS, notificaciones push, mensajería en la aplicación, experiencias basadas en código e integraciones personalizadas basadas en API que permiten a las marcas interactuar con los clientes de forma contextual en sus puntos de contacto preferidos.
 
