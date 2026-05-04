@@ -3,16 +3,21 @@ title: Casos de uso de Customer Experience Orchestration, diagramas de arquitect
 description: Explore los objetivos comerciales clave, los patrones de casos de uso y los casos de uso del sector para Adobe Experience Platform y sus aplicaciones. Los diagramas y modelos de arquitectura visual proporcionan referencias técnicas para la integración de sistemas, flujos de datos y el diseño de soluciones, lo que conecta el valor empresarial con la implementación.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 63154ca158b773287f0d1a7f88a81ac3181c43a0
+TQID: https://experienceleague.adobe.com/hScp-97-JZqFMfBJdM6820M95dVE7YoagKJYfruEdao
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 2%
+source-wordcount: 328
+ht-degree: 4%
 
 ---
 
 # Objetivos empresariales, casos de uso y diagramas de arquitectura de Customer Experience Orchestration
 
-Este sitio contiene **Objetivos empresariales clave** que describen un ejemplo del valor empresarial principal y los objetivos que se pueden lograr con Adobe Experience Platform y aplicaciones. **Los patrones de casos de uso** describen capacidades comunes de aplicaciones y plataformas con enfoques de implementación repetibles. **Casos de uso del sector** aplican patrones a escenarios comerciales verticales específicos. **Los diagramas y modelos de arquitectura** son diagramas de referencia de flujo de datos y arquitectura visual que ilustran los puntos de integración del sistema, los flujos de contenido y datos y la secuencia de operaciones, proporcionando una referencia técnica para el diseño de soluciones. Juntas, estas capas conectan el valor empresarial con las dependencias y la arquitectura de la implementación.
+Este sitio contiene **Objetivos empresariales clave** que describen un ejemplo del valor empresarial principal y los objetivos que se pueden lograr con Adobe Experience Platform y aplicaciones. **Los patrones de casos de uso** describen capacidades comunes de aplicaciones y plataformas con enfoques de implementación repetibles. **Casos de uso del sector** aplican patrones a escenarios comerciales específicos verticales. **Los diagramas y modelos de arquitectura** son diagramas de referencia de flujo de datos y arquitectura visual que ilustran los puntos de integración del sistema, los flujos de contenido y datos y la secuencia de operaciones, proporcionando una referencia técnica para el diseño de soluciones. Juntas, estas capas conectan el valor empresarial con las dependencias y la arquitectura de la implementación.
 
 ## Objetivos empresariales clave
 

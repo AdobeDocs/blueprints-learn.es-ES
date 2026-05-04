@@ -2,10 +2,16 @@
 title: Información general sobre Marketo Engage y el modelo de integración de Workfront
 description: 'información general: Marketo Engage y modelo de integración de Workfront'
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/EbAEhF-UwPQKQA16T6GtZoP0YlqsgQWHby-MLP-bYuc
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 81%
+source-wordcount: 1797
+ht-degree: 89%
 
 ---
 
@@ -71,32 +77,32 @@ Será importante comprender cómo el proceso empresarial se correlaciona con est
   </tr>
   <tr> 
    <td>Portafolios</td>
-   <td>Puede utilizar portafolios y programas en Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se gastarán mejor los recursos.<br /><br />
+   <td>Puede utilizar portafolios y programas en Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se invertirán mejor los recursos.<br /><br />
    (por ejemplo, se crea un Portfolio para una unidad comercial dentro de una compañía centrada en la venta de servicios o productos).</td>
   </tr>
   <tr>
    <td>Programa</td>
-   <td>Puede usar programas de Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se gastarán mejor los recursos.<br /><br />
+   <td>Puede usar programas de Workfront para organizar proyectos. Mediante la organización de proyectos, puede comparar proyectos similares y determinar dónde se invertirán mejor los recursos.<br /><br />
    (por ejemplo, una estrategia de marketing con un objetivo de alto nivel, como crear conciencia e impulsar la demanda de un nuevo lanzamiento de producto).</td>
   </tr>
   <tr>
    <td>Proyecto</td>
-   <td>Los proyectos de Workfront son una colección de elementos de trabajo que deben completarse para lograr un objetivo, un producto, una entrega, etc.<br /><br /> específicos
-   (p. ej., una táctica de marketing como una ráfaga de correo electrónico, una campaña de nutrición, un seminario web o un evento en persona. Un solo proyecto también puede ser más complejo si abarca varias tácticas, como un correo electrónico, un anuncio en pantalla, una página de aterrizaje y un documento técnico descargable, todas ellas dirigidas a la obtención del mismo resultado).</td>
+   <td>Los proyectos de Workfront son una colección de elementos de trabajo que deben completarse para lograr un objetivo específico, un entregable, un producto, etc.<br /><br />
+   (p. ej., una táctica de marketing como un envío masivo de correo electrónico, una campaña de acompañamiento, un seminario web o un evento presencial). Un solo proyecto también puede ser más complejo si abarca varias tácticas, como un correo electrónico, un anuncio en pantalla, una página de aterrizaje y un documento técnico descargable, todas ellas dirigidas a la obtención del mismo resultado).</td>
   </tr>
   <tr>
    <td>Tarea</td>
-   <td>Las tareas de Workfront son elementos de trabajo planificados que pueden formar parte de un proyecto o una iniciativa. Se han asignado tareas a usuarios o equipos para que las completen.<br /><br />
+   <td>Las tareas de Workfront son elementos de trabajo planificados que pueden formar parte de un proyecto o una iniciativa. Las tareas se asignan a usuarios o equipos para que las completen.<br /><br />
    (Por ejemplo, una tarea para crear un segmento de audiencia o crear un borrador de correo electrónico puede ser una tarea asociada a un proyecto para desarrollar un programa de correo electrónico de Marketo Engage).</td>
   </tr>
   <tr>
    <td>Problema</td>
-   <td>Los problemas son elementos de trabajo no planificados en Workfront. Pueden ser problemas que se producen durante un proyecto o solicitudes enviadas a través de una cola de solicitudes.<br /><br />
+   <td>Los problemas son elementos de trabajo no planificados en Workfront. Pueden ser problemas que se producen durante un proyecto o solicitudes que se envían a través de una cola de solicitudes.<br /><br />
    (Por ejemplo, se genera un problema porque la imagen del banner de correo electrónico tiene las dimensiones incorrectas).</td>
   </tr>
   <tr>
    <td>Documento</td>
-   <td>Los documentos pueden ser documentos tradicionales, como documentos de un procesador de texto o presentaciones. También pueden ser archivos de imagen. Workfront permite la revisión de recursos mediante comentarios y anotaciones en documentos e imágenes para permitir la colaboración entre equipos.<br /><br />
+   <td>Los documentos pueden ser documentos tradicionales, como documentos de un procesador de texto o presentaciones. También pueden ser archivos de imagen. Workfront permite la revisión de activos mediante comentarios y anotaciones en documentos e imágenes para mejorar la colaboración entre equipos.<br /><br />
    (p. ej., una imagen de encabezado de correo electrónico que debe revisarse).</td>
   </tr>
   <tr>
