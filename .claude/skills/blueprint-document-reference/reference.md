@@ -65,7 +65,7 @@ No pegue procedimientos largos de Experience League en el modelo. Resumir y vinc
 | Tipo de contenido | URL básica | Ruta de ejemplo |
 |--------------|----------|--------------|
 | Documentos de Experience Platform | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | La misma estructura que la anterior con `/en/`. |
+| Experience League (en) | `https://experienceleague.adobe.com/es/docs/` | La misma estructura que la anterior con `/en/`. |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | SDK web | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | API de servidor de Edge Network | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -77,7 +77,7 @@ Utilice la ruta canónica que coincida con el sitio actual de Experience League 
 
 ### Formato de vínculo en Markdown
 
-- **Texto de vínculo descriptivo**: `[Create schemas](https://experienceleague.adobe.com/...)` no &quot;haga clic aquí&quot;.
+- **Texto de vínculo descriptivo**: `[Create schemas](https://experienceleague.adobe.com/es...)` no &quot;haga clic aquí&quot;.
 - **Nombres de productos en texto**: use `[!DNL Product Name]` por cada estilo de Adobe (p. ej. `[!DNL Real-time Customer Profile]`).
 - **Vínculos externos**: Agregue `{target="_blank"}` solo cuando la plantilla o canalización lo requiera (compruebe los modelos existentes en el repositorio).
 
@@ -98,16 +98,16 @@ Ejemplo:
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=es)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 ```
 
 &#x200B;---

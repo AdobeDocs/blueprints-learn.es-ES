@@ -75,7 +75,7 @@ The architecture above supports the following use case patterns:
 - **Ruta de la imagen** — siempre `assets/{filename}` (relativa a la carpeta de temas de la página). No utilice rutas absolutas.
 - **nombres de productos Adobe** — ajuste `[!DNL ...]` en el texto del cuerpo y las viñetas. Ejemplo: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`.
 - **Vínculos de patrones de casos de uso**: utilice siempre el formulario `/help/blueprints/use-case-patterns/{category}/{file}.md` absoluto para que el vínculo se resuelva desde cualquier página que pueda incluir este contenido.
-- **vínculos de Experience League**: direcciones URL absolutas que comienzan por `https://experienceleague.adobe.com/`. Prefiera la URL del documento canónico sobre una variante localizada.
+- **vínculos de Experience League**: direcciones URL absolutas que comienzan por `https://experienceleague.adobe.com/es`. Prefiera la URL del documento canónico sobre una variante localizada.
 
 ## Ordenación de secciones
 

@@ -157,7 +157,7 @@ Una vez creados y actualizados todos los archivos, compruebe lo siguiente:
 
 5. **Complejidad de Frontmatter**: el archivo de patrón incluye título, descripción, solución y exl-id en su frontmatter de YAML.
 
-6. **Vínculos de Experience League**: compruebe de forma puntual que las direcciones URL de Experience League son plausibles (comience por `https://experienceleague.adobe.com/`).
+6. **Vínculos de Experience League**: compruebe de forma puntual que las direcciones URL de Experience League son plausibles (comience por `https://experienceleague.adobe.com/es`).
 
 Informe al usuario de cualquier error de validación y corríjalo antes de considerar que la tarea se ha completado.
 
