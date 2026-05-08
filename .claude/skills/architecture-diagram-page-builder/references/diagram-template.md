@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Esta es la plantilla de Markdown completa para una página de diagrama de arquitectura. Reemplazar cada `{placeholder}` por el valor recopilado durante la fase 1 del flujo de trabajo de aptitudes. Elimine cualquier sección opcional que no se aplique (por ejemplo, el bloque `>[!MORELIKETHIS]`): no deje marcadores de posición vacíos en el archivo generado.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -60,7 +60,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
----
+&#x200B;---
 
 ## Reglas de Frontmatter
 
