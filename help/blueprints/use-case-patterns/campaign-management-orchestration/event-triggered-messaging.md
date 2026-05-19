@@ -6,7 +6,7 @@ exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '9040'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -206,7 +206,7 @@ Los datos de evento del evento de activación (nombre del producto, total del pe
 
 **Experience League:**
 
-- [Creación de un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Crear un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Eventos generales](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 
 ### Opción B: mensaje condicional activado por evento con espera
@@ -245,7 +245,7 @@ Este método reduce los mensajes innecesarios, ya que proporciona a los clientes
 **Experience League:**
 
 - [Actividad Esperar](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Actividad de condición](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Actividad de condición](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Criterios de salida](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### Opción C: activado por eventos con control de frecuencia
@@ -582,7 +582,7 @@ Las siguientes fases recorren la implementación integral de la mensajería acti
 
 **Donde las opciones difieren:**
 
-**Para La Opción A (Activada Mediante Evento Simple):**
+**Para La Opción A (Activada Por Un Evento Simple):**
 El lienzo de recorrido es mínimo: entrada de evento > condición de aceptación/consentimiento opcional > acción de mensaje > finalización. No hay pasos de espera ni comprobaciones de conversión. Establezca reglas de reentrada basadas en si el evento debe generar un mensaje cada vez que se produce.
 
 **Para la opción B (condicional con espera):**
@@ -593,12 +593,12 @@ Configure los límites de frecuencia a nivel de organización mediante Administr
 
 **Documentación de Experience League:**
 
-- [Creación de un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Crear un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propiedades del recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Eventos generales](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [Actividad de condición](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Actividad de condición](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Actividad Esperar](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Criterios de salida](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [administración de entradas de recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Reglas de frecuencia](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
@@ -759,14 +759,14 @@ Los siguientes recursos proporcionan detalles adicionales sobre las capacidades 
 
 ### orquestación de recorrido
 
-- [Introducción a recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [Creación de un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Introducción a los recorridos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Crear un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propiedades del recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Eventos generales](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Eventos de calificación de público](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Actividad de condición](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Actividad de condición](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Actividad Esperar](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Criterios de salida](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [administración de entradas de recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Prueba del recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
