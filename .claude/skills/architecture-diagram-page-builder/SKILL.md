@@ -71,7 +71,7 @@ Entrevista al usuario para recopilar toda la información necesaria antes de gen
 
 8. **Flujos de datos principales/puntos de integración**: de 3 a 7 viñetas que describen los flujos clave y los límites de integración mostrados en los diagramas (por ejemplo, `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
 
-9. **Vínculos de Experience League**: de 3 a 6 vínculos a documentación relevante de Experience League para su posterior lectura. Cada uno debe comenzar con `https://experienceleague.adobe.com/`.
+9. **Vínculos de Experience League**: de 3 a 6 vínculos a documentación relevante de Experience League para su posterior lectura. Cada uno debe comenzar con `https://experienceleague.adobe.com/es`.
 
    **Recomendar candidatos primero.** En función de las soluciones de Adobe y el propósito de la página, proponga 4-8 artículos de Experience League plausibles (por ejemplo, las páginas de aterrizaje canónicas o de información general para cada solución con nombre, guías de integración clave, referencias de implementación). Para cada sugerencia, presente:
    - Título del artículo
@@ -176,7 +176,7 @@ Una vez creados y actualizados todos los archivos, compruebe lo siguiente e info
 
 2. **Vínculos de patrones de casos de uso**: cada vínculo de patrones del archivo señala a un archivo Markdown existente en `/help/blueprints/use-case-patterns/`. Use `Read` o glob para confirmar que existe cada destino.
 
-3. **Vínculos de Experience League**: compruebe de forma puntual que todas las direcciones URL de la sección `## Further reading` empiecen por `https://experienceleague.adobe.com/`.
+3. **Vínculos de Experience League**: compruebe de forma puntual que todas las direcciones URL de la sección `## Further reading` empiecen por `https://experienceleague.adobe.com/es`.
 
 4. **Ubicación de la entrada de índice**: la nueva entrada se encuentra dentro de la subsección correcta, utiliza sangría de 4 espacios y la ruta de acceso coincide exactamente con la ubicación del archivo generado.
 
