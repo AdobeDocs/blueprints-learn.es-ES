@@ -13,16 +13,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 333
 ht-degree: 4%
 
 ---
 
-# Objetivos empresariales, casos de uso y diagramas de arquitectura de Customer Experience Orchestration
+# Casos de uso y diagramas de arquitectura de Customer Experience Orchestration
 
-Este sitio contiene **Objetivos empresariales clave** que describen un ejemplo del valor empresarial principal y los objetivos que se pueden lograr con Adobe Experience Platform y aplicaciones. **Los patrones de casos de uso** describen capacidades comunes de aplicaciones y plataformas con enfoques de implementación repetibles. **Casos de uso del sector** aplican patrones a escenarios comerciales específicos verticales. **Los diagramas y modelos de arquitectura** son diagramas de referencia de flujo de datos y arquitectura visual que ilustran los puntos de integración del sistema, los flujos de contenido y datos y la secuencia de operaciones, proporcionando una referencia técnica para el diseño de soluciones. Juntas, estas capas conectan el valor empresarial con las dependencias y la arquitectura de la implementación.
+Este sitio contiene **Objetivos empresariales clave** que describen un ejemplo del valor empresarial principal y los objetivos que se pueden lograr con Adobe Experience Platform y aplicaciones. **Los patrones de casos de uso** describen capacidades comunes de aplicaciones y plataformas con enfoques de implementación repetibles. **Ejemplos de casos de uso del sector** aplican patrones a escenarios comerciales verticales específicos. **Los diagramas y modelos de arquitectura** son diagramas de referencia de flujo de datos y arquitectura visual que ilustran los puntos de integración del sistema, los flujos de contenido y datos y la secuencia de operaciones, proporcionando una referencia técnica para el diseño de soluciones. Juntas, estas capas conectan el valor empresarial con las dependencias y la arquitectura de la implementación.
 
 ## Objetivos empresariales clave
 
@@ -45,7 +45,7 @@ Resultados estratégicos que las organizaciones buscan lograr a través de inici
 
 ## Patrones de casos de uso
 
-Enfoques de implementación repetibles que describen capacidades específicas, la cadena de funciones que las ofrece y las aplicaciones involucradas.
+Enfoques de implementación repetibles que describen cómo lograr resultados específicos con las capacidades asociadas y los componentes de aplicación que las ofrecen.
 
 <table>
 <tr>
@@ -62,7 +62,7 @@ Enfoques de implementación repetibles que describen capacidades específicas, l
 
 [Ver todos los patrones de casos de uso](use-case-patterns/overview.md)
 
-## Explorar por sector
+## Explorar ejemplos de casos de uso por sector
 
 Casos de uso adaptados a industrias específicas, cada uno asignado a patrones de implementación y objetivos empresariales.
 

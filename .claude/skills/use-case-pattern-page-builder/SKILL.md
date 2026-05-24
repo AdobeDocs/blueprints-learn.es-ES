@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Creación de guía del nuevo contenido de patrón de caso de uso para el repositorio de modelos de Adobe Experience Platform. Utilice esta habilidad cuando añada un nuevo patrón de caso de uso, cree contenido de guía de implementación o cuando el usuario mencione la adición de patrones al sitio de modelos. Gestiona el flujo de trabajo completo: recopilación de información de patrones, generación del archivo Markdown con la estructura de plantilla correcta y actualización de todas las páginas de referencia cruzada (TOC.md, overview.md).'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 99%
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ Entrevista al usuario para recopilar toda la información necesaria antes de gen
 
 4. **Soluciones principales de Adobe**: los productos de Adobe fundamentales para este patrón. Elija entre: Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B edition, Real-Time CDP B2B edition u otros según corresponda.
 
-5. **Pasos de la cadena de funciones**: de 3 a 6 fases secuenciales que describen el flujo de ejecución del patrón, separadas por `>`. Ejemplo: &quot;Ingesta de eventos > Entrada de Recorrido > Evaluación de condiciones > Entrega de mensajes > Informes&quot;.
+5. **Pasos del plan de ejecución**: de 3 a 6 fases secuenciales que describen el flujo de ejecución del patrón, separadas por `>`. Ejemplo: &quot;Ingesta de eventos > Entrada de Recorrido > Evaluación de condiciones > Entrega de mensajes > Informes&quot;.
 
 6. **Se admiten objetivos empresariales** — Uno o más objetivos empresariales del conjunto existente en `/help/blueprints/business-objectives/`. Cada uno debe incluir el nombre del objetivo, la subcarpeta de categoría y el nombre de archivo. Compruebe que los archivos a los que se hace referencia existen antes de generar contenido.
 
@@ -58,12 +58,12 @@ Entrevista al usuario para recopilar toda la información necesaria antes de gen
 
 - Ejemplos de casos de uso (párrafos 3 a 5; si no se facilitan, extráigalos de la otra información)
 - Lista de aplicaciones con descripciones de la función de cada aplicación de Adobe
-- Tabla de funciones básicas (función, estado, qué debe estar en su lugar, referencia de Experience League)
-- Tabla de funciones de soporte (función, estado, por qué importa, referencia de Experience League)
-- Tablas de funciones de la aplicación (una por aplicación, con función, fase de implementación, descripción)
+- Tabla de capacidades básicas (funcionalidad, estado, qué debe estar en su lugar, referencia de Experience League)
+- Tabla de funciones de soporte (funcionalidad, estado, por qué importa, referencia de Experience League)
+- Tablas de capacidades de la aplicación (una por aplicación, con capacidad, fase de implementación, descripción)
 - Lista de comprobación de requisitos previos
 
-Si el usuario no proporciona los elementos opcionales, genere valores predeterminados razonables basados en la categoría del patrón, las soluciones y la cadena de funciones.
+Si el usuario no proporciona los elementos opcionales, genere valores predeterminados razonables basados en la categoría del patrón, las soluciones y el plan de ejecución.
 
 ## Fase 2: Generación de contenido
 
@@ -89,15 +89,15 @@ Utilice la plantilla de `references/pattern-template.md` y rellene todos los val
 
 6. **Indicadores clave de rendimiento** — Tabla con KPI, Descripción, Columnas de medición.
 
-7. **Patrón de caso de uso**: párrafo de descripción y cadena de funciones.
+7. **Patrón de caso de uso**: párrafo de descripción y plan de ejecución.
 
 8. **Aplicaciones**: lista de aplicaciones de Adobe con formato y descripciones de `[!DNL ...]`.
 
-9. **Funciones básicas** — Tabla con columnas: Función básica, Estado, Lo que debe estar en su lugar, Referencia de Experience League. Valores de estado: Necesario, Supuesto en su lugar, No aplicable.
+9. **Funcionalidades básicas** — Tabla con columnas: Funcionalidad básica, Estado, Qué debe estar en su lugar, Referencia de Experience League. Valores de estado: Necesario, Supuesto en su lugar, No aplicable.
 
-10. **Funciones de soporte** — Tabla con columnas: Función de soporte, Estado, Por qué importa, Referencia de Experience League. Valores de estado: Recomendado, Incluido, No aplicable.
+10. **Funcionalidades de soporte** — Tabla con columnas: Funcionalidad de soporte, Estado, Por qué importa, Referencia de Experience League. Valores de estado: Recomendado, Incluido, No aplicable.
 
-11. **Funciones de la aplicación** — Una tabla por aplicación con columnas: Función, Fase de implementación, Descripción.
+11. **Funcionalidades de la aplicación** — Una tabla por aplicación con columnas: Funcionalidad, Fase de implementación, Descripción.
 
 12. **Requisitos previos**: lista de comprobación con sintaxis `- [ ]`.
 

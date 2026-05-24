@@ -3,7 +3,7 @@ title: Adquisición de gestión de Recorridos y marketing basada en grupos
 description: Aprenda a desarrollar recorridos de nivel de cuenta que califiquen clientes potenciales en grupos de compra para mejorar la eficacia del marketing B2B.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Los siguientes KPI ayudan a medir la eficacia de este patrón de caso de uso.
 
 Desarrolle recorridos de nivel de cuenta que califiquen clientes potenciales en grupos de compra para mejorar la eficacia del marketing B2B.
 
-**Cadena de funciones:** Identificación de cuenta > Definición de grupo de compra > Calificación de posibles clientes > Ejecución de Recorridos de cuenta > Puntuación de participación > Informes
+**Plan de ejecución:** Identificación de cuenta > Definición de grupo de compra > Calificación de posibles clientes > Ejecución de Recorridos de cuenta > Puntuación de participación > Informes
 
 ## Aplicaciones
 
@@ -97,11 +97,11 @@ En este patrón de caso de uso se utilizan las siguientes aplicaciones de Adobe.
 - **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])**: Orquesta recorridos de nivel de cuenta, administra grupos de compras con plantillas de roles e intereses de soluciones, puntúa la participación a nivel de persona y grupo de compras, crea contenido de correo electrónico B2B, envía mensajes SMS, configura alertas de ventas y proporciona paneles de análisis B2B.
 - **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])**: unifica perfiles de cuenta a partir de datos B2B de origen cruzado, resuelve relaciones persona a cuenta, evalúa audiencias a nivel de cuenta, configura destinos específicos B2B ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) y aplica el control de datos en los datos B2B.
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Capacidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Requerido | Zona protegida aprovisionada con [!DNL AJO B2B Edition] y [!DNL RT-CDP B2B Edition] derechos habilitados. Roles configurados para especialistas en marketing B2B, operaciones de ventas y administradores con los permisos adecuados para comprar la administración de grupos, los recorridos de cuenta y la configuración de integración de CRM. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Esquemas XDM B2B configurados con clases específicas B2B: Cuenta empresarial XDM, Oportunidad empresarial XDM, Persona empresarial XDM (posible cliente/contacto), Campaña empresarial XDM y Lista de marketing empresarial XDM. Deben existir grupos de campos para los atributos de cuenta, atributos de persona y datos de actividad/participación. Conjuntos de datos creados y habilitados para perfil para cada esquema. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [clases de esquema B2B](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) |
@@ -113,7 +113,7 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Capacidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | Recomendado | Los atributos calculados pueden acumular eventos de participación a nivel de persona (aperturas de correo electrónico, descargas de contenido, asistencia a seminarios web) en métricas de participación a nivel de cuenta que alimentan la puntuación de grupo de compra y la lógica de calificación de cuentas. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
 | Administración del ciclo de datos | Recomendado | La administración de consentimientos es crítica para las comunicaciones por correo electrónico y SMS B2B. Las políticas de caducidad del conjunto de datos ayudan a administrar el ciclo vital de los datos de participación transitorios y garantizan el cumplimiento de los requisitos de retención de datos. | [Administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
@@ -121,13 +121,13 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Monitorización y observabilidad | Recomendado | La supervisión garantiza que las canalizaciones de datos B2B (sincronizaciones CRM/[!DNL Marketo]) estén en buen estado, que los perfiles de cuenta se estén actualizando y que las ejecuciones del recorrido de cuentas se lleven a cabo sin errores. Las alertas sobre errores del flujo de datos de origen son críticas para mantener la moneda de los datos. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
 | Informes y análisis | Incluido | Los paneles de análisis B2B de [!DNL AJO B2B Edition] proporcionan la participación del grupo comprador, el rendimiento del recorrido de la cuenta y las métricas de canalización. [!DNL CJA B2B Edition] amplía el análisis con el análisis del espacio de trabajo de nivel de cuenta, el análisis de grupos de compra y la correlación de oportunidades. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Configuración de interés de solución | Fase 1: Configuración del grupo de interés y compra de la solución | Defina intereses de soluciones que asignen productos o servicios a criterios de cualificación de grupos de compra |
 | Administración del grupo de compra | Fase 1: Configuración del grupo de interés y compra de la solución | Cree y administre grupos de compras con plantillas de funciones, asignación de personas y definiciones de intereses de soluciones |
@@ -142,7 +142,7 @@ Este plan utiliza las siguientes funciones del catálogo de funciones de la apli
 
 ### [!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Unificación del perfil de cuenta | Fase 0: Base de datos B2B | Consolidar datos B2B de origen cruzado en perfiles de cuenta unificados mediante clases de esquema B2B XDM especializadas y grupos de campos |
 | Resolución de identidad B2B | Fase 0: Base de datos B2B | Resuelva las relaciones persona a cuenta mediante identificadores principales que admitan jerarquías de cuentas de varios niveles y asignaciones de persona a cuenta de varios a varios |
@@ -309,7 +309,7 @@ Las siguientes fases describen el proceso de implementación paso a paso para es
 
 ### Fase 0: Base de datos B2B
 
-**Funciones de la aplicación:** [!DNL RT-CDP B2B]: unificación de perfiles de cuenta, resolución de identidad B2B, integración de [!DNL Marketo Engage], administración de datos B2B, evaluación de audiencia de cuenta
+**Funcionalidades de la aplicación:** [!DNL RT-CDP B2B]: unificación del perfil de cuenta, resolución de identidad B2B, integración de [!DNL Marketo Engage], administración de datos B2B, evaluación de audiencia de cuenta
 
 Esta fase establece la infraestructura de datos B2B en [!DNL RT-CDP B2B Edition]. Unificará los datos de cuenta de CRM, automatización de marketing y otras fuentes en un único perfil de cuenta, resolverá las relaciones persona a cuenta, configurará el control de datos B2B y creará audiencias de nivel de cuenta que se alimentarán de la administración de grupos de compra de [!DNL AJO B2B Edition].
 
@@ -353,7 +353,7 @@ Esta fase establece la infraestructura de datos B2B en [!DNL RT-CDP B2B Edition]
 
 ### Fase 1: Interés de la solución y configuración del grupo de compra
 
-**Funciones de la aplicación:** [!DNL AJO B2B]: Configuración de interés de solución, Administración de grupos de compra
+**Funcionalidades de la aplicación:** [!DNL AJO B2B]: Configuración de interés de solución, Administración de grupos de compra
 
 Esta fase define los intereses de la solución (productos/servicios) y las plantillas de grupo de compra que forman el núcleo del modelo de gestión de grupos de compra. Creará intereses de soluciones, definirá plantillas de funciones con requisitos personales y configurará cómo los posibles clientes se clasifican para adquirir funciones de grupo.
 
@@ -409,7 +409,7 @@ Configure los intereses de la solución y las plantillas de funciones como en la
 
 ### Fase 2: Calificación de posibles clientes y puntuación de la participación
 
-**Funciones de la aplicación:** [!DNL AJO B2B]: Puntuación de participación, Calificación de la cuenta
+**Funcionalidades de la aplicación:** [!DNL AJO B2B]: Puntuación de participación, Calificación de la cuenta
 
 Esta fase configura el modelo de puntuación de participación que mide la participación a nivel de persona dentro de los grupos de compra y la acumula en puntuaciones de preparación a nivel de grupo de compra y de cuenta. Configurará reglas de puntuación, definirá umbrales de participación para la calificación y, opcionalmente, habilitará la calificación de cuentas con tecnología de IA.
 
@@ -451,7 +451,7 @@ Esta fase configura el modelo de puntuación de participación que mide la parti
 
 ### Fase 3: Diseño y ejecución del recorrido de cuentas
 
-**Funciones de la aplicación:** [!DNL AJO B2B]: Journey Orchestration de cuenta, creación de correo electrónico B2B, administración de canales SMS
+**Funcionalidades de la aplicación:** [!DNL AJO B2B]: Journey Orchestration de cuenta, creación de correo electrónico B2B, administración de canales SMS
 
 Esta fase diseña e implementa el recorrido de cuentas que organiza la participación con los miembros del grupo comprador. Creará recorridos de cuenta con condiciones de entrada, nodos de acción (correo electrónico, SMS), ramas de condición (según la fase de grupo de compra, puntuación de participación, cobertura de funciones), pasos de espera y criterios de salida.
 
@@ -519,7 +519,7 @@ Diseñe un recorrido en el que los nodos de condición evalúen la puntuación d
 
 ### Fase 4: Alineación de ventas e integración CRM
 
-**Funciones de la aplicación:** [!DNL AJO B2B]: Configuración de alertas de ventas, Perspectivas de ventas de CRM; [!DNL RT-CDP B2B]: Configuración de destino de cuenta, Audience Activation de cuenta
+**Funcionalidades de la aplicación:** [!DNL AJO B2B]: Configuración de alertas de ventas, perspectivas de ventas de CRM; [!DNL RT-CDP B2B]: Configuración de destino de cuenta, Audience Activation de cuenta
 
 Esta fase establece el puente entre marketing y ventas mediante la configuración de correos electrónicos de alerta de ventas, la implementación de perspectivas de ventas de CRM para la visibilidad dentro de CRM y, opcionalmente, la activación de audiencias de cuenta en destinos B2B ([!DNL LinkedIn], [!DNL Marketo], sistemas CRM).
 
@@ -564,7 +564,7 @@ Esta fase establece el puente entre marketing y ventas mediante la configuració
 
 ### Fase 5: Creación de informes y optimización
 
-**Funciones de la aplicación:** [!DNL AJO B2B]: Paneles de B2B Analytics
+**Funcionalidades de la aplicación:** [!DNL AJO B2B]: Paneles de B2B Analytics
 
 En esta fase se establece el marco de informes y análisis para medir el rendimiento del grupo de compra, la efectividad del recorrido de cuentas y el impacto en la canalización. [!DNL AJO B2B Edition] proporciona paneles de análisis integrados; [!DNL CJA B2B Edition] (si tiene licencia) amplía el análisis con información más detallada a nivel de cuenta de canales cruzados.
 

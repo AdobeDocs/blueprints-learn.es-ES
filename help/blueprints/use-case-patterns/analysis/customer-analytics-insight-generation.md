@@ -1,32 +1,32 @@
 ---
 title: Generación de Customer Analytics y Insight
-description: Learn how to build cross-channel analysis workspaces, computed metrics, and dashboards for behavior and performance analysis.
+description: Aprenda a crear espacios de trabajo de análisis en canales múltiples, métricas calculadas y paneles para el análisis de comportamiento y rendimiento.
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8947'
 ht-degree: 1%
 
 ---
 
-# Customer analytics &amp; insight generation
+# Generación de Customer Analytics y insight
 
-This guide provides a complete implementation reference for customer analytics and insight generation. It covers how to connect [!DNL Adobe Experience Platform] datasets to [!DNL Customer Journey Analytics], configure data views, build freeform analysis workspaces, create computed metrics, publish dashboards and mobile scorecards, and optionally publish CJA-defined audiences back to [!DNL Adobe Experience Platform] for activation.
+Esta guía proporciona una referencia de implementación completa para el análisis de clientes y la generación de insight. Cubre cómo conectar [!DNL Adobe Experience Platform] conjuntos de datos a [!DNL Customer Journey Analytics], configurar vistas de datos, crear espacios de trabajo de análisis de forma libre, crear métricas calculadas, publicar paneles y cuadros de resultados móviles y, opcionalmente, volver a publicar audiencias definidas por CJA en [!DNL Adobe Experience Platform] para su activación.
 
-It is designed for solution architects, marketing technologists, and implementation engineers who need to understand all viable implementation paths, the trade-offs between them, and the configuration decisions required at each phase.
+Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesitan comprender todas las rutas de implementación viables, los intercambios entre ellas y las decisiones de configuración requeridas en cada fase.
 
-Unlike the other patterns in the taxonomy which focus on activation and engagement (sending messages, personalizing content, activating audiences), this pattern focuses on understanding -- analyzing customer behavior, measuring campaign performance, identifying trends, and generating insights that inform strategy and optimization decisions. It is the most commonly composed pattern and pairs with nearly every activation or personalization pattern.
+A diferencia de los otros patrones de la taxonomía que se centran en la activación y la participación (envío de mensajes, personalización de contenido, activación de audiencias), este patrón se centra en la comprensión, análisis del comportamiento del cliente, medición del rendimiento de la campaña, identificación de tendencias y generación de perspectivas que informan las decisiones de estrategia y optimización. Es el patrón más compuesto y se empareja con casi todos los patrones de activación o personalización.
 
-## Use case overview
+## Resumen del caso de uso
 
-Organizations need to understand how customers behave across channels, how campaigns perform, where customers drop off in their journeys, which content resonates, and how different segments retain over time. Customer analytics and insight generation addresses this need by connecting the rich cross-channel data in [!DNL Adobe Experience Platform] to [!DNL Customer Journey Analytics], where analysts can build freeform workspaces, create custom metrics, configure attribution models, and publish dashboards for stakeholder consumption.
+Las organizaciones necesitan comprender cómo se comportan los clientes en los distintos canales, cómo funcionan las campañas, dónde abandonan los clientes en sus recorridos, qué contenido resuena y cómo se conservan los distintos segmentos a lo largo del tiempo. La generación de insight y Customer Analytics resuelve esta necesidad conectando los datos enriquecidos de canales cruzados de [!DNL Adobe Experience Platform] a [!DNL Customer Journey Analytics], donde los analistas pueden crear espacios de trabajo improvisados, crear métricas personalizadas, configurar modelos de atribución y publicar paneles para el consumo de las partes interesadas.
 
-The pattern serves multiple audiences: marketing analysts who need deep exploratory analysis, campaign managers who need performance dashboards, product managers who need engagement and retention insights, and executives who need at-a-glance KPI scorecards. The implementation approach varies based on the primary analytical focus -- campaign performance measurement, cross-channel journey analysis, analysis-driven audience activation, or guided product insights.
+El patrón sirve para varias audiencias: analistas de marketing que necesitan un análisis exploratorio profundo, administradores de campañas que necesitan paneles de rendimiento, administradores de productos que necesitan perspectivas de participación y retención, y ejecutivos que necesitan cuadros de resultados de KPI de un vistazo. El enfoque de implementación varía en función del enfoque analítico principal: medición del rendimiento de la campaña, análisis de recorrido en canales múltiples, activación de audiencia basada en análisis o perspectivas de producto guiadas.
 
-## Key business objectives
+## Objetivos empresariales clave
 
-The following business objectives are supported by this use case pattern.
+Este patrón de caso de uso admite los siguientes objetivos empresariales.
 
 **Mejorar análisis e informes**
 
@@ -71,29 +71,29 @@ A continuación se muestran ejemplos de casos de uso tácticos que se pueden imp
 - Análisis del rendimiento del contenido: identifique qué contenido resuena más por segmento, canal y fase del ciclo vital
 - Análisis de uso y adopción de productos: efectúe el seguimiento de la adopción de funciones, la frecuencia de la participación y las tendencias de crecimiento del usuario
 - Análisis de la fase del ciclo vital del cliente: segmente y analice clientes por fase del ciclo vital (nuevos, activos, en riesgo, caducados).
-- Marketing mix optimization dashboard -- compare channel investment against revenue contribution
-- Cross-channel engagement scoring and reporting -- build composite engagement scores from web, app, email, and campaign interactions
+- Panel de optimización de la combinación de marketing: compare la inversión en el canal con la contribución de ingresos
+- Informes y puntuación de participación en canales múltiples: cree puntuaciones de participación compuestas a partir de interacciones web, de aplicaciones, de correo electrónico y de campañas
 
 ## Indicadores clave de rendimiento
 
-The following KPIs help measure the success of this use case pattern.
+Los siguientes KPI ayudan a medir el éxito de este patrón de caso de uso.
 
-| KPI | Descripción | Measurement approach |
+| KPI | Descripción | Método de medición |
 | --- | --- | --- |
-| Efficiency | Reduction in time-to-insight and manual reporting effort | Track analyst time spent building reports before and after CJA implementation |
-| Productivity | Number of self-service analyses created by business users | Monitor Workspace project creation and dashboard usage |
-| Incremental Revenue | Revenue attributed to insights-driven optimization decisions | Measure revenue lift from campaigns optimized based on CJA analysis |
-| Conversion Rates | Funnel completion rates across key customer journeys | Track fallout rates at each journey step using CJA fallout visualization |
-| Participación | Depth and frequency of customer interaction across channels | Build computed metrics for engagement scoring in CJA |
-| Retención | Customer return rates over defined time periods | Use CJA cohort analysis to measure retention curves |
+| Eficiencia | Reducción del tiempo de respuesta a insight y del esfuerzo manual de creación de informes | Rastree el tiempo invertido por el analista en la creación de informes antes y después de la implementación de CJA |
+| Productividad | Número de análisis de autoservicio creados por usuarios empresariales | Monitorizar la creación de proyectos y el uso de tableros de Workspace |
+| Ingresos incrementales | Ingresos atribuidos a decisiones de optimización basadas en las perspectivas | Mida el aumento de ingresos de las campañas optimizadas en función del análisis de CJA |
+| Tasas de conversión | Tasas de finalización de funnel en recorridos clave del cliente | Rastrear tasas de abandonos en cada paso del recorrido mediante la visualización de abandonos de CJA |
+| Participación | Profundidad y frecuencia de la interacción del cliente entre canales | Cree métricas calculadas para la puntuación de participación en CJA |
+| Retención | Tasas de retorno del cliente en períodos de tiempo definidos | Uso del análisis de cohorte de CJA para medir curvas de retención |
 
-## Use case pattern
+## Patrón de caso de uso
 
-**Customer analytics &amp; insight generation**
+**Generación de Customer Analytics y insight**
 
-Build cross-channel analysis workspaces, computed metrics, and dashboards to understand customer behavior and campaign performance.
+Cree espacios de trabajo de análisis en canales múltiples, métricas calculadas y paneles para comprender el comportamiento de los clientes y el rendimiento de las campañas.
 
-**Function chain:** Data Connection > Data View Configuration > Workspace Analysis > Computed Metric Creation > Dashboard Publishing
+**Plan de ejecución:** Conexión de datos > Configuración de vista de datos > Workspace Analysis > Creación de métricas calculadas > Publicación de paneles
 
 Consulte la sección [Opciones de implementación](#implementation-options) para obtener instrucciones de composición.
 
@@ -104,11 +104,11 @@ En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 - **[!DNL Customer Journey Analytics] (CJA)**: conexiones, vistas de datos, análisis del espacio de trabajo, análisis guiado, métricas calculadas, paneles, publicación de audiencias y análisis de contenido
 - **[!DNL Adobe Experience Platform] (AEP)**: conjunto de datos, esquemas XDM, datos de perfil y evento que alimentan las conexiones de CJA
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Capacidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Se asume en contexto | perfil de producto de CJA aprovisionado con permisos de creación de espacio de trabajo y acceso de vista de datos. Conjuntos de datos de AEP accesibles para la conexión de CJA. Usuarios asignados a funciones de CJA apropiadas. | [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Los esquemas XDM y los conjuntos de datos que se van a conectar a CJA deben existir en AEP. El diseño del esquema influye directamente en las dimensiones y métricas disponibles en las vistas de datos de CJA. Los esquemas de evento necesitan campos con marca de hora; los esquemas de búsqueda necesitan campos clave. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) |
@@ -120,7 +120,7 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Capacidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | Recomendado | Los atributos calculados de AEP pueden enriquecer los conjuntos de datos conectados a CJA, proporcionando dimensiones y métricas adicionales para el análisis (por ejemplo, recuento de compras de por vida, días transcurridos desde la última actividad). Estas agregaciones de nivel de perfil están disponibles como dimensiones en las vistas de datos de CJA. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
 | Administración del ciclo de datos | Recomendado | Las políticas de retención de conjuntos de datos afectan a qué datos históricos están disponibles en CJA. Normalmente, se desea una retención larga para que los análisis permitan comparaciones año tras año y análisis de tendencias a largo plazo. Configure los TTL del conjunto de datos para garantizar una profundidad histórica adecuada. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
@@ -128,15 +128,15 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Monitorización y observabilidad | Recomendado | Se debe supervisar el estado de la conexión de CJA y la actualización de los datos. Configure alertas para los errores y problemas de ingesta del flujo de datos de origen para garantizar que la fuente de datos de CJA sea fiable y esté actualizada. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
 | Informes y análisis | Incluido | Esta es la implementación de informes y análisis. Cuando un plan de referencia para otro patrón incluya S5, utilice este plan de generación de insight y análisis de clientes para la implementación de Analytics. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Customer Journey Analytics] (CJA)
 
-En la tabla siguiente se enumeran las funciones de aplicación de CJA utilizadas en este patrón.
+En la tabla siguiente se enumeran las funcionalidades de la aplicación de CJA utilizadas en este patrón.
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Conexión de datos | Fase 1: Conexión de datos | Enlace los conjuntos de datos de AEP a una conexión de CJA para el análisis en canales múltiples, configuración de tipos de conjuntos de datos e ID de persona para la vinculación de conjuntos de datos cruzados |
 | Configuración de vista de datos | Fase 2: Configuración de vista de datos | Defina dimensiones, métricas, modelos de atribución, configuración de persistencia, parámetros de sesión y campos derivados que dan forma a la perspectiva analítica |
@@ -149,9 +149,9 @@ En la tabla siguiente se enumeran las funciones de aplicación de CJA utilizadas
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-En la tabla siguiente se enumeran las funciones de aplicación de AEP utilizadas en este patrón.
+En la tabla siguiente se enumeran las funcionalidades de la aplicación de AEP utilizadas en este patrón.
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Lago de datos y conjuntos de datos | Requisito previo (F2, F3) | Proporcione los conjuntos de datos de evento, perfil y búsqueda de origen que alimentan la conexión de CJA |
 | Servicio de identidad | Requisito previo (F4) | Proporcione la configuración del área de nombres de identidad para la vinculación de ID de persona entre conjuntos de datos en la conexión de CJA |
@@ -356,7 +356,7 @@ Esta sección detalla las fases de implementación paso a paso para este patrón
 
 ### Fase 1: Conexión de datos
 
-**Función de aplicación:** CJA: Data Connection
+**Capacidad de la aplicación:** CJA: Data Connection
 
 Esta fase configura una conexión de CJA que enlaza uno o más conjuntos de datos de AEP a CJA para su análisis. La conexión define qué conjuntos de datos fluyen a CJA, cómo se vinculan los eventos entre conjuntos de datos a través del ID de persona y cómo se incorporan los datos históricos y de flujo continuo. Este es el vínculo fundamental entre el lago de datos de AEP y CJA.
 
@@ -439,7 +439,7 @@ Detalles de configuración clave:
 
 ### Fase 2: Configuración de vista de datos
 
-**Función de aplicación:** CJA: Configuración de vista de datos
+**Capacidad de la aplicación:** CJA: Configuración de vista de datos
 
 Esta fase configura una vista de datos que define cómo aparecen los datos de conexión en el análisis. La vista de datos determina qué campos de esquema se exponen como dimensiones y métricas, cómo se atribuyen y persisten los valores, cómo se definen las sesiones y qué campos derivados transforman los datos sin procesar en componentes listos para el análisis. Se pueden crear varias vistas de datos a partir de una sola conexión para diferentes perspectivas analíticas.
 
@@ -541,7 +541,7 @@ Asigne dimensiones y métricas de nivel de evento relevantes para el análisis d
 
 ### Fase 3: análisis y creación de métricas
 
-**Función de aplicación:** CJA: Workspace Analysis, CJA: Análisis guiado, CJA: Creación de métricas calculadas
+**Funcionalidad de la aplicación:** CJA: Workspace Analysis, CJA: Análisis guiado, CJA: Creación de métricas calculadas
 
 Esta fase crea los espacios de trabajo de análisis (proyectos de forma libre o análisis guiado), las métricas calculadas para KPI derivados, los filtros para análisis segmentados y las anotaciones para eventos clave. Aquí es donde se realiza el valor analítico: creando las tablas, las visualizaciones y las métricas que responden a las preguntas comerciales.
 
@@ -652,7 +652,7 @@ Seleccione el tipo de análisis guiado adecuado en función de la pregunta comer
 
 ### Fase 4: Publicación del panel
 
-**Función de la aplicación:** CJA: Publicación de tableros y cuadros de resultados
+**Capacidad de la aplicación:** CJA: publicación de tableros y cuadros de resultados
 
 Esta fase crea paneles interactivos (proyectos de Workspace) y cuadros de resultados móviles que ofrecen visibilidad de KPI a las partes interesadas. Los paneles proporcionan visibilidad ejecutiva y operativa a través de números de resumen, líneas de tendencia, desgloses y anotaciones. Los cuadros de resultados móviles proporcionan datos de rendimiento de un vistazo a través de la aplicación móvil de paneles de [!DNL Adobe Analytics].
 
@@ -722,7 +722,7 @@ Detalles de configuración clave:
 
 ### Fase 5: Publicación de audiencias (solo opción C)
 
-**Función de aplicación:** CJA: Publicación de audiencias
+**Capacidad de la aplicación:** CJA: Publicación de audiencias
 
 Esta fase configura la publicación de audiencias de CJA para devolver los segmentos descubiertos por el análisis al Perfil del cliente en tiempo real de AEP para su activación descendente en destinos RT-CDP, campañas de AJO o recorridos de AJO.
 
@@ -957,7 +957,7 @@ Los siguientes recursos proporcionan información adicional para este patrón de
 
 - [Información general sobre conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)
 - [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home)
-- [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+- [Información general de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 - [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)
 - [Información general de Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal)
 

@@ -3,7 +3,7 @@ title: Recorrido en canales múltiples con toma de decisiones
 description: Aprenda a organizar un recorrido de varios pasos que incorpore decisiones en tiempo real para seleccionar un canal, contenido u oferta óptimos.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '9029'
 ht-degree: 2%
@@ -50,11 +50,11 @@ Profundice las relaciones con los clientes y maximice el valor a largo plazo med
 
 **[Mejorar la retención de clientes](../../business-objectives/customer-experience/improve-customer-retention.md)**
 Mantenga el compromiso de los clientes existentes y renuévelos mediante experiencias basadas en valores y una nutrición continua de las relaciones.
-**KPI: retención de**, valor de duración del cliente, participación
+**KPI:** retención, valor de duración del cliente, participación
 
 **[Aumentar los ingresos de ventas cruzadas y ventas adicionales](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)**
 Promocione productos o servicios complementarios y de primera calidad a los clientes existentes en función del comportamiento y el historial de compras.
-**KPI:**, porcentaje de ampliación de venta/venta cruzada, ingresos incrementales, valor de duración del cliente
+**KPI:** porcentaje de aumento de ventas/venta cruzada, ingresos incrementales, valor de duración del cliente
 
 ## Casos de uso tácticos de ejemplo
 
@@ -88,7 +88,7 @@ Utilice los siguientes KPI para medir la eficacia de este patrón de caso de uso
 
 Orqueste un recorrido de varios pasos y canales que incorpore la toma de decisiones en tiempo real en uno o más nodos para seleccionar el canal, el contenido o la oferta óptimos.
 
-**Cadena de funciones:** Evaluación de audiencias > Ejecución de Recorrido > Nodo de decisión > Selección de canal > Entrega de mensaje > Informes
+**Plan de ejecución:** Evaluación de audiencia > Ejecución de Recorrido > Nodo de decisión > Selección de canal > Entrega de mensaje > Informes
 
 ## Aplicaciones
 
@@ -99,11 +99,11 @@ Las siguientes aplicaciones se utilizan para implementar este patrón de caso de
 - **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])**: evaluación de audiencia para segmentos de idoneidad de entrada de recorrido y oferta, enriquecimiento de perfil con atributos calculados y puntuaciones de tendencia, aplicación de consentimiento y gobernanza
 - **[!DNL Adobe Experience Platform] ([!DNL AEP])**: almacén de perfiles de cliente en tiempo real, servicio de identidad para resolución en canales múltiples, modelado de datos e infraestructura de ingesta
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Capacidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Se asume en contexto | [!DNL AJO] zona protegida con permisos de recorrido, campaña y toma de decisiones configurados. Superficies de canal para todos los canales de envío posibles. Funciones de usuario para diseñadores de recorrido, administradores de decisiones y autores de contenido. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | El esquema de perfil debe incluir atributos utilizados para la toma de decisiones (por ejemplo, nivel de lealtad, historial de compras, preferencias de canal y puntuaciones de participación). Se deben configurar los esquemas de catálogo de ofertas y elemento de decisión. Los esquemas ExperienceEvent deben capturar señales de comportamiento utilizadas por las reglas de idoneidad y las fórmulas de clasificación. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) |
@@ -115,7 +115,7 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Capacidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como las puntuaciones de tendencia de la inteligencia artificial aplicada al cliente, las puntuaciones de participación, las puntuaciones de preferencias de canal y los cálculos de valor de duración, mejoran significativamente la calidad de la toma de decisiones. Estos atributos de perfil enriquecidos permiten reglas de elegibilidad y fórmulas de clasificación más sofisticadas. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview), [Resumen de inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/es/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Administración del ciclo de datos | Recomendado | El historial de ofertas y los datos del evento de decisión se acumulan con el tiempo y deben tener políticas de retención. La aplicación del consentimiento en varios canales es crítica: los perfiles sin consentimiento válido para un canal deben excluirse de la ruta de entrega de ese canal. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home), [Consentimiento en Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
@@ -123,13 +123,13 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Monitorización y observabilidad | Incluido | La supervisión del recorrido y la toma de decisiones es esencial para las operaciones de producción. Las alertas para errores de entrada de recorrido, picos de reserva de toma de decisiones y errores de entrega permiten la resolución rápida de problemas. | [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview), [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
 | Informes y análisis | Incluido | Los informes de recorrido y toma de decisiones se tratan en la fase de creación de informes. El análisis de CJA de la efectividad de las decisiones, la optimización de la combinación de canales, el rendimiento de las ofertas y el ROI de los recorridos proporciona la información necesaria para refinar las estrategias de clasificación y optimizar los recorridos a lo largo del tiempo. | [descripción general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [guía de integración de AJO + CJA](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Journey Optimizer] ([!DNL AJO])
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Configuración de canal | Fase 2: Configuración de canal | Configure las superficies de canal para todos los canales que seleccione Decisioning o que utilice el recorrido (correo electrónico, SMS, push, en la aplicación) |
 | Creación de mensajes | Fase 4: Creación de mensajes | Crear contenido de mensaje para cada canal e integrar salida de decisión: ubicaciones de ofertas, bloques de contenido dinámico, tokens de personalización de ofertas seleccionadas |
@@ -141,7 +141,7 @@ Este plan utiliza las siguientes funciones del catálogo de funciones de la apli
 
 ### [!DNL Real-Time CDP] ([!DNL RT-CDP])
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Evaluación de audiencia | Fase 1: Evaluación de audiencias | Defina y evalúe la audiencia de entrada o el evento de entrada correspondiente; cree segmentos de idoneidad utilizados por la toma de decisiones |
 | Enriquecimiento de perfiles | Requisito previo/asistencia | Enriquezca los perfiles con atributos calculados y puntuaciones de tendencia que mejoren la calidad de las decisiones |
@@ -239,8 +239,8 @@ Este método optimiza el canal de envío, a la vez que mantiene el contenido rel
 
 #### Referencias de Experience League
 
-- [Actividad de condición](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [Creación de un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Actividad de condición](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Crear un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 
 ### Opción C: recorrido adaptable completo (canal dinámico + contenido dinámico)
 
@@ -316,7 +316,7 @@ Las siguientes fases recorren la implementación de extremo a extremo de este pa
 
 ### Fase 1: Evaluación de audiencias
 
-**Función de aplicación:** [!DNL RT-CDP]: Evaluación de audiencia
+**Capacidad de la aplicación:** [!DNL RT-CDP]: Evaluación de audiencia
 
 Esta fase configura la audiencia de entrada que determina qué perfiles entran en el recorrido y cualquier segmento adicional utilizado para reglas de aceptación de ofertas o ramificación de condiciones dentro del recorrido. La definición de audiencia es la base de todo el recorrido descendente y la lógica de toma de decisiones.
 
@@ -361,7 +361,7 @@ Esta fase configura la audiencia de entrada que determina qué perfiles entran e
 
 ### Fase 2: Configuración del canal
 
-**Función de la aplicación:** [!DNL AJO]: Configuración del canal
+**Capacidad de la aplicación:** [!DNL AJO]: Configuración del canal
 
 Esta fase configura las superficies de canal para cada canal que el recorrido puede utilizar para la entrega de mensajes. Todos los canales candidatos deben tener superficies activas y verificadas antes de poder crear mensajes o publicar el recorrido. Para este patrón, normalmente configurará superficies para correo electrónico, SMS y push como mínimo, y potencialmente en la aplicación o web si la toma de decisiones puede seleccionar esos canales.
 
@@ -405,7 +405,7 @@ Esta fase configura las superficies de canal para cada canal que el recorrido pu
 
 ### Fase 3: Configuración de decisiones
 
-**Función de la aplicación:** [!DNL AJO]: Toma de decisiones
+**Capacidad de la aplicación:** [!DNL AJO]: Toma de decisiones
 
 Esta fase configura el marco de decisión completo, incluidas las ubicaciones, las reglas de idoneidad, las ofertas personalizadas, las ofertas de reserva, los calificadores de recopilación, las colecciones, las estrategias de clasificación y las políticas de decisión. Esta fase crea la lógica de decisión que se invocará en los puntos de decisión de recorrido.
 
@@ -454,7 +454,7 @@ Esta fase configura el marco de decisión completo, incluidas las ubicaciones, l
 
 #### Dónde divergen las opciones
 
-**Para la opción A (Offer Decisioning):**
+**Para Opción A (Offer Decisioning):**
 Cree ubicaciones y ofertas centradas en la personalización de contenido dentro de cada canal (por ejemplo, ofertas de banner a pantalla completa de correo electrónico, ofertas de pie de página de correo electrónico, ofertas de cuerpo de notificación push). Las políticas de decisión seleccionan el mejor contenido para cada ubicación en el mensaje.
 
 **Para La Opción B (Selección De Canal Dinámico):**
@@ -476,7 +476,7 @@ Configure dos capas de toma de decisiones: un conjunto de políticas de decisió
 
 ### Fase 4: Creación de mensajes
 
-**Función de aplicación:** [!DNL AJO]: Creación de mensajes
+**Capacidad de la aplicación:** [!DNL AJO]: creación de mensajes
 
 Esta fase configura el contenido del mensaje para cada canal y punto de contacto del recorrido e integra la salida de toma de decisiones (contenido de oferta seleccionado) en las plantillas de mensajes. Cada nodo de acción de mensaje del recorrido requiere contenido creado con la superficie de canal adecuada, tokens de personalización e integraciones de ubicación de ofertas.
 
@@ -514,7 +514,7 @@ Esta fase configura el contenido del mensaje para cada canal y punto de contacto
 
 #### Dónde divergen las opciones
 
-**Para la opción A (Offer Decisioning):**
+**Para Opción A (Offer Decisioning):**
 Cada mensaje incluye ubicaciones de ofertas en las que aparece contenido seleccionado para la toma de decisiones. El diseño del mensaje es coherente, pero el área de oferta muestra dinámicamente la mejor oferta para cada perfil.
 
 **Para La Opción B (Selección De Canal Dinámico):**
@@ -536,7 +536,7 @@ Cada canal tiene su propio contenido de mensaje con ubicaciones de ofertas incru
 
 ### Fase 5: Diseño y activación del Recorrido
 
-**Función de aplicación:** [!DNL AJO]: Journey Orchestration, [!DNL AJO]: Administración de conflictos y prioridades, [!DNL AJO]: frecuencia y reglas de negocio
+**Capacidad de la aplicación:** [!DNL AJO]: Journey Orchestration, [!DNL AJO]: Administración de conflictos y prioridades, [!DNL AJO]: frecuencia y reglas empresariales
 
 Esta fase configura el lienzo de recorrido completo, incluida la configuración de entrada, los nodos de decisión vinculados a las políticas de decisión configuradas, las divisiones de condición para el enrutamiento de canal (Opciones B/C), los nodos de acción de mensaje para cada ruta de canal, los nodos de espera entre puntos de contacto, los criterios de salida, la configuración de conflicto/prioridad y las reglas de límite de frecuencia. Esta fase monta todos los componentes configurados previamente en el flujo de recorrido orquestado y lo activa.
 
@@ -596,7 +596,7 @@ Esta fase configura el lienzo de recorrido completo, incluida la configuración 
 
 #### Dónde divergen las opciones
 
-**Para la opción A (Offer Decisioning):**
+**Para Opción A (Offer Decisioning):**
 El lienzo de recorrido es lineal con políticas de decisión incrustadas en cada nodo de acción de mensaje. No hay ramas para la selección de canales. La decisión de oferta se toma en el momento del procesamiento del mensaje dentro del nodo de acción.
 
 **Para La Opción B (Selección De Canal Dinámico):**
@@ -607,12 +607,12 @@ Combine nodos de condición de selección de canal con nodos de acción de mensa
 
 #### Documentación de Experience League
 
-- [Creación de un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Crear un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propiedades del recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Leer actividad de audiencia](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
-- [Actividad de condición](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Actividad de condición](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Actividad Esperar](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Criterios de salida](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [administración de entradas de recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Prueba del recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
@@ -623,7 +623,7 @@ Combine nodos de condición de selección de canal con nodos de acción de mensa
 
 ### Fase 6: Creación de informes y supervisión
 
-**Función de aplicación:** [!DNL AJO]: Informes y análisis de rendimiento
+**Capacidad de la aplicación:** [!DNL AJO]: Informes y análisis de rendimiento
 
 Esta fase configura la monitorización del rendimiento del recorrido y la toma de decisiones mediante informes en directo (durante la ejecución) e informes históricos (después de la finalización). Métricas específicas de la toma de decisiones, incluida la distribución de la selección de ofertas, las tasas de reserva y la eficacia de la clasificación. De forma opcional, CJA Workspace Analysis para el análisis profundo de recorridos entre canales y la toma de decisiones sobre el retorno de la inversión.
 
@@ -751,15 +751,15 @@ Los siguientes recursos proporcionan detalles adicionales sobre las capacidades 
 
 ### orquestación de recorrido
 
-- [Introducción a recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [Creación de un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Introducción a los recorridos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Crear un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propiedades del recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Leer actividad de audiencia](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Eventos generales](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Eventos de calificación de público](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Actividad de condición](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Actividad de condición](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Actividad Esperar](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Añadir un mensaje en un recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Criterios de salida](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [administración de entradas de recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Prueba del recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)

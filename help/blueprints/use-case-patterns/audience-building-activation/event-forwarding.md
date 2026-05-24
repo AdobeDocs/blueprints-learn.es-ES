@@ -3,7 +3,7 @@ title: Reenvío de eventos
 description: Aprenda a reenviar datos de evento en tiempo real recopilados mediante Edge Network a destinos que no sean de Adobe para análisis, almacenamiento o publicidad.
 solution: Experience Platform
 exl-id: 24964d27-db56-4fa4-a79f-1b6750564b34
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '6342'
 ht-degree: 0%
@@ -70,11 +70,11 @@ Los siguientes KPI ayudan a medir el éxito de este patrón de caso de uso.
 
 ## Patrón de caso de uso
 
-En esta sección se describe el patrón y la cadena de funciones utilizada para implementar el reenvío de eventos.
+En esta sección se describe el patrón y el plan de ejecución utilizados para implementar el reenvío de eventos.
 
 **Reenvío de eventos**: reenvía datos de eventos en tiempo real recopilados mediante Edge Network a destinos que no sean de Adobe para análisis, almacenamiento o publicidad.
 
-**Cadena De Funciones:** Configuración De Flujo De Datos > Definición De Regla De Evento > Asignación De Destino > Ejecución De Reenvío > Supervisión
+**Plan De Ejecución:** Configuración De Flujo De Datos > Definición De Regla De Evento > Asignación De Destino > Ejecución De Reenvío > Supervisión
 
 ## Aplicaciones
 
@@ -84,23 +84,23 @@ En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 - **[!DNL Adobe Experience Platform] (Reenvío de eventos)**: proporciona el motor de reglas del lado del servidor para evaluar, filtrar, transformar y reenviar datos de eventos a destinos externos
 - **[!DNL Adobe Experience Platform] (Etiquetas / Recopilación de datos)**: administra el ciclo de vida de la propiedad de reenvío de eventos, las extensiones, las reglas y el flujo de trabajo de publicación
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Capacidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Requerido | Una zona protegida debe estar activa con las funciones de usuario y los permisos adecuados configurados. Los usuarios que administran el reenvío de eventos necesitan permisos de recopilación de datos en [!DNL Adobe Admin Console], incluidos los derechos para administrar las propiedades, extensiones y reglas del reenvío de eventos. | [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Se deben definir esquemas XDM para los datos de evento que fluyen a través de Edge Network. La secuencia de datos debe hacer referencia a un esquema XDM ExperienceEvent válido para que las reglas del reenvío de eventos puedan acceder a campos estructurados para el filtrado, la transformación y la asignación. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) |
 | Fuentes de datos y recopilación | Requerido | Un mecanismo de recopilación de datos debe estar activo (Web SDK, Mobile SDK o API de servidor de Edge Network) y enviar eventos a través de un flujo de datos configurado. La secuencia de datos es la capa de enrutamiento fundamental que conecta la colección del lado del cliente con el reenvío de eventos del lado del servidor. | [Configurar flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) |
 | Configuración de identidad y perfil | No aplicable | El reenvío de eventos funciona con datos de evento sin procesar en la capa de Edge Network, antes de que se produzca la resolución de identidades o la unificación de perfiles. Las áreas de nombres de identidad y las políticas de combinación no son necesarias a menos que los eventos reenviados también tengan que contribuir al Perfil del cliente en tiempo real (que es una configuración de servicio de flujo de datos independiente, no un problema de reenvío de eventos). | |
-| Definición de audiencia y segmentación | No aplicable | El reenvío de eventos procesa eventos individuales en tiempo real y no evalúa la pertenencia a audiencias. El filtrado basado en audiencias no forma parte de la cadena de funciones del reenvío de eventos. Si es necesaria la activación basada en audiencias, consulte el plan de referencia de Audience Activation a destinos. | |
+| Definición de audiencia y segmentación | No aplicable | El reenvío de eventos procesa eventos individuales en tiempo real y no evalúa la pertenencia a audiencias. El filtrado basado en audiencias no forma parte del plan de ejecución del reenvío de eventos. Si es necesaria la activación basada en audiencias, consulte el plan de referencia de Audience Activation a destinos. | |
 
 ## Funciones de soporte
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Capacidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | No aplicable | El reenvío de eventos funciona con datos de evento sin procesar, no con atributos calculados de nivel de perfil. Los atributos calculados no están disponibles en el contexto del reenvío de eventos. | |
 | Administración del ciclo de datos | Recomendado | Si los datos de evento también se están introduciendo en conjuntos de datos de AEP (a través del mismo flujo de datos), deben configurarse políticas de retención de datos (caducidad) para esos conjuntos de datos a fin de administrar los costes de almacenamiento y el cumplimiento de la normativa. El reenvío de eventos en sí no almacena datos, pero la ruta de ingesta de AEP paralela sí. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
@@ -108,13 +108,13 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Monitorización y observabilidad | Incluido | La monitorización es esencial para el reenvío de eventos. El panel Supervisión del reenvío de eventos proporciona visibilidad sobre las tasas de éxito de reenvío, las tasas de error y los códigos de respuesta de destino. Las alertas deben configurarse para los errores de destino. | [Supervisión del reenvío de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/event-forwarding/monitoring) |
 | Informes y análisis | Recomendado | Si los eventos reenviados alimentan una plataforma de análisis de terceros, considere la posibilidad de conectar los mismos conjuntos de datos de eventos de AEP a CJA para obtener una vista unificada en canales múltiples. Esto permite comparar análisis del lado de Adobe con análisis de terceros. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del Catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Configuración de flujo de datos | Fase 1: Configuración del flujo de datos | Configuración de una secuencia de datos para recibir eventos de Edge Network y habilitar el servicio de reenvío de eventos |
 | Configuración de propiedad de reenvío de eventos | Fase 2: Propiedad y extensiones del reenvío de eventos | Crear una propiedad de reenvío de eventos e instalar extensiones específicas de destino |
@@ -286,7 +286,7 @@ Las siguientes fases describen el proceso de implementación de extremo a extrem
 
 ### Fase 1: Configuración del flujo de datos
 
-**Función de aplicación:** AEP: Configuración de secuencia de datos
+**Capacidad de la aplicación:** AEP: Configuración de secuencia de datos
 
 **Lo que configurará:** Un conjunto de datos que recibe eventos de su implementación de Web SDK, Mobile SDK o API de servidor y los enruta a Edge Network, donde las reglas de reenvío de eventos pueden procesarlos. Si se agrega el reenvío de eventos a una implementación de recopilación de datos existente, habilitará el reenvío de eventos en la secuencia de datos existente.
 
@@ -331,7 +331,7 @@ Las siguientes fases describen el proceso de implementación de extremo a extrem
 
 ### Fase 2: propiedad y extensiones del reenvío de eventos
 
-**Función de aplicación:** AEP: Configuración de propiedad de reenvío de eventos
+**Capacidad de la aplicación:** AEP: Configuración de propiedad de reenvío de eventos
 
 **Lo que configurará:** Una propiedad de reenvío de eventos en la IU de recopilación de datos, junto con las extensiones necesarias para los destinos. La propiedad de reenvío de eventos es el contenedor de todas las reglas, elementos de datos y extensiones que definen la lógica de reenvío del lado del servidor.
 
@@ -379,7 +379,7 @@ Las siguientes fases describen el proceso de implementación de extremo a extrem
 
 ### Fase 3: Definición de regla de evento
 
-**Función de aplicación:** AEP: Definición de regla de evento, AEP: Asignación de destino
+**Capacidad de la aplicación:** AEP: Definición de regla de evento, AEP: Asignación de destino
 
 **Lo que va a configurar:** Reglas que evalúan los datos de eventos entrantes, aplican condiciones para filtrar qué eventos deben reenviarse y definen acciones que envían los datos a los extremos de destino. Cada regla consta de condiciones (cuándo activar) y acciones (qué hacer). Los elementos de datos extraen y transforman valores de la carga útil de evento XDM para su uso en condiciones de regla y configuraciones de acción.
 
@@ -455,7 +455,7 @@ Cree reglas independientes para cada destino. Las reglas basadas en extensiones 
 
 ### Fase 4: Publicación y activación
 
-**Función de aplicación:** AEP: Reenviando ejecución
+**Capacidad de la aplicación:** AEP: Reenviando ejecución
 
 **Lo que configurará:** Flujo de trabajo de publicación que promueve las reglas de reenvío de eventos desde el desarrollo hasta el ensayo y la producción. El reenvío de eventos utiliza el mismo modelo de publicación basado en bibliotecas que las etiquetas, con entornos y artefactos de compilación que controlan qué configuración está activa en Edge Network.
 
@@ -491,7 +491,7 @@ Cree reglas independientes para cada destino. Las reglas basadas en extensiones 
 
 ### Fase 5: Monitorización y validación
 
-**Función de aplicación:** AEP: Monitoring
+**Capacidad de la aplicación:** AEP: Monitoring
 
 **Lo que configurará:** Supervisar los paneles y los procesos de validación para confirmar que los eventos se están reenviando correctamente, diagnosticar errores y mantener el estado operativo de la implementación del reenvío de eventos.
 

@@ -3,7 +3,7 @@ title: Recomendación de comportamiento
 description: Obtenga información sobre cómo generar recomendaciones de elementos y contenido mediante estrategias de selección y modelos de clasificación.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7545'
 ht-degree: 2%
@@ -79,7 +79,7 @@ Los siguientes KPI ayudan a medir la eficacia de las implementaciones de recomen
 
 Genere recomendaciones de nivel de elemento o de nivel de contenido basadas en señales de comportamiento, utilizando estrategias de selección de AJO Decisioning y modelos de clasificación para servir contenido contextual.
 
-**Cadena de funciones:** Ingesta de señal de comportamiento > Evaluación de estrategia de toma de decisiones > Entrega de recomendaciones > Informes
+**Plan de ejecución:** Ingesta de señal de comportamiento > Evaluación de estrategia de toma de decisiones > Entrega de recomendaciones > Informes
 
 Consulte la sección Composición del patrón en Consideraciones de implementación para obtener instrucciones sobre cómo combinar patrones.
 
@@ -91,11 +91,11 @@ En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)**: acumulación de datos de perfil de comportamiento, evaluación de audiencia para ámbitos de recomendación y atributos calculados para puntuación de afinidad de comportamiento
 - **[!DNL Adobe Experience Platform] (AEP)** — Ingesta de evento de comportamiento a través de [!DNL Web SDK] y [!DNL Mobile SDK], procesamiento de [!DNL Edge Network], administración de esquema XDM para datos de catálogo y evento
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Funcionalidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Se asume en contexto | Zona protegida de AJO con permisos de Decisioning habilitados. Funciones de usuario aprovisionadas con acceso a la administración del catálogo de elementos, la configuración de la estrategia de selección y la administración de superficies de canal. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Esquema de Experience Event que captura señales de comportamiento (vistas de productos, complementos al carro de compras, compras, interacciones de contenido) con identificadores de artículo/producto. Esquema del catálogo de artículos (atributos de producto, categorías, imágenes, precios) para el conjunto de artículos de recomendación. Esquema de perfil con campos de identidad. Todos los esquemas habilitados para [!DNL Real-Time Customer Profile]. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition), [Crear un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/create) |
@@ -107,21 +107,21 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Funcionalidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
-| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como las puntuaciones de afinidad de la categoría, la frecuencia de interacción del producto, la actualización de la compra y el gasto total, mejoran la calidad de la clasificación de recomendaciones. [!DNL Customer AI] las puntuaciones de tendencia pueden mejorar aún más la relevancia al predecir la probabilidad de compra. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview), [Resumen de inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/es/docs/experience-platform/intelligent-services/customer-ai/overview) |
+| Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como las puntuaciones de afinidad de la categoría, la frecuencia de interacción del producto, la actualización de la compra y el gasto total, mejoran la calidad de la clasificación de recomendaciones. Las puntuaciones de tendencia de [!DNL Customer AI] pueden mejorar aún más la relevancia al predecir la probabilidad de compra. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview), [Resumen de inteligencia artificial aplicada al cliente](https://experienceleague.adobe.com/es/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Administración del ciclo de datos | Recomendado | Los datos de evento de comportamiento deben tener políticas de caducidad adecuadas; la relevancia de la recomendación se degrada con datos antiguos. La configuración de directivas de caducidad de conjuntos de datos en conjuntos de datos de evento de comportamiento garantiza la actualización y administra el almacenamiento. La aplicación del consentimiento garantiza el uso compatible de los datos de comportamiento. | [Caducidad de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
 | Etiquetado y aplicación del uso de datos | Recomendado | Las etiquetas de gobernanza en los datos de comportamiento garantizan el uso compatible del historial de interacciones para las recomendaciones. Especialmente importante cuando los datos de comportamiento incluyen patrones de navegación, historial de compras o señales de interés de productos financieros/de salud. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home), [Resumen de etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) |
 | Monitorización y observabilidad | Recomendado | Se debe monitorizar la latencia de entrega de Recommendations, las tasas de reserva y el estado de ingesta del catálogo de artículos. Las alertas sobre errores de ingesta de eventos de comportamiento y errores de toma de decisiones ayudan a mantener la calidad de la recomendación. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home), [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview) |
-| Informes y análisis | Incluido | Los informes de rendimiento de recomendaciones forman parte del paso 4 de la cadena de funciones. [!DNL Customer Journey Analytics] el análisis de la eficacia de las recomendaciones, el impacto en los ingresos y el rendimiento de nivel de elemento en todas las superficies y segmentos proporciona perspectivas de optimización. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Información general de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) |
+| Informes y análisis | Incluido | Los informes de rendimiento de las recomendaciones forman parte del Paso 4 del plan de ejecución. [!DNL Customer Journey Analytics]: el análisis de la eficacia de las recomendaciones, el impacto en los ingresos y el rendimiento de nivel de elemento en todas las superficies y segmentos proporciona perspectivas de optimización. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [Información general de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del Catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Decisioning | Configuración de estrategia de selección y catálogo de elementos | Configure catálogos de elementos (elementos de decisión), estrategias de selección con modelos de clasificación de comportamiento, reglas de filtrado y recomendaciones de reserva |
 | Configuración de canal | Configuración de canales y superficies | Configure las superficies de envío para los canales web (experiencias basadas en código), en la aplicación, de tarjeta de contenido o de correo electrónico en los que se procesarán las recomendaciones |
@@ -130,7 +130,7 @@ Este plan utiliza las siguientes funciones del Catálogo de funciones de la apli
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Evaluación de audiencia | Ámbito de audiencia (opción C) | Evaluar los segmentos de audiencia utilizados para definir el ámbito de las recomendaciones o la población objetivo para las campañas de recomendaciones por correo electrónico |
 | Enriquecimiento de perfiles | Enriquecimiento de señal de comportamiento | Enriquezca los perfiles con atributos calculados (puntuaciones de afinidad de la categoría, frecuencia de interacción) que mejoren la clasificación de las recomendaciones |
@@ -288,7 +288,7 @@ Las siguientes fases le guían a través de la implementación integral de recom
 
 ### Fase 1: Configurar el esquema de evento de comportamiento y la recopilación de datos
 
-**Función de la aplicación:** AEP: Modelado y preparación de datos (F2), AEP: Fuentes de datos y recopilación (F3)
+**Capacidad de la aplicación:** AEP: Modelado y preparación de datos (F2), AEP: fuentes de datos y recopilación (F3)
 
 Esta fase establece los esquemas XDM, los conjuntos de datos y los mecanismos de recopilación de datos que capturan señales de comportamiento y datos del catálogo de elementos. Esta base de datos es de lo que depende toda la lógica de recomendación.
 
@@ -331,7 +331,7 @@ Esta fase establece los esquemas XDM, los conjuntos de datos y los mecanismos de
 
 ### Fase 2: Configuración de la identidad y el perfil
 
-**Función de aplicación:** AEP: Configuración de identidad y perfil (F4)
+**Capacidad de la aplicación:** AEP: Configuración de identidad y perfil (F4)
 
 Esta fase configura áreas de nombres de identidad, designaciones de identidad principales y políticas de combinación que garantizan que las señales de comportamiento se asocien correctamente a los perfiles de los visitantes y estén disponibles para la entrega de recomendaciones en tiempo real.
 
@@ -372,7 +372,7 @@ Esta fase configura áreas de nombres de identidad, designaciones de identidad p
 
 ### Fase 3: Configurar el catálogo de artículos y la estrategia de selección
 
-**Función de aplicación:** AJO: Decisioning
+**Capacidad de la aplicación:** AJO: Decisioning
 
 Esta fase configura el catálogo de elementos (elementos de decisión), las estrategias de selección que combinan señales de comportamiento con atributos de elemento para la clasificación, las reglas de filtrado para excluir elementos no aptos y las recomendaciones de reserva para perfiles de inicio en frío.
 
@@ -442,7 +442,7 @@ Esta fase configura el catálogo de elementos (elementos de decisión), las estr
 
 ### Fase 4: Configuración de canal y superficie
 
-**Función de aplicación:** AJO: Configuración de canal
+**Capacidad de la aplicación:** AJO: Configuración del canal
 
 Esta fase configura las superficies de envío en las que se procesarán las recomendaciones. La configuración varía significativamente según la opción de implementación.
 
@@ -480,7 +480,7 @@ Configure una superficie de canal de correo electrónico con delegación de subd
 
 ### Fase 5: Configuración de contenido y envío
 
-**Función de aplicación:** AJO: Creación de mensajes
+**Capacidad de la aplicación:** AJO: Creación de mensajes
 
 Esta fase define las plantillas de renderización de recomendaciones que controlan cómo se muestran los artículos recomendados al visitante. Esto incluye el diseño del artículo, expresiones de personalización que extraen atributos del artículo (nombre, imagen, precio, vínculo) y el diseño general de la experiencia de recomendación.
 
@@ -539,7 +539,7 @@ Diseño del contenido del correo electrónico con Email Designer. Inserte ubicac
 
 ### Fase 6: Configurar el ámbito de audiencia y la campaña/recorrido (solo opción C)
 
-**Función de aplicación:** RT-CDP: Evaluación de audiencia, AJO: Ejecución de campaña o Journey Orchestration
+**Capacidad de la aplicación:** RT-CDP: Evaluación de audiencias, AJO: Ejecución de campañas o Journey Orchestration
 
 Para las recomendaciones basadas en correo electrónico (Opción C), esta fase define la audiencia objetivo y configura la campaña o el recorrido que envía el correo electrónico de recomendación. Las opciones A y B omiten esta fase porque las recomendaciones se entregan en tiempo real al cargar la página o la pantalla.
 
@@ -579,7 +579,7 @@ Para las recomendaciones basadas en correo electrónico (Opción C), esta fase d
 
 ### Fase 7: Configuración de informes y optimización
 
-**Función de la aplicación:** AJO: Reporting &amp; Performance Analysis, S5: Reporting &amp; Analysis
+**Capacidad de la aplicación:** AJO: Reporting &amp; Performance Analysis, S5: Reporting &amp; Analysis
 
 Esta fase establece la monitorización del rendimiento para las métricas de clics, conversiones e ingresos de recomendaciones. Crea la infraestructura de creación de informes para medir la eficacia de las recomendaciones e identificar las oportunidades de optimización.
 
@@ -784,6 +784,6 @@ Los siguientes recursos proporcionan detalles adicionales sobre las tecnologías
 
 ### Tutoriales y guías
 
-- [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
+- [Información general de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home)
 - [Información general sobre etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home)
 - [Grupo de campos de consentimiento y preferencias](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/consents)

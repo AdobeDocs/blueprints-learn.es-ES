@@ -3,7 +3,7 @@ title: Audience Activation B2B
 description: Obtenga información sobre cómo activar audiencias B2B basadas en cuentas en canales web, de correo electrónico y de publicidad.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7611'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Los siguientes KPI ayudan a medir el éxito de este patrón de caso de uso.
 
 Active audiencias B2B basadas en cuentas en los canales web, de correo electrónico y de publicidad.
 
-**Cadena de funciones:** Enriquecimiento de perfiles de cuenta > Evaluación de audiencias de cuenta > Configuración de destino > Audience Activation > Monitorización
+**Plan de ejecución:** Enriquecimiento del perfil de cuenta > Evaluación de audiencia de cuenta > Configuración de destino > Audience Activation > Supervisión
 
 ## Aplicaciones
 
@@ -108,11 +108,11 @@ Las siguientes aplicaciones se utilizan para implementar este patrón de caso de
 - **[!DNL Adobe Experience Platform] (AEP)**: infraestructura básica para el modelado de datos XDM B2B, la ingesta de datos desde CRM y fuentes de automatización de marketing, servicio de identidad y administración
 - **[!DNL Marketo Engage]**: destino principal de automatización de marketing B2B para programas de nutrición de posibles clientes, puntuación y ejecución de campañas alimentadas por audiencias de cuenta activadas
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Capacidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Requerido | Zona protegida aprovisionada con [!DNL RT-CDP] B2B edition habilitado. Funciones configuradas para la administración de datos B2B, la creación de audiencias y la activación de destino. Se aplican políticas ABAC si los datos de la cuenta contienen campos restringidos. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Esquemas XDM B2B configurados con clases de cuenta empresarial XDM, oportunidad empresarial XDM, campaña empresarial XDM y perfil individual XDM. Grupos de campos B2B aplicados a atributos de cuenta, relaciones persona-cuenta y datos de oportunidad. Conjuntos de datos creados y habilitados para perfil para cada entidad B2B. Relaciones de esquema definidas entre entidades de cuenta, persona, oportunidad y campaña. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [esquemas B2B en Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b) |
@@ -124,7 +124,7 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Capacidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | Recomendado | Las puntuaciones de participación agregadas, el valor de duración y las métricas de actividad a nivel de cuenta mejoran la precisión de la audiencia. Los atributos calculados pueden resumir eventos de nivel de persona (aperturas de correo electrónico, visitas web, descargas de contenido) en el nivel de cuenta para su uso en la segmentación. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
 | Administración del ciclo de datos | Recomendado | Las políticas de retención de datos B2B garantizan la limpieza de los datos de cuentas y oportunidades obsoletos. La administración de consentimientos para los contactos B2B garantiza el cumplimiento de las regulaciones de marketing por correo electrónico. Las políticas de caducidad del conjunto de datos impiden la acumulación de datos de sincronización de CRM obsoletos. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
@@ -132,13 +132,13 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Monitorización y observabilidad | Incluido | La supervisión de los flujos de datos de CRM y [!DNL Marketo Engage] conector de origen garantiza que los datos de la cuenta permanezcan actuales. La supervisión de la activación del destino confirma que las audiencias se han entregado correctamente a [!DNL LinkedIn], [!DNL Marketo] y a los destinos de CRM. Las reglas de alerta detectan errores de ingesta que podrían causar datos de cuenta obsoletos. | [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview), [Supervisar flujos de datos de destino](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-destinations) |
 | Informes y análisis | Recomendado | [!DNL CJA] B2B edition proporciona análisis de nivel de cuenta, que incluye el alcance de la audiencia, la participación y la influencia de la canalización. La atribución basada en cuentas ayuda a medir el impacto de las campañas de activación en la progresión de la oportunidad y los ingresos. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del Catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Real-Time CDP] B2B edition ([!DNL RT-CDP] B2B)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Unificación del perfil de cuenta | Fase 1: enriquecimiento del perfil de cuenta | Consolide los datos de cuenta de CRM, automatización de marketing y fuentes de terceros en perfiles de cuenta unificados mediante clases de esquema XDM B2B |
 | Resolución de identidad B2B | Fase 1: enriquecimiento del perfil de cuenta | Resolver relaciones persona a cuenta mediante identificadores principales, asignación de contactos y posibles clientes a sus cuentas asociadas |
@@ -150,7 +150,7 @@ Este plan utiliza las siguientes funciones del Catálogo de funciones de la apli
 
 ### [!DNL Real-Time CDP] ([!DNL RT-CDP]): funciones estándar
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Evaluación de audiencia | Fase 2: Evaluación de audiencias de cuenta | Motor de evaluación subyacente para audiencias de cuenta que admite la evaluación por lotes de definiciones de segmentos de nivel de cuenta |
 | Configuración de destino | Fase 3: Configuración del destino | Infraestructura de conexión de destino principal utilizada por la configuración de destino específica de B2B |
@@ -360,9 +360,9 @@ Las siguientes fases describen el proceso paso a paso para implementar este patr
 
 Esta fase establece perfiles de cuenta unificados mediante la consolidación de datos de CRM, automatización de marketing y fuentes de terceros.
 
-**Función de aplicación:** [!DNL RT-CDP] B2B: Unificación de perfiles de cuenta, [!DNL RT-CDP] B2B: Resolución de identidad B2B
+**Capacidad de la aplicación:** [!DNL RT-CDP] B2B: Unificación del perfil de cuenta, [!DNL RT-CDP] B2B: Resolución de identidad B2B
 
-**Lo que configurará:** Esta fase establece perfiles de cuenta unificados mediante la consolidación de datos de CRM, automatización de marketing y fuentes de terceros. La resolución de identidad B2B asigna relaciones persona a cuenta para que los datos de participación a nivel de persona (aperturas de correo electrónico, visitas web, descargas de contenido) se puedan acumular y utilizar en la evaluación de audiencias a nivel de cuenta. Esta fase se basa en las funciones básicas F2, F3 y F4, que ya deben estar establecidas.
+**Lo que configurará:** Esta fase establece perfiles de cuenta unificados mediante la consolidación de datos de CRM, automatización de marketing y fuentes de terceros. La resolución de identidad B2B asigna relaciones persona a cuenta para que los datos de participación a nivel de persona (aperturas de correo electrónico, visitas web, descargas de contenido) se puedan acumular y utilizar en la evaluación de audiencias a nivel de cuenta. Esta fase se basa en las capacidades básicas F2, F3 y F4, que ya deben estar establecidas.
 
 **Puntos de decisión en esta fase:**
 
@@ -407,7 +407,7 @@ Esta fase establece perfiles de cuenta unificados mediante la consolidación de 
 
 Esta fase define y evalúa las audiencias de nivel de cuenta mediante una combinación de atributos de cuenta, atributos de persona y datos de actividad de persona.
 
-**Función de aplicación:** [!DNL RT-CDP] B2B: Evaluación de audiencia de cuenta, [!DNL RT-CDP]: Evaluación de audiencia
+**Capacidad de la aplicación:** [!DNL RT-CDP] B2B: Evaluación de audiencia de cuenta, [!DNL RT-CDP]: Evaluación de audiencia
 
 **Lo que configurará:** Esta fase define y evalúa las audiencias de nivel de cuenta mediante una combinación de atributos de cuenta, atributos de persona y datos de actividad de persona. Las audiencias de cuenta en [!DNL RT-CDP] B2B edition le permiten segmentar cuentas en función de características de firmografía (industria, ingresos, recuento de empleados) y del comportamiento de participación de las personas asociadas con esas cuentas.
 
@@ -468,7 +468,7 @@ Esta fase define y evalúa las audiencias de nivel de cuenta mediante una combin
 
 Esta fase establece conexiones autenticadas con los destinos a los que se enviarán las audiencias de la cuenta.
 
-**Función de aplicación:** [!DNL RT-CDP] B2B: Configuración de destino de cuenta, [!DNL RT-CDP] B2B: integración de [!DNL Marketo Engage], [!DNL RT-CDP]: configuración de destino
+**Capacidad de la aplicación:** [!DNL RT-CDP] B2B: Configuración de destino de cuenta, [!DNL RT-CDP] B2B: integración de [!DNL Marketo Engage], [!DNL RT-CDP]: configuración de destino
 
 **Lo que configurará:** Esta fase establece conexiones autenticadas con los destinos de destino a los que se enviarán las audiencias de la cuenta. La configuración incluye la selección del destino en el catálogo, el suministro de credenciales de autenticación, la configuración de asignaciones de campos de nivel de cuenta y de nivel de persona, y la configuración de la programación de exportación. Cada tipo de destino tiene requisitos y capacidades únicos.
 
@@ -543,7 +543,7 @@ Vaya a Destinos > Catálogo > CRM > seleccione [!DNL Salesforce] o [!DNL Dynamic
 
 Esta fase publica las audiencias de cuenta evaluadas en los destinos configurados.
 
-**Función de aplicación:** [!DNL RT-CDP] B2B: Audience Activation de cuenta, [!DNL RT-CDP]: Audience Activation
+**Capacidad de la aplicación:** [!DNL RT-CDP] B2B: Audience Activation de la cuenta, [!DNL RT-CDP]: Audience Activation
 
 **Lo que configurará:** Esta fase publica las audiencias de cuenta evaluadas en los destinos configurados. Activation crea el flujo de datos que conecta la audiencia de la cuenta (origen) con el destino externo (destino), aplica las asignaciones de atributos e inicia la exportación según la programación configurada o el comportamiento de flujo. También configurará las audiencias de supresión para excluir de la activación las cuentas no aptas.
 
@@ -609,7 +609,7 @@ Seleccione las audiencias de la cuenta que desea activar. La activación comienz
 
 Esta fase garantiza que la activación de la audiencia de cuenta cumpla con las políticas de gobernanza de datos y las preferencias de consentimiento, y que los flujos de datos de activación continua se monitoricen por motivos de estado.
 
-**Función de la aplicación:** [!DNL RT-CDP] B2B: Gobernanza de datos B2B, [!DNL RT-CDP]: Aplicación del consentimiento y la gobernanza
+**Capacidad de la aplicación:** [!DNL RT-CDP] B2B: Administración de datos B2B, [!DNL RT-CDP]: Aplicación del consentimiento y control
 
 **Lo que configurará:** Esta fase garantiza que la activación de la audiencia de la cuenta cumpla con las directivas de gobernanza de datos y las preferencias de consentimiento, y que los flujos de datos de activación en curso se supervisen por motivos de estado. La gobernanza de datos B2B impone restricciones en los atributos de cuentas confidenciales (ingresos, recuento de empleados de proveedores externos), mientras que la aplicación del consentimiento garantiza que las comunicaciones a nivel de persona respeten las preferencias de exclusión. La monitorización confirma que los flujos de datos de activación se completan correctamente.
 

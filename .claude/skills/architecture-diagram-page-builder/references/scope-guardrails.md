@@ -1,7 +1,7 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Si escribe algo de lo siguiente, redirija a una página de patrones de casos de 
 | KPI y fórmulas de medición | Los patrones de casos de uso miden resultados; las páginas de arquitectura no |
 | Objetivos empresariales, impacto empresarial | El contenido de KBO tiene menos de `/help/blueprints/business-objectives/`; los patrones hacen referencia a él |
 | Ejemplos de casos de uso tácticos | &quot;Recordatorio de abandono del carro de compras&quot;, &quot;Héroe de página de inicio personalizado&quot;, etc.: estos son contenidos de patrones |
-| Cadenas de funciones (`A > B > C > D`) | La construcción de cadena de funciones forma parte de la plantilla de patrón de caso de uso |
+| Capacidades (`A > B > C > D`) | La construcción de capacidades forma parte de la plantilla de patrones de casos de uso |
 | Narrativas personales | &quot;María, la comercializadora, quiere...&quot; los escenarios de estilo pertenecen a patrones, no a referencias de arquitectura |
 | Opciones de implementación | La guía de implementación de varias opciones (Mejor para, Cómo funciona, Ventajas, Limitaciones) es una construcción de patrón |
 | Tablas de funciones básicas/auxiliares | Son secciones de página de patrón |
@@ -47,7 +47,7 @@ Si el usuario proporciona cualquiera de estas frases al describir la nueva pági
 - &quot;KPI&quot;
 - &quot;impacto comercial&quot; / &quot;resultados empresariales&quot;
 - &quot;casos de uso tácticos&quot; / &quot;escenarios de ejemplo&quot;
-- &quot;cadena de funciones&quot;
+- &quot;funcionalidades&quot;
 - &quot;opciones de implementación&quot;
 - &quot;mejor para&quot;
 - &quot;ventajas y limitaciones&quot;

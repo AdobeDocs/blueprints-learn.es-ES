@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Creación de guías de creación de nuevas páginas de diagrama de arquitectura para el repositorio de modelos de Adobe Experience Platform. Utilice esta aptitud cuando añada un nuevo diagrama de arquitectura de nivel superior, una página de arquitectura de integración o información general sobre la arquitectura de aplicaciones. Las páginas de arquitectura cubren las arquitecturas de aplicaciones y AEP de nivel superior y los puntos de integración principales, no los casos de uso detallados (pertenecen al generador de patrones de casos de uso). Gestiona el flujo de trabajo completo: recopilar información de página, generar el archivo Markdown, colocarlo en la carpeta de temas correcta y actualizar TOC.md.'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Las páginas del diagrama de arquitectura son **páginas centradas, de estilo de
 - Se ilustra una breve lista de los flujos de datos principales y los puntos de integración
 - Vínculos de Experience League para obtener más información sobre el dominio de aplicación
 
-Son **no** el lugar para el contenido de casos de uso detallados. Los KPI, los objetivos empresariales, los ejemplos de casos de uso tácticos, las cadenas de funciones y las narrativas personales pertenecen a páginas de patrones de casos de uso en su lugar, generadas a través de la aptitud de `use-case-pattern-builder`. Consulte `references/scope-guardrails.md` para ver las protecciones completas.
+Son **no** el lugar para el contenido de casos de uso detallados. Los KPI, los objetivos empresariales, los ejemplos de casos de uso tácticos, las capacidades y las narrativas de personas pertenecen a páginas de patrones de casos de uso en su lugar, generadas a través de la aptitud de `use-case-pattern-builder`. Consulte `references/scope-guardrails.md` para ver las protecciones completas.
 
 ## Lectura requerida antes de comenzar
 
@@ -95,7 +95,7 @@ Si aparece alguna de las siguientes opciones en el contenido planificado, avise 
 - KPI o fórmulas de medición
 - Objetivos empresariales o narrativas de impacto empresarial
 - Ejemplos de casos de uso tácticos (escenarios de personalización específicos, ejemplos de campañas, etc.)
-- Cadenas de funciones (estilo `A > B > C > D`)
+- Capacidades (estilo `A > B > C > D`)
 - Narración guiada por la personalidad
 
 Si el contenido planificado permanece dentro del ámbito de la página de arquitectura (arquitectura de nivel superior, flujo de datos del sistema, puntos de integración, topología de implementación, Edge o hub), confirme con el usuario y continúe a la fase 3.
@@ -192,4 +192,4 @@ Corrija los problemas de validación antes de considerar que la tarea se ha comp
 - Los diagramas de arquitectura suelen ser SVG (preferidos para nitidez y escalado), pero PNG es aceptable para ilustraciones de fuente rasterizada.
 - La cadena de estilo en línea `<img>` incrustada (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) y `class="modal-image"` son necesarias; habilitan la interacción de zoom modal de Experience League.
 - Si el usuario está creando una página para una carpeta de temas completamente nueva que aún no existe, adviértele de que TOC.md necesita una nueva subsección de nivel superior bajo `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Gestionarlo como un paso independiente con la aprobación explícita del usuario.
-- Si el diagrama de arquitectura documenta exhaustivamente un *caso de uso único de extremo a extremo* (con KPI, objetivos empresariales y cadena de funciones), redirija al usuario a `use-case-pattern-builder`, que no es una página de arquitectura.
+- Si el diagrama de arquitectura documenta ampliamente un *caso de uso único de extremo a extremo* (con KPI, objetivos empresariales y capacidades), redirija al usuario a `use-case-pattern-builder`; no es una página de arquitectura.

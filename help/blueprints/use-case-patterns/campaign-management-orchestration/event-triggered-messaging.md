@@ -3,7 +3,7 @@ title: Mensajería activada por eventos
 description: Aprenda a entregar mensajes contextuales en tiempo real en respuesta a eventos de comportamiento o del sistema.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '9040'
 ht-degree: 2%
@@ -94,13 +94,13 @@ Los siguientes KPI ayudan a medir la eficacia de las implementaciones de mensaje
 
 ## Patrón de caso de uso
 
-En esta sección se describe el patrón principal y la cadena de funciones que impulsa la mensajería activada por eventos.
+En esta sección se describe el patrón principal y el plan de ejecución que impulsa la mensajería activada por eventos.
 
 **Mensajería activada por eventos**
 
 Escuche un evento del sistema o de comportamiento en tiempo real y, a continuación, envíe un mensaje contextual al perfil de activación.
 
-**Cadena De Funciones:** Ingesta De Eventos > Entrada De Recorridos > Evaluación De Condiciones > Entrega De Mensajes > Informes
+**Plan De Ejecución:** Ingesta De Eventos > Entrada De Recorrido > Evaluación De Condiciones > Entrega De Mensajes > Informes
 
 ## Aplicaciones
 
@@ -110,11 +110,11 @@ En este patrón de caso de uso se utilizan las siguientes aplicaciones de Adobe.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)**: evaluación de audiencias para filtrado basado en condiciones dentro de los recorridos, aplicación del consentimiento y del control, enriquecimiento de perfiles
 - **[!DNL Adobe Experience Platform] (AEP)**: ingesta de eventos en tiempo real mediante Web SDK, Mobile SDK o API del lado del servidor; modelado de datos; resolución de identidades; Edge Network
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Funcionalidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Se asume en contexto | Zona protegida de AJO aprovisionada con la configuración de canal activa. Permisos de creación y publicación de recorridos asignados al equipo de implementación. Funciones de usuario configuradas para la administración de recorrido, la creación de contenido y la administración de canales. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Un esquema XDM ExperienceEvent debe capturar el evento de activación con todos los campos contextuales necesarios para la evaluación de condiciones y la personalización de mensajes (por ejemplo, `commerce.productListAdds` para eventos de carro de compras, detalles del producto y valor del carro de compras). El esquema debe estar habilitado para el perfil del cliente en tiempo real. Se debe crear un conjunto de datos correspondiente y habilitar para el perfil. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) |
@@ -126,7 +126,7 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Funcionalidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | Recomendado | Los atributos calculados, como el recuento de abandono del carro de compras, los días transcurridos desde la última compra, el valor de pedido promedio y el total de compra de por vida, mejoran la evaluación de condiciones y la personalización dentro de los recorridos activados. Estos agregados de comportamiento permiten decisiones de segmentación más precisas (por ejemplo, diferenciar a los que abandonan por primera vez de los que abandonan repetidamente). | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
 | Administración del ciclo de datos | Recomendado | La caducidad de los datos de evento debe configurarse para eventos de comportamiento transitorios (vistas de página, búsquedas, clics) para administrar los costes de almacenamiento y el cumplimiento de las normas. Los campos de esquema de consentimiento deben estar presentes para la aplicación de inclusión/exclusión específica del canal durante la entrega del mensaje. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home), [Caducidad de conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
@@ -134,13 +134,13 @@ Las siguientes capacidades aumentan este patrón de caso de uso, pero no son nec
 | Monitorización y observabilidad | Incluido | La monitorización de la ejecución del recorrido forma parte de la fase de creación de informes. Además, puede configurar alertas para errores de ingesta de eventos o retrasos en el procesamiento de recorridos para detectar problemas de canalización que impidan que se envíen mensajes activados. | [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview), [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
 | Informes y análisis | Incluido | Los informes de rendimiento del recorrido se tratan en la fase de creación de informes. Para un análisis más profundo de la eficacia de la mensajería activada en todos los canales y a lo largo del tiempo, configure las conexiones y espacios de trabajo de CJA para analizar la atribución de conversión, el tiempo de conversión y el rendimiento del canal. | [descripción general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), [guía de integración de AJO + CJA](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del Catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Journey Orchestration | Creación y configuración de recorridos | Cree un recorrido con entrada de evento unitario, configure el evento correspondiente, añada nodos de condición, pasos de espera, acciones de mensajes, criterios de salida y reglas de reentrada |
 | Configuración de canal | Configuración de superficie de canal | Configure o valide superficies de canal (correo electrónico, SMS, push), incluida la delegación de subdominios, grupos de IP, configuración de remitentes y administración de listas de supresión |
@@ -151,7 +151,7 @@ Este plan utiliza las siguientes funciones del Catálogo de funciones de la apli
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Evaluación de audiencia | Configuración básica (F5) | Evaluar los segmentos de audiencia utilizados para el filtrado basado en condiciones dentro del recorrido (por ejemplo, segmentos de clientes de alto valor, segmentos de supresión) |
 | Cumplimiento del consentimiento y la gobernanza | Configuración básica (S2/S3) | Aplicar preferencias de consentimiento y políticas de gobernanza del uso de datos durante la entrega de mensajes para garantizar comunicaciones compatibles |
@@ -322,7 +322,7 @@ Las siguientes fases recorren la implementación integral de la mensajería acti
 
 ### Fase 1: Configurar el esquema de eventos y la recopilación de datos
 
-**Función de aplicación:** AEP: Modelado de datos (F2), AEP: Fuentes de datos y colección (F3)
+**Funcionalidad de la aplicación:** AEP: Modelado de datos (F2), AEP: Fuentes de datos y recopilación (F3)
 
 **Lo que configurará:** El esquema XDM ExperienceEvent que captura el evento de activación, el conjunto de datos que almacena estos eventos y la canalización de recopilación de datos en tiempo real (Web SDK, Mobile SDK o API de servidor) que transmite eventos a AEP. Esta fase establece la base de datos que el recorrido escuchará.
 
@@ -374,7 +374,7 @@ Las siguientes fases recorren la implementación integral de la mensajería acti
 
 ### Fase 2: Configuración de la identidad y el perfil
 
-**Función de aplicación:** AEP: Configuración de identidad y perfil (F4)
+**Capacidad de la aplicación:** AEP: Configuración de identidad y perfil (F4)
 
 **Lo que configurará:** Áreas de nombres de identidad para los identificadores en el evento de activación, designación de identidad principal en el esquema de evento, reglas de vinculación de identidad para la resolución entre dispositivos y una política de combinación para la unificación de perfiles. Esto garantiza que el evento de activación esté asociado a un perfil de cliente unificado para que el recorrido pueda resolver la información de contacto y enviar el mensaje.
 
@@ -409,7 +409,7 @@ Las siguientes fases recorren la implementación integral de la mensajería acti
 
 ### Fase 3: Configuración de superficies de canal
 
-**Función de aplicación:** AJO: Configuración de canal
+**Capacidad de la aplicación:** AJO: Configuración del canal
 
 **Lo que configurará:** La superficie de canal (ajuste preestablecido) que define la infraestructura de envío para el mensaje activado: delegación de subdominios, grupo de IP, identidad de remitente, dirección de respuesta, administración de cancelación de suscripción y credenciales específicas del canal (proveedor de SMS, certificados push). Debe existir una superficie de canal válida para poder crear contenido de mensaje o publicar recorridos.
 
@@ -460,7 +460,7 @@ Las siguientes fases recorren la implementación integral de la mensajería acti
 
 ### Fase 4: Creación del contenido del mensaje
 
-**Función de aplicación:** AJO: Creación de mensajes
+**Capacidad de la aplicación:** AJO: Creación de mensajes
 
 **Lo que configurará:** El contenido del mensaje que enviará el recorrido, incluido el diseño, los tokens de personalización que usan atributos de perfil y evento, bloques de contenido condicional, fragmentos reutilizables (encabezados, pies de página, exenciones de responsabilidad legal) y la vista previa y prueba de contenido.
 
@@ -513,7 +513,7 @@ Las siguientes fases recorren la implementación integral de la mensajería acti
 
 ### Fase 5: Creación y configuración del recorrido
 
-**Función de la aplicación:** AJO: Journey Orchestration, AJO: Frecuencia y reglas empresariales (Opción C), AJO: Administración de conflictos y prioridades
+**Funcionalidad de la aplicación:** AJO: Journey Orchestration, AJO: Frecuencia y reglas empresariales (Opción C), AJO: Administración de conflictos y prioridades
 
 **Lo que configurará:** El recorrido que escucha el evento desencadenante y organiza la entrega de mensajes. Esta es la fase de implementación central en la que el lienzo de recorrido está diseñado con el nodo de entrada de evento, los nodos de condición, los pasos de espera (para la opción B), los nodos de acción de mensaje y los criterios de salida. Esta fase también abarca la gobernanza de la frecuencia (opción C) y la configuración de conflictos/prioridades.
 
@@ -607,7 +607,7 @@ Configure los límites de frecuencia a nivel de organización mediante Administr
 
 ### Fase 6: Prueba e implementación del recorrido
 
-**Función de aplicación:** AJO: Journey Orchestration
+**Capacidad de la aplicación:** AJO: Journey Orchestration
 
 **Lo que configurará:** Validación del modo de prueba para comprobar que el recorrido se comporta como se espera con los perfiles de prueba, seguida de la publicación del recorrido para activarlo.
 
@@ -630,7 +630,7 @@ Configure los límites de frecuencia a nivel de organización mediante Administr
 
 ### Fase 7: Supervisar el rendimiento e informar sobre él
 
-**Función de la aplicación:** AJO: Reporting &amp; Performance Analysis, S4: Monitoring &amp; Observability, S5: Reporting &amp; Analysis
+**Capacidad de la aplicación:** AJO: Reporting &amp; Performance Analysis, S4: Monitoring &amp; Observability, S5: Reporting &amp; Analysis
 
 **Lo que configurará:** informes de recorridos activos e históricos para la supervisión de la entrega y la participación, alertas de plataforma para la ingesta de eventos y errores de procesamiento de recorridos, y opcionalmente espacios de trabajo de CJA para un análisis más profundo en canales múltiples de la efectividad de la mensajería activada.
 

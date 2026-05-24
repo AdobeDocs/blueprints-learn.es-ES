@@ -3,7 +3,7 @@ title: Activación de audiencias en destinos
 description: Obtenga información sobre cómo evaluar y publicar segmentos de audiencia en destinos externos para la segmentación o supresión mediante Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Mejore el retorno de la inversión en marketing mediante una mejor segmentación
 
 **Audience Activation a destinos**: evalúe y publique un segmento de audiencia en destinos externos para fines de segmentación o supresión.
 
-**Cadena De Funciones:** Evaluación De Audiencia > Configuración De Destino > Audience Activation > Supervisión
+**Plan De Ejecución:** Evaluación De Audiencia > Configuración De Destino > Audience Activation > Supervisión
 
 ## Aplicaciones
 
@@ -96,37 +96,37 @@ La siguiente arquitectura de referencia ilustra cómo los datos de audiencia y p
 
 ![Arquitectura de referencia para la activación de perfiles y audiencias en destinos empresariales](/help/blueprints/audience-activation/assets/known_activation.svg)
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Capacidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Se asume en contexto | Zona protegida de RT-CDP aprovisionada y activa. Permisos de activación y administración de destinos asignados a funciones de implementación. Credenciales de cuenta de destino disponibles para las plataformas de destino. | [Resumen de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home), [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | El esquema de perfil debe incluir atributos que se asignarán a campos de destino (por ejemplo, correo electrónico, teléfono, identificadores hash, atributos demográficos). El esquema debe estar habilitado para perfiles con conjuntos de datos que reciban datos de forma activa. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), [Conceptos básicos de composición de esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) |
 | Fuentes de datos y recopilación | Se asume en contexto | Los datos de perfil que alimentan la evaluación de audiencias deben ingerirse y estar actualizados. Canalizaciones de ingesta por lotes o streaming en funcionamiento. Web SDK, conectores de origen o ingesta por lotes que envían datos a conjuntos de datos con perfil habilitado. | [Resumen de orígenes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/home), [Resumen de Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/home) |
 | Configuración de identidad y perfil | Requerido | Deben configurarse las áreas de nombres de identidad para la coincidencia de destino (por ejemplo, correo electrónico con hash para Audiencias personalizadas de Facebook, coincidencia de clientes de Google Ads). Las políticas de combinación deben producir perfiles unificados con todos los atributos necesarios para la activación. | [Introducción al servicio de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home), [Introducción a las políticas de combinación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/overview) |
-| Definición de audiencia y segmentación | Requerido | La audiencia de destino se define mediante el Generador de segmentos, la Composición de audiencia o la Composición de audiencia federada. Método de evaluación (por lotes, streaming o Edge) seleccionado según las necesidades de latencia de activación. Esta función se ejerce en la Fase 1 de este plan. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home), [Guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder) |
+| Definición de audiencia y segmentación | Requerido | La audiencia de destino se define mediante el Generador de segmentos, la Composición de audiencia o la Composición de audiencia federada. Método de evaluación (por lotes, streaming o Edge) seleccionado según las necesidades de latencia de activación. Esta capacidad se ejerce en la fase 1 de este plan. | [Resumen del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/home), [Guía de la interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Funciones de soporte
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Capacidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | Recomendado | Los atributos calculados como el valor de duración, la puntuación de participación o la puntuación de tendencia mejoran la precisión de la audiencia y proporcionan atributos de enriquecimiento para asignar a destinos. Es especialmente útil cuando los destinos se benefician de la segmentación de audiencia basada en valores o en puntuaciones. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
 | Administración del ciclo de datos | Recomendado | Las políticas de caducidad de conjuntos de datos y perfiles garantizan la actualización y el cumplimiento de datos. La configuración del esquema de consentimiento garantiza que solo se activen los perfiles consentidos. Esencial para el cumplimiento normativo al exportar datos a sistemas externos. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
 | Etiquetado y aplicación del uso de datos | Recomendado | Las etiquetas y políticas de gobernanza impiden la activación de datos restringidos a destinos no autorizados (por ejemplo, PII a plataformas de publicidad, segmentos confidenciales a socios de datos). Especialmente importante para la activación de audiencias en sistemas externos de terceros. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home), [Resumen de etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview) |
-| Monitorización y observabilidad | Incluido | La monitorización de la activación forma parte de la cadena de funciones (Fase 5). Abarca la monitorización de la ejecución del flujo de datos, las alertas de estado de entrega, el seguimiento de la población de audiencias y la visibilidad del uso de licencias. | [Supervisar flujos de datos de destino](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-destinations), [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview) |
+| Monitorización y observabilidad | Incluido | La monitorización de la activación forma parte del plan de ejecución (Fase 5). Abarca la monitorización de la ejecución del flujo de datos, las alertas de estado de entrega, el seguimiento de la población de audiencias y la visibilidad del uso de licencias. | [Supervisar flujos de datos de destino](https://experienceleague.adobe.com/es/docs/experience-platform/dataflows/ui/monitor-destinations), [Resumen de alertas](https://experienceleague.adobe.com/es/docs/experience-platform/observability/alerts/overview) |
 | Informes y análisis | Recomendado | El análisis de CJA de la efectividad de la activación de audiencias permite medir el rendimiento de las audiencias activadas (por ejemplo, el alza de conversión de la supresión, el ROAS de las audiencias similares). | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del Catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Evaluación de audiencia | Fase 1: Evaluación de audiencias | Defina reglas de audiencia y evalúe la pertenencia a segmentos mediante métodos de evaluación por lotes, de flujo continuo o de Edge |
 | Composición de audiencia | Fase 1: Evaluación de audiencias | Opcionalmente, componer audiencias derivadas mediante operaciones de enriquecimiento, clasificación, división, exclusión y unión para una lógica de audiencia compleja |
@@ -295,7 +295,7 @@ La implementación sigue estas fases. Cada fase incluye detalles de configuraci�
 
 ### Fase 1: Evaluación de audiencias
 
-**Función de aplicación:** RT-CDP: Evaluación de audiencia, RT-CDP: Composición de audiencia
+**Capacidad de la aplicación:** RT-CDP: Evaluación de audiencias, RT-CDP: Composición de audiencias
 
 **Lo que va a configurar:** Defina la audiencia de destino que se activará en los destinos. Esto incluye especificar los criterios de audiencia (qué perfiles cumplen los requisitos), seleccionar el método de evaluación (con qué rapidez se actualiza la membresía) y validar la población de audiencias. Este es el punto de partida de todas las activaciones: sin una audiencia definida y evaluada, no hay nada que activar.
 
@@ -369,7 +369,7 @@ El método de evaluación debe adaptarse al destino más exigente. Si algún des
 
 ### Fase 2: Configuración del destino
 
-**Función de aplicación:** RT-CDP: Configuración de destino
+**Capacidad de la aplicación:** RT-CDP: Configuración de destino
 
 **Lo que va a configurar:** Establezca conexiones autenticadas con los destinos externos donde se publicarán las audiencias. Esto incluye la selección del destino en el catálogo, el suministro de credenciales de autenticación y la configuración de parámetros específicos de destino, como el formato de archivo, la ubicación de almacenamiento y la programación de exportaciones. Cada destino requiere su propia configuración de conexión.
 
@@ -446,7 +446,7 @@ Repita esta fase para cada destino. Cada conexión es independiente: puede tener
 
 ### Fase 3: Activación de audiencia
 
-**Función de aplicación:** RT-CDP: Audience Activation
+**Capacidad de la aplicación:** RT-CDP: Audience Activation
 
 **Lo que configurará:** Publique la audiencia evaluada en el destino configurado creando el flujo de datos de activación. Esto implica seleccionar qué audiencias activar, asignar atributos de perfil a campos de destino y configurar la programación de exportación. El flujo de datos de activación conecta la audiencia de origen con el destino de destino y administra la entrega de datos en curso.
 
@@ -507,7 +507,7 @@ Repita el flujo de trabajo de activación para cada destino. La misma audiencia 
 
 ### Fase 4: Validación de la gobernanza
 
-**Función de la aplicación:** RT-CDP: Cumplimiento del consentimiento y la gobernanza
+**Capacidad de la aplicación:** RT-CDP: aplicación del consentimiento y control
 
 **Lo que configurará:** Valide que las directivas de gobernanza y las preferencias de consentimiento se apliquen correctamente antes y durante la activación. Esta fase garantiza que los datos restringidos (PII, atributos confidenciales) no se envíen a destinos no autorizados y que los perfiles sin consentimiento válido se excluyan de la activación. La aplicación de la gobernanza se produce automáticamente en el momento de la activación, pero la validación proactiva evita activaciones bloqueadas y violaciones del cumplimiento.
 
@@ -555,7 +555,7 @@ Repita el flujo de trabajo de activación para cada destino. La misma audiencia 
 
 ### Fase 5: Monitorización y validación
 
-**Función de aplicación:** Supervisión y observabilidad
+**Capacidad de aplicación:** Supervisión y observación
 
 **Lo que configurará:** configure la monitorización continua de los flujos de datos de activación, configure alertas para detectar errores, valide la población de audiencias en los destinos y rastree el uso de licencias. La monitorización es crítica para las activaciones de producción en las que los errores de entrega afectan directamente al rendimiento de la campaña y al gasto en medios.
 

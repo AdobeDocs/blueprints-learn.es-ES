@@ -3,7 +3,7 @@ title: Personalization web de visitante anónimo
 description: Aprenda a ofrecer contenido web personalizado a visitantes no identificados en función de las señales de comportamiento durante la sesión.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -88,13 +88,13 @@ Utilice los siguientes KPI para medir la eficacia de este patrón de caso de uso
 
 ## Patrón de caso de uso
 
-A continuación se describe el patrón principal y la cadena de funciones para este caso de uso.
+A continuación se describe el patrón principal y el plan de ejecución para este caso de uso.
 
 **Personalization web de visitante anónimo**
 
 Ofrezca contenido personalizado basado en señales de comportamiento en la sesión para visitantes no identificados a través del canal web de AJO.
 
-**Cadena de funciones:** Configuración de superficie web > Evaluación de regla de comportamiento > Entrega de contenido > Seguimiento de impresión > Informes
+**Plan de ejecución:** Configuración de superficie web > Evaluación de regla de comportamiento > Entrega de contenido > Seguimiento de impresión > Informes
 
 ## Aplicaciones
 
@@ -110,11 +110,11 @@ La siguiente arquitectura de referencia ilustra cómo se recopilan las señales 
 
 ![Arquitectura de referencia para la personalización y activación anónima de audiencias](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
 
-## Funciones básicas
+## Capacidades básicas
 
-Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada función, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
+Para este patrón de caso de uso, deben existir las siguientes capacidades básicas. Para cada capacidad, el estado indica si suele ser necesaria, si se supone que está preconfigurada o si no es aplicable.
 
-| Función base | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
+| Capacidad básica | Estado | Lo que debe estar en su lugar | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Administración y gobernanza | Se asume en contexto | Zona protegida de AJO con permisos de canal web configurados. [!DNL Web SDK] permisos de implementación y acceso a secuencia de datos concedido al equipo de implementación. Los usuarios aprovisionados con funciones que permiten la configuración del canal web, la administración de audiencias y la ejecución de campañas. | [Resumen de control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) |
 | Modelado y preparación de datos | Requerido | Esquema de Experience Event que captura señales de comportamiento web (vistas de página, clics, profundidad de desplazamiento, datos de referencia, parámetros de UTM). El esquema debe incluir grupos de campos de interacción web estándar y estar habilitado para que el perfil de Edge admita la evaluación en tiempo real. Se debe crear un conjunto de datos correspondiente y habilitar para el perfil. | [Información general del sistema XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) |
@@ -126,21 +126,21 @@ Para este patrón de caso de uso, deben existir las siguientes capacidades bási
 
 Las siguientes capacidades aumentan este patrón de caso de uso, pero no son necesarias para la ejecución principal.
 
-| Función de apoyo | Estado | Por qué importa | Referencia de Experience League |
+| Capacidad de soporte | Estado | Por qué importa | Referencia de Experience League |
 | --- | --- | --- | --- |
 | Creación de atributos calculados/derivados | No aplicable | Valor limitado para visitantes anónimos, ya que la suma de los datos de perfil históricos es mínima. Puede ser aplicable si el perfil de Edge acumula datos de comportamiento significativos de visitas anónimas anteriores en varias sesiones. | [Resumen de atributos calculados](https://experienceleague.adobe.com/es/docs/experience-platform/profile/computed-attributes/overview) |
 | Administración del ciclo de datos | Recomendado | La caducidad del perfil seudónimo debe configurarse para perfiles Edge anónimos a fin de administrar el almacenamiento y cumplir con los requisitos de privacidad. Los perfiles solo de ECID se pueden configurar para que caduquen entre 14 y 365 días. Las políticas de consentimiento de cookies deben aplicarse para la recopilación de datos de comportamiento. | [Información general sobre la administración avanzada del ciclo de vida de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/home) |
 | Etiquetado y aplicación del uso de datos | Recomendado | Las etiquetas de gobernanza en los datos de comportamiento garantizan el cumplimiento, especialmente para la segmentación geográfica (etiqueta geográfica sensible a S2) y la personalización basada en dispositivos. Las etiquetas impiden que los datos de comportamiento restringidos se utilicen en contextos de personalización no autorizados. | [Resumen de control de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/home) |
 | Monitorización y observabilidad | Recomendado | La supervisión del flujo de datos de [!DNL Edge Network] y [!DNL Web SDK] ayuda a detectar problemas de entrega de personalización. Configure alertas para errores de flujo de datos, errores de ingesta y anomalías de entrega de Edge. Esencial para implementaciones de producción en las que los errores de personalización degradan la experiencia del visitante. | [Resumen de Observability Insights](https://experienceleague.adobe.com/es/docs/experience-platform/observability/home) |
-| Informes y análisis | Incluido | La creación de informes de rendimiento de Personalization forma parte de la cadena de funciones (Fase 5). El análisis de CJA de la efectividad de la personalización de visitantes anónimos permite realizar análisis de funnel profundos, comparaciones de cohortes y mediciones de impacto de conversión más allá de lo que ofrecen los informes nativos de AJO. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Informes y análisis | Incluido | Los informes de rendimiento de Personalization forman parte del plan de ejecución (Fase 5). El análisis de CJA de la efectividad de la personalización de visitantes anónimos permite realizar análisis de funnel profundos, comparaciones de cohortes y mediciones de impacto de conversión más allá de lo que ofrecen los informes nativos de AJO. | [Información general de CJA](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funciones de aplicación
+## Funcionalidades de aplicación
 
-Este plan utiliza las siguientes funciones del Catálogo de funciones de la aplicación. Las funciones se asignan a fases de implementación en lugar de pasos numerados.
+Este plan utiliza las siguientes capacidades del catálogo de funciones de la aplicación. Las capacidades se asignan a fases de implementación en lugar de pasos numerados.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Configuración de canal | Fase 1: Configuración de la superficie web | Configure las superficies de canal web que definen dónde se enviará el contenido personalizado en las propiedades web de destino |
 | Creación de mensajes | Fase 3: Creación de contenido y creación de variantes | Cree variantes de contenido personalizadas para superficies web mediante el diseñador web, el editor de experiencias basado en código o las plantillas de contenido |
@@ -151,7 +151,7 @@ Este plan utiliza las siguientes funciones del Catálogo de funciones de la apli
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Función | Fase de implementación | Descripción |
+| Capacidad | Fase de implementación | Descripción |
 | --- | --- | --- |
 | Evaluación de audiencia | Fase 2: Definición de audiencia de comportamiento | Defina y evalúe segmentos de audiencia basados en Edge mediante señales de comportamiento en la sesión para una segmentación de personalización en tiempo real |
 
@@ -335,7 +335,7 @@ Las siguientes fases describen el flujo de trabajo de implementación de extremo
 
 ### Fase 1: Configuración de superficies web
 
-**Función de aplicación:** AJO: Configuración de canal
+**Capacidad de la aplicación:** AJO: Configuración del canal
 
 Defina las superficies de canal web que especifican en qué parte del sitio web se enviará el contenido personalizado. Una superficie web identifica una dirección URL o un patrón de URL de página específico y la ubicación de la página (selector CSS o superficie de experiencia basada en código) donde AJO puede insertar o reemplazar contenido.
 
@@ -377,7 +377,7 @@ Defina las superficies de canal web que especifican en qué parte del sitio web 
 
 ### Fase 2: Definir audiencias de comportamiento
 
-**Función de aplicación:** RT-CDP: Evaluación de audiencia
+**Capacidad de la aplicación:** RT-CDP: Evaluación de audiencia
 
 Defina segmentos de audiencia evaluados por Edge basados en señales de comportamiento en la sesión que impulsen la segmentación de personalización. Estas audiencias determinan qué visitantes cumplen los requisitos para cada experiencia personalizada. La evaluación de Edge es obligatoria para este patrón, ya que las decisiones de personalización deben tomarse en periodos de tiempo de menos de segundo a medida que el visitante navega por el sitio.
 
@@ -433,7 +433,7 @@ Defina audiencias para usarlas como reglas de aceptación en los elementos de co
 
 ### Fase 3: Crear contenido y crear variantes
 
-**Función de la aplicación:** AJO: Creación de mensajes, AJO: Experimentación de contenido (Opción B), AJO: Decisioning (Opción C)
+**Capacidad de la aplicación:** AJO: Message Authoring, AJO: Content Experimentation (Option B), AJO: Decisioning (Option C)
 
 Cree las variantes de contenido personalizadas que se enviarán a los visitantes en función del abono a audiencia (Opción A), la asignación de experimentos (Opción B) o la lógica de toma de decisiones (Opción C). Esta fase cubre la creación de contenido mediante el diseñador web de AJO o el editor de experiencias basado en código, así como la configuración de experimento o toma de decisiones que rige la forma en que se selecciona el contenido.
 
@@ -510,7 +510,7 @@ Configure la pila del componente Decisioning e integre el componente en la campa
 
 ### Fase 4: Configuración de la campaña y la entrega
 
-**Función de aplicación:** AJO: Campaign Execution
+**Capacidad de la aplicación:** AJO: Campaign Execution
 
 Cree y active la campaña web de AJO que enlaza la superficie web (Fase 1), la segmentación de audiencias o la configuración del experimento (Fases 2-3) y las variantes de contenido (Fase 3) en una unidad de entrega. La campaña controla cuándo y cómo se sirve el contenido personalizado a los visitantes.
 
@@ -554,7 +554,7 @@ Cree una campaña que incruste la política de decisión configurada en la fase 
 
 ### Fase 5: informar y analizar el rendimiento
 
-**Función de aplicación:** AJO: Informes y análisis de rendimiento
+**Capacidad de la aplicación:** AJO: Informes y análisis de rendimiento
 
 Monitorice el rendimiento de la personalización mediante los informes integrados de AJO y, opcionalmente, amplíe el análisis con CJA para obtener perspectivas más profundas entre canales. Esta fase abarca el acceso a informes de campaña en directo e históricos, la revisión de los resultados de los experimentos y la creación de espacios de trabajo de análisis personalizados.
 
