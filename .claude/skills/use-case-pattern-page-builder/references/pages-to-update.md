@@ -1,8 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 # Páginas que se actualizarán al agregar un patrón de caso de uso
@@ -64,5 +64,5 @@ Cuando se crea un nuevo patrón de caso de uso, se deben actualizar las siguient
 - [ ] El archivo usa la convención de nomenclatura de mayúsculas y minúsculas
 - [ ]: todos los vínculos de Experience League son direcciones URL válidas
 - [ ] nombres de productos de Adobe utilizan sintaxis `[!DNL ...]`
-- [ ] La cadena de funciones utiliza el formato de separador ` > `
+- [ ] El plan de ejecución usa el formato de separador ` > `
 - [ ] El archivo de patrón incluye todas las secciones requeridas (consulte pattern-template.md)

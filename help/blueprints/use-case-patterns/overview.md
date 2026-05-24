@@ -4,7 +4,7 @@ description: Conozca los patrones de casos de uso para implementar Adobe Experie
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Patrones de casos de uso
 
-Los patrones de casos de uso definen enfoques de implementación repetibles para Adobe Experience Platform y sus aplicaciones. Cada patrón describe una capacidad específica, la cadena de funciones que la ofrece, las aplicaciones involucradas y los [objetivos clave para la empresa](/help/blueprints/business-objectives/overview.md) que admite.
+Los patrones de casos de uso definen enfoques de implementación repetibles para Adobe Experience Platform y sus aplicaciones. Cada patrón describe una capacidad específica, el plan de ejecución que la ofrece, las aplicaciones involucradas y los [objetivos comerciales clave](/help/blueprints/business-objectives/overview.md) que admite.
 
 Utilice las tablas siguientes para encontrar el patrón que coincida con sus necesidades de implementación y, a continuación, siga el vínculo a la referencia de implementación completa que incluye opciones, fases, orientación para la toma de decisiones y documentación de Experience League.
 
