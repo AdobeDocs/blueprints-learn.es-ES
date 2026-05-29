@@ -3,7 +3,7 @@ title: Activación de audiencias en destinos
 description: Obtenga información sobre cómo evaluar y publicar segmentos de audiencia en destinos externos para la segmentación o supresión mediante Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -94,7 +94,7 @@ Mejore el retorno de la inversión en marketing mediante una mejor segmentación
 
 La siguiente arquitectura de referencia ilustra cómo los datos de audiencia y perfil fluyen desde Real-Time CDP a destinos empresariales, incluido el almacenamiento en la nube, los extremos de streaming y las aplicaciones SaaS.
 
-![Arquitectura de referencia para la activación de perfiles y audiencias en destinos empresariales](/help/blueprints/audience-activation/assets/known_activation.svg)
+![Arquitectura de referencia para la activación de perfiles y audiencias en destinos empresariales](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## Capacidades básicas
 

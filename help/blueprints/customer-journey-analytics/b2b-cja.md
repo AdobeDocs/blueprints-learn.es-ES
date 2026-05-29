@@ -3,7 +3,7 @@ title: Modelo de Customer Journey Analytics B2B
 description: Incluya datos de cuenta B2B, oportunidad y grupo de compra en Customer Journey Analytics para la creación de informes basados en cuentas y el análisis de recorridos.
 solution: Customer Journey Analytics
 exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Customer Journey Analytics B2B edition permite los informes y análisis basados 
 
 ## Arquitectura
 
-![Arquitectura de Customer Journey Analytics con datos de oportunidad y cuenta B2B unificados para el análisis de recorrido](assets/CJA.svg){zoomable="yes"}
+![Arquitectura de Customer Journey Analytics con datos de oportunidad y cuenta B2B unificados para el análisis de recorrido](assets/CJA.png){zoomable="yes"}
 
 Los datos fluyen desde Experience Platform (conjuntos de datos de eventos y B2B) a [!DNL Customer Journey Analytics] a través de una conexión CJA. Las dimensiones B2B se exponen en las vistas de datos, de modo que el análisis y las audiencias se pueden crear en los niveles de cuenta, oportunidad y persona.
 

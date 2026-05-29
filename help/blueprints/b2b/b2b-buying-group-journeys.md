@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
-source-wordcount: 2349
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Cuando un posible cliente demuestra claramente el interés de la solución, indi
 
 Como se ilustra en el diagrama siguiente, puede recopilar detalles en formularios o a través de la activación de LinkedIn y calificar una intención de solución cuando se produce la interacción con un bot de chat.
 
-![recorrido de grupo de compra](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![recorrido de grupo de compra](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 Cuando el porcentaje de finalización del grupo de compra es lo suficientemente alto, se comparte el grupo con el equipo de ventas a través de SQL o una SOL para convertir los posibles clientes de la cuenta en una venta finalizada.
 
