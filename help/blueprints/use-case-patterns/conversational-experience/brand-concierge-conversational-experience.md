@@ -112,4 +112,4 @@ Las siguientes aplicaciones se utilizan para implementar este patrón de caso de
 
 ## Documentación relacionada
 
-Para obtener instrucciones de implementación y más información, consulte la [descripción general de Brand Concierge](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) en Adobe Experience League.
+Para obtener instrucciones de implementación y más información, consulte la [descripción general de Brand Concierge](https://experienceleague.adobe.com/es/docs/brand-concierge/content/documentation/overview) en Adobe Experience League.
