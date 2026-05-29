@@ -3,7 +3,7 @@ title: Modelo de Customer Journey Analytics B2B
 description: Incluya datos de cuenta B2B, oportunidad y grupo de compra en Customer Journey Analytics para la creación de informes basados en cuentas y el análisis de recorridos.
 solution: Customer Journey Analytics
 exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 7%
@@ -32,27 +32,27 @@ Customer Journey Analytics B2B edition permite los informes y análisis basados 
 ## Prerrequisitos
 
 * [!DNL Customer Journey Analytics] derecho de B2B edition.
-* Datos de comportamiento y B2B en Adobe Experience Platform: conjuntos de datos B2B (cuentas, oportunidades, personas, campañas, listas de marketing y actividades B2B) y datos de evento (canales web, móviles u otros) disponibles en una [conexión CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es).
+* Datos de comportamiento y B2B en Adobe Experience Platform: conjuntos de datos B2B (cuentas, oportunidades, personas, campañas, listas de marketing y actividades B2B) y datos de evento (canales web, móviles u otros) disponibles en una [conexión CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html).
 * [Nomenclatura B2B para CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html): configuración de vista de datos específica de B2B (ID de cuenta, ID de oportunidad y dimensiones relacionadas) para la conexión.
 
 ## Arquitectura
 
-![Arquitectura de Customer Journey Analytics con datos de oportunidad y cuenta B2B unificados para el análisis de recorrido](assets/CJA.svg){zoomable="yes"}
+![Arquitectura de Customer Journey Analytics con datos de oportunidad y cuenta B2B unificados para el análisis de recorrido](assets/CJA.png){zoomable="yes"}
 
 Los datos fluyen desde Experience Platform (conjuntos de datos de eventos y B2B) a [!DNL Customer Journey Analytics] a través de una conexión CJA. Las dimensiones B2B se exponen en las vistas de datos, de modo que el análisis y las audiencias se pueden crear en los niveles de cuenta, oportunidad y persona.
 
 ## Guardas
 
-* Para ver los límites y derechos de los productos B2B edition, consulte la [descripción del producto Customer Journey Analytics B2B](https://helpx.adobe.com/es/legal/product-descriptions/customer-journey-analytics-b2b.html).
-* Para conocer los límites técnicos de Analytics Platform y CJA, consulte [Protecciones de Analytics Platform](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/guardrails).
-* Para conocer los límites de ingesta y conexión de datos de CJA, consulte [Protecciones de ingesta de datos de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es#what-is-the-expected-latency-for-analytics-data-on-platform%3F).
-* Si publica audiencias de CJA en Real-time Customer Data Platform, consulte [Protecciones para compartir audiencias de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency).
+* Para ver los límites y derechos de los productos B2B edition, consulte la [descripción del producto Customer Journey Analytics B2B](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
+* Para conocer los límites técnicos de Analytics Platform y CJA, consulte [Protecciones de Analytics Platform](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails).
+* Para conocer los límites de ingesta y conexión de datos de CJA, consulte [Protecciones de ingesta de datos de Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F).
+* Si publica audiencias de CJA en Real-time Customer Data Platform, consulte [Protecciones para compartir audiencias de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency).
 * Para obtener latencias de extremo a extremo y protecciones de plataforma, consulte el [documento de protecciones de implementación](../experience-platform/guardrails.md).
 
 ## Pasos de implementación
 
 1. **Ingesta de datos de eventos y B2B en Experience Platform**: Incorpore datos de cuenta, oportunidad, persona, campaña y actividad, además de eventos de comportamiento, mediante [fuentes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es) (por ejemplo, [!DNL Marketo Engage], CRM u otros conectores B2B).
-2. **Crear una conexión de CJA** — [Agregue los conjuntos de datos de Experience Platform relevantes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es) (evento B2B y ) a una conexión de Customer Journey Analytics.
+2. **Crear una conexión de CJA** — [Agregue los conjuntos de datos de Experience Platform relevantes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) (evento B2B y ) a una conexión de Customer Journey Analytics.
 3. **Configurar B2B en la vista de datos** — Habilitar [dimensiones de nomenclatura y clave B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html) (ID de cuenta, ID de oportunidad, etc.) en las vistas de datos de la conexión.
 4. **Generar análisis y audiencias basados en cuentas**: use [informes y casos de uso B2B de CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=es) para crear informes, desgloses y audiencias en el nivel de cuenta y oportunidad; opcionalmente, [publique audiencias en Real-Time CDP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es) para la activación.
 
@@ -60,14 +60,14 @@ Los datos fluyen desde Experience Platform (conjuntos de datos de eventos y B2B)
 
 ### Customer Journey Analytics B2B edition
 
-* [Customer Journey Analytics B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition.html?lang=es)
+* [Customer Journey Analytics B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition.html)
 * [Casos de uso B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=es)
-* [Información general sobre casos de uso de B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/b2b-edition/use-cases-overview.html?lang=es)
-* [Ejemplo de proyecto B2B basado en personas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/example.html?lang=es)
+* [Información general sobre casos de uso de B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/b2b-edition/use-cases-overview.html)
+* [Ejemplo de proyecto B2B basado en personas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/example.html)
 
 ### Conexiones y vistas de datos
 
-* [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=es)
+* [Crear una conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)
 * [Configuración de vista de datos B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html)
 
 ### Audiencias y barreras
