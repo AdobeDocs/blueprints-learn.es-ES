@@ -4,11 +4,21 @@ description: Aprenda a idear, diseñar y crear un recorrido que permita a los po
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
 TQID: https://experienceleague.adobe.com/BTvNNRxxvsbjmuPyY0NjBrMJmiSJ3qkNnndd-y1VwVQ
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68id: d5e018de-9479-48a8-96a8-176c73166631id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+  - id: e107d6b1-73fc-440f-ae3a-e96dccbaf602
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 2322
@@ -77,11 +87,11 @@ La solución centrada en las cuentas requiere las siguientes aplicaciones y serv
 >
 >Las licencias de Journey Optimizer B2B edition deben incluir los siguientes elementos:
 ><ul><li>Instancia de Journey Optimizer B2B edition conectada a Experience Platform B2B</li><li>Instancia de Marketo Engage sincronizada con RTCDP</li></ul>
-&gt;<br/>
-&gt;Para los clientes de Marketo Engage existentes, el método recomendado es una conexión con la instancia existente.
-&gt;<br/><br/>
-&gt;Hay extensiones adicionales disponibles para la solución para mejorar la riqueza de perfiles:
-&gt;<ul><li>Fuentes adicionales de RTCDP para enriquecer el perfil</li><li>Destino de RTCDP para Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;Para los clientes de Marketo Engage existentes, el método recomendado es una conexión con la instancia existente.
+>&gt;<br/><br/>
+>&gt;Hay extensiones adicionales disponibles para la solución para mejorar la riqueza de perfiles:
+>&gt;<ul><li>Fuentes adicionales de RTCDP para enriquecer el perfil</li><li>Destino de RTCDP para Marketo Engage</li></ul>
 
 La implementación de esta solución también requiere una comprensión clara del concepto de _cuenta_ y _grupo comprador_, así como de cómo amplifican y aceleran su calificación de posibles clientes. Con esta comprensión, también debe identificar la puntuación de integridad del grupo de compra deseado.
 
