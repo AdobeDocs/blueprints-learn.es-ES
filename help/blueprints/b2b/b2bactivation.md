@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ Utilice la información de cuentas, oportunidades y posibles clientes vinculada 
 
 * Cree audiencias de personas para segmentación y personalización entre canales con datos B2B, incluidas cuentas, oportunidades y posibles clientes.
 * Active audiencias en cualquier destino de Experience Platform para segmentación y personalización.
-* Cree audiencias de cuentas (por ejemplo, listas de empresas) y diríjase a esas empresas a través de destinos como LinkedIn que acepten listas de empresas como entrada o exportación a destinos de almacenamiento en la nube para fines de segmentación y alcance de ventas.
+* Cree audiencias de cuentas (por ejemplo, listas de empresas) y diríjase a esas empresas a través de destinos como LinkedIn o almacenamiento en la nube. Para obtener detalles, requisitos y protecciones de audiencia de cuenta, consulte [Activación de cuenta B2B en destinos de Advertising y destinos de archivo](b2b-account-activation.md).
 
 ## Aplicaciones
 
