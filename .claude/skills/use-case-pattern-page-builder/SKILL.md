@@ -1,7 +1,7 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Creación de guía del nuevo contenido de patrón de caso de uso para el repositorio de modelos de Adobe Experience Platform. Utilice esta habilidad cuando añada un nuevo patrón de caso de uso, cree contenido de guía de implementación o cuando el usuario mencione la adición de patrones al sitio de modelos. Gestiona el flujo de trabajo completo: recopilación de información de patrones, generación del archivo Markdown con la estructura de plantilla correcta y actualización de todas las páginas de referencia cruzada (TOC.md, overview.md).'
-source-git-commit: 2577bb034012a78fd30a65b7b44196b91921923e
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 94%
@@ -68,15 +68,15 @@ Utilice la plantilla de `references/pattern-template.md` y rellene todos los val
 
 2. **Sección de apertura** — `# {Pattern name}` encabezado seguido de un párrafo introductorio y el texto &quot;Use esta guía para entender...&quot; sentencia.
 
-3. **Resumen del caso de uso**: de 3 a 5 párrafos que describen el ámbito del patrón, cuándo se aplica, qué hace y no hace, y quiénes son las partes interesadas habituales.
+3. **Patrón de caso de uso**: párrafo de descripción y plan de ejecución.
 
-4. **Objetivos empresariales clave**: cada objetivo tiene un encabezado vinculado con una breve descripción y una fila de resumen de KPI.
+4. **Resumen del caso de uso**: de 3 a 5 párrafos que describen el ámbito del patrón, cuándo se aplica, qué hace y no hace, y quiénes son las partes interesadas habituales.
 
-5. **Casos de uso tácticos de ejemplo**: lista con viñetas de 6 a 10 escenarios.
+5. **Objetivos empresariales clave**: cada objetivo tiene un encabezado vinculado con una breve descripción y una fila de resumen de KPI.
 
-6. **Indicadores clave de rendimiento** — Tabla con KPI, Descripción, Columnas de medición.
+6. **Casos de uso tácticos de ejemplo**: lista con viñetas de 6 a 10 escenarios.
 
-7. **Patrón de caso de uso**: párrafo de descripción y plan de ejecución.
+7. **Indicadores clave de rendimiento** — Tabla con KPI, Descripción, Columnas de medición.
 
 8. **Aplicaciones**: lista de aplicaciones de Adobe con formato y descripciones de `[!DNL ...]`.
 
@@ -132,7 +132,7 @@ Una vez creados y actualizados todos los archivos, compruebe lo siguiente:
 
 5. **Complejidad de Frontmatter**: el archivo de patrón incluye título, descripción, solución y exl-id en su frontmatter de YAML.
 
-6. **Vínculos de Experience League**: compruebe de forma puntual que las direcciones URL de Experience League son plausibles (comience por `https://experienceleague.adobe.com/es`).
+6. **Vínculos de Experience League**: compruebe de forma puntual que las direcciones URL de Experience League son plausibles (comience por `https://experienceleague.adobe.com/`).
 
 Informe al usuario de cualquier error de validación y corríjalo antes de considerar que la tarea se ha completado.
 
