@@ -3,9 +3,9 @@ title: Activación de cuentas B2B en destinos de Advertising y destinos de archi
 description: Utilice la participación basada en cuentas para crear audiencias y segmentarlas mediante destinos.
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '735'
 ht-degree: 4%
 
 ---
@@ -54,16 +54,16 @@ Mediante la participación basada en cuentas, los especialistas en marketing pue
 * Los atributos de cuenta están disponibles para la exportación.
 * Eventos de personas.
    * Hasta 30 días de retrospectiva de eventos, sin orden de predicados de eventos.
-   * Y / O son compatibles (por lo que puede decir &quot;A y B tienen que suceder,&quot;  pero no se puede decir &quot;A debe suceder 3 días antes de B&quot;).
+   * Y / O son compatibles (por lo que puede decir &quot;A y B tienen que suceder&quot;, pero no puede decir &quot;A debe suceder 3 días antes de B&quot;).
 * Para los destinos de almacenamiento en la nube, la programación de exportación admite la opción &quot;Después de la evaluación de segmentos&quot;.
-* [Perfil B2B y protecciones de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [Perfil B2B y protecciones de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Pasos de implementación de Real-time Customer Data Platform B2B edition, creación de audiencias de cuenta y activación
 
-* Para ver los pasos de implementación de Real-time Customer Data Platform B2B edition, consulte la [Introducción a Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
-* Para ver los pasos de creación de audiencias de cuenta, consulte la documentación de [audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences).
-* Para ver los pasos de Account Audience Activation, consulte la documentación de [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences).
-   * Asignación requerida para [(Compañías) LinkedIn Destino de audiencias coincidentes](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
+* Para ver los pasos de implementación de Real-time Customer Data Platform B2B edition, consulte la [Introducción a Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
+* Para ver los pasos de creación de audiencias de cuenta, consulte la documentación de [audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences).
+* Para ver los pasos de Account Audience Activation, consulte la documentación de [Activar audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences).
+   * Asignación requerida para [(Compañías) LinkedIn Destino de audiencias coincidentes](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Consideraciones sobre la implementación
 
@@ -71,8 +71,9 @@ Las audiencias coincidentes de LinkedIn tienen algunos requisitos, incluido el t
 
 ## Documentación relacionada
 
-* [B2B edition de Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [Modelo de activación de audiencia y perfil B2B](b2bactivation.md): modelo principal que cubre la activación B2B a nivel de persona y de cuenta.
+* [B2B edition de Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [Tutorial en vídeo de Crear y activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [Crear audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences)
-* [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - Conector de destino de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/social/linkedin)
+* [Crear audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
+* [Activar audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - Conector de destino de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)

@@ -5,20 +5,13 @@ solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
 TQID: https://experienceleague.adobe.com/-YX20LT7VkWqGr4ciUM1iNYS9DnZAwj57K-bUy-zVsg
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +27,7 @@ Utilice la información de cuentas, oportunidades y posibles clientes vinculada 
 
 * Cree audiencias de personas para segmentación y personalización entre canales con datos B2B, incluidas cuentas, oportunidades y posibles clientes.
 * Active audiencias en cualquier destino de Experience Platform para segmentación y personalización.
-* Cree audiencias de cuentas (por ejemplo, listas de empresas) y diríjase a esas empresas a través de destinos como LinkedIn que acepten listas de empresas como entrada o exportación a destinos de almacenamiento en la nube para fines de segmentación y alcance de ventas.
+* Cree audiencias de cuentas (por ejemplo, listas de empresas) y diríjase a esas empresas a través de destinos como LinkedIn o almacenamiento en la nube. Para obtener detalles, requisitos y protecciones de audiencia de cuenta, consulte [Activación de cuenta B2B en destinos de Advertising y destinos de archivo](b2b-account-activation.md).
 
 ## Aplicaciones
 
@@ -114,8 +107,8 @@ Si la implementación utiliza Marketo Engage como origen y Marketo Engage está 
 ## Documentación relacionada
 
 * [B2B edition de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=es)
-* [Introducción a Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Protecciones para Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Introducción a Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Protecciones para Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=es)
 * [Adobe Experience Platform - Conector de Marketo Source](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=es)
