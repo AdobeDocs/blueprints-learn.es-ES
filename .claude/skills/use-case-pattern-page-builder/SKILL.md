@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Creación de guía del nuevo contenido de patrón de caso de uso para el repositorio de modelos de Adobe Experience Platform. Utilice esta habilidad cuando añada un nuevo patrón de caso de uso, cree contenido de guía de implementación o cuando el usuario mencione la adición de patrones al sitio de modelos. Gestiona el flujo de trabajo completo: recopilación de información de patrones, generación del archivo Markdown con la estructura de plantilla correcta y actualización de todas las páginas de referencia cruzada (TOC.md, overview.md).'
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 88%
+source-wordcount: '923'
+ht-degree: 94%
 
 ---
 
@@ -37,31 +37,18 @@ Entrevista al usuario para recopilar toda la información necesaria antes de gen
 
 4. **Soluciones principales de Adobe**: los productos de Adobe fundamentales para este patrón. Elija entre: Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B edition, Real-Time CDP B2B edition u otros según corresponda.
 
-5. **Pasos del plan de ejecución**: de 3 a 6 fases secuenciales que describen el flujo de ejecución del patrón, separadas por `>`. Ejemplo: &quot;Ingesta de eventos > Entrada de Recorrido > Evaluación de condiciones > Entrega de mensajes > Informes&quot;.
+5. **Se admiten objetivos empresariales** — Uno o más objetivos empresariales del conjunto existente en `/help/blueprints/business-objectives/`. Cada uno debe incluir el nombre del objetivo, la subcarpeta de categoría y el nombre de archivo. Compruebe que los archivos a los que se hace referencia existen antes de generar contenido.
 
-6. **Se admiten objetivos empresariales** — Uno o más objetivos empresariales del conjunto existente en `/help/blueprints/business-objectives/`. Cada uno debe incluir el nombre del objetivo, la subcarpeta de categoría y el nombre de archivo. Compruebe que los archivos a los que se hace referencia existen antes de generar contenido.
+6. **Casos de uso tácticos de ejemplo** — 6-10 escenarios con viñetas que describen cómo se puede aplicar este patrón en diferentes contextos comerciales. Cada uno debe tener un nombre de escenario en negrita seguido de una descripción.
 
-7. **Casos de uso tácticos de ejemplo** — 6-10 escenarios con viñetas que describen cómo se puede aplicar este patrón en diferentes contextos comerciales. Cada uno debe tener un nombre de escenario en negrita seguido de una descripción.
+7. **KPI**: una tabla con tres columnas: KPI (nombre), Descripción (qué mide), Medición (fórmula o enfoque).
 
-8. **KPI**: una tabla con tres columnas: KPI (nombre), Descripción (qué mide), Medición (fórmula o enfoque).
-
-9. **Opciones de implementación** — 2-4 opciones de implementación. Para cada opción, recopile:
-   - Nombre de opción
-   - Lo mejor para (cuándo usar esta opción)
-   - Cómo funciona (2 a 4 párrafos)
-   - Consideraciones clave (lista con viñetas)
-   - Ventajas (lista con viñetas)
-   - Limitaciones (lista con viñetas)
-   - Vínculos de Experience League (direcciones URL a documentación relevante)
+8. **Vínculos de referencia**: vínculos de referencia a documentos principales de Experience League que cubren las aplicaciones y la capacidad del patrón de caso de uso.
 
 ### Opcional pero recomendada
 
 - Ejemplos de casos de uso (párrafos 3 a 5; si no se facilitan, extráigalos de la otra información)
 - Lista de aplicaciones con descripciones de la función de cada aplicación de Adobe
-- Tabla de capacidades básicas (funcionalidad, estado, qué debe estar en su lugar, referencia de Experience League)
-- Tabla de funciones de soporte (funcionalidad, estado, por qué importa, referencia de Experience League)
-- Tablas de capacidades de la aplicación (una por aplicación, con capacidad, fase de implementación, descripción)
-- Lista de comprobación de requisitos previos
 
 Si el usuario no proporciona los elementos opcionales, genere valores predeterminados razonables basados en la categoría del patrón, las soluciones y el plan de ejecución.
 
@@ -81,29 +68,17 @@ Utilice la plantilla de `references/pattern-template.md` y rellene todos los val
 
 2. **Sección de apertura** — `# {Pattern name}` encabezado seguido de un párrafo introductorio y el texto &quot;Use esta guía para entender...&quot; sentencia.
 
-3. **Resumen del caso de uso**: de 3 a 5 párrafos que describen el ámbito del patrón, cuándo se aplica, qué hace y no hace, y quiénes son las partes interesadas habituales.
+3. **Patrón de caso de uso**: párrafo de descripción y plan de ejecución.
 
-4. **Objetivos empresariales clave**: cada objetivo tiene un encabezado vinculado con una breve descripción y una fila de resumen de KPI.
+4. **Resumen del caso de uso**: de 3 a 5 párrafos que describen el ámbito del patrón, cuándo se aplica, qué hace y no hace, y quiénes son las partes interesadas habituales.
 
-5. **Casos de uso tácticos de ejemplo**: lista con viñetas de 6 a 10 escenarios.
+5. **Objetivos empresariales clave**: cada objetivo tiene un encabezado vinculado con una breve descripción y una fila de resumen de KPI.
 
-6. **Indicadores clave de rendimiento** — Tabla con KPI, Descripción, Columnas de medición.
+6. **Casos de uso tácticos de ejemplo**: lista con viñetas de 6 a 10 escenarios.
 
-7. **Patrón de caso de uso**: párrafo de descripción y plan de ejecución.
+7. **Indicadores clave de rendimiento** — Tabla con KPI, Descripción, Columnas de medición.
 
 8. **Aplicaciones**: lista de aplicaciones de Adobe con formato y descripciones de `[!DNL ...]`.
-
-9. **Funcionalidades básicas** — Tabla con columnas: Funcionalidad básica, Estado, Qué debe estar en su lugar, Referencia de Experience League. Valores de estado: Necesario, Supuesto en su lugar, No aplicable.
-
-10. **Funcionalidades de soporte** — Tabla con columnas: Funcionalidad de soporte, Estado, Por qué importa, Referencia de Experience League. Valores de estado: Recomendado, Incluido, No aplicable.
-
-11. **Funcionalidades de la aplicación** — Una tabla por aplicación con columnas: Funcionalidad, Fase de implementación, Descripción.
-
-12. **Requisitos previos**: lista de comprobación con sintaxis `- [ ]`.
-
-13. **Opciones de implementación** — 2-4 opciones detalladas, cada una con los vínculos Mejor para, Cómo funciona, Consideraciones clave, Ventajas, Limitaciones y Experience League.
-
-14. **Comparación de opciones**: tabla de comparación de resumen al final.
 
 ## Fase 3: Actualizaciones de referencias cruzadas
 

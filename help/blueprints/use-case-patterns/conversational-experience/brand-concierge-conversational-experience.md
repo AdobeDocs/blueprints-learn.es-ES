@@ -3,20 +3,26 @@ title: Experiencia de conversación en Brand Concierge
 description: Aprenda a transformar las propiedades digitales en experiencias conversacionales seguras para la marca y con tecnología de IA que guíen el descubrimiento de clientes.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: fe4353cfe34855ad91ccb5698e30030322246c08
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
 
 # Experiencia conversacional en Brand Concierge
 
-Esta guía proporciona una referencia de implementación completa para experiencias conversacionales con tecnología de IA que usan [!DNL Adobe Brand Concierge], integradas con [!DNL Adobe Experience Platform] (AEP) y [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesiten implementar agentes conversacionales seguros para la marca en todas las propiedades digitales.
-
-Abarca todos los enfoques viables para implementar experiencias conversacionales, desde bots de chat de asesoramiento de productos hasta asistentes de navegación de sitio completos, con instrucciones sobre cuándo elegir cada opción. El plan aborda la configuración del agente, el gobierno de marca, la integración de contenido, las estrategias de implementación, el enriquecimiento de perfiles a partir de señales de conversación y la optimización de análisis.
+Esta guía proporciona información general para experiencias conversacionales con tecnología de IA usando [!DNL Adobe Brand Concierge], integrado con [!DNL Adobe Experience Platform] (AEP) y [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesiten implementar agentes conversacionales seguros para la marca en todas las propiedades digitales.
 
 [!DNL Brand Concierge] permite a las marcas implementar agentes conversacionales inteligentes que entienden la voz de la marca, acceden a contenido y catálogos de productos aprobados, ofrecen recomendaciones personalizadas basadas en datos de perfiles en tiempo real y capturan señales de intención y opinión en el perfil unificado del cliente. El resultado es una experiencia de conversación que se siente natural y de marca, a la vez que enriquece la comprensión de la organización de cada cliente.
+
+## Patrón de caso de uso
+
+**Experiencia conversacional en Brand Concierge**
+
+Transforme las propiedades digitales en experiencias conversacionales seguras para la marca y con tecnología de IA que guíen el descubrimiento de clientes a través del diálogo natural, enriquezcan los perfiles con señales de intención y opinión y ofrezcan recomendaciones de productos personalizadas.
+
+**Plan de ejecución:** Configuración del agente > Configuración de Brand Governance > Integración de contenido > Implementación de experiencias conversacionales > Enriquecimiento de perfiles > Analytics y optimización
 
 ## Resumen del caso de uso
 
@@ -93,14 +99,6 @@ Los siguientes KPI ayudan a medir el éxito de este patrón de caso de uso.
 | Tasa de enriquecimiento de perfil | Porcentaje de conversaciones que arrojan nuevas señales de intención o preferencia | Perfiles enriquecidos/conversaciones totales |
 | Ingresos influidos por la conversación | Ingresos por compras donde una conversación [!DNL Brand Concierge] precedió a la conversión | Análisis de atribución en recorridos de conversación a compra |
 | Tiempo de resolución | Duración media desde el inicio de la conversación hasta la resolución o el traspaso | Análisis de marcas de tiempo en eventos de conversación |
-
-## Patrón de caso de uso
-
-**Experiencia conversacional en Brand Concierge**
-
-Transforme las propiedades digitales en experiencias conversacionales seguras para la marca y con tecnología de IA que guíen el descubrimiento de clientes a través del diálogo natural, enriquezcan los perfiles con señales de intención y opinión y ofrezcan recomendaciones de productos personalizadas.
-
-**Cadena de funciones:** Configuración del agente > Configuración de Brand Governance > Integración de contenido > Implementación de experiencias conversacionales > Enriquecimiento de perfiles > Analytics y optimización
 
 ## Aplicaciones
 
