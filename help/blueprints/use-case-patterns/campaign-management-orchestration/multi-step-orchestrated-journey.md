@@ -99,9 +99,9 @@ Utilice los siguientes KPI para medir la eficacia de la implementación de recor
 
 Las siguientes aplicaciones se utilizan para implementar este patrón de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer](AJO)**: motor de orquestación de Recorrido, creación de mensajes, configuración de canal, experimentación de contenido, administración de frecuencia y conflictos y sistema de informes
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)**: evaluación y definición de audiencias para audiencias de entrada de recorrido, datos de perfil para personalización y bifurcación de condiciones
-- **[!DNL Adobe Experience Platform](AEP)**: almacén de perfiles, servicio de identidad, ingesta de datos de evento e infraestructura de datos básica
+- **[!DNL Adobe Journey Optimizer] (AJO)**: motor de orquestación de Recorrido, creación de mensajes, configuración de canal, experimentación de contenido, administración de frecuencia y conflictos y sistema de informes
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)**: evaluación y definición de audiencias para audiencias de entrada de recorrido, datos de perfil para personalización y bifurcación de condiciones
+- **[!DNL Adobe Experience Platform] (AEP)**: almacén de perfiles, servicio de identidad, ingesta de datos de evento e infraestructura de datos básica
 
 ## Documentación relacionada
 

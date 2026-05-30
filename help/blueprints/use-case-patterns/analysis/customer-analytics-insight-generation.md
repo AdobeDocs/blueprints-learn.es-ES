@@ -99,8 +99,8 @@ Los siguientes KPI ayudan a medir el éxito de este patrón de caso de uso.
 
 En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 
-- **[!DNL Customer Journey Analytics](CJA)**: conexiones, vistas de datos, análisis del espacio de trabajo, análisis guiado, métricas calculadas, paneles, publicación de audiencias y análisis de contenido
-- **[!DNL Adobe Experience Platform](AEP)**: conjunto de datos, esquemas XDM, datos de perfil y evento que alimentan las conexiones de CJA
+- **[!DNL Customer Journey Analytics] (CJA)**: conexiones, vistas de datos, análisis del espacio de trabajo, análisis guiado, métricas calculadas, paneles, publicación de audiencias y análisis de contenido
+- **[!DNL Adobe Experience Platform] (AEP)**: conjunto de datos, esquemas XDM, datos de perfil y evento que alimentan las conexiones de CJA
 
 ## Documentación relacionada
 
