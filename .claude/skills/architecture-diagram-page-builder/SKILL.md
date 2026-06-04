@@ -1,10 +1,10 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Creación de guías de creación de nuevas páginas de diagrama de arquitectura para el repositorio de modelos de Adobe Experience Platform. Utilice esta aptitud cuando añada un nuevo diagrama de arquitectura de nivel superior, una página de arquitectura de integración o información general sobre la arquitectura de aplicaciones. Las páginas de arquitectura cubren las arquitecturas de aplicaciones y AEP de nivel superior y los puntos de integración principales, no los casos de uso detallados (pertenecen al generador de patrones de casos de uso). Gestiona el flujo de trabajo completo: recopilar información de página, generar el archivo Markdown, colocarlo en la carpeta de temas correcta y actualizar TOC.md.'
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 4d236750286c28a8b8eb53a5bdec0645cc0e3e91
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 2%
+source-wordcount: '1556'
+ht-degree: 1%
 
 ---
 
@@ -34,57 +34,53 @@ Lea los siguientes archivos de referencia para plantillas y reglas:
 
 ## Fase 1: Recopilación de información
 
-Entrevista al usuario para recopilar toda la información necesaria antes de generar los archivos. No continúe con la generación de contenido hasta que se proporcione o se difiera explícitamente cada elemento requerido.
+**Use formularios, no una entrevista lineal.** Recopile toda la información necesaria presentando `AskUserQuestion` formularios en rondas lógicas por lotes en lugar de hacer una pregunta a la vez. Esto mantiene la experiencia rápida y analizable para el usuario.
 
-### Información requerida
+### Restricciones de AskUserQuestion
 
-1. **Título de página** — El título legible en lenguaje natural (por ejemplo, `Adobe Journey Optimizer architecture diagrams`).
+- Máximo de **4 preguntas** por llamada de `AskUserQuestion`.
+- Máximo de **4 opciones** por pregunta.
+- Si una pregunta tiene más de 4 opciones plausibles, divida la pregunta en dos llamadas (p. ej., pregunte las primeras 4 opciones y luego siga con un sí/no en la quinta).
+- Utilice `multiSelect: true` para preguntas con varias respuestas (soluciones, patrones, flujos de datos).
 
-2. **Carpeta de temas** — Donde se encuentra la página. Elija exactamente uno en función del dominio principal del diagrama:
-   - `experience-platform/`: diagramas de nivel superior de AEP, de varias aplicaciones o de nivel de plataforma
-   - `customer-journeys/`: AJO, Campaign, orquestación de recorrido
-   - `customer-journey-analytics/` — Arquitecturas de CJA
-   - `audience-activation/` — RTCDP, activación de audiencia y perfil
-   - `b2b/`: arquitecturas específicas de B2B
+### Ronda 1: información de la página principal (una llamada de AskUserQuestion, hasta 4 preguntas)
 
-3. **Nombre de archivo** — Teclado, derivado del título de la página (por ejemplo, `Journey Optimizer architecture` -> `journey-optimizer-architecture.md`). Confirme con el usuario.
+Solicite todo lo siguiente en un solo formulario:
 
-4. **Propósito de la página** — frases de 1 a 2 que describen lo que ilustran colectivamente los diagramas. Se usa para el campo de frontMatter `description` y el párrafo de apertura.
+1. **Título de la página** — presenta 2-3 variantes sugeridas derivadas de lo que el usuario ya le dijo, además de una trampilla de escape &quot;Otro&quot;.
+2. **Carpeta de temas**: presente las 5 carpetas válidas como opciones; recomiende la más probable en función de la entrada del usuario.
+3. **Soluciones de Adobe**: selección múltiple; sugiera los candidatos más probables según el tema de la página.
+4. **Recuento de diagramas**: cuántos diagramas incluirá la página (1 / 2 / 3 / 4+).
 
-5. **Soluciones de Adobe**: lista de productos de Adobe central en la página separados por comas. Se usa para el campo de frontmatter `solution`. Ejemplos: `Experience Platform, Journey Optimizer, Customer Journey Analytics`.
+### Ronda 2: detalles del diagrama (una llamada a AskUserQuestion, hasta 4 preguntas)
 
-6. **Diagramas**: uno o más diagramas. Para cada diagrama, recopile:
-   - **Nombre de archivo de imagen** (por ejemplo: `aep_data_flow.svg`). Se prefiere SVG; PNG es aceptable.
-   - **Título de sección**: se convierte en el encabezado H2 del diagrama (por ejemplo, `Data flow diagram`, `Detailed architecture diagram`).
-   - **Explicación de propósito** — 1-2 oraciones que describen lo que muestra el diagrama.
-   - **Texto alternativo**: descripción accesible breve.
+Pida el nombre de archivo de la imagen de cada diagrama y el propósito de la página de una forma:
 
-7. **Se admiten patrones de casos de uso** — se habilitan de 2 a 5 patrones existentes en esta arquitectura.
+- Para cada diagrama (hasta 2 en una sola ronda de formulario), pregunte por **nombre de archivo de imagen** como una pregunta con 2-3 nombres de archivo sugeridos (derivados del título de la página) más una opción &quot;Otro&quot;.
+- Pregunte por el **propósito de la página** (descripción de la oración 1-2) como una pregunta con 2-3 frases sugeridas más &quot;Otro&quot;.
+- Pregunte si se necesita una llamada **`>[!MORELIKETHIS]`** (Sí/No). En caso afirmativo, recopile la dirección URL y el texto del vínculo en un mensaje de seguimiento.
 
-   **Recomendar candidatos primero.** Antes de pedirle al usuario que proporcione patrones, analice `/help/blueprints/use-case-patterns/` y proponga de 3 a 6 coincidencias probables en función del título de página, el propósito de página y las soluciones de Adobe recopiladas anteriormente. Para cada sugerencia, presente:
-   - Nombre del patrón (con la ruta vinculada)
-   - Razones de una sola frase para explicar por qué encaja en esta arquitectura
+> **Títulos de sección y texto alternativo:** Cuando el nombre de archivo de la imagen es descriptivo (por ejemplo, `fac-architecture.svg`, `fac-dataflow.svg`), deduzca el título de sección H2 y el texto alternativo de él, no es necesario preguntar al usuario. Utilice el nombre de archivo, con mayúsculas y minúsculas y humanizado, como título de sección (por ejemplo, `Architecture diagram`, `Data flow diagram`). Pregunte únicamente si el nombre del archivo es ambiguo.
 
-   Presente las sugerencias como una preselección numerada y pídale al usuario (a) que acepte cualquier, (b) rechace cualquier y (c) añada los patrones que omitió. Solo genere sugerencias que apunten a archivos reales: glob/read para confirmar antes de sugerir. No alucinar nombres de patrones.
+### Ronda 3: patrones de casos de uso (AskUserQuestion después del análisis)
 
-   Para cada patrón aceptado, capture la categoría y el nombre de archivo. Valide que cada archivo exista en `/help/blueprints/use-case-patterns/{category}/{pattern-file}.md` antes de generar.
+Antes de presentar este formulario, **glob`/help/blueprints/use-case-patterns/`** e identifique de 3 a 5 patrones coincidentes probables en función del título de la página, el propósito y las soluciones. Confirme que cada archivo existe antes de sugerirlo.
 
-8. **Flujos de datos principales/puntos de integración**: de 3 a 7 viñetas que describen los flujos clave y los límites de integración mostrados en los diagramas (por ejemplo, `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
+Presentar los 4 candidatos principales como una pregunta de `multiSelect`. Si existe un quinto candidato fuerte, siga con una pregunta separada de sí/no para ese candidato. Invite también al usuario a nombrar cualquier patrón que se haya perdido.
 
-9. **Vínculos de Experience League**: de 3 a 6 vínculos a documentación relevante de Experience League para su posterior lectura. Cada uno debe comenzar con `https://experienceleague.adobe.com/es`.
+Incluir solo patrones cuyos archivos se confirmen que existen. No alucinar nombres de patrones.
 
-   **Recomendar candidatos primero.** En función de las soluciones de Adobe y el propósito de la página, proponga 4-8 artículos de Experience League plausibles (por ejemplo, las páginas de aterrizaje canónicas o de información general para cada solución con nombre, guías de integración clave, referencias de implementación). Para cada sugerencia, presente:
-   - Título del artículo
-   - URL
-   - Argumento de una línea para saber por qué se ajusta a la página
+### Ronda 4: flujos de datos y vínculos de Experience League (una llamada a AskUserQuestion)
 
-   Marque las sugerencias como **no verificadas** a menos que haya recuperado la dirección URL; el usuario debe confirmar o reemplazar cada una antes de que aterrice en el archivo generado. Pida al usuario que (a) acepte, (b) sustituya cualquier URL por una verificada que ya tenga y (c) añada la suya propia. Nunca invente direcciones URL que no haya visto; si no está seguro, sugiera el título del artículo y permita que el usuario proporcione la dirección URL.
+**Flujos de datos:** Proponer de 3 a 5 viñetas de flujo de datos preescritas como una pregunta `multiSelect` (derivada del tema de la página). El usuario selecciona cuál aplicar. Mantenga cada opción en una oración concisa. Si el usuario necesita flujos personalizados que no estén en la lista, puede proporcionarlos en un seguimiento.
 
-### Opcional
+**Vínculos de Experience League:** Después del formulario, presente una tabla de markdown de 4-6 vínculos sugeridos con título de artículo, dirección URL y una lógica de una línea. Marcar cada dirección URL como **sin comprobar**. Pida al usuario que (a) acepte, (b) sustituya por una URL verificada o (c) añada la suya propia. Use un `AskUserQuestion` de seguimiento con hasta 4 opciones si la lista es larga; de lo contrario, acepte la confirmación en texto sin formato.
 
-- **Llamada de contenido relacionado**: un solo vínculo se representa como bloque `>[!MORELIKETHIS]` cerca de la parte superior de la página. Resulta útil cuando hay una guía de integración o configuración del mismo nivel en Experience League que el lector debe tener en cuenta.
+Nunca invente direcciones URL que no haya recuperado. Si no está seguro, sugiera el título del artículo y deje que el usuario proporcione la URL.
 
-Si el usuario no proporciona todos los elementos necesarios, pida los que faltan antes de continuar. No fabrique diagramas, patrones ni vínculos.
+### Cuando se hayan completado todas las rondas
+
+Confirme la información completa establecida con el usuario antes de generar cualquier archivo. Si falta algún elemento requerido o está marcado como &quot;Otro&quot; sin valor, pídalo antes de continuar. No fabrique diagramas, patrones ni vínculos.
 
 ## Fase 2: Comprobación del ámbito
 
@@ -167,6 +163,8 @@ Formato de entrada (sangría de 4 espacios + `+`):
 ```
 
 Anexe la nueva entrada como el último elemento de la subsección correspondiente, a menos que el usuario especifique una posición diferente. Conservar la sangría exacta de 4 espacios: el análisis del índice depende de él.
+
+**Inspeccione los subgrupos anidados antes de colocarlos.** Algunas subsecciones (en particular `Audience & Profile Activation`) contienen agrupaciones anidadas (por ejemplo, `Real-Time Customer Data Platform (RTCDP) {#known-customer-audience-activation}`). Lea la subsección afectada de TOC.md antes de editar. Las nuevas páginas de arquitectura de nivel superior pertenecen al nivel de sangría de 4 espacios de la subsección: **no** dentro de un subgrupo anidado (que usa sangría de 6 espacios). Coloque la nueva entrada después de la última entrada de subgrupo anidada y antes del siguiente encabezado de subsección de nivel superior.
 
 ## Fase 5: Validación
 
