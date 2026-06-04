@@ -174,7 +174,7 @@ Una vez creados y actualizados todos los archivos, compruebe lo siguiente e info
 
 2. **Vínculos de patrones de casos de uso**: cada vínculo de patrones del archivo señala a un archivo Markdown existente en `/help/blueprints/use-case-patterns/`. Use `Read` o glob para confirmar que existe cada destino.
 
-3. **Vínculos de Experience League**: compruebe de forma puntual que todas las direcciones URL de la sección `## Further reading` empiecen por `https://experienceleague.adobe.com/`.
+3. **Vínculos de Experience League**: compruebe de forma puntual que todas las direcciones URL de la sección `## Further reading` empiecen por `https://experienceleague.adobe.com/es`.
 
 4. **Ubicación de la entrada de índice**: la nueva entrada se encuentra dentro de la subsección correcta, utiliza sangría de 4 espacios y la ruta de acceso coincide exactamente con la ubicación del archivo generado.
 
