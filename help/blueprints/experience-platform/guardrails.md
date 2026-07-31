@@ -36,7 +36,7 @@ Las protecciones reflejan las restricciones del sistema, las latencias esperadas
 | Tipo de protección | Descripción |
 |---|---|
 | Protección de rendimiento (límite suave) | Las protecciones de rendimiento son límites de uso relacionados con el ámbito de los casos de uso y el esquema del rendimiento esperado en condiciones normales. Cuando se supera, puede experimentar una degradación y latencia del rendimiento. Las protecciones de rendimiento se documentan en los documentos de Experience League en las secciones de protección para cada solución, como se describe a continuación. |
-| Límite estático (límite estricto) | Estos son límites impuestos por el sistema que no se pueden superar. Los límites estáticos suelen estar vinculados y descritos contractualmente en el contrato de cliente y en las [descripciones de productos](https://helpx.adobe.com/legal/product-descriptions.html). |
+| Límite estático (límite estricto) | Estos son límites impuestos por el sistema que no se pueden superar. Los límites estáticos suelen estar vinculados y descritos contractualmente en el contrato de cliente y en las [descripciones de productos](https://helpx.adobe.com/es/legal/product-descriptions.html). |
 
 >[!NOTE]
 >
@@ -52,14 +52,14 @@ Las siguientes páginas proporcionan información sobre las protecciones para la
 
 **aplicaciones de Experience Platform**
 
-* [Introducción a las protecciones Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Protecciones de uso compartido de audiencias Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [Protecciones de ingesta de datos Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [protecciones de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [Introducción a las protecciones Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=es)
+* [Protecciones de uso compartido de audiencias Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=es#latency)
+* [Protecciones de ingesta de datos Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [protecciones de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es)
 
 **Servicios de Experience Platform**
 
-* [Protecciones de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
+* [Protecciones de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
 * [[!DNL Edge Network] protecciones de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [Perfil del cliente en tiempo real y protecciones de segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * [Protecciones de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=es)
