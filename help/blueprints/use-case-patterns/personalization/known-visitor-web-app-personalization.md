@@ -105,11 +105,11 @@ Los siguientes recursos proporcionan detalles adicionales sobre las tecnologías
 ### Canales de tarjeta de contenido y en la aplicación
 
 - [Información general sobre el canal en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-- [Requisitos previos del canal en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
+- [Requisitos previos del canal en la aplicación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
 - [Creación de mensajes en la aplicación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/in-app/create-in-app)
 - [Canal de tarjeta de contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/get-started-content-card)
 - [Configuración de tarjeta de contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/content-card-configuration)
-- [Crear tarjetas de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/content-card/create-content-card)
+- [Creación de tarjetas de contenido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/content-card/create-content-card)
 
 ### Administración de decisiones
 
