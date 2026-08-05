@@ -34,7 +34,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: 045fac8362795eefcac0ef5202fe7a90cb6875da
 workflow-type: tm+mt
 source-wordcount: 735
 ht-degree: 37%
@@ -75,11 +75,11 @@ ht-degree: 37%
 
 Arquitectura
 
-![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](assets/RTCDP+Target.png)
+![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](assets/RTCDP-Target.png)
 
 Detalle de secuencia
 
-![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](assets/RTCDP+Target_flow.png)
+![Arquitectura de referencia para el modelo Web Personalization en línea/sin conexión](assets/RTCDP-Target_flow.png)
 
 Vista general de la arquitectura
 
