@@ -2,9 +2,9 @@
 title: Controladora de medios de pago AJO B2B
 description: Prioridad de las campañas y activación de cuentas en destinos de medios de pago
 solution: Journey Optimizer B2B Edition
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Flujo de alto nivel:
 
 ## Modelado de datos en AEP B2B
 
-Con cualquier orquestación basada en datos, el diseño de esquemas es importante. Los perfiles de cuenta y persona en AEP/RTCDP deben incluir los atributos utilizados en **condiciones de ruta dividida** (por ejemplo, indicador de persecución, interés de solución, persona, categoría de intención, puntuación de participación). Los esquemas B2B (cuenta empresarial XDM, perfil individual XDM, relacional) deben representar la jerarquía y las fuentes de datos. Para obtener más información, consulte [Esquemas B2B de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) y [Documentación B2B de AJO](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home).
+Con cualquier orquestación basada en datos, el diseño de esquemas es importante. Los perfiles de cuenta y persona en AEP/RTCDP deben incluir los atributos utilizados en **condiciones de ruta dividida** (por ejemplo, indicador de persecución, interés de solución, persona, categoría de intención, puntuación de participación). Los esquemas B2B (cuenta empresarial XDM, perfil individual XDM, relacional) deben representar la jerarquía y las fuentes de datos. Para obtener más información, consulte [Esquemas B2B de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) y [documentación de Journey Optimizer B2B edition](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Nota:** La lógica de ruta dividida del recorrido usa datos relacionales y de perfil; asegúrese de que los campos que necesita para la lógica de cascada estén disponibles en el recorrido.
 
