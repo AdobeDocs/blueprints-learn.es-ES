@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ Los siguientes pasos proporcionan directrices para habilitar grupos de compras e
 
    Como primer paso, defina y cree un esquema de experiencia diseñado para adaptarse a las necesidades del caso de uso B2B y que cubra las fuentes de datos, tanto por lotes como en tiempo real. Este diseño debe representar la forma en que la empresa piensa en las entidades de cuenta y persona y los casos de uso que desea admitir. Para que el esquema sea un esquema B2B, el esquema debe seguir las estructuras disponibles en la [documentación del esquema B2B de RTCDP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
-   Una práctica útil es tomar los nombres de entidad del diagrama e identificar esas entidades en el esquema etiquetándolas del mismo modo. Tenga en cuenta que algunos esquemas requieren claves específicas, como `sourceKey`, para funcionar en RTCDP B2B. A corto plazo, la relación _Varios a varios_ entre la cuenta y la persona a través de la relación de persona de la cuenta no es compatible con Journey Optimizer B2B. Utilice los scripts del acelerador para obtener el mejor punto de partida:
+   Una práctica útil es tomar los nombres de entidad del diagrama e identificar esas entidades en el esquema etiquetándolas del mismo modo. Tenga en cuenta que algunos esquemas requieren claves específicas, como `sourceKey`, para funcionar en RTCDP B2B.  Utilice los scripts del acelerador para obtener el mejor punto de partida:
 
    * Use [RTCDP B2B schema creation script](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) para generar el esquema inicial
    * Añada campos específicos de casos de uso a los esquemas generados para completar el esquema y ajustarlo a las necesidades de la organización.
