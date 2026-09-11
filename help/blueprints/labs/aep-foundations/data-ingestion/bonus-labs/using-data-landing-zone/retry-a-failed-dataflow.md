@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Reintento de un flujo de datos fallido
 description: Vuelva a intentar una ejecución de flujo de datos fallida para que los datos de origen se vuelvan a procesar con reglas de asignación actualizadas en un nuevo flujo de datos.
 doc-type: article
 solution: Experience Platform
 exl-id: 83ecf037-e524-4887-b833-5ed96af40419
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%

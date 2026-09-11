@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Emoción tras la compra
 description: Obtenga información sobre cómo crear un recorrido posterior a la compra impulsado por eventos que almacene en déclencheur un correo electrónico de notificación de envío con detalles de seguimiento dinámico desde una API de terceros.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%

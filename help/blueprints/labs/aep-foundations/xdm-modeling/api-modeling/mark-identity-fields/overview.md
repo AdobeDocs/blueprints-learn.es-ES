@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Marcar campos de identidad
 description: Descubra cómo los descriptores de identidad marcan los campos de esquema como identidades principales o no principales mediante la API del Registro de esquemas XDM.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: f6498584-0f4d-4baf-86b5-b00cc78e2ba7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

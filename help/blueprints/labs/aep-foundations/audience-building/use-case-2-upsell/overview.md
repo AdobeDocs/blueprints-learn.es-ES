@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Caso de uso
 description: Defina un caso de uso de ampliación de venta dirigido a clientes con un alto uso de datos sin un plan de teléfono definitivo, comparando los enfoques de agregación de audiencias para la activación.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d0268de8-87eb-4dd9-b699-99d42716f20c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Corregir asignaciones de paso a través
 description: Identifique y corrija asignaciones de paso A través de AI/ML incorrectas, como asignaciones de campo de destino duplicadas o no coincidentes, antes de validarlas.
 doc-type: article
 solution: Experience Platform
 exl-id: b06cc091-661e-4ff4-b6e5-f16bc5128b6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%

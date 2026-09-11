@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Creación de elemento de decisión
 description: Descubra cómo difieren los atributos de los elementos de decisión de la configuración de idoneidad, además de la protección a nivel de organización sobre los elementos de decisión y las impresiones en comparación con los eventos de decisión.
 doc-type: article
 solution: Experience Platform
 exl-id: 28752ac1-118c-41d9-af6a-9907f854df1e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

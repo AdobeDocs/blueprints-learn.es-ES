@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Etiqueta
 description: Etiquete tablas de Data Warehouse relacionales como clases de Perfil individual, Evento de experiencia o Búsqueda de XDM como parte de la metodología de LID.
 doc-type: article
 solution: Experience Platform
 exl-id: 332ead7a-ca6e-4e30-bb35-8419c060c596
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

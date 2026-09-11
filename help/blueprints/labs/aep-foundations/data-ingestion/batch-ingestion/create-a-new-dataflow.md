@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear un nuevo flujo de datos
 description: Cree un flujo de datos de origen por lotes con un conjunto de datos existente e importe asignaciones de un flujo de datos anterior para acelerar la configuración.
 doc-type: article
 solution: Experience Platform
 exl-id: 6f26f742-27e8-445a-8005-21d4e59dc3d0
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%

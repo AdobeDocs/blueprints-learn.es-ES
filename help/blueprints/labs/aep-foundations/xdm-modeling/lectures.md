@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Conferencias
 description: Vea vídeos introductorios que explican el marco de trabajo del Experience Data Model (XDM) y los conceptos avanzados de XDM.
 doc-type: article
 solution: Experience Platform
 exl-id: fe99bc54-0fa1-4793-86e5-b61424ea6afb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

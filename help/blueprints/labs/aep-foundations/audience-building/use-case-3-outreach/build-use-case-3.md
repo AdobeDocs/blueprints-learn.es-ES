@@ -1,11 +1,10 @@
 ---
-hold: true
 title: null
 description: Cree una audiencia por lotes que utilice variables de contenedor para hacer coincidir los eventos realizados y cancelados por pedidos para el mismo pedido en una semana.
 doc-type: article
 solution: Experience Platform
 exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%

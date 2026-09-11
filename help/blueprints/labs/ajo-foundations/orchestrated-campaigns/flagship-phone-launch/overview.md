@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Lanzamiento de teléfono insignia
 description: Obtenga información general sobre la creación de una campaña orquestada dirigida a titulares de cuentas y líneas individuales con una oferta de actualización de SMS después del lanzamiento de un teléfono insignia.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

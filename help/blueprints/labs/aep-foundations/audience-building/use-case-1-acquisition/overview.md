@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Caso de uso
 description: Defina un caso de uso de adquisición dirigido a visitantes de página de iPhone 14 que no hayan pedido el dispositivo o que no sean propietarios de él y planifique el método de creación de audiencias.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%

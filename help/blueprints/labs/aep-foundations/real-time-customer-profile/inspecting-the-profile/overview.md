@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Inspección del perfil
 description: Vea un vídeo introductorio sobre la exploración y validación de datos de perfil en el Perfil del cliente en tiempo real.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0dc44337-0b5a-44b7-9169-ac3599d985af
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%

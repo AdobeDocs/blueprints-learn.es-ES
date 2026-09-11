@@ -1,11 +1,10 @@
 ---
-hold: true
 title: 'Parte 2: Campos clave'
 description: Identifique los campos de identidad principal, de persona y de relación, además de los campos de Evento de experiencia requeridos, en las tablas etiquetadas como ERD.
 doc-type: article
 solution: Experience Platform
 exl-id: 24b6fdbd-0d59-4fe7-828e-c4bc7036db90
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
