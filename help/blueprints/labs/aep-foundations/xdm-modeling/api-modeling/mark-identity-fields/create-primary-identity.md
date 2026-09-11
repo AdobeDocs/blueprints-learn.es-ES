@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear identidad principal
 description: Utilice la API del Registro de esquemas para crear un descriptor de identidad customerID principal para el esquema de cuenta de cliente.
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -17,11 +16,11 @@ ht-degree: 0%
 
 1. Haga clic en la solicitud de API `Step 1 - Create Primary Identity for Customer Account Schema` en la carpeta `XDM Schema Lab -> Create Identity Descriptors`
 
-![Paso 1 - Crear identidad principal para la solicitud Postman del esquema de cuenta de cliente](assets/create-primary-identity-step-1-postman-request.jpeg "Paso 1 - Crear identidad principal para el esquema de cuenta de cliente")
+   ![Paso 1 - Crear identidad principal para la solicitud Postman del esquema de cuenta de cliente](assets/create-primary-identity-step-1-postman-request.jpeg "Paso 1 - Crear identidad principal para el esquema de cuenta de cliente")
 
->[!CAUTION]
->
->Aún no ejecute la solicitud
+   >[!CAUTION]
+   >
+   >Aún no ejecute la solicitud
 
 
 
@@ -29,23 +28,23 @@ ht-degree: 0%
 
 1. Actualizar el valor `xdm:isPrimary` en el cuerpo de la solicitud a `true`
 
-SOLO EJEMPLO
+   SOLO EJEMPLO
 
-```json
-{
-  "@type": "xdm:descriptorIdentity",
-  "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
-  "xdm:sourceVersion": 1,
-  "xdm:sourceProperty": "/_devbc/customerID",
-  "xdm:namespace": "customerID",
-  "xdm:property": "xdm:code",
-  "xdm:isPrimary": true
-}
-```
+   ```json
+   {
+     "@type": "xdm:descriptorIdentity",
+     "xdm:sourceSchema": "https://ns.adobe.com/devbc/schemas/8415ac18dd8943e35d12caf0c24b57b4a5a9ab7fd637245e",
+     "xdm:sourceVersion": 1,
+     "xdm:sourceProperty": "/_devbc/customerID",
+     "xdm:namespace": "customerID",
+     "xdm:property": "xdm:code",
+     "xdm:isPrimary": true
+   }
+   ```
 
->[!NOTE]
->
->Recuerde actualizar el nombre de inquilino anterior (\_devbc) con el suyo propio
+   >[!NOTE]
+   >
+   >Recuerde actualizar el nombre de inquilino anterior (\_devbc) con el suyo propio
 
 
 
@@ -55,6 +54,6 @@ SOLO EJEMPLO
 
 ![201 Se creó la respuesta después de crear correctamente el descriptor de identidad principal](assets/create-primary-identity-201-created-response.png "Se creó correctamente el descriptor de identidad principal")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >¡Felicidades!  Acaba de crear un descriptor de identidad principal en el esquema

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar asignación
 description: Importe el conjunto de asignaciones desde el laboratorio de ingesta por lotes y actualice los campos de fecha calculada para que coincidan con el formato de fecha del origen de flujo.
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configurar asignación
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Siga esta sección únicamente si ha completado correctamente el laboratorio de ingesta por lotes.  De lo contrario, siga los [datos de asignación](../batch-ingestion/mapping-data/overview.md) pasos que se encontraron en el laboratorio de ingesta por lotes.
 
@@ -27,7 +26,7 @@ Siga estos pasos:
 
 1. Haga clic en el botón **Importar asignación** de la pantalla de asignación
 
-![Botón Importar asignación en la pantalla de asignación](assets/configure-mapping-import-mapping-button.png)
+   ![Botón Importar asignación en la pantalla de asignación](assets/configure-mapping-import-mapping-button.png)
 
 
 

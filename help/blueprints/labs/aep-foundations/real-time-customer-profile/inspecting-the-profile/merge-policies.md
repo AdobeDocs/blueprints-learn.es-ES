@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Combinar políticas
 description: Cree una política de combinación sin vinculación de identidad y compare las búsquedas de perfil por correo electrónico, ID de cliente y GAID para ver cómo los gráficos de identidad configuran el ensamblado de perfiles.
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -30,7 +29,7 @@ Una política de combinación hace dos cosas:
    - Prioridad de marca de tiempo: utilice el registro más reciente de todos los conjuntos de datos como el conjunto de datos verdadero y permita que todos los demás registros rellenen los huecos en orden de reciente a más antiguo
    - Prioridad de conjuntos de datos: elija qué conjuntos de datos de perfil individual XDM se pueden utilizar para formar el perfil y en qué orden ensamblarlos
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Cuando se elige el método de combinación de Prioridad de conjuntos de datos, puede elegir qué conjuntos de datos de Perfil individual XDM y Evento de experiencia XDM pueden utilizarse en la formación del perfil.
 >
@@ -122,9 +121,9 @@ Continúe y abra el visor de perfiles siguiendo los pasos siguientes:
 1. Haz clic en el botón **Ver** para buscar el perfil
 1. Haga clic en el **vínculo** al perfil para ver los detalles del perfil
 
-![Buscando el perfil del modo Depeche por correo electrónico utilizando la política de combinación predeterminada basada en la marca de tiempo](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Modo Depeche de búsqueda con la política de combinación predeterminada basada en el tiempo")
+   ![Buscando el perfil del modo Depeche por correo electrónico utilizando la política de combinación predeterminada basada en la marca de tiempo](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Modo Depeche de búsqueda con la política de combinación predeterminada basada en el tiempo")
 
-Realice otra búsqueda del perfil Modo Depeche, pero esta vez con la política de combinación **Sin vinculación de ID**.
+   Realice otra búsqueda del perfil Modo Depeche, pero esta vez con la política de combinación **Sin vinculación de ID**.
 
 1. Haga clic con el botón derecho en **Perfiles** en el carril izquierdo y, a continuación, seleccione **abrir en una nueva pestaña**
 1. En la barra de navegación superior, seleccione **Examinar**
@@ -198,7 +197,7 @@ Cuando se utiliza el gráfico de identidad con el almacén de perfiles, se puede
 
 Sin el gráfico de identidad, el almacén de perfiles solo puede recuperar fragmentos de perfil mediante un único identificador (es decir, identidad principal)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**Tengan tiempo adicional y deseen experimentar...:**
 >

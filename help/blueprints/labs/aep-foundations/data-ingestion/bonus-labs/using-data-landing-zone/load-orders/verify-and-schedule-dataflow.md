@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Verificación y programación del flujo de datos
 description: Compruebe el conjunto completo de asignaciones de pedidos, obtenga una vista previa de la salida y programe el flujo de datos para que se ejecute cada 15 minutos.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -57,7 +56,7 @@ ht-degree: 7%
 
 1. Previsualice la salida de asignación. Desplácese por todos los atributos para asegurarse de que no haya ninguna exclamación roja junto a ninguno de los atributos del lado derecho.
 
-![Vista previa de la pantalla de asignación sin errores en ningún atributo asignado](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "La vista previa de la pantalla de asignación tendrá este aspecto")
+   ![Vista previa de la pantalla de asignación sin errores en ningún atributo asignado](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "La vista previa de la pantalla de asignación tendrá este aspecto")
 
 1. En la navegación del lado izquierdo de la vista previa, seleccione la matriz de objetos **productListItems**. El lado derecho se actualiza para mostrar solo los atributos de esa matriz de objetos.
 
@@ -71,9 +70,9 @@ ht-degree: 7%
 
 1. Establezca la programación para que se ejecute **cada 15 minutos**; para ello, establezca la frecuencia en Minuto y el intervalo en 15. Revise el flujo y haga clic en Finish.
 
->[!CAUTION]
->
->Asegúrese de que la programación esté configurada en 15 minutos. Si programa la ejecución como **Ejecutar una vez**, no podrá volver a ejecutarla aunque realice cambios en la asignación más adelante.
+   >[!CAUTION]
+   >
+   >Asegúrese de que la programación esté configurada en 15 minutos. Si programa la ejecución como **Ejecutar una vez**, no podrá volver a ejecutarla aunque realice cambios en la asignación más adelante.
 
 1. La ejecución del flujo de datos no comienza inmediatamente y tarda unos minutos. Por lo tanto, el último estado de ejecución del flujo de datos está establecido en &quot;*Sin ejecuciones*&quot;.
 

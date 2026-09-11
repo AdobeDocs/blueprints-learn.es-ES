@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Resumen
 description: Revise los pasos del laboratorio de modelado de API, desde la creación del esquema de cuenta del cliente hasta la aplicación de parches JSON, el marcado de identidades y la creación de la relación de búsqueda.
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -19,7 +18,7 @@ El siguiente vídeo resume cómo ha creado los descriptores de esquema, identida
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >¡Lo primero es felicitarlo! Crear cosas a través de API no es fácil, pero comprender cómo funciona le ayudará a comprender el sistema en su conjunto. ¡Felicidades!
 

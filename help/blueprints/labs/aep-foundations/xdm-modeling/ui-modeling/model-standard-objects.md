@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Objetos estándar del modelo
 description: Cree un esquema de perfil individual en la interfaz de usuario y añada y recorte grupos de campos estándar como Detalles demográficos y Consentimiento y preferencias.
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 1. Haga clic en la ficha **Esquemas** en el carril izquierdo
 
-![Pestaña Esquemas en la navegación del carril izquierdo](assets/model-standard-objects-schemas-tab-left-rail.png "Navegue hasta los esquemas utilizando el carril izquierdo")
+   ![Pestaña Esquemas en la navegación del carril izquierdo](assets/model-standard-objects-schemas-tab-left-rail.png "Navegue hasta los esquemas utilizando el carril izquierdo")
 
 
 
@@ -36,13 +35,13 @@ ht-degree: 0%
 
 1. Comience por hacer clic en **Crear esquema**
 
-![Botón Crear esquema](assets/model-standard-objects-create-schema-button.png "Crear esquema")
+   ![Botón Crear esquema](assets/model-standard-objects-create-schema-button.png "Crear esquema")
 
 
 
 1. Seleccionar **manual**
 
-![Seleccionar opción de creación manual de esquema](assets/model-standard-objects-select-manual-option.png "Seleccionar manual")
+   ![Seleccionar opción de creación manual de esquema](assets/model-standard-objects-select-manual-option.png "Seleccionar manual")
 
 
 
@@ -68,24 +67,24 @@ Existen muchos grupos de campos como XDM estándar en Adobe Experience Platform 
 
 1. Haga clic en **+ (agregar)** en el carril izquierdo de la sección de grupo de campos.
 
-![Botón Agregar grupo de campos en el carril izquierdo](assets/model-standard-objects-add-field-group-button.png "Agregar un grupo de campos")
+   ![Botón Agregar grupo de campos en el carril izquierdo](assets/model-standard-objects-add-field-group-button.png "Agregar un grupo de campos")
 
 
 
 1. Busque **Detalles demográficos** o búsquelo en la lista.
 
-- Cuando encuentre el grupo de campos, haga clic en la lupa a la derecha del grupo de campos para ver su estructura.  Esta es una forma útil de previsualizar lo que está a punto de agregar al esquema sin agregarlo.
-- Cerrar la vista previa cuando termine de revisarla
+   - Cuando encuentre el grupo de campos, haga clic en la lupa a la derecha del grupo de campos para ver su estructura.  Esta es una forma útil de previsualizar lo que está a punto de agregar al esquema sin agregarlo.
+   - Cerrar la vista previa cuando termine de revisarla
 
 
 
-![Haga clic en la lupa para obtener una vista previa de la estructura del grupo de campos](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Haga clic en ella para obtener una vista previa de la estructura del grupo de campos")
+   ![Haga clic en la lupa para obtener una vista previa de la estructura del grupo de campos](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Haga clic en ella para obtener una vista previa de la estructura del grupo de campos")
 
-![Vista previa de la estructura del grupo de campos Detalles demográficos](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![Vista previa de la estructura del grupo de campos Detalles demográficos](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
-&#x200B;3. **Marque** la casilla que está junto al grupo de campos y luego haga clic en el botón **Agregar grupos de campos**
+3. **Marque** la casilla que está junto al grupo de campos y luego haga clic en el botón **Agregar grupos de campos**
 
 ![Seleccione el grupo de campos Detalles demográficos para agregarlo al esquema](assets/model-standard-objects-select-demographic-details-field-group.png "Seleccione el grupo de campos Detalles demográficos para agregarlo al esquema")
 
@@ -126,24 +125,24 @@ Para quitar campos de cualquier grupo de campos estándar de Adobe, puede utiliz
 1. Seleccione el objeto **person** en el esquema
 1. Haga clic en **Administrar campos relacionados** en el carril derecho
 
-![Opción Administrar campos relacionados del objeto de persona en el grupo de campos Detalles demográficos](assets/model-standard-objects-manage-related-fields-person-object.png "Administrar campos relacionados del objeto de persona como parte del grupo de campos Detalles demográficos")
+   ![Opción Administrar campos relacionados del objeto de persona en el grupo de campos Detalles demográficos](assets/model-standard-objects-manage-related-fields-person-object.png "Administrar campos relacionados del objeto de persona como parte del grupo de campos Detalles demográficos")
 
 
 
 1. Expanda el objeto persona haciendo clic en las comillas angulares a la izquierda de la persona y expanda el objeto de nombre completo haciendo clic en las comillas angulares a la izquierda del objeto de nombre. Mantener solo los campos siguientes:
 
-- person.name.firstName
-- person.name.lastName
-- person.birthDayAndMonth
-- person.birthYear
+   - person.name.firstName
+   - person.name.lastName
+   - person.birthDayAndMonth
+   - person.birthYear
 
-Cuando termine, haga clic en el botón **Confirmar** en la esquina superior derecha.
+   Cuando termine, haga clic en el botón **Confirmar** en la esquina superior derecha.
 
-![Cuadro de diálogo Administrar campos relacionados que muestra los campos de persona seleccionados de Detalles demográficos](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Administrar campos relacionados del objeto de persona de Detalles demográficos")
+   ![Cuadro de diálogo Administrar campos relacionados que muestra los campos de persona seleccionados de Detalles demográficos](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Administrar campos relacionados del objeto de persona de Detalles demográficos")
 
->[!NOTE]
->
->Puede hacer clic en la casilla de verificación situada más arriba de **Detalles demográficos** para anular automáticamente la selección de todos los objetos secundarios y, a continuación, volver a seleccionar sólo los que necesite.
+   >[!NOTE]
+   >
+   >Puede hacer clic en la casilla de verificación situada más arriba de **Detalles demográficos** para anular automáticamente la selección de todos los objetos secundarios y, a continuación, volver a seleccionar sólo los que necesite.
 
 
 

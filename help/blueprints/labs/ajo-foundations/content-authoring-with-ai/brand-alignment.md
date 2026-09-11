@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Alineación de marca
 description: Aprenda a evaluar el contenido del correo electrónico en relación con las directrices de marca mediante la puntuación de alineación de marca impulsada por IA de AJO y aplique las recomendaciones de IA para mejorar el cumplimiento de las normas.
 doc-type: article
 solution: Experience Platform
 exl-id: 2385232e-9059-469a-975d-3c7ace146c29
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -46,11 +45,11 @@ Este módulo le enseña a ejecutar la evaluación, interpretar los resultados y 
 2. Busque la ficha **Alineación de marca** en el carril derecho o el icono **%** en la barra lateral.
 3. Haga clic en para abrir el panel.
 
-![Icono de porcentaje y pestaña Alineación de marca en la barra lateral](assets/brand-alignment-open-panel-icon.png)
+   ![Icono de porcentaje y pestaña Alineación de marca en la barra lateral](assets/brand-alignment-open-panel-icon.png)
 
-&#x200B;4. Asegúrese de que se aplica la marca correcta:
+4. Asegúrese de que se aplica la marca correcta:
    - **Conexión 5G** (predeterminada).
-&#x200B;5. Haga clic en **Evaluar puntuación**.
+5. Haga clic en **Evaluar puntuación**.
 
 **Interprete la puntuación de marca y los comentarios:** Después de un momento, verá la puntuación de cumplimiento de marca para su contenido. Esta puntuación puede presentarse como una calificación (por ejemplo, alta, Medium o baja) o como un porcentaje, junto con un indicador de color (verde, amarillo, rojo) y el tiempo de evaluación. Una puntuación alta significa que el contenido se alinea estrechamente con las directrices de marca, mientras que una puntuación media o baja indica una alineación moderada o deficiente.
 
@@ -103,23 +102,23 @@ Interprete los resultados para comprender hasta qué punto su correo electrónic
 1. Haga clic en bloques de texto o imágenes marcados dentro del correo electrónico.
 2. Utilice el párrafo que ha pegado en el ejercicio anterior, como se muestra a continuación.
 
-![Bloque de texto marcado del párrafo de descripción pegado](assets/brand-alignment-flagged-text-block.png)
+   ![Bloque de texto marcado del párrafo de descripción pegado](assets/brand-alignment-flagged-text-block.png)
 
-&#x200B;3. Utilice las modificaciones sugeridas por AI. Haga clic en el icono como se muestra a continuación.
+3. Utilice las modificaciones sugeridas por AI. Haga clic en el icono como se muestra a continuación.
 
-![Icono de sugerencia de IA para aplicar modificaciones sugeridas](assets/brand-alignment-ai-suggestion-icon.png)
+   ![Icono de sugerencia de IA para aplicar modificaciones sugeridas](assets/brand-alignment-ai-suggestion-icon.png)
 
-&#x200B;4. Haz clic en el botón **Corregir con IA** como se muestra a continuación.
+4. Haz clic en el botón **Corregir con IA** como se muestra a continuación.
 
-![Corregir con el botón de IA para una directriz marcada](assets/brand-alignment-fix-with-ai-button.png)
+   ![Corregir con el botón de IA para una directriz marcada](assets/brand-alignment-fix-with-ai-button.png)
 
-&#x200B;5. Verá los cambios sugeridos resaltados en verde y el texto eliminado en rojo con tachado, como se muestra a continuación. También verá que la puntuación se ha actualizado (en este caso, es del 80 %). Haga clic en el botón **Aplicar** para que los cambios surtan efecto.
+5. Verá los cambios sugeridos resaltados en verde y el texto eliminado en rojo con tachado, como se muestra a continuación. También verá que la puntuación se ha actualizado (en este caso, es del 80 %). Haga clic en el botón **Aplicar** para que los cambios surtan efecto.
 
-![Cambios sugeridos resaltados en verde con texto eliminado tachado en rojo](assets/brand-alignment-apply-suggested-changes.png)
+   ![Cambios sugeridos resaltados en verde con texto eliminado tachado en rojo](assets/brand-alignment-apply-suggested-changes.png)
 
-&#x200B;6. Los cambios se aplican con el nuevo texto.
-&#x200B;7. Revise todas las áreas resaltadas y realice las actualizaciones necesarias para corregir el contenido, ya sea mediante IA o editándolo manualmente. Asegúrese de que todos los cambios necesarios se hayan completado antes de continuar.
-&#x200B;8. Guardar cambios.
+6. Los cambios se aplican con el nuevo texto.
+7. Revise todas las áreas resaltadas y realice las actualizaciones necesarias para corregir el contenido, ya sea mediante IA o editándolo manualmente. Asegúrese de que todos los cambios necesarios se hayan completado antes de continuar.
+8. Guardar cambios.
 
 ![Guardando cambios después de corregir el contenido marcado](assets/brand-alignment-save-changes.png)
 
@@ -131,16 +130,16 @@ Interprete los resultados para comprender hasta qué punto su correo electrónic
 3. Haga clic en **Volver a evaluar puntuación**.
 4. Compare la nueva puntuación con la anterior.
 
-![Comparando la puntuación de marca reevaluada con la puntuación anterior](assets/brand-alignment-re-evaluate-score-comparison.png)
+   ![Comparando la puntuación de marca reevaluada con la puntuación anterior](assets/brand-alignment-re-evaluate-score-comparison.png)
 
-Por ejemplo:
+   Por ejemplo:
 
-- Puntuación original: **56%**
-- Puntuación actualizada: **90%**
+   - Puntuación original: **56%**
+   - Puntuación actualizada: **90%**
 
-Esto indica que las actualizaciones alinearon correctamente el correo electrónico con los estándares de marca.
+   Esto indica que las actualizaciones alinearon correctamente el correo electrónico con los estándares de marca.
 
-&#x200B;5. Haz clic en **Guardar** para finalizar el correo electrónico.
+5. Haz clic en **Guardar** para finalizar el correo electrónico.
 
 ![Botón Guardar para finalizar el correo electrónico](assets/brand-alignment-save-finalize-email.png)
 

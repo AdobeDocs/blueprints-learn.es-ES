@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Validar perfil en Edge
 description: Obtenga información sobre cómo comprobar el almacén de perfiles de Edge y la pestaña Pertenencia a audiencias para confirmar el estado de un perfil en la red de Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: f82ceba7-6916-49ff-8776-2d0238560df8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -23,15 +22,15 @@ Confirme que el perfil no existe en el almacén de perfiles de red de Edge.
 
 1. Haga clic en la ficha **Atributos** y en el botón de opción **Edge** para ver el perfil de Edge
 
-![Perfil de Edge mostrado en la ficha Atributos](assets/validate-profile-on-edge-attributes-tab.png)
+   ![Perfil de Edge mostrado en la ficha Atributos](assets/validate-profile-on-edge-attributes-tab.png)
 
->[!NOTE]
->
->Es posible que vea una versión &quot;depurada&quot; del perfil que consista únicamente en las identidades, dependiendo de cuánto tiempo haya pasado.
+   >[!NOTE]
+   >
+   >Es posible que vea una versión &quot;depurada&quot; del perfil que consista únicamente en las identidades, dependiendo de cuánto tiempo haya pasado.
 
 
 
-&#x200B;2. Haga clic en la pestaña Pertenencia a audiencias.  Estará **en blanco**.
+2. Haga clic en la pestaña Pertenencia a audiencias.  Estará **en blanco**.
 
 ![Pestaña Pertenencia a audiencia vacía en el perfil de Edge](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

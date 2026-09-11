@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Generar
 description: Cree una audiencia de perfiles sin una línea activa de iPhone 14 y, a continuación, conviértala de evaluación por lotes a evaluación de flujo mediante un campo basado en perfiles.
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -90,80 +89,80 @@ Marketing entró hoy y nos dio un requisito para tener este Streaming y, por des
 
 1. Abra la audiencia &quot;*Es propietario de iPhone 14*&quot; y cambie el nombre a &quot;*Es propietario del lote de iPhone 14*&quot;.
 
->[!WARNING]
->
->Hoy en día no podemos cambiar el Método de evaluación en la IU. También se deben eliminar todas las audiencias que hagan referencia a esta audiencia. Tenga esto en cuenta al decidir la estrategia de creación de segmentos dentro de los segmentos.
+   >[!WARNING]
+   >
+   >Hoy en día no podemos cambiar el Método de evaluación en la IU. También se deben eliminar todas las audiencias que hagan referencia a esta audiencia. Tenga esto en cuenta al decidir la estrategia de creación de segmentos dentro de los segmentos.
 
 
 
 2. Crear una audiencia nueva. Añada la audiencia &quot;Posee el lote de audiencias de iPhone 14&quot; al lienzo y haga clic en Convertir en reglas.
 
-![Agregue la audiencia por lotes de Owns iPhone 14 al lienzo y haga clic en Convertir a reglas](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
+   ![Agregue la audiencia por lotes de Owns iPhone 14 al lienzo y haga clic en Convertir a reglas](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![Audiencia convertida a reglas en el lienzo](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
-
-
-
-&#x200B;3. Actualice la descripción, el nombre y el método de evaluación a Streaming en la esquina inferior derecha, luego haga clic en el icono de la carpeta junto al método de evaluación. Debería ver lo siguiente:
-
-![Método de evaluación establecido en Flujo continuo después de hacer clic en el icono de la carpeta](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+   ![Audiencia convertida a reglas en el lienzo](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-Aunque no es obvio, la razón de esto es que estamos utilizando el nombre del producto en un esquema de búsqueda
+3. Actualice la descripción, el nombre y el método de evaluación a Streaming en la esquina inferior derecha, luego haga clic en el icono de la carpeta junto al método de evaluación. Debería ver lo siguiente:
+
+   ![Método de evaluación establecido en Flujo continuo después de hacer clic en el icono de la carpeta](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+
+
+
+   Aunque no es obvio, la razón de esto es que estamos utilizando el nombre del producto en un esquema de búsqueda
+
+   >[!NOTE]
+   >
+   >Cada vez que utilizamos una búsqueda, nuestro método de evaluación se ve obligado a procesar por lotes.
+   >
+   >Esto se puede saber si se mira la ruta y tiene &quot;propiedades&quot; en cualquier lugar
+   >
+   >![La ruta que contiene &quot;propiedades&quot; fuerza al método de evaluación a procesar el lote](assets/build-audience-2-path-contains-properties-forces-batch.png)
+
+
+
+
+
+4. Reemplace el valor existente para que el nombre del producto ahora provenga del esquema Perfil individual de XDM
+
+   Reemplace la siguiente ruta:
+
+   - Perfil individual de XDM > Dep > Productos activos > Propiedades de ID de producto > Nombre de producto
+
+   Añada la nueva ruta:
+
+   - Perfil individual de XDM > Profundidad > Productos activos > Modelo
+
+   ![Reemplace la ruta del nombre del producto por la ruta del modelo de productos activos del perfil individual de XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
+
+   ![Regla de audiencia actualizada que hace referencia a la ruta del modelo de perfil individual XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
+
+
+
+5. Cambie el Método de evaluación a Streaming y haga clic en el icono de la carpeta
+
+   ![Cambie el método de evaluación a Transmisión y haga clic en el icono de la carpeta](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+
+
+
+6. Proporcione una descripción para la nueva audiencia apta para streaming.
+
+   - Guardar la audiencia como audiencia &quot;*es propietaria de iPhone 14*&quot;.
+   - Haga clic en el botón azul **Activar audiencia** al destino
+
+   ![Haga clic en Activar audiencia en destino para la audiencia apta para streaming](assets/build-audience-2-activate-audience-to-destination.png)
+
+
+
+7. Seleccione el destino **Streaming DEP Webhook** y haga clic en **Siguiente**
+
+8. Haga clic en **Siguiente** y **Finalizar**
 
 >[!NOTE]
 >
->Cada vez que utilizamos una búsqueda, nuestro método de evaluación se ve obligado a procesar por lotes.
->
->Esto se puede saber si se mira la ruta y tiene &quot;propiedades&quot; en cualquier lugar
->
->![La ruta que contiene &quot;propiedades&quot; fuerza al método de evaluación a procesar el lote](assets/build-audience-2-path-contains-properties-forces-batch.png)
-
-
-
-
-
-&#x200B;4. Reemplace el valor existente para que el nombre del producto ahora provenga del esquema Perfil individual de XDM
-
-Reemplace la siguiente ruta:
-
-- Perfil individual de XDM > Dep > Productos activos > Propiedades de ID de producto > Nombre de producto
-
-Añada la nueva ruta:
-
-- Perfil individual de XDM > Profundidad > Productos activos > Modelo
-
-![Reemplace la ruta del nombre del producto por la ruta del modelo de productos activos del perfil individual de XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
-
-![Regla de audiencia actualizada que hace referencia a la ruta del modelo de perfil individual XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
-
-
-
-&#x200B;5. Cambie el Método de evaluación a Streaming y haga clic en el icono de la carpeta
-
-![Cambie el método de evaluación a Transmisión y haga clic en el icono de la carpeta](assets/build-audience-2-change-evaluation-method-to-streaming.png)
-
-
-
-&#x200B;6. Proporcione una descripción para la nueva audiencia apta para streaming.
-
-- Guardar la audiencia como audiencia &quot;*es propietaria de iPhone 14*&quot;.
-- Haga clic en el botón azul **Activar audiencia** al destino
-
-![Haga clic en Activar audiencia en destino para la audiencia apta para streaming](assets/build-audience-2-activate-audience-to-destination.png)
-
-
-
-&#x200B;7. Seleccione el destino **Streaming DEP Webhook** y haga clic en **Siguiente**
-
-&#x200B;8. Haga clic en **Siguiente** y **Finalizar**
-
-&#x200B;> [!NOTE]
->
 >Consideraciones sobre por qué puede seleccionar Lote frente a Streaming o Edge:
 >
->Últimas protecciones: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+>Últimas protecciones: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 >[!TIP]
 >

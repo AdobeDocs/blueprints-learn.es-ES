@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar para el perfil
 description: Marque los campos de identidad principal y de persona, cree una relación de esquema, habilite un esquema para el perfil del cliente en tiempo real y revise el esquema de unión de perfiles.
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -141,6 +140,7 @@ Examine la clase de perfil individual de XDM y, a continuación, dedique unos mo
 >[!NOTE]
 >
 >Observe que el esquema mostrado es una vista combinada agregada de todos los esquemas habilitados para perfiles de la zona protegida. Los campos similares dentro de la estructura XDM jerárquica se combinan, mientras que los campos con nombres o jerarquías diferentes se añaden a la vista general.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Solo la clase basada en un perfil individual de XDM realiza combinaciones entre campos con nombres similares.

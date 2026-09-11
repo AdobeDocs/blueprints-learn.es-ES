@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear audiencia de Edge
 description: Cree y publique una audiencia evaluada por Edge junto con un lote equivalente para comparar cómo responde cada uno a los eventos entrantes en tiempo real.
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Esta audiencia se utilizará para clasificar a alguien cuando una carga útil (p
 1. Vaya a **Audiencias** y haga clic en la carpeta **Experience Platform**
 1. Arrastre y suelte la audiencia denominada **dep: Cualquier flujo de eventos (dentro de la hora)** en el lienzo
 
-![Arrastrando la audiencia profunda: cualquier evento de streaming (dentro de la hora) al lienzo del generador de reglas](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![Arrastrando la audiencia profunda: cualquier evento de streaming (dentro de la hora) al lienzo del generador de reglas](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 

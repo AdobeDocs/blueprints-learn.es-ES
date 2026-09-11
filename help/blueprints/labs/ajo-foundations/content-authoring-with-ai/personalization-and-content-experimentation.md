@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Personalization y experimentación de contenido
 description: Aprenda a personalizar el contenido del correo electrónico con los atributos de perfil y la sintaxis de Handlebars, y a crear variantes de contenido condicional basadas en la edad en Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: b79327e0-dfc4-49bf-a112-3675c825c479
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -47,25 +46,25 @@ Esta parte del ejercicio simplifica la personalización. Añada el nombre y los 
 2. Agregue un bloque de texto encima del título a pantalla completa con el contenido: **Hola,**
 3. Haga clic en el icono **Personalización**.
 
-![Icono de personalización en la barra de herramientas de texto del correo electrónico](assets/personalization-and-content-experimentation-click-personalization-icon.png)
+   ![Icono de personalización en la barra de herramientas de texto del correo electrónico](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-&#x200B;4. Busque **&#x200B;**&#x200B;**&#x200B;**.
+4. Busque ********.
 
-![Buscando el atributo Nombre en el panel de personalización](assets/personalization-and-content-experimentation-search-first-name-field.png)
+   ![Buscando el atributo Nombre en el panel de personalización](assets/personalization-and-content-experimentation-search-first-name-field.png)
 
-&#x200B;5. Haga clic en **+** para agregarlo al área de expresiones.
-&#x200B;6. Agregue un **espacio** después del campo **Nombre**.
+5. Haga clic en **+** para agregarlo al área de expresiones.
+6. Agregue un **espacio** después del campo **Nombre**.
 
-![Agregando un espacio después del campo Nombre en el área de expresiones](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
+   ![Agregando un espacio después del campo Nombre en el área de expresiones](assets/personalization-and-content-experimentation-add-space-after-first-name.png)
 
-&#x200B;7. Repita el proceso anterior pero esta vez busque y agregue **Apellidos**.
+7. Repita el proceso anterior pero esta vez busque y agregue **Apellidos**.
 
-La sintaxis final muestra las variables de nombre y apellido claramente separadas.
+   La sintaxis final muestra las variables de nombre y apellido claramente separadas.
 
-![Variables de nombre y apellido claramente separadas en la sintaxis de la expresión](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
+   ![Variables de nombre y apellido claramente separadas en la sintaxis de la expresión](assets/personalization-and-content-experimentation-first-last-name-syntax-separated.png)
 
-&#x200B;8. Valide el fragmento. Tenga en cuenta que hay una opción para guardar el contenido como fragmento. Esta es una excelente oportunidad si utiliza el nombre completo para la creación de otro contenido de correo electrónico. Omita esto y vaya al paso siguiente.
-&#x200B;9. Haga clic en **Guardar**
+8. Valide el fragmento. Tenga en cuenta que hay una opción para guardar el contenido como fragmento. Esta es una excelente oportunidad si utiliza el nombre completo para la creación de otro contenido de correo electrónico. Omita esto y vaya al paso siguiente.
+9. Haga clic en **Guardar**
 
 La vista tiene este aspecto. Las llaves constan de variables y cada individuo recibe un correo electrónico con su nombre.
 
@@ -105,26 +104,26 @@ Cree otra imagen para los menores de 40 años (recuerde que ha creado una imagen
 1. Seleccione el bloque de imagen existente. (Haz clic en la imagen) y haz clic en **Bloque condicional**.
 2. Haga clic en **Agregar variante**.
 
-![Botón Agregar variante en el bloque de imagen condicional](assets/personalization-and-content-experimentation-click-add-variant-button.png)
+   ![Botón Agregar variante en el bloque de imagen condicional](assets/personalization-and-content-experimentation-click-add-variant-button.png)
 
-&#x200B;3. Cambie el nombre de la primera variante a **Age above 40**.
+3. Cambie el nombre de la primera variante a **Age above 40**.
 
-![Cambiando el nombre de la primera variante a Age above 40](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
+   ![Cambiando el nombre de la primera variante a Age above 40](assets/personalization-and-content-experimentation-rename-variant-age-above-40.png)
 
-&#x200B;4. Cree una nueva variante haciendo clic en el botón **&quot;Agregar variante&quot;** y cambie su nombre a **Edad inferior a 40.**
+4. Cree una nueva variante haciendo clic en el botón **&quot;Agregar variante&quot;** y cambie su nombre a **Edad inferior a 40.**
 
-![Creando y cambiando el nombre de una nueva variante a Age below 40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
+   ![Creando y cambiando el nombre de una nueva variante a Age below 40](assets/personalization-and-content-experimentation-create-variant-age-below-40.png)
 
-&#x200B;5. Podría crear una imagen con Firefly si usa un símbolo del sistema como &quot;mediados de 20 años&quot;. Sin embargo, para ahorrar tiempo, ya tenemos una imagen en el kit de herramientas llamada &quot;**variant-age-below-40.jpg**.
-&#x200B;6. Haga clic en la imagen e importe los medios.
+5. Podría crear una imagen con Firefly si usa un símbolo del sistema como &quot;mediados de 20 años&quot;. Sin embargo, para ahorrar tiempo, ya tenemos una imagen en el kit de herramientas llamada &quot;**variant-age-below-40.jpg**.
+6. Haga clic en la imagen e importe los medios.
 
-![Haciendo clic en la imagen y en Importar medios para la variante inferior a 40](assets/personalization-and-content-experimentation-click-image-import-media.png)
+   ![Haciendo clic en la imagen y en Importar medios para la variante inferior a 40](assets/personalization-and-content-experimentation-click-image-import-media.png)
 
-&#x200B;7. Seleccione la imagen **variant-age-below-40.jpg**. Importe la carpeta haciendo clic en **Siguiente** y, finalmente, presione **Importar** en la carpeta (ya debería estar en la carpeta de forma predeterminada).
+7. Seleccione la imagen **variant-age-below-40.jpg**. Importe la carpeta haciendo clic en **Siguiente** y, finalmente, presione **Importar** en la carpeta (ya debería estar en la carpeta de forma predeterminada).
 
-![Seleccionar e importar la imagen variant-age-below-40.jpg](assets/personalization-and-content-experimentation-select-below-40-image.png)
+   ![Seleccionar e importar la imagen variant-age-below-40.jpg](assets/personalization-and-content-experimentation-select-below-40-image.png)
 
-&#x200B;8. Intente alternar entre variantes y verá aplicada una imagen diferente.
+8. Intente alternar entre variantes y verá aplicada una imagen diferente.
 
 Hasta ahora, ha creado el diseño, pero aún no ha aplicado la lógica. El siguiente paso aplica la lógica.
 
@@ -140,22 +139,22 @@ Ambas variantes están listas, pero aún no se ha aplicado la lógica condiciona
 1. Seleccione y coloque el puntero sobre la variante **Age above 40**.
 2. Haga clic en el icono **Lógica condicional**.
 
-![Icono de lógica condicional para la variante de edad superior a 40](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
+   ![Icono de lógica condicional para la variante de edad superior a 40](assets/personalization-and-content-experimentation-click-conditional-logic-icon.png)
 
-&#x200B;3. Cree una nueva condición.
+3. Cree una nueva condición.
 
-![Creando una nueva condición para la variante de edad superior a 40](assets/personalization-and-content-experimentation-create-new-condition.png)
+   ![Creando una nueva condición para la variante de edad superior a 40](assets/personalization-and-content-experimentation-create-new-condition.png)
 
-&#x200B;4. Busque **year** en la lista de atributos.
-&#x200B;5. Arrastre **Birth Year** al lienzo.
-&#x200B;6. Establecer condición en:
+4. Busque **year** en la lista de atributos.
+5. Arrastre **Birth Year** al lienzo.
+6. Establecer condición en:
    - **birthYear \&lt; 1986**
 
-![Condición establecida en birthYear menor que 1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
+   ![Condición establecida en birthYear menor que 1986](assets/personalization-and-content-experimentation-birthyear-lt-1986.png)
 
-&#x200B;7. Asigne un nombre a la condición: **Edad superior a 40**
-&#x200B;8. Agregar una descripción: &quot;**Variante de imagen para personas mayores de 40**&quot;
-&#x200B;9. Haga clic en **Agregar → Seleccionar**.
+7. Asigne un nombre a la condición: **Edad superior a 40**
+8. Agregar una descripción: &quot;**Variante de imagen para personas mayores de 40**&quot;
+9. Haga clic en **Agregar → Seleccionar**.
 
 ![Haciendo clic en Agregar y luego en Seleccionar para la condición Edad superior a 40](assets/personalization-and-content-experimentation-click-add-select-age-above-40.png)
 
@@ -166,11 +165,11 @@ Ambas variantes están listas, pero aún no se ha aplicado la lógica condiciona
 2. Repita los pasos pero cambie la lógica a:
    - **birthYear >= 1986**
 
-![La condición cambió a birthYear mayor o igual que 1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
+   ![La condición cambió a birthYear mayor o igual que 1986](assets/personalization-and-content-experimentation-condition-birthyear-greater-1986.png)
 
-&#x200B;3. Asigne un nombre a la condición: **Edad inferior a 40**
-&#x200B;4. Agregar descripción. &quot;**Variante de imagen para personas menores de 40**&quot;
-&#x200B;5. Haga clic en **Agregar → Seleccionar**.
+3. Asigne un nombre a la condición: **Edad inferior a 40**
+4. Agregar descripción. &quot;**Variante de imagen para personas menores de 40**&quot;
+5. Haga clic en **Agregar → Seleccionar**.
 
 ![Haciendo clic en Agregar y seleccionando para la condición Edad inferior a 40](assets/personalization-and-content-experimentation-click-add-select-age-below-40.png)
 

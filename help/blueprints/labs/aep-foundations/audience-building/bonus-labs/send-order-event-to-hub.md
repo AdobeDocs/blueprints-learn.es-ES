@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar evento de pedido a Hub
 description: Obtenga información sobre cómo transmitir un evento de pedido al concentrador mediante API, crear un segmento de pedido de flujo continuo, activarlo en un destino y validar los resultados del perfil.
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -93,7 +92,7 @@ Comience por recopilar los siguientes valores:
 1. Vaya a **Orígenes** en el carril izquierdo y, a continuación, haga clic en **Cuentas** en la barra de navegación superior
 1. Busque **dep: API HTTP \[raw]**, resalte la fila, copie y guarde el valor de **extremo de transmisión** en cualquier lugar al que pueda hacer referencia más adelante
 
- y copie su extremo de flujo continuo&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ y copie su extremo de flujo continuo](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Buscar ID de flujo de datos
 
@@ -115,7 +114,7 @@ Copie los valores guardados en los pasos anteriores en los lugares resaltados a 
 
 La solicitud de API final debería tener un aspecto similar al siguiente cuando se complete
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >NO EJECUTAR AÚN.
 

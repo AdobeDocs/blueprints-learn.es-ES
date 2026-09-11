@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Asignaciones iniciales
 description: Asigne manualmente los campos _id y timestamp requeridos para un conjunto de datos de evento de experiencia usando expresiones de campo calculadas.
 doc-type: article
 solution: Experience Platform
 exl-id: 4052d104-bf0c-4b2d-a298-8075279aeaf8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -31,23 +30,23 @@ Al igual que en el ejercicio anterior, debe verificar la asignación y, en algun
 
 1. Para asignar **\_id,**, escriba la siguiente expresión de campo calculado y haga clic en Vista previa
 
-```none
-concat(orderID, "-", lastOrderStatusUpdate)
-```
+   ```none
+   concat(orderID, "-", lastOrderStatusUpdate)
+   ```
 
-![El campo calculado para la asignación de _id, listo para guardar](assets/initial-mappings-calculated-field-for-id-mapping.png "El campo calculado para la asignación de _id tendrá un aspecto similar a este. Haga clic en Guardar para guardar el campo calculado")
+   ![El campo calculado para la asignación de _id, listo para guardar](assets/initial-mappings-calculated-field-for-id-mapping.png "El campo calculado para la asignación de _id tendrá un aspecto similar a este. Haga clic en Guardar para guardar el campo calculado")
 
-![Asignación del campo calculado al atributo _id](assets/initial-mappings-map-calculated-field-to-id.png "Asignación del campo calculado a _id")
+   ![Asignación del campo calculado al atributo _id](assets/initial-mappings-map-calculated-field-to-id.png "Asignación del campo calculado a _id")
 
 1. Asegúrese de que el campo **timestamp** del esquema de destino esté asignado al siguiente campo calculado:
 
-```none
-lastOrderStatusUpdate
-```
+   ```none
+   lastOrderStatusUpdate
+   ```
 
-![Vista previa de expresiones de campo calculadas para la asignación de marca de tiempo](assets/initial-mappings-expression-preview.png "Escriba la siguiente expresión y haga clic en Vista previa. TENGA EN CUENTA que este valor distingue entre mayúsculas y minúsculas y debe escribirse exactamente de esta manera")
+   ![Vista previa de expresiones de campo calculadas para la asignación de marca de tiempo](assets/initial-mappings-expression-preview.png "Escriba la siguiente expresión y haga clic en Vista previa. TENGA EN CUENTA que este valor distingue entre mayúsculas y minúsculas y debe escribirse exactamente de esta manera")
 
-![Asignando la expresión de campo calculado &quot;inStore&quot; a order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
+   ![Asignando la expresión de campo calculado &quot;inStore&quot; a order._devbc.acqSource](assets/initial-mappings-map-instore-expression-to-acqsource.png)
 
 1. Asigne la expresión de campo calculado **&quot;inStore&quot;** a **order.\_devbc.acqSource**
 
@@ -57,7 +56,7 @@ lastOrderStatusUpdate
 
 Si la pantalla de asignación se queja ahora de que hay una asignación duplicada como **orderStatus** asignada a **order.\_devbc.acqSource,** haga clic en el icono &quot;-&quot; para quitar la asignación.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Recuerde que no se pueden asignar varios campos de entrada al mismo campo de salida, ya que esto hace que la asignación sea ambigua. Sin embargo, un solo campo de entrada se puede asignar a varios campos de salida en el esquema XDM.
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Añadir actividades de correo electrónico
 description: Aprenda a añadir y configurar dos actividades de correo electrónico en ramas de ramificación independientes mediante diferentes configuraciones de canal de correo electrónico en una campaña orquestada.
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -31,49 +30,49 @@ En el siguiente conjunto de pasos, se basará en la campaña para agregar dos ac
 
 1. Haga clic en **+** del flujo superior y seleccione **Correo electrónico** de las **actividades de canal**
 
-![Agregar actividad de correo electrónico](assets/add-email-activities-select-email-activity.png)
+   ![Agregar actividad de correo electrónico](assets/add-email-activities-select-email-activity.png)
 
-Se abre el panel de detalles de **Correo electrónico**
+   Se abre el panel de detalles de **Correo electrónico**
 
-![Panel de detalles de correo electrónico](assets/add-email-activities-email-details-pane.png)
+   ![Panel de detalles de correo electrónico](assets/add-email-activities-email-details-pane.png)
 
-&#x200B;2. Cambie el nombre de la etiqueta a **Correo electrónico con el atributo de perfil** para la actividad **Correo electrónico** y haga clic en **Editar correo electrónico**. Tenga en cuenta que la creación del cuerpo del correo electrónico solo se realiza con fines de prueba
+2. Cambie el nombre de la etiqueta a **Correo electrónico con el atributo de perfil** para la actividad **Correo electrónico** y haga clic en **Editar correo electrónico**. Tenga en cuenta que la creación del cuerpo del correo electrónico solo se realiza con fines de prueba
 
-![Cambie el nombre de la etiqueta de actividad Correo electrónico y haga clic en Editar correo electrónico](assets/add-email-activities-rename-and-edit-email.png)
+   ![Cambie el nombre de la etiqueta de actividad Correo electrónico y haga clic en Editar correo electrónico](assets/add-email-activities-rename-and-edit-email.png)
 
-&#x200B;3. Seleccione la ficha **Acciones** y, en la lista desplegable, seleccione la configuración de canal **Perfil-Correo electrónico**
+3. Seleccione la ficha **Acciones** y, en la lista desplegable, seleccione la configuración de canal **Perfil-Correo electrónico**
 
-![Seleccione la configuración de canal de correo electrónico-perfil en la pestaña Acciones](assets/add-email-activities-select-profile-email-channel.png)
+   ![Seleccione la configuración de canal de correo electrónico-perfil en la pestaña Acciones](assets/add-email-activities-select-profile-email-channel.png)
 
-&#x200B;4. A continuación, haga clic en **Editar contenido** para agregar contenido de prueba
+4. A continuación, haga clic en **Editar contenido** para agregar contenido de prueba
 
-![Haga clic en Editar contenido para agregar contenido de prueba](assets/add-email-activities-edit-content.png)
+   ![Haga clic en Editar contenido para agregar contenido de prueba](assets/add-email-activities-edit-content.png)
 
-&#x200B;5. Proporcione una **Línea de asunto** (&quot;Oferta de actualización para miembros del plan básico&quot;) y haga clic en el botón **Editar cuerpo del correo electrónico**
+5. Proporcione una **Línea de asunto** (&quot;Oferta de actualización para miembros del plan básico&quot;) y haga clic en el botón **Editar cuerpo del correo electrónico**
 
-![Agregar línea de asunto y editar cuerpo del correo electrónico](assets/add-email-activities-subject-line-edit-body.png)
+   ![Agregar línea de asunto y editar cuerpo del correo electrónico](assets/add-email-activities-subject-line-edit-body.png)
 
-&#x200B;6. Hay muchas opciones, para esta prueba, elige **Codifique su propia opción** de HTML
+6. Hay muchas opciones, para esta prueba, elige **Codifique su propia opción** de HTML
 
-![Elija una opción de HTML para codificar](assets/add-email-activities-code-your-own-html.png)
+   ![Elija una opción de HTML para codificar](assets/add-email-activities-code-your-own-html.png)
 
-&#x200B;7. En **Enviar correo electrónico a Designer**, inserte una línea de prueba &quot;Oferta de actualización disponible&quot;. justo antes de las etiquetas `</body></html>` tal y como se muestra y haz clic en **Guardar**
+7. En **Enviar correo electrónico a Designer**, inserte una línea de prueba &quot;Oferta de actualización disponible&quot;. justo antes de las etiquetas `</body></html>` tal y como se muestra y haz clic en **Guardar**
 
-![Inserte una línea de prueba en el correo electrónico Designer y haga clic en Guardar](assets/add-email-activities-email-designer-save.png)
+   ![Inserte una línea de prueba en el correo electrónico Designer y haga clic en Guardar](assets/add-email-activities-email-designer-save.png)
 
-&#x200B;8. Espere a que el mensaje de confirmación aparezca en la esquina inferior derecha
+8. Espere a que el mensaje de confirmación aparezca en la esquina inferior derecha
 
-![Aparece un mensaje de confirmación](assets/add-email-activities-confirmation-message.png)
+   ![Aparece un mensaje de confirmación](assets/add-email-activities-confirmation-message.png)
 
-&#x200B;9. Haga clic en la **flecha izquierda** junto al **Designer de correo electrónico** para salir
+9. Haga clic en la **flecha izquierda** junto al **Designer de correo electrónico** para salir
 
-![Haga clic en la flecha izquierda para salir del correo electrónico Designer](assets/add-email-activities-exit-email-designer.png)
+   ![Haga clic en la flecha izquierda para salir del correo electrónico Designer](assets/add-email-activities-exit-email-designer.png)
 
-&#x200B;10. Aparece un cuadro de diálogo de confirmación, haga clic en el botón **Guardar y cerrar**
+10. Aparece un cuadro de diálogo de confirmación, haga clic en el botón **Guardar y cerrar**
 
 ![Cuadro de diálogo de confirmación con el botón Guardar y cerrar](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
+11. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
 
 ![Volver al lienzo de Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 

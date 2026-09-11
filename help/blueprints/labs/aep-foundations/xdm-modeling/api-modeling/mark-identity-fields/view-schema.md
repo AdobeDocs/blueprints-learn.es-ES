@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ver esquema
 description: Vea los descriptores de identidad de un esquema a través de la interfaz de usuario y la API, y compare las opciones de encabezado Aceptar para las respuestas de esquema resueltas frente a no resueltas.
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -28,13 +27,13 @@ ht-degree: 0%
 
 1. Seleccione la API `Step 3 - Get Customer Account Schema and its descriptors` haciendo clic en ella.
 
-![Paso 3 - Obtener esquema de cuenta de cliente con solicitud de API de descriptores](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "Paso 3 - Obtener esquema de cuenta de cliente con descriptores")
+   ![Paso 3 - Obtener esquema de cuenta de cliente con solicitud de API de descriptores](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "Paso 3 - Obtener esquema de cuenta de cliente con descriptores")
 
 
 
 1. En la dirección URL de la solicitud, reemplace `<replace me>` por el `$meta:altId` que guardó de la sección anterior (Crear el esquema) hasta el final de la llamada, como se muestra a continuación
 
-![Solicitud del paso 5 final con altId anexado a la dirección URL](assets/view-schema-final-step-5-request.png "Solicitud del paso 5 final")
+   ![Solicitud del paso 5 final con altId anexado a la dirección URL](assets/view-schema-final-step-5-request.png "Solicitud del paso 5 final")
 
 
 
@@ -61,7 +60,7 @@ Observe el encabezado **Accept** utilizado en la solicitud. Este encabezado indi
 
 >[!NOTE]
 >
->Puede leer más sobre los distintos encabezados Aceptar aquí -> [Extremo de API de esquema de Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=es#lookup)
+>Puede leer más sobre los distintos encabezados Aceptar aquí -> [Extremo de API de esquema de Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

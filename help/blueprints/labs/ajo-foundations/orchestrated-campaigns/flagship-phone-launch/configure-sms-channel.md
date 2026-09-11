@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuración del canal SMS
 description: Aprenda a configurar un canal de SMS basado en Twilio y sus dimensiones de ejecución para utilizarlo en campañas orquestadas.
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -56,22 +55,22 @@ Ahora asignará esta credencial de API a una configuración de canal que puedan 
 
 1. Vaya a **Canales** → **Configuración general** → **Configuraciones de canal**.
 
-![Vaya a las configuraciones de canal en Configuración general](assets/configure-sms-channel-navigate-channel-configurations.png)
+   ![Vaya a las configuraciones de canal en Configuración general](assets/configure-sms-channel-navigate-channel-configurations.png)
 
 
 
-&#x200B;2. Haga clic en **Crear configuración de canal**.
+2. Haga clic en **Crear configuración de canal**.
 
-![Botón Crear configuración de canal](assets/configure-sms-channel-click-create-configuration.png)
+   ![Botón Crear configuración de canal](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
-&#x200B;3. Complete los Ajustes de configuración de canal SMS con los siguientes valores:
+3. Complete los Ajustes de configuración de canal SMS con los siguientes valores:
    - **Nombre:** `Relational-SMS-Multi-Entity`
    - **Canal:** `Mobile Message`
    - **Acción de marketing:** `SMS Targeting`
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Si aparece un error que indica que el usuario no tiene permiso, ignórelo y continúe.
 
@@ -93,46 +92,46 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
 1. En Detalles de ejecución, haga clic en la ficha **Campaña organizada**
 
-![Ficha de campaña orquestada en Detalles de ejecución](assets/configure-sms-channel-execution-details-tab.png)
+   ![Ficha de campaña orquestada en Detalles de ejecución](assets/configure-sms-channel-execution-details-tab.png)
 
 
 
-&#x200B;2. Asegúrese de que la casilla de verificación **Habilitado** esté marcada
+2. Asegúrese de que la casilla de verificación **Habilitado** esté marcada
 
-![Casilla de verificación habilitada para campañas orquestadas](assets/configure-sms-channel-enabled-checkbox.png)
+   ![Casilla de verificación habilitada para campañas orquestadas](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
-&#x200B;3. A continuación, en la subsección **Dimensión de ejecución**, asegúrese de que las siguientes opciones estén configuradas de la siguiente manera:
+3. A continuación, en la subsección **Dimensión de ejecución**, asegúrese de que las siguientes opciones estén configuradas de la siguiente manera:
    - **Enviar mensaje por:** `Target + Secondary Dimension`
    - **Dimension de destino de perfil:** `dep-rel: Customer Account - customer_id`
    - **Dimension secundario:** `Customer Line`
 
-![Configuración de la dimensión de ejecución con el destino y la dimensión secundaria](assets/configure-sms-channel-execution-dimension-setup.png)
+   ![Configuración de la dimensión de ejecución con el destino y la dimensión secundaria](assets/configure-sms-channel-execution-dimension-setup.png)
 
-![Dimension secundario establecido en Línea de cliente en la configuración de la dimensión de ejecución &quot;Dimension secundario&quot;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension secundario")
+   ![Dimension secundario establecido en Línea de cliente en la configuración de la dimensión de ejecución &quot;Dimension secundario&quot;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension secundario")
 
->[!NOTE]
->
->Esto le indica a las campañas orquestadas que cuando envía mensajes, debe enviar un mensaje por registro que coincida con el Dimension de destinatario del perfil.
-
-
-
-&#x200B;4. Bajo el encabezado Dirección de ejecución, asegúrese de seleccionar el botón de opción de **Dimension secundario** y, a continuación, haga clic en el botón de edición en el **Campo de ejecución de SMS**
-
-![Dirección de ejecución establecida en Dimension secundario con campo de edición](assets/configure-sms-channel-execution-address-selection.png)
+   >[!NOTE]
+   >
+   >Esto le indica a las campañas orquestadas que cuando envía mensajes, debe enviar un mensaje por registro que coincida con el Dimension de destinatario del perfil.
 
 
 
-&#x200B;5. En el elemento emergente, haga clic en el esquema **dep-rel: Customer Line** y seleccione **Teléfono móvil**.
+4. Bajo el encabezado Dirección de ejecución, asegúrese de seleccionar el botón de opción de **Dimension secundario** y, a continuación, haga clic en el botón de edición en el **Campo de ejecución de SMS**
 
-![Ventana emergente de esquema para el elemento dep-rel: Esquema de línea del cliente](assets/configure-sms-channel-customer-line-schema-popup.png)
-
-![Campo de teléfono móvil seleccionado del rel profundo: Esquema de línea del cliente &quot;Campo de teléfono móvil&quot;](assets/configure-sms-channel-mobile-phone-field-selected.png "Campo de teléfono móvil")
+   ![Dirección de ejecución establecida en Dimension secundario con campo de edición](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
-&#x200B;6. Confirme las coincidencias de la sección Detalles de ejecución final a continuación
+5. En el elemento emergente, haga clic en el esquema **dep-rel: Customer Line** y seleccione **Teléfono móvil**.
+
+   ![Ventana emergente de esquema para el elemento dep-rel: Esquema de línea del cliente](assets/configure-sms-channel-customer-line-schema-popup.png)
+
+   ![Campo de teléfono móvil seleccionado del rel profundo: Esquema de línea del cliente &quot;Campo de teléfono móvil&quot;](assets/configure-sms-channel-mobile-phone-field-selected.png "Campo de teléfono móvil")
+
+
+
+6. Confirme las coincidencias de la sección Detalles de ejecución final a continuación
 
 ![La configuración de los detalles de la ejecución final coincide con la configuración requerida](assets/configure-sms-channel-final-execution-details.png)
 
@@ -142,21 +141,21 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
 1. Puede hacer clic en el botón **Enviar** para completar la configuración y ver cómo aparece un mensaje de éxito
 
-![Mensaje de éxito después de enviar la configuración del canal](assets/configure-sms-channel-submit-success-message.png)
+   ![Mensaje de éxito después de enviar la configuración del canal](assets/configure-sms-channel-submit-success-message.png)
 
 
 
-&#x200B;2. En la página de inventario de configuraciones de canal, asegúrese de que el estado se muestre como **Activo** antes de continuar
+2. En la página de inventario de configuraciones de canal, asegúrese de que el estado se muestre como **Activo** antes de continuar
 
-![Estado de configuración del canal mostrado como Activo](assets/configure-sms-channel-active-status.png)
+   ![Estado de configuración del canal mostrado como Activo](assets/configure-sms-channel-active-status.png)
 
->[!CAUTION]
->
->Espere hasta que el estado se convierta en **Activo**; de lo contrario, los pasos de laboratorio futuros fallarán miserablemente para usted
+   >[!CAUTION]
+   >
+   >Espere hasta que el estado se convierta en **Activo**; de lo contrario, los pasos de laboratorio futuros fallarán miserablemente para usted
 
 
 
-&#x200B;3. Cuando el estado se active, estará completo.
+3. Cuando el estado se active, estará completo.
 
 >[!TIP]
 >
@@ -168,4 +167,4 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
 Ya ha visto cómo configurar correctamente un canal SMS.  Tenga en cuenta que este es un SMS basado en API, por lo que según el proveedor pueden utilizar métodos alternativos para la autenticación.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si está interesado.

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear esquema
 description: Utilice la API del Registro de esquemas para ensamblar un esquema de cliente a partir de una clase de perfil y referencias de grupos de campos estándar y personalizados.
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -23,30 +22,30 @@ ht-degree: 0%
 
 1. Haga clic en la llamada de API `Step 4 - Create Customer Account Schema` en la carpeta `XDM Schema Lab -> Create Schema`.
 
-![Paso 4: crear una llamada de API de esquema de cuenta de cliente en la colección de Postman](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
+   ![Paso 4: crear una llamada de API de esquema de cuenta de cliente en la colección de Postman](assets/create-schema-click-on-the-step-4-create-customer-account-schema.png)
 
 
 
-&#x200B;2. Abra el cuerpo de la llamada y vea la estructura de cómo se define un esquema. Recuerde que un esquema siempre está compuesto por una sola (1) clase y uno o más grupos de campos.
+2. Abra el cuerpo de la llamada y vea la estructura de cómo se define un esquema. Recuerde que un esquema siempre está compuesto por una sola (1) clase y uno o más grupos de campos.
 
-&#x200B;3. Rellene los campos `title` y `description` del cuerpo del esquema con lo siguiente:
+3. Rellene los campos `title` y `description` del cuerpo del esquema con lo siguiente:
 
-- Título -> `Sample Customer Schema - <your sandbox number>`
-- Descripción -> `Sample Customer Schema - <your sandbox number>`
+   - Título -> `Sample Customer Schema - <your sandbox number>`
+   - Descripción -> `Sample Customer Schema - <your sandbox number>`
 
-&#x200B;4. Rellene los campos de `$ref` con los `$ids` que guardó de las secciones de laboratorio anteriores que completó: [Crear grupos de campos personalizados](./create-custom-field-groups.md) y [Obtener clase de perfil](./get-profile-class.md). Debe tener $ids para cada uno de los elementos siguientes:
+4. Rellene los campos de `$ref` con los `$ids` que guardó de las secciones de laboratorio anteriores que completó: [Crear grupos de campos personalizados](./create-custom-field-groups.md) y [Obtener clase de perfil](./get-profile-class.md). Debe tener $ids para cada uno de los elementos siguientes:
 
-- Clase -> Perfil individual XDM
-- Grupo de campos -> Detalles demográficos
-- Grupo de campos -> Datos de contacto personales
-- Grupo de campos -> Detalles de consentimiento y preferencia
-- Grupo de campos (personalizado) -> Detalles de cuenta de cliente
+   - Clase -> Perfil individual XDM
+   - Grupo de campos -> Detalles demográficos
+   - Grupo de campos -> Datos de contacto personales
+   - Grupo de campos -> Detalles de consentimiento y preferencia
+   - Grupo de campos (personalizado) -> Detalles de cuenta de cliente
 
-![Cuerpo de solicitud de esquema vacío antes de agregar referencias de clase y grupo de campos](assets/create-schema-empty-schema-api-body.png "Cuerpo de API de esquema vacío")
+   ![Cuerpo de solicitud de esquema vacío antes de agregar referencias de clase y grupo de campos](assets/create-schema-empty-schema-api-body.png "Cuerpo de API de esquema vacío")
 
 
 
-&#x200B;5. Revise el cuerpo final y asegúrese de que tenga un aspecto similar al siguiente
+5. Revise el cuerpo final y asegúrese de que tenga un aspecto similar al siguiente
 
 ![Cuerpo de solicitud de esquema completado con título, descripción y todos los valores $ref rellenados](assets/create-schema-example-of-final-body-payload.png "Ejemplo de carga útil de cuerpo final")
 

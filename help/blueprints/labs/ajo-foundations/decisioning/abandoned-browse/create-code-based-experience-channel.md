@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear un canal de experiencia basado en código
 description: Configure un canal de experiencia basado en código en Adobe Journey Optimizer que devuelva datos de ofertas JSON a cualquier sistema web, móvil o de IoT que solicite una decisión.
 doc-type: article
 solution: Experience Platform
 exl-id: c3353d3d-cd97-46b7-8ef8-c72fa9e7dfe5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 0%
@@ -23,29 +22,29 @@ Recuerde que los requisitos comerciales son que cualquiera de los sistemas de Co
 2. Haga clic en el botón azul **Crear configuración de canal**
 3. En la página &quot;Detalles de configuración del canal&quot;, asigne un nombre al canal **jsonOffer\_cbe**
 
->[!NOTE]
->
->Dado que cualquier número de clientes puede llamar a un CBE en *N* número de plataformas, vamos a nombrar este CBE como algo genérico para la ubicación, pero específico para el hecho de que devuelve ofertas en formato JSON.
+   >[!NOTE]
+   >
+   >Dado que cualquier número de clientes puede llamar a un CBE en *N* número de plataformas, vamos a nombrar este CBE como algo genérico para la ubicación, pero específico para el hecho de que devuelve ofertas en formato JSON.
 
 4. Establezca el menú desplegable **Seleccionar canal** en **Experiencia basada en código.**
 
->[!WARNING]
->
->No estableceremos una acción de marketing en este laboratorio porque añada una complejidad innecesaria a nuestra demostración, pero como se puede acceder a los CBE desde varios sistemas, en un caso de uso real debe establecer todas las acciones de marketing posibles para este canal para que se apliquen las etiquetas DULE.
+   >[!WARNING]
+   >
+   >No estableceremos una acción de marketing en este laboratorio porque añada una complejidad innecesaria a nuestra demostración, pero como se puede acceder a los CBE desde varios sistemas, en un caso de uso real debe establecer todas las acciones de marketing posibles para este canal para que se apliquen las etiquetas DULE.
 
 5. Marque la casilla **Web** en el área &quot;Configuración de experiencia basada en código&quot; y mantenga seleccionada la opción **Una sola página**.
 6. En el cuadro de texto **Dirección URL de la página**, escriba el texto `https://connection5g.com/home`
 7. En el cuadro de texto **Ubicación en la página**, escriba el texto **jsonOfferContainer**
 
->[!NOTE]
->
->No todos los eventos de experiencia enviados a los déclencheur de Edge son solicitudes de ofertas personalizadas. Creará un Recorrido en la siguiente sección en el que se configurará este CBE con la estrategia de selección que acaba de configurar. La configuración &quot;Ubicación en la página&quot; es el nombre del parámetro que se pasa en los eventos de experiencia y que indica a Experience Edge que devuelva todas las ofertas asignadas a ese CBE. También se conoce a menudo como superficie. Ya sea una aplicación móvil, una página web o cualquier otro dispositivo de IoT, si el valor jsonOfferContainer se pasa a Edge, junto con el eventType correcto a través de un evento de experiencia, Edge ejecutará la lógica configurada hasta ahora en el laboratorio y devolverá la oferta adecuada.
+   >[!NOTE]
+   >
+   >No todos los eventos de experiencia enviados a los déclencheur de Edge son solicitudes de ofertas personalizadas. Creará un Recorrido en la siguiente sección en el que se configurará este CBE con la estrategia de selección que acaba de configurar. La configuración &quot;Ubicación en la página&quot; es el nombre del parámetro que se pasa en los eventos de experiencia y que indica a Experience Edge que devuelva todas las ofertas asignadas a ese CBE. También se conoce a menudo como superficie. Ya sea una aplicación móvil, una página web o cualquier otro dispositivo de IoT, si el valor jsonOfferContainer se pasa a Edge, junto con el eventType correcto a través de un evento de experiencia, Edge ejecutará la lógica configurada hasta ahora en el laboratorio y devolverá la oferta adecuada.
 
 8. Haga clic en el botón de opción **JSON** de la sección &#39;Formato&#39;. Cuando termine, la configuración del canal CBE debería tener este aspecto:
 
-![Configuración de canal de experiencia basada en código completada con formato JSON seleccionado](assets/create-code-based-experience-channel-completed-config.png)
+   ![Configuración de canal de experiencia basada en código completada con formato JSON seleccionado](assets/create-code-based-experience-channel-completed-config.png)
 
-&#x200B;9. Una vez que todo parezca correcto, haga clic en el botón azul **Enviar** en la esquina superior derecha.
+9. Una vez que todo parezca correcto, haga clic en el botón azul **Enviar** en la esquina superior derecha.
 
 >[!TIP]
 >

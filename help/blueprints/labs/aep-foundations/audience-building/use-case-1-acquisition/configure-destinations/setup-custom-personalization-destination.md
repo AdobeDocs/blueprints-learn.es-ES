@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuración del destino personalizado de Personalization
 description: Configure un destino de Custom Personalization para enviar atributos de perfil a Edge Network para que los utilice en tiempo real un sistema de personalización de terceros.
 doc-type: article
 solution: Experience Platform
 exl-id: 46073f7c-00f4-4a4f-9fa3-8827ef15ec4a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configuración del destino personalizado de Personalization
 
-Usar un [destino personalizado de Personalization](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/custom-personalization) es una forma de hacer que las audiencias estén disponibles en Edge para que las use un tercero, normalmente mediante la API del servidor de red, para usarlas en Personalización.
+Usar un [destino personalizado de Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) es una forma de hacer que las audiencias estén disponibles en Edge para que las use un tercero, normalmente mediante la API del servidor de red, para usarlas en Personalización.
 
 Este laboratorio configura el destino de Personalization personalizado para que podamos enviar atributos de perfil a Edge.
 
@@ -25,7 +24,7 @@ Este laboratorio configura el destino de Personalization personalizado para que 
 
 >[!NOTE]
 >
->Para personalizar usando Adobe Target, usaríamos [Adobe Target Destination.](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) El comportamiento es idéntico al de Personalization personalizado.
+>Para personalizar usando Adobe Target, usaríamos [Adobe Target Destination.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) El comportamiento es idéntico al de Personalization personalizado.
 
 1. En el carril izquierdo, haga clic en **Destinos**
 1. En el carril superior, haga clic en **Catálogo**
@@ -105,7 +104,7 @@ Agregue una **nueva asignación** de la siguiente manera:
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | Nombre del plan |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Recuerde reemplazar **\_tenantName** con su nombre de inquilino
 
@@ -121,7 +120,7 @@ Cuando termine, la pantalla debería parecerse a la imagen siguiente.  A continu
 
 >[!NOTE]
 >
->Dado que los atributos de perfil pueden contener datos confidenciales, todas las llamadas a la API de Edge Network Server [1 deben realizarse en un contexto autenticado para recuperar el atributo una vez que se encuentre en Edge.](https://experienceleague.adobe.com/es/docs/experience-platform/edge-network-server-api/overview)
+>Dado que los atributos de perfil pueden contener datos confidenciales, todas las llamadas a la API de Edge Network Server [1 deben realizarse en un contexto autenticado para recuperar el atributo una vez que se encuentre en Edge.](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
 
 
 ### Revisar
@@ -132,4 +131,4 @@ En la última pantalla, puede revisar los detalles de la configuración y, a con
 
 >[!NOTE]
 >
->Este es el punto donde [Aplicación automática](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/enforcement/auto-enforcement) comprobará tus [Políticas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/policies/overview). Comprobará las acciones de marketing con las reglas creadas y se producirán errores.
+>Este es el punto donde [Aplicación automática](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement) comprobará tus [Políticas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview). Comprobará las acciones de marketing con las reglas creadas y se producirán errores.

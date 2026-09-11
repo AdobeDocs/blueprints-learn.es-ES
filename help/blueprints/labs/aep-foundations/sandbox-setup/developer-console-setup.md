@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuración de Developer Console
 description: Cree un proyecto de Adobe Developer Console con credenciales de servidor a servidor OAuth para que la CLI de DEP se autentique en la zona protegida.
 doc-type: article
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configuración de Developer Console
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Esto solo es necesario si está trabajando en los laboratorios a su propio ritmo. Si está en un curso o evento de formación en directo, su zona protegida ya se ha implementado para usted.
 

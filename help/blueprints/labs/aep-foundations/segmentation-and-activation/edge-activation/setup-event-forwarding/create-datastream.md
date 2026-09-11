@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear flujo de datos
 description: Cree y configure una secuencia de datos con los servicios Reenvío de eventos y Adobe Experience Platform para enrutar eventos perimetrales entrantes.
 doc-type: article
 solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
@@ -58,13 +57,13 @@ Esto le permite utilizar el reenvío de eventos para los datos recibidos por est
 
 1. Haz clic en **Agregar servicio**
 
-![Página de detalles de secuencia de datos con el botón Agregar servicio resaltado](assets/create-datastream-add-service-button.png "Agregar servicio")
+   ![Página de detalles de secuencia de datos con el botón Agregar servicio resaltado](assets/create-datastream-add-service-button.png "Agregar servicio")
 
 1. Configure los siguientes elementos:
 
-- Servicio -> Reenvío de eventos
-- Propiedad -> Seleccione la propiedad que creó en el paso anterior.  Debe llamarse de esta manera: Propiedad de reenvío de eventos SB + \&lt;su número de zona protegida>
-- Entorno -> Desarrollo
+   - Servicio -> Reenvío de eventos
+   - Propiedad -> Seleccione la propiedad que creó en el paso anterior.  Debe llamarse de esta manera: Propiedad de reenvío de eventos SB + \&lt;su número de zona protegida>
+   - Entorno -> Desarrollo
 
 1. Cuando termine, haga clic en **Guardar**
 
@@ -80,17 +79,17 @@ Esto le permite enviar datos al concentrador y aterrizar en un conjunto de datos
 
 1. Haz clic en **Agregar servicio**
 
-![Página de detalles de secuencia de datos con el botón Agregar servicio resaltado para agregar el servicio Adobe Experience Platform](assets/create-datastream-add-second-service-button.png "Agregar un nuevo servicio")
+   ![Página de detalles de secuencia de datos con el botón Agregar servicio resaltado para agregar el servicio Adobe Experience Platform](assets/create-datastream-add-second-service-button.png "Agregar un nuevo servicio")
 
 1. Configure los siguientes elementos:
 
-- Servicio -> Adobe Experience Platform
-- Conjunto de datos de evento -> dep: Web
-- Conjunto de datos del perfil -> dep: Cuenta de cliente
-- Seleccione La Casilla De Verificación -> Segmentación De Edge.
-- Seleccione La Casilla -> Destino De Personalization.
+   - Servicio -> Adobe Experience Platform
+   - Conjunto de datos de evento -> dep: Web
+   - Conjunto de datos del perfil -> dep: Cuenta de cliente
+   - Seleccione La Casilla De Verificación -> Segmentación De Edge.
+   - Seleccione La Casilla -> Destino De Personalization.
 
-![Configuración del servicio Adobe Experience Platform con el conjunto de datos de evento, el conjunto de datos de perfil y las casillas de verificación de segmentación establecidas](assets/create-datastream-aep-service-config.png "Configurar el servicio")
+   ![Configuración del servicio Adobe Experience Platform con el conjunto de datos de evento, el conjunto de datos de perfil y las casillas de verificación de segmentación establecidas](assets/create-datastream-aep-service-config.png "Configurar el servicio")
 
 1. Cuando termine, haga clic en **Guardar**.
 

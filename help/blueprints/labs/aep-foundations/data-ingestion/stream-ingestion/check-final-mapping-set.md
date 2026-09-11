@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Comprobar conjunto final de asignaciones
 description: Compare sus asignaciones de ingesta de flujo continuo con el paso final esperado y el conjunto de asignación de campo calculado.
 doc-type: article
 solution: Experience Platform
 exl-id: 8802aaca-f566-4972-8bd6-41aca9fae9bf
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 ## Asignaciones de paso a través
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar.
 
@@ -62,7 +61,7 @@ ht-degree: 0%
 | concat(fecha\_part(&quot;mm&quot;, fecha(nacimiento\_Fecha, &quot;aaaa-M-d&quot;)).toString(), &quot;-&quot;, fecha\_part(&quot;dd&quot;, fecha(nacimiento\_Fecha, &quot;aaaa-M-d&quot;)).toString()) | person.birthDayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;yyyy-M-d&quot;)) | person.birthYear |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar
 

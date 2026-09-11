@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear identidad de referencia del plan
 description: Utilice la API del Registro de esquemas para crear un descriptor de identidad de referencia en el esquema de búsqueda para que se pueda utilizar en la segmentación por lotes.
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -17,15 +16,15 @@ ht-degree: 0%
 
 1. Haga clic en la solicitud de API `Step 3 - Reference Descriptor for Plan` en la carpeta `XDM Schema Lab -> Create Relationship Descriptors`
 
->[!CAUTION]
->
->No ejecutar la solicitud...aún
+   >[!CAUTION]
+   >
+   >No ejecutar la solicitud...aún
 
-![Paso 3: descriptor de referencia para la solicitud de API de esquema de plan](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Paso 3: descriptor de referencia para el esquema de plan")
+   ![Paso 3: descriptor de referencia para la solicitud de API de esquema de plan](assets/create-plan-reference-identity-step-3-descriptor-request.jpeg "Paso 3: descriptor de referencia para el esquema de plan")
 
 
 
-&#x200B;2. Actualice las siguientes propiedades en el cuerpo de la llamada de API.
+2. Actualice las siguientes propiedades en el cuerpo de la llamada de API.
 
 - Actualice el valor de la propiedad `xdm:sourceSchema` al `$id` del esquema `Customer Account` que guardó desde el paso [Crear esquema](../build-schema/create-schema.md)
 - Actualizar el valor de `xdm:sourceProperty` a la ruta de acceso del campo `planID` desde el esquema `Customer Account`
@@ -54,9 +53,9 @@ SOLO EJEMPLO
 
 
 
-&#x200B;3. Guarde la solicitud antes de seguir utilizando el botón `Save`
+3. Guarde la solicitud antes de seguir utilizando el botón `Save`
 
-&#x200B;4. Ejecute la API al hacer clic en el botón `Send`
+4. Ejecute la API al hacer clic en el botón `Send`
 
 Ahora debería ver una respuesta de `201 Created` como la siguiente
 

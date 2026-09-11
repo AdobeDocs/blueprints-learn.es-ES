@@ -1,11 +1,10 @@
 ---
-hold: true
 title: API de perfil e identidad
 description: Utilice la API de entidad de perfil y la API de clúster de servicio de identidad en Postman para buscar atributos de perfil, eventos e identidades vinculadas.
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 1%
@@ -80,17 +79,17 @@ Para obtener una idea de la API de búsqueda de entidad, utilice el perfil Depec
 1. Haga clic en la solicitud **Consulta de entidad (atributos)** para abrirla
 1. Ejecute la llamada haciendo clic en el botón **Enviar**
 
-![Panel de solicitud de Postman para la llamada de búsqueda de entidad (atributos) antes de enviar](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "API de búsqueda de entidad de perfil (atributos)")
+   ![Panel de solicitud de Postman para la llamada de búsqueda de entidad (atributos) antes de enviar](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "API de búsqueda de entidad de perfil (atributos)")
 
-Una solicitud correcta debe responder con `200 OK` y debería ver un resultado que contenga todos los atributos del perfil Modo profundo.
+   Una solicitud correcta debe responder con `200 OK` y debería ver un resultado que contenga todos los atributos del perfil Modo profundo.
 
-![Respuesta correcta de 200 que contiene todos los atributos para el perfil de modo Depeche](assets/profile-and-identity-apis-successful-attributes-api-response.png "Respuesta correcta de API de entidad de perfil (atributos)")
+   ![Respuesta correcta de 200 que contiene todos los atributos para el perfil de modo Depeche](assets/profile-and-identity-apis-successful-attributes-api-response.png "Respuesta correcta de API de entidad de perfil (atributos)")
 
->[!NOTE]
->
->De forma predeterminada, si no se especifica ninguna política de combinación en una solicitud de entidad de perfil, se utiliza la política de combinación predeterminada en la zona protegida
+   >[!NOTE]
+   >
+   >De forma predeterminada, si no se especifica ninguna política de combinación en una solicitud de entidad de perfil, se utiliza la política de combinación predeterminada en la zona protegida
 
-Con la API de entidad, hay una serie de parámetros de consulta que puede utilizar para cambiar lo que se devuelve en respuesta.
+   Con la API de entidad, hay una serie de parámetros de consulta que puede utilizar para cambiar lo que se devuelve en respuesta.
 
 1. En la solicitud de búsqueda de entidad (atributos), haga clic en la opción **Params** de la solicitud
 1. Marque la casilla junto a **Clave** con nombre **campos**
@@ -106,7 +105,7 @@ Una solicitud correcta debe responder con un `200 OK` y solo debe ver los campos
 
 ![Se ha filtrado una respuesta 200 OK que muestra solo los campos Nombre, Apellido y Productos activos](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Respuesta de API de búsqueda de entidad de perfil (atributos) correcta con el filtro habilitado")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >¡Felicidades!  Ha buscado correctamente los atributos de un perfil utilizando la API de entidad de perfil
 

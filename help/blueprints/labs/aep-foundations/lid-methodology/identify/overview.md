@@ -1,10 +1,10 @@
 ---
 title: Identificar
 description: 'Conozca el paso de identificación de dos partes de la metodología LID: etiquetado de los tipos de tabla restantes e identificación de los campos de identidad clave.'
-doc-type: article
+doc-type: overview-page
 solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
-source-git-commit: 8fba6e953de0e588af5398b21554ebad085899fd
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

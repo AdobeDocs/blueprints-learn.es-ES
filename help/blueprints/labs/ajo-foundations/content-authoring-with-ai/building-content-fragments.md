@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Creación de fragmentos de contenido
 description: Aprenda a dividir un diseño de correo electrónico en fragmentos reutilizables, como un bloque de encabezado, que sean coherentes en todas las plantillas de Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -85,21 +84,21 @@ Cree un fragmento de encabezado para empezar. Sin embargo, antes de crear el fra
 
 1. En el panel de navegación izquierdo, localice la sección **Administración de contenido** y haga clic en **Assets**.
 
-![Sección de administración de contenido con opción de Assets en la navegación izquierda](assets/building-content-fragments-content-management-assets-nav.png)
+   ![Sección de administración de contenido con opción de Assets en la navegación izquierda](assets/building-content-fragments-content-management-assets-nav.png)
 
-&#x200B;2. Haga clic en **Assets** en la sección Administración de Assets.
+2. Haga clic en **Assets** en la sección Administración de Assets.
 
-![Opción de Assets en la sección de administración de Assets](assets/building-content-fragments-assets-under-assets-management.png)
+   ![Opción de Assets en la sección de administración de Assets](assets/building-content-fragments-assets-under-assets-management.png)
 
-&#x200B;3. Cree una carpeta haciendo clic en el botón **&quot;Crear carpeta&quot;**.
+3. Cree una carpeta haciendo clic en el botón **&quot;Crear carpeta&quot;**.
 
-![Botón Crear carpeta en el área de Assets](assets/building-content-fragments-click-create-folder-button.png)
+   ![Botón Crear carpeta en el área de Assets](assets/building-content-fragments-click-create-folder-button.png)
 
-&#x200B;4. Dé un nombre como su nombre y apellido. p. ej. Nish\_Pithia\_LabAssets (Algo que puede recordar)
+4. Dé un nombre como su nombre y apellido. p. ej. Nish\_Pithia\_LabAssets (Algo que puede recordar)
 
-![Nombrar la nueva carpeta de recursos con su nombre y apellidos](assets/building-content-fragments-name-asset-folder.png)
+   ![Nombrar la nueva carpeta de recursos con su nombre y apellidos](assets/building-content-fragments-name-asset-folder.png)
 
-&#x200B;5. **Crear un nuevo fragmento:** En Administración de contenido, haga clic en **Fragmentos** y cree un nuevo fragmento.
+5. **Crear un nuevo fragmento:** En Administración de contenido, haga clic en **Fragmentos** y cree un nuevo fragmento.
 
    ![Opción Fragmentos en Administración de contenido para crear un nuevo fragmento](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -113,35 +112,35 @@ Cree un fragmento de encabezado para empezar. Sin embargo, antes de crear el fra
 
    ![Nombre del fragmento de encabezado, descripción y campos de tipo de fragmento visual](assets/building-content-fragments-fragment-name-type-details.png)
 
-&#x200B;6. Haz clic en **Crear botón** en la parte superior derecha.
+6. Haz clic en **Crear botón** en la parte superior derecha.
 
-![Botón Crear en la parte superior derecha del nuevo cuadro de diálogo de fragmento](assets/building-content-fragments-click-create-button-top-right.png)
+   ![Botón Crear en la parte superior derecha del nuevo cuadro de diálogo de fragmento](assets/building-content-fragments-click-create-button-top-right.png)
 
-Se abrirá una pantalla en blanco del creador de fragmentos.
+   Se abrirá una pantalla en blanco del creador de fragmentos.
 
-&#x200B;7. Haga clic en Columnas 1:1 debajo de Estructuras y arrastre en el lienzo como se muestra a continuación. (Haga clic en la imagen siguiente para ver un gráfico animado)
+7. Haga clic en Columnas 1:1 debajo de Estructuras y arrastre en el lienzo como se muestra a continuación. (Haga clic en la imagen siguiente para ver un gráfico animado)
 
-![Demostración animada de arrastrar una estructura de columnas 1:1 al lienzo del fragmento](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![Demostración animada de arrastrar una estructura de columnas 1:1 al lienzo del fragmento](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
-&#x200B;8. A continuación, arrastre &quot;**image**&quot; a la fila 1:1 que acabamos de agregar
+8. A continuación, arrastre &quot;**image**&quot; a la fila 1:1 que acabamos de agregar
 
-![Arrastrando un componente de imagen a la fila 1:1](assets/building-content-fragments-drag-image-onto-row.png)
+   ![Arrastrando un componente de imagen a la fila 1:1](assets/building-content-fragments-drag-image-onto-row.png)
 
-&#x200B;9. Cargue la imagen del logotipo que se le ha proporcionado. Haga clic en **&quot;Botón Importar medios&quot;**
+9. Cargue la imagen del logotipo que se le ha proporcionado. Haga clic en **&quot;Botón Importar medios&quot;**
 
-![Botón Importar medios para cargar la imagen del logotipo](assets/building-content-fragments-click-import-media-button.png)
+   ![Botón Importar medios para cargar la imagen del logotipo](assets/building-content-fragments-click-import-media-button.png)
 
-&#x200B;10. **Cargue el logotipo:** Cargue el logotipo (*C5G-Logo.png*) de la carpeta de imágenes del kit de herramientas y haga clic en Siguiente.
+10. **Cargue el logotipo:** Cargue el logotipo (*C5G-Logo.png*) de la carpeta de imágenes del kit de herramientas y haga clic en Siguiente.
 
 ![Seleccionar C5G-Logo.png de la carpeta del kit de herramientas que se va a cargar](assets/building-content-fragments-upload-logo-select-file.png)
 
 ![Haciendo clic en Siguiente después de seleccionar la carga del logotipo](assets/building-content-fragments-upload-logo-click-next.png)
 
-&#x200B;11. Seleccione la **carpeta de recursos** que ha creado y haga clic en **Importar**. El archivo se guardará en la carpeta.
+11. Seleccione la **carpeta de recursos** que ha creado y haga clic en **Importar**. El archivo se guardará en la carpeta.
 
 ![Seleccionando la carpeta de recursos creada y haciendo clic en Importar](assets/building-content-fragments-select-asset-folder-import.png)
 
-&#x200B;12. El logotipo está colocado correctamente, pero es demasiado grande y debe cambiarse de tamaño. Para cambiar el tamaño del logotipo, actualice sus propiedades. Haga clic en la ficha **Estilo** y establezca la anchura en el 40% arrastrando el control deslizante, como se muestra a continuación.
+12. El logotipo está colocado correctamente, pero es demasiado grande y debe cambiarse de tamaño. Para cambiar el tamaño del logotipo, actualice sus propiedades. Haga clic en la ficha **Estilo** y establezca la anchura en el 40% arrastrando el control deslizante, como se muestra a continuación.
 
 >[!NOTE]
 >
@@ -151,15 +150,15 @@ Se abrirá una pantalla en blanco del creador de fragmentos.
 
 ![El control deslizante de anchura de la ficha Estilo se ha establecido en 40 por ciento para cambiar el tamaño del logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-&#x200B;13. Haga clic en **&quot;Guardar&quot;** y se guardará el fragmento. Recibe una notificación de barra verde en la confirmación.
+13. Haga clic en **&quot;Guardar&quot;** y se guardará el fragmento. Recibe una notificación de barra verde en la confirmación.
 
 ![Barra de confirmación verde después de guardar el fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;14. El fragmento guardado está en modo de borrador. Antes de usarlo, debe publicarlo. Haga clic en el botón **atrás**.
+14. El fragmento guardado está en modo de borrador. Antes de usarlo, debe publicarlo. Haga clic en el botón **atrás**.
 
 ![Botón Atrás para dejar el fragmento de borrador antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;15. Haga clic en el botón &quot;**Publicar**&quot;. Verá el mensaje &quot;Publicando fragmento, esto puede tardar. Notificaremos una vez hecho&quot;. en la confirmación. El fragmento está listo para utilizarse para la creación de plantillas.
+15. Haga clic en el botón &quot;**Publicar**&quot;. Verá el mensaje &quot;Publicando fragmento, esto puede tardar. Notificaremos una vez hecho&quot;. en la confirmación. El fragmento está listo para utilizarse para la creación de plantillas.
 
 ![Botón Publicar y mensaje de confirmación de fragmento de publicación](assets/building-content-fragments-click-publish-fragment-button.png)
 

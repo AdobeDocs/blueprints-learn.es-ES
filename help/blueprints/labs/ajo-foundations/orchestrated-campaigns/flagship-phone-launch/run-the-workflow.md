@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ejecutar el flujo de trabajo
 description: Obtenga información sobre cómo ejecutar un flujo de trabajo de Campaign orquestado en modo de prueba y solucionar problemas de por qué se pierden algunos registros de un envío SMS debido a la falta de uniones de dimensión de destino.
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -25,33 +24,33 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 1. El flujo de trabajo final presenta un aspecto similar al siguiente cuando termina. Comprueba que todo se ve bien. Verá lo siguiente:
 
-![Lienzo de flujo de trabajo final listo para probar](assets/run-the-workflow-final-workflow-canvas.png)
+   ![Lienzo de flujo de trabajo final listo para probar](assets/run-the-workflow-final-workflow-canvas.png)
 
-&#x200B;2. Si aún no ha detenido el flujo de trabajo, asegúrese de hacerlo ahora haciendo clic en el botón **Detener** en la esquina superior derecha.
+2. Si aún no ha detenido el flujo de trabajo, asegúrese de hacerlo ahora haciendo clic en el botón **Detener** en la esquina superior derecha.
 
-![Botón Detener en la parte superior derecha del flujo de trabajo](assets/run-the-workflow-click-stop-button.png)
+   ![Botón Detener en la parte superior derecha del flujo de trabajo](assets/run-the-workflow-click-stop-button.png)
 
->[!NOTE]
->
->De forma opcional, puede intentar hacer clic en el botón Reiniciar, pero es probable que vea un error porque ha añadido actividades después de crear el flujo de trabajo y su caché ya no es válida.
-
-
-
-&#x200B;3. Luego haga clic en el botón **Start** para ejecutar y probar el flujo de trabajo de principio a fin
-
-![Botón Iniciar para ejecutar la prueba de flujo de trabajo](assets/run-the-workflow-click-start-button.png)
+   >[!NOTE]
+   >
+   >De forma opcional, puede intentar hacer clic en el botón Reiniciar, pero es probable que vea un error porque ha añadido actividades después de crear el flujo de trabajo y su caché ya no es válida.
 
 
 
-&#x200B;4. Revise el resultado que entra a la actividad de SMS haciendo clic en **Resultado** (hay dos Resultados, así que use el izquierdo como se muestra a continuación) y luego en el carril izquierdo haciendo clic en el botón **Previsualizar resultados**.
+3. Luego haga clic en el botón **Start** para ejecutar y probar el flujo de trabajo de principio a fin
 
-![Se seleccionó la transición del resultado izquierdo antes de la actividad de SMS](assets/run-the-workflow-select-result-transition.png)
-
-![Botón Vista previa de resultados en el carril derecho](assets/run-the-workflow-click-preview-results.png)
+   ![Botón Iniciar para ejecutar la prueba de flujo de trabajo](assets/run-the-workflow-click-start-button.png)
 
 
 
-&#x200B;5. Verá **33 registros** y la dimensión de segmentación coincide con el ID de cliente (la clave de unión si desea generar un perfil)
+4. Revise el resultado que entra a la actividad de SMS haciendo clic en **Resultado** (hay dos Resultados, así que use el izquierdo como se muestra a continuación) y luego en el carril izquierdo haciendo clic en el botón **Previsualizar resultados**.
+
+   ![Se seleccionó la transición del resultado izquierdo antes de la actividad de SMS](assets/run-the-workflow-select-result-transition.png)
+
+   ![Botón Vista previa de resultados en el carril derecho](assets/run-the-workflow-click-preview-results.png)
+
+
+
+5. Verá **33 registros** y la dimensión de segmentación coincide con el ID de cliente (la clave de unión si desea generar un perfil)
 
 ![33 registros con dimensión de segmentación que coinciden con el ID de cliente](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -61,35 +60,35 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 1. Cierre la ventana anterior, haga clic en la **actividad SMS** y, a continuación, haga clic en el botón **Ejecutar prueba** en el carril derecho
 
-![Ejecutar botón de prueba en la actividad de SMS](assets/run-the-workflow-click-run-test-sms.png)
+   ![Ejecutar botón de prueba en la actividad de SMS](assets/run-the-workflow-click-run-test-sms.png)
 
 
 
-&#x200B;2. Casi inmediatamente aparece un nuevo botón con la etiqueta **Ver informe**.  Haga clic en el botón **Ver informe** para iniciar sesión en la pantalla del informe.
+2. Casi inmediatamente aparece un nuevo botón con la etiqueta **Ver informe**.  Haga clic en el botón **Ver informe** para iniciar sesión en la pantalla del informe.
 
-![Botón Ver informe para la prueba de actividad de SMS](assets/run-the-workflow-click-view-report.png)
+   ![Botón Ver informe para la prueba de actividad de SMS](assets/run-the-workflow-click-view-report.png)
 
->[!NOTE]
->
->Esta pantalla no se rellenará inicialmente, ya que la ejecución de la prueba tarda un poco en ejecutarse. Es posible que tenga que actualizar algunas veces antes de ver los resultados.
-
-
-
-&#x200B;3. Cuando obtenga resultados, verá que el 100% fueron el objetivo.
-
-![Los resultados de los envíos de prueba de SMS muestran un 100% segmentado](assets/run-the-workflow-100-percent-targeted.png)
-
-*Espera, un minuto... el resultado entrante fue de 33 registros, así que ¿a dónde fueron los 4?*
+   >[!NOTE]
+   >
+   >Esta pantalla no se rellenará inicialmente, ya que la ejecución de la prueba tarda un poco en ejecutarse. Es posible que tenga que actualizar algunas veces antes de ver los resultados.
 
 
 
-&#x200B;4. Vuelva al lienzo del flujo de trabajo, haga clic en la transición **Result** que entra en la actividad de SMS y luego haga clic en **Preview results** en el carril derecho.
+3. Cuando obtenga resultados, verá que el 100% fueron el objetivo.
 
-![Volver a revisar los resultados de la transición después de la prueba de SMS](assets/run-the-workflow-recheck-transition-results.png)
+   ![Los resultados de los envíos de prueba de SMS muestran un 100% segmentado](assets/run-the-workflow-100-percent-targeted.png)
+
+   *Espera, un minuto... el resultado entrante fue de 33 registros, así que ¿a dónde fueron los 4?*
 
 
 
-&#x200B;5. En la pantalla Vista previa de resultados, desplácese hasta la parte inferior de la tabla y verá que **4 registros** tienen **una dimensión de segmentación en blanco**.
+4. Vuelva al lienzo del flujo de trabajo, haga clic en la transición **Result** que entra en la actividad de SMS y luego haga clic en **Preview results** en el carril derecho.
+
+   ![Volver a revisar los resultados de la transición después de la prueba de SMS](assets/run-the-workflow-recheck-transition-results.png)
+
+
+
+5. En la pantalla Vista previa de resultados, desplácese hasta la parte inferior de la tabla y verá que **4 registros** tienen **una dimensión de segmentación en blanco**.
 
 ![4 registros con una dimensión de segmentación en blanco al final de la tabla](assets/run-the-workflow-4-records-missing-dimension.png)
 

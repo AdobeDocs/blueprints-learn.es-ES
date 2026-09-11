@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Decisiones y CBE en acción
 description: Utilice Postman para enviar eventos de experiencia para perfiles de prueba y validar que la idoneidad, la clasificación y el límite de frecuencia devuelven las ofertas correctas.
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
@@ -34,7 +33,7 @@ Localice estos perfiles en AEP
 1. Si es necesario, expanda el elemento **Customer** en el carril izquierdo y haga clic en **Perfiles**
 1. Haga clic en la ficha **Examinar** y, entre todos los perfiles que ya se han creado para usted o que ha creado como parte de laboratorios anteriores, verá estos tres perfiles.
 
-Busque los eventos de experiencia correspondientes para cada perfil en la colección Postman
+   Busque los eventos de experiencia correspondientes para cada perfil en la colección Postman
 
 1. Si es necesario, abra Postman
 1. Asegúrese de que las variables de entorno **EDGE\_REGION** y **DATASTREAM\_CONFIG** sigan configuradas. Si es necesario volver a configurarlos, revise los pasos en el laboratorio &quot;Importar entorno y colección&quot;.
@@ -44,7 +43,7 @@ Busque los eventos de experiencia correspondientes para cada perfil en la colecc
 
 ## Envío de eventos de experiencia
 
-&#x200B;> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >No omita la explicación de apertura de texto de esta sección.
 
@@ -69,48 +68,48 @@ Empiece con el perfil de Bob.
 1. Haga clic en la solicitud **Bob - Recopilación de datos de la parte inferior de la página**.
 2. Haga clic en la ficha **Body** y observe los parámetros que se están pasando, como el área de nombres customerID en IdentityMap, que indicaría que está autenticado, así como el parámetro &quot;web.webPageDetails.name&quot; que pasa el nombre de página de &quot;phones\:apple\:iphone 17\:overview&quot;.
 
-![Bob - Cuerpo de solicitud de la recopilación de datos inferior de la página en Postman](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
+   ![Bob - Cuerpo de solicitud de la recopilación de datos inferior de la página en Postman](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
 
-&#x200B;3. Haga clic en **Enviar** en la esquina superior derecha para enviar una vista de página. Recibe una respuesta similar a esta
+3. Haga clic en **Enviar** en la esquina superior derecha para enviar una vista de página. Recibe una respuesta similar a esta
 
-![Respuesta recibida después de enviar el evento de recopilación de datos Page Bottom de Bob](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
+   ![Respuesta recibida después de enviar el evento de recopilación de datos Page Bottom de Bob](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
 
-&#x200B;4. Una vez que hayas recibido la respuesta adecuada, vuelve a hacer clic en **Enviar** para reenviar el mismo evento Page bottom por segunda vez. Espere unos segundos y, a continuación, envíe una tercera llamada de recopilación de datos para el perfil de Bob. Ha enviado un total de 3 llamadas al final de página.
+4. Una vez que hayas recibido la respuesta adecuada, vuelve a hacer clic en **Enviar** para reenviar el mismo evento Page bottom por segunda vez. Espere unos segundos y, a continuación, envíe una tercera llamada de recopilación de datos para el perfil de Bob. Ha enviado un total de 3 llamadas al final de página.
 
-En este punto, el sistema está procesando esas visitas y añadiendo Bob al segmento de streaming &quot;Profundo: Interesado en iPhone 17&quot;. Una vez hecho esto, Bob es puesto en el Recorrido. Una vez en el Recorrido, la entrada de Bob al Recorrido y al segmento tarda solo unos minutos en proyectarse en la tienda de perfiles de Edge para Bob.
+   En este punto, el sistema está procesando esas visitas y añadiendo Bob al segmento de streaming &quot;Profundo: Interesado en iPhone 17&quot;. Una vez hecho esto, Bob es puesto en el Recorrido. Una vez en el Recorrido, la entrada de Bob al Recorrido y al segmento tarda solo unos minutos en proyectarse en la tienda de perfiles de Edge para Bob.
 
-&#x200B;5. Vuelva a la interfaz de usuario de AJO y haga clic en **Perfiles** en el carril izquierdo, seguido de la pestaña **Examinar**.
-&#x200B;6. Busque el perfil de Bob usando el área de nombres **customerID** con el valor **287415903**.
+5. Vuelva a la interfaz de usuario de AJO y haga clic en **Perfiles** en el carril izquierdo, seguido de la pestaña **Examinar**.
+6. Busque el perfil de Bob usando el área de nombres **customerID** con el valor **287415903**.
 
-![Buscando el perfil de Bob mediante el área de nombres customerID](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
+   ![Buscando el perfil de Bob mediante el área de nombres customerID](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
 
-&#x200B;7. Haz clic en **Ver** para abrir el perfil de Bob (el color del perfil de Bob puede ser diferente al que se muestra en la captura de pantalla).
+7. Haz clic en **Ver** para abrir el perfil de Bob (el color del perfil de Bob puede ser diferente al que se muestra en la captura de pantalla).
 
-![Se abrió la página de perfil de Bob en AJO](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
+   ![Se abrió la página de perfil de Bob en AJO](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
 
-&#x200B;8. Una vez que se abre el perfil de Bob, haga clic en la ficha **Pertenencia a la audiencia** y verá que Bob es ahora miembro del segmento &quot;Profundo: Interesado en iPhone 17&quot;, al menos desde la perspectiva de AEP Hub.
-&#x200B;9. Haz clic en **Atributos,** y luego selecciona el botón de opción **Edge** para cambiar a la vista de Edge.
+8. Una vez que se abre el perfil de Bob, haga clic en la ficha **Pertenencia a la audiencia** y verá que Bob es ahora miembro del segmento &quot;Profundo: Interesado en iPhone 17&quot;, al menos desde la perspectiva de AEP Hub.
+9. Haz clic en **Atributos,** y luego selecciona el botón de opción **Edge** para cambiar a la vista de Edge.
 
-![Pestaña Atributos con el botón de opción Edge para cambiar la vista de perfil](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
+   ![Pestaña Atributos con el botón de opción Edge para cambiar la vista de perfil](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
 
->[!WARNING]
->
->Hay un error de interfaz de usuario desafortunado que requiere que haga clic en la pestaña Atributos para cambiar el botón de opción a Edge.
+   >[!WARNING]
+   >
+   >Hay un error de interfaz de usuario desafortunado que requiere que haga clic en la pestaña Atributos para cambiar el botón de opción a Edge.
 
 
 
-&#x200B;10. Vuelva a hacer clic en **Suscripción a audiencia,** y, si realizó estos pasos con la rapidez suficiente, verá que Edge está seleccionado y muestra que Bob no es miembro de audiencia
+10. Vuelva a hacer clic en **Suscripción a audiencia,** y, si realizó estos pasos con la rapidez suficiente, verá que Edge está seleccionado y muestra que Bob no es miembro de audiencia
 
 ![Vista de Edge del perfil de Bob que aún no muestra la pertenencia a ninguna audiencia](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. En una nueva pestaña del explorador, vaya al Recorrido que ha creado y haga clic en él. Verá que un perfil ha entrado en la Recorrido y ahora está en el nodo CBE.
+11. En una nueva pestaña del explorador, vaya al Recorrido que ha creado y haga clic en él. Verá que un perfil ha entrado en la Recorrido y ahora está en el nodo CBE.
 
 ![Lienzo de Recorrido que muestra el perfil de Bob introducido y en el nodo CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 En este punto, Bob ha entrado en el Recorrido y la proyección de Edge está montando una proyección que actualiza el perfil de Bob en Edge.
 
-&#x200B;12. Cambie a Postman y haga clic en la segunda de las llamadas de evento de experiencia de Bob, **Bob - Page Top Fetch.**
-&#x200B;13. Haga clic en **Enviar**. ¿Qué debería suceder?
+12. Cambie a Postman y haga clic en la segunda de las llamadas de evento de experiencia de Bob, **Bob - Page Top Fetch.**
+13. Haga clic en **Enviar**. ¿Qué debería suceder?
     - Si el perfil de Edge de Bob aún no se ha actualizado, obtendrá una respuesta muy similar a la que obtuvo de la llamada de recopilación de datos. Si este es el caso, espere uno o dos minutos más y vuelva a intentar enviar la llamada de búsqueda superior de la página de Bob.
     - Si se actualizó el perfil de Edge de Bob, recibirá una respuesta con el JSON configurado anteriormente, junto con información adicional utilizada para la creación de informes. Pero antes de continuar, ¿qué oferta de iPhone 17 debería ofrecerse a Bob?
 
@@ -118,19 +117,19 @@ En este punto, Bob ha entrado en el Recorrido y la proyección de Edge está mon
 
 ![Respuesta de Postman que muestra la oferta de nivel base devuelta para Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-&#x200B;14. Recuerde que esta solicitud de Postman envía automáticamente una notificación de visualización para esta oferta, de modo que AJO ya ha registrado al menos una impresión para esta oferta. Vuelva a hacer clic en **Enviar** para enviar una segunda impresión. Compruebe que se ha devuelto la oferta base.
-&#x200B;15. Recuerde que se aplica un límite de frecuencia de 3 impresiones a los modelos de nivel Base, Pro y Ultra. Haz clic en **Enviar** por tercera vez para obtener una tercera respuesta con el nivel base y registrar otra impresión.
-&#x200B;16. Haz clic en **Enviar** por cuarta vez y ¿qué debería suceder? Se alcanza el límite de frecuencia de la oferta de nivel base y recibe la oferta genérica en la respuesta:
+14. Recuerde que esta solicitud de Postman envía automáticamente una notificación de visualización para esta oferta, de modo que AJO ya ha registrado al menos una impresión para esta oferta. Vuelva a hacer clic en **Enviar** para enviar una segunda impresión. Compruebe que se ha devuelto la oferta base.
+15. Recuerde que se aplica un límite de frecuencia de 3 impresiones a los modelos de nivel Base, Pro y Ultra. Haz clic en **Enviar** por tercera vez para obtener una tercera respuesta con el nivel base y registrar otra impresión.
+16. Haz clic en **Enviar** por cuarta vez y ¿qué debería suceder? Se alcanza el límite de frecuencia de la oferta de nivel base y recibe la oferta genérica en la respuesta:
 
 ![Respuesta de Postman que muestra la oferta genérica devuelta después de alcanzar el límite de frecuencia](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. Vuelva a hacer clic en **Enviar** y verá la oferta de nivel genérico. Puede hacer clic en Enviar 100 veces más y recibirá la misma oferta hasta el día siguiente, cuando se restablezca el límite de frecuencia.
+17. Vuelva a hacer clic en **Enviar** y verá la oferta de nivel genérico. Puede hacer clic en Enviar 100 veces más y recibirá la misma oferta hasta el día siguiente, cuando se restablezca el límite de frecuencia.
 
 >[!WARNING]
 >
 >Recuerde que en AJO, el día se restablece a medianoche GMT. Si enviara otra llamada de recuperación después de la medianoche GMT, vería la devolución de la oferta de nivel base.
 
-&#x200B;18. Vuelva a la interfaz de usuario de Journey Orchestration y haga clic en el Recorrido **iPhone 17 Abandonar exploración** que creó. Como el Recorrido está activo y publicado, empieza a ver estadísticas. Verá que 1 perfil ha entrado en la Recorrido y se encuentra actualmente en el nodo CBE.
+18. Vuelva a la interfaz de usuario de Journey Orchestration y haga clic en el Recorrido **iPhone 17 Abandonar exploración** que creó. Como el Recorrido está activo y publicado, empieza a ver estadísticas. Verá que 1 perfil ha entrado en la Recorrido y se encuentra actualmente en el nodo CBE.
 
 ![Informes de Recorrido que muestran un perfil actualmente en el nodo CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
@@ -147,15 +146,15 @@ Ahora que ha visto al Recorrido trabajando para el perfil de Bob, hay otros dos 
 3. Espere un par de minutos para que los tres perfiles cumplan los requisitos para el segmento de flujo continuo, introduzca el Recorrido y, a continuación, haga que el CBE proyecte sus perfiles de Edge.
 4. Envíe la llamada de búsqueda superior de página tantas veces como sea necesario para comprobar que las reglas de decisión y las fórmulas de clasificación funcionan según lo esperado.
 
-**Perfiles de decisión: comportamiento esperado**
+   **Perfiles de decisión: comportamiento esperado**
 
-| Nombre | Apellidos | 1.ª oferta | 2.ª oferta | 3.ª oferta | 4.ª oferta |
-| ---------- | ------------ | --------- | --------- | --------- | --------- |
-| Bob | Básico | Base | Genérico | Genérico | Genérico |
-| Peter | Profesional | Pro | Base | Genérico | Genérico |
-| Úrsula | Ultimate | Ultra | Pro | Base | Genérico |
+   | Nombre | Apellidos | 1.ª oferta | 2.ª oferta | 3.ª oferta | 4.ª oferta |
+   | ---------- | ------------ | --------- | --------- | --------- | --------- |
+   | Bob | Básico | Base | Genérico | Genérico | Genérico |
+   | Peter | Profesional | Pro | Base | Genérico | Genérico |
+   | Úrsula | Ultimate | Ultra | Pro | Base | Genérico |
 
-&#x200B;5. Una vez finalizado, vuelva al Recorrido. Verá que los 3 perfiles han entrado en la Recorrido y están en el nodo CBE.
+5. Una vez finalizado, vuelva al Recorrido. Verá que los 3 perfiles han entrado en la Recorrido y están en el nodo CBE.
 
 >[!NOTE]
 >

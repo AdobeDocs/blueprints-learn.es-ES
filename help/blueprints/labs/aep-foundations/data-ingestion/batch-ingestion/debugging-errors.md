@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Depuración de errores
 description: Utilice los diagnósticos de error de previsualización para investigar una ejecución de flujo de datos fallida y distinguir los errores de formato de INGESTA de las advertencias de conversión de MAPPER.
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -66,6 +65,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Este error no es grave, ya que solo provoca advertencias durante la asignación. La ejecución del flujo de datos no falla debido a esto, por lo que este laboratorio no corrige este error.

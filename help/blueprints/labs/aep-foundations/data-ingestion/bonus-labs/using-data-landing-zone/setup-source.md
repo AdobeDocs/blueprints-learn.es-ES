@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuración del origen
 description: Cargue un archivo de cuenta de cliente de muestra en la zona de aterrizaje de datos y configure un nuevo flujo de datos de origen de almacenamiento en la nube.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -45,25 +44,25 @@ Cuando se cargue, la pantalla debería parecerse a la captura de pantalla siguie
 
 1. Seleccione **Lab\_Customer\_Account.csv**
 
-![Selección del archivo Lab_Customer_Account.csv para previsualizarlo en el Explorador de almacenamiento de Azure](assets/setup-source-select-lab-customer-account-csv.png "Acceso a los archivos del Explorador de almacenamiento de Azure en Adobe Experience Platform")
+   ![Selección del archivo Lab_Customer_Account.csv para previsualizarlo en el Explorador de almacenamiento de Azure](assets/setup-source-select-lab-customer-account-csv.png "Acceso a los archivos del Explorador de almacenamiento de Azure en Adobe Experience Platform")
 
 1. En el panel de vista previa, observe los siguientes atributos y lo siguiente:
 
-- **sms\_optIn** es un campo de consentimiento con varios valores que faltan (se muestran en la vista previa como - )
-- **account\_create\_date** no tiene el formato de fecha adecuado. Tiene valores de cadena junto con valores de fecha y hora en una cadena.
-- **account\_end\_date** tiene el formato de fecha correcto.
+   - **sms\_optIn** es un campo de consentimiento con varios valores que faltan (se muestran en la vista previa como - )
+   - **account\_create\_date** no tiene el formato de fecha adecuado. Tiene valores de cadena junto con valores de fecha y hora en una cadena.
+   - **account\_end\_date** tiene el formato de fecha correcto.
 
 
 
-![campo sms_optIn con varios valores que faltan en la vista previa del archivo](assets/setup-source-sms-optin-missing-values.png "sms_optin")
+   ![campo sms_optIn con varios valores que faltan en la vista previa del archivo](assets/setup-source-sms-optin-missing-values.png "sms_optin")
 
 
 
-![campos account_create_date y account_end_date mostrados en la vista previa del archivo](assets/setup-source-account-create-date-account-end-date.png "account_create_date y account_end_date")
+   ![campos account_create_date y account_end_date mostrados en la vista previa del archivo](assets/setup-source-account-create-date-account-end-date.png "account_create_date y account_end_date")
 
->[!NOTE]
->
->Más adelante en este laboratorio tendrá que lidiar con los valores, fechas y campos con formato incorrecto que faltan en los pasos de asignación
+   >[!NOTE]
+   >
+   >Más adelante en este laboratorio tendrá que lidiar con los valores, fechas y campos con formato incorrecto que faltan en los pasos de asignación
 
 1. Haga clic en **Siguiente** en la esquina superior derecha de la pantalla para continuar con el paso siguiente
 

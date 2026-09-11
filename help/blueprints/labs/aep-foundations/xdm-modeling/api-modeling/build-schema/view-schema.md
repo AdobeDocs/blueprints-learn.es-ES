@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ver esquema
 description: Vea un esquema del cliente recién creado en la interfaz de usuario de Experience Platform y mediante una llamada a la API de obtención de esquema.
 doc-type: article
 solution: Experience Platform
 exl-id: 29302546-46dc-4c97-8fd8-deab6977635c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -19,9 +18,9 @@ ht-degree: 0%
 
 1. Abra el explorador y vuelva a la sección `Schema -> Browse`.
 
->[!NOTE]
->
->Actualice la interfaz de usuario para verla, ya que acaba de crearla y debe volver a consultar el registro de esquema
+   >[!NOTE]
+   >
+   >Actualice la interfaz de usuario para verla, ya que acaba de crearla y debe volver a consultar el registro de esquema
 
 2. Buscar el esquema `Sample Customer Schema - <your sandbox number>`
 

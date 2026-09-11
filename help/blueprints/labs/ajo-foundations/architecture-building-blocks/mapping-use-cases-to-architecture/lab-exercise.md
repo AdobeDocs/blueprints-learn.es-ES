@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Ejercicio de laboratorio
 description: Trabaje con un libro imprimible asignando tres casos de uso de Connection 5G a los componentes de arquitectura de AJO y al motor de orquestación adecuados.
 doc-type: article
 solution: Experience Platform
 exl-id: 9e8f24a4-f206-41fe-8107-7184c0761698
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -20,7 +19,7 @@ ht-degree: 0%
 - Asignando casos de uso al libro de arquitectura: [Imprimir libro a continuación]
 - Lápiz, lápiz o marcador de resaltado
 
-Descargar archivo: [Asignación de funciones al ejercicio de arquitectura.pdf](assets/lab-exercise-mapping-capabilities-to-architecture-exercise.pdf)
+Descargar archivo: [Asignación de funciones al ejercicio de arquitectura.pdf](assets/lab-exercise-mapping-capabilities-to-architecture.pdf)
 
 **En cada uno de los tres casos de uso de Connection 5G, deberá:**
 

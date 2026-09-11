@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Resumen
 description: Resumen del laboratorio de Adobe Journey Optimizer Decisioning completado que cubre el esquema de oferta, la elegibilidad, la clasificación, la estrategia de selección y las pruebas de CBE.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f1ca1b-6feb-4dde-9d08-ad811150443c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -25,7 +24,7 @@ Por último, **ha probado el flujo de toma de decisiones de extremo a extremo**,
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO, SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Envío de un evento web de Edge
 description: Obtenga información sobre cómo enviar un evento web simulado a Adobe Edge Network a través de una llamada de API de Postman con el ID del conjunto de datos.
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -73,18 +72,18 @@ Antes de poder ejecutar la solicitud de API, debe agregar el ID de la secuencia 
 
 1. Haga clic en **Variables en la solicitud** en la parte superior derecha
 
-![Variables en la opción de solicitud en la barra de herramientas de Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
+   ![Variables en la opción de solicitud en la barra de herramientas de Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. Actualice **DATASTREAM_CONFIG** **Value** con **ID de secuencia de datos** desde el primer paso en la página.
+2. Actualice **DATASTREAM_CONFIG** **Value** con **ID de secuencia de datos** desde el primer paso en la página.
 
-![Variable DATASTREAM_CONFIG actualizada con el identificador de secuencia de datos](assets/send-an-edge-web-event-update-datastream-config-variable.png)
+   ![Variable DATASTREAM_CONFIG actualizada con el identificador de secuencia de datos](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-&#x200B;3. **Guardar** su actualización (Ctrl+S o Comando+S)
-&#x200B;4. Haga clic en &#39;**X**&#39; en la esquina superior derecha de la barra lateral del entorno para cerrar la barra lateral
+3. **Guardar** su actualización (Ctrl+S o Comando+S)
+4. Haga clic en &#39;**X**&#39; en la esquina superior derecha de la barra lateral del entorno para cerrar la barra lateral
 
-![Cerrando la barra lateral del entorno de Postman después de guardar](assets/send-an-edge-web-event-close-environment-sidebar.png)
+   ![Cerrando la barra lateral del entorno de Postman después de guardar](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. La solicitud **Crear evento web** ya está lista para enviarse, ya que todas las variables aparecen ahora en azul y tienen un valor en el entorno.
+5. La solicitud **Crear evento web** ya está lista para enviarse, ya que todas las variables aparecen ahora en azul y tienen un valor en el entorno.
 
 ![Crear solicitud de evento web con todas las variables rellenadas](assets/send-an-edge-web-event-request-ready-to-send.png)
 

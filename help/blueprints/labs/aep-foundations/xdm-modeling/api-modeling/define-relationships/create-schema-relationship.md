@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Crear relación de esquema
 description: Utilice la API del Registro de esquemas para crear un descriptor de relación uno a uno que vincule el esquema de cuenta de cliente a un esquema de plan de búsqueda.
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -17,15 +16,15 @@ ht-degree: 0%
 
 1. Haga clic en la solicitud de API `Step 2 - Relationship Descriptor Customer Account To Plan` en la carpeta `XDM Schema Lab -> Create Relationship Descriptors`
 
->[!CAUTION]
->
->No ejecutar la solicitud...aún
+   >[!CAUTION]
+   >
+   >No ejecutar la solicitud...aún
 
-![Paso 2 - Cuenta de cliente del descriptor de relación para planificar la solicitud de API](assets/create-schema-relationship-step-2-descriptor-request.png "Paso 2 - Cuenta de cliente del descriptor de relación para planificar")
+   ![Paso 2 - Cuenta de cliente del descriptor de relación para planificar la solicitud de API](assets/create-schema-relationship-step-2-descriptor-request.png "Paso 2 - Cuenta de cliente del descriptor de relación para planificar")
 
 
 
-&#x200B;2. Actualice las siguientes propiedades en el cuerpo de la llamada de API.
+2. Actualice las siguientes propiedades en el cuerpo de la llamada de API.
 
 - Establezca el valor de la propiedad `xdm:sourceSchema` en `$id` del esquema de cuenta de cliente que guardó desde el paso de laboratorio [Crear esquema](../build-schema/create-schema.md)
 - Establezca el valor de `xdm:sourceProperty` en la ruta de acceso del campo `planID` desde el Esquema de cuenta de cliente.
@@ -58,9 +57,9 @@ SOLO EJEMPLO
 
 
 
-&#x200B;3. Guarde la solicitud antes de seguir utilizando el botón `Save`
+3. Guarde la solicitud antes de seguir utilizando el botón `Save`
 
-&#x200B;4. Ejecute la API al hacer clic en el botón `Send`
+4. Ejecute la API al hacer clic en el botón `Send`
 
 Ahora debería ver una respuesta de `201 Created` como la siguiente
 

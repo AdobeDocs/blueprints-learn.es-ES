@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar para el perfil
 description: Obtenga información sobre cómo configurar un canal de correo electrónico con el atributo personalEmail.address del perfil de AEP para Recorridos y campañas organizadas.
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 8%
@@ -24,9 +23,9 @@ En el siguiente conjunto de pasos creará una configuración de canal de correo 
 1. Vaya a **Configuraciones de canal** que se encuentran en el menú **Administración → Canales → Configuración general**
 2. Haga clic en el botón **Crear configuración**
 
-![Crear configuración de canal](assets/configure-for-profile-create-configuration-button.png)
+   ![Crear configuración de canal](assets/configure-for-profile-create-configuration-button.png)
 
-&#x200B;3. En el asistente Crear establezca los siguientes valores:
+3. En el asistente Crear establezca los siguientes valores:
    - **Nombre:** `Profile-Email`
    - **Canal:** `Email`
    - **Acción de marketing:** `Email Targeting`
@@ -95,45 +94,45 @@ Mantener la configuración predeterminada
 
 1. Complete la sección **Detalles de ejecución**. En la ficha **Recorrido y acción** -> **Dimensión de ejecución**, seleccione **Perfil** como **Source** y haga clic en el icono Editar para **Dirección de entrega** en la sección **Dirección de ejecución**
 
-![Detalles de ejecución](assets/configure-for-profile-execution-details-journey-tab.png)
+   ![Detalles de ejecución](assets/configure-for-profile-execution-details-journey-tab.png)
 
-&#x200B;2. Haga clic en la carpeta **Correo electrónico personal** para abrirla.
+2. Haga clic en la carpeta **Correo electrónico personal** para abrirla.
 
-![Dirección de envío](assets/configure-for-profile-personal-email-folder.png)
+   ![Dirección de envío](assets/configure-for-profile-personal-email-folder.png)
 
-&#x200B;3. Haga clic en la **casilla de verificación** en el campo `Address` y, a continuación, haga clic en el botón **Seleccionar**
+3. Haga clic en la **casilla de verificación** en el campo `Address` y, a continuación, haga clic en el botón **Seleccionar**
 
-![Correo electrónico personal como dirección de envío](assets/configure-for-profile-select-address-checkbox-journeys.png)
+   ![Correo electrónico personal como dirección de envío](assets/configure-for-profile-select-address-checkbox-journeys.png)
 
-&#x200B;4. Para el **perfil**, `personalEmail.address` ahora está configurado como **dirección de envío** en la sección **dirección de ejecución**
+4. Para el **perfil**, `personalEmail.address` ahora está configurado como **dirección de envío** en la sección **dirección de ejecución**
 
-![Dirección de envío configurada](assets/configure-for-profile-delivery-address-configured-journeys.png)
+   ![Dirección de envío configurada](assets/configure-for-profile-delivery-address-configured-journeys.png)
 
-&#x200B;5. Haga clic en la ficha Campaña orquestada y **marque** la casilla de verificación Habilitado.
+5. Haga clic en la ficha Campaña orquestada y **marque** la casilla de verificación Habilitado.
 
-![Configuración de campaña orquestada](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![Configuración de campaña orquestada](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-&#x200B;6. En el encabezado Dimensión de ejecución, configure lo siguiente:
+6. En el encabezado Dimensión de ejecución, configure lo siguiente:
    - **Enviar un mensaje por:** `Target Dimension`
    - **Dimension de destino de perfil:** `dep-rel: Customer Account - customer_id`
 
-![Dimension de destino](assets/configure-for-profile-target-dimension-settings.png)
+   ![Dimension de destino](assets/configure-for-profile-target-dimension-settings.png)
 
-&#x200B;7. En Dirección de ejecución, configure lo siguiente:
+7. En Dirección de ejecución, configure lo siguiente:
    - **Source:** `Profile`
    - **Dirección de envío:** `click on the Edit icon`
 
-![Dirección de ejecución](assets/configure-for-profile-execution-address-source-profile.png)
+   ![Dirección de ejecución](assets/configure-for-profile-execution-address-source-profile.png)
 
-&#x200B;8. Busque la carpeta `Personal Email` y haga clic en ella para abrirla
+8. Busque la carpeta `Personal Email` y haga clic en ella para abrirla
 
-![Atributo de perfil de correo electrónico personal](assets/configure-for-profile-search-personal-email-folder.png)
+   ![Atributo de perfil de correo electrónico personal](assets/configure-for-profile-search-personal-email-folder.png)
 
-&#x200B;9. Seleccione el campo `Address` dentro de la carpeta Correo electrónico personal y haga clic en **Seleccionar**
+9. Seleccione el campo `Address` dentro de la carpeta Correo electrónico personal y haga clic en **Seleccionar**
 
-![Correo electrónico personal como dirección de envío](assets/configure-for-profile-select-address-field-orchestrated.png)
+   ![Correo electrónico personal como dirección de envío](assets/configure-for-profile-select-address-field-orchestrated.png)
 
-&#x200B;10. Para **Campaign orquestada**, **dep-rel: Customer Account - customer\_id** está configurado como **Dimension de destino de perfil** para **Execution dimension** con **Execution Address** que tiene un **Source** de **Perfil** y `personalEmail.address` como **Delivery address**
+10. Para **Campaign orquestada**, **dep-rel: Customer Account - customer\_id** está configurado como **Dimension de destino de perfil** para **Execution dimension** con **Execution Address** que tiene un **Source** de **Perfil** y `personalEmail.address` como **Delivery address**
 
 ![Dimensión de ejecución configurada](assets/configure-for-profile-orchestrated-execution-dimension-configured.png)
 
@@ -147,7 +146,7 @@ Mantener la configuración predeterminada
 1. Revise todos los detalles de nuevo para asegurarse de que coinciden.
 1. Desplácese hacia arriba y haga clic en **Enviar**.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Se ha observado que el procesamiento de la configuración del canal de correo electrónico tarda hasta dos horas.  ¡Uy!
 >

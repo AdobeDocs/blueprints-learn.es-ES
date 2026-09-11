@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Dimension de destino de perfil
 description: Obtenga información sobre cómo etiquetar un campo de esquema relacional como identidad y crear una Dimension de destino de perfil para unir el perfil del cliente en tiempo real con el almacén relacional.
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -35,23 +34,23 @@ La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimi
 
 1. Haz clic en el icono **Aplicaciones** y selecciona **Journey Optimizer**
 
-![Menú de iconos de aplicaciones con Journey Optimizer seleccionado](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
+   ![Menú de iconos de aplicaciones con Journey Optimizer seleccionado](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
 
-&#x200B;2. Haga clic en **Esquemas** en el menú Administración de datos y asegúrese de que ha seleccionado la pestaña **Examinar**.
-&#x200B;3. Busque el esquema llamado `dep-rel: Customer Account`
+2. Haga clic en **Esquemas** en el menú Administración de datos y asegúrese de que ha seleccionado la pestaña **Examinar**.
+3. Busque el esquema llamado `dep-rel: Customer Account`
 
-![Búsqueda de esquema para dep-rel: Cuenta de cliente](assets/profile-target-dimension-search-schema.png)
+   ![Búsqueda de esquema para dep-rel: Cuenta de cliente](assets/profile-target-dimension-search-schema.png)
 
-&#x200B;4. Abra el esquema haciendo clic en su nombre y luego haga clic en el campo **customer\_id**
+4. Abra el esquema haciendo clic en su nombre y luego haga clic en el campo **customer\_id**
 
-![Lista de campos de esquema con customer_id seleccionado](assets/profile-target-dimension-select-customer-id-field.png)
+   ![Lista de campos de esquema con customer_id seleccionado](assets/profile-target-dimension-select-customer-id-field.png)
 
-&#x200B;5. En el carril derecho, localice la casilla de verificación denominada **Identidad**, **marque la casilla** y elija el área de nombres de identidad denominada **customerID**
+5. En el carril derecho, localice la casilla de verificación denominada **Identidad**, **marque la casilla** y elija el área de nombres de identidad denominada **customerID**
 
-![Casilla de verificación de identidad con el área de nombres customerID seleccionado](assets/profile-target-dimension-choose-identity-namespace.png)
+   ![Casilla de verificación de identidad con el área de nombres customerID seleccionado](assets/profile-target-dimension-choose-identity-namespace.png)
 
-&#x200B;6. Haga clic en el botón **Guardar** para guardar el esquema. Aparece un mensaje de confirmación
-&#x200B;7. Haga clic en el botón **Cancelar** o en **Esquemas** en el carril izquierdo para salir de la interfaz de usuario del esquema
+6. Haga clic en el botón **Guardar** para guardar el esquema. Aparece un mensaje de confirmación
+7. Haga clic en el botón **Cancelar** o en **Esquemas** en el carril izquierdo para salir de la interfaz de usuario del esquema
 
 >[!CAUTION]
 >
@@ -65,35 +64,35 @@ La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimi
 
 1. Haz clic en **Configuraciones** en **Administración**
 
-![Menú de administración con configuraciones seleccionadas](assets/profile-target-dimension-configurations-menu.png)
+   ![Menú de administración con configuraciones seleccionadas](assets/profile-target-dimension-configurations-menu.png)
 
-&#x200B;2. Seleccione **Dimension de destino de perfil** y haga clic en **Administrar**
+2. Seleccione **Dimension de destino de perfil** y haga clic en **Administrar**
 
-![Configuración de Dimension de destino de perfil con la opción Administrar](assets/profile-target-dimension-manage-configuration.png)
+   ![Configuración de Dimension de destino de perfil con la opción Administrar](assets/profile-target-dimension-manage-configuration.png)
 
-&#x200B;3. Se abre el panel Dimension de destino de perfil, haga clic en **Crear**
+3. Se abre el panel Dimension de destino de perfil, haga clic en **Crear**
 
-![Panel Dimension de destino de perfil con el botón Crear](assets/profile-target-dimension-create-button.png)
+   ![Panel Dimension de destino de perfil con el botón Crear](assets/profile-target-dimension-create-button.png)
 
-&#x200B;4. Seleccione el esquema `dep-rel: Customer Account` de la lista desplegable.
+4. Seleccione el esquema `dep-rel: Customer Account` de la lista desplegable.
 
->[!NOTE]
->
->El esquema puede tardar unos minutos en aparecer en esta pantalla después de marcar la identidad. Actualice la página y repita los dos pasos anteriores hasta que aparezca el esquema.
+   >[!NOTE]
+   >
+   >El esquema puede tardar unos minutos en aparecer en esta pantalla después de marcar la identidad. Actualice la página y repita los dos pasos anteriores hasta que aparezca el esquema.
 
-![Crear formulario de Dimension de destino de perfil con la lista desplegable de esquemas](assets/profile-target-dimension-select-schema-dropdown.png)
+   ![Crear formulario de Dimension de destino de perfil con la lista desplegable de esquemas](assets/profile-target-dimension-select-schema-dropdown.png)
 
-&#x200B;5. Para el **valor de identidad**, seleccione `/customer_id`
+5. Para el **valor de identidad**, seleccione `/customer_id`
 
-![Lista desplegable de valores de identidad con /customer_id seleccionado](assets/profile-target-dimension-select-identity-value.png)
+   ![Lista desplegable de valores de identidad con /customer_id seleccionado](assets/profile-target-dimension-select-identity-value.png)
 
->[!NOTE]
->
->Un esquema relacional puede tener muchos campos etiquetados con identidades, por lo que es un cuadro de lista.
+   >[!NOTE]
+   >
+   >Un esquema relacional puede tener muchos campos etiquetados con identidades, por lo que es un cuadro de lista.
 
 
 
-&#x200B;6. Haga clic en el botón **Guardar** para crear el Dimension de destino del perfil. A continuación, verá aparecer el registro.
+6. Haga clic en el botón **Guardar** para crear el Dimension de destino del perfil. A continuación, verá aparecer el registro.
 
 ![Registro de Dimension de destino de perfil guardado en la lista](assets/profile-target-dimension-saved-record.png)
 
@@ -109,4 +108,4 @@ La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimi
 
 Ya ha visto lo fácil que es navegar por el esquema, marcar un atributo como identidad y crear la Dimension de destinatario de perfil.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si está interesado.

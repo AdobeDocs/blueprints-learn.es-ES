@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Recorrido de prueba
 description: Utilice el simulador Modo de prueba de recorrido para almacenar en déclencheur un evento de envío de pedido y confirmar que la lógica de déclencheur y de acción se ejecuta correctamente antes de la publicación.
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -25,51 +24,51 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 2. Haz clic en el **Recorrido** para abrirlo
 3. Haz clic en **Alertas** y asegúrate de que no haya errores (las advertencias son correctas)
 
-![El panel Alertas no muestra errores después de abrir el recorrido](assets/test-journey-alerts-no-errors.png)
+   ![El panel Alertas no muestra errores después de abrir el recorrido](assets/test-journey-alerts-no-errors.png)
 
->[!NOTE]
->
->**Qué es CJMMAS - 2001-200**
->
->Indica que falta el vínculo de no participación en una variante de correo electrónico
+   >[!NOTE]
+   >
+   >**Qué es CJMMAS - 2001-200**
+   >
+   >Indica que falta el vínculo de no participación en una variante de correo electrónico
 
-&#x200B;4. Haga clic en **Simular** y, en el lado izquierdo, seleccione **Modo de prueba**
+4. Haga clic en **Simular** y, en el lado izquierdo, seleccione **Modo de prueba**
 
-![Modo de prueba seleccionado en Simular a la izquierda](assets/test-journey-select-test-mode.png)
-
-
-
->[!NOTE]
->
->Podría tomar un minuto para prepararse. Durante ese tiempo, el Déclencheur de un botón de evento no estará disponible.
+   ![Modo de prueba seleccionado en Simular a la izquierda](assets/test-journey-select-test-mode.png)
 
 
 
-&#x200B;5. Haga clic en **Déclencheur un evento** y rellene estas propiedades:
+   >[!NOTE]
+   >
+   >Podría tomar un minuto para prepararse. Durante ese tiempo, el Déclencheur de un botón de evento no estará disponible.
+
+
+
+5. Haga clic en **Déclencheur un evento** y rellene estas propiedades:
    - **Tipo de evento**: `orders.shipped`
    - **Correo electrónico personal**: `henry.creel@emailsim.io`
    - **Id. de pedido**: `123`
-&#x200B;6. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
+6. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
 
-![Déclencheur un formulario de eventos rellenado y se hizo clic en Enviar](assets/test-journey-trigger-event-send.png)
+   ![Déclencheur un formulario de eventos rellenado y se hizo clic en Enviar](assets/test-journey-trigger-event-send.png)
 
-&#x200B;> [!WARNING]
->
->Algunos estudiantes tienen errores y necesitan enviar esto un par de veces. Es posible que tenga que hacer esto **varias** veces.
->
->**A veces** el primer envío genera un error de:
->
->**La entrada no existe (ID de referencia: 3216a850-c40d-11f0-8fa5-73d1522cc9a2)**
->
->Si recibes un error, haz clic en **Déclencheur de un evento** y luego **envía** de nuevo.  Es posible que tenga que hacer esto **varias veces**.
+   >[!WARNING]
+   >
+   >Algunos estudiantes tienen errores y necesitan enviar esto un par de veces. Es posible que tenga que hacer esto **varias** veces.
+   >
+   >**A veces** el primer envío genera un error de:
+   >
+   >**La entrada no existe (ID de referencia: 3216a850-c40d-11f0-8fa5-73d1522cc9a2)**
+   >
+   >Si recibes un error, haz clic en **Déclencheur de un evento** y luego **envía** de nuevo.  Es posible que tenga que hacer esto **varias veces**.
 
 
 
-&#x200B;7. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
+7. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
 
 ![Mostrar opción de registro en Resultados después de activar el evento de prueba](assets/test-journey-show-log-results.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Algunos alumnos que recibieron errores a veces reciben registros diferentes que muestran una matriz de instancias vacía `{"instances": []}`. Esto no es un bloqueador, continúe y pase al siguiente paso.
 
@@ -106,16 +105,16 @@ Debería ver algo similar a esto en el &quot;log&quot;:
 
 
 
-&#x200B;8. **Cerrar** el explorador **pestaña**
-&#x200B;9. **Cerrar modo de prueba** en la parte superior derecha
+8. **Cerrar** el explorador **pestaña**
+9. **Cerrar modo de prueba** en la parte superior derecha
 
-![Botón Cerrar modo de prueba en la parte superior derecha](assets/test-journey-close-test-mode.png)
+   ![Botón Cerrar modo de prueba en la parte superior derecha](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. Haz clic en **Publicar** el Recorrido en la parte superior derecha
+10. Haz clic en **Publicar** el Recorrido en la parte superior derecha
 
 ![Botón Publicar para el Recorrido en la esquina superior derecha](assets/test-journey-publish-journey.png)
 
-&#x200B;11. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
+11. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
 
 ![Flecha hacia atrás en la parte superior izquierda para cerrar el Recorrido](assets/test-journey-close-journey-back-arrow.png)
 

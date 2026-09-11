@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Trabajo previo
 description: Investigue los campos de esquema para el uso de la facturación y el nombre del plan, resaltando cómo las descripciones que faltan y los campos duplicados pueden confundir a los creadores de audiencias.
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -22,15 +21,15 @@ Para este caso de uso, no hay mucho trabajo previo que hacer. Básicamente tenem
 1. Crear una audiencia nueva
 1. Busque &quot;uso&quot; en Atributos. Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
 
-![Buscar uso en Atributos - no se muestra descripción](assets/pre-work-search-usage-in-attributes.png)
+   ![Buscar uso en Atributos - no se muestra descripción](assets/pre-work-search-usage-in-attributes.png)
 
 
 
-&#x200B;3. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
+3. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
 
 ![Buscar uso en eventos - no se muestra descripción](assets/pre-work-search-usage-in-events.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Ninguno de estos tiene descripciones, por lo que el experto en marketing puede hacer algunas suposiciones y adivinar mal.
 >
@@ -41,7 +40,8 @@ Para este caso de uso, no hay mucho trabajo previo que hacer. Básicamente tenem
 >- ¿Recomendado/preferido en casos de uso específicos?
 >
 >Al proporcionar esta información en descripciones, podemos guiarlos mejor.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Intente buscar &quot;Facturación&quot;.  Observe que no aparece como un atributo de perfil.  Se muestra como una tarjeta de tipo de evento junto con el campo &quot;Uso de datos de facturación&quot;.
 >

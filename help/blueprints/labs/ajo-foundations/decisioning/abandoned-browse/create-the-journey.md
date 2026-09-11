@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Creación del Recorrido
 description: Cree un recorrido que establezca como déclencheur una acción de experiencia basada en código y una política de decisión para publicar ofertas JSON en perfiles aptos.
 doc-type: article
 solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -26,9 +25,9 @@ ht-degree: 0%
 7. Seleccione la audiencia **dep: interesado en iPhone 17**.
 8. Asegúrese de que la lista desplegable **Espacio de nombres** esté establecida en **customerID.** En este punto, el Recorrido tiene este aspecto:
 
-![Lienzo de Recorrido con el evento de calificación de audiencia agregado y área de nombres establecida en customerID](assets/create-the-journey-audience-qualification-event.png)
+   ![Lienzo de Recorrido con el evento de calificación de audiencia agregado y área de nombres establecida en customerID](assets/create-the-journey-audience-qualification-event.png)
 
-&#x200B;9. Una vez que todos se vean correctos, haz clic en el botón azul **Guardar** para guardar tu progreso.
+9. Una vez que todos se vean correctos, haz clic en el botón azul **Guardar** para guardar tu progreso.
 
 >[!NOTE]
 >
@@ -42,33 +41,33 @@ ht-degree: 0%
 2. Cuando aparezca la superposición &quot;Seleccionar tipo de acción&quot;, selecciona la acción **Experiencia basada en código** y haz clic en el botón azul **Agregar**.
 3. En las propiedades &quot;Action\:Code-based experience&quot;, que ahora están visibles, haga clic en el botón **Configurar acción**.
 
-![Propiedades de acción de experiencia basada en código con el botón Configurar acción](assets/create-the-journey-configure-action-button.png)
+   ![Propiedades de acción de experiencia basada en código con el botón Configurar acción](assets/create-the-journey-configure-action-button.png)
 
-&#x200B;4. Cambie el menú desplegable **Configuración basada en código** al cubo **jsonOffer\_cbe** que creó en la última sección.
+4. Cambie el menú desplegable **Configuración basada en código** al cubo **jsonOffer\_cbe** que creó en la última sección.
 
-![Menú desplegable de configuración basado en código establecido en el canal jsonOffer_cbe](assets/create-the-journey-select-jsonoffer-cbe.png)
+   ![Menú desplegable de configuración basado en código establecido en el canal jsonOffer_cbe](assets/create-the-journey-select-jsonoffer-cbe.png)
 
-&#x200B;5. Haga clic en el botón **Editar contenido** que se encuentra justo encima de la lista desplegable &quot;Configuración basada en código&quot;.
-&#x200B;6. En la pantalla del editor de experiencias basado en código resultante, haga clic en el botón **Editar código**. La pantalla resultante es donde se agrega el JSON devuelto a las solicitudes de Experience Event
+5. Haga clic en el botón **Editar contenido** que se encuentra justo encima de la lista desplegable &quot;Configuración basada en código&quot;.
+6. En la pantalla del editor de experiencias basado en código resultante, haga clic en el botón **Editar código**. La pantalla resultante es donde se agrega el JSON devuelto a las solicitudes de Experience Event
 
-![Editar pantalla de código para el editor de experiencias basado en código](assets/create-the-journey-edit-code-screen.png)
+   ![Editar pantalla de código para el editor de experiencias basado en código](assets/create-the-journey-edit-code-screen.png)
 
-&#x200B;7. En el extremo izquierdo del editor de código, haga clic en el elemento de menú **Directiva de decisión**, seguido de un clic en el botón **Agregar directiva de decisión** del nuevo menú.
+7. En el extremo izquierdo del editor de código, haga clic en el elemento de menú **Directiva de decisión**, seguido de un clic en el botón **Agregar directiva de decisión** del nuevo menú.
 
-![Menú de directiva de decisión con el botón Agregar directiva de decisión](assets/create-the-journey-add-decision-policy-button.png)
+   ![Menú de directiva de decisión con el botón Agregar directiva de decisión](assets/create-the-journey-add-decision-policy-button.png)
 
->[!NOTE]
->
->Si en una estrategia de selección es donde se vincula una colección de ofertas a un método de clasificación (y se aplica la elegibilidad de nivel de estrategia), entonces es en una política de decisión donde se vincula una estrategia de selección a una entrega específica de un canal.
+   >[!NOTE]
+   >
+   >Si en una estrategia de selección es donde se vincula una colección de ofertas a un método de clasificación (y se aplica la elegibilidad de nivel de estrategia), entonces es en una política de decisión donde se vincula una estrategia de selección a una entrega específica de un canal.
 
-&#x200B;8. Asigne un nombre a esta directiva de decisión **iPhone 17 DP** y deje el número de elementos establecido en 1.
+8. Asigne un nombre a esta directiva de decisión **iPhone 17 DP** y deje el número de elementos establecido en 1.
 
->[!NOTE]
->
->Hasta este punto, ha configurado las ofertas y cómo pedirlas, pero no ha configurado cuántas se devuelven. Aquí es donde se configura la cantidad de ofertas que deben devolverse.
+   >[!NOTE]
+   >
+   >Hasta este punto, ha configurado las ofertas y cómo pedirlas, pero no ha configurado cuántas se devuelven. Aquí es donde se configura la cantidad de ofertas que deben devolverse.
 
-&#x200B;9. Haga clic en el botón **Siguiente** azul. Aquí es donde se agrega la estrategia de selección. Haga clic en el botón **+Agregar** (es posible que tenga que desplazarse hacia abajo para verlo) y elija **Estrategia de selección**.
-&#x200B;10. Marque la casilla junto a la única estrategia de selección que debería tener (**Estrategia de selección de iPhone 17**) y haga clic en **Guardar**. Cuando termine, esto es lo que ve:
+9. Haga clic en el botón **Siguiente** azul. Aquí es donde se agrega la estrategia de selección. Haga clic en el botón **+Agregar** (es posible que tenga que desplazarse hacia abajo para verlo) y elija **Estrategia de selección**.
+10. Marque la casilla junto a la única estrategia de selección que debería tener (**Estrategia de selección de iPhone 17**) y haga clic en **Guardar**. Cuando termine, esto es lo que ve:
 
 ![Estrategia de selección de iPhone 17 seleccionada para la directiva de decisión](assets/create-the-journey-selection-strategy-selected.png)
 
@@ -78,16 +77,16 @@ ht-degree: 0%
 >
 >La oferta de reserva es opcional porque solo se aplicaría si fuera posible que los usuarios finales no fueran aptos para ninguna de las ofertas (o que dejaran de serlo). En nuestro caso, nuestra estrategia de selección era para todos los visitantes, y las únicas personas que llegarían al nodo de CBE eran las que entraban en el Recorrido. La autenticación es un requisito para la entrada de Recorrido (el área de nombres establecida en el Recorrido es una que solo tendría si se autenticara). También hemos incorporado una oferta de reserva en nuestra fórmula de clasificación, por lo que, en nuestro caso, no es necesario establecer esta oferta de reserva.
 
-&#x200B;11. Haga clic en el botón azul **Siguiente** para revisar la directiva de decisión.
+11. Haga clic en el botón azul **Siguiente** para revisar la directiva de decisión.
 
 ![Revise el paso de la directiva de decisión antes de crearla](assets/create-the-journey-review-decision-policy.png)
 
-&#x200B;12. Una vez que todo parezca correcto, haga clic en el botón azul **Crear**. Una vez creado, vuelve a la página del editor de expresiones.
-&#x200B;13. Debería ver una pantalla similar a la de abajo; si no es así, vuelva a hacer clic en **Directiva de decisiones** para que aparezca la directiva de decisiones.
+12. Una vez que todo parezca correcto, haga clic en el botón azul **Crear**. Una vez creado, vuelve a la página del editor de expresiones.
+13. Debería ver una pantalla similar a la de abajo; si no es así, vuelva a hacer clic en **Directiva de decisiones** para que aparezca la directiva de decisiones.
 
 ![El editor de expresiones que muestra la directiva de decisión está listo para insertarse](assets/create-the-journey-decision-policy-ready.png)
 
-&#x200B;14. Haga clic en el botón **+ Insertar directiva** y verá aparecer un bucle ForEach en el editor de código:
+14. Haga clic en el botón **+ Insertar directiva** y verá aparecer un bucle ForEach en el editor de código:
 
 ![Bucle ForEach insertado en el editor de código después de insertar la directiva de decisión](assets/create-the-journey-foreach-loop-inserted.png)
 
@@ -95,15 +94,15 @@ ht-degree: 0%
 >
 >¿Por qué un para cada bucle? En nuestro caso, solo estamos devolviendo una sola oferta. Sin embargo, considere los pasos anteriores en los que podríamos devolver varias ofertas. Cuando se tiene en cuenta la funcionalidad, el mecanismo de bucle tiene sentido.
 
-&#x200B;15. Añada un JSON válido dentro de los límites del bucle para devolver la marca, el modelo y el nivel del teléfono que debe ofrecerse al usuario final. Dado que también se ha establecido un límite de frecuencia, es necesario agregar un trackingToken a la respuesta. Más información más adelante en las instrucciones. Para ahorrar tiempo, simplemente copie y pegue estas líneas de código en el editor de código dentro del bucle For Each:
+15. Añada un JSON válido dentro de los límites del bucle para devolver la marca, el modelo y el nivel del teléfono que debe ofrecerse al usuario final. Dado que también se ha establecido un límite de frecuencia, es necesario agregar un trackingToken a la respuesta. Más información más adelante en las instrucciones. Para ahorrar tiempo, simplemente copie y pegue estas líneas de código en el editor de código dentro del bucle For Each:
 
 ```javascript
-   {
-        "make":"",
-        "model":"",
-        "tier":"",
-        "trackingToken":""
-    },
+{
+     "make":"",
+     "model":"",
+     "tier":"",
+     "trackingToken":""
+ },
 ```
 
 ![JSON inicial con los campos make, model, tier y trackingToken dentro del bucle ForEach](assets/create-the-journey-initial-json-in-loop.png)
@@ -112,14 +111,14 @@ ht-degree: 0%
 >
 >Recuerde que ha añadido atributos al esquema XDM de oferta estándar, en concreto, la marca, el modelo y el nivel. Después, rellenó esos atributos cuando se crearon las ofertas. Ahora puede agregar esos atributos como variables que se rellenan con valores de la oferta seleccionada. El campo trackingToken es un valor generado por el sistema que se utiliza para rastrear clics e impresiones.
 
-&#x200B;16. Coloque el cursor entre **&quot;&quot;** del nodo &#39;make&#39;. Inserte la marca de la oferta navegando en el menú de la directiva de decisión hasta el nodo **\_dep > Dispositivo > Crear**.  Haga clic en el icono **+** en el elemento **Make** y verá que rellena el editor.
+16. Coloque el cursor entre **&quot;&quot;** del nodo &#39;make&#39;. Inserte la marca de la oferta navegando en el menú de la directiva de decisión hasta el nodo **\_dep > Dispositivo > Crear**.  Haga clic en el icono **+** en el elemento **Make** y verá que rellena el editor.
 
 ![Crear atributo de la directiva de decisión rellenada en el editor JSON](assets/create-the-journey-populate-make-attribute.png)
 
-&#x200B;17. Agregue los atributos **model** y **tier** de manera similar.
-&#x200B;18. Haga clic en **Directiva de decisiones** en la navegación de atributos para regresar al nivel raíz.
-&#x200B;19. Rellene el atributo trackingToken navegando hasta el valor del token de seguimiento a través de la ruta **\_experience > decisioning > decisionitem > Token de seguimiento**.
-&#x200B;20. Por último, coloque todo el código entre corchetes (**\[]**). El código JSON final debería tener un aspecto similar al siguiente:
+17. Agregue los atributos **model** y **tier** de manera similar.
+18. Haga clic en **Directiva de decisiones** en la navegación de atributos para regresar al nivel raíz.
+19. Rellene el atributo trackingToken navegando hasta el valor del token de seguimiento a través de la ruta **\_experience > decisioning > decisionitem > Token de seguimiento**.
+20. Por último, coloque todo el código entre corchetes (**\[]**). El código JSON final debería tener un aspecto similar al siguiente:
 
 ![Código JSON final entre corchetes para la respuesta de CBE](assets/create-the-journey-final-json-code.png)
 
@@ -129,16 +128,16 @@ ht-degree: 0%
 
 
 
-&#x200B;21. Una vez que todo se vea en la captura de pantalla anterior, haz clic en **Guardar y cerrar** en la esquina superior derecha para guardar el código. A continuación, volverá a la página Experiencia basada en código.
-&#x200B;22. Haga clic en el icono de flecha hacia atrás **\&lt;** junto al nombre del Recorrido y volverá al lienzo.
+21. Una vez que todo se vea en la captura de pantalla anterior, haz clic en **Guardar y cerrar** en la esquina superior derecha para guardar el código. A continuación, volverá a la página Experiencia basada en código.
+22. Haga clic en el icono de flecha hacia atrás **\&lt;** junto al nombre del Recorrido y volverá al lienzo.
 
 ![Lienzo de Recorrido después de regresar del editor de experiencias basado en código](assets/create-the-journey-return-to-canvas.png)
 
-&#x200B;23. Haga clic en el botón azul **Guardar** para guardar el nodo de acción de CBE. El Recorrido ahora tiene este aspecto:
+23. Haga clic en el botón azul **Guardar** para guardar el nodo de acción de CBE. El Recorrido ahora tiene este aspecto:
 
 ![Lienzo de Recorrido que muestra el nodo de acción CBE completado](assets/create-the-journey-completed-canvas.png)
 
-&#x200B;24. Una vez completado el Recorrido, haz clic en el botón azul **Publicar** en la esquina superior derecha y vuelve a **Publicar** cuando aparezca el cuadro de confirmación. ¡Después de un momento o dos, ves que tu Recorrido está ahora en vivo!
+24. Una vez completado el Recorrido, haz clic en el botón azul **Publicar** en la esquina superior derecha y vuelve a **Publicar** cuando aparezca el cuadro de confirmación. ¡Después de un momento o dos, ves que tu Recorrido está ahora en vivo!
 
 ![Recorrido de exploración de abandono de iPhone 17 publicado y activo](assets/create-the-journey-published-live.png)
 

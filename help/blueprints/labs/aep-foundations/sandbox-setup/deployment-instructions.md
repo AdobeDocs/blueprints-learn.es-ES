@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Instrucciones de implementación
 description: Utilice la CLI de DEP para implementar los esquemas, conjuntos de datos, flujos de datos y datos de perfil de muestra del paquete de laboratorio de AEP Foundations en su zona protegida.
 doc-type: article
 solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 1%
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 # Instrucciones de implementación
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Esto solo es necesario si está trabajando en los laboratorios a su propio ritmo. Si está en un curso o evento de formación en directo, su zona protegida ya se ha implementado para usted.
 
@@ -58,17 +57,17 @@ El paquete de laboratorio de AEP Foundations se implementa en el entorno limitad
 La CLI se implementa en cualquier zona protegida a la que apunte el archivo de entorno, por lo que esto debe configurarse correctamente antes de ejecutar cualquier cosa.
 
 1. Copie `envFiles/sample-env.json` y asígnele un nombre nuevo, p. ej. `my-env.json`
-2. Abra el archivo y rellene los campos siguientes con los valores de [Configuración de Developer Console](developer-console-setup.md):
+1. Abra el archivo y rellene los campos siguientes con los valores de [Configuración de Developer Console](developer-console-setup.md):
 
-| **Campo** | **Valor** |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | ID de cliente |
-| `CLIENT_SECRET` | Secreto del cliente |
-| `IMS_ORG` | ID de organización |
-| `SCOPES` | Debe incluir ámbitos de API de Experience Platform (openid, session, AdobeID, read_groups, additional_info.projectProductContext) |
-| `SANDBOX_NAME` | La zona protegida a la que está dirigiendo debe estar vacía y ser del tipo `dev` |
+   | **Campo** | **Valor** |
+   | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | ID de cliente |
+   | `CLIENT_SECRET` | Secreto del cliente |
+   | `IMS_ORG` | ID de organización |
+   | `SCOPES` | Debe incluir ámbitos de API de Experience Platform (openid, session, AdobeID, read_groups, additional_info.projectProductContext) |
+   | `SANDBOX_NAME` | La zona protegida a la que está dirigiendo debe estar vacía y ser del tipo `dev` |
 
-&#x200B;3. Guarde y cierre el archivo
+1. Guarde y cierre el archivo
 
 >[!NOTE]
 >
@@ -90,7 +89,7 @@ En el menú principal, seleccione **AEP foundation**. Hay tres pasos, y tienen q
 
 El paso 1 tarda unos 2 minutos en ejecutarse, el paso 2, unos 6 minutos, y el paso 3 es una validación rápida sin esperar por sí solo. Los intervalos de 60 y 15 minutos entre pasos son para que AEP termine de propagar los datos entre bastidores; esa es la mayor parte de su cronología de 2 horas.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >La CLI comprueba automáticamente estos tiempos de espera. Si ejecuta un paso demasiado pronto, se bloquea y le informa de cuántos minutos quedan; no necesita rastrear el reloj usted mismo.
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Corrección de errores
 description: Corrija una expresión de campo calculado para un error de formato de fecha y, a continuación, confirme el éxito mediante las métricas de monitorización de fuentes, identidades y perfiles.
 doc-type: article
 solution: Experience Platform
 exl-id: 7a3d0c15-4d58-497e-bfa5-9421d5d2eea7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -19,17 +18,17 @@ ht-degree: 0%
 
 1. Haga clic en el icono de flecha al lado del campo calculado que rellena el campo XDM **person.birthDayAndMonth**
 
-![Editor de expresiones de campo calculado para la corrección birthDayAndMonth](assets/fixing-errors-update-the-calculated-expression.png)
+   ![Editor de expresiones de campo calculado para la corrección birthDayAndMonth](assets/fixing-errors-update-the-calculated-expression.png)
 
 1. Actualice la expresión utilizando el siguiente código de campo calculado y haga clic en **Vista previa**
 
-```none
-concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
-```
+   ```none
+   concat(date_part("mm", date(birth_Date, "M/d/yyyy")).toString(),"-", date_part("dd", date(birth_Date, "M/d/yyyy")).toString())
+   ```
 
->[!NOTE]
->
->Los datos deben aparecer como un mes de 2 dígitos y un día de 2 dígitos (es decir, el 27 de abril se muestra como 04-27). Los parámetros `mm` y `dd` agregan relleno 0.
+   >[!NOTE]
+   >
+   >Los datos deben aparecer como un mes de 2 dígitos y un día de 2 dígitos (es decir, el 27 de abril se muestra como 04-27). Los parámetros `mm` y `dd` agregan relleno 0.
 
 1. Si todo parece correcto **Guardar** el campo calculado
 

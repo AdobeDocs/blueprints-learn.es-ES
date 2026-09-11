@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Prueba del correo electrónico
 description: Obtenga información sobre cómo enviar y verificar correos electrónicos de prueba en Adobe Journey Optimizer para validar contenido personalizado y variantes condicionales antes de la activación.
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,27 +32,27 @@ En este punto, ha aprendido que no solo podemos personalizar los atributos de pe
 1. Haga clic en **Simular contenido**.
 2. Seleccione **Simular variación de contenido**.
 
-![Haciendo clic en Simular contenido y seleccionando Simular variación de contenido](assets/content-simulation-click-simulate-content-variation.png)
+   ![Haciendo clic en Simular contenido y seleccionando Simular variación de contenido](assets/content-simulation-click-simulate-content-variation.png)
 
-Se abre un panel de simulación.
+   Se abre un panel de simulación.
 
-&#x200B;3. Haga clic en **Enviar revisión**.
+3. Haga clic en **Enviar revisión**.
 
-![Botón Enviar prueba en el panel de simulación](assets/test-the-email-click-send-proof-button.png)
+   ![Botón Enviar prueba en el panel de simulación](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. Añada su propia dirección de correo electrónico personal.
+4. Añada su propia dirección de correo electrónico personal.
 
->[!NOTE]
->
->Tenga en cuenta que, a veces, el correo electrónico corporativo bloqueará los correos electrónicos de la zona protegida. Le recomendaría que use su correo electrónico personal.
+   >[!NOTE]
+   >
+   >Tenga en cuenta que, a veces, el correo electrónico corporativo bloqueará los correos electrónicos de la zona protegida. Le recomendaría que use su correo electrónico personal.
 
 
 
-&#x200B;5. Seleccione ambas variantes.
-&#x200B;6. Añadir prefijo de línea de asunto
+5. Seleccione ambas variantes.
+6. Añadir prefijo de línea de asunto
    1. Variante 1: superior a 40
    2. Variante 2: por debajo de 40
-&#x200B;7. Haga clic en **Enviar revisión**. Recibe un mensaje de confirmación verde &quot;**Pruebas enviadas correctamente**&quot;
+7. Haga clic en **Enviar revisión**. Recibe un mensaje de confirmación verde &quot;**Pruebas enviadas correctamente**&quot;
 
 ![Mensaje de confirmación verde que muestra las pruebas enviadas correctamente](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

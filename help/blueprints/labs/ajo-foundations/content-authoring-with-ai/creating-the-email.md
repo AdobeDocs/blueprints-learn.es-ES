@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Creación del correo electrónico
 description: Aprenda a aplicar una plantilla de contenido de marca a un correo electrónico de campaña en Adobe Journey Optimizer y a reemplazar imágenes de productos y héroes.
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -39,58 +38,58 @@ Este paso muestra cómo se pueden reutilizar las plantillas en todos los recorri
 1. Vuelva a la pantalla principal y haga clic en **Administración de Recorridos → Campañas**.
 2. Haz clic en **Crear campaña**
 
-![Botón Crear campaña en Administración de Recorridos](assets/creating-the-email-click-create-campaign-button.png)
+   ![Botón Crear campaña en Administración de Recorridos](assets/creating-the-email-click-create-campaign-button.png)
 
-&#x200B;3. Seleccione &quot;**Orquestación - Marketing**&quot; y haga clic en **confirmar**
+3. Seleccione &quot;**Orquestación - Marketing**&quot; y haga clic en **confirmar**
 
-![Seleccionar orquestación - Marketing y hacer clic en confirmar](assets/creating-the-email-select-orchestration-marketing.png)
+   ![Seleccionar orquestación - Marketing y hacer clic en confirmar](assets/creating-the-email-select-orchestration-marketing.png)
 
-&#x200B;4. Asigne un nombre a la campaña `Flagship Phone Launch Branded`. Presione el botón **Guardar**.
+4. Asigne un nombre a la campaña `Flagship Phone Launch Branded`. Presione el botón **Guardar**.
 
-![Poner nombre a la campaña y hacer clic en Guardar](assets/creating-the-email-name-campaign-save.png) en el lanzamiento de Flagship Phone
+   ![Poner nombre a la campaña y hacer clic en Guardar](assets/creating-the-email-name-campaign-save.png) en el lanzamiento de Flagship Phone
 
-&#x200B;5. Haga clic en el signo **+** y seleccione la actividad **Leer audiencia**
+5. Haga clic en el signo **+** y seleccione la actividad **Leer audiencia**
 
-![Más el signo para seleccionar la actividad Leer audiencia](assets/creating-the-email-click-plus-read-audience.png)
+   ![Más el signo para seleccionar la actividad Leer audiencia](assets/creating-the-email-click-plus-read-audience.png)
 
-&#x200B;6. El siguiente paso es seleccionar el cuadro **&quot;Leer audiencia&quot;** y hacer clic en el **icono de la carpeta Audiencia**
+6. El siguiente paso es seleccionar el cuadro **&quot;Leer audiencia&quot;** y hacer clic en el **icono de la carpeta Audiencia**
 
-![Icono de Leer cuadro de audiencia y carpeta de audiencia](assets/creating-the-email-read-audience-folder-icon.png)
+   ![Icono de Leer cuadro de audiencia y carpeta de audiencia](assets/creating-the-email-read-audience-folder-icon.png)
 
-&#x200B;7. Seleccione la audiencia **dep: interesado en iPhone 17** y haga clic en el botón &quot;**Agregar audiencia**&quot;
+7. Seleccione la audiencia **dep: interesado en iPhone 17** y haga clic en el botón &quot;**Agregar audiencia**&quot;
 
-![Seleccionar la audiencia de iPhone 17 que le interesa y hacer clic en Agregar audiencia](assets/creating-the-email-select-audience-add-button.png)
+   ![Seleccionar la audiencia de iPhone 17 que le interesa y hacer clic en Agregar audiencia](assets/creating-the-email-select-audience-add-button.png)
 
-&#x200B;8. Seleccione Entidad - **dep-rel: Cuenta de cliente - customer\_id** (o cualquier, ya que no importa para esta parte)
-&#x200B;9. Agregue la **actividad de correo electrónico** haciendo clic en **+ signo** y, a continuación, seleccione **Correo electrónico** de las actividades del canal.
+8. Seleccione Entidad - **dep-rel: Cuenta de cliente - customer\_id** (o cualquier, ya que no importa para esta parte)
+9. Agregue la **actividad de correo electrónico** haciendo clic en **+ signo** y, a continuación, seleccione **Correo electrónico** de las actividades del canal.
 
-![Agregando la actividad de correo electrónico desde actividades del canal](assets/creating-the-email-add-email-channel-activity.png)
+   ![Agregando la actividad de correo electrónico desde actividades del canal](assets/creating-the-email-add-email-channel-activity.png)
 
-&#x200B;10. Haz clic en **Editar correo electrónico**.
+10. Haz clic en **Editar correo electrónico**.
 
 ![Editar opción de correo electrónico para la actividad de correo electrónico de la campaña](assets/creating-the-email-click-edit-email.png)
 
-&#x200B;11. Haz clic en la pestaña **Acción** y selecciona **tu** configuración de correo electrónico. Su zona protegida puede mostrarla como un correo electrónico relacional. (Seleccione cualquiera)
+11. Haz clic en la pestaña **Acción** y selecciona **tu** configuración de correo electrónico. Su zona protegida puede mostrarla como un correo electrónico relacional. (Seleccione cualquiera)
 
 ![Ficha de acción con la configuración de correo electrónico seleccionada](assets/creating-the-email-action-tab-email-configuration.png)
 
-&#x200B;12. Haz clic en **pestaña Contenido**
+12. Haz clic en **pestaña Contenido**
 
 ![Pestaña Contenido en el editor de correo electrónico](assets/creating-the-email-click-content-tab.png)
 
-&#x200B;13. Haga clic en **Aplicar plantilla de contenido**
+13. Haga clic en **Aplicar plantilla de contenido**
 
 ![Aplicar plantilla de contenido en el editor de correo electrónico](assets/creating-the-email-click-apply-content-template.png)
 
-&#x200B;14. Seleccione la plantilla **&quot;Plantilla promocional&quot;** que creó y haga clic en **Confirmar**
+14. Seleccione la plantilla **&quot;Plantilla promocional&quot;** que creó y haga clic en **Confirmar**
 
 ![Seleccionando la plantilla promocional y haciendo clic en Confirmar](assets/creating-the-email-select-promotional-template-confirm.png)
 
-&#x200B;15. Haz clic en **Editar cuerpo del correo electrónico**
+15. Haz clic en **Editar cuerpo del correo electrónico**
 
 ![Editar opción de cuerpo del correo electrónico después de aplicar la plantilla](assets/creating-the-email-click-edit-email-body.png)
 
-&#x200B;16. Confirme que el nuevo encabezado, la imagen a pantalla completa, el pie de página y los bloques de contenido aparecen correctamente.
+16. Confirme que el nuevo encabezado, la imagen a pantalla completa, el pie de página y los bloques de contenido aparecen correctamente.
 
 ![Los bloques de encabezado, imagen a pantalla completa, pie de página y contenido aparecen correctamente en el correo electrónico](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
@@ -101,25 +100,25 @@ Cambiar las imágenes de héroe y teléfono. Debe cargar contenido en los recurs
 
 1. Haga clic en la imagen del titular de héroe roto.
 
-![Haciendo clic en la imagen de titular de marcador de posición a pantalla completa](assets/creating-the-email-click-broken-hero-banner-image.png)
+   ![Haciendo clic en la imagen de titular de marcador de posición a pantalla completa](assets/creating-the-email-click-broken-hero-banner-image.png)
 
-&#x200B;2. Elimine la URL de origen temporal.
+2. Elimine la URL de origen temporal.
 
-![Quitando la dirección URL de origen temporal de la imagen](assets/creating-the-email-remove-temporary-source-url.png)
+   ![Quitando la dirección URL de origen temporal de la imagen](assets/creating-the-email-remove-temporary-source-url.png)
 
-&#x200B;3. Haz clic en **Importar medios**
+3. Haz clic en **Importar medios**
 
-![Botón Importar medios para la imagen a pantalla completa](assets/creating-the-email-click-import-media.png)
+   ![Botón Importar medios para la imagen a pantalla completa](assets/creating-the-email-click-import-media.png)
 
-&#x200B;4. Cargue `hero.png` de su kit de herramientas. (Puede arrastrar el archivo)
+4. Cargue `hero.png` de su kit de herramientas. (Puede arrastrar el archivo)
 
-![Cargando hero.png desde la carpeta del kit de herramientas](assets/creating-the-email-upload-hero-png-file.png)
+   ![Cargando hero.png desde la carpeta del kit de herramientas](assets/creating-the-email-upload-hero-png-file.png)
 
-&#x200B;5. Haga clic en **Siguiente,** Seleccione **su carpeta para los recursos** y presione **importar**
+5. Haga clic en **Siguiente,** Seleccione **su carpeta para los recursos** y presione **importar**
 
-![Seleccionando la carpeta de recursos y haciendo clic en importar para la imagen a pantalla completa](assets/creating-the-email-select-folder-import-hero.png)
+   ![Seleccionando la carpeta de recursos y haciendo clic en importar para la imagen a pantalla completa](assets/creating-the-email-select-folder-import-hero.png)
 
-&#x200B;6. Su plantilla de correo electrónico está saliendo bien. Aparece de la siguiente manera. Haga clic en **&quot;Guardar&quot;** para guardar el trabajo.
+6. Su plantilla de correo electrónico está saliendo bien. Aparece de la siguiente manera. Haga clic en **&quot;Guardar&quot;** para guardar el trabajo.
 
 ![Se ha actualizado la plantilla de correo electrónico con la nueva imagen a pantalla completa antes de guardar](assets/creating-the-email-save-updated-email-template.png)
 

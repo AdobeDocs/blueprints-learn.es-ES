@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Resumen
 description: Resumen de la creación y validación de un recorrido impulsado por eventos de Envío de pedidos con una acción personalizada y un evento de prueba en Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: c6f87223-a060-49d8-a784-d37d3422edd0
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 1%
@@ -23,7 +22,7 @@ Después de configurar la recorrido, probó la configuración y envió un evento
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

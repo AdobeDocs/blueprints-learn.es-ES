@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Importar archivo de entorno
 description: Importe el archivo de entorno de Postman y establezca las variables globales como EDGE_REGION necesarias para las llamadas de API en todo el bootcamp.
 doc-type: article
 solution: Experience Platform
 exl-id: a5d45656-e3f5-4207-823c-ad33d4ef26a4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -23,20 +22,20 @@ En esta página, importará el archivo de entorno de Postman.  Este archivo cont
 
 1. Descargar el archivo **AJO Bootcamp.postman\_environment.json**:
 
-Descargar archivo: [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.postman_environment.json)
+   Descargar archivo: [AJO Bootcamp.postman_environment.json](assets/ajo-bootcamp.postman_environment.json)
 
-&#x200B;2. Inicie Postman en el equipo local.
-&#x200B;3. Si es necesario, cambie a la Workspace que esté usando para estos laboratorios (si es que usa Workspace) y haga clic en el botón **Importar**.
+2. Inicie Postman en el equipo local.
+3. Si es necesario, cambie a la Workspace que esté usando para estos laboratorios (si es que usa Workspace) y haga clic en el botón **Importar**.
 
-![Postman comienza a importar](assets/import-environment-file-click-import-button.png)
+   ![Postman comienza a importar](assets/import-environment-file-click-import-button.png)
 
-&#x200B;4. Pegue la URL local del archivo **AJO Bootcamp.postman\_environment.json** en el cuadro de texto modal de importación o suéltelo en el cuadro de diálogo de importación.  Esto debería almacenar en déclencheur una importación automática
+4. Pegue la URL local del archivo **AJO Bootcamp.postman\_environment.json** en el cuadro de texto modal de importación o suéltelo en el cuadro de diálogo de importación.  Esto debería almacenar en déclencheur una importación automática
 
-![Cuadro de diálogo de importación de Postman que muestra la opción para pegar una URL de archivo](assets/import-environment-file-import-button-overlay.png "Importación de Postman a través de la URL")
+   ![Cuadro de diálogo de importación de Postman que muestra la opción para pegar una URL de archivo](assets/import-environment-file-import-button-overlay.png "Importación de Postman a través de la URL")
 
-![cuadro de diálogo de importación de Postman que acepta un archivo colocado mediante arrastrar y soltar](assets/import-environment-file-drag-and-drop-import.png "Importación de Postman mediante arrastrar y soltar")
+   ![cuadro de diálogo de importación de Postman que acepta un archivo colocado mediante arrastrar y soltar](assets/import-environment-file-drag-and-drop-import.png "Importación de Postman mediante arrastrar y soltar")
 
-&#x200B;5. Una vez importado, compruebe que el entorno existe haciendo clic en la ficha **Entornos** en la barra lateral izquierda. Verá que el entorno de Bootcamp de AJO ya está disponible.
+5. Una vez importado, compruebe que el entorno existe haciendo clic en la ficha **Entornos** en la barra lateral izquierda. Verá que el entorno de Bootcamp de AJO ya está disponible.
 
 ![Validar importación de entorno](assets/import-environment-file-validate-environment-imported.png)
 
@@ -47,27 +46,27 @@ Postman se ha diseñado para probar e interactuar con las API. Sin embargo, se u
 1. Si es necesario, haga clic en la pestaña **Entornos** en la barra lateral izquierda de Postman
 2. Haga clic en el archivo de entorno **AJO Bootcamp**. Verá algunos valores que debe rellenar
 
-![Variables de entorno de Postman con valores vacíos que deben rellenarse](assets/import-environment-file-values-need-filling-in.png "Compruebe las variables de Postman en los entornos")
+   ![Variables de entorno de Postman con valores vacíos que deben rellenarse](assets/import-environment-file-values-need-filling-in.png "Compruebe las variables de Postman en los entornos")
 
-&#x200B;3. Omita el valor DATASTREAM\_CONFIG por ahora. Creará una configuración de secuencia de datos en un laboratorio posterior.
-&#x200B;4. Actualice el campo **EDGE\_REGION** con el código de región que esté más cerca de donde se encuentra físicamente para este campo de arranque, utilizando la tabla siguiente como búsqueda.
+3. Omita el valor DATASTREAM\_CONFIG por ahora. Creará una configuración de secuencia de datos en un laboratorio posterior.
+4. Actualice el campo **EDGE\_REGION** con el código de región que esté más cerca de donde se encuentra físicamente para este campo de arranque, utilizando la tabla siguiente como búsqueda.
 
-| **Región** | **Código de región** |
-| ---------- | --------------- |
-| Oeste de Estados Unidos | o2 |
-| Este de Estados Unidos | va6 |
-| Europa | irl1 |
-| Australia | aus3 |
-| Japón | jpn3 |
-| Asia | spg3 |
+   | **Región** | **Código de región** |
+   | ---------- | --------------- |
+   | Oeste de Estados Unidos | o2 |
+   | Este de Estados Unidos | va6 |
+   | Europa | irl1 |
+   | Australia | aus3 |
+   | Japón | jpn3 |
+   | Asia | spg3 |
 
-Cuando termine, el archivo de entorno debería tener un aspecto similar al siguiente:
+   Cuando termine, el archivo de entorno debería tener un aspecto similar al siguiente:
 
 
 
-![Verificar variable de región Postman](assets/import-environment-file-region-variable-set.png)
+   ![Verificar variable de región Postman](assets/import-environment-file-region-variable-set.png)
 
-&#x200B;5. Ahora debe guardar las variables de entorno; sin embargo, no hay ningún botón Guardar en la interfaz de usuario de Postman. Utilice las teclas de acceso rápido de Windows o Mac para guardar (Ctrl+S en Windows, por ejemplo). Sabe que sus cambios se han guardado cuando ve el mensaje **Cambios guardados** en la parte inferior derecha de la interfaz de usuario de Postman:
+5. Ahora debe guardar las variables de entorno; sin embargo, no hay ningún botón Guardar en la interfaz de usuario de Postman. Utilice las teclas de acceso rápido de Windows o Mac para guardar (Ctrl+S en Windows, por ejemplo). Sabe que sus cambios se han guardado cuando ve el mensaje **Cambios guardados** en la parte inferior derecha de la interfaz de usuario de Postman:
 
 ![Verificar cambios guardados](assets/import-environment-file-changes-saved-confirmation.png)
 

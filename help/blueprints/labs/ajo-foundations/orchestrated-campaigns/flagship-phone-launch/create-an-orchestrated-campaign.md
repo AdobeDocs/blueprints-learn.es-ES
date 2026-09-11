@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Creación de una campaña organizada
 description: Obtenga información sobre cómo crear el shell de una campaña orquestada y revisar sus opciones de programación predeterminadas.
 doc-type: article
 solution: Experience Platform
 exl-id: e4e8eabd-ab91-4693-9b8a-0f94dd15db13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -25,18 +24,18 @@ En el siguiente conjunto de pasos se crea el shell de una campaña orquestada (s
 
 1. Primero, asegúrese de que está en la aplicación de Adobe Journey Optimizer seleccionando la aplicación en el cajón de aplicaciones en la parte superior derecha del explorador
 
-![Seleccione Adobe Journey Optimizer del cajón de aplicaciones](assets/create-an-orchestrated-campaign-select-ajo-app.png)
+   ![Seleccione Adobe Journey Optimizer del cajón de aplicaciones](assets/create-an-orchestrated-campaign-select-ajo-app.png)
 
 
 
-&#x200B;2. En el carril de navegación izquierdo, seleccione **Campañas**
-&#x200B;3. A continuación, haga clic en el botón **Crear campaña** en la esquina superior derecha
+2. En el carril de navegación izquierdo, seleccione **Campañas**
+3. A continuación, haga clic en el botón **Crear campaña** en la esquina superior derecha
 
-![Botón Crear campaña en la navegación de Campañas](assets/create-an-orchestrated-campaign-click-create-campaign.png)
+   ![Botón Crear campaña en la navegación de Campañas](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-&#x200B;4. En el modal que se muestra, seleccione **Orquestación - Marketing** y haga clic en **Confirmar**
+4. En el modal que se muestra, seleccione **Orquestación - Marketing** y haga clic en **Confirmar**
 
 ![Seleccionar orquestación - Marketing y hacer clic en Confirmar](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -48,11 +47,11 @@ En el siguiente conjunto de pasos se crea el shell de una campaña orquestada (s
    - **Política de combinación** —> `Default Timebased`
    - **Etiquetas** —> *dejar vacío*
 
-Cuando termine, la pantalla debería tener el aspecto siguiente.
+   Cuando termine, la pantalla debería tener el aspecto siguiente.
 
-![La configuración de la campaña se ha completado con la política de combinación y nombre](assets/create-an-orchestrated-campaign-settings-filled.png)
+   ![La configuración de la campaña se ha completado con la política de combinación y nombre](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-&#x200B;2. Haga clic en el botón **Guardar** para continuar.
+2. Haga clic en el botón **Guardar** para continuar.
 
 
 

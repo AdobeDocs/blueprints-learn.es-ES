@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar evento web a Hub
 description: Obtenga información sobre cómo enviar un evento web directamente al concentrador mediante Postman y validar que llega al perfil y cumple los requisitos para los segmentos de flujo continuo.
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -40,7 +39,7 @@ Comience por recopilar los siguientes valores:
 1. Vaya a **Orígenes** en el carril izquierdo y, a continuación, haga clic en **Cuentas** en la barra de navegación superior
 1. Busque **dep: API HTTP \[raw]**, resalte la fila, copie y guarde el valor de **extremo de transmisión** en cualquier lugar al que pueda hacer referencia más adelante
 
- y copie su extremo de flujo continuo&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ y copie su extremo de flujo continuo](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Buscar ID de flujo de datos web
 
@@ -63,7 +62,7 @@ Copie los valores guardados en los pasos anteriores en los lugares resaltados a 
 
 La solicitud de API final debería tener un aspecto similar al siguiente cuando se complete
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >NO EJECUTAR AÚN.
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar la acción personalizada
 description: Configure una acción personalizada reutilizable en Adobe Journey Optimizer que llame a un extremo de terceros para recuperar los detalles de ETA de envío y seguimiento.
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -33,9 +32,9 @@ En el carril izquierdo bajo el menú Administración, haga clic en **Configuraci
 
 1. En la esquina superior derecha, haga clic en el botón **Crear acción**
 
-![Botón Crear acción en la esquina superior derecha](assets/configure-custom-action-click-create-action-button.png)
+   ![Botón Crear acción en la esquina superior derecha](assets/configure-custom-action-click-create-action-button.png)
 
-&#x200B;2. En el panel de configuración que aparece, actualice los siguientes valores básicos como se muestra a continuación:
+2. En el panel de configuración que aparece, actualice los siguientes valores básicos como se muestra a continuación:
    - **Nombre**: `GetShippingDetails`
    - **Descripción**: `Call third party to get Shipping ETA and Tracking Number`
    - **Tipo de acción**: `Custom`
@@ -74,27 +73,27 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
 
 1. En el área Cargas útiles, haga clic en el **icono de lápiz** para abrir la pantalla Configuración de campo
 
-![Icono de lápiz para abrir la pantalla de configuración de campo en el área de cargas útiles](assets/configure-custom-action-open-field-configuration.png)
+   ![Icono de lápiz para abrir la pantalla de configuración de campo en el área de cargas útiles](assets/configure-custom-action-open-field-configuration.png)
 
-![Pantalla de configuración de campo para la carga útil de respuesta](assets/configure-custom-action-open-field-configuration--2.png)
+   ![Pantalla de configuración de campo para la carga útil de respuesta](assets/configure-custom-action-open-field-configuration--2.png)
 
 
 
-&#x200B;2. **Copie y pegue** la siguiente carga útil en el cuadro Carga útil
+2. **Copie y pegue** la siguiente carga útil en el cuadro Carga útil
 
-```json
-{
+   ```json
+   {
     "eta": "11/19/2025",
     "tracking_number": "072000326"
-}
-```
+   }
+   ```
 
->[!NOTE]
->
->Esta es la misma estructura JSON que el punto final de Mockaroo anterior debería devolver:
+   >[!NOTE]
+   >
+   >Esta es la misma estructura JSON que el punto final de Mockaroo anterior debería devolver:
 
 
-&#x200B;3. Se mostrará la carga útil de respuesta. Haga clic en el botón **Guardar**.
+3. Se mostrará la carga útil de respuesta. Haga clic en el botón **Guardar**.
 
 ![Carga de respuesta mostrada con el botón Guardar](assets/configure-custom-action-save-response-payload.png)
 
@@ -108,36 +107,36 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
 
 1. Haga clic en el botón **Enviar solicitud de prueba** en el carril inferior derecho para comprobar que no ha estropeado nada 😀
 
-![Enviar botón de solicitud de prueba en el carril inferior derecho](assets/configure-custom-action-click-send-test-request.png)
+   ![Enviar botón de solicitud de prueba en el carril inferior derecho](assets/configure-custom-action-click-send-test-request.png)
 
 
 
-&#x200B;2. Haga clic en la ficha **Parámetros de consulta** y actualice el valor de `orderId` a **123**
+2. Haga clic en la ficha **Parámetros de consulta** y actualice el valor de `orderId` a **123**
 
-![Pestaña Parámetros de consulta con valor orderId establecido en 123](assets/configure-custom-action-set-orderid-query-parameter.png)
-
-
-
-&#x200B;3. Haga clic en el **botón Enviar** y, si todo funciona bien, debería ver un código de respuesta de 200 y una vista previa de la carga útil, como se muestra a continuación...
-
-![Código de respuesta 200 y previsualización de carga útil después de enviar la solicitud de prueba](assets/configure-custom-action-response-200-preview.png)
-
-Vista previa
-
-```json
-{
-  "eta": "12/26/2025",
-  "tracking_number": "063112249"
-}
-```
-
->[!WARNING]
->
->Si no ve una respuesta de 200 o una vista previa, no continúe. Levante su ✋ para obtener ayuda.
+   ![Pestaña Parámetros de consulta con valor orderId establecido en 123](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-&#x200B;4. Haga clic en el botón **Cancelar** para volver a la pantalla Acción y, a continuación, desplácese hacia arriba en el carril superior derecho y haga clic en el botón **Guardar**
+3. Haga clic en el **botón Enviar** y, si todo funciona bien, debería ver un código de respuesta de 200 y una vista previa de la carga útil, como se muestra a continuación...
+
+   ![Código de respuesta 200 y previsualización de carga útil después de enviar la solicitud de prueba](assets/configure-custom-action-response-200-preview.png)
+
+   Vista previa
+
+   ```json
+   {
+     "eta": "12/26/2025",
+     "tracking_number": "063112249"
+   }
+   ```
+
+   >[!WARNING]
+   >
+   >Si no ve una respuesta de 200 o una vista previa, no continúe. Levante su ✋ para obtener ayuda.
+
+
+
+4. Haga clic en el botón **Cancelar** para volver a la pantalla Acción y, a continuación, desplácese hacia arriba en el carril superior derecho y haga clic en el botón **Guardar**
 
 >[!TIP]
 >

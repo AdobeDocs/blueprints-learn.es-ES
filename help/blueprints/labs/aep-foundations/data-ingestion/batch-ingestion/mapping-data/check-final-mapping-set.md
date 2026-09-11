@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Comprobar conjunto final de asignaciones
 description: Compare las asignaciones de campos simples y calculadas para el esquema de cuenta del cliente con el conjunto de asignaciones final esperado.
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Comprobar conjunto final de asignaciones
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Si viene del laboratorio de ingesta de transmisión, haga clic en el siguiente enlace para continuar con el siguiente paso en ese laboratorio:
 >
@@ -52,7 +51,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar.
 
@@ -66,6 +65,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString(), &quot;-&quot;, date\_part(&quot;day&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString()) | person.birthDayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;M/d/yyyy&quot;)) | person.birthYear |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar

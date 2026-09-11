@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Inicio de sesión y exploración
 description: Inicie sesión en Adobe Experience Platform y vaya a la sección Esquemas para examinar los esquemas, grupos de campos y tipos de datos existentes.
 doc-type: article
 solution: Experience Platform
 exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -43,7 +42,7 @@ Haga clic en el icono de Experience Platform en el panel de acceso rápido para 
 
 1. Haga clic en la ficha **Esquemas** en el carril izquierdo
 
-![Pestaña Esquemas en la navegación del carril izquierdo](assets/login-and-browse-schemas-tab-left-rail.png "Navegue hasta los esquemas utilizando el carril izquierdo")
+   ![Pestaña Esquemas en la navegación del carril izquierdo](assets/login-and-browse-schemas-tab-left-rail.png "Navegue hasta los esquemas utilizando el carril izquierdo")
 
 1. En la barra de navegación superior, verá las opciones para examinar los esquemas existentes, así como ver los grupos de campos y los tipos de datos que se encuentran actualmente en el registro XDM.
 

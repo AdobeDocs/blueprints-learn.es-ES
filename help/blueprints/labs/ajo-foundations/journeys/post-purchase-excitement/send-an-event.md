@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar un evento
 description: Utilice Postman para transmitir un evento de pedido enviado simulado directamente al concentrador para almacenar en déclencheur el recorrido, en lugar de enviarlo al Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -51,7 +50,7 @@ Comience por recopilar los siguientes valores:
 1. Busque el registro de **dep: Orders (stream)** haga clic en el vínculo de flujos de datos
 1. En el carril derecho, copie y guarde los valores de **ID de flujo de datos** en algún lugar al que pueda hacer referencia posteriormente
 
-&#x200B;> [!WARNING]
+>[!WARNING]
 >
 >Haga clic en un espacio vacío de la fila.  NO haga clic en los enlaces azules!
 
@@ -80,7 +79,7 @@ Inicie Postman en el equipo y vaya a la siguiente llamada de API:
    - **Verde** —> `Dataflow ID`
      - El valor tiene el aspecto de un GUID (no comienza con http)
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >NO EJECUTAR AÚN.
 

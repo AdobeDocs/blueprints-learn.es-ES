@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Envío de un evento de Edge
 description: Envíe un evento web no autenticado a Edge mediante Postman y rastree el evento a través del reenvío de eventos, la ingesta de perfiles, la calificación de audiencia y la activación de destino.
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
@@ -139,17 +138,17 @@ En Adobe Experience Platform, busque el perfil que acaba de enviar desde el even
 1. Haga clic en **Ver** para buscar el perfil
 1. Haga clic en **ID de perfil** para abrir el perfil
 
-![Busque el perfil y haga clic en el identificador de perfil para abrirlo](assets/send-an-edge-event-lookup-profile.png)
+   ![Busque el perfil y haga clic en el identificador de perfil para abrirlo](assets/send-an-edge-event-lookup-profile.png)
 
 
 
-&#x200B;3. Haz clic en **Eventos** en la barra de navegación superior y podrás ver el evento que acabas de enviar
+3. Haz clic en **Eventos** en la barra de navegación superior y podrás ver el evento que acabas de enviar
 
-![Ver el evento en la ficha Eventos del perfil](assets/send-an-edge-event-view-the-profile-event.png)
+   ![Ver el evento en la ficha Eventos del perfil](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. Valide que el perfil se haya clasificado para las audiencias mediante la revisión de la pestaña Pertenencia a la audiencia en la barra de navegación superior.  Debería ver lo siguiente:
+4. Valide que el perfil se haya clasificado para las audiencias mediante la revisión de la pestaña Pertenencia a la audiencia en la barra de navegación superior.  Debería ver lo siguiente:
 
 - Cualquier evento de Edge (en los últimos 15 minutos)
 - Cualquier flujo de eventos (en la última hora)

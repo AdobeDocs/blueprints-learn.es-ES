@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Generar
 description: Cree una audiencia de streaming que encuentre perfiles que han realizado un pedido de un iPhone 14 hoy, explorando la selección de fuentes de eventos y los contenedores de matrices.
 doc-type: article
 solution: Experience Platform
 exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -48,9 +47,9 @@ Se obtienen muchos objetos relacionados con un pedido
 
 >[!NOTE]
 >
->&#x200B;* No hay &quot;i&quot; para la &quot;carpeta&quot; de pedidos. Aunque nuestra descripción se haya rellenado, no la tiene y esto puede ser una fuente de confusión para su experto en marketing, ya que puede intentar usarla o querer saber qué es.
->&#x200B;* La &quot;i&quot; de las tarjetas de eventos solo repite el tipo, ya que Tipo de evento es un campo, no muchos.
->&#x200B;* Los datos de resumen solo mostrarán si el valor está presente en más del 2 % de los perfiles combinados. Esto también genera cualquier autocompletar al filtrar en una cadena.
+>* No hay &quot;i&quot; para la &quot;carpeta&quot; de pedidos. Aunque nuestra descripción se haya rellenado, no la tiene y esto puede ser una fuente de confusión para su experto en marketing, ya que puede intentar usarla o querer saber qué es.
+>* La &quot;i&quot; de las tarjetas de eventos solo repite el tipo, ya que Tipo de evento es un campo, no muchos.
+>* Los datos de resumen solo mostrarán si el valor está presente en más del 2 % de los perfiles combinados. Esto también genera cualquier autocompletar al filtrar en una cadena.
 
 
 
@@ -58,7 +57,7 @@ Utilice la tarjeta Tipo de evento de orden realizado y arrástrela al lienzo.
 
 ![Arrastre la tarjeta de tipo de evento Pedido realizado al lienzo](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**Opcional:**
 >
@@ -247,7 +246,7 @@ No cambie la asignación, haga clic en Next y Finish
 >
 >Los contenedores son una forma de hacer referencia a una variable Event o a un elemento Array. Puede leer más sobre la ramificación de esto en este blog, pero, por simplicidad, esto le permite especificar si un solo elemento de la matriz cumple ambas condiciones o si la condición se puede propagar entre dos elementos.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=es](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=es)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
 
 >[!WARNING]
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Validar perfil en Hub
 description: Obtenga información sobre cómo buscar un perfil en Real-Time Customer Profile Hub y verificar sus eventos y la pertenencia a segmentos después de un evento transmitido.
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -53,9 +52,9 @@ En Adobe Experience Platform, busque el perfil que acaba de enviar desde el even
 
 1. Haga clic en el encabezado **Atributos** y vea **JSON**
 
-![Vista JSON de atributos de perfil que muestra segmentMembership](assets/validate-profile-on-hub-json-view.png)
+   ![Vista JSON de atributos de perfil que muestra segmentMembership](assets/validate-profile-on-hub-json-view.png)
 
-&#x200B;2. Buscar **segmentMembership**.  Debe tener este aspecto (sus ID serán diferentes)
+2. Buscar **segmentMembership**.  Debe tener este aspecto (sus ID serán diferentes)
 
 ```json
   "segmentMembership": {
@@ -75,7 +74,7 @@ En Adobe Experience Platform, busque el perfil que acaba de enviar desde el even
 >
 >**¿Cómo se lee segmentMembership?**
 >
->[https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** Esta es la clave de asignación para los distintos tipos de audiencias que admite AEP.  La clave ups contiene las audiencias creadas por el Generador de reglas.  Otras audiencias estarán contenidas en otras claves (por ejemplo, AAM).
 >

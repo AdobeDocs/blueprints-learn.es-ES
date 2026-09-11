@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Resumen
 description: Recapitulación de la creación de una campaña orquestada con un canal SMS que se dirige tanto a las cuentas de cliente como a las líneas individuales y guarda una audiencia en Audience Portal.
 doc-type: article
 solution: Experience Platform
 exl-id: 587758b6-b1c1-4ce3-bcc9-ad4f6640188d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
@@ -36,7 +35,7 @@ Si hubiera intentado esto en Recorridos no habría sido capaz de satisfacer ambo
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Instrucciones de implementación
 description: Utilice la CLI de DEP para implementar los esquemas, conjuntos de datos, flujos de datos y datos de muestra del paquete de laboratorio de AJO Architectural Foundations en su zona protegida.
 doc-type: article
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
@@ -67,15 +66,15 @@ La CLI se implementa en cualquier zona protegida a la que apunte el archivo de e
 1. Copie `envFiles/sample-env.json` y asígnele un nombre nuevo, p. ej. `my-env.json`
 2. Abra el archivo y rellene los campos siguientes con los valores de [Developer Console setup](developer-console-setup.md):
 
-| **Campo** | **Valor** |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | ID de cliente |
-| `CLIENT_SECRET` | Secreto del cliente |
-| `IMS_ORG` | ID de organización |
-| `SCOPES` | Debe incluir ámbitos de API de Experience Platform y API de Adobe Journey Optimizer <br />*(por ejemplo: cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_groups, additional\_info.projectProductContext)* |
-| `SANDBOX_NAME` | La zona protegida a la que está dirigiendo debe estar vacía y ser del tipo `dev` |
+   | **Campo** | **Valor** |
+   | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | ID de cliente |
+   | `CLIENT_SECRET` | Secreto del cliente |
+   | `IMS_ORG` | ID de organización |
+   | `SCOPES` | Debe incluir ámbitos de API de Experience Platform y API de Adobe Journey Optimizer <br />*(por ejemplo: cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_groups, additional\_info.projectProductContext)* |
+   | `SANDBOX_NAME` | La zona protegida a la que está dirigiendo debe estar vacía y ser del tipo `dev` |
 
-&#x200B;3. Guarde y cierre el archivo
+3. Guarde y cierre el archivo
 
 >[!NOTE]
 >
@@ -118,7 +117,8 @@ El paso 1 dura unos 2 minutos, el paso 2 unos 6 minutos.
 >[!NOTE]
 >
 >Utilice el paso 6 en lugar de ejecutar los pasos 4 y 5 por separado; hace lo mismo en una pasada con la espera de propagación gestionada por usted.
-> [!NOTE]
+
+>[!NOTE]
 >
 >La CLI comprueba automáticamente todos los tiempos de espera anteriores. Si ejecuta un paso demasiado pronto, se bloquea y le indica cuánto tiempo debe esperar.
 

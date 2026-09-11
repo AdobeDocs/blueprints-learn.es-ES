@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar un evento de Edge
 description: Envíe un evento web no autenticado a Edge mediante Postman y verifique que fluye a través del reenvío de eventos, la ingesta de perfiles y la calificación de audiencias Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: 8d6e9552-1fa0-4f12-928c-03f836c1652e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -110,11 +109,11 @@ En Adobe Experience Platform, busque el perfil que acaba de enviar desde el even
 1. Haga clic en **Ver** para buscar el perfil
 1. Haga clic en **ID de perfil** para abrir el perfil
 
-![Perfil Examine los resultados de búsqueda con el vínculo Ver para abrir el perfil coincidente](assets/send-an-edge-event-lookup-profile.png "Perfil de búsqueda")
+   ![Perfil Examine los resultados de búsqueda con el vínculo Ver para abrir el perfil coincidente](assets/send-an-edge-event-lookup-profile.png "Perfil de búsqueda")
 
 1. Haz clic en **Eventos** en la barra de navegación superior y podrás ver el evento que acabas de enviar
 
-![Pestaña Eventos de perfil que muestra el evento de experiencia que se acaba de enviar a Edge](assets/send-an-edge-event-view-profile-event.png "Ver el evento de perfil")
+   ![Pestaña Eventos de perfil que muestra el evento de experiencia que se acaba de enviar a Edge](assets/send-an-edge-event-view-profile-event.png "Ver el evento de perfil")
 
 1. Valide que el perfil se haya clasificado para las audiencias mediante la revisión de la pestaña Pertenencia a la audiencia en la barra de navegación superior. Debería ver lo siguiente:
 

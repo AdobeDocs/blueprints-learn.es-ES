@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Programar flujo de datos
 description: Configure una programación recurrente de flujo de datos de 15 minutos con relleno habilitado y comprenda cómo los tiempos de inicio UTC afectan a las ejecuciones.
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -47,7 +46,7 @@ Después de hacer clic en **Finalizar**, volverá a la pantalla **Flujos de dato
 
 ![Pantalla de flujos de datos que muestra el nuevo flujo de datos con el estado Sin ejecuciones](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Pantalla de fuentes de flujos de datos")
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Debe actualizar la página continuamente para ver la actualización de estado, ya que el backend no inserta actualizaciones en la interfaz de usuario.
 

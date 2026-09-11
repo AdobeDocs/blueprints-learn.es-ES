@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Opción
 description: Cree una audiencia de flujo completo usando atributos de uso preagregados calculados en sentido ascendente en lugar de agregar eventos dentro de la regla de audiencia.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -33,19 +32,19 @@ Cree una audiencia de todos los perfiles cuyo uso de datos de facturación sea a
 1. Crear una audiencia nueva
 1. Busque &quot;Agg&quot; en la pestaña Atributos no evento y arrastre los dos agregados al lienzo. Establezca los operadores y valores adecuados para cada uno.
 
-![Establezca los operadores y valores apropiados para cada agregado](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
+   ![Establezca los operadores y valores apropiados para cada agregado](assets/option-2-use-pre-aggregates-set-operators-and-values.png)
 
 
 
-&#x200B;3. Busque el nombre del plan en el perfil y añádalo (XDM Individual Profile > Devbc > Detalles del plan > Nombre del plan). Seleccione No es igual a &quot;Ultimate&quot;
+3. Busque el nombre del plan en el perfil y añádalo (XDM Individual Profile > Devbc > Detalles del plan > Nombre del plan). Seleccione No es igual a &quot;Ultimate&quot;
 
-![Seleccionar Nombre De Plan No Es Igual A Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
+   ![Seleccionar Nombre De Plan No Es Igual A Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. Proporcione una descripción.  El método de evaluación Validate es Streaming.
+4. Proporcione una descripción.  El método de evaluación Validate es Streaming.
 
-&#x200B;5. Guardar la audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate (Agg)*&quot;
+5. Guardar la audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate (Agg)*&quot;
 
 >[!NOTE]
 >

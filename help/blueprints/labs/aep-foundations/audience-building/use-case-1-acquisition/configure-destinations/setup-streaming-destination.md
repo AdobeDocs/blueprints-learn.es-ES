@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuración del destino de flujo continuo
 description: Configure un destino de flujo continuo de API HTTP con un extremo de gancho web, una directiva de gobernanza, audiencias y asignaciones de campos para probar la activación de segmentos.
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -55,15 +54,15 @@ En la IU de Experience Platform, vaya al catálogo de destinos haciendo lo sigui
 1. Tipo de conexión **Ninguno**
 1. Haz clic en **Conectar con destino**
 
-![Conectar con destino](assets/setup-streaming-destination-connect-to-destination.png "Conectar con destino")
+   ![Conectar con destino](assets/setup-streaming-destination-connect-to-destination.png "Conectar con destino")
 
->[!NOTE]
->
->Normalmente, agregaremos cualquier credencial de autenticación en esta etapa, pero no se requiere ninguna para este webhook.
+   >[!NOTE]
+   >
+   >Normalmente, agregaremos cualquier credencial de autenticación en esta etapa, pero no se requiere ninguna para este webhook.
 
 
 
-&#x200B;3. Complete los detalles de configuración del destino de la siguiente manera:
+3. Complete los detalles de configuración del destino de la siguiente manera:
 
 - **Nombre** -> `Streaming DEP Webhook - [Your Initials]`
 - **Descripción** -> `[your webhook endpoint you copied above]`
@@ -92,7 +91,7 @@ Cuando termine, asegúrese de que la configuración coincida con lo que ve a con
 >
 >Puede obtener más información sobre las políticas de gobernanza en Experience League
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## Seleccionar audiencias
 
