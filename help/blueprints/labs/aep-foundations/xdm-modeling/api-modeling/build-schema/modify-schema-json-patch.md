@@ -133,10 +133,10 @@ La ruta totalmente compuesta tiene el aspecto que se muestra a continuación.  C
 
 
 
-2. Actualice el cuerpo de la solicitud con la siguiente información
+&#x200B;2. Actualice el cuerpo de la solicitud con la siguiente información
 
 - **op** ->` add`
-- **ruta** -> `path from previous step +`` the new field name`
+- **ruta** -> `path from previous step +`&#x200B;` the new field name`
 - **valor** ->
   - **título** -> `Plan Description`
   - **tipo** -> `string`
@@ -152,9 +152,9 @@ Cuando haya terminado, la solicitud de API debería tener un aspecto similar al 
 
 
 
-3. Si todo se ve bien `Save`, su llamada
+&#x200B;3. Si todo se ve bien `Save`, su llamada
 
-4. `Execute` llamó a para realizar el PATCH
+&#x200B;4. `Execute` llamó a para realizar el PATCH
 
 Debería ver una respuesta `200 OK ` y ahora debería ver el campo `planDescription` en su grupo de campos de esta manera:
 

@@ -28,21 +28,21 @@ Imaginen que tuviéramos cientos de ofertas utilizadas en cuarenta colecciones y
 
 ![Página Estrategias de selección con el botón Crear estrategia de selección](assets/create-selection-strategy-create-button.png)
 
-3. Asigne un nombre a la estrategia de selección **iPhone 17 Selection Strategy**
-4. Se puede ver que una estrategia de selección requiere 3 cosas.
+&#x200B;3. Asigne un nombre a la estrategia de selección **iPhone 17 Selection Strategy**
+&#x200B;4. Se puede ver que una estrategia de selección requiere 3 cosas.
    - Una colección de ofertas
    - Requisitos de elegibilidad
    - Un método de clasificación
 
 Haga clic en el botón **Seleccionar colección**, marque la casilla junto a la única colección que tiene (**Colección iPhone 17**) y haga clic en **Guardar**.
 
-5. Deje la lista desplegable &quot;Elegibilidad&quot; configurada como Todos los visitantes.
+&#x200B;5. Deje la lista desplegable &quot;Elegibilidad&quot; configurada como Todos los visitantes.
 
 >[!NOTE]
 >
 >La idoneidad se puede aplicar en el nivel de oferta, en el nivel de estrategia de selección o en el nivel de Recorrido/campaña a través de los criterios para introducir el Recorrido o la campaña. Todo depende del caso de uso que esté intentando realizar. Si hace clic en el menú desplegable **Elegibilidad**, verá las mismas opciones de Audiencia y Regla de decisión que vio en el nivel de oferta. En nuestro caso de uso, solo queríamos limitar ofertas específicas, por lo que tenía sentido cumplir los requisitos en el nivel de oferta.
 
-6. Establezca el **método de clasificación** en **fórmula** y, a continuación, haga clic en el botón **Seleccionar fórmula**
+&#x200B;6. Establezca el **método de clasificación** en **fórmula** y, a continuación, haga clic en el botón **Seleccionar fórmula**
 
 >[!NOTE]
 >
@@ -50,11 +50,11 @@ Haga clic en el botón **Seleccionar colección**, marque la casilla junto a la 
 >
 >La opción Modelo de IA utiliza un modelo de IA que analiza las impresiones, los clics y las conversiones de las ofertas devueltas para determinar qué oferta mostrar al usuario. No los utilizaremos en este laboratorio, ya que se requieren umbrales mínimos de datos y dos semanas para entrenar a los modelos.
 
-7. Marque la casilla junto a la única fórmula de clasificación que tiene (**Fórmula de clasificación iPhone 17**) y haga clic en **Guardar**. Cuando termine, la estrategia de selección tendrá este aspecto:
+&#x200B;7. Marque la casilla junto a la única fórmula de clasificación que tiene (**Fórmula de clasificación iPhone 17**) y haga clic en **Guardar**. Cuando termine, la estrategia de selección tendrá este aspecto:
 
 ![Estrategia de selección completada con colección, elegibilidad y conjunto de fórmulas de clasificación](assets/create-selection-strategy-completed-configuration.png)
 
-8. Una vez que la estrategia de selección sea correcta, haga clic en el botón azul **Crear**.
+&#x200B;8. Una vez que la estrategia de selección sea correcta, haga clic en el botón azul **Crear**.
 
 >[!TIP]
 >

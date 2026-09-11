@@ -32,7 +32,7 @@ Este paso es sencillo, ya que lo único que desea hacer es agregar una actividad
 
 
 
-2. Actualice los nombres de cada transición en la ramificación haciendo clic en la transición y asignando después los nombres como se indica a continuación:
+&#x200B;2. Actualice los nombres de cada transición en la ramificación haciendo clic en la transición y asignando después los nombres como se indica a continuación:
    - **Principales** —> `Save Audience`
    - **Inferior** —> `SMS`
 
@@ -50,7 +50,7 @@ Cuando termine, el lienzo debería verse así...
 
 
 
-3. Haga clic en **Guardar** en la parte superior del lienzo del flujo de trabajo.
+&#x200B;3. Haga clic en **Guardar** en la parte superior del lienzo del flujo de trabajo.
 
 ![Botón Guardar en la barra de herramientas del lienzo del flujo de trabajo](assets/fork-the-result-click-save.png)
 

@@ -51,7 +51,7 @@ Empezará con el documento de Directrices de marca de Connection 5G, lo cargará
 
 ![PDF de pautas de marca de Connection 5G se abrió desde la carpeta de herramientas](assets/brand-management-open-brand-guideline-pdf.png)
 
-2. Revise el documento para comprender el contenido utilizado para la conexión 5G:
+&#x200B;2. Revise el documento para comprender el contenido utilizado para la conexión 5G:
    - Tono de voz
    - Colores y estilo visual
    - Escritura de ejemplos de estilo y mensajería
@@ -66,35 +66,35 @@ Empezará con el documento de Directrices de marca de Connection 5G, lo cargará
 
 ![Botón Crear marca en la sección Marcas](assets/brand-management-click-create-brand-button.png)
 
-3. En el campo **Nombre**, escriba `Connection 5G Brand Guidelines`
-4. En el área de carga, arrastre y suelte el archivo **Connection5g Brand Guidelines.pdf** (o haga clic en **Seleccionar archivos** y elíjalo en el equipo).
+&#x200B;3. En el campo **Nombre**, escriba `Connection 5G Brand Guidelines`
+&#x200B;4. En el área de carga, arrastre y suelte el archivo **Connection5g Brand Guidelines.pdf** (o haga clic en **Seleccionar archivos** y elíjalo en el equipo).
 
 ![Arrastre y suelte la PDF Connection5g Brand Guidelines en el área de carga](assets/brand-management-upload-brand-guideline-pdf.png)
 
-5. Haga clic en **Crear marca** para comenzar la extracción.
+&#x200B;5. Haga clic en **Crear marca** para comenzar la extracción.
 
 Aparecerá una pantalla de progreso mientras AJO analiza el archivo. Esto puede tardar varios minutos en función del tamaño del documento.
 
 ![Se muestra la pantalla de progreso mientras AJO analiza el archivo de directrices de marca](assets/brand-management-extraction-progress-screen.png)
 
-6. Una vez finalizada la extracción:
+&#x200B;6. Una vez finalizada la extracción:
    - En la parte superior aparece una barra de confirmación verde.
    - Se le redirigirá automáticamente a la pantalla de configuración de la marca.
    - Los estándares de creación visual y de contenido ahora se rellenan automáticamente en función del archivo de directrices de marca cargado.
 
 ![La pantalla de configuración de marca se completó después de la extracción](assets/brand-management-brand-configuration-populated.png)
 
-7. Haga clic en el botón **Publicar** para publicar las directrices de marca.
+&#x200B;7. Haga clic en el botón **Publicar** para publicar las directrices de marca.
 
 ![Botón Publicar para las directrices de marca](assets/brand-management-click-publish-button.png)
 
-8. Confirme pulsando el botón &quot;Publicar&quot; para confirmar.
+&#x200B;8. Confirme pulsando el botón &quot;Publicar&quot; para confirmar.
 
 ![Confirmar cuadro de diálogo de publicación para las directrices de marca](assets/brand-management-confirm-publish-dialog.png)
 
 Aparece una barra de confirmación verde en la parte inferior de la página que indica que la marca se ha publicado correctamente.
 
-9. Vuelva a hacer clic en la página principal de la marca y verá que su marca ya está activa (esto debería mostrarse con un punto verde con la etiqueta **&quot;Live&quot;**).
+&#x200B;9. Vuelva a hacer clic en la página principal de la marca y verá que su marca ya está activa (esto debería mostrarse con un punto verde con la etiqueta **&quot;Live&quot;**).
 
 ![Lista de marcas que muestra la nueva marca con una etiqueta de estado Live verde](assets/brand-management-brand-live-status-label.png)
 
@@ -155,19 +155,19 @@ En el contenido extraído, algunos principios rectores pueden estar incompletos.
 
 ![Haciendo clic en la tarjeta de marca Connection 5G recién creada](assets/brand-management-click-created-brand-card.png)
 
-2. Haga clic en **Editar marca**. Aparecerá una pestaña de confirmación; vuelva a hacer clic en **Editar marca** para confirmar.
+&#x200B;2. Haga clic en **Editar marca**. Aparecerá una pestaña de confirmación; vuelva a hacer clic en **Editar marca** para confirmar.
 
 ![Botón Editar marca y ficha de confirmación](assets/brand-management-click-edit-brand-button.png)
 
-3. Vaya a la ficha **Acerca de la marca**.
+&#x200B;3. Vaya a la ficha **Acerca de la marca**.
 
 ![Navegando a la pestaña Acerca de la marca mientras edita](assets/brand-management-about-the-brand-tab-edit.png)
 
-4. Busque la sección de **Principios rectores**, **Visión** o descripción de alto nivel similar.
+&#x200B;4. Busque la sección de **Principios rectores**, **Visión** o descripción de alto nivel similar.
 
 ![Principios rectores y sección Visión en la ficha Acerca de la marca](assets/brand-management-guiding-principles-vision-section.png)
 
-5. Añada el siguiente texto:
+&#x200B;5. Añada el siguiente texto:
 
 **Visión:**
 
@@ -179,7 +179,7 @@ En el contenido extraído, algunos principios rectores pueden estar incompletos.
 
 ![Se agregó texto de visión y posicionamiento de mercado a la marca](assets/brand-management-vision-market-positioning-added.png)
 
-6. Haga clic en **Guardar**. (Si no ve el botón **Guardar**, haga clic primero en la ficha **Información general** y, a continuación, haga clic en **Guardar**).
+&#x200B;6. Haga clic en **Guardar**. (Si no ve el botón **Guardar**, haga clic primero en la ficha **Información general** y, a continuación, haga clic en **Guardar**).
 
 >[!TIP]
 >
@@ -194,15 +194,15 @@ A continuación, mejore la marca añadiendo una regla que garantice que los boto
 
 ![Se ha abierto la pestaña Estilo de escritura para agregar una regla de exclusión](assets/brand-management-writing-style-tab-exclusion.png)
 
-2. Asegúrese de que está en la sección **Estilo de comunicación de marca**.
+&#x200B;2. Asegúrese de que está en la sección **Estilo de comunicación de marca**.
 
 ![Sección de estilo de comunicación de marca en la ficha Estilo de escritura](assets/brand-management-brand-communication-style-section.png)
 
-3. En el área **No lo hagas**, haz clic en el icono **más** para agregar una regla nueva.
+&#x200B;3. En el área **No lo hagas**, haz clic en el icono **más** para agregar una regla nueva.
 
 ![Icono Más bajo el área No agregar nueva regla](assets/brand-management-add-donts-rule-plus-icon.png)
 
-4. Configure la regla de la siguiente manera:
+&#x200B;4. Configure la regla de la siguiente manera:
    - **Exclusión:** `Be pushy`
 
 >[!NOTE]
@@ -213,15 +213,15 @@ A continuación, mejore la marca añadiendo una regla que garantice que los boto
 
 Botón **Elemento:**
 
-5. Haga clic en **Agregar**.
+&#x200B;5. Haga clic en **Agregar**.
 
 ![Botón Agregar para la regla de exclusión push](assets/brand-management-click-add-rule-button.png)
 
-6. Confirme que la nueva regla Don’t aparece como `Be pushy` en la lista.
+&#x200B;6. Confirme que la nueva regla Don’t aparece como `Be pushy` en la lista.
 
 ![Ser insistente No se confirme la regla en la lista de reglas](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
-7. Haga clic en **Guardar**.
+&#x200B;7. Haga clic en **Guardar**.
 
 Esta regla se aplica siempre que el asistente de IA o los autores trabajen en la copia de botones de correo electrónico, manteniendo las CTA alineadas con el tono de la Conexión 5G.
 
@@ -242,13 +242,13 @@ Una vez que esté satisfecho con la configuración:
 
 ![Botón Publicar en la esquina superior derecha](assets/brand-management-click-publish-top-right.png)
 
-3. Aparecerá un cuadro de diálogo de confirmación que explica que está a punto de publicar las Directrices de marca actualizadas para la conexión 5G. Vuelva a hacer clic en **Publicar** para confirmar.
+&#x200B;3. Aparecerá un cuadro de diálogo de confirmación que explica que está a punto de publicar las Directrices de marca actualizadas para la conexión 5G. Vuelva a hacer clic en **Publicar** para confirmar.
 
 ![Cuadro de diálogo de confirmación para publicar las directrices de marca actualizadas](assets/brand-management-confirm-publish-updated-guidelines.png)
 
-4. Espere a que aparezca la barra de confirmación verde.
-5. Haga clic en **Atrás** para regresar a la lista de marcas.
-6. Compruebe que aparece una tarjeta nueva para **Directrices de marca de Connection 5G** con un estado que indica que está activa y disponible.
+&#x200B;4. Espere a que aparezca la barra de confirmación verde.
+&#x200B;5. Haga clic en **Atrás** para regresar a la lista de marcas.
+&#x200B;6. Compruebe que aparece una tarjeta nueva para **Directrices de marca de Connection 5G** con un estado que indica que está activa y disponible.
 
 ![Tarjeta de directrices de marca de Connection 5G que muestra el estado Activo](assets/brand-management-brand-guidelines-card-live-status.png)
 

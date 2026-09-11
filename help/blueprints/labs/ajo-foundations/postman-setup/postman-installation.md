@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Al final de este laboratorio, podrá instalar Postman, configurar un espacio de trabajo y un entorno básicos para poder realizar las llamadas de API posteriores que necesiten los futuros laboratorios.
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 >
 >Se requiere Postman para varios laboratorios en este curso.  Incluso si ya ha instalado Postman, deberá completar este laboratorio para asegurarse de que ha instalado y configurado correctamente los archivos de entorno y la colección de API.
 

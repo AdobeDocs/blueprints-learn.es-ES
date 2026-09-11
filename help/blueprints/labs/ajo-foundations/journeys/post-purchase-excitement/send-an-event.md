@@ -51,7 +51,7 @@ Comience por recopilar los siguientes valores:
 1. Busque el registro de **dep: Orders (stream)** haga clic en el vínculo de flujos de datos
 1. En el carril derecho, copie y guarde los valores de **ID de flujo de datos** en algún lugar al que pueda hacer referencia posteriormente
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >Haga clic en un espacio vacío de la fila.  NO haga clic en los enlaces azules!
 
@@ -80,7 +80,7 @@ Inicie Postman en el equipo y vaya a la siguiente llamada de API:
    - **Verde** —> `Dataflow ID`
      - El valor tiene el aspecto de un GUID (no comienza con http)
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >NO EJECUTAR AÚN.
 

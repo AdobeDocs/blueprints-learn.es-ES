@@ -25,7 +25,7 @@ Por último, **ha probado el flujo de toma de decisiones de extremo a extremo**,
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO, SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

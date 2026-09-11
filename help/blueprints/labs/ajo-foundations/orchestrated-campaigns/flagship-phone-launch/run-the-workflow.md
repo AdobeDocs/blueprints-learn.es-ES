@@ -27,7 +27,7 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 ![Lienzo de flujo de trabajo final listo para probar](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Si aún no ha detenido el flujo de trabajo, asegúrese de hacerlo ahora haciendo clic en el botón **Detener** en la esquina superior derecha.
+&#x200B;2. Si aún no ha detenido el flujo de trabajo, asegúrese de hacerlo ahora haciendo clic en el botón **Detener** en la esquina superior derecha.
 
 ![Botón Detener en la parte superior derecha del flujo de trabajo](assets/run-the-workflow-click-stop-button.png)
 
@@ -37,13 +37,13 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 
 
-3. Luego haga clic en el botón **Start** para ejecutar y probar el flujo de trabajo de principio a fin
+&#x200B;3. Luego haga clic en el botón **Start** para ejecutar y probar el flujo de trabajo de principio a fin
 
 ![Botón Iniciar para ejecutar la prueba de flujo de trabajo](assets/run-the-workflow-click-start-button.png)
 
 
 
-4. Revise el resultado que entra a la actividad de SMS haciendo clic en **Resultado** (hay dos Resultados, así que use el izquierdo como se muestra a continuación) y luego en el carril izquierdo haciendo clic en el botón **Previsualizar resultados**.
+&#x200B;4. Revise el resultado que entra a la actividad de SMS haciendo clic en **Resultado** (hay dos Resultados, así que use el izquierdo como se muestra a continuación) y luego en el carril izquierdo haciendo clic en el botón **Previsualizar resultados**.
 
 ![Se seleccionó la transición del resultado izquierdo antes de la actividad de SMS](assets/run-the-workflow-select-result-transition.png)
 
@@ -51,7 +51,7 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 
 
-5. Verá **33 registros** y la dimensión de segmentación coincide con el ID de cliente (la clave de unión si desea generar un perfil)
+&#x200B;5. Verá **33 registros** y la dimensión de segmentación coincide con el ID de cliente (la clave de unión si desea generar un perfil)
 
 ![33 registros con dimensión de segmentación que coinciden con el ID de cliente](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -65,7 +65,7 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 
 
-2. Casi inmediatamente aparece un nuevo botón con la etiqueta **Ver informe**.  Haga clic en el botón **Ver informe** para iniciar sesión en la pantalla del informe.
+&#x200B;2. Casi inmediatamente aparece un nuevo botón con la etiqueta **Ver informe**.  Haga clic en el botón **Ver informe** para iniciar sesión en la pantalla del informe.
 
 ![Botón Ver informe para la prueba de actividad de SMS](assets/run-the-workflow-click-view-report.png)
 
@@ -75,7 +75,7 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 
 
-3. Cuando obtenga resultados, verá que el 100% fueron el objetivo.
+&#x200B;3. Cuando obtenga resultados, verá que el 100% fueron el objetivo.
 
 ![Los resultados de los envíos de prueba de SMS muestran un 100% segmentado](assets/run-the-workflow-100-percent-targeted.png)
 
@@ -83,13 +83,13 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 
 
-4. Vuelva al lienzo del flujo de trabajo, haga clic en la transición **Result** que entra en la actividad de SMS y luego haga clic en **Preview results** en el carril derecho.
+&#x200B;4. Vuelva al lienzo del flujo de trabajo, haga clic en la transición **Result** que entra en la actividad de SMS y luego haga clic en **Preview results** en el carril derecho.
 
 ![Volver a revisar los resultados de la transición después de la prueba de SMS](assets/run-the-workflow-recheck-transition-results.png)
 
 
 
-5. En la pantalla Vista previa de resultados, desplácese hasta la parte inferior de la tabla y verá que **4 registros** tienen **una dimensión de segmentación en blanco**.
+&#x200B;5. En la pantalla Vista previa de resultados, desplácese hasta la parte inferior de la tabla y verá que **4 registros** tienen **una dimensión de segmentación en blanco**.
 
 ![4 registros con una dimensión de segmentación en blanco al final de la tabla](assets/run-the-workflow-4-records-missing-dimension.png)
 

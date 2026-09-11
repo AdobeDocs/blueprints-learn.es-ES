@@ -26,13 +26,13 @@ Ahora que se han creado las ofertas, deben organizarse en una colección. Una co
 
 ![Pestaña Colecciones en la página Catálogos](assets/create-offer-collection-collections-tab.png)
 
-3. Haga clic en la colección azul **Crear colección** para crear la nueva colección.
-4. Asigne un nombre a la colección **iPhone 17 Collection**
-5. En la sección &quot;Reglas de recopilación&quot;, haga clic en el cuadro de texto que contiene el texto **_Haga clic para crear un elemento de decisión_**. Una vez que se haga clic en, aparecerán las opciones para crear la regla.
+&#x200B;3. Haga clic en la colección azul **Crear colección** para crear la nueva colección.
+&#x200B;4. Asigne un nombre a la colección **iPhone 17 Collection**
+&#x200B;5. En la sección &quot;Reglas de recopilación&quot;, haga clic en el cuadro de texto que contiene el texto **_Haga clic para crear un elemento de decisión_**. Una vez que se haga clic en, aparecerán las opciones para crear la regla.
 
 ![Cuadro de texto de regla de recopilación abierto para crear un elemento de decisión](assets/create-offer-collection-create-decision-item.png)
 
-6. Haga clic en el botón **Seleccionar atributo** y, a continuación, desplácese por el esquema del elemento de oferta haciendo clic en **Dispositivo > Crear**. Haga clic en **Guardar,** y verá que el atributo &#39;Hacer&#39; está ahora en la regla de decisión.
+&#x200B;6. Haga clic en el botón **Seleccionar atributo** y, a continuación, desplácese por el esquema del elemento de oferta haciendo clic en **Dispositivo > Crear**. Haga clic en **Guardar,** y verá que el atributo &#39;Hacer&#39; está ahora en la regla de decisión.
 
 Se agregó el atributo ![Device Make a la regla de recopilación](assets/create-offer-collection-select-make-attribute.png)
 
@@ -40,7 +40,7 @@ Se agregó el atributo ![Device Make a la regla de recopilación](assets/create-
 >
 >Tenga en cuenta que las opciones disponibles son los mismos campos configurables que utilizó al crear los elementos de oferta. Dado que una colección es una agrupación de elementos de oferta, tiene sentido que las reglas para agruparlos dependan de sus atributos.
 
-7. Deje el operador &quot;Es igual que&quot; en su lugar e introduzca el texto **iPhone** en el campo de valor, y verá que el número de elementos cambia a 4, lo que indica que todos los elementos de la oferta cumplen con ese criterio
+&#x200B;7. Deje el operador &quot;Es igual que&quot; en su lugar e introduzca el texto **iPhone** en el campo de valor, y verá que el número de elementos cambia a 4, lo que indica que todos los elementos de la oferta cumplen con ese criterio
 
 ![Regla de recopilación que muestra cuatro elementos de oferta que coinciden con los criterios de iPhone](assets/create-offer-collection-four-matching-offers.png)
 
@@ -48,7 +48,7 @@ Se agregó el atributo ![Device Make a la regla de recopilación](assets/create-
 >
 >También puede hacer clic en el botón **Vista previa de la colección** y ver los elementos de oferta que cumplen los criterios.
 
-8. Con los cuatro elementos de oferta seleccionados, haz clic en el botón azul **Crear**. Esto le lleva a una página que muestra la colección recién creada.
+&#x200B;8. Con los cuatro elementos de oferta seleccionados, haz clic en el botón azul **Crear**. Esto le lleva a una página que muestra la colección recién creada.
 
 ![Página de recopilación de iPhone 17 recién creada](assets/create-offer-collection-created-collection-page.png)
 

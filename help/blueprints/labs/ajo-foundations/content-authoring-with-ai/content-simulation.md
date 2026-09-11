@@ -53,7 +53,7 @@ Después de unos segundos, se abre un panel de simulación.
 
 ![Botón Cargar datos de entrada en el panel de simulación](assets/content-simulation-click-upload-input-data.png)
 
-3. Elija **sample.csv** y haga clic en **Continuar**.
+&#x200B;3. Elija **sample.csv** y haga clic en **Continuar**.
 
 ![Eligiendo sample.csv y haciendo clic en Continuar](assets/content-simulation-choose-sample-csv-continue.png)
 

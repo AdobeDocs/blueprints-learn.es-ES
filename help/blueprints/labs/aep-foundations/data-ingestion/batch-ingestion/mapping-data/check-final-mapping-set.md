@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Comprobar conjunto final de asignaciones
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Si viene del laboratorio de ingesta de transmisión, haga clic en el siguiente enlace para continuar con el siguiente paso en ese laboratorio:
 >
@@ -52,7 +52,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | shipping\_street\_address | shippingAddress.street1 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar.
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString(), &quot;-&quot;, date\_part(&quot;day&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString()) | person.birthDayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;M/d/yyyy&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar

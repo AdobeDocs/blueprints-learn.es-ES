@@ -104,7 +104,7 @@ Marketing entró hoy y nos dio un requisito para tener este Streaming y, por des
 
 
 
-3. Actualice la descripción, el nombre y el método de evaluación a Streaming en la esquina inferior derecha, luego haga clic en el icono de la carpeta junto al método de evaluación. Debería ver lo siguiente:
+&#x200B;3. Actualice la descripción, el nombre y el método de evaluación a Streaming en la esquina inferior derecha, luego haga clic en el icono de la carpeta junto al método de evaluación. Debería ver lo siguiente:
 
 ![Método de evaluación establecido en Flujo continuo después de hacer clic en el icono de la carpeta](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
@@ -124,7 +124,7 @@ Aunque no es obvio, la razón de esto es que estamos utilizando el nombre del pr
 
 
 
-4. Reemplace el valor existente para que el nombre del producto ahora provenga del esquema Perfil individual de XDM
+&#x200B;4. Reemplace el valor existente para que el nombre del producto ahora provenga del esquema Perfil individual de XDM
 
 Reemplace la siguiente ruta:
 
@@ -140,13 +140,13 @@ Añada la nueva ruta:
 
 
 
-5. Cambie el Método de evaluación a Streaming y haga clic en el icono de la carpeta
+&#x200B;5. Cambie el Método de evaluación a Streaming y haga clic en el icono de la carpeta
 
 ![Cambie el método de evaluación a Transmisión y haga clic en el icono de la carpeta](assets/build-audience-2-change-evaluation-method-to-streaming.png)
 
 
 
-6. Proporcione una descripción para la nueva audiencia apta para streaming.
+&#x200B;6. Proporcione una descripción para la nueva audiencia apta para streaming.
 
 - Guardar la audiencia como audiencia &quot;*es propietaria de iPhone 14*&quot;.
 - Haga clic en el botón azul **Activar audiencia** al destino
@@ -155,11 +155,11 @@ Añada la nueva ruta:
 
 
 
-7. Seleccione el destino **Streaming DEP Webhook** y haga clic en **Siguiente**
+&#x200B;7. Seleccione el destino **Streaming DEP Webhook** y haga clic en **Siguiente**
 
-8. Haga clic en **Siguiente** y **Finalizar**
+&#x200B;8. Haga clic en **Siguiente** y **Finalizar**
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Consideraciones sobre por qué puede seleccionar Lote frente a Streaming o Edge:
 >

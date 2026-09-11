@@ -48,9 +48,9 @@ Se obtienen muchos objetos relacionados con un pedido
 
 >[!NOTE]
 >
->* No hay &quot;i&quot; para la &quot;carpeta&quot; de pedidos. Aunque nuestra descripción se haya rellenado, no la tiene y esto puede ser una fuente de confusión para su experto en marketing, ya que puede intentar usarla o querer saber qué es.
->* La &quot;i&quot; de las tarjetas de eventos solo repite el tipo, ya que Tipo de evento es un campo, no muchos.
->* Los datos de resumen solo mostrarán si el valor está presente en más del 2 % de los perfiles combinados. Esto también genera cualquier autocompletar al filtrar en una cadena.
+>&#x200B;* No hay &quot;i&quot; para la &quot;carpeta&quot; de pedidos. Aunque nuestra descripción se haya rellenado, no la tiene y esto puede ser una fuente de confusión para su experto en marketing, ya que puede intentar usarla o querer saber qué es.
+>&#x200B;* La &quot;i&quot; de las tarjetas de eventos solo repite el tipo, ya que Tipo de evento es un campo, no muchos.
+>&#x200B;* Los datos de resumen solo mostrarán si el valor está presente en más del 2 % de los perfiles combinados. Esto también genera cualquier autocompletar al filtrar en una cadena.
 
 
 
@@ -58,7 +58,7 @@ Utilice la tarjeta Tipo de evento de orden realizado y arrástrela al lienzo.
 
 ![Arrastre la tarjeta de tipo de evento Pedido realizado al lienzo](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Opcional:**
 >

@@ -69,7 +69,7 @@ Observe también cómo cada campo específico de la hoja de asignación se corro
 
 
 
-2. Actualice `title` y `description` para el grupo de campos con el siguiente formato: `Customer Account Details - Sandbox <your number here>`
+&#x200B;2. Actualice `title` y `description` para el grupo de campos con el siguiente formato: `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -77,9 +77,9 @@ Observe también cómo cada campo específico de la hoja de asignación se corro
 
 
 
-3. Ejecute haciendo clic en el botón `Send`.  Debería ver una respuesta similar a la captura de pantalla siguiente.
+&#x200B;3. Ejecute haciendo clic en el botón `Send`.  Debería ver una respuesta similar a la captura de pantalla siguiente.
 
-4. Copie el valor `$id` del grupo de campos Detalles de cuenta de cliente recién creado.
+&#x200B;4. Copie el valor `$id` del grupo de campos Detalles de cuenta de cliente recién creado.
 
 ![Respuesta correcta de la API después de crear el grupo de campos personalizados](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Paso 2 - Éxito al crear un grupo de campos personalizados")
 

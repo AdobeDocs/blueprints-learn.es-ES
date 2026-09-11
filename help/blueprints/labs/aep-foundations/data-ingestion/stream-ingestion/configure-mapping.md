@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configurar asignación
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Siga esta sección únicamente si ha completado correctamente el laboratorio de ingesta por lotes.  De lo contrario, siga los [datos de asignación](../batch-ingestion/mapping-data/overview.md) pasos que se encontraron en el laboratorio de ingesta por lotes.
 

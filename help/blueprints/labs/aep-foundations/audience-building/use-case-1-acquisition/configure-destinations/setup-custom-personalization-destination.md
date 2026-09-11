@@ -105,7 +105,7 @@ Agregue una **nueva asignación** de la siguiente manera:
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | Nombre del plan |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Recuerde reemplazar **\_tenantName** con su nombre de inquilino
 

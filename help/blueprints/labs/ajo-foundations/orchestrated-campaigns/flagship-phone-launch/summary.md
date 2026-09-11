@@ -36,7 +36,7 @@ Si hubiera intentado esto en Recorridos no habría sido capaz de satisfacer ambo
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

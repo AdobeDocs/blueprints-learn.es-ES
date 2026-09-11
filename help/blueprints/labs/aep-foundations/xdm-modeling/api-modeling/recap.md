@@ -19,7 +19,7 @@ El siguiente vídeo resume cómo ha creado los descriptores de esquema, identida
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >¡Lo primero es felicitarlo! Crear cosas a través de API no es fácil, pero comprender cómo funciona le ayudará a comprender el sistema en su conjunto. ¡Felicidades!
 

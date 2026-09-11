@@ -35,7 +35,7 @@ En el carril izquierdo bajo el menú Administración, haga clic en **Configuraci
 
 ![Botón Crear acción en la esquina superior derecha](assets/configure-custom-action-click-create-action-button.png)
 
-2. En el panel de configuración que aparece, actualice los siguientes valores básicos como se muestra a continuación:
+&#x200B;2. En el panel de configuración que aparece, actualice los siguientes valores básicos como se muestra a continuación:
    - **Nombre**: `GetShippingDetails`
    - **Descripción**: `Call third party to get Shipping ETA and Tracking Number`
    - **Tipo de acción**: `Custom`
@@ -80,7 +80,7 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
 
 
 
-2. **Copie y pegue** la siguiente carga útil en el cuadro Carga útil
+&#x200B;2. **Copie y pegue** la siguiente carga útil en el cuadro Carga útil
 
 ```json
 {
@@ -94,7 +94,7 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
 >Esta es la misma estructura JSON que el punto final de Mockaroo anterior debería devolver:
 
 
-3. Se mostrará la carga útil de respuesta. Haga clic en el botón **Guardar**.
+&#x200B;3. Se mostrará la carga útil de respuesta. Haga clic en el botón **Guardar**.
 
 ![Carga de respuesta mostrada con el botón Guardar](assets/configure-custom-action-save-response-payload.png)
 
@@ -112,13 +112,13 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
 
 
 
-2. Haga clic en la ficha **Parámetros de consulta** y actualice el valor de `orderId` a **123**
+&#x200B;2. Haga clic en la ficha **Parámetros de consulta** y actualice el valor de `orderId` a **123**
 
 ![Pestaña Parámetros de consulta con valor orderId establecido en 123](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-3. Haga clic en el **botón Enviar** y, si todo funciona bien, debería ver un código de respuesta de 200 y una vista previa de la carga útil, como se muestra a continuación...
+&#x200B;3. Haga clic en el **botón Enviar** y, si todo funciona bien, debería ver un código de respuesta de 200 y una vista previa de la carga útil, como se muestra a continuación...
 
 ![Código de respuesta 200 y previsualización de carga útil después de enviar la solicitud de prueba](assets/configure-custom-action-response-200-preview.png)
 
@@ -137,7 +137,7 @@ Vista previa
 
 
 
-4. Haga clic en el botón **Cancelar** para volver a la pantalla Acción y, a continuación, desplácese hacia arriba en el carril superior derecho y haga clic en el botón **Guardar**
+&#x200B;4. Haga clic en el botón **Cancelar** para volver a la pantalla Acción y, a continuación, desplácese hacia arriba en el carril superior derecho y haga clic en el botón **Guardar**
 
 >[!TIP]
 >

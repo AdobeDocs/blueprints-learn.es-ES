@@ -26,8 +26,8 @@ Compruebe que el recorrido se ha activado y ejecutado según lo esperado.  Verif
 
 ![Se muestra el recuento de perfiles ingresados para el recorrido](assets/validate-journey-profile-entered-count.png)
 
-3. Haga clic en **Ver informe** -> **Últimas 24 horas** en la parte superior derecha.
-4. De manera predeterminada, se encuentra en la ficha **Recorrido** (en el carril izquierdo)
+&#x200B;3. Haga clic en **Ver informe** -> **Últimas 24 horas** en la parte superior derecha.
+&#x200B;4. De manera predeterminada, se encuentra en la ficha **Recorrido** (en el carril izquierdo)
    - Verá algunas entradas y salidas (el recuento dependerá de cuántos eventos haya enviado, de cualquier prueba, de cualquier error, etc.)
 
 ![Informes de fichas de Recorrido que muestran entradas y salidas](assets/validate-journey-journey-tab-enters-exits.png)
@@ -56,7 +56,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
 3 Eventos externos
 
-5. Haga clic en la ficha **Correo electrónico** (en el carril izquierdo)
+&#x200B;5. Haga clic en la ficha **Correo electrónico** (en el carril izquierdo)
    - **Correo electrónico: rendimiento de envío**
      - Verá algunos valores para **Delivered** y **Sent** (el recuento dependerá de cuántos eventos haya enviado, de cualquier error, etc.)
      - Con suerte, no tendrá errores (a menos que haya tenido algunos problemas anteriormente)
@@ -65,10 +65,10 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
 ![Pestaña Correo electrónico que muestra el rendimiento y las estadísticas de envío](assets/validate-journey-email-tab-sending-performance.png)
 
-6. Ve a comprobar tu **bandeja de entrada de correo electrónico** y ver si recibiste el correo electrónico (se parece a esto abajo)
+&#x200B;6. Ve a comprobar tu **bandeja de entrada de correo electrónico** y ver si recibiste el correo electrónico (se parece a esto abajo)
    - *,* su pedido ha enviado ETA: *17/10/2026* Número de seguimiento: *051009364*
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Compruebe la carpeta de correo no deseado para campañas de AJO [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
@@ -82,7 +82,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
 
 
-7. *Después de 30 a 60 minutos*, incluso puede comprobar su conjunto de datos en el lago de datos con lo siguiente: **Consultas** -> **Crear consulta** -> **Copiar/Pegar SQL** -> **Ejecutar**
+&#x200B;7. *Después de 30 a 60 minutos*, incluso puede comprobar su conjunto de datos en el lago de datos con lo siguiente: **Consultas** -> **Crear consulta** -> **Copiar/Pegar SQL** -> **Ejecutar**
 
 >[!NOTE]
 >

@@ -37,15 +37,15 @@ Cree una audiencia de todos los perfiles cuyo uso de datos de facturación sea a
 
 
 
-3. Busque el nombre del plan en el perfil y añádalo (XDM Individual Profile > Devbc > Detalles del plan > Nombre del plan). Seleccione No es igual a &quot;Ultimate&quot;
+&#x200B;3. Busque el nombre del plan en el perfil y añádalo (XDM Individual Profile > Devbc > Detalles del plan > Nombre del plan). Seleccione No es igual a &quot;Ultimate&quot;
 
 ![Seleccionar Nombre De Plan No Es Igual A Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4. Proporcione una descripción.  El método de evaluación Validate es Streaming.
+&#x200B;4. Proporcione una descripción.  El método de evaluación Validate es Streaming.
 
-5. Guardar la audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate (Agg)*&quot;
+&#x200B;5. Guardar la audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate (Agg)*&quot;
 
 >[!NOTE]
 >

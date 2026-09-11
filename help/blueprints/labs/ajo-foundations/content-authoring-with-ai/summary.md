@@ -36,7 +36,7 @@ A lo largo de este curso, ha explorado el recorrido completo de crear campañas 
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

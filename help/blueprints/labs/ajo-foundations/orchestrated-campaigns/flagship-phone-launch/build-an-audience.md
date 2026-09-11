@@ -29,7 +29,7 @@ En los siguientes pasos creará la audiencia a la que desea dirigirse para la ca
 
 
 
-2. En el carril derecho, verá las propiedades Generar audiencia. Actualice Label para que indique lo siguiente: `Active Lines with Apple`
+&#x200B;2. En el carril derecho, verá las propiedades Generar audiencia. Actualice Label para que indique lo siguiente: `Active Lines with Apple`
 
 ![Generar etiqueta de audiencia establecida en Líneas activas con Apple](assets/build-an-audience-set-label.png)
 
@@ -42,7 +42,7 @@ El siguiente paso es seleccionar **Targeting dimension** (es decir, qué tabla d
 
 ![Icono de búsqueda en el cuadro Dimensión de segmentación](assets/build-an-audience-search-targeting-dimension.png)
 
-2. En la ventana emergente, busque y seleccione la tabla denominada **dep-rel: Customer Line** y, a continuación, haga clic en el botón **Confirmar**.
+&#x200B;2. En la ventana emergente, busque y seleccione la tabla denominada **dep-rel: Customer Line** y, a continuación, haga clic en el botón **Confirmar**.
 
 ![Seleccione la tabla dep-rel: Customer Line y haga clic en Confirm](assets/build-an-audience-select-customer-line-table.png)
 
@@ -64,7 +64,7 @@ Ahora que ha seleccionado la dimensión de segmentación (qué esquema relaciona
 
 ![Botón Crear audiencia en el carril derecho](assets/build-an-audience-click-create-audience.png)
 
-2. Haga clic en el botón **Agregar condición**
+&#x200B;2. Haga clic en el botón **Agregar condición**
 
 ![Botón Agregar condición para la definición de audiencia](assets/build-an-audience-click-add-condition.png)
 
@@ -82,7 +82,7 @@ Ahora es el momento de escribir la lógica de la audiencia utilizando los atribu
 
 ![Condición 1 establecida en Línea activa igual a true](assets/build-an-audience-condition-active-line-true.png)
 
-2. Haga clic en el icono **Actualizar** para ver los recuentos correspondientes de la condición.
+&#x200B;2. Haga clic en el icono **Actualizar** para ver los recuentos correspondientes de la condición.
 
 ![Icono de actualización que muestra el recuento correspondiente de 241 para la condición 1](assets/build-an-audience-condition-1-refresh-count.png)
 
@@ -99,13 +99,13 @@ Ahora es el momento de escribir la lógica de la audiencia utilizando los atribu
 ![Seleccione el esquema dep-rel: [Consulta] del producto haciendo clic en el icono >](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-2. Busque el campo llamado **Make**, haga clic en los tres puntos y seleccione **Distribución de valores**
+&#x200B;2. Busque el campo llamado **Make**, haga clic en los tres puntos y seleccione **Distribución de valores**
 
 ![Opción de distribución de valores para el campo Crear](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-3. Tenga en cuenta los distintos valores. Solo desea `Apple` y, afortunadamente, no tiene 100 ortografías diferentes. Haga clic en el **campo Apple** para seleccionarlo y luego haga clic en el **botón Seleccionar atributo y valor** en la esquina superior derecha.
+&#x200B;3. Tenga en cuenta los distintos valores. Solo desea `Apple` y, afortunadamente, no tiene 100 ortografías diferentes. Haga clic en el **campo Apple** para seleccionarlo y luego haga clic en el **botón Seleccionar atributo y valor** en la esquina superior derecha.
 
 ![Valor de Apple seleccionado con el botón Seleccionar atributo y valor](assets/build-an-audience-select-apple-attribute-value.png)
 
@@ -115,12 +115,12 @@ Ahora es el momento de escribir la lógica de la audiencia utilizando los atribu
 
 
 
-4. El campo `Make` se agrega automáticamente junto con las condiciones que se muestran a continuación.
+&#x200B;4. El campo `Make` se agrega automáticamente junto con las condiciones que se muestran a continuación.
    - **Operador:** `Equal to`
    - **Valor:** `Apple`
    - **Distinción entre mayúsculas y minúsculas:** `Enabled`
 
-5. Haz clic en el **icono de cálculo** y verás 85 como resultado.
+&#x200B;5. Haz clic en el **icono de cálculo** y verás 85 como resultado.
 
 ![Recuento calculado de condición 2 de 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -142,7 +142,7 @@ Ahora es el momento de escribir la lógica de la audiencia utilizando los atribu
 
 
 
-2. Si ve el recuento final de **65**, haga clic en el botón **Confirmar** en la parte superior derecha de la pantalla y, a continuación, haga clic en el botón **Guardar** en la parte superior derecha para guardar el trabajo.
+&#x200B;2. Si ve el recuento final de **65**, haga clic en el botón **Confirmar** en la parte superior derecha de la pantalla y, a continuación, haga clic en el botón **Guardar** en la parte superior derecha para guardar el trabajo.
 
 
 

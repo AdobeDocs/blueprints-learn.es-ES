@@ -106,7 +106,7 @@ Una solicitud correcta debe responder con un `200 OK` y solo debe ver los campos
 
 ![Se ha filtrado una respuesta 200 OK que muestra solo los campos Nombre, Apellido y Productos activos](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Respuesta de API de búsqueda de entidad de perfil (atributos) correcta con el filtro habilitado")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >¡Felicidades!  Ha buscado correctamente los atributos de un perfil utilizando la API de entidad de perfil
 

@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Instrucciones de implementación
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Esto solo es necesario si está trabajando en los laboratorios a su propio ritmo. Si está en un curso o evento de formación en directo, su zona protegida ya se ha implementado para usted.
 
@@ -68,7 +68,7 @@ La CLI se implementa en cualquier zona protegida a la que apunte el archivo de e
 | `SCOPES` | Debe incluir ámbitos de API de Experience Platform (openid, session, AdobeID, read_groups, additional_info.projectProductContext) |
 | `SANDBOX_NAME` | La zona protegida a la que está dirigiendo debe estar vacía y ser del tipo `dev` |
 
-3. Guarde y cierre el archivo
+&#x200B;3. Guarde y cierre el archivo
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ En el menú principal, seleccione **AEP foundation**. Hay tres pasos, y tienen q
 
 El paso 1 tarda unos 2 minutos en ejecutarse, el paso 2, unos 6 minutos, y el paso 3 es una validación rápida sin esperar por sí solo. Los intervalos de 60 y 15 minutos entre pasos son para que AEP termine de propagar los datos entre bastidores; esa es la mayor parte de su cronología de 2 horas.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >La CLI comprueba automáticamente estos tiempos de espera. Si ejecuta un paso demasiado pronto, se bloquea y le informa de cuántos minutos quedan; no necesita rastrear el reloj usted mismo.
 

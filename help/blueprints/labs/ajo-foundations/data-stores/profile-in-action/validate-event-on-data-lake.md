@@ -21,7 +21,7 @@ Compruebe que el evento web se haya escrito en el lago de datos de Experience Pl
 
 ## Validar evento
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Finalmente, los datos aparecerán en el lago de datos.  **Esto puede tardar hasta 60 minutos**.  Sabemos que el conjunto de datos está habilitado para el perfil y, por lo tanto, el evento creará un fragmento de perfil.
 >
@@ -31,16 +31,16 @@ Compruebe que el evento web se haya escrito en el lago de datos de Experience Pl
 
 ![Pantalla Crear consulta en la sección Consultas](assets/validate-event-on-data-lake-create-query.png)
 
-2. Copie este SQL y péguelo en la consulta
+&#x200B;2. Copie este SQL y péguelo en la consulta
 
 ```sql
 SELECT identityMap['email'][0].id, * FROM dep_web
 where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 ```
 
-3. **Ejecutar** Consulta
+&#x200B;3. **Ejecutar** Consulta
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >**Recordar**: Finalmente, los datos aparecerán en el lago de datos.  **Esto puede tardar hasta 60 minutos**.
 >

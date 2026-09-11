@@ -57,7 +57,7 @@ lastOrderStatusUpdate
 
 Si la pantalla de asignación se queja ahora de que hay una asignación duplicada como **orderStatus** asignada a **order.\_devbc.acqSource,** haga clic en el icono &quot;-&quot; para quitar la asignación.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Recuerde que no se pueden asignar varios campos de entrada al mismo campo de salida, ya que esto hace que la asignación sea ambigua. Sin embargo, un solo campo de entrada se puede asignar a varios campos de salida en el esquema XDM.
 

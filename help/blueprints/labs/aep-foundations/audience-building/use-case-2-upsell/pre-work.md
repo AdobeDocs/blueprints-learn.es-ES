@@ -26,11 +26,11 @@ Para este caso de uso, no hay mucho trabajo previo que hacer. Básicamente tenem
 
 
 
-3. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
+&#x200B;3. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
 
 ![Buscar uso en eventos - no se muestra descripción](assets/pre-work-search-usage-in-events.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Ninguno de estos tiene descripciones, por lo que el experto en marketing puede hacer algunas suposiciones y adivinar mal.
 >
@@ -41,7 +41,6 @@ Para este caso de uso, no hay mucho trabajo previo que hacer. Básicamente tenem
 >- ¿Recomendado/preferido en casos de uso específicos?
 >
 >Al proporcionar esta información en descripciones, podemos guiarlos mejor.
-
 > [!NOTE]
 >
 >Intente buscar &quot;Facturación&quot;.  Observe que no aparece como un atributo de perfil.  Se muestra como una tarjeta de tipo de evento junto con el campo &quot;Uso de datos de facturación&quot;.

@@ -46,19 +46,19 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-2. Proporcione una descripción y conviértala en Streaming.
+&#x200B;2. Proporcione una descripción y conviértala en Streaming.
 
-3. Sobre el evento Colocado, cambie &quot;En cualquier momento&quot; a &quot;Hoy&quot;
+&#x200B;3. Sobre el evento Colocado, cambie &quot;En cualquier momento&quot; a &quot;Hoy&quot;
 
 ![Cambiar el filtro de tiempo de evento de Cualquier hora a Hoy](assets/build-audience-1-change-any-time-to-today.png)
 
-4. Guardar esta audiencia como &quot;*Visitó cualquier página*&quot;
+&#x200B;4. Guardar esta audiencia como &quot;*Visitó cualquier página*&quot;
 
-5. Haga clic en el botón azul **Activar audiencia** al destino
+&#x200B;5. Haga clic en el botón azul **Activar audiencia** al destino
 
-6. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
+&#x200B;6. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
 
-7. Haga clic en Next y Finish
+&#x200B;7. Haga clic en Next y Finish
 
 ## Crear una audiencia (visitó la página 14 de iPhone, pero no la posee ni la solicitó)
 
@@ -68,7 +68,7 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-2. Vaya a donde está Nombre de página y añada el campo Nombre de página al Evento para que podamos filtrar.
+&#x200B;2. Vaya a donde está Nombre de página y añada el campo Nombre de página al Evento para que podamos filtrar.
 
 - ExperienceEvent de XDM —> Web —> Detalles de página web —> Nombre
 
@@ -76,11 +76,11 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-3. Añadir contiene &quot;iPhone 14&quot;
+&#x200B;3. Añadir contiene &quot;iPhone 14&quot;
 
 ![Agregar una condición contiene para &quot;iPhone 14&quot;](assets/build-audience-3-add-contains-iphone-14.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Buscando &quot;Página&quot;**
 >
@@ -98,7 +98,7 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-4. Sobre el evento Colocado, cambie &quot;En cualquier momento&quot; a &quot;Hoy&quot;
+&#x200B;4. Sobre el evento Colocado, cambie &quot;En cualquier momento&quot; a &quot;Hoy&quot;
 
 ![Cambiar el filtro de tiempo de evento de Cualquier hora a Hoy](assets/build-audience-1-change-any-time-to-today.png)
 
@@ -108,19 +108,19 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-5. Valide que esto sea un flujo y proporcione una descripción.
+&#x200B;5. Valide que esto sea un flujo y proporcione una descripción.
 
-6. Guardar audiencia como &quot;*Página visitada de iPhone 14*&quot;
+&#x200B;6. Guardar audiencia como &quot;*Página visitada de iPhone 14*&quot;
 
 ![Guardar la audiencia como &quot;Página visitada de iPhone 14&quot;](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
-7. Haga clic en el botón azul **Activar audiencia** al destino
+&#x200B;7. Haga clic en el botón azul **Activar audiencia** al destino
 
-8. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
+&#x200B;8. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
 
-9. Haga clic en Next y Finish
+&#x200B;9. Haga clic en Next y Finish
 
 
 
@@ -135,24 +135,23 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-5. Proporcione una descripción.
+&#x200B;5. Proporcione una descripción.
 
-6. Cambio en streaming
+&#x200B;6. Cambio en streaming
 
-7. Guardar como &quot;*Página de iPhone 14 visitada pero no perteneciente/solicitada*&quot;
+&#x200B;7. Guardar como &quot;*Página de iPhone 14 visitada pero no perteneciente/solicitada*&quot;
 
-8. Haga clic en el botón azul **Activar audiencia** al destino
+&#x200B;8. Haga clic en el botón azul **Activar audiencia** al destino
 
-9. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
+&#x200B;9. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
 
-10. Haga clic en Next y Finish
+&#x200B;10. Haga clic en Next y Finish
 
 >[!NOTE]
 >
 >**Filtro de tiempo**
 >
 >Los requisitos no tenían requisitos de tiempo, por lo que si alguien visitaba hace tres años, calificaría. Según nuestro caso de uso, eso puede funcionar o no. Vale la pena preguntar. Añadimos uno porque lo estamos activando en función de las personas que visitaron nuestro sitio web hoy.  Es posible que no funcione en todos los casos de uso.  Si añadimos un filtro de tiempo, ¿hasta dónde podemos retroceder antes de que una audiencia de Edge se convierta en streaming o incluso en lote?
-
 > [!NOTE]
 >
 >**Consecuencias de romper esto**

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Asignaciones de paso a través
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | concat(fecha\_part(&quot;mm&quot;, fecha(nacimiento\_Fecha, &quot;aaaa-M-d&quot;)).toString(), &quot;-&quot;, fecha\_part(&quot;dd&quot;, fecha(nacimiento\_Fecha, &quot;aaaa-M-d&quot;)).toString()) | person.birthDayAndMonth |
 | date\_part(&quot;yyyy&quot;,date(birth\_Date,&quot;yyyy-M-d&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Asegúrese de que la asignación final coincida con lo que se muestra a continuación antes de continuar
 

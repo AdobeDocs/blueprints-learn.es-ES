@@ -26,7 +26,7 @@ En el siguiente conjunto de pasos creará una configuración de canal de correo 
 
 ![Crear configuración de canal](assets/configure-for-profile-create-configuration-button.png)
 
-3. En el asistente Crear establezca los siguientes valores:
+&#x200B;3. En el asistente Crear establezca los siguientes valores:
    - **Nombre:** `Relational-Email`
    - **Canal:** `Email`
    - **Acción de marketing:** `Email Targeting`
@@ -101,27 +101,27 @@ Mantener la configuración predeterminada
 
 ![Configurar campaña orquestada](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-2. En Dimensión de ejecución, configure lo siguiente:
+&#x200B;2. En Dimensión de ejecución, configure lo siguiente:
    - **Enviar un mensaje por:** `Target Dimension `
    - **Dimension de destino de perfil:** `dep-rel: Customer Account - customer_id`
 
 ![Dimensión de ejecución](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-3. En Dirección de ejecución, configure lo siguiente:
+&#x200B;3. En Dirección de ejecución, configure lo siguiente:
    - **Source:** `Target Dimension`
    - **Dirección de envío:** `click on the Edit button`
 
 ![Dimension de destino](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-4. En la ventana emergente, haga clic en la carpeta **dep-rel: Customer Account**
+&#x200B;4. En la ventana emergente, haga clic en la carpeta **dep-rel: Customer Account**
 
 ![Configurar dirección de entrega](assets/configure-for-relational-customer-account-folder.png)
 
-5. Seleccione **Correo electrónico** y haga clic en el botón **Seleccionar**
+&#x200B;5. Seleccione **Correo electrónico** y haga clic en el botón **Seleccionar**
 
 ![Correo electrónico como dirección de envío](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-6. Cuando termine, los detalles de ejecución finales se parecerán a la captura de pantalla siguiente
+&#x200B;6. Cuando termine, los detalles de ejecución finales se parecerán a la captura de pantalla siguiente
 
 ![Dimensión de ejecución configurada](assets/configure-for-relational-execution-details-final-result.png)
 

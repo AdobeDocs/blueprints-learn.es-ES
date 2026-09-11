@@ -37,11 +37,11 @@ En este punto, ha aprendido que no solo podemos personalizar los atributos de pe
 
 Se abre un panel de simulación.
 
-3. Haga clic en **Enviar revisión**.
+&#x200B;3. Haga clic en **Enviar revisión**.
 
 ![Botón Enviar prueba en el panel de simulación](assets/test-the-email-click-send-proof-button.png)
 
-4. Añada su propia dirección de correo electrónico personal.
+&#x200B;4. Añada su propia dirección de correo electrónico personal.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Se abre un panel de simulación.
 
 
 
-5. Seleccione ambas variantes.
-6. Añadir prefijo de línea de asunto
+&#x200B;5. Seleccione ambas variantes.
+&#x200B;6. Añadir prefijo de línea de asunto
    1. Variante 1: superior a 40
    2. Variante 2: por debajo de 40
-7. Haga clic en **Enviar revisión**. Recibe un mensaje de confirmación verde &quot;**Pruebas enviadas correctamente**&quot;
+&#x200B;7. Haga clic en **Enviar revisión**. Recibe un mensaje de confirmación verde &quot;**Pruebas enviadas correctamente**&quot;
 
 ![Mensaje de confirmación verde que muestra las pruebas enviadas correctamente](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

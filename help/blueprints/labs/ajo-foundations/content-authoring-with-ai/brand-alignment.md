@@ -48,9 +48,9 @@ Este módulo le enseña a ejecutar la evaluación, interpretar los resultados y 
 
 ![Icono de porcentaje y pestaña Alineación de marca en la barra lateral](assets/brand-alignment-open-panel-icon.png)
 
-4. Asegúrese de que se aplica la marca correcta:
+&#x200B;4. Asegúrese de que se aplica la marca correcta:
    - **Conexión 5G** (predeterminada).
-5. Haga clic en **Evaluar puntuación**.
+&#x200B;5. Haga clic en **Evaluar puntuación**.
 
 **Interprete la puntuación de marca y los comentarios:** Después de un momento, verá la puntuación de cumplimiento de marca para su contenido. Esta puntuación puede presentarse como una calificación (por ejemplo, alta, Medium o baja) o como un porcentaje, junto con un indicador de color (verde, amarillo, rojo) y el tiempo de evaluación. Una puntuación alta significa que el contenido se alinea estrechamente con las directrices de marca, mientras que una puntuación media o baja indica una alineación moderada o deficiente.
 
@@ -105,21 +105,21 @@ Interprete los resultados para comprender hasta qué punto su correo electrónic
 
 ![Bloque de texto marcado del párrafo de descripción pegado](assets/brand-alignment-flagged-text-block.png)
 
-3. Utilice las modificaciones sugeridas por AI. Haga clic en el icono como se muestra a continuación.
+&#x200B;3. Utilice las modificaciones sugeridas por AI. Haga clic en el icono como se muestra a continuación.
 
 ![Icono de sugerencia de IA para aplicar modificaciones sugeridas](assets/brand-alignment-ai-suggestion-icon.png)
 
-4. Haz clic en el botón **Corregir con IA** como se muestra a continuación.
+&#x200B;4. Haz clic en el botón **Corregir con IA** como se muestra a continuación.
 
 ![Corregir con el botón de IA para una directriz marcada](assets/brand-alignment-fix-with-ai-button.png)
 
-5. Verá los cambios sugeridos resaltados en verde y el texto eliminado en rojo con tachado, como se muestra a continuación. También verá que la puntuación se ha actualizado (en este caso, es del 80 %). Haga clic en el botón **Aplicar** para que los cambios surtan efecto.
+&#x200B;5. Verá los cambios sugeridos resaltados en verde y el texto eliminado en rojo con tachado, como se muestra a continuación. También verá que la puntuación se ha actualizado (en este caso, es del 80 %). Haga clic en el botón **Aplicar** para que los cambios surtan efecto.
 
 ![Cambios sugeridos resaltados en verde con texto eliminado tachado en rojo](assets/brand-alignment-apply-suggested-changes.png)
 
-6. Los cambios se aplican con el nuevo texto.
-7. Revise todas las áreas resaltadas y realice las actualizaciones necesarias para corregir el contenido, ya sea mediante IA o editándolo manualmente. Asegúrese de que todos los cambios necesarios se hayan completado antes de continuar.
-8. Guardar cambios.
+&#x200B;6. Los cambios se aplican con el nuevo texto.
+&#x200B;7. Revise todas las áreas resaltadas y realice las actualizaciones necesarias para corregir el contenido, ya sea mediante IA o editándolo manualmente. Asegúrese de que todos los cambios necesarios se hayan completado antes de continuar.
+&#x200B;8. Guardar cambios.
 
 ![Guardando cambios después de corregir el contenido marcado](assets/brand-alignment-save-changes.png)
 
@@ -140,7 +140,7 @@ Por ejemplo:
 
 Esto indica que las actualizaciones alinearon correctamente el correo electrónico con los estándares de marca.
 
-5. Haz clic en **Guardar** para finalizar el correo electrónico.
+&#x200B;5. Haz clic en **Guardar** para finalizar el correo electrónico.
 
 ![Botón Guardar para finalizar el correo electrónico](assets/brand-alignment-save-finalize-email.png)
 

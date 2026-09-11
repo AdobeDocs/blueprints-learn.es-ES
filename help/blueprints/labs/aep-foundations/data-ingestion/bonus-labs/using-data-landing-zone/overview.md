@@ -86,6 +86,6 @@ Ahora debería ver una pantalla similar a la siguiente
 
 ![Explorador de almacenamiento de Azure que muestra la cuenta de la zona de aterrizaje de datos conectada correctamente](assets/overview-successfully-connected-account.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >¡Felicidades!  Ha configurado correctamente el Explorador de almacenamiento de Azure

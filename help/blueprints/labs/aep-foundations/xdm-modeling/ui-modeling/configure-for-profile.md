@@ -141,7 +141,6 @@ Examine la clase de perfil individual de XDM y, a continuación, dedique unos mo
 >[!NOTE]
 >
 >Observe que el esquema mostrado es una vista combinada agregada de todos los esquemas habilitados para perfiles de la zona protegida. Los campos similares dentro de la estructura XDM jerárquica se combinan, mientras que los campos con nombres o jerarquías diferentes se añaden a la vista general.
-
 > [!NOTE]
 >
 >Solo la clase basada en un perfil individual de XDM realiza combinaciones entre campos con nombres similares.

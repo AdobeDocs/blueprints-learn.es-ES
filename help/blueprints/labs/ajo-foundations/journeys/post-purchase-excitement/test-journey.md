@@ -33,7 +33,7 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 >
 >Indica que falta el vínculo de no participación en una variante de correo electrónico
 
-4. Haga clic en **Simular** y, en el lado izquierdo, seleccione **Modo de prueba**
+&#x200B;4. Haga clic en **Simular** y, en el lado izquierdo, seleccione **Modo de prueba**
 
 ![Modo de prueba seleccionado en Simular a la izquierda](assets/test-journey-select-test-mode.png)
 
@@ -45,15 +45,15 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 
 
-5. Haga clic en **Déclencheur un evento** y rellene estas propiedades:
+&#x200B;5. Haga clic en **Déclencheur un evento** y rellene estas propiedades:
    - **Tipo de evento**: `orders.shipped`
    - **Correo electrónico personal**: `henry.creel@emailsim.io`
    - **Id. de pedido**: `123`
-6. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
+&#x200B;6. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
 
 ![Déclencheur un formulario de eventos rellenado y se hizo clic en Enviar](assets/test-journey-trigger-event-send.png)
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >Algunos estudiantes tienen errores y necesitan enviar esto un par de veces. Es posible que tenga que hacer esto **varias** veces.
 >
@@ -65,11 +65,11 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 
 
-7. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
+&#x200B;7. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
 
 ![Mostrar opción de registro en Resultados después de activar el evento de prueba](assets/test-journey-show-log-results.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Algunos alumnos que recibieron errores a veces reciben registros diferentes que muestran una matriz de instancias vacía `{"instances": []}`. Esto no es un bloqueador, continúe y pase al siguiente paso.
 
@@ -106,16 +106,16 @@ Debería ver algo similar a esto en el &quot;log&quot;:
 
 
 
-8. **Cerrar** el explorador **pestaña**
-9. **Cerrar modo de prueba** en la parte superior derecha
+&#x200B;8. **Cerrar** el explorador **pestaña**
+&#x200B;9. **Cerrar modo de prueba** en la parte superior derecha
 
 ![Botón Cerrar modo de prueba en la parte superior derecha](assets/test-journey-close-test-mode.png)
 
-10. Haz clic en **Publicar** el Recorrido en la parte superior derecha
+&#x200B;10. Haz clic en **Publicar** el Recorrido en la parte superior derecha
 
 ![Botón Publicar para el Recorrido en la esquina superior derecha](assets/test-journey-publish-journey.png)
 
-11. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
+&#x200B;11. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
 
 ![Flecha hacia atrás en la parte superior izquierda para cerrar el Recorrido](assets/test-journey-close-journey-back-arrow.png)
 

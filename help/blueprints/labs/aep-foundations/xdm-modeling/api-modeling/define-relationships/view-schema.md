@@ -32,15 +32,15 @@ ht-degree: 0%
 
 
 
-2. En la dirección URL de la solicitud reemplace `<replace me>` por el `$meta:altId` que guardó de la sección anterior [Crear esquema](../build-schema/create-schema.md), como se muestra a continuación
+&#x200B;2. En la dirección URL de la solicitud reemplace `<replace me>` por el `$meta:altId` que guardó de la sección anterior [Crear esquema](../build-schema/create-schema.md), como se muestra a continuación
 
 ![Solicitud del paso 4 con el meta:altId anexado a la dirección URL](assets/view-schema-final-step-4-request.png "Solicitud del último paso 4")
 
 
 
-3. Guardar la solicitud utilizando el botón `Save`
+&#x200B;3. Guardar la solicitud utilizando el botón `Save`
 
-4. Ejecute la solicitud haciendo clic en el botón `Send`
+&#x200B;4. Ejecute la solicitud haciendo clic en el botón `Send`
 
 Ahora debería ver una respuesta `200 OK` y poder navegar hasta el final del esquema que creó para ver la identidad a través de la lente de la estructura JSON de XDM
 

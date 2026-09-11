@@ -35,11 +35,11 @@ Para crear un Recorrido que utilice un Evento unitario, primero debemos configur
 
 ![Botón Administrar del mosaico Eventos en Configuraciones](assets/configure-event-open-events-manage.png)
 
-2. En la esquina superior derecha, haga clic en el botón **Crear evento**
+&#x200B;2. En la esquina superior derecha, haga clic en el botón **Crear evento**
 
 ![Botón Crear evento en la esquina superior derecha](assets/configure-event-click-create-event-button.png)
 
-3. Actualice la configuración del evento de la siguiente manera:
+&#x200B;3. Actualice la configuración del evento de la siguiente manera:
    - **Nombre** = `orderShipped`
    - **Tipo** = `Unitary`
    - **Tipo de id. de evento** = `Rule based`
@@ -47,11 +47,11 @@ Para crear un Recorrido que utilice un Evento unitario, primero debemos configur
 
 ![evento orderShipped configurado con tipo unitario y profundidad: Orders v.1 schema](assets/configure-event-set-name-type-schema.png)
 
-4. En el cuadro de entrada `Fields`, haga clic en el **icono de lápiz**
+&#x200B;4. En el cuadro de entrada `Fields`, haga clic en el **icono de lápiz**
 
 ![Icono de lápiz en el cuadro de entrada Campos](assets/configure-event-click-fields-pencil-icon.png)
 
-5. Seleccione los campos siguientes para agregarlos al evento y, cuando termine, haga clic en el botón **Aceptar**
+&#x200B;5. Seleccione los campos siguientes para agregarlos al evento y, cuando termine, haga clic en el botón **Aceptar**
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
@@ -63,19 +63,19 @@ Para crear un Recorrido que utilice un Evento unitario, primero debemos configur
 
 
 
-6. En `Event Id condition input`, haga clic en el **icono de lápiz**
+&#x200B;6. En `Event Id condition input`, haga clic en el **icono de lápiz**
 
 ![Icono de lápiz en la entrada de condición de Id. de evento](assets/configure-event-click-event-id-condition-pencil.png)
 
-7. **Arrastre** el campo `Event Type` al lienzo
+&#x200B;7. **Arrastre** el campo `Event Type` al lienzo
 
 ![Arrastre el campo Tipo de evento al lienzo de la condición](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-8. En el cuadro de selección que aparece, busque y compruebe el valor titulado **orders.sent.** Luego haga clic en el botón **Aceptar**.
+&#x200B;8. En el cuadro de selección que aparece, busque y compruebe el valor titulado **orders.sent.** Luego haga clic en el botón **Aceptar**.
 
 ![pedidos.valor enviado marcado en el cuadro de selección](assets/configure-event-select-orders-shipped-value.png)
 
-9. A continuación, actualice los dos últimos valores de Área de nombres e Identificador de perfil con los valores que se muestran a continuación:
+&#x200B;9. A continuación, actualice los dos últimos valores de Área de nombres e Identificador de perfil con los valores que se muestran a continuación:
    - **Espacio de nombres** —> `Email`
    - **Identificador de perfil** —> `personalEmail`
 

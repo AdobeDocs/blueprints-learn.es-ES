@@ -45,7 +45,7 @@ Recuerde que los requisitos comerciales son que cualquiera de los sistemas de Co
 
 ![Configuración de canal de experiencia basada en código completada con formato JSON seleccionado](assets/create-code-based-experience-channel-completed-config.png)
 
-9. Una vez que todo parezca correcto, haga clic en el botón azul **Enviar** en la esquina superior derecha.
+&#x200B;9. Una vez que todo parezca correcto, haga clic en el botón azul **Enviar** en la esquina superior derecha.
 
 >[!TIP]
 >

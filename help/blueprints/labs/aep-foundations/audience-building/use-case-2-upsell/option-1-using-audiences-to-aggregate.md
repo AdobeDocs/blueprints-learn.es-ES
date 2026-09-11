@@ -35,7 +35,7 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-2. Haga clic en la elipse en la parte inferior derecha de las reglas y seleccione Aggregate. Haga clic en Seleccionar un atributo y escriba Uso. Seleccione el campo Uso de datos de facturación.
+&#x200B;2. Haga clic en la elipse en la parte inferior derecha de las reglas y seleccione Aggregate. Haga clic en Seleccionar un atributo y escriba Uso. Seleccione el campo Uso de datos de facturación.
 
 
 
@@ -47,17 +47,17 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-3. Cambie el valor de Equals a Greater than y el valor a 140.
+&#x200B;3. Cambie el valor de Equals a Greater than y el valor a 140.
 
-4. Cambie el tiempo encima de la tarjeta Evento de Cualquier momento a En el último y el valor a 6 y los días a meses
+&#x200B;4. Cambie el tiempo encima de la tarjeta Evento de Cualquier momento a En el último y el valor a 6 y los días a meses
 
 ![Cambiar la ventana de tiempo del evento a En los últimos 6 meses](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
 
 
 
-5. Proporcione una descripción y guarde los cambios.
+&#x200B;5. Proporcione una descripción y guarde los cambios.
 
-6. Asigne a la audiencia el nombre &quot;*Suma de uso de facturación > 140 GB (últimos 6 meses)*&quot;
+&#x200B;6. Asigne a la audiencia el nombre &quot;*Suma de uso de facturación > 140 GB (últimos 6 meses)*&quot;
 
 >[!NOTE]
 >
@@ -84,13 +84,13 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-2. Haga clic en el botón Copiar y edítelo.  Haga clic en la tarjeta Evento y cambie la Suma a Promedio. Cambie mayor que a mayor o igual que y el valor a 20. Copie el pseudocódigo en la descripción.
+&#x200B;2. Haga clic en el botón Copiar y edítelo.  Haga clic en la tarjeta Evento y cambie la Suma a Promedio. Cambie mayor que a mayor o igual que y el valor a 20. Copie el pseudocódigo en la descripción.
 
 ![Copie el pseudocódigo en la descripción de la audiencia](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
 
 
 
-3. Asigne a la audiencia el nombre &quot;*Uso de facturación promedio > 20 GB (últimos 6 meses)*&quot;
+&#x200B;3. Asigne a la audiencia el nombre &quot;*Uso de facturación promedio > 20 GB (últimos 6 meses)*&quot;
 
 ## Audience #3: no tiene un plan de teléfono definitivo
 
@@ -109,15 +109,15 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-5. Haga clic en Audiencias —> Experience Platform. Arrastre Suma de uso de facturación > 140 GB y Promedio de uso de facturación >= 20 GB junto a Nombre del plan.
+&#x200B;5. Haga clic en Audiencias —> Experience Platform. Arrastre Suma de uso de facturación > 140 GB y Promedio de uso de facturación >= 20 GB junto a Nombre del plan.
 
 ![Arrastre las audiencias de uso de facturación junto a Nombre del plan](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. Copie el pseudocódigo en la descripción
+&#x200B;6. Copie el pseudocódigo en la descripción
 
-7. Marque esto puede ser Streaming. **No puede ser Streaming**. Realice algunos cambios:
+&#x200B;7. Marque esto puede ser Streaming. **No puede ser Streaming**. Realice algunos cambios:
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-8. Reemplazar **Nombre de plan (Nombre de plan)** por: Perfil individual de XDM > Devbc > Detalles de plan > **Nombre de plan**
+&#x200B;8. Reemplazar **Nombre de plan (Nombre de plan)** por: Perfil individual de XDM > Devbc > Detalles de plan > **Nombre de plan**
 
 ![Reemplazar el nombre del plan (nombre del plan) por el campo desnormalizado Nombre del plan](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -143,9 +143,9 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-9. Compruebe que ahora puede guardarlo como Flujo continuo. Guardar audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate*&quot;
+&#x200B;9. Compruebe que ahora puede guardarlo como Flujo continuo. Guardar audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate*&quot;
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Aunque este método de evaluación es de streaming, basa la calificación de audiencia en dos audiencias por lotes.
 

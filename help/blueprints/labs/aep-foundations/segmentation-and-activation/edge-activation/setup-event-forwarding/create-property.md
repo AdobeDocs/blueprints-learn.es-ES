@@ -26,9 +26,9 @@ Normalmente, queremos reenviar un evento de experiencia a un tercero (aunque no 
 
 ![Sección de reenvío de eventos con el botón Nueva propiedad resaltado](assets/create-property-new-property-button.png "Cree una nueva propiedad de reenvío de eventos")
 
-3. Actualice el nombre de la propiedad mediante la fórmula siguiente: `Event Forward Property SB + [sandbox number]`. El nombre final tendría este aspecto: **Propiedad de reenvío de eventos SB01**
+&#x200B;3. Actualice el nombre de la propiedad mediante la fórmula siguiente: `Event Forward Property SB + [sandbox number]`. El nombre final tendría este aspecto: **Propiedad de reenvío de eventos SB01**
 
-4. Haga clic en **Guardar** cuando haya terminado
+&#x200B;4. Haga clic en **Guardar** cuando haya terminado
 
 ![El campo Nombre de propiedad de reenvío de eventos se completó con el botón Guardar resaltado](assets/create-property-name-property-form.png)
 
@@ -40,17 +40,17 @@ Normalmente, queremos reenviar un evento de experiencia a un tercero (aunque no 
 
 
 
-2. Debería ver una pantalla como la siguiente.  Haz clic en **Extensiones**.
+&#x200B;2. Debería ver una pantalla como la siguiente.  Haz clic en **Extensiones**.
 
 ![Pantalla de información general sobre la propiedad de reenvío de eventos con la pestaña Extensiones resaltada](assets/create-property-click-extensions-tab.png)
 
 
 
-3. Instale la extensión Adobe Cloud Connector haciendo lo siguiente:
+&#x200B;3. Instale la extensión Adobe Cloud Connector haciendo lo siguiente:
 
-4. Haz clic en **Catálogo** en la barra de navegación superior
-5. Haga clic en la tarjeta **Conector de Adobe Cloud**
-6. En el carril derecho, haga clic en el botón **Instalar**
+&#x200B;4. Haz clic en **Catálogo** en la barra de navegación superior
+&#x200B;5. Haga clic en la tarjeta **Conector de Adobe Cloud**
+&#x200B;6. En el carril derecho, haga clic en el botón **Instalar**
 
 ![Catálogo de extensiones con la tarjeta Adobe Cloud Connector y el botón de instalación resaltados](assets/create-property-install-cloud-connector-extension.png)
 
@@ -74,13 +74,13 @@ Después de hacer clic en Instalar, debe ver la extensión debajo de Extensiones
 
 
 
-2. Haga clic en el botón **Crear nuevo elemento de datos**
+&#x200B;2. Haga clic en el botón **Crear nuevo elemento de datos**
 
 ![Página de elementos de datos con el botón Crear nuevo elemento de datos resaltado](assets/create-property-create-new-data-element-button.png "Crear nuevo elemento de datos")
 
 
 
-3. Configure el nuevo elemento de datos con la siguiente información:
+&#x200B;3. Configure el nuevo elemento de datos con la siguiente información:
 
 | Tipo de elemento | Valor para configurar |
 | ----------------- | ------------------ |
@@ -92,13 +92,13 @@ Después de hacer clic en Instalar, debe ver la extensión debajo de Extensiones
 
 
 
-4. Haga clic en el botón **Abrir editor** para agregar el siguiente código personalizado:
+&#x200B;4. Haga clic en el botón **Abrir editor** para agregar el siguiente código personalizado:
 
 ![Configuración del elemento de datos con el botón Abrir editor resaltado para el código personalizado](assets/create-property-open-custom-code-editor.png "Abrir el editor")
 
 
 
-5. Agregue código personalizado al editor como tal y guárdelo
+&#x200B;5. Agregue código personalizado al editor como tal y guárdelo
 
 ```none
 var xdm = arc?.event || '';
@@ -115,7 +115,7 @@ return xdm;
 
 
 
-6. Haga clic en el botón **Guardar** para guardar el elemento de datos.
+&#x200B;6. Haga clic en el botón **Guardar** para guardar el elemento de datos.
 
 ![Editor de elementos de datos con el botón Guardar resaltado](assets/create-property-save-data-element-button.png)
 
@@ -143,17 +143,17 @@ Cuando haya terminado, debería ver la siguiente pantalla que confirma que se ha
 
 
 
-2. Luego haz clic en **Crear nueva regla**
+&#x200B;2. Luego haz clic en **Crear nueva regla**
 
 ![Página de reglas con el botón Crear nueva regla resaltado](assets/create-property-new-rule-button.png)
 
 
 
-3. Actualice el nombre de la regla con la fórmula siguiente: `"EF Rule SB" + [your sandbox number]` (es decir, la regla EF SB01). Puede encontrar el número de la zona protegida en la parte superior derecha de la ventana del explorador, como se muestra a continuación\...
+&#x200B;3. Actualice el nombre de la regla con la fórmula siguiente: `"EF Rule SB" + [your sandbox number]` (es decir, la regla EF SB01). Puede encontrar el número de la zona protegida en la parte superior derecha de la ventana del explorador, como se muestra a continuación\...
 
 ![Esquina superior derecha de la ventana del explorador que muestra el número de zona protegida utilizado en el nombre de regla](assets/create-property-sandbox-number-location.png)
 
-4. Haga clic en **Guardar** cuando haya terminado
+&#x200B;4. Haga clic en **Guardar** cuando haya terminado
 
 >[!NOTE]
 >
@@ -163,7 +163,7 @@ Cuando haya terminado, debería ver la siguiente pantalla que confirma que se ha
 
 
 
-5. Añada una acción a la regla haciendo clic en el signo (+) para añadir una nueva acción
+&#x200B;5. Añada una acción a la regla haciendo clic en el signo (+) para añadir una nueva acción
 
 ![Editor de reglas con el icono más resaltado para agregar una nueva acción](assets/create-property-add-action-button.png "Agregar una acción")
 
@@ -182,7 +182,7 @@ Cuando haya terminado, debería ver la siguiente pantalla que confirma que se ha
 
 
 
-3. Configure la acción con la siguiente información:
+&#x200B;3. Configure la acción con la siguiente información:
 
 | Configuración | Valor |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -209,7 +209,7 @@ Cuando termine, valide la pantalla que se parece a la que se muestra a continuac
 
 
 
-4. Cuando termine, debería ver la acción agregada a la regla. Haga clic en **Guardar** para continuar.
+&#x200B;4. Cuando termine, debería ver la acción agregada a la regla. Haga clic en **Guardar** para continuar.
 
 ![Editor de reglas que muestra la acción configurada con el botón Guardar resaltado](assets/create-property-save-rule-button.png "Guarde la regla")
 
@@ -229,13 +229,13 @@ Cuando termine, valide la pantalla que se parece a la que se muestra a continuac
 
 
 
-2. Haga clic en el botón **Agregar biblioteca**
+&#x200B;2. Haga clic en el botón **Agregar biblioteca**
 
 ![Página de flujo de publicación con el botón Agregar biblioteca resaltado](assets/create-property-add-library-button.png "Agregar biblioteca")
 
 
 
-3. Configure la biblioteca con la siguiente información:
+&#x200B;3. Configure la biblioteca con la siguiente información:
 
 - Nombre -> **Biblioteca EF**
 - Entorno -> **Desarrollo**
@@ -248,6 +248,6 @@ Cuando termine, la pantalla debería ser similar a la de abajo.  Si todo parece 
 
 
 
-4. Luego debería ver que la compilación de desarrollo se vuelve verde indicando que está lista para usarse
+&#x200B;4. Luego debería ver que la compilación de desarrollo se vuelve verde indicando que está lista para usarse
 
 ![Flujo de publicación que muestra el estado de compilación de desarrollo cambiado a verde y listo para usar](assets/create-property-development-build-ready.png)

@@ -47,7 +47,7 @@ Después de hacer clic en **Finalizar**, volverá a la pantalla **Flujos de dato
 
 ![Pantalla de flujos de datos que muestra el nuevo flujo de datos con el estado Sin ejecuciones](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Pantalla de fuentes de flujos de datos")
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Debe actualizar la página continuamente para ver la actualización de estado, ya que el backend no inserta actualizaciones en la interfaz de usuario.
 

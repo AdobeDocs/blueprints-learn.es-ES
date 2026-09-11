@@ -25,9 +25,9 @@ Confirme que el perfil aún no aparece en el conjunto de datos Instantánea de p
 
 ![Ficha Examinar conjuntos de datos en la sección Administración de datos](assets/validate-profile-snapshot-datasets-browse-tab.png)
 
-2. En el **cuadro de búsqueda** escriba `profile`, a continuación **haga clic en la fila** con el título &quot;Instantánea de perfil...&quot;.   y en el carril derecho **copie el nombre de la tabla** y péguelo en algún lugar al que pueda hacer referencia en el siguiente paso.
+&#x200B;2. En el **cuadro de búsqueda** escriba `profile`, a continuación **haga clic en la fila** con el título &quot;Instantánea de perfil...&quot;.   y en el carril derecho **copie el nombre de la tabla** y péguelo en algún lugar al que pueda hacer referencia en el siguiente paso.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Es posible que tenga que borrar cualquier filtro si no ve el mensaje &quot;Profile-Snapshot...&quot; conjunto de datos.
 
@@ -35,7 +35,7 @@ Confirme que el perfil aún no aparece en el conjunto de datos Instantánea de p
 
 ![Resultados de búsqueda para el conjunto de datos de instantánea de perfil](assets/validate-profile-snapshot-dataset-search.png)
 
-3. Vuelva al editor de consultas y copie y pegue el SQL siguiente en el editor
+&#x200B;3. Vuelva al editor de consultas y copie y pegue el SQL siguiente en el editor
 
 ```sql
 select
@@ -60,15 +60,15 @@ from
   limit 50
 ```
 
-4. Actualice el nombre y la dirección de correo electrónico de la tabla como se describe a continuación:
+&#x200B;4. Actualice el nombre y la dirección de correo electrónico de la tabla como se describe a continuación:
    - **Nombre de tabla:** en la línea 14 copie y pegue el nombre de tabla que tiene para la tabla Instantánea de perfil entre `from` y `where`
    - **Dirección de correo electrónico:** por ahora, en la línea 19, escriba la misma dirección de correo electrónico que usó para enviar el evento Web (usamos henry.creel\@emailsim.io, a menos que lo haya cambiado).
      - Por el momento, hemos comentado esto (déjalo así). Cuando se ejecuta la consulta y buscas a Henry, no lo encuentras.
 
 ![Editor de consultas con el nombre y la dirección de correo electrónico de la tabla de instantáneas de perfil que se va a actualizar](assets/validate-profile-snapshot-update-query-table-name.png)
 
-5. **Ejecute** la consulta haciendo clic en la flecha de la parte superior izquierda
-6. Los resultados son los siguientes (pero si buscas a Henry, no lo encuentras)
+&#x200B;5. **Ejecute** la consulta haciendo clic en la flecha de la parte superior izquierda
+&#x200B;6. Los resultados son los siguientes (pero si buscas a Henry, no lo encuentras)
 
 ![Resultados de la consulta que no muestran ninguna coincidencia para el perfil transmitido en la instantánea](assets/validate-profile-snapshot-query-results-no-match.png)
 

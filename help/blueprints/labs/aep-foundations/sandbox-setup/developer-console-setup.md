@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configuración de Developer Console
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Esto solo es necesario si está trabajando en los laboratorios a su propio ritmo. Si está en un curso o evento de formación en directo, su zona protegida ya se ha implementado para usted.
 

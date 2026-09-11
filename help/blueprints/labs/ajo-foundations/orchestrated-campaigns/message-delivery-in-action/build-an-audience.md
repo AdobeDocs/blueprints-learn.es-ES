@@ -25,31 +25,31 @@ En el siguiente conjunto de pasos, se creará una audiencia a partir del esquema
 
 ![Seleccionar audiencia de compilación de las actividades de segmentación](assets/build-an-audience-select-build-audience-activity.png)
 
-2. La actividad **Generar audiencia** abre el panel de detalles a la derecha, haga clic en el icono Buscar para seleccionar **Dimensión de segmentación**.
+&#x200B;2. La actividad **Generar audiencia** abre el panel de detalles a la derecha, haga clic en el icono Buscar para seleccionar **Dimensión de segmentación**.
 
 ![Seleccionar dimensión de segmentación](assets/build-an-audience-select-targeting-dimension.png)
 
-3. Seleccione `dep-rel: Customer Account` de la lista y haga clic en **Confirmar**
+&#x200B;3. Seleccione `dep-rel: Customer Account` de la lista y haga clic en **Confirmar**
 
 ![Seleccionar dep-rel: Esquema de cuenta de cliente](assets/build-an-audience-select-customer-account-schema.png)
 
-4. Una vez configurada **Targeting dimension**, haga clic en Crear audiencia para iniciar el proceso de creación de la audiencia a partir del esquema relacional
+&#x200B;4. Una vez configurada **Targeting dimension**, haga clic en Crear audiencia para iniciar el proceso de creación de la audiencia a partir del esquema relacional
 
 ![Haga clic en el botón Crear audiencia](assets/build-an-audience-create-audience-button.png)
 
-5. Cuando se abra el panel Crear detalles de audiencia, haga clic en **Agregar condición**
+&#x200B;5. Cuando se abra el panel Crear detalles de audiencia, haga clic en **Agregar condición**
 
 ![Haga clic en Agregar condición en el panel Crear audiencia](assets/build-an-audience-add-condition.png)
 
-6. Desplácese hacia abajo y expanda `dep-rel: Plan Lookup` haciendo clic en **>** que está al lado
+&#x200B;6. Desplácese hacia abajo y expanda `dep-rel: Plan Lookup` haciendo clic en **>** que está al lado
 
 ![Expandir fila profunda: búsqueda de plan](assets/build-an-audience-expand-plan-lookup.png)
 
-7. Seleccione `dep-rel: Plan Name` y haga clic en **Confirmar**
+&#x200B;7. Seleccione `dep-rel: Plan Name` y haga clic en **Confirmar**
 
 ![Seleccionar dep-rel: Nombre del plan](assets/build-an-audience-select-plan-name.png)
 
-8. En el panel Personalizar condición, deje el operador como &quot;igual a&quot; y, para Valor, seleccione Básico en la lista desplegable.
+&#x200B;8. En el panel Personalizar condición, deje el operador como &quot;igual a&quot; y, para Valor, seleccione Básico en la lista desplegable.
 
 ![Condición personalizada con nombre de plan igual a Básico](assets/build-an-audience-plan-name-equals-basic.png)
 
@@ -59,7 +59,7 @@ En el siguiente conjunto de pasos, se creará una audiencia a partir del esquema
 
 
 
-9. Con la condición personalizada configurada, haga clic en el icono Actualizar para calcular y ver el recuento. Existen dos ubicaciones para ayudar a calcular los resultados
+&#x200B;9. Con la condición personalizada configurada, haga clic en el icono Actualizar para calcular y ver el recuento. Existen dos ubicaciones para ayudar a calcular los resultados
 
 ![Haga clic en Actualizar para calcular los recuentos de filas esperados](assets/build-an-audience-refresh-row-counts.png)
 
@@ -69,7 +69,7 @@ En el siguiente conjunto de pasos, se creará una audiencia a partir del esquema
 
 
 
-10. Los recuentos (**38**) indican el número de filas del almacén relacional que coinciden con la condición especificada. Haga clic en **Confirmar** para salir del panel **Crear audiencia**
+&#x200B;10. Los recuentos (**38**) indican el número de filas del almacén relacional que coinciden con la condición especificada. Haga clic en **Confirmar** para salir del panel **Crear audiencia**
 
 ![Confirmar recuento de filas y salir del panel Crear audiencia](assets/build-an-audience-confirm-row-count.png)
 

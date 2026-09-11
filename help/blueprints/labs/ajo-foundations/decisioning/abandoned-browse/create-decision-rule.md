@@ -32,14 +32,14 @@ Dado que la idoneidad es uno de los componentes básicos clave de una oferta, el
 
 ![Página Reglas de decisión con el botón Crear regla](assets/create-decision-rule-create-rule-button.png)
 
-4. Se abrirá una pantalla similar a la interfaz de usuario del Generador de segmentos. Agregue el atributo de ID de plan al lienzo de reglas haciendo clic en **Perfil individual de XDM > DEP > Detalles del plan** y luego arrastrando el atributo **ID de plan** al lienzo.
-5. Cambie el menú desplegable de igual a **contiene.**
-6. Escriba el texto **2** en el cuadro, presione la tecla **Tab** para aceptar el valor 2 y, a continuación, escriba **3,** y presione **Tab** de nuevo para que la regla busque cualquier ID de plan que contenga un 2 o un 3
-7. Utilice el cuadro de texto **Name** en el carril derecho para asignar un nombre a la regla de decisión **Planes de nivel superior**. Añada una descripción si lo desea. Cuando termine, la regla de decisión deberá tener este aspecto:
+&#x200B;4. Se abrirá una pantalla similar a la interfaz de usuario del Generador de segmentos. Agregue el atributo de ID de plan al lienzo de reglas haciendo clic en **Perfil individual de XDM > DEP > Detalles del plan** y luego arrastrando el atributo **ID de plan** al lienzo.
+&#x200B;5. Cambie el menú desplegable de igual a **contiene.**
+&#x200B;6. Escriba el texto **2** en el cuadro, presione la tecla **Tab** para aceptar el valor 2 y, a continuación, escriba **3,** y presione **Tab** de nuevo para que la regla busque cualquier ID de plan que contenga un 2 o un 3
+&#x200B;7. Utilice el cuadro de texto **Name** en el carril derecho para asignar un nombre a la regla de decisión **Planes de nivel superior**. Añada una descripción si lo desea. Cuando termine, la regla de decisión deberá tener este aspecto:
 
 ![Regla de decisión de planes de nivel superior completada con el identificador de plan que contiene 2 o 3](assets/create-decision-rule-upper-tier-plans-finished.png "Regla de decisión de planes de nivel superior completada con el identificador de plan que contiene 2 o 3")
 
-8. Una vez que la regla sea correcta, haga clic en el botón azul **Crear** en la esquina superior derecha y volverá a la página Configuración de estrategia con la regla de decisión que acaba de crear enumerada como la única regla de decisión.
+&#x200B;8. Una vez que la regla sea correcta, haga clic en el botón azul **Crear** en la esquina superior derecha y volverá a la página Configuración de estrategia con la regla de decisión que acaba de crear enumerada como la única regla de decisión.
 
 >[!NOTE]
 >

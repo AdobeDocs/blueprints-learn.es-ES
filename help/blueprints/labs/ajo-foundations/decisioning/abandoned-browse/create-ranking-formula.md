@@ -30,14 +30,14 @@ En este escenario de laboratorio, pretenderemos que el equipo de marketing de in
 
 ![Vaciar la página de fórmulas de clasificación antes de crear una fórmula](assets/create-ranking-formula-empty-ranking-formulas-page.png)
 
-3. Haga clic en el botón azul **Crear fórmula** para comenzar a crear una nueva fórmula de clasificación
-4. Asigne un nombre a la fórmula de clasificación **iPhone 17 Ranking Formula**
+&#x200B;3. Haga clic en el botón azul **Crear fórmula** para comenzar a crear una nueva fórmula de clasificación
+&#x200B;4. Asigne un nombre a la fórmula de clasificación **iPhone 17 Ranking Formula**
 
 >[!NOTE]
 >
 >Cuando se envía un evento de experiencia a la recopilación de datos de Edge con los parámetros necesarios para solicitar una oferta de un paquete de Decisioning activo, todas las ofertas de ese paquete se evalúan mediante la fórmula de clasificación. Cada oferta mantendrá su prioridad original o la ajustará dinámicamente en función del perfil que activó el evento de experiencia.
 
-5. Desplácese hasta la parte inferior de la sección &quot;Criterios&quot;, haga clic en el icono **\&lt;/>** del cuadro de texto inferior y seleccione la variable **Puntuación de prioridad de oferta**.
+&#x200B;5. Desplácese hasta la parte inferior de la sección &quot;Criterios&quot;, haga clic en el icono **\&lt;/>** del cuadro de texto inferior y seleccione la variable **Puntuación de prioridad de oferta**.
 
 ![Variable de puntuación de prioridad de oferta seleccionada en los criterios de fórmula de clasificación](assets/create-ranking-formula-select-offer-priority-score.png)
 
@@ -69,29 +69,29 @@ Una forma de pensar en las reglas de ajuste de prioridad es tratarlas como instr
 
 ![Seleccionar opción de atributo mostrada para el criterio 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
 
-2. Cuando se abra el cuadro de diálogo &quot;Seleccionar un atributo&quot;, haga clic en **Nombre de oferta**. Una vez seleccionado, haga clic en **Guardar.**
+&#x200B;2. Cuando se abra el cuadro de diálogo &quot;Seleccionar un atributo&quot;, haga clic en **Nombre de oferta**. Una vez seleccionado, haga clic en **Guardar.**
 
 >[!NOTE]
 >
 >El &quot;atributo Decisión&quot; hace referencia a elementos del elemento de oferta. Dado que aquí es donde se describe a qué artículos de oferta se aplican los criterios, las únicas opciones disponibles son los atributos del artículo de oferta.
 >
 
-3. Deje el operador establecido en &quot;Es igual que&quot; y, en el cuadro de texto restante, escriba el nombre del elemento de oferta de ultra nivel, que es **iphone:17\:ultra**. Después de escribir el texto, la interfaz de usuario se actualiza y refleja que se ha aceptado la condición coincidente.
-4. Haga clic en **+Agregar condición** y, a continuación, haga clic en el **cuadro de texto nuevo que aparece** (tiene el texto &#39;*Haga clic para crear un elemento de decisión...*&#39; en él
-5. Haga clic en la opción **Seleccionar atributo** ahora disponible**.**
-6. Cuando se abra el cuadro de diálogo &quot;Seleccionar un atributo&quot;, haga clic en **Atributos de perfil > Persona** (probablemente necesite desplazarse hacia abajo) **> Año de nacimiento**. Una vez seleccionado, haga clic en **Guardar.**
+&#x200B;3. Deje el operador establecido en &quot;Es igual que&quot; y, en el cuadro de texto restante, escriba el nombre del elemento de oferta de ultra nivel, que es **iphone:17\:ultra**. Después de escribir el texto, la interfaz de usuario se actualiza y refleja que se ha aceptado la condición coincidente.
+&#x200B;4. Haga clic en **+Agregar condición** y, a continuación, haga clic en el **cuadro de texto nuevo que aparece** (tiene el texto &#39;*Haga clic para crear un elemento de decisión...*&#39; en él
+&#x200B;5. Haga clic en la opción **Seleccionar atributo** ahora disponible&#x200B;**.**
+&#x200B;6. Cuando se abra el cuadro de diálogo &quot;Seleccionar un atributo&quot;, haga clic en **Atributos de perfil > Persona** (probablemente necesite desplazarse hacia abajo) **> Año de nacimiento**. Una vez seleccionado, haga clic en **Guardar.**
 
 >[!NOTE]
 >
 > &quot;Atributos de perfil&quot; hace referencia al usuario o perfil que envió el evento de experiencia y &quot;Datos de contexto&quot; hace referencia a elementos en el propio evento de experiencia, como la URL, el nombre de página u otros atributos de la carga útil del evento de experiencia.
 
-7. Cambie el operador a **Greater than** e introduzca el año de nacimiento **1986** (la interfaz de usuario coloca una coma en el año, que se espera). Después de entrar, la interfaz de usuario se actualiza para reflejar que la condición se ha aceptado. Dado que el caso de uso comercial es ofrecer el nivel Ultra a cualquier persona menor de 40 años, la prioridad se ajusta para cualquier persona nacida después de 1986.
+&#x200B;7. Cambie el operador a **Greater than** e introduzca el año de nacimiento **1986** (la interfaz de usuario coloca una coma en el año, que se espera). Después de entrar, la interfaz de usuario se actualiza para reflejar que la condición se ha aceptado. Dado que el caso de uso comercial es ofrecer el nivel Ultra a cualquier persona menor de 40 años, la prioridad se ajusta para cualquier persona nacida después de 1986.
 
 >[!NOTE]
 >
 >Como se mencionó anteriormente, la interfaz de usuario indica que estas condiciones adicionales son &quot;opcionales&quot;. Esto se debe a que es posible que se desee ajustar dinámicamente la prioridad de un conjunto de elementos de oferta sin ningún criterio adicional. Puede ser que los mismos elementos de oferta se puedan usar en una colección diferente y se clasifiquen con un conjunto diferente de reglas de clasificación. Dado que este laboratorio utiliza un único conjunto de elementos de oferta, se utilizan condiciones adicionales para ajustar la prioridad.
 
-8. La prioridad original para el artículo de oferta de nivel Ultra es 4. Para aumentar la prioridad, multiplíquelo por 100. Para ello, haga clic en el icono **\&lt;/>** junto al último cuadro de texto y seleccione la variable **Puntuación de prioridad de oferta**. Agregue un **\*100** después del texto introducido automáticamente. Esta expresión multiplica la prioridad original (4) por 100 y le da una nueva prioridad de 400.
+&#x200B;8. La prioridad original para el artículo de oferta de nivel Ultra es 4. Para aumentar la prioridad, multiplíquelo por 100. Para ello, haga clic en el icono **\&lt;/>** junto al último cuadro de texto y seleccione la variable **Puntuación de prioridad de oferta**. Agregue un **\*100** después del texto introducido automáticamente. Esta expresión multiplica la prioridad original (4) por 100 y le da una nueva prioridad de 400.
 
    La regla debería tener un aspecto similar al siguiente:
 
@@ -145,12 +145,11 @@ Una forma de pensar en las reglas de ajuste de prioridad es tratarlas como instr
 >- A los usuarios nacidos en 1990 con un **ID de plan = 1** se les eliminarán las ofertas Ultra y Pro, a pesar de que ocupen el puesto más alto. El usuario solo ve las ofertas básicas y genéricas porque los niveles Ultra y Pro tienen una condición adicional: solo los usuarios con **ID de plan 2 o 3** pueden verlas.
 >- Dado que la oferta genérica no tiene reglas de límite de frecuencia, el usuario **1970** del año de nacimiento nunca verá la oferta Ultra, ya que su puntuación de prioridad es inferior a la puntuación aumentada del genérico.
 
-5. Con todas las reglas y la puntuación de prioridad predeterminada en su lugar, desplácese hacia atrás hasta la parte superior y haga clic en el botón azul **Crear** en la esquina superior derecha.
+&#x200B;5. Con todas las reglas y la puntuación de prioridad predeterminada en su lugar, desplácese hacia atrás hasta la parte superior y haga clic en el botón azul **Crear** en la esquina superior derecha.
 
 >[!TIP]
 >
 >Ahora volverá a la página &quot;Configuración de estrategia&quot; y verá la fórmula de clasificación única que acaba de crear.
-
 > [!NOTE]
 >
 >¿Qué sucede si dos ofertas resultan en la misma prioridad? Las ofertas con la misma puntuación de prioridad se eligen al azar para volver al sistema solicitante.

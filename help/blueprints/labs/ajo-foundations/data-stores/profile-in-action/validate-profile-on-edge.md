@@ -31,7 +31,7 @@ Confirme que el perfil no existe en el almacén de perfiles de red de Edge.
 
 
 
-2. Haga clic en la pestaña Pertenencia a audiencias.  Estará **en blanco**.
+&#x200B;2. Haga clic en la pestaña Pertenencia a audiencias.  Estará **en blanco**.
 
 ![Pestaña Pertenencia a audiencia vacía en el perfil de Edge](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

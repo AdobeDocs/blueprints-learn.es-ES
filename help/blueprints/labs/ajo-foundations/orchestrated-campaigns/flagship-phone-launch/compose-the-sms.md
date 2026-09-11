@@ -41,7 +41,7 @@ Haga clic en el botón **Editar contenido** o vaya directamente a la pestaña **
 
 
 
-2. Copie y pegue el texto siguiente en el cuerpo del mensaje SMS.
+&#x200B;2. Copie y pegue el texto siguiente en el cuerpo del mensaje SMS.
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -53,7 +53,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-3. Actualice los dos campos del mensaje **phone\_make** y **phone\_model** más abajo con la opción **Atributos de destino** en el carril izquierdo.  Cuando termine, el mensaje debe coincidir con la captura de pantalla.
+&#x200B;3. Actualice los dos campos del mensaje **phone\_make** y **phone\_model** más abajo con la opción **Atributos de destino** en el carril izquierdo.  Cuando termine, el mensaje debe coincidir con la captura de pantalla.
 
 ![Mensaje SMS final con marca y modelo de teléfono personalizados](assets/compose-the-sms-final-message-text.png)
 
@@ -63,13 +63,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-4. Haga clic en **Validar** en el editor, compruebe que no haya errores de validación y, si es correcto, haga clic en el botón **Guardar**
+&#x200B;4. Haga clic en **Validar** en el editor, compruebe que no haya errores de validación y, si es correcto, haga clic en el botón **Guardar**
 
 ![Botones Validar y Guardar en el editor de mensajes](assets/compose-the-sms-validate-and-save.png)
 
 
 
-5. Haga clic en la **flecha hacia atrás (\&lt;-)** cuando haya terminado para volver al lienzo del flujo de trabajo
+&#x200B;5. Haga clic en la **flecha hacia atrás (\&lt;-)** cuando haya terminado para volver al lienzo del flujo de trabajo
 
 ![Flecha hacia atrás para volver al lienzo del flujo de trabajo](assets/compose-the-sms-return-to-canvas.png)
 

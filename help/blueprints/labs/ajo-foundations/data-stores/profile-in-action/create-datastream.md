@@ -61,13 +61,13 @@ Esto le permite enviar datos al concentrador y aterrizar en un conjunto de datos
 
 ![Botón Agregar servicio en la pantalla de configuración de la secuencia de datos](assets/create-datastream-add-service-button.png)
 
-2. Configure los siguientes elementos:
+&#x200B;2. Configure los siguientes elementos:
    - **Servicio** -> `Adobe Experience Platform`
    - **Conjunto de datos de evento** -> `dep: Web`
    - **Conjunto de datos del perfil** -> `dep: Customer Account`
    - **Seleccionar casilla de verificación** -> `Offer Decisioning`
    - **Seleccionar casilla de verificación** -> `Adobe Journey Optimizer`
-3. Cuando termine, haga clic en **Guardar**
+&#x200B;3. Cuando termine, haga clic en **Guardar**
 
 ![Cuadro de diálogo de configuración del servicio Adobe Experience Platform con campos de evento y conjunto de datos de perfil](assets/create-datastream-configure-aep-service.png)
 

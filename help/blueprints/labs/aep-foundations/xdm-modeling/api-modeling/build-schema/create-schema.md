@@ -27,14 +27,14 @@ ht-degree: 0%
 
 
 
-2. Abra el cuerpo de la llamada y vea la estructura de cómo se define un esquema. Recuerde que un esquema siempre está compuesto por una sola (1) clase y uno o más grupos de campos.
+&#x200B;2. Abra el cuerpo de la llamada y vea la estructura de cómo se define un esquema. Recuerde que un esquema siempre está compuesto por una sola (1) clase y uno o más grupos de campos.
 
-3. Rellene los campos `title` y `description` del cuerpo del esquema con lo siguiente:
+&#x200B;3. Rellene los campos `title` y `description` del cuerpo del esquema con lo siguiente:
 
 - Título -> `Sample Customer Schema - <your sandbox number>`
 - Descripción -> `Sample Customer Schema - <your sandbox number>`
 
-4. Rellene los campos de `$ref` con los `$ids` que guardó de las secciones de laboratorio anteriores que completó: [Crear grupos de campos personalizados](./create-custom-field-groups.md) y [Obtener clase de perfil](./get-profile-class.md). Debe tener $ids para cada uno de los elementos siguientes:
+&#x200B;4. Rellene los campos de `$ref` con los `$ids` que guardó de las secciones de laboratorio anteriores que completó: [Crear grupos de campos personalizados](./create-custom-field-groups.md) y [Obtener clase de perfil](./get-profile-class.md). Debe tener $ids para cada uno de los elementos siguientes:
 
 - Clase -> Perfil individual XDM
 - Grupo de campos -> Detalles demográficos
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 
 
-5. Revise el cuerpo final y asegúrese de que tenga un aspecto similar al siguiente
+&#x200B;5. Revise el cuerpo final y asegúrese de que tenga un aspecto similar al siguiente
 
 ![Cuerpo de solicitud de esquema completado con título, descripción y todos los valores $ref rellenados](assets/create-schema-example-of-final-body-payload.png "Ejemplo de carga útil de cuerpo final")
 

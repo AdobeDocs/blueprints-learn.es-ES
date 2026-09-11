@@ -65,6 +65,6 @@ Para ver cómo puede automatizar las implementaciones mediante API, ejecute una 
 
 ![Dos conjuntos de datos creados con el postman: el prefijo coincide con los esquemas automatizados](assets/automate-with-apis-datasets-created-in-ui.png "Conjuntos de datos de automatización")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >¡Felicidades!  Acaba de automatizar la implementación de áreas de nombres de identidad, grupos de campos, esquemas, descriptores de identidad/relación y de habilitar un esquema para el perfil y generar un conjunto de datos utilizando el esquema

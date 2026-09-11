@@ -55,14 +55,14 @@ Esta funcionalidad permite a los usuarios orientados a contenido trabajar en pla
 
 ![Navegando a Administración de contenido y luego a Plantillas de contenido](assets/building-content-template-navigate-content-templates.png)
 
-2. Haga clic en **Crear plantilla** y, a continuación, complete lo siguiente:
+&#x200B;2. Haga clic en **Crear plantilla** y, a continuación, complete lo siguiente:
    - **Nombre:** `Promotional Template`
    - **Descripción:** `Promotional Template for phone products`
    - **Canal:** `Email`
 
 ![Crear formulario de plantilla con nombre, descripción y canal de correo electrónico](assets/building-content-template-create-template-form-fields.png)
 
-3. Haga clic en **Crear**.
+&#x200B;3. Haga clic en **Crear**.
 
 ![Botón Crear para terminar de crear la plantilla promocional](assets/building-content-template-click-create-button.png)
 
@@ -73,7 +73,7 @@ Esta funcionalidad permite a los usuarios orientados a contenido trabajar en pla
 
 ![Agregando la línea de asunto y abriendo el cuerpo del correo electrónico para editar](assets/building-content-template-add-subject-line-open-editor.png)
 
-2. Verá tres opciones:
+&#x200B;2. Verá tres opciones:
    1. Diseñe desde cero
    2. Codifique su propio código
    3. Importar HTML
@@ -92,11 +92,11 @@ Seleccione la tercera opción. Haga clic en **Importar HTML**
 
 ![Cargando promotional-template-final.html desde la carpeta del kit de herramientas](assets/building-content-template-upload-html-template-file.png)
 
-2. Haga clic en el botón Importar para **importar** la plantilla.
+&#x200B;2. Haga clic en el botón Importar para **importar** la plantilla.
 
 ![Botón Importar para importar la plantilla de HTML cargada](assets/building-content-template-click-import-button.png)
 
-3. Espere a que se procese el diseño. Observará problemas como vínculos de imagen rotos y falta de personalización de marca. (Este es el comportamiento esperado, ya que tenemos recursos de marcador de posición)
+&#x200B;3. Espere a que se procese el diseño. Observará problemas como vínculos de imagen rotos y falta de personalización de marca. (Este es el comportamiento esperado, ya que tenemos recursos de marcador de posición)
 
 ![Plantilla procesada que muestra vínculos de imagen rotos y marcadores de posición que faltan](assets/building-content-template-rendered-template-broken-images.png)
 
@@ -127,7 +127,7 @@ Verá que el fragmento de encabezado que creó en el ejercicio anterior aparece 
 
 ![Fragmento de encabezado mostrado activo con un punto azul en la barra lateral izquierda](assets/building-content-template-header-fragment-live-sidebar.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Si no ve el fragmento aquí, significa que no lo ha guardado correctamente y que debe volver a cargarlo.
 
@@ -145,19 +145,19 @@ Ves algo como esto.
 
 ![Diseño de plantilla después de agregar la nueva columna sobre el contenido](assets/building-content-template-column-added-above-content.png)
 
-2. El fondo utiliza el color de fondo de la plantilla, que actualmente es negro. Establece su color de fondo **en blanco. Haga clic en** en la ficha Estilo del carril derecho y utilice el color blanco del selector de color.
+&#x200B;2. El fondo utiliza el color de fondo de la plantilla, que actualmente es negro. Establece su color de fondo **en blanco. Haga clic en** en la ficha Estilo del carril derecho y utilice el color blanco del selector de color.
 
 ![Estableciendo el color de fondo de la columna en blanco mediante el selector de color](assets/building-content-template-set-background-color-white.png)
 
-3. Abra **Fragmentos** y arrastre su fragmento **Encabezado**.
+&#x200B;3. Abra **Fragmentos** y arrastre su fragmento **Encabezado**.
 
 ![Arrastrando el fragmento de encabezado a la plantilla desde el panel Fragmentos](assets/building-content-template-drag-header-fragment-into-template.png)
 
-4. Observe que el fragmento de encabezado está perfectamente alineado con la plantilla, como se muestra a continuación.
+&#x200B;4. Observe que el fragmento de encabezado está perfectamente alineado con la plantilla, como se muestra a continuación.
 
 ![Fragmento de encabezado perfectamente alineado dentro de la plantilla](assets/building-content-template-header-fragment-aligned-template.png)
 
-5. Haga clic en el botón **Guardar** para guardar la plantilla y luego haga clic en **Atrás**.
+&#x200B;5. Haga clic en el botón **Guardar** para guardar la plantilla y luego haga clic en **Atrás**.
 
 ![Botón Guardar para guardar la plantilla antes de hacer clic en Atrás](assets/building-content-template-click-save-button-template.png)
 

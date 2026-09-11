@@ -30,7 +30,7 @@ Una política de combinación hace dos cosas:
    - Prioridad de marca de tiempo: utilice el registro más reciente de todos los conjuntos de datos como el conjunto de datos verdadero y permita que todos los demás registros rellenen los huecos en orden de reciente a más antiguo
    - Prioridad de conjuntos de datos: elija qué conjuntos de datos de perfil individual XDM se pueden utilizar para formar el perfil y en qué orden ensamblarlos
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Cuando se elige el método de combinación de Prioridad de conjuntos de datos, puede elegir qué conjuntos de datos de Perfil individual XDM y Evento de experiencia XDM pueden utilizarse en la formación del perfil.
 >
@@ -198,7 +198,7 @@ Cuando se utiliza el gráfico de identidad con el almacén de perfiles, se puede
 
 Sin el gráfico de identidad, el almacén de perfiles solo puede recuperar fragmentos de perfil mediante un único identificador (es decir, identidad principal)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Tengan tiempo adicional y deseen experimentar...:**
 >

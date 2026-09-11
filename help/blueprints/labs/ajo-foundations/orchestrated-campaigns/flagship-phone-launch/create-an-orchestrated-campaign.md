@@ -29,14 +29,14 @@ En el siguiente conjunto de pasos se crea el shell de una campaña orquestada (s
 
 
 
-2. En el carril de navegación izquierdo, seleccione **Campañas**
-3. A continuación, haga clic en el botón **Crear campaña** en la esquina superior derecha
+&#x200B;2. En el carril de navegación izquierdo, seleccione **Campañas**
+&#x200B;3. A continuación, haga clic en el botón **Crear campaña** en la esquina superior derecha
 
 ![Botón Crear campaña en la navegación de Campañas](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-4. En el modal que se muestra, seleccione **Orquestación - Marketing** y haga clic en **Confirmar**
+&#x200B;4. En el modal que se muestra, seleccione **Orquestación - Marketing** y haga clic en **Confirmar**
 
 ![Seleccionar orquestación - Marketing y hacer clic en Confirmar](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -52,7 +52,7 @@ Cuando termine, la pantalla debería tener el aspecto siguiente.
 
 ![La configuración de la campaña se ha completado con la política de combinación y nombre](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-2. Haga clic en el botón **Guardar** para continuar.
+&#x200B;2. Haga clic en el botón **Guardar** para continuar.
 
 
 

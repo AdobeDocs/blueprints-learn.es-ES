@@ -31,7 +31,7 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
 
 
-2. Se inicia la ejecución de prueba de todas las actividades de campaña y se verifican los resultados
+&#x200B;2. Se inicia la ejecución de prueba de todas las actividades de campaña y se verifican los resultados
 
 ![Ejecución de prueba de actividades de campaña en curso](assets/test-the-campaign-verify-execution-results.png)
 
@@ -43,11 +43,11 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
 ![Ejecutar prueba para correo electrónico mediante la actividad de atributo de perfil](assets/test-the-campaign-run-test-profile-attribute.png)
 
-2. Espere el mensaje de confirmación y haga clic en **Ver informe** para ver los detalles de la prueba de correo electrónico
+&#x200B;2. Espere el mensaje de confirmación y haga clic en **Ver informe** para ver los detalles de la prueba de correo electrónico
 
 ![Haga clic en Ver informe para ver los detalles de la prueba de correo electrónico](assets/test-the-campaign-view-report-1.png)
 
-3. La página Informe de correo electrónico se presenta con las estadísticas de Campaign y el estado de ejecución. La prueba de correo electrónico es una verificación de la actividad para asegurarse de que no haya errores y no envía correos electrónicos. Normalmente tarda unos \~**5** minutos en completarse.
+&#x200B;3. La página Informe de correo electrónico se presenta con las estadísticas de Campaign y el estado de ejecución. La prueba de correo electrónico es una verificación de la actividad para asegurarse de que no haya errores y no envía correos electrónicos. Normalmente tarda unos \~**5** minutos en completarse.
 
 ![Página de informe de correo electrónico con estadísticas de Campaign](assets/test-the-campaign-campaign-statistics-1.png)
 
@@ -57,11 +57,11 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
 
 
-4. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. Hay cierto porcentaje de errores; haga clic en **Ver más** para conocer el motivo.
+&#x200B;4. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. Hay cierto porcentaje de errores; haga clic en **Ver más** para conocer el motivo.
 
 ![Tasa de error con el vínculo Ver más](assets/test-the-campaign-error-rate-view-more.png)
 
-5. Los estados de razón `Email address not found in profile`
+&#x200B;5. Los estados de razón `Email address not found in profile`
 
 ![Motivo: no se encontró la dirección de correo electrónico en el perfil](assets/test-the-campaign-email-not-found-reason.png)
 
@@ -81,11 +81,11 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
 ![Ejecutar prueba para correo electrónico mediante la actividad de Dimension de Target](assets/test-the-campaign-run-test-target-dimension.png)
 
-2. Espere el mensaje de confirmación y haga clic en **Ver informe** para ver los detalles de la prueba de correo electrónico
+&#x200B;2. Espere el mensaje de confirmación y haga clic en **Ver informe** para ver los detalles de la prueba de correo electrónico
 
 ![Haga clic en Ver informe para ver los detalles de la prueba de correo electrónico](assets/test-the-campaign-view-report-2.png)
 
-3. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. En este caso, no habrá errores
+&#x200B;3. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. En este caso, no habrá errores
 
 ![Estadísticas de campaña sin errores](assets/test-the-campaign-campaign-statistics-2.png)
 

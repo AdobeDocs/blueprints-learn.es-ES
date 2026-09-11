@@ -75,7 +75,7 @@ La CLI se implementa en cualquier zona protegida a la que apunte el archivo de e
 | `SCOPES` | Debe incluir ámbitos de API de Experience Platform y API de Adobe Journey Optimizer <br />*(por ejemplo: cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_groups, additional\_info.projectProductContext)* |
 | `SANDBOX_NAME` | La zona protegida a la que está dirigiendo debe estar vacía y ser del tipo `dev` |
 
-3. Guarde y cierre el archivo
+&#x200B;3. Guarde y cierre el archivo
 
 >[!NOTE]
 >
@@ -118,7 +118,6 @@ El paso 1 dura unos 2 minutos, el paso 2 unos 6 minutos.
 >[!NOTE]
 >
 >Utilice el paso 6 en lugar de ejecutar los pasos 4 y 5 por separado; hace lo mismo en una pasada con la espera de propagación gestionada por usted.
-
 > [!NOTE]
 >
 >La CLI comprueba automáticamente todos los tiempos de espera anteriores. Si ejecuta un paso demasiado pronto, se bloquea y le indica cuánto tiempo debe esperar.

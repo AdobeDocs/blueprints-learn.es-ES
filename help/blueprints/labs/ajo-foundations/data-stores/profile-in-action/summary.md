@@ -23,7 +23,7 @@ A través de estos pasos, ha mostrado cómo se mueven los eventos por las capas 
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

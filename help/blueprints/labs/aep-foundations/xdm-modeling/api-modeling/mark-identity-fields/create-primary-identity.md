@@ -55,6 +55,6 @@ SOLO EJEMPLO
 
 ![201 Se creó la respuesta después de crear correctamente el descriptor de identidad principal](assets/create-primary-identity-201-created-response.png "Se creó correctamente el descriptor de identidad principal")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >¡Felicidades!  Acaba de crear un descriptor de identidad principal en el esquema

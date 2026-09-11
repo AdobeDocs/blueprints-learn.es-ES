@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. Para recuperarse de los errores, debe ir a **Orígenes->Flujos de datos->Nombre de flujo de datos->Actualizar flujo de datos** y corregir las asignaciones.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Debe volver a cargar el archivo de muestra JSON eliminándolo primero y volviéndolo a añadir para que el asignador se actualice ahora con una copia nueva para la validación.
 

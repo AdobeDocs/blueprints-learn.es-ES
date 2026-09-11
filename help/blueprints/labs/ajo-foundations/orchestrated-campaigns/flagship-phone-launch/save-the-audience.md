@@ -29,7 +29,7 @@ En el siguiente conjunto de pasos guardará la audiencia que creó en el Portal 
 
 
 
-2. Actualice las propiedades de la dimensión de cambio como se describe a continuación:
+&#x200B;2. Actualice las propiedades de la dimensión de cambio como se describe a continuación:
    - **Etiqueta:** `Convert Line to Account`
    - **Nueva dimensión de destino:** `dep-rel: Customer Account`
 
@@ -43,7 +43,7 @@ En el siguiente conjunto de pasos guardará la audiencia que creó en el Portal 
 
 
 
-3. Cuando termine, este es el aspecto del lienzo.  Guarde el trabajo.
+&#x200B;3. Cuando termine, este es el aspecto del lienzo.  Guarde el trabajo.
 
 ![Lienzo de flujo de trabajo después de agregar la actividad de dimensión de cambio](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -57,13 +57,13 @@ En el siguiente conjunto de pasos guardará la audiencia que creó en el Portal 
 
 
 
-2. Actualice la etiqueta de la actividad Deduplication a `Dedup customer id`
+&#x200B;2. Actualice la etiqueta de la actividad Deduplication a `Dedup customer id`
 
 ![Etiqueta de actividad de anulación de duplicación establecida en el ID de cliente de anulación de duplicación](assets/save-the-audience-deduplication-label.png)
 
 
 
-3. Ahora haga clic en el botón **+ Agregar atributo** y seleccione el campo del esquema titulado **ID de cliente**
+&#x200B;3. Ahora haga clic en el botón **+ Agregar atributo** y seleccione el campo del esquema titulado **ID de cliente**
 
 ![Botón Agregar atributo para la actividad de anulación de duplicación](assets/save-the-audience-add-attribute-button.png)
 
@@ -71,7 +71,7 @@ En el siguiente conjunto de pasos guardará la audiencia que creó en el Portal 
 
 
 
-4. En la configuración de Deduplicación, asegúrese de que tiene el siguiente conjunto:
+&#x200B;4. En la configuración de Deduplicación, asegúrese de que tiene el siguiente conjunto:
    - **Duplicados que mantener:** `1`
    - **Método de deduplicación:** `Random selection`
 
@@ -83,7 +83,7 @@ En el siguiente conjunto de pasos guardará la audiencia que creó en el Portal 
 
 
 
-5. Cuando haya terminado, el lienzo tendrá este aspecto. Haga clic en el botón **Guardar** en la esquina superior derecha antes de continuar.
+&#x200B;5. Cuando haya terminado, el lienzo tendrá este aspecto. Haga clic en el botón **Guardar** en la esquina superior derecha antes de continuar.
 
 ![Actividad de deduplicación completamente configurada en el lienzo](assets/save-the-audience-deduplication-configured.png)
 
@@ -95,7 +95,7 @@ En el siguiente conjunto de pasos guardará la audiencia que creó en el Portal 
 
 ![Agregar la actividad Guardar audiencia después de la deduplicación](assets/save-the-audience-add-save-audience-activity.png)
 
-2. En el carril derecho, establezca las propiedades de la actividad en lo siguiente:
+&#x200B;2. En el carril derecho, establezca las propiedades de la actividad en lo siguiente:
    - **Etiqueta de audiencia**: `Apple Upgrade Eligible Customer Accounts`
    - **Campo de asignación de perfil**: `dep-rel: Customer Account - customer id`
 
@@ -134,7 +134,7 @@ De forma predeterminada, la clave principal de la dimensión de segmentación (e
 
 
 
-2. Haga clic en el botón **Iniciar** para ejecutar el flujo de trabajo. El flujo de trabajo tiene este aspecto y verá los recuentos de la siguiente manera:
+&#x200B;2. Haga clic en el botón **Iniciar** para ejecutar el flujo de trabajo. El flujo de trabajo tiene este aspecto y verá los recuentos de la siguiente manera:
    - Generar audiencia: `65`
    - Convertir línea en cuenta: `65`
    - Desduplicar id. de cliente: `46`

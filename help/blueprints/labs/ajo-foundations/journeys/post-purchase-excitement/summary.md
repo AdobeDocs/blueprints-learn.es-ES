@@ -23,7 +23,7 @@ Después de configurar la recorrido, probó la configuración y envió un evento
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SI ESTÁS LEYENDO ESTO SIGNIFICA QUE ESTÁS AL FINAL DEL LABORATORIO.**
 >

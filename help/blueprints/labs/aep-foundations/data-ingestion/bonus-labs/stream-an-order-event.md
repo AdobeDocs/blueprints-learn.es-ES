@@ -30,6 +30,6 @@ Realice el siguiente conjunto de tareas tal como lo hizo en el laboratorio anter
 1. En Postman, rellene **Crear evento de pedido** con la información necesaria para transmitir correctamente los datos y adjuntarlos al registro de cuenta de cliente creado anteriormente
 1. Verifique que el pedido esté vinculado a su perfil
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >¡Buena suerte y que los dioses de la Adobe Experience Platform estén contigo!

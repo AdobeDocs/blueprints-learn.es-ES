@@ -39,7 +39,7 @@ evento ![orders.sent mostrado en la ficha Eventos del perfil](assets/validate-ev
 
 
 
-3. Valide que el perfil se haya clasificado para las **audiencias** (puede tardar unos minutos).
+&#x200B;3. Valide que el perfil se haya clasificado para las **audiencias** (puede tardar unos minutos).
    - Cualquier evento de Edge (en 15 minutos)
    - Cualquier flujo de eventos (en 15 minutos)
 
@@ -56,8 +56,8 @@ Ahora que ha validado el perfil, envíe algunos eventos de pedidos enviados por 
 
 ![Se ha cambiado la dirección de correo electrónico en el cuerpo de la solicitud de Postman](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-3. **Guardar** y pulsar **Enviar**.
-4. Vuelva a los pasos 1-3 y valide con su dirección de correo electrónico.
+&#x200B;3. **Guardar** y pulsar **Enviar**.
+&#x200B;4. Vuelva a los pasos 1-3 y valide con su dirección de correo electrónico.
 
 ## Resumen
 

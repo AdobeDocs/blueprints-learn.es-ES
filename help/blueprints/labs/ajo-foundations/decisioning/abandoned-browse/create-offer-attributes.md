@@ -36,7 +36,7 @@ En esta sección, agregará campos XDM personalizados al esquema XDM de oferta e
 >
 >Además, navegar por la página de ofertas es un método abreviado para llegar a este esquema. También puede navegar a él a través del menú Esquema en el carril izquierdo.
 
-3. Haga clic en el icono **+** a la derecha del nivel raíz del esquema y, con el menú &quot;Propiedades del campo&quot; ahora visible en el carril derecho, rellene los campos siguientes con los valores proporcionados:
+&#x200B;3. Haga clic en el icono **+** a la derecha del nivel raíz del esquema y, con el menú &quot;Propiedades del campo&quot; ahora visible en el carril derecho, rellene los campos siguientes con los valores proporcionados:
    - Nombre de campo: **dispositivo**
    - Nombre para mostrar: **Dispositivo**
    - Lista desplegable de tipos: **Objeto**
@@ -46,11 +46,11 @@ En esta sección, agregará campos XDM personalizados al esquema XDM de oferta e
 >
 >La opción Asignar a grupo de campos parece ser un menú desplegable, pero también acepta la entrada de texto directo; por lo tanto, introduzca el texto &quot;Detalles de la oferta&quot;. Al escribirlo, también verá un elemento &quot;Detalles de la oferta (nueva)&quot;. Cualquier atributo nuevo debe asignarse a un grupo de campos, por lo que en este paso creará un nuevo grupo de campos llamado Detalles de la oferta.
 
-4. Asegúrese de que todas las propiedades se hayan rellenado como se muestra en la siguiente captura de pantalla:
+&#x200B;4. Asegúrese de que todas las propiedades se hayan rellenado como se muestra en la siguiente captura de pantalla:
 
 ![Propiedades de campo para el nuevo objeto Device rellenado](assets/create-offer-attributes-device-object-field-properties.png)
 
-5. Una vez que haya verificado que todos los campos son correctos, haga clic en el botón azul **Aplicar** en la parte inferior del menú &#39;Propiedades del campo&#39; (carril derecho) para ver los cambios aplicados al esquema:
+&#x200B;5. Una vez que haya verificado que todos los campos son correctos, haga clic en el botón azul **Aplicar** en la parte inferior del menú &#39;Propiedades del campo&#39; (carril derecho) para ver los cambios aplicados al esquema:
 
 ![Grupo de campos de dispositivo aplicado al esquema de oferta](assets/create-offer-attributes-device-object-applied.png)
 
@@ -76,7 +76,7 @@ Ahora que se ha creado el objeto XDM de dispositivo, puede pasar a la creación 
 
 ![Esquema de oferta que muestra los campos de marca, modelo y nivel completados](assets/create-offer-attributes-make-model-tier-fields.png)
 
-3. Con todos los campos/atributos XDM nuevos creados, haz clic en **Guardar** en la esquina superior derecha y recibirás el mensaje verde &quot;Esquema guardado correctamente&quot; en la parte inferior de la pantalla. Ahora ha completado los pasos de esta sección.
+&#x200B;3. Con todos los campos/atributos XDM nuevos creados, haz clic en **Guardar** en la esquina superior derecha y recibirás el mensaje verde &quot;Esquema guardado correctamente&quot; en la parte inferior de la pantalla. Ahora ha completado los pasos de esta sección.
 
 >[!WARNING]
 >
