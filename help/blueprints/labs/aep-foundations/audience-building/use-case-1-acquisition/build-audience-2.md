@@ -163,7 +163,7 @@ Añada la nueva ruta:
 >
 >Consideraciones sobre por qué puede seleccionar Lote frente a Streaming o Edge:
 >
->Últimas protecciones: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+>Últimas protecciones: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 >[!TIP]
 >

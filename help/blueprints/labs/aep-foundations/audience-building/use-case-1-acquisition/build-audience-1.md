@@ -247,7 +247,7 @@ No cambie la asignación, haga clic en Next y Finish
 >
 >Los contenedores son una forma de hacer referencia a una variable Event o a un elemento Array. Puede leer más sobre la ramificación de esto en este blog, pero, por simplicidad, esto le permite especificar si un solo elemento de la matriz cumple ambas condiciones o si la condición se puede propagar entre dos elementos.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=es](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=es)
 
 >[!WARNING]
 >

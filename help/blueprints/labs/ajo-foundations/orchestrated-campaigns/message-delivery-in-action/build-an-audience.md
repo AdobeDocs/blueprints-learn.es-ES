@@ -81,4 +81,4 @@ En el siguiente conjunto de pasos, se creará una audiencia a partir del esquema
 
 Ahora ha visto lo fácil que es utilizar la actividad Generar audiencia en la campaña eligiendo la dimensión de segmentación correcta del esquema relacional. A continuación, añadió una condición para restringir los criterios de creación de audiencias y utilizó la opción de actualización para comprobar el número esperado de filas.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience) si está interesado.

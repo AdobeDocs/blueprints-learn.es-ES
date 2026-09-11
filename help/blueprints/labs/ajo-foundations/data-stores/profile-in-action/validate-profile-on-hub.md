@@ -75,7 +75,7 @@ En Adobe Experience Platform, busque el perfil que acaba de enviar desde el even
 >
 >**¿Cómo se lee segmentMembership?**
 >
->[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** Esta es la clave de asignación para los distintos tipos de audiencias que admite AEP.  La clave ups contiene las audiencias creadas por el Generador de reglas.  Otras audiencias estarán contenidas en otras claves (por ejemplo, AAM).
 >

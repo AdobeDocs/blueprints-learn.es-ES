@@ -168,4 +168,4 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
 Ya ha visto cómo configurar correctamente un canal SMS.  Tenga en cuenta que este es un SMS basado en API, por lo que según el proveedor pueden utilizar métodos alternativos para la autenticación.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si está interesado.
