@@ -32,4 +32,4 @@ Se presenta el lienzo con la **audiencia de compilación** configurada. Haga cli
 
 Ya ha visto lo fácil que es utilizar la actividad Bifurcación en el lienzo de campaña para crear ramas idénticas de los mismos datos que fluyen. Las ramas de la actividad Bifurcación se utilizarán en el siguiente paso.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork) si está interesado.
