@@ -135,7 +135,7 @@ La ruta totalmente compuesta tiene el aspecto que se muestra a continuación.  C
 2. Actualice el cuerpo de la solicitud con la siguiente información
 
    - **op** ->` add`
-   - **ruta** -> `path from previous step +`` the new field name`
+   - **ruta** -> `path from previous step +`&#x200B;` the new field name`
    - **valor** ->
      - **título** -> `Plan Description`
      - **tipo** -> `string`

@@ -77,7 +77,7 @@ Una forma de pensar en las reglas de ajuste de prioridad es tratarlas como instr
 
 3. Deje el operador establecido en &quot;Es igual que&quot; y, en el cuadro de texto restante, escriba el nombre del elemento de oferta de ultra nivel, que es **iphone:17\:ultra**. Después de escribir el texto, la interfaz de usuario se actualiza y refleja que se ha aceptado la condición coincidente.
 4. Haga clic en **+Agregar condición** y, a continuación, haga clic en el **cuadro de texto nuevo que aparece** (tiene el texto &#39;*Haga clic para crear un elemento de decisión...*&#39; en él
-5. Haga clic en la opción **Seleccionar atributo** ahora disponible**.**
+5. Haga clic en la opción **Seleccionar atributo** ahora disponible&#x200B;**.**
 6. Cuando se abra el cuadro de diálogo &quot;Seleccionar un atributo&quot;, haga clic en **Atributos de perfil > Persona** (probablemente necesite desplazarse hacia abajo) **> Año de nacimiento**. Una vez seleccionado, haga clic en **Guardar.**
 
    >[!NOTE]
@@ -144,7 +144,7 @@ Una forma de pensar en las reglas de ajuste de prioridad es tratarlas como instr
 >- A los usuarios nacidos en 1990 con un **ID de plan = 1** se les eliminarán las ofertas Ultra y Pro, a pesar de que ocupen el puesto más alto. El usuario solo ve las ofertas básicas y genéricas porque los niveles Ultra y Pro tienen una condición adicional: solo los usuarios con **ID de plan 2 o 3** pueden verlas.
 >- Dado que la oferta genérica no tiene reglas de límite de frecuencia, el usuario **1970** del año de nacimiento nunca verá la oferta Ultra, ya que su puntuación de prioridad es inferior a la puntuación aumentada del genérico.
 
-5. Con todas las reglas y la puntuación de prioridad predeterminada en su lugar, desplácese hacia atrás hasta la parte superior y haga clic en el botón azul **Crear** en la esquina superior derecha.
+&#x200B;5. Con todas las reglas y la puntuación de prioridad predeterminada en su lugar, desplácese hacia atrás hasta la parte superior y haga clic en el botón azul **Crear** en la esquina superior derecha.
 
 >[!TIP]
 >

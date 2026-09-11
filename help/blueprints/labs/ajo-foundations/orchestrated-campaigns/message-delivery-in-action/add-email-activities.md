@@ -72,7 +72,7 @@ En el siguiente conjunto de pasos, se basará en la campaña para agregar dos ac
 
 ![Cuadro de diálogo de confirmación con el botón Guardar y cerrar](assets/add-email-activities-save-and-close-dialog.png)
 
-11. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
+&#x200B;11. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
 
 ![Volver al lienzo de Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 

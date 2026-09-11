@@ -62,7 +62,7 @@ En la IU de Experience Platform, vaya al catálogo de destinos haciendo lo sigui
 
 
 
-3. Complete los detalles de configuración del destino de la siguiente manera:
+&#x200B;3. Complete los detalles de configuración del destino de la siguiente manera:
 
 - **Nombre** -> `Streaming DEP Webhook - [Your Initials]`
 - **Descripción** -> `[your webhook endpoint you copied above]`

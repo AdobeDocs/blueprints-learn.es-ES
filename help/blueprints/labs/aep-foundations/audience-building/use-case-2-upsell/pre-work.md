@@ -25,7 +25,7 @@ Para este caso de uso, no hay mucho trabajo previo que hacer. Básicamente tenem
 
 
 
-3. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
+&#x200B;3. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
 
 ![Buscar uso en eventos - no se muestra descripción](assets/pre-work-search-usage-in-events.png)
 

@@ -208,7 +208,7 @@ Cuando termine, valide la pantalla que se parece a la que se muestra a continuac
 
 
 
-4. Cuando termine, debería ver la acción agregada a la regla. Haga clic en **Guardar** para continuar.
+&#x200B;4. Cuando termine, debería ver la acción agregada a la regla. Haga clic en **Guardar** para continuar.
 
 ![Editor de reglas que muestra la acción configurada con el botón Guardar resaltado](assets/create-property-save-rule-button.png "Guarde la regla")
 

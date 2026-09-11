@@ -55,7 +55,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
 3 Eventos externos
 
-5. Haga clic en la ficha **Correo electrónico** (en el carril izquierdo)
+&#x200B;5. Haga clic en la ficha **Correo electrónico** (en el carril izquierdo)
    - **Correo electrónico: rendimiento de envío**
      - Verá algunos valores para **Delivered** y **Sent** (el recuento dependerá de cuántos eventos haya enviado, de cualquier error, etc.)
      - Con suerte, no tendrá errores (a menos que haya tenido algunos problemas anteriormente)
@@ -64,7 +64,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
    ![Pestaña Correo electrónico que muestra el rendimiento y las estadísticas de envío](assets/validate-journey-email-tab-sending-performance.png)
 
-6. Ve a comprobar tu **bandeja de entrada de correo electrónico** y ver si recibiste el correo electrónico (se parece a esto abajo)
+&#x200B;6. Ve a comprobar tu **bandeja de entrada de correo electrónico** y ver si recibiste el correo electrónico (se parece a esto abajo)
    - *,* su pedido ha enviado ETA: *17/10/2026* Número de seguimiento: *051009364*
 
    >[!NOTE]
@@ -81,7 +81,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
 
 
-7. *Después de 30 a 60 minutos*, incluso puede comprobar su conjunto de datos en el lago de datos con lo siguiente: **Consultas** -> **Crear consulta** -> **Copiar/Pegar SQL** -> **Ejecutar**
+&#x200B;7. *Después de 30 a 60 minutos*, incluso puede comprobar su conjunto de datos en el lago de datos con lo siguiente: **Consultas** -> **Crear consulta** -> **Copiar/Pegar SQL** -> **Ejecutar**
 
 >[!NOTE]
 >

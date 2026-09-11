@@ -136,11 +136,11 @@ Cree un fragmento de encabezado para empezar. Sin embargo, antes de crear el fra
 
 ![Haciendo clic en Siguiente después de seleccionar la carga del logotipo](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. Seleccione la **carpeta de recursos** que ha creado y haga clic en **Importar**. El archivo se guardará en la carpeta.
+&#x200B;11. Seleccione la **carpeta de recursos** que ha creado y haga clic en **Importar**. El archivo se guardará en la carpeta.
 
 ![Seleccionando la carpeta de recursos creada y haciendo clic en Importar](assets/building-content-fragments-select-asset-folder-import.png)
 
-12. El logotipo está colocado correctamente, pero es demasiado grande y debe cambiarse de tamaño. Para cambiar el tamaño del logotipo, actualice sus propiedades. Haga clic en la ficha **Estilo** y establezca la anchura en el 40% arrastrando el control deslizante, como se muestra a continuación.
+&#x200B;12. El logotipo está colocado correctamente, pero es demasiado grande y debe cambiarse de tamaño. Para cambiar el tamaño del logotipo, actualice sus propiedades. Haga clic en la ficha **Estilo** y establezca la anchura en el 40% arrastrando el control deslizante, como se muestra a continuación.
 
 >[!NOTE]
 >
@@ -150,15 +150,15 @@ Cree un fragmento de encabezado para empezar. Sin embargo, antes de crear el fra
 
 ![El control deslizante de anchura de la ficha Estilo se ha establecido en 40 por ciento para cambiar el tamaño del logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. Haga clic en **&quot;Guardar&quot;** y se guardará el fragmento. Recibe una notificación de barra verde en la confirmación.
+&#x200B;13. Haga clic en **&quot;Guardar&quot;** y se guardará el fragmento. Recibe una notificación de barra verde en la confirmación.
 
 ![Barra de confirmación verde después de guardar el fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. El fragmento guardado está en modo de borrador. Antes de usarlo, debe publicarlo. Haga clic en el botón **atrás**.
+&#x200B;14. El fragmento guardado está en modo de borrador. Antes de usarlo, debe publicarlo. Haga clic en el botón **atrás**.
 
 ![Botón Atrás para dejar el fragmento de borrador antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-15. Haga clic en el botón &quot;**Publicar**&quot;. Verá el mensaje &quot;Publicando fragmento, esto puede tardar. Notificaremos una vez hecho&quot;. en la confirmación. El fragmento está listo para utilizarse para la creación de plantillas.
+&#x200B;15. Haga clic en el botón &quot;**Publicar**&quot;. Verá el mensaje &quot;Publicando fragmento, esto puede tardar. Notificaremos una vez hecho&quot;. en la confirmación. El fragmento está listo para utilizarse para la creación de plantillas.
 
 ![Botón Publicar y mensaje de confirmación de fragmento de publicación](assets/building-content-fragments-click-publish-fragment-button.png)
 

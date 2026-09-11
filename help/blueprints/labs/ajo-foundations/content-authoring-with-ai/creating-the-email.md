@@ -69,27 +69,27 @@ Este paso muestra cómo se pueden reutilizar las plantillas en todos los recorri
 
 ![Editar opción de correo electrónico para la actividad de correo electrónico de la campaña](assets/creating-the-email-click-edit-email.png)
 
-11. Haz clic en la pestaña **Acción** y selecciona **tu** configuración de correo electrónico. Su zona protegida puede mostrarla como un correo electrónico relacional. (Seleccione cualquiera)
+&#x200B;11. Haz clic en la pestaña **Acción** y selecciona **tu** configuración de correo electrónico. Su zona protegida puede mostrarla como un correo electrónico relacional. (Seleccione cualquiera)
 
 ![Ficha de acción con la configuración de correo electrónico seleccionada](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. Haz clic en **pestaña Contenido**
+&#x200B;12. Haz clic en **pestaña Contenido**
 
 ![Pestaña Contenido en el editor de correo electrónico](assets/creating-the-email-click-content-tab.png)
 
-13. Haga clic en **Aplicar plantilla de contenido**
+&#x200B;13. Haga clic en **Aplicar plantilla de contenido**
 
 ![Aplicar plantilla de contenido en el editor de correo electrónico](assets/creating-the-email-click-apply-content-template.png)
 
-14. Seleccione la plantilla **&quot;Plantilla promocional&quot;** que creó y haga clic en **Confirmar**
+&#x200B;14. Seleccione la plantilla **&quot;Plantilla promocional&quot;** que creó y haga clic en **Confirmar**
 
 ![Seleccionando la plantilla promocional y haciendo clic en Confirmar](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. Haz clic en **Editar cuerpo del correo electrónico**
+&#x200B;15. Haz clic en **Editar cuerpo del correo electrónico**
 
 ![Editar opción de cuerpo del correo electrónico después de aplicar la plantilla](assets/creating-the-email-click-edit-email-body.png)
 
-16. Confirme que el nuevo encabezado, la imagen a pantalla completa, el pie de página y los bloques de contenido aparecen correctamente.
+&#x200B;16. Confirme que el nuevo encabezado, la imagen a pantalla completa, el pie de página y los bloques de contenido aparecen correctamente.
 
 ![Los bloques de encabezado, imagen a pantalla completa, pie de página y contenido aparecen correctamente en el correo electrónico](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

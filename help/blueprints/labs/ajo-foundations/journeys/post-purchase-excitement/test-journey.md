@@ -105,16 +105,16 @@ Debería ver algo similar a esto en el &quot;log&quot;:
 
 
 
-8. **Cerrar** el explorador **pestaña**
-9. **Cerrar modo de prueba** en la parte superior derecha
+&#x200B;8. **Cerrar** el explorador **pestaña**
+&#x200B;9. **Cerrar modo de prueba** en la parte superior derecha
 
    ![Botón Cerrar modo de prueba en la parte superior derecha](assets/test-journey-close-test-mode.png)
 
-10. Haz clic en **Publicar** el Recorrido en la parte superior derecha
+&#x200B;10. Haz clic en **Publicar** el Recorrido en la parte superior derecha
 
 ![Botón Publicar para el Recorrido en la esquina superior derecha](assets/test-journey-publish-journey.png)
 
-11. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
+&#x200B;11. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
 
 ![Flecha hacia atrás en la parte superior izquierda para cerrar el Recorrido](assets/test-journey-close-journey-back-arrow.png)
 

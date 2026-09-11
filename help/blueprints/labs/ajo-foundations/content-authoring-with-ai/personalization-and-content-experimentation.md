@@ -48,7 +48,7 @@ Esta parte del ejercicio simplifica la personalización. Añada el nombre y los 
 
    ![Icono de personalización en la barra de herramientas de texto del correo electrónico](assets/personalization-and-content-experimentation-click-personalization-icon.png)
 
-4. Busque ********.
+4. Busque **&#x200B;**&#x200B;**&#x200B;**.
 
    ![Buscando el atributo Nombre en el panel de personalización](assets/personalization-and-content-experimentation-search-first-name-field.png)
 

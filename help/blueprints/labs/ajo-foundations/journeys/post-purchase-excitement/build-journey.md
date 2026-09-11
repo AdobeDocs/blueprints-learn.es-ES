@@ -188,7 +188,7 @@ Para el contenido, va a mantener las cosas simples. Como estúpido simple.
 
 ![Botón Guardar y flecha hacia atrás en la parte superior derecha y superior izquierda](assets/build-journey-save-and-back-arrow.png)
 
-12. Finalmente, haga clic en el icono **\&lt; Atrás** en la parte superior izquierda para volver al lienzo de Recorrido
+&#x200B;12. Finalmente, haga clic en el icono **\&lt; Atrás** en la parte superior izquierda para volver al lienzo de Recorrido
 
 ![Icono Atrás en la parte superior izquierda para regresar al lienzo de Recorrido](assets/build-journey-back-icon-to-journey-canvas.png)
 

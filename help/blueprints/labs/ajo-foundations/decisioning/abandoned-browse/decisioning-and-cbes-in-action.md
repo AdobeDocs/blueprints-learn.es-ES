@@ -102,14 +102,14 @@ Empiece con el perfil de Bob.
 
 ![Vista de Edge del perfil de Bob que aún no muestra la pertenencia a ninguna audiencia](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-11. En una nueva pestaña del explorador, vaya al Recorrido que ha creado y haga clic en él. Verá que un perfil ha entrado en la Recorrido y ahora está en el nodo CBE.
+&#x200B;11. En una nueva pestaña del explorador, vaya al Recorrido que ha creado y haga clic en él. Verá que un perfil ha entrado en la Recorrido y ahora está en el nodo CBE.
 
 ![Lienzo de Recorrido que muestra el perfil de Bob introducido y en el nodo CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 En este punto, Bob ha entrado en el Recorrido y la proyección de Edge está montando una proyección que actualiza el perfil de Bob en Edge.
 
-12. Cambie a Postman y haga clic en la segunda de las llamadas de evento de experiencia de Bob, **Bob - Page Top Fetch.**
-13. Haga clic en **Enviar**. ¿Qué debería suceder?
+&#x200B;12. Cambie a Postman y haga clic en la segunda de las llamadas de evento de experiencia de Bob, **Bob - Page Top Fetch.**
+&#x200B;13. Haga clic en **Enviar**. ¿Qué debería suceder?
     - Si el perfil de Edge de Bob aún no se ha actualizado, obtendrá una respuesta muy similar a la que obtuvo de la llamada de recopilación de datos. Si este es el caso, espere uno o dos minutos más y vuelva a intentar enviar la llamada de búsqueda superior de la página de Bob.
     - Si se actualizó el perfil de Edge de Bob, recibirá una respuesta con el JSON configurado anteriormente, junto con información adicional utilizada para la creación de informes. Pero antes de continuar, ¿qué oferta de iPhone 17 debería ofrecerse a Bob?
 
@@ -117,19 +117,19 @@ En este punto, Bob ha entrado en el Recorrido y la proyección de Edge está mon
 
 ![Respuesta de Postman que muestra la oferta de nivel base devuelta para Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-14. Recuerde que esta solicitud de Postman envía automáticamente una notificación de visualización para esta oferta, de modo que AJO ya ha registrado al menos una impresión para esta oferta. Vuelva a hacer clic en **Enviar** para enviar una segunda impresión. Compruebe que se ha devuelto la oferta base.
-15. Recuerde que se aplica un límite de frecuencia de 3 impresiones a los modelos de nivel Base, Pro y Ultra. Haz clic en **Enviar** por tercera vez para obtener una tercera respuesta con el nivel base y registrar otra impresión.
-16. Haz clic en **Enviar** por cuarta vez y ¿qué debería suceder? Se alcanza el límite de frecuencia de la oferta de nivel base y recibe la oferta genérica en la respuesta:
+&#x200B;14. Recuerde que esta solicitud de Postman envía automáticamente una notificación de visualización para esta oferta, de modo que AJO ya ha registrado al menos una impresión para esta oferta. Vuelva a hacer clic en **Enviar** para enviar una segunda impresión. Compruebe que se ha devuelto la oferta base.
+&#x200B;15. Recuerde que se aplica un límite de frecuencia de 3 impresiones a los modelos de nivel Base, Pro y Ultra. Haz clic en **Enviar** por tercera vez para obtener una tercera respuesta con el nivel base y registrar otra impresión.
+&#x200B;16. Haz clic en **Enviar** por cuarta vez y ¿qué debería suceder? Se alcanza el límite de frecuencia de la oferta de nivel base y recibe la oferta genérica en la respuesta:
 
 ![Respuesta de Postman que muestra la oferta genérica devuelta después de alcanzar el límite de frecuencia](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-17. Vuelva a hacer clic en **Enviar** y verá la oferta de nivel genérico. Puede hacer clic en Enviar 100 veces más y recibirá la misma oferta hasta el día siguiente, cuando se restablezca el límite de frecuencia.
+&#x200B;17. Vuelva a hacer clic en **Enviar** y verá la oferta de nivel genérico. Puede hacer clic en Enviar 100 veces más y recibirá la misma oferta hasta el día siguiente, cuando se restablezca el límite de frecuencia.
 
 >[!WARNING]
 >
 >Recuerde que en AJO, el día se restablece a medianoche GMT. Si enviara otra llamada de recuperación después de la medianoche GMT, vería la devolución de la oferta de nivel base.
 
-18. Vuelva a la interfaz de usuario de Journey Orchestration y haga clic en el Recorrido **iPhone 17 Abandonar exploración** que creó. Como el Recorrido está activo y publicado, empieza a ver estadísticas. Verá que 1 perfil ha entrado en la Recorrido y se encuentra actualmente en el nodo CBE.
+&#x200B;18. Vuelva a la interfaz de usuario de Journey Orchestration y haga clic en el Recorrido **iPhone 17 Abandonar exploración** que creó. Como el Recorrido está activo y publicado, empieza a ver estadísticas. Verá que 1 perfil ha entrado en la Recorrido y se encuentra actualmente en el nodo CBE.
 
 ![Informes de Recorrido que muestran un perfil actualmente en el nodo CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 

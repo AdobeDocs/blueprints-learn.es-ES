@@ -134,17 +134,17 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-5. Proporcione una descripción.
+&#x200B;5. Proporcione una descripción.
 
-6. Cambio en streaming
+&#x200B;6. Cambio en streaming
 
-7. Guardar como &quot;*Página de iPhone 14 visitada pero no perteneciente/solicitada*&quot;
+&#x200B;7. Guardar como &quot;*Página de iPhone 14 visitada pero no perteneciente/solicitada*&quot;
 
-8. Haga clic en el botón azul **Activar audiencia** al destino
+&#x200B;8. Haga clic en el botón azul **Activar audiencia** al destino
 
-9. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
+&#x200B;9. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
 
-10. Haga clic en Next y Finish
+&#x200B;10. Haga clic en Next y Finish
 
 >[!NOTE]
 >
