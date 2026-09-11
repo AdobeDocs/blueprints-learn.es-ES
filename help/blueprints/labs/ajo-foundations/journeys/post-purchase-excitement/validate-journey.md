@@ -119,7 +119,7 @@ Los resultados tienen más de 100 columnas y le dan una idea de qué registros d
 
 >[!NOTE]
 >
->Si desea saber qué significa cada campo, consulte el diccionario de esquemas de AJO y cambie la lista desplegable al esquema de eventos de pasos de Recorrido: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
+>Si desea saber qué significa cada campo, consulte el diccionario de esquemas de AJO y cambie la lista desplegable al esquema de eventos de pasos de Recorrido: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
 
 
 

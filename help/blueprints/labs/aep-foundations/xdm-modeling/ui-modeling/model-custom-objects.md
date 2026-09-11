@@ -108,7 +108,7 @@ Como se explica en la conferencia, no hay grupos de campos o tipos de datos est�
 
    >[!NOTE]
    >
-   >El objetivo de Enumeración y valores sugeridos es facilitar la segmentación para el usuario final. Las enumeraciones aplican la validación en el momento de la ingesta de datos, mientras que los valores sugeridos no. Para obtener más información acerca de esta característica, lea más en la documentación aquí -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+   >El objetivo de Enumeración y valores sugeridos es facilitar la segmentación para el usuario final. Las enumeraciones aplican la validación en el momento de la ingesta de datos, mientras que los valores sugeridos no. Para obtener más información acerca de esta característica, lea más en la documentación aquí -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=es#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=es#enums-and-suggested-values)
 
 
 

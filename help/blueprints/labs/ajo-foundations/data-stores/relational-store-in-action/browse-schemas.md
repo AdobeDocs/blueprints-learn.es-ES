@@ -69,4 +69,4 @@ Haga lo siguiente:
 
 Ahora ha visto lo fácil que es navegar por la IU de Esquema y relaciones.  Puede seleccionar esquemas específicos y navegar para ver las relaciones que le ayudarán a comprender y utilizar los datos en la orquestación de campañas.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/data-management/get-started-schemas) si está interesado.

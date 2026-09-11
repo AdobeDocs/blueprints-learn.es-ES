@@ -21,7 +21,7 @@ Supongamos durante un minuto que después de crear el esquema necesita volver y 
 Puede obtener más información sobre JSON PATCH en los siguientes vínculos, pero para los fines de este laboratorio, suponga que tiene algún concepto de cómo funciona 😄
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Aspectos básicos de API Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
+- [Aspectos básicos de API Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=es#json-patch)
 
 ![Diagrama de aplicación de parches a un campo planDescription que falta en un esquema existente](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Aplicación de parches a un campo que falta Descripción del plan")
 

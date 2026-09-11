@@ -158,7 +158,7 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 >
 >Hemos dividido lo que es un requisito simple en muchas audiencias por varias razones. El requisito es una transmisión, pero estos dos requisitos convierten nuestra audiencia en lote. Obtenga más información aquí sobre las reglas de elegibilidad de streaming aquí:
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=es)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 >
 >Debemos comprender que, cuando se utiliza una audiencia dentro de una audiencia, AEP intentará realizar la secuencia cuando sea posible. Hay casos extremos en los que esto no es posible, por ejemplo, Si se utiliza una Audiencia de audiencias, la descalificación de perfiles se producirá cada 24 horas.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=es](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=es)
 
 
 

@@ -162,7 +162,7 @@ Marketing entró hoy y nos dio un requisito para tener este Streaming y, por des
 >
 >Consideraciones sobre por qué puede seleccionar Lote frente a Streaming o Edge:
 >
->Últimas protecciones: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
+>Últimas protecciones: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 
 >[!TIP]
 >
