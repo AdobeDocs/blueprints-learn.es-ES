@@ -4,13 +4,11 @@ description: Obtenga una vista previa de un conjunto de datos transmitido en la 
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # Verificación y validación
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**Vista previa del conjunto de datos** solo mostrará las primeras filas del conjunto de datos. Los objetos de matriz no son visibles.
+>**Vista previa del conjunto de datos** solo muestra las primeras filas del conjunto de datos. Los objetos de matriz no son visibles.
 
 
 
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 
 
-1. Activar o desactivar **Editor de consultas mejorado**
+1. Habilitar la opción **Editor de consultas mejorado**
 
    ![Interfaz del editor de consultas con la opción del Editor de consultas mejorado habilitada](assets/verification-and-validation-enhanced-query-editor-toggle.png "Interfaz del editor de consultas")
 
@@ -82,12 +80,12 @@ ht-degree: 0%
 
 
 
-1. Para tener acceso a los datos del `postalCode` **nodo**, puede escribir:
+1. Escriba lo siguiente para tener acceso a los datos del `postalCode` **nodo**:
 
 ```sql
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades!  Ha ingerido y creado correctamente un conjunto de muestras de perfiles de clientes en tiempo real

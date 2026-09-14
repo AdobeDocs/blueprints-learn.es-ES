@@ -4,13 +4,11 @@ description: Utilice la API del Registro de esquemas para crear un descriptor de
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # Crear identidad principal
 
@@ -50,10 +48,10 @@ ht-degree: 0%
 
 1. Guarde la solicitud antes de seguir utilizando el botón `Save`
 
-1. Ejecute la API al hacer clic en el botón `Send`. Ahora debería ver una respuesta de `201 Created` como la siguiente
+1. Ejecute la API al hacer clic en el botón `Send`. Ahora verá una respuesta `201 Created` como se muestra a continuación
 
 ![201 Se creó la respuesta después de crear correctamente el descriptor de identidad principal](assets/create-primary-identity-201-created-response.png "Se creó correctamente el descriptor de identidad principal")
 
->[!TIP]
+>[!SUCCESS]
 >
->¡Felicidades!  Acaba de crear un descriptor de identidad principal en el esquema
+>¡Felicidades!  Ha creado un descriptor de identidad principal en el esquema

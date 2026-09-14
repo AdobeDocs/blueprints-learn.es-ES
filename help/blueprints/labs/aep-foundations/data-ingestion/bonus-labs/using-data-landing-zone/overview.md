@@ -4,31 +4,29 @@ description: Instale y configure el Explorador de almacenamiento de Azure con un
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 
 # Uso de la zona de aterrizaje de datos
 
 ## Prerrequisitos
 
-Si no ha descargado el Explorador de almacenamiento de Azure, hágalo ahora, ya que es un requisito para este laboratorio.  Puede encontrar la descarga en el siguiente enlace:
+Si no ha descargado el Explorador de almacenamiento de Azure, hágalo ahora, ya que es un requisito para este laboratorio.  Busque la descarga en el vínculo siguiente:
 
 [Descargar el Explorador de almacenamiento de Azure](https://azure.microsoft.com/en-us/blog/microsoft-azure-data-lake-storage-adls-in-storage-explorer-public-preview/)
 
 1. Instalación de la aplicación
-1. Al iniciar por primera vez, acepte el Contrato de licencia de usuario final
+1. La primera vez que abra la aplicación, acepte el Contrato de licencia para el usuario final
 
-![Pantalla del Contrato de licencia para el usuario final en Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "Pantalla del Contrato de licencia para el usuario final")
+![Pantalla del Contrato de licencia para usuario final en el Explorador de almacenamiento de Azure](assets/overview-end-user-license-agreement-screen.png "Pantalla del Contrato de licencia para usuario final")
 
 
 ## Configuración del Explorador de almacenamiento de Azure con Experience Platform
 
-1. Abra el Explorador de almacenamiento de Azure, haga clic en el **icono Seleccionar recurso** y, a continuación, seleccione **Contenedor o directorio ADLS Gen 2**
+1. Abra el Explorador de almacenamiento de Azure, haga clic en el **icono Seleccionar recurso** y, a continuación, seleccione **Contenedor ADLS Gen2 o directorio**
 
    ![Seleccionar el contenedor o directorio ADLS Gen2 como recurso en el Explorador de almacenamiento de Azure](assets/overview-choose-the-resource-as-shown-above.png)
 
@@ -50,7 +48,7 @@ Si no ha descargado el Explorador de almacenamiento de Azure, hágalo ahora, ya 
 
 
 
-1. Vaya a Adobe Experience Platform y desplácese hasta la zona de aterrizaje de datos haciendo lo siguiente:
+1. Vaya a Adobe Experience Platform y vaya a la zona de aterrizaje de datos haciendo lo siguiente:
 
    - Vaya a **Orígenes -> Catálogo**
    - Seleccione **Almacenamiento en la nube** en los orígenes
@@ -85,6 +83,6 @@ Ahora debería ver una pantalla similar a la siguiente
 
 ![Explorador de almacenamiento de Azure que muestra la cuenta de la zona de aterrizaje de datos conectada correctamente](assets/overview-successfully-connected-account.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades!  Ha configurado correctamente el Explorador de almacenamiento de Azure

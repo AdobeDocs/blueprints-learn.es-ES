@@ -4,19 +4,17 @@ description: Obtenga información sobre cómo ejecutar una campaña orquestada e
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 
 # Prueba de la campaña
 
 ## Objetivo
 
-En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para confirmar las funciones de campaña según lo esperado antes de publicar la campaña. En este caso, el modo de prueba no envía correos electrónicos, pero ayuda a verificar todo el flujo e identificar los problemas de forma temprana.
+En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para confirmar las funciones de la campaña según lo esperado antes de publicarla. En este caso, el modo de prueba no envía correos electrónicos, pero ayuda a verificar todo el flujo e identificar los problemas de forma temprana.
 
 ## Inicio del flujo de trabajo
 
@@ -30,7 +28,7 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
 
 
-2. Se inicia la ejecución de prueba de todas las actividades de campaña y se verifican los resultados
+2. Se inicia la ejecución de prueba de todas las actividades de campaña. Verificar los resultados
 
 ![Ejecución de prueba de actividades de campaña en curso](assets/test-the-campaign-verify-execution-results.png)
 
@@ -52,11 +50,11 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
    >[!NOTE]
    >
-   >Es posible que tenga que actualizar la página varias veces para ver el resultado final de la prueba.
+   >Actualice la página varias veces si es necesario para ver el resultado final de la prueba.
 
 
 
-4. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. Hay cierto porcentaje de errores; haga clic en **Ver más** para conocer el motivo.
+4. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. Hay cierto porcentaje de errores; haga clic en **Ver más** para ver el motivo.
 
    ![Tasa de error con el vínculo Ver más](assets/test-the-campaign-error-rate-view-more.png)
 
@@ -84,7 +82,7 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
    ![Haga clic en Ver informe para ver los detalles de la prueba de correo electrónico](assets/test-the-campaign-view-report-2.png)
 
-3. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. En este caso, no habrá errores
+3. Una vez finalizada la prueba de correo electrónico, se presentan los resultados. En este caso, no hay errores
 
 ![Estadísticas de campaña sin errores](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -98,9 +96,9 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
 ## Detener el flujo de trabajo
 
-Haga clic en el botón **Detener** para detener el **modo de prueba** de la campaña
+Para detener el **modo de prueba** de la campaña, haga clic en el botón **Detener**
 
->[!TIP]
+>[!SUCCESS]
 >
 >Ambas configuraciones de canal de correo electrónico se probaron dentro de la misma campaña y se observaron diferencias entre el uso de un atributo de perfil de AEP y el uso de la Dimension de Target en la configuración de canal de correo electrónico.
 >
@@ -110,4 +108,4 @@ Haga clic en el botón **Detener** para detener el **modo de prueba** de la camp
 
 Ahora ha visto cómo probar la campaña creada para comprender el flujo y el comportamiento. Aquí los matices de usar las diferentes configuraciones de configuración del canal de correo electrónico se entendieron bien durante la ejecución del flujo de prueba.
 
-Puede leer más sobre el modo de prueba de la campaña [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), si está interesado.
+Obtenga más información acerca del modo de prueba de campaña [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si está interesado.

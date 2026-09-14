@@ -4,13 +4,11 @@ description: Obtenga información general sobre la creación de una campaña orq
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '283'
 ht-degree: 0%
-
 ---
-
 
 # Lanzamiento de teléfono insignia
 
@@ -20,11 +18,16 @@ ht-degree: 0%
 >
 >Los siguientes laboratorios deben haber sido completados antes de comenzar este laboratorio
 
+- **Configuración de Postman** **—>** [Instalación de Postman](../../postman-setup/postman-installation.md)
 - **Almacenes de datos — Almacén relacional en acción** **—>** [Dimension de destino de perfil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Almacenes de datos — Configurar canales de correo electrónico —>** [Configurar para relacionales](../../data-stores/configure-email-channels/configure-for-relational.md)
   *(este paso de configuración tarda hasta tres horas en completarse)*
 
 Si no ha completado estos laboratorios, hágalo ahora antes de continuar.
+
+>[!CAUTION]
+>
+>Este laboratorio requiere credenciales de SMS en la zona protegida para completar el paso Configurar canal SMS: no se envían mensajes reales, pero las credenciales de Twilio deben estar presentes. Consulta [Configuración](../../setup.md) si tienes ritmo personalizado y aún no los has aprovisionado.
 
 ## Resumen de laboratorio
 
@@ -44,7 +47,7 @@ En este vídeo, aprenderá cómo el caso de uso del lanzamiento del teléfono in
 
 ## Descripción del caso de uso
 
-Inmediatamente después del lanzamiento del último dispositivo insignia de un fabricante, envíe un mensaje dirigido a los titulares de cuentas y a los usuarios de la línea con modelos más antiguos, invitándolos a actualizar y experimentar el futuro de la tecnología móvil.
+Inmediatamente después del lanzamiento del último dispositivo insignia de un fabricante, envíe un mensaje dirigido a los titulares de cuentas y a los usuarios de línea con modelos más antiguos, invitándolos a actualizar a la tecnología móvil más reciente.
 
 **Llamadas clave:**
 

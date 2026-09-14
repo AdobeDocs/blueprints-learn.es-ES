@@ -4,19 +4,17 @@ description: Aprenda a configurar un canal de correo electrónico con el atribut
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 10%
-
+source-wordcount: '535'
+ht-degree: 3%
 ---
-
 
 # Configurar para relacional
 
 ## Objetivo
 
-En el siguiente conjunto de pasos creará una configuración de canal de correo electrónico para usarla solo con campañas orquestadas, usando el atributo `email` del esquema relacional `dep-rel: Customer Account`
+En el siguiente conjunto de pasos, cree una configuración de canal de correo electrónico para usarla solo con campañas orquestadas, usando el atributo `email` del esquema relacional `dep-rel: Customer Account`
 
 ## Crear configuración de canal
 
@@ -52,6 +50,10 @@ En el menú desplegable **Subdominio**, seleccione **email.dep-labs.com**
 
 ![Menú desplegable de subdominios con email.dep-labs.com seleccionado](assets/configure-for-profile-select-email-subdomain.png "Configurar subdominio")
 
+>[!NOTE]
+>
+>Si su ritmo es personalizado y no tiene un subdominio aprovisionado previamente, seleccione su propio subdominio delegado a Adobe aquí en lugar de `email.dep-labs.com`. Consulte [Configuración](../../setup.md) para saber cómo delegar una.
+
 ## Configurar detalles del grupo de IP
 
 En el menú desplegable **grupo de IP**, seleccione **marketing**
@@ -60,7 +62,7 @@ En el menú desplegable **grupo de IP**, seleccione **marketing**
 
 ## Configurar cancelación de suscripción a lista
 
-1. Asegúrese de que la opción esté **habilitada** para cancelar la suscripción a una lista
+1. Asegúrese de que la opción esté **habilitada** para cancelar la suscripción a la lista
 1. En el área de preferencias de cancelación de suscripción a lista, asegúrese de que todas las casillas de verificación estén **marcadas**
 1. En Administración de vínculos, asegúrese de que **Adobe managed** está seleccionado
 1. Para el nivel de consentimiento, asegúrese de que esté establecido en **Canal**
@@ -80,11 +82,11 @@ En el menú desplegable **grupo de IP**, seleccione **marketing**
 
 ## Configurar correo electrónico CCO
 
-Deje esto en blanco
+Deje el campo de correo electrónico CCO en blanco
 
 >[!NOTE]
 >
->Puede conservar una copia de los correos electrónicos enviados enviándolos a una bandeja de entrada CCO. Escriba la dirección de correo electrónico que desee para que cada correo electrónico enviado se copie de forma oculta a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección CCO debe ser diferente de cualquier subdominio delegado a Adobe. Esta funcionalidad es opcional. *Cómo usar CCO para correos electrónicos*
+>Para conservar una copia de los correos electrónicos enviados, envíelos a una bandeja de entrada CCO. Introduzca la dirección de correo electrónico que desee para que cada correo electrónico enviado también se dirija a esta dirección de CCO. Tenga en cuenta que el dominio de la dirección CCO debe ser diferente de cualquier subdominio delegado a Adobe. Esta funcionalidad es opcional. *Cómo usar CCO para correos electrónicos*
 
 ## Configurar parámetros de reintento de correo electrónico
 

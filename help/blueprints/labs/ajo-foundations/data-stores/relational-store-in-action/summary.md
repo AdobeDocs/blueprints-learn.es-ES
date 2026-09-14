@@ -4,17 +4,15 @@ description: Recapile los esquemas de exploración, la configuración de un Dime
 doc-type: article
 solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '102'
 ht-degree: 1%
-
 ---
-
 
 # Resumen
 
-A través de este laboratorio realizó las siguientes actividades:
+En este laboratorio, realizó las siguientes actividades:
 
 - Esquemas examinados y relaciones vistas entre esquemas
 - Configuración de un Dimension de destinatario de perfil
@@ -26,6 +24,6 @@ A través de este laboratorio realizó las siguientes actividades:
 
 
 
->[!TIP]
+>[!SUCCESS]
 >
->¡Felicitaciones, ahora puedes continuar con el siguiente laboratorio y hacerlo también!
+>¡Felicitaciones, ahora puedes continuar con el siguiente laboratorio!

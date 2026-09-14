@@ -4,13 +4,11 @@ description: Utilice Postman y el extremo de flujo de datos y el ID de flujo de 
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # Transmitir un perfil
 
@@ -72,7 +70,7 @@ Algunos elementos importantes que se deben tener en cuenta en la solicitud anter
 
 ## Recopilar valores necesarios
 
-Antes de poder transmitir datos, debe recopilar algunos de los valores necesarios enumerados arriba (es decir, específicamente los valores de &quot;encabezado&quot; de la dirección URL del extremo de transmisión y el contenido del cuerpo).
+Antes de transmitir datos, recopile los valores necesarios enumerados arriba (en concreto, los valores de &quot;encabezado&quot; de la dirección URL del extremo de transmisión y el contenido del cuerpo).
 
 Siga estos pasos:
 
@@ -101,7 +99,7 @@ Siga estos pasos:
 
 ## Actualice la solicitud de API
 
-Cambie a la aplicación de Postman y actualice la solicitud Crear cuenta de cliente con la información que acaba de recopilar.
+Cambie a la aplicación de Postman y actualice la solicitud Crear cuenta de cliente con la información que ha recopilado.
 
 1. Abra Postman y vaya al **Laboratorio de ingesta de datos -> Crear cuenta de cliente** y abra la solicitud de API
 
@@ -136,7 +134,7 @@ Cambie a la aplicación de Postman y actualice la solicitud Crear cuenta de clie
 
 
 
-1. Debe recibir una respuesta `200 OK` que indique que Adobe Experience Platform la recibió correctamente
+1. Recibe una respuesta `200 OK` que indica que Adobe Experience Platform la recibió correctamente
 
 Ejemplo de respuesta 200 OK
 
@@ -151,8 +149,8 @@ Ejemplo de respuesta 200 OK
 
 >[!NOTE]
 >
->Observe **xactionId** en la respuesta.  Si alguna vez se produce un error en el que no ve un registro ingerido, esto siempre debe proporcionarse como parte de un ticket de asistencia al cliente, ya que es una viñeta de seguimiento utilizada por nuestros equipos de asistencia para depurar cualquier problema de entorno
+>Observe **xactionId** en la respuesta.  Si alguna vez se produce un error en el que no ve un registro ingerido, esto siempre debe proporcionarse como parte de un ticket de asistencia al cliente, ya que es una referencia clave utilizada por nuestros equipos de asistencia para depurar cualquier problema de entorno
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades!  Ha transmitido correctamente un registro de perfil a Adobe Experience Platform

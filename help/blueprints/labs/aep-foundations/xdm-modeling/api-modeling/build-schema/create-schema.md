@@ -4,13 +4,11 @@ description: Utilice la API del Registro de esquemas para ensamblar un esquema d
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 
 # Crear esquema
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**No ejecutar la llamada...aún**
+>**No ejecutar la llamada todavía**
 
 1. Haga clic en la llamada de API `Step 4 - Create Customer Account Schema` en la carpeta `XDM Schema Lab -> Create Schema`.
 
@@ -33,7 +31,7 @@ ht-degree: 0%
    - Título -> `Sample Customer Schema - <your sandbox number>`
    - Descripción -> `Sample Customer Schema - <your sandbox number>`
 
-4. Rellene los campos de `$ref` con los `$ids` que guardó de las secciones de laboratorio anteriores que completó: [Crear grupos de campos personalizados](./create-custom-field-groups.md) y [Obtener clase de perfil](./get-profile-class.md). Debe tener $ids para cada uno de los elementos siguientes:
+4. Rellene los campos de `$ref` con los `$ids` que guardó de las secciones de laboratorio anteriores que completó: [Crear grupos de campos personalizados](./create-custom-field-groups.md) y [Obtener clase de perfil](./get-profile-class.md). Tiene $ids para cada uno de los elementos siguientes:
 
    - Clase -> Perfil individual XDM
    - Grupo de campos -> Detalles demográficos
@@ -76,8 +74,8 @@ Una respuesta correcta para crear el esquema debe generar un estado `201 Created
 
 >[!WARNING]
 >
->No continúe hasta que haya guardado `$id` y `$meta:altId` en algún lugar.  Se requerirán en los pasos de laboratorio futuros
+>No continúe hasta que haya guardado `$id` y `$meta:altId` en algún lugar.  Se requieren en futuros pasos de laboratorio
 
->[!TIP]
+>[!SUCCESS]
 >
->**¡Felicitaciones! Acaba de crear un esquema usando solamente las API**
+>**¡Felicitaciones! Ha creado un esquema utilizando solamente las API**
