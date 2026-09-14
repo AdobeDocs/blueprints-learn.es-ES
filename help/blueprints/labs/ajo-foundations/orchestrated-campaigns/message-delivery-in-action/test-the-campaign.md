@@ -108,4 +108,4 @@ Para detener el **modo de prueba** de la campaña, haga clic en el botón **Dete
 
 Ahora ha visto cómo probar la campaña creada para comprender el flujo y el comportamiento. Aquí los matices de usar las diferentes configuraciones de configuración del canal de correo electrónico se entendieron bien durante la ejecución del flujo de prueba.
 
-Obtenga más información acerca del modo de prueba de campaña [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si está interesado.
+Obtenga más información acerca del modo de prueba de campaña [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si está interesado.
