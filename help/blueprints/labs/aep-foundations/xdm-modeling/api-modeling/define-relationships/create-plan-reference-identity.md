@@ -51,9 +51,9 @@ SOLO EJEMPLO
 
 
 
-3. Guarde la solicitud antes de seguir utilizando el botón `Save`
+&#x200B;3. Guarde la solicitud antes de seguir utilizando el botón `Save`
 
-4. Ejecute la API al hacer clic en el botón `Send`
+&#x200B;4. Ejecute la API al hacer clic en el botón `Send`
 
 Ahora ve una respuesta de `201 Created` como la siguiente
 
