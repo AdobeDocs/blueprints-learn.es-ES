@@ -4,15 +4,17 @@ description: Obtenga información sobre cómo enviar un evento web directamente 
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
 
-
 # Enviar evento web a Hub
+
+>[!IMPORTANT]
+>
+>Complete la [configuración de Postman](../../postman-setup/postman-installation.md) antes de iniciar este laboratorio. También necesita tener acceso a [webhook.site](https://webhook.site/) para el [flujo de trabajo de activación de destino externo](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md) relacionado.
 
 ## Abrir Postman
 
@@ -39,7 +41,7 @@ Comience por recopilar los siguientes valores:
 1. Vaya a **Orígenes** en el carril izquierdo y, a continuación, haga clic en **Cuentas** en la barra de navegación superior
 1. Busque **dep: API HTTP \[raw]**, resalte la fila, copie y guarde el valor de **extremo de transmisión** en cualquier lugar al que pueda hacer referencia más adelante
 
- y copie su extremo de flujo continuo&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ y copie su extremo de flujo continuo](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Buscar ID de flujo de datos web
 
@@ -85,9 +87,8 @@ Una llamada correcta debería dar la siguiente respuesta...
    1. Cualquier evento de Edge (en 15 minutos)
       1. Recuerde: todas las audiencias guardadas con una evaluación de Edge también se evalúan en el concentrador cuando llegan los datos de streaming
    2. dep: cualquier flujo de eventos (en una hora)
-1. Es posible que no vea nada en su webhook si no tiene segmentos nuevos.
-1. El reenvío de eventos no envía nada.
-   1. ¿Por qué? Este evento se ha dirigido al concentrador, no a la Edge, por lo que el evento no aparecerá como nada para que el reenvío de eventos lo envíe, ni en Assurance.
+1. Este evento Hub no se envía a su webhook.
+   1. El reenvío de eventos procesa los eventos enviados a Edge, no los eventos enviados directamente al concentrador. Use [flujo de trabajo de activación de destino externo](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md) para capturar un evento en webhook.site.
 1. Después de al menos 30 minutos, puede incluso comprobar el conjunto de datos con lo siguiente:
    1. Cambie el nombre de la tabla siguiente por el de su zona protegida.  Para encontrarlo, vaya a la lista de conjuntos de datos y filtre en &quot;`dest`&quot;, abra el conjunto de datos y copie el nombre de la tabla en el carril derecho.
 

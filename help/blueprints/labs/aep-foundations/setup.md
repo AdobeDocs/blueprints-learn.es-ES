@@ -4,15 +4,21 @@ description: Complete los pasos de configuración de zona protegida y Postman ne
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '183'
 ht-degree: 1%
 ---
 
 # Configuración
 
 Antes de iniciar los laboratorios de AEP Foundations, complete los pasos de configuración a continuación. Los pasos que necesita dependen de cómo esté tomando este bootcamp.
+
+## Requisitos y acceso
+
+- Complete la [configuración de Postman](#postman-setup) antes de iniciar los laboratorios que realizan llamadas a la API.
+- Se requiere acceso a [webhook.site](https://webhook.site/) para los laboratorios de activación de Edge y de activación de audiencia que envían eventos a un destino externo.
+- Los ejercicios de la metodología LID requieren una impresora para imprimir el libro y un lápiz o lápiz para completarlo. Consulte [Requisitos previos de la metodología LID](lid-methodology/prerequisites.md).
 
 ## Configuración de zona protegida
 

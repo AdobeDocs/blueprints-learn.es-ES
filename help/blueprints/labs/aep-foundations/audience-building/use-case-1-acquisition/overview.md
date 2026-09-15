@@ -1,16 +1,14 @@
 ---
-title: Caso de uso
+title: Caso de uso #1 - Acquisition
 description: Defina un caso de uso de adquisición dirigido a visitantes de página de iPhone 14 que no hayan pedido el dispositivo o que no sean propietarios de él y planifique el método de creación de audiencias.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # Caso de uso #1: Adquisición
 
@@ -25,6 +23,10 @@ En este vídeo aprenderá a abordar la creación de la audiencia para el caso de
 **Definición de caso de uso**
 
 Active todos los perfiles que hayan visitado una página de producto de iPhone 14 y no exista ningún pedido para una iPhone 14 o no tengan una iPhone 14 activa.
+
+>[!IMPORTANT]
+>
+>Complete la [configuración de Postman](../../setup.md) antes de iniciar este laboratorio. También necesita acceder a [webhook.site](https://webhook.site/) para capturar los datos de audiencia activados.
 
 
 

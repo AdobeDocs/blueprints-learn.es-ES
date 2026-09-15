@@ -4,15 +4,17 @@ description: Obtenga información sobre cómo transmitir un evento de pedido al 
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
 
-
 # Enviar evento de pedido a Hub
+
+>[!IMPORTANT]
+>
+>Complete la [configuración de Postman](../../postman-setup/postman-installation.md) antes de iniciar este laboratorio. También necesita acceso a [webhook.site](https://webhook.site/) y al destino **Streaming DEP Webhook** creado en el [caso de uso de adquisición](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
 
 ## Transmisión a Hub o Edge
 
@@ -92,7 +94,7 @@ Comience por recopilar los siguientes valores:
 1. Vaya a **Orígenes** en el carril izquierdo y, a continuación, haga clic en **Cuentas** en la barra de navegación superior
 1. Busque **dep: API HTTP \[raw]**, resalte la fila, copie y guarde el valor de **extremo de transmisión** en cualquier lugar al que pueda hacer referencia más adelante
 
- y copie su extremo de flujo continuo&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ y copie su extremo de flujo continuo](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Buscar ID de flujo de datos
 
