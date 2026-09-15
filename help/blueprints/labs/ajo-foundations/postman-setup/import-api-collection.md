@@ -4,19 +4,17 @@ description: Importe la colección de API de Postman de bootcamp y compruebe que
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 
 # Importar colección de API
 
 ## Objetivo
 
-En este paso va a importar la colección de API que contiene todas las distintas solicitudes que va a necesitar para realizar a lo largo del bootcamp.  Estas solicitudes de API dependen del archivo de entorno que acaba de importar.
+En este paso, importará la colección de API, que contiene todas las solicitudes que debe realizar a lo largo del bootcamp.  Estas solicitudes de API dependen del archivo de entorno que acaba de importar.
 
 
 
@@ -32,7 +30,7 @@ En este paso va a importar la colección de API que contiene todas las distintas
 
 ![comprobar importación de colección de postman](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades!  Ha importado correctamente la colección Postman del campamento de arranque
 
@@ -40,9 +38,9 @@ En este paso va a importar la colección de API que contiene todas las distintas
 
 ## Validar variables de entorno
 
-La colección que importó contiene todas las llamadas de API necesarias que necesitará para los laboratorios en todo el bootcamp.  Cada laboratorio está organizado en una carpeta específica con su propio conjunto de solicitudes.
+La colección que importó contiene todas las llamadas de API que necesita para los laboratorios en todo el bootcamp.  Cada laboratorio está organizado en una carpeta específica con su propio conjunto de solicitudes.
 
-A continuación, se encuentran los detalles de cada carpeta:
+A continuación, se muestran los detalles de cada carpeta:
 
 - **Laboratorios de perfil y Recorrido**: contiene un conjunto de solicitudes para enviar un evento web y un evento que simula una confirmación de envío.
 - **Decisioning Labs**: contiene solicitudes para 3 visitantes que imitan las llamadas a las páginas superior e inferior que normalmente se encontrarían en un sitio etiquetado con AEP Web SDK.

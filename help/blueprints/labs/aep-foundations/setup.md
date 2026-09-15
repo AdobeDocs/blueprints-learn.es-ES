@@ -4,13 +4,11 @@ description: Complete los pasos de configuración de zona protegida y Postman ne
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '124'
 ht-degree: 1%
-
 ---
-
 
 # Configuración
 
@@ -20,9 +18,9 @@ Antes de iniciar los laboratorios de AEP Foundations, complete los pasos de conf
 
 >[!NOTE]
 >
->Si está en un curso o evento de formación en directo, su zona protegida ya se ha implementado; omita esta sección y vaya directamente a Configuración de Postman, a continuación.
+>Si está en un curso o evento de formación en directo, su zona protegida ya se ha implementado para usted; omita esta sección y vaya directamente a la configuración de Postman, a continuación.
 
-Si está trabajando en este bootcamp a su propio ritmo y aún no tiene una zona protegida en funcionamiento con los recursos de laboratorio implementados, complete primero lo siguiente:
+Si todavía no tiene una zona protegida en funcionamiento con los recursos de laboratorio implementados, complete los siguientes pasos:
 
 - [Configuración de Developer Console](sandbox-setup/developer-console-setup.md)
 - [Instrucciones de implementación](sandbox-setup/deployment-instructions.md)

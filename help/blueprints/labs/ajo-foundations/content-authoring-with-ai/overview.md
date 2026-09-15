@@ -1,9 +1,8 @@
 ---
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 5%
-
+source-wordcount: '475'
+ht-degree: 4%
 ---
 ﻿---
 title: Información general
@@ -15,7 +14,7 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 
 # Información general
 
-## Requisitos previos
+## Prerrequisitos
 
 >[!WARNING]
 >
@@ -26,15 +25,19 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 
 Si no ha completado estos laboratorios, hágalo ahora antes de continuar.
 
+>[!CAUTION]
+>
+>Este laboratorio requiere un subdominio delegado a Adobe en su zona protegida. Consulta [Configuración](../setup.md) si tienes ritmo personalizado y aún no lo tienes.
+
 ## Resumen de laboratorio
 
-En este vídeo aprenderá qué esperar en los tres actos de este laboratorio práctico: configurar la marca Connection 5G, crear fragmentos, plantillas y un correo electrónico asistido por IA, y validarlo mediante simulación y un envío de prueba.
+En este vídeo, aprenderá qué esperar en las tres partes de este laboratorio práctico: configurar la marca Connection 5G, crear fragmentos y plantillas, crear un correo electrónico asistido por IA y validarlo mediante simulación y un envío de prueba.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
 ## Objetivos de aprendizaje
 
-Al final de este módulo, deberá ser capaz de:
+Al final de este módulo, puede:
 
 1. Explique la importancia de la creación de contenido en Adobe Journey Optimizer.
 1. Identificar y describir conceptos clave, como marcas, directrices de marca, Recorridos y plantillas.
@@ -69,7 +72,7 @@ Las Directrices de marca definen:
 - Estilo y tono de escritura
 - Reglas de voz
 - Requisitos legales
-- Estándares visuales como color, imágenes e iconografía
+- Estándares visuales (color, imágenes, iconografía)
 
 ### &#x200B;3. Recorridos
 
@@ -94,7 +97,7 @@ Las plantillas son estructuras reutilizables para canales, por ejemplo:
 
 1. Abra Adobe Journey Optimizer en el explorador.
 1. Inicie sesión con sus credenciales.
-1. Aterrizas en el tablero principal.
+1. Aparecerá el tablero principal.
 
 ### Busque el menú de navegación principal
 
@@ -114,7 +117,7 @@ Antes de empezar a crear tu marca, dedique un momento a explorar las **herramien
 - Plantillas de contenido
 - Fragmentos
 
-Haga clic en cada uno de ellos y familiarícese con la interfaz de usuario. Este laboratorio revisa cada sección en detalle.
+Para familiarizarse con la interfaz de usuario de, seleccione cada una. Este laboratorio revisa cada sección en detalle.
 
 ![Herramientas de creación de contenido que incluyen Assets, plantillas de contenido y fragmentos en el menú de navegación](assets/overview-content-creation-tools-navigation-menu.png)
 

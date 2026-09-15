@@ -4,19 +4,17 @@ description: Configure una acción personalizada reutilizable en Adobe Journey O
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 
 # Configurar la acción personalizada
 
 ## Objetivo de aprendizaje
 
-Cree una acción personalizada que defina cómo se comunicará el recorrido con un extremo o servicio externo para obtener un ETA para el momento en que llegará el paquete.
+Cree una acción personalizada que defina cómo se comunica el recorrido con un extremo o servicio externo para obtener un ETA para cuando llegue el paquete.
 
 ## Navegar a acciones
 
@@ -57,7 +55,7 @@ En el área de Configuración de extremo, proporcione los siguientes detalles:
 
 >[!NOTE]
 >
->Una variable permite pasar un valor durante un recorrido frente a tener un valor estático para todos los recorridos
+>Una variable permite pasar un valor durante un recorrido en lugar de utilizar un valor estático para todos los recorridos
 
 - **Tipo de autenticación**: `No Authentication`
 
@@ -69,7 +67,7 @@ En el área de Configuración de extremo, proporcione los siguientes detalles:
 
 ### Detalles de carga de respuesta
 
-Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cómo debería ser la carga útil de respuesta.
+Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cómo es la carga útil de respuesta.
 
 1. En el área Cargas útiles, haga clic en el **icono de lápiz** para abrir la pantalla Configuración de campo
 
@@ -93,7 +91,7 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
    >Esta es la misma estructura JSON que el punto final de Mockaroo anterior debería devolver:
 
 
-3. Se mostrará la carga útil de respuesta. Haga clic en el botón **Guardar**.
+3. Se muestra la carga útil de respuesta. Haga clic en el botón **Guardar**.
 
 ![Carga de respuesta mostrada con el botón Guardar](assets/configure-custom-action-save-response-payload.png)
 
@@ -105,7 +103,7 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
 
 ### Prueba de la acción
 
-1. Haga clic en el botón **Enviar solicitud de prueba** en el carril inferior derecho para comprobar que no ha estropeado nada 😀
+1. Haga clic en el botón **Enviar solicitud de prueba** en el carril inferior derecho para confirmar que la configuración funciona correctamente
 
    ![Enviar botón de solicitud de prueba en el carril inferior derecho](assets/configure-custom-action-click-send-test-request.png)
 
@@ -132,13 +130,13 @@ Ahora debe proporcionar una carga útil de ejemplo para que la acción sepa cóm
 
    >[!WARNING]
    >
-   >Si no ve una respuesta de 200 o una vista previa, no continúe. Levante su ✋ para obtener ayuda.
+   >Si no ve una respuesta de 200 o una Vista previa, no continúe. Pida ayuda a su facilitador.
 
 
 
 4. Haga clic en el botón **Cancelar** para volver a la pantalla Acción y, a continuación, desplácese hacia arriba en el carril superior derecho y haga clic en el botón **Guardar**
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades! La acción personalizada está activa, gracias a sus habilidades con Ctrl+C y Ctrl+V de nivel de experto.
 

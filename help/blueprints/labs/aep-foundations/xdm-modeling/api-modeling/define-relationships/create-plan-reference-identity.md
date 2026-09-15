@@ -4,13 +4,11 @@ description: Utilice la API del Registro de esquemas para crear un descriptor de
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # Crear identidad de referencia del plan
 
@@ -57,18 +55,18 @@ SOLO EJEMPLO
 
 &#x200B;4. Ejecute la API al hacer clic en el botón `Send`
 
-Ahora debería ver una respuesta de `201 Created` como la siguiente
+Ahora ve una respuesta de `201 Created` como la siguiente
 
 ![201 Se creó la respuesta después de crear el descriptor de identidad dep: Referencia de búsqueda de plan](assets/create-plan-reference-identity-dep-plan-descriptor-result.png "dep: Referencia de búsqueda de plan ")
 
 >[!NOTE]
 >
->Siempre se define un descriptor de identidad de referencia en el esquema de búsqueda (es decir, sourceSchema)
+>Siempre se define un descriptor de identidad de referencia en el esquema de consulta (es decir, sourceSchema)
 
 >[!NOTE]
 >
 >Los descriptores de identidad de referencia se crean automáticamente en el servidor al crear relaciones desde la interfaz de usuario del esquema. **Solo necesita crearlos explícitamente al utilizar las API para crear esquemas**
 
->[!TIP]
+>[!SUCCESS]
 >
->¡Fantástico! Acaba de crear todos los descriptores necesarios para relacionar el esquema `dep: Lookup Plan` con el esquema `Customer Account` y permitir que se haga referencia a él durante la segmentación por lotes
+>¡Fantástico! Para relacionar el esquema `dep: Lookup Plan` con el esquema `Customer Account` y permitir que se haga referencia a él durante la segmentación por lotes, ha creado todos los descriptores necesarios

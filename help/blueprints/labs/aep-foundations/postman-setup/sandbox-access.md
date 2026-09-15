@@ -4,17 +4,15 @@ description: Compruebe que el entorno de Postman puede recuperar correctamente l
 doc-type: article
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
-
 ---
-
 
 # Acceso a zona protegida
 
-Antes de continuar, compruebe que su acceso sea legítimo. Siga estos pasos:
+Antes de continuar, vuelva a comprobar que su acceso es válido. Siga estos pasos:
 
 1. Abra la carpeta `Check Sandbox Access` y haga clic en la llamada `Retrieve Your Sandbox`
 1. A continuación, en la esquina superior derecha de Postman, verá un cuadro desplegable Entorno.  Asegúrese de seleccionar el entorno `AEP Bootcamp`
@@ -32,6 +30,6 @@ Una respuesta correcta tiene este aspecto:
 >
 >El valor **name** debe coincidir con la variable sandbox\_name de su entorno de Postman
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades!  Está listo para empezar a usar las API de Experience Platform

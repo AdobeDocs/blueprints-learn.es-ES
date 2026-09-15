@@ -4,23 +4,21 @@ description: Obtenga información sobre cómo etiquetar un campo de esquema rela
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # Dimension de destino de perfil
 
 ## Objetivo
 
-En el siguiente conjunto de pasos, se mostrará la interfaz de usuario para ver el esquema y configurar la identidad. A continuación, se configura la Dimension de destino del perfil, que es el tipo de entidad a la que se dirige la campaña y que se concilia con el perfil de AEP para su envío.
+En el siguiente conjunto de pasos, vaya a la interfaz de usuario para ver el esquema y configurar la identidad. A continuación, configure la Dimension de destinatario del perfil, que es el tipo de entidad a la que se dirige la campaña y que se concilia con el perfil de AEP para su envío.
 
-## Por qué esto es importante
+## Por qué es importante esta configuración
 
-La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimizer cómo se pueden unir los datos entre el perfil del cliente en tiempo real y el almacén relacional. Los ingredientes de esta configuración son los siguientes:
+La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimizer cómo se pueden unir los datos entre el perfil del cliente en tiempo real y el almacén relacional. Los componentes de esta configuración son los siguientes:
 
 - Un esquema relacional
 - Un solo campo del esquema relacional
@@ -28,7 +26,7 @@ La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimi
 
 >[!CAUTION]
 >
->Sin esta configuración, no se puede realizar ninguna lectura ni compartir audiencias, ni se puede enviar ningún mensaje desde Campañas orquestadas
+>Esta configuración debe estar configurada para poder leer o compartir audiencias o enviar mensajes desde Campañas orquestadas
 
 ## Etiqueta de identidad
 
@@ -100,7 +98,7 @@ La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimi
 >
 >El nombre del registro creado es una concatenación del nombre de esquema *(dep-rel: Customer Account)* y el campo etiquetado con la identidad *(customer\_id)*
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades! Esto concluye el paso de creación de Dimension de destinatario de perfil en el laboratorio.
 

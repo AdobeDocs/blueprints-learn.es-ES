@@ -4,13 +4,11 @@ description: Obtenga información sobre cómo ejecutar un flujo de trabajo de Ca
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '678'
 ht-degree: 0%
-
 ---
-
 
 # Ejecutar el flujo de trabajo
 
@@ -26,17 +24,17 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
    ![Lienzo de flujo de trabajo final listo para probar](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Si aún no ha detenido el flujo de trabajo, asegúrese de hacerlo ahora haciendo clic en el botón **Detener** en la esquina superior derecha.
+2. Si aún no ha detenido el flujo de trabajo, haga clic en el botón **Detener** en la esquina superior derecha.
 
    ![Botón Detener en la parte superior derecha del flujo de trabajo](assets/run-the-workflow-click-stop-button.png)
 
    >[!NOTE]
    >
-   >De forma opcional, puede intentar hacer clic en el botón Reiniciar, pero es probable que vea un error porque ha añadido actividades después de crear el flujo de trabajo y su caché ya no es válida.
+   >De forma opcional, intente hacer clic en el botón Restart, pero es probable que vea un error porque ha agregado actividades después de crear el flujo de trabajo y su caché ya no es válida.
 
 
 
-3. Luego haga clic en el botón **Start** para ejecutar y probar el flujo de trabajo de principio a fin
+3. Luego haga clic en el botón **Start** para ejecutar y probar el flujo de trabajo de extremo a extremo
 
    ![Botón Iniciar para ejecutar la prueba de flujo de trabajo](assets/run-the-workflow-click-start-button.png)
 
@@ -50,7 +48,7 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 
 
-5. Verá **33 registros** y la dimensión de segmentación coincide con el ID de cliente (la clave de unión si desea generar un perfil)
+5. Verá **33 registros** y la dimensión de segmentación coincide con el ID de cliente (la clave de unión al perfil)
 
 ![33 registros con dimensión de segmentación que coinciden con el ID de cliente](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -70,7 +68,7 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
    >[!NOTE]
    >
-   >Esta pantalla no se rellenará inicialmente, ya que la ejecución de la prueba tarda un poco en ejecutarse. Es posible que tenga que actualizar algunas veces antes de ver los resultados.
+   >Esta pantalla no se rellena inicialmente porque tarda un poco en ejecutar la ejecución de prueba. Es posible que tenga que actualizar algunas veces antes de ver los resultados.
 
 
 
@@ -96,11 +94,11 @@ En los siguientes pasos, aprenderá a probar el flujo de trabajo y, lo que es m�
 
 ## Explicación
 
-Así que esto es lo que pasó.
+Esto es lo que pasó.
 
 - Tenía 33 líneas de clientes a las que quería enviar un mensaje SMS
 - Después del cambio, la actividad de dimensión 4 de esas líneas de cliente no tenía una cuenta de cliente asociada
-- La unión al Perfil del cliente en tiempo real requiere que tenga un ID de cliente y, como no hay ninguno en esos 4 registros, no hay forma de buscar un perfil o crear uno nuevo sobre la marcha
+- La unión al Perfil del cliente en tiempo real requiere que tenga un ID de cliente y, como no hay ninguno en esos 4 registros, no hay forma de buscar un perfil o crear uno nuevo inmediatamente
 
 Result —> Orchestrated Campaigns suelta esos 4 registros en la ejecución del mensaje
 
@@ -111,9 +109,9 @@ Result —> Orchestrated Campaigns suelta esos 4 registros en la ejecución del 
 >1. Asegúrese de crear un registro de exclusión para los registros a los que les falta una dimensión de segmentación en el envío
 >2. Actualice la actividad Cambiar dimensión para hacer una unión interna frente a una unión externa que dejaría caer esos 4 registros por adelantado
 
->[!TIP]
+>[!SUCCESS]
 >
->¡Felicidades! Ahora está oficialmente certificado para lanzar sus propias Campañas Orquestadas y transmitir mensajes al mundo, responsablemente, esperamos. ¡Salga y comercialice como un majestuoso mago digital!
+>¡Felicidades! Ahora está oficialmente certificado para lanzar sus propias Campañas Orquestadas y transmitir mensajes al mundo, de manera responsable. ¡Ahora puede comercializar con confianza!
 
 
 
@@ -122,7 +120,7 @@ Result —> Orchestrated Campaigns suelta esos 4 registros en la ejecución del 
 No van a hacer esto en el laboratorio, pero para el contexto esto es lo que sucede en el momento de la publicación:
 
 1. El planificador inicia la campaña si tiene una programación establecida
-1. Guarde las actividades de Audience para crear el shell de audiencia en Audience Portal y los perfiles cualificados empiezan a ingerir
+1. Guarde las actividades de Audience para crear el shell de audiencia dentro del Portal de audiencias y comenzar la ingesta de perfiles cualificados
 1. La ejecución del mensaje se inicia para la primera actividad de mensaje del flujo de trabajo
    - Las búsquedas de perfiles se producen en la instantánea Perfil
      - Los perfiles coincidentes respetan el consentimiento encontrado en el perfil

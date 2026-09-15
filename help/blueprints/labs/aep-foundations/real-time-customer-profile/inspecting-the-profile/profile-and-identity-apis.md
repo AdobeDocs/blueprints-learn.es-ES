@@ -4,21 +4,19 @@ description: Utilice la API de entidad de perfil y la API de clúster de servici
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1143'
 ht-degree: 1%
-
 ---
-
 
 # API de perfil e identidad
 
 ## API de entidad de perfil
 
-Saber cómo utilizar las API de perfil es fundamental a la hora de trabajar con el perfil del cliente en tiempo real. Desbloquea la capacidad de triaje y depuración rápidos, al tiempo que le expone a un sinfín de posibilidades en torno a las integraciones de sistemas desde centros de llamadas hasta quioscos.
+Saber cómo utilizar las API de perfil es fundamental a la hora de trabajar con el perfil del cliente en tiempo real. Desbloquea la capacidad de triaje y depuración rápidos, al tiempo que le expone a muchas posibles integraciones del sistema, desde centros de llamadas hasta quioscos.
 
-Una de las API más importantes es la API de entidad de perfil.  Esta API le permite buscar un perfil individual (como vio en la interfaz de usuario), pero utiliza parámetros para dictar si desea ver los atributos o eventos del perfil.
+Una de las API más importantes es la API de entidad de perfil. Esta API le permite buscar un perfil individual, como ha visto en la interfaz de usuario. Utiliza parámetros para dictar si desea ver los atributos o eventos del perfil.
 
 A continuación se muestra toda la especificación del método GET para la API de entidad de perfil
 
@@ -40,7 +38,7 @@ Envíe este parámetro con cada solicitud. Su valor depende de si está buscando
 
 ### Identificación de la entidad que se va a buscar
 
-La mayoría de las solicitudes utilizan `entityId` y `entityIdNS` para identificar la entidad por cualquier valor de identidad conocido, como una dirección de correo electrónico, un ID de CRM o un ID de fidelidad, en lugar de requerir que ya conozca su XID. Un XID es un identificador codificado en Base64 que el servicio de identidad genera y asigna internamente para representar una identidad, consolidando su área de nombres y valor de ID en un solo token compacto (consulte [XID nativo](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=es) para obtener detalles):
+La mayoría de las solicitudes utilizan `entityId` y `entityIdNS` para identificar la entidad por cualquier valor de identidad conocido, como una dirección de correo electrónico, un ID de CRM o un ID de fidelidad, en lugar de requerir que ya sepa su XID. Un XID es un identificador codificado en Base64 que el servicio de identidad genera y asigna internamente para representar una identidad, consolidando su área de nombres y valor de ID en un solo token compacto (consulte [XID nativo](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=es) para obtener detalles):
 
 | Parámetro | Tipo | Descripción | Ejemplo |
 | ------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -89,7 +87,7 @@ Para obtener una idea de la API de búsqueda de entidad, utilice el perfil Depec
    >
    >De forma predeterminada, si no se especifica ninguna política de combinación en una solicitud de entidad de perfil, se utiliza la política de combinación predeterminada en la zona protegida
 
-   Con la API de entidad, hay una serie de parámetros de consulta que puede utilizar para cambiar lo que se devuelve en respuesta.
+   Con la API de entidad, utilice los parámetros de consulta para cambiar lo que se devuelve en respuesta.
 
 1. En la solicitud de búsqueda de entidad (atributos), haga clic en la opción **Params** de la solicitud
 1. Marque la casilla junto a **Clave** con nombre **campos**
@@ -99,13 +97,13 @@ Para obtener una idea de la API de búsqueda de entidad, utilice el perfil Depec
 
 >[!NOTE]
 >
->Observe que también hay un parámetro para especificar `mergePolicyId`.  Puede encontrar el valor de esto utilizando otras API o buscando el ID usando la interfaz de usuario.
+>Observe que también hay un parámetro para especificar `mergePolicyId`. Para encontrar el valor de, utilice otras API o busque el ID con la interfaz de usuario.
 
 Una solicitud correcta debe responder con un `200 OK` y solo debe ver los campos especificados en el filtro de parámetro que acaba de habilitar: Nombre, Apellidos y una matriz de productos activos.
 
 ![Se ha filtrado una respuesta 200 OK que muestra solo los campos Nombre, Apellido y Productos activos](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Respuesta de API de búsqueda de entidad de perfil (atributos) correcta con el filtro habilitado")
 
->[!TIP]
+>[!SUCCESS]
 >
 >¡Felicidades!  Ha buscado correctamente los atributos de un perfil utilizando la API de entidad de perfil
 
@@ -124,25 +122,25 @@ Una solicitud correcta debe responder con un `200 OK` y debería ver un resultad
 
 ![Respuesta correcta de 200 que contiene todos los eventos para el perfil de modo Depeche](assets/profile-and-identity-apis-successful-events-api-response.png "Respuesta correcta de API de búsqueda de entidad de perfil (eventos)")
 
-Al igual que cuando se buscan atributos de perfil, la API de entidad tiene incluso más parámetros de consulta que se pueden utilizar para cambiar lo que se devuelve en respuesta.
+Cuando busca atributos de perfil, la API de entidad tiene incluso más parámetros de consulta que cambian lo que se devuelve en respuesta.
 
-Puede probar algunos de ellos activándolos en la sección Parámetros y ejecutando la solicitud.  ¡Pruébalo y mira cómo funciona!
+Pruebe con algunos de ellos activándolos en la sección Parámetros y ejecutando la solicitud. ¡Mira cómo funciona!
 
 ![Solicitud de búsqueda de entidad (eventos) con parámetros de consulta adicionales habilitados en la sección Parámetros](assets/profile-and-identity-apis-entity-lookup-events-query-params.png "Búsqueda de entidad de perfil para eventos de experiencia")
 
 **Definiciones de parámetro de consulta de muestra**
 
 | Clave | Valor | Descripción |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \&lt;blank> | Si se proporciona, puede cambiar la política de combinación utilizada para realizar la búsqueda. Si lo deja en blanco, significa que utilizará la política de combinación predeterminada de las zonas protegidas |
-| campos | eventType,timestamp,identityMap | Solo muestra estos campos de cada evento, independientemente de si el campo especificado tiene un valor |
-| propiedad | eventType=&quot;order.placement&quot; | Filtra los eventos del perfil a solo aquellos que son del tipo &quot;order.placement&quot; |
-| orderby | +marca de tiempo | Ordena los eventos en orden descendente |
-| límite | 5 | Solo muestra 5 eventos en la respuesta |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \&lt;blank> | Cambia la política de combinación utilizada para la búsqueda. Si se deja en blanco se utiliza la política de combinación predeterminada de la zona protegida |
+| campos | eventType,timestamp,identityMap | Muestra únicamente estos campos de cada evento, tengan o no un valor |
+| propiedad | eventType=&quot;order.placement&quot; | Filtra los eventos solo a los del tipo especificado |
+| orderby | +marca de tiempo | Ordena los eventos en orden ascendente |
+| límite | 5 | Muestra solo 5 eventos en la respuesta |
 
 >[!NOTE]
 >
->Puede obtener más información acerca de todas las opciones del parámetro de consulta aquí -> [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
+>Obtenga más información acerca de todas las opciones del parámetro de consulta aquí -> [https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity](https://developer.adobe.com/experience-platform-apis/references/profile/#tag/Entities/operation/retrieveEntity)
 
 
 

@@ -4,13 +4,11 @@ description: Aprenda a utilizar la actividad Leer audiencia con un Dimension de 
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
-
 ---
-
 
 # Leer una audiencia
 
@@ -172,16 +170,16 @@ Se crea un nuevo segmento con el nombre **Result**
 
 >[!NOTE]
 >
->Mientras que la audiencia de lectura mostró **9** perfiles. Como hemos creado un filtro en Source y el campo Source existe en el almacén relacional, tuvimos que unirnos del almacén de perfiles al almacén relacional para comprobarlo. Cuando se unió con el esquema relacional, a través de la Dimension de Campaign Target, solo coincidía un total de **7** perfiles. Estos **7** ID de clientes coincidentes están disponibles para su uso en las siguientes actividades que intentan utilizar datos relacionales. Todos los ID de cliente de **7** tenían `Source` establecido en **&quot;En tienda&quot;**, lo cual se evidenció a través de los flujos de división.
+>La audiencia de lectura mostró **9** perfiles. Dado que creó un filtro en Source y el campo Source existe en el almacén relacional, tuvo que unir el almacén de perfiles con el almacén relacional para comprobarlo. Cuando se unen con el esquema relacional a través de la Dimension de Campaign Target, solo coinciden un total de **7** perfiles. Estos **7** ID de clientes coincidentes están disponibles para su uso en las siguientes actividades que intentan utilizar datos relacionales. Todos los ID de cliente de **7** tenían `Source` establecido en **&quot;En tienda&quot;**, lo cual se evidenció a través de los flujos de división.
 >
 >Por lo tanto, mantener la coherencia de los datos es fundamental al utilizar perfiles de AEP junto con sus homólogos relacionales para el enriquecimiento.
 
->[!TIP]
+>[!SUCCESS]
 >
 >Felicitaciones, esto completa el laboratorio sobre el uso de la actividad Leer audiencia con el esquema relacional.
 
 ## Resumen
 
-Ahora ha visto lo fácil que es crear una campaña, realizar una actividad de lectura de audiencia junto con la Dimension de segmentación de perfiles para aprovechar el esquema relacional. La actividad Split se utilizaba para dividir la audiencia en función de una condición. Por último, el modo de prueba ayudó a comprender que es importante tener la coherencia de datos entre el perfil y el esquema relacional.
+Ahora ha visto lo fácil que es crear una campaña, realizar una actividad Leer audiencia junto con la Dimension de destinatario de perfil para utilizar el esquema relacional. La actividad Split se utilizaba para dividir la audiencia en función de una condición. Por último, el modo de prueba ayudó a comprender que es importante tener la coherencia de datos entre el perfil y el esquema relacional.
 
 Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si está interesado.

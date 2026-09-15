@@ -4,19 +4,17 @@ description: Aprenda a configurar un canal de SMS basado en Twilio y sus dimensi
 doc-type: article
 solution: Experience Platform
 exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 
 # Configuración del canal SMS
 
 ## Objetivo
 
-En el siguiente conjunto de pasos configurará el canal SMS. Esto es necesario para poder enviar mensajes a los titulares de línea individuales más adelante cuando esté creando la campaña.
+En el siguiente conjunto de pasos, se configura el canal SMS. Este paso es necesario para poder enviar mensajes a los titulares de línea individuales más adelante cuando esté creando la campaña.
 
 
 
@@ -32,7 +30,7 @@ En el siguiente conjunto de pasos configurará el canal SMS. Esto es necesario p
 
 ## Defina las credenciales de la API de SMS
 
-Empezará creando el conector de API que AJO utilizará para enviar solicitudes de SMS salientes.
+Comience creando el conector de API que utiliza AJO para enviar solicitudes de SMS salientes.
 
 1. En Proveedor de SMS, elija **Twilio**.
 1. Escriba los siguientes detalles de credenciales de API, usando su propia [cuenta de prueba de Twilio](https://www.twilio.com/try-twilio):
@@ -43,7 +41,7 @@ Empezará creando el conector de API que AJO utilizará para enviar solicitudes 
 
 >[!NOTE]
 >
->Necesitarás una cuenta de prueba gratuita de Twilio con un número de teléfono verificado antes de comenzar este paso. Regístrese en [twilio.com/try-twilio](https://www.twilio.com/try-twilio) y busque el SID de cuenta y el token de autenticación en el panel de la consola de Twilio.
+>Necesitarás una cuenta de prueba gratuita de Twilio con un número de teléfono verificado antes de comenzar este paso. Regístrese en [twilio.com/try-twilio](https://www.twilio.com/try-twilio) y busque el SID de cuenta y el token de autenticación en el panel de la consola de Twilio. Consulte la [guía de introducción](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account) de Twilio para ver un tutorial completo.
 
 ![Campos de credencial de API de SMS para el proveedor Twilio](assets/configure-sms-channel-enter-api-credentials.png)
 
@@ -51,7 +49,7 @@ Empezará creando el conector de API que AJO utilizará para enviar solicitudes 
 
 ## Creación de configuración de canal SMS
 
-Ahora asignará esta credencial de API a una configuración de canal que puedan utilizar los recorridos y las campañas.
+Ahora puede asignar esta credencial de API a una configuración de canal que puedan utilizar los recorridos y las campañas.
 
 1. Vaya a **Canales** → **Configuración general** → **Configuraciones de canal**.
 
@@ -113,7 +111,7 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
    >[!NOTE]
    >
-   >Esto le indica a las campañas orquestadas que cuando envía mensajes, debe enviar un mensaje por registro que coincida con el Dimension de destinatario del perfil.
+   >Esta configuración indica a las campañas orquestadas que cuando envía mensajes, debe enviar un mensaje por registro que coincida con el Dimension de destinatario del perfil.
 
 
 
@@ -139,7 +137,7 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
 ## Enviar y revisar
 
-1. Puede hacer clic en el botón **Enviar** para completar la configuración y ver cómo aparece un mensaje de éxito
+1. Haga clic en el botón **Enviar** para completar la configuración y ver cómo aparece un mensaje de éxito
 
    ![Mensaje de éxito después de enviar la configuración del canal](assets/configure-sms-channel-submit-success-message.png)
 
@@ -151,7 +149,7 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
    >[!CAUTION]
    >
-   >Espere hasta que el estado se convierta en **Activo**; de lo contrario, los pasos de laboratorio futuros fallarán miserablemente para usted
+   >Espere hasta que el estado se convierta en **Activo**; de lo contrario, los pasos de laboratorio futuros fallarán por usted
 
 
 
@@ -165,6 +163,6 @@ Al seleccionar Canal como Mensaje móvil, aparece una nueva sección llamada Con
 
 ## Resumen
 
-Ya ha visto cómo configurar correctamente un canal SMS.  Tenga en cuenta que este es un SMS basado en API, por lo que según el proveedor pueden utilizar métodos alternativos para la autenticación.
+Ahora ha visto cómo configurar un canal SMS correctamente.  Tenga en cuenta que esta configuración es un SMS basado en API, por lo que según el proveedor pueden utilizar métodos alternativos para la autenticación.
 
 Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration) si está interesado.
