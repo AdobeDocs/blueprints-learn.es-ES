@@ -4,13 +4,11 @@ description: Cargue los datos de la cuenta del cliente mediante una fuente de fl
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # Ingesta de flujo
 
@@ -22,6 +20,10 @@ En este ejercicio, cargaremos los datos de la cuenta del cliente desde una fuent
 - Importando conjunto de asignaciones desde otro flujo de datos
 - Obtención de ID de flujo de datos e ID de conjunto de datos desde la IU
 - Uso de la API de REST para introducir un evento
+
+>[!IMPORTANT]
+>
+>Complete la [configuración de Postman](../../setup.md) antes de iniciar este laboratorio.
 
 >[!NOTE]
 >

@@ -1,79 +1,91 @@
 ---
-title: Activación de cuentas B2B en destinos de Advertising y destinos de archivos
-description: Utilice la participación basada en cuentas para crear audiencias y segmentarlas mediante destinos.
+title: Activación de cuenta B2B en Advertising y destinos de archivo
+description: Utilice la participación basada en cuentas para crear audiencias de cuenta y activarlas en destinos de publicidad y almacenamiento en la nube.
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 4%
-
+source-wordcount: '965'
+ht-degree: 1%
 ---
 
 # Activación de cuentas B2B en destinos publicitarios y destinos de archivos
 
-La participación basada en cuentas permite a los especialistas en marketing B2B crear audiencias de cuentas (es decir, listas de empresas) y segmentar dichas empresas a través de destinos como LinkedIn que aceptan listas de empresas como entrada o exportación a destinos de almacenamiento en la nube para la segmentación y el alcance de las ventas.
+La participación basada en cuentas permite a los especialistas en marketing B2B crear audiencias de cuentas (listas de empresas) en **Real-Time Customer Data Platform B2B edition** y activar esas audiencias de cuenta en destinos publicitarios como LinkedIn Matched Audiences, Bombora y Demandbase, así como en destinos de almacenamiento en la nube. Estas audiencias de cuenta pueden utilizarse para direccionamiento, alcance de ventas y análisis descendente.
 
 ## Casos de uso
 
 Mediante la participación basada en cuentas, los especialistas en marketing pueden desbloquear tres casos de uso clave:
 
-* **Rellenar huecos de grupos de compras:** Un experto en marketing puede anunciarse en cuentas en las que aún no tenga contactos para los roles de CMO o CIO. Primero pueden crear una audiencia de cuentas sin un contacto con el título &quot;CMO&quot; o &quot;CIO&quot; y luego activar la audiencia en LinkedIn. Dentro del destino, LinkedIn, pueden lanzar una campaña dirigida a esa audiencia y a personas específicas con títulos de trabajo de &quot;CMO&quot; o &quot;CIO&quot; para llegar a estos nuevos contactos y destacar las ventajas de sus ofertas.
-* **Ampliar ventas o realizar ventas cruzadas a otras divisiones de una compañía que ya sea cliente:** Un experto en marketing puede crear una audiencia de cuenta que compró el producto X entre 3 y 9 meses atrás, pero aún no es propietario del producto Y. Luego pueden activarse, destacando las ventajas del producto Y para ese público objetivo.
-* **Compañías de Target que utilizan productos de la competencia:** Un experto en marketing puede comercializar cuentas para desplazar los productos de un competidor, incluso sin ningún contacto en esas cuentas. Pueden crear una audiencia de cuentas basada en datos de socios que muestren la propiedad o el uso del producto de un competidor y, a continuación, activarlas mediante LinkedIn para que los contactos de origen en las cuentas de destino se expandan.
+- **Rellenar huecos de grupos de compras:** Un experto en marketing puede anunciarse en cuentas en las que aún no tenga contactos para los roles de CMO o CIO. Primero pueden crear una audiencia de cuentas sin un contacto con el título &quot;CMO&quot; o &quot;CIO&quot; y luego activar la audiencia en Audiencias coincidentes de LinkedIn u otros destinos de publicidad admitidos. Dentro del destino, pueden lanzar una campaña dirigida a esa audiencia y a personas específicas con puestos de trabajo de &quot;CMO&quot; o &quot;CIO&quot; para llegar a estos nuevos contactos y destacar las ventajas de sus ofertas.
+- **Ampliar ventas o realizar ventas cruzadas a otras divisiones de una compañía que ya sea cliente:** Un experto en marketing puede crear una audiencia de cuenta que compró el producto X entre 3 y 9 meses atrás, pero aún no es propietario del producto Y. Luego pueden activar esta audiencia de cuenta, resaltando los beneficios del producto Y para esa audiencia objetivo a través de Audiencias coincidentes de LinkedIn, otras plataformas de publicidad o exportaciones de almacenamiento en la nube para el alcance de ventas y marketing.
+- **Compañías de Target que utilizan productos de la competencia:** Un experto en marketing puede comercializar cuentas para desplazar los productos de un competidor, incluso sin contactos en esas cuentas. Pueden crear una audiencia de cuentas basadas en datos de socios o de intención que muestren la propiedad o el uso del producto de un competidor y, a continuación, activarlas mediante Audiencias coincidentes de LinkedIn u otros destinos de publicidad admitidos para obtener contactos en cuentas de destino para su expansión.
 
 ## Aplicaciones
 
-* Real-Time Customer Data Platform edición B2B
+- Real-Time Customer Data Platform B2B edition
+- (Opcional) Customer Journey Analytics B2B edition
 
 ## Patrones de integración
 
-* Fuentes de datos B2B (Marketo, Salesforce, etc.) -> Real-time Customer Data Platform B2B edition -> Destinos.
-* Se pueden utilizar varias fuentes de datos B2B para asignar datos de cuenta, posible cliente, oportunidad y personas a B2B edition de Real-time Customer Data Platform.
+Los patrones de integración habituales para este modelo incluyen:
+
+- **Fuentes de participación y CRM B2B → audiencias de cuenta de → de RTCDP B2B edition → destinos**
+
+  La participación B2B y los sistemas CRM como Marketo Engage, Salesforce y Microsoft Dynamics envían posibles clientes/contactos, cuentas y oportunidades a **Real-Time CDP B2B edition** mediante los esquemas y relaciones B2B estándar. Las audiencias de cuenta se crean sobre este modelo de datos unificado B2B y se activan para los destinos de publicidad y archivos.
+
+- **Fuentes de intención y evento B2B → audiencias de cuenta de → de RTCDP B2B edition → destinos**
+
+  Las fuentes de intención y evento B2B, como Bombora Intent y Demandbase Intent, envían eventos de intención y participación a Experience Platform. Estos conjuntos de datos se asignan a los esquemas B2B estándar, lo que permite a los especialistas en marketing crear audiencias de cuenta (por ejemplo, cuentas que surgen en temas de la competencia) y activarlas en destinos de publicidad y almacenamiento en la nube. Las audiencias de cuenta se pueden activar a socios publicitarios como Bombora y Demandbase donde sea compatible.
 
 ## Arquitectura
 
-![Arquitectura de referencia para modelo Audience Activation de cuenta B2B](assets/b2b-blueprint-account-audience-activation.png)
+<img src="assets/b2b-account-activation.png" alt="Arquitectura de referencia para el modelo de activación de cuenta B2B" style="border:1px solid #4a4a4a"  width="100%" />
 
 ## Destinos de audiencia de cuenta
 
-* (Compañías) Audiencias coincidentes de LinkedIn
-* Destinos de almacenamiento en nube
-   * Azure Data Lake
-   * Data Landing Zone
-   * SFTP
-   * Azure Blob
-   * AWS S3
+- **Audiencias coincidentes de LinkedIn**
+- **Bombora**
+- **Demandbase**
+- **Destinos de almacenamiento en la nube**
+  - Almacenamiento de Azure Data Lake Gen2
+  - Data Landing Zone
+  - SFTP
+  - Azure Blob
+  - AWS S3
+
+Consulte la documentación de destino para obtener la lista más reciente de destinos compatibles con las audiencias de cuenta.
 
 ## Guardas
 
-* Limitado a 50 segmentos de cuenta por zona protegida.
-* Evaluación de segmentación por lotes.
-   * Se evalúa automáticamente cada 24 horas después de la finalización de los trabajos de exportación de perfiles y de ejecución de audiencias por lotes.
-   * No se admite la evaluación de Edge, Streaming o Ad Hoc.
-* Los atributos de cuenta están disponibles para la exportación.
-* Eventos de personas.
-   * Hasta 30 días de retrospectiva de eventos, sin orden de predicados de eventos.
-   * Y / O son compatibles (por lo que puede decir &quot;A y B tienen que suceder&quot;, pero no puede decir &quot;A debe suceder 3 días antes de B&quot;).
-* Para los destinos de almacenamiento en la nube, la programación de exportación admite la opción &quot;Después de la evaluación de segmentos&quot;.
-* [Perfil B2B y protecciones de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+Consulte las siguientes protecciones al diseñar y activar audiencias de cuenta:
 
-## Pasos de implementación de Real-time Customer Data Platform B2B edition, creación de audiencias de cuenta y activación
+- [Protecciones para Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Protecciones de perfil y segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
+- [Actualización de criterios de idoneidad de segmentación de streaming](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/eligibility-criteria-update)
 
-* Para ver los pasos de implementación de Real-time Customer Data Platform B2B edition, consulte la [Introducción a Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
-* Para ver los pasos de creación de audiencias de cuenta, consulte la documentación de [audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences).
-* Para ver los pasos de Account Audience Activation, consulte la documentación de [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences).
-   * Asignación requerida para [(Compañías) LinkedIn Destino de audiencias coincidentes](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
+## Pasos de implementación de Real-Time Customer Data Platform B2B edition, creación de audiencias de cuenta y activación
+
+- Para ver los pasos de implementación de Real-Time Customer Data Platform B2B edition, consulte la siguiente documentación: [Introducción a Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en).
+- Para ver los pasos de creación de audiencias de cuenta, consulte la documentación de [audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
+- Para ver los pasos de activación de Audiencia de cuenta, consulte la documentación de [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en):
+
+  - Asignación requerida para [destino de audiencias coincidentes de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
 
 ## Consideraciones sobre la implementación
 
-Las audiencias coincidentes de LinkedIn tienen algunos requisitos, incluido el tamaño mínimo de audiencia de 300 miembros coincidentes. Si la audiencia de cuenta activada para el destino de audiencia coincidente vinculada de la empresa no cumple los requisitos, la definición de audiencia debe modificarse para aumentar el tamaño de la audiencia a fin de iniciar una campaña de LinkedIn.
+Las audiencias coincidentes de LinkedIn tienen un requisito mínimo de tamaño de audiencia (por ejemplo, 300 miembros coincidentes). Si la audiencia de la cuenta activada en Audiencias coincidentes de LinkedIn no cumple este requisito, es posible que tenga que ampliar la definición de audiencia para aumentar el tamaño de audiencia coincidente antes de lanzar una campaña.
 
 ## Documentación relacionada
 
-* [Modelo de activación de audiencia y perfil B2B](b2bactivation.md): modelo principal que cubre la activación B2B a nivel de persona y de cuenta.
-* [B2B edition de Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-* [Tutorial en vídeo de Crear y activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [Crear audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences)
-* [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - Conector de destino de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Modelo de activación de audiencia y perfil B2B](b2bactivation.md): modelo principal que cubre la activación B2B a nivel de persona y de cuenta.
+- [B2B edition de Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
+- [Creación y activación de una audiencia de cuenta: tutorial en vídeo](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [Crear audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Adobe Experience Platform - Conector de destino de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
+- [Esquemas en Real-Time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b)
+- [Actualizaciones de arquitectura a Real-Time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Guardas de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails)

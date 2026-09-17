@@ -6,9 +6,9 @@ product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 7f0b624616480cf563142c08eb0598d1dd55d551
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1174'
 ht-degree: 15%
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 15%
   + Activación y marketing B2B{#b2b-activation}
     + [Información general](/help/blueprints/b2b/overview.md)
     + [Activación B2B](/help/blueprints/b2b/b2bactivation.md)
+    + [Activación de audiencia y perfil B2B](/help/blueprints/b2b/b2b-audience-profile-activation.md)
     + [Activación de cuenta B2B](/help/blueprints/b2b/b2b-account-activation.md)
     + [Adquisición de gestión de recorridos y marketing basada en grupos](/help/blueprints/b2b/b2b-buying-group-journeys.md)
     + [Recorridos B2B que utilizan datos de Marketo](/help/blueprints/b2b/b2b-journeys-with-marketo.md)

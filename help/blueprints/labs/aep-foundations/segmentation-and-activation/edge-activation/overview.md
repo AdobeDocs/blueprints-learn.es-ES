@@ -4,13 +4,11 @@ description: Descubra cómo difieren las velocidades de activación por lotes, s
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 
 # Edge Activation
 
@@ -23,6 +21,10 @@ Adobe tiene tres velocidades de activación pensadas para satisfacer diferentes 
 1. Lote
 
 Se explicará cómo activar mediante Adobe Edge con reenvío de eventos, audiencias de Edge y Edge Personalization. A continuación, se muestra cómo utilizar destinos de streaming desde el concentrador a Edge y a un destino externo.
+
+>[!IMPORTANT]
+>
+>Complete la [configuración de Postman](../../setup.md) antes de iniciar este laboratorio. También necesita tener acceso a [webhook.site](https://webhook.site/) para capturar el evento enviado al destino externo.
 
 >[!NOTE]
 >

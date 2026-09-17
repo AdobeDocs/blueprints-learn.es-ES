@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -33,6 +33,10 @@ Se requiere Postman para los laboratorios de este curso, independientemente de c
 - [Instalación de Postman](postman-setup/postman-installation.md)
 - [Importar archivo de entorno](postman-setup/import-environment-file.md)
 - [Importar colección de API](postman-setup/import-api-collection.md)
+
+## Preparación bajo demanda
+
+Antes de iniciar los laboratorios, complete la configuración de Postman anterior. Los alumnos con ritmo personalizado también necesitan un subdominio delegado para los laboratorios que dependen del correo electrónico y las credenciales de SMS para el laboratorio de inicio telefónico de Flagship.
 
 ## Requisitos previos de canal
 
