@@ -2,14 +2,12 @@
 title: Aumentar la participación del sitio web
 description: Aprenda a mejorar el tiempo en el sitio, las páginas por sesión y la interacción con el contenido web a través de experiencias relevantes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 41d03772-678a-4039-b470-6053c39e53aa
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
-
+ht-degree: 10%
 ---
-
-
 # Aumentar la participación en el sitio web
 
 Mejore el tiempo en el sitio, las páginas por sesión y la interacción con el contenido web mediante experiencias relevantes. Este objetivo se centra en ofrecer experiencias web contextuales y personalizadas que mantengan al visitante comprometido y progresando a través de rutas de contenido y conversión.

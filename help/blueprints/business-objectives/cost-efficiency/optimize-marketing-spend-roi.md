@@ -2,14 +2,12 @@
 title: Optimizar el gasto y el retorno de la inversión en marketing
 description: Aprenda a mejorar el retorno de la inversión en marketing mediante una mejor segmentación, atribución, supresión de audiencias y asignación de presupuesto.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
-
 ---
-
-
 # Optimización del gasto y el ROI de marketing
 
 Mejore el retorno de la inversión en marketing mediante una mejor segmentación, atribución, supresión de audiencias y asignación de presupuesto. Este objetivo aborda el ciclo completo de optimización del gasto en marketing desde la precisión de la audiencia hasta la medición del rendimiento y la reasignación continua a canales y tácticas de mayor rendimiento.

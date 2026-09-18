@@ -2,14 +2,12 @@
 title: Aumentar la lealtad del cliente y el valor de duración
 description: Aprenda a profundizar las relaciones con los clientes y maximizar el valor a largo plazo mediante programas de fidelidad, recompensas y participación personalizada.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4054a964-652a-492a-adae-e6a9edaf9e8a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
-
+ht-degree: 9%
 ---
-
-
 # Aumentar la lealtad del cliente y el valor de duración
 
 Profundice las relaciones con los clientes y maximice el valor a largo plazo mediante programas de fidelidad, recompensas y participación personalizada. Este objetivo se centra en crear relaciones duraderas con los clientes que impulsen compras repetidas, un mayor valor de por vida y la promoción de la marca a través de experiencias coherentes y basadas en valores.

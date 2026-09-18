@@ -2,14 +2,12 @@
 title: Aumentar tasas de conversión
 description: Aprenda a mejorar el porcentaje de visitantes y clientes potenciales que completan las acciones deseadas, como compras, suscripciones o envíos de formularios.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 2%
-
+ht-degree: 8%
 ---
-
-
 # Aumentar tasas de conversión
 
 Mejore el porcentaje de visitantes y clientes potenciales que completan las acciones deseadas, como compras, suscripciones o envíos de formularios. Este objetivo se centra en optimizar cada punto de contacto del recorrido del cliente para reducir la fricción y dirigir la acción a través de experiencias personalizadas y mensajes oportunos.

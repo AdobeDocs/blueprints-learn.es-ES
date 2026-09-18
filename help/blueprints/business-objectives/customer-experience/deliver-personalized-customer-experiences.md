@@ -2,14 +2,12 @@
 title: Ofrezca experiencias de cliente personalizadas
 description: Aprenda a adaptar el contenido, las ofertas y los mensajes a las preferencias, los comportamientos y las fases del ciclo de vida individuales.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 442567ac-ee71-4907-841b-1fd06e1522ae
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 3%
-
+ht-degree: 12%
 ---
-
-
 # Ofrezca experiencias de cliente personalizadas
 
 Adapte el contenido, las ofertas y los mensajes a las preferencias, los comportamientos y las fases del ciclo de vida individuales. Este objetivo se centra en el uso de datos y decisiones de clientes en tiempo real para ofrecer experiencias relevantes y contextuales en todos los canales y puntos de contacto del recorrido de clientes.

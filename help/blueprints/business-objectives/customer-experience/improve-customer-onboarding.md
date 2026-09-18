@@ -2,14 +2,12 @@
 title: Mejore la incorporación del cliente
 description: Aprenda a acelerar el tiempo de respuesta al valor para los nuevos clientes con experiencias de bienvenida y recorridos de activación optimizados y personalizados.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3a156fbb-b078-469a-8604-0d6d340e9941
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 3%
-
+ht-degree: 8%
 ---
-
-
 # Mejore la incorporación del cliente
 
 Acelere el tiempo de respuesta al valor para los nuevos clientes con experiencias de bienvenida y recorridos de activación optimizados y personalizados. Este objetivo se centra en guiar a los nuevos clientes a través de su experiencia inicial con comunicaciones oportunas y relevantes que impulsen la adopción de productos y la participación temprana.

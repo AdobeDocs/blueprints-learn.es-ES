@@ -2,14 +2,12 @@
 title: Aumentar los ingresos de venta cruzada y aumento de ventas
 description: Aprenda a promocionar productos o servicios complementarios y premium a clientes existentes en función del comportamiento y el historial de compras.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 35e136e8-8b66-4f4c-8e77-7466553fc4b7
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
-
-
 # Aumentar los ingresos de ventas cruzadas y ampliación de ventas
 
 Promocione productos o servicios complementarios y de primera calidad a los clientes existentes en función del comportamiento y el historial de compras. Este objetivo se centra en aumentar el valor para los clientes presentando las recomendaciones y ofertas de productos correctas en el momento adecuado mediante una toma de decisiones personalizada y una participación multicanal.
