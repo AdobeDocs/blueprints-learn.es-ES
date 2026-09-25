@@ -1,16 +1,14 @@
 ---
-title: Generar
+title: Crear audiencia #3
 description: Cree una audiencia de visitantes de la página de productos de iPhone 14 y combínela con otras audiencias mediante audiencias de audiencia de para habilitar la activación de streaming.
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Generar #3 de audiencia
 
@@ -134,17 +132,17 @@ Esta audiencia debe ser directa.  Es posible que tengamos varias páginas de pro
 
 
 
-&#x200B;5. Proporcione una descripción.
+1. Proporcione una descripción.
 
-&#x200B;6. Cambio en streaming
+1. Cambio en streaming
 
-&#x200B;7. Guardar como &quot;*Página de iPhone 14 visitada pero no perteneciente/solicitada*&quot;
+1. Guardar como &quot;*Página de iPhone 14 visitada pero no perteneciente/solicitada*&quot;
 
-&#x200B;8. Haga clic en el botón azul **Activar audiencia** al destino
+1. Haga clic en el botón azul **Activar audiencia** al destino
 
-&#x200B;9. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
+1. Seleccione el destino **Streaming DEP Webhook** y haga clic en Siguiente
 
-&#x200B;10. Haga clic en Next y Finish
+1. Haga clic en Next y Finish
 
 >[!NOTE]
 >

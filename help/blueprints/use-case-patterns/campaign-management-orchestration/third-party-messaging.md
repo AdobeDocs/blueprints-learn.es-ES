@@ -1,14 +1,12 @@
 ---
-title: 'Journey Optimizer: modelo de mensajería de terceros'
+title: 'Journey Optimizer: Modelo de mensajería de terceros'
 description: Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para enviar comunicaciones personalizadas.
 solution: Journey Optimizer
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 62%
-
+ht-degree: 58%
 ---
-
 # Modelo de mensajería de terceros
 
 Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajería de terceros para enviar comunicaciones personalizadas.
@@ -17,7 +15,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajer
 
 ## Arquitectura
 
-<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-third-party-messaging.png" alt="Arquitectura de referencia del modelo de Journey Optimizer" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -71,7 +69,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajer
 1. Configure la fuente de datos de Experience Platform y determine qué campos deben almacenarse en caché como parte de la recorrido
 1. Los datos de flujo, utilizados para iniciar un recorrido de cliente, deben configurarse primero para obtener un ID de orquestación. Este ID de orquestación se proporciona al desarrollador para que lo utilice durante la ingesta
 1. Configure orígenes externos de datos
-1. Configure acciones personalizadas para aplicaciones de terceros
+1. Configurar acciones personalizadas para aplicaciones de terceros
 
 ### Configuración push móvil (opcional, ya que terceros pueden recopilar tokens)
 

@@ -4,13 +4,11 @@ description: Cree elementos de ofertas de iPhone por niveles con prioridades, re
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
-
 ---
-
 
 # Creación de elementos de oferta
 
@@ -84,7 +82,7 @@ El primer y más fácil elemento de oferta que crea es la oferta de reserva, que
 >
 >En la práctica, y con ofertas más complejas, debe existir un proceso de aprobación adecuado para garantizar que los elementos de la oferta se hayan creado correctamente. Para ahorrar tiempo en este laboratorio, solo tiene que aprobar cada elemento de oferta que cree.
 
-&#x200B;12. Haga clic en la **flecha izquierda** junto al título del elemento de oferta para volver a la página &quot;Ofertas&quot; y verá su oferta iphone:17\:generic en la lista.
+1. Haga clic en la **flecha izquierda** junto al título del elemento de oferta para volver a la página &quot;Ofertas&quot; y verá su oferta iphone:17\:generic en la lista.
 
 ## Crear elemento de oferta del modelo base
 
@@ -150,7 +148,7 @@ Ahora que se han creado las ofertas del modelo genérico y base, puede pasar a l
 
 ![Configuración completada para el elemento de oferta de nivel Ultra](assets/create-offer-items-ultra-offer-final-config.png)
 
-&#x200B;11. Una vez que haya comprobado que todas las configuraciones son correctas, guarde y apruebe este elemento de oferta. Ahora verá los cuatro elementos de oferta, cada uno con una prioridad única.
+1. Una vez que haya comprobado que todas las configuraciones son correctas, guarde y apruebe este elemento de oferta. Ahora verá los cuatro elementos de oferta, cada uno con una prioridad única.
 
 ![La página de ofertas enumera los cuatro artículos de oferta con prioridades únicas](assets/create-offer-items-all-four-offers-priority.png)
 

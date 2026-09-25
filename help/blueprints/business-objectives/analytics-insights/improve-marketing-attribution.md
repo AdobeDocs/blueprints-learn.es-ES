@@ -2,14 +2,12 @@
 title: Mejorar la atribución de marketing
 description: Obtenga información sobre cómo medir con precisión el impacto de los puntos de contacto, canales y campañas de marketing en los resultados de conversión e ingresos.
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 67686f67-15ee-4beb-919e-36a0c0c371a3
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 3%
-
 ---
-
-
 # Mejore la atribución de marketing
 
 Mida con precisión el impacto de los puntos de contacto de marketing, canales y campañas en los resultados de conversión e ingresos. Este objetivo se centra en establecer modelos de atribución en canales múltiples que conecten las actividades de marketing con los resultados empresariales para una mejor asignación del presupuesto y optimización de la campaña.

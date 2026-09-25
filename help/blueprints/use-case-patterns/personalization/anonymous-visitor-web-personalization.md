@@ -3,13 +3,11 @@ title: Personalization web de visitante anónimo
 description: Aprenda a ofrecer contenido web personalizado a visitantes no identificados en función de las señales de comportamiento durante la sesión.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1706'
 ht-degree: 4%
-
 ---
-
 # Personalización web de visitante anónimo
 
 En esta guía se describe el patrón de caso de uso de personalización web de visitante anónimo, que utiliza [!DNL Adobe Journey Optimizer] (AJO), [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) y [!DNL Adobe Experience Platform] (AEP) para entregar contenido web personalizado a visitantes anónimos (no identificados) en función de las señales de comportamiento en la sesión. Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesiten comprender qué hace este patrón, los objetivos comerciales que admite, los casos de uso tácticos que habilita y las aplicaciones de Adobe implicadas.
@@ -101,12 +99,6 @@ En este patrón de caso de uso se utilizan las siguientes aplicaciones.
 - **[!DNL Adobe Journey Optimizer] (AJO)**: configuración de superficie de canal web, creación de contenido (experiencias web y basadas en código), ejecución de campañas, experimentación de contenido (pruebas A/B), toma de decisiones (selección dinámica de contenido) y sistema de informes.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Segmentación de Edge para la evaluación de audiencias en tiempo real basada en señales de comportamiento en la sesión; administración anónima de perfiles de Edge
 - **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK] para la recopilación de señales de comportamiento, [!DNL Edge Network] para el enrutamiento de datos en tiempo real y la entrega de personalización, configuración de secuencia de datos
-
-## Arquitectura
-
-La siguiente arquitectura de referencia ilustra cómo se recopilan las señales de visitantes anónimos en el perímetro, se evalúan en relación con las reglas de audiencia y se utilizan para ofrecer contenido personalizado.
-
-![Arquitectura de referencia para la personalización y activación anónima de audiencias](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## Documentación relacionada
 

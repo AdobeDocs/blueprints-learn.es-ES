@@ -4,13 +4,11 @@ description: Utilice la API del registro de esquema para crear un grupo de campo
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # Crear grupos de campos personalizados
 
@@ -68,7 +66,7 @@ Observe también cómo cada campo específico de la hoja de asignación se corro
 
 
 
-&#x200B;2. Actualice `title` y `description` para el grupo de campos con el siguiente formato: `Customer Account Details - Sandbox <your number here>`
+1. Actualice `title` y `description` para el grupo de campos con el siguiente formato: `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +74,9 @@ Observe también cómo cada campo específico de la hoja de asignación se corro
 
 
 
-&#x200B;3. Ejecute haciendo clic en el botón `Send`.  Debería ver una respuesta similar a la captura de pantalla siguiente.
+1. Ejecute haciendo clic en el botón `Send`.  Debería ver una respuesta similar a la captura de pantalla siguiente.
 
-&#x200B;4. Copie el valor `$id` del grupo de campos Detalles de cuenta de cliente recién creado.
+1. Copie el valor `$id` del grupo de campos Detalles de cuenta de cliente recién creado.
 
 ![Respuesta correcta de la API después de crear el grupo de campos personalizados](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Paso 2 - Éxito al crear un grupo de campos personalizados")
 

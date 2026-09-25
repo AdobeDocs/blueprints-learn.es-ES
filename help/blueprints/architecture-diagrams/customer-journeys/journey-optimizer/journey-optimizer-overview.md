@@ -1,0 +1,141 @@
+---
+title: '[!DNL Journey Optimizer]'
+description: Ejecute mensajes y experiencias activadas con Adobe Experience Platform como sistema centralizado de transmisión de datos, perfiles de cliente y segmentación.
+solution: Journey Optimizer
+exl-id: 97831309-f235-4418-bd52-28af815e1878
+TQID: https://experienceleague.adobe.com/Rfi-0QD8bQpD-Zp2CDpzqxrge0yVs2CFt5mDKibNogI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 15%
+---
+# [!DNL Journey Optimizer]
+
+Adobe [!DNL Journey Optimizer] es una aplicación nativa de la nube creada en Adobe Experience Platform que permite la organización en tiempo real y programada de los recorridos de los clientes en varios canales. Admite déclencheur impulsados por eventos, segmentación de audiencia y servicios de toma de decisiones para ofrecer experiencias personalizadas mediante correo electrónico, SMS, push, web y mensajería en la aplicación. Se integra con los sistemas entrantes y salientes, lo que permite una administración unificada del estado de la audiencia y una participación contextual en todo el ciclo de vida del cliente.
+
+Esta descripción general describe las capacidades técnicas de la aplicación y proporciona una explicación detallada de los distintos componentes de arquitectura que conforman [!DNL Journey Optimizer].
+
+<br>
+
+## Casos de uso
+
+>[!BEGINTABS]
+>[!TAB Recorrido (Impulsado Por Eventos, En Tiempo Real)]
+
+- **Recuperación de abandono:** Déclencheur mensajes personalizados cuando un usuario abandona un carro de compras, un formulario o una sesiónÃ&grave;â‚€por correo electrónico, push o en la aplicación.
+- **Registro de nuevo usuario:** Capte a nuevos usuarios inmediatamente después de que se registren con nuevas preferencias de cuenta, promociones relevantes o beneficios
+- **Mensajería transaccional:** Envíe confirmaciones, alertas o actualizaciones en tiempo real (por ejemplo, pedidos enviados, restablecimiento de contraseña) mediante déclencheur de evento.
+- **Segmentación contextual:** Comuníquese con usuarios en el momento según sus señales y ubicación para guiar y dirigir su experiencia
+- **Ampliación de venta/Venta cruzada contextual:** Entrega ofertas personalizadas basadas en atributos de perfil en tiempo real e interacciones recientes.
+
+>[!TAB Orquestación de campaña (programada, iniciada con la marca)]
+
+- **Campañas promocionales**: inicia campañas multicanal de varios pasos para lanzamientos de productos, ofertas de temporada o eventos de ventas.
+- **Marketing durante el ciclo vital**: Automatice campañas recurrentes como mensajes de cumpleaños, recordatorios de renovación o hitos de lealtad.
+- **Funnel basado en audiencias inserta**: Segmente y envíe audiencias a campañas estructuradas basadas en lógica empresarial o atributos CRM.
+- **Boletín y distribución de contenido**: programa y entrega de contenido personalizado a audiencias de destino a través de correo electrónico y móviles.
+- **Campañas de renovación de la participación**: identifique a los usuarios inactivos y vuelva a introducirlos en los flujos de participación según los umbrales de inactividad.
+
+>[!ENDTABS]
+
+<br>
+
+## Arquitectura
+
+![Arquitectura de referencia para Adobe Journey Optimizer](images/ajo-architecture.png){width="1000" zoomable="yes"}
+
+<br>
+
+## Casos de ejemplo
+
+| Escenario | Descripción |
+| :-- | :-- |
+| [Recorridos](journey-optimizer-journeys.md) | Los Recorridos de AJO en Adobe Journey Optimizer son experiencias del cliente automatizadas y personalizadas activadas por eventos en tiempo real o segmentos de audiencia, lo que permite a los especialistas en marketing enviar mensajes relevantes a través de canales como correo electrónico, SMS y notificaciones push. |
+| [Orquestación de campaña](journey-optimizer-campaigns.md) | AJO Campaign Orchestration permite a los especialistas en marketing diseñar y ejecutar campañas personalizadas en canales múltiples utilizando datos en tiempo real y perspectivas de audiencia. Admite direccionamiento dinámico, envío de mensajes y lógica de recorrido para optimizar la participación de los clientes en los canales de correo electrónico, SMS, push y personalizados. |
+
+<br>
+
+## Patrones de integración
+
+| Integración | Descripción | Consideraciones técnicas |
+| :-- | :-- | :-- |
+| [Mensajería de terceros](3rd-party-messaging.md) | Muestra cómo Adobe [!DNL Journey Optimizer] se puede integrar con plataformas de mensajería de terceros para organizar y ofrecer comunicaciones personalizadas con los clientes. | <ul><li>El sistema de terceros debe admitir **autenticación de token de portador**</li><li>**No se admiten direcciones IP estáticas** debido a la arquitectura de varios inquilinos.</li><li>Tenga en cuenta los **límites de tasa de API** en sistemas de terceros; es posible que los clientes necesiten adquirir capacidad adicional para controlar el tráfico proveniente de **Adobe Journey Optimizer**.</li><li>**Administración de decisiones** no es compatible con las cargas útiles de mensajes o la lógica de envío.</li></ul> |
+| [[!DNL Journey Optimizer] con Adobe Campaign v8](../campaign-v8/ajo-and-campaign-v8.md) | Muestra cómo Adobe [!DNL Journey Optimizer] se puede integrar con las capacidades de mensajería transaccional de Adobe Campaign v8 para ejecutar el envío final de mensajes. | <ul><li>No se restringen los mensajes. Límite de 4000 mensajes por 5 minutos.</li><li>Solo admite recorridos iniciados por eventos</li><li>Gestión de decisiones no es compatible con los mensajes enviados por Campaign</li></ul> |
+
+<br>
+
+## Prerrequisitos
+
+Adobe [!DNL Experience Platform]:
+
+- Los esquemas y conjuntos de datos deben configurarse en el sistema para poder configurar [!DNL Journey Optimizer] orígenes de datos
+- Para los esquemas basados en clases de eventos de experiencia XDM, añada el grupo de campos ID de evento de orquestación cuando desee tener un evento activado que no sea un evento basado en reglas
+- Para los esquemas basados en clases de perfiles individuales de XDM, agregue el grupo de campos &quot;Detalles de la prueba de perfil&quot; para poder cargar perfiles de prueba para usarlos con [!DNL Journey Optimizer]
+
+<br>
+
+Correo electrónico:
+
+- Debe tener un subdominio listo para utilizarse en el envío de mensajes
+- El subdominio se puede delegar completamente a Adobe (recomendado) o se pueden usar CNAME para señalar a servidores DNS específicos de Adobe (personalizado)
+- Se necesita el registro TXT de Google para cada subdominio para garantizar una buena entrega
+
+<br>
+
+Inserción móvil:
+
+- El cliente debe tener un desarrollador móvil disponible para generar la aplicación
+- SDK móvil de Adobe Experience Platform
+
+<br>
+
+## Guardas
+
+[Vínculo del producto de protecciones [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
+
+[Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=es)
+
+## Documentación relacionada
+
+- [Documentación de [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
+- [Documentación de etiquetas [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
+- [Documentación de [!DNL Experience Platform Mobile SDK]](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
+- [Documentación de [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
+- [[!DNL Journey Optimizer] descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)

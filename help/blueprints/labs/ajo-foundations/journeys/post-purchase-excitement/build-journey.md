@@ -4,13 +4,11 @@ description: Cree un recorrido unitario que responda a un evento de envío de pe
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Generar recorrido
 
@@ -159,8 +157,8 @@ Para el contenido, va a mantener las cosas simples. Como estúpido simple.
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
-   ETA: 
-   Tracking Number: 
+   ETA:
+   Tracking Number:
    ```
 
 8. Agregue los campos personalizados de la siguiente manera (**haga clic en el signo más &quot;+&quot; situado junto al campo en el carril izquierdo**):
@@ -188,7 +186,7 @@ Para el contenido, va a mantener las cosas simples. Como estúpido simple.
 
 ![Botón Guardar y flecha hacia atrás en la parte superior derecha y superior izquierda](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. Finalmente, haga clic en el icono **\&lt; Atrás** en la parte superior izquierda para volver al lienzo de Recorrido
+1. Finalmente, haga clic en el icono **\&lt; Atrás** en la parte superior izquierda para volver al lienzo de Recorrido
 
 ![Icono Atrás en la parte superior izquierda para regresar al lienzo de Recorrido](assets/build-journey-back-icon-to-journey-canvas.png)
 

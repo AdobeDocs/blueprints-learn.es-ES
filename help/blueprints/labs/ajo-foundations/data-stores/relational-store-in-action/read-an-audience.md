@@ -4,7 +4,7 @@ description: Aprenda a utilizar la actividad Leer audiencia con un Dimension de 
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -126,45 +126,45 @@ Orchestrated Campaign utiliza el esquema relacional para todas las actividades. 
 
 ![Atributo Source seleccionado de las columnas Dimensión de segmentación](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;11. Los distintos valores de la columna Source están disponibles en la lista desplegable. Para la **condición personalizada**, seleccione **&quot;En tienda&quot;** en la lista desplegable y haga clic en **Confirmar** para salir
+1. Los distintos valores de la columna Source están disponibles en la lista desplegable. Para la **condición personalizada**, seleccione **&quot;En tienda&quot;** en la lista desplegable y haga clic en **Confirmar** para salir
 
-![Se ha establecido la condición personalizada en En tienda](assets/read-an-audience-set-in-store-condition.png)
+   ![Se ha establecido la condición personalizada en En tienda](assets/read-an-audience-set-in-store-condition.png)
 
-&#x200B;12. En el panel de detalles de la actividad **Split**, se completó la configuración de la primera Split. Haga clic en **Agregar segmento** a la segunda división
+1. En el panel de detalles de la actividad **Split**, se completó la configuración de la primera Split. Haga clic en **Agregar segmento** a la segunda división
 
-![Botón Agregar segmento en el panel Dividir detalles de actividad](assets/read-an-audience-add-segment-button.png)
+   ![Botón Agregar segmento en el panel Dividir detalles de actividad](assets/read-an-audience-add-segment-button.png)
 
-Se crea un nuevo segmento con el nombre **Result**
+   Se crea un nuevo segmento con el nombre **Result**
 
-![Nuevo segmento denominado Resultado](assets/read-an-audience-new-result-segment.png)
+   ![Nuevo segmento denominado Resultado](assets/read-an-audience-new-result-segment.png)
 
-&#x200B;13. Cambie el nombre de &quot;**Result**&quot; a &quot;**Not In Store**&quot; y haga clic en **Crear filtro** para establecer la condición de filtro
+1. Cambie el nombre de &quot;**Result**&quot; a &quot;**Not In Store**&quot; y haga clic en **Crear filtro** para establecer la condición de filtro
 
-![Segmento cuyo nombre ha cambiado a No está en almacén con la opción de filtro](assets/read-an-audience-rename-not-in-store-segment.png)
+   ![Segmento cuyo nombre ha cambiado a No está en almacén con la opción de filtro](assets/read-an-audience-rename-not-in-store-segment.png)
 
-&#x200B;14. En el panel **Crear filtro**, haga clic en **Agregar condición**. Siga el mismo enfoque que arriba, expanda **Targeting dimension** haciendo clic en **>**, luego seleccione `Source` de la lista y haga clic en **Confirmar**
+1. En el panel **Crear filtro**, haga clic en **Agregar condición**. Siga el mismo enfoque que arriba, expanda **Targeting dimension** haciendo clic en **>**, luego seleccione `Source` de la lista y haga clic en **Confirmar**
 
-![Dimensión de segmentación expandida para mostrar columnas de almacén relacional](assets/read-an-audience-expand-targeting-dimension.png)
+   ![Dimensión de segmentación expandida para mostrar columnas de almacén relacional](assets/read-an-audience-expand-targeting-dimension.png)
 
-![Atributo Source seleccionado de las columnas Dimensión de segmentación](assets/read-an-audience-select-source-attribute.png)
+   ![Atributo Source seleccionado de las columnas Dimensión de segmentación](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;15. Para la **condición personalizada**, seleccione **&quot;En tienda&quot;** de la lista desplegable y para el operador seleccione &quot;**no igual a**&quot;. Haz clic en **Confirmar** para salir
+1. Para la **condición personalizada**, seleccione **&quot;En tienda&quot;** de la lista desplegable y para el operador seleccione &quot;**no igual a**&quot;. Haz clic en **Confirmar** para salir
 
-![La condición personalizada establecida en no es igual a En tienda](assets/read-an-audience-set-not-in-store-condition.png)
+   ![La condición personalizada establecida en no es igual a En tienda](assets/read-an-audience-set-not-in-store-condition.png)
 
-&#x200B;16. En el panel de detalles de la actividad **Split**, se completó la configuración de las dos Splits. Haga clic en **Iniciar** para ejecutar la campaña en **Modo de prueba**
+1. En el panel de detalles de la actividad **Split**, se completó la configuración de las dos Splits. Haga clic en **Iniciar** para ejecutar la campaña en **Modo de prueba**
 
-![Botón de inicio para ejecutar la campaña en modo de prueba después de configurar Split](assets/read-an-audience-start-test-mode-second-run.png)
+   ![Botón de inicio para ejecutar la campaña en modo de prueba después de configurar Split](assets/read-an-audience-start-test-mode-second-run.png)
 
-&#x200B;17. La ejecución de la prueba comienza y los resultados se muestran al finalizar. Dado que solo se encontraron **7** dimensiones de destino coincidentes en el esquema relacional, se observa el mismo recuento después de las operaciones de división (**7** y **0**)
+1. La ejecución de la prueba comienza y los resultados se muestran al finalizar. Dado que solo se encontraron **7** dimensiones de destino coincidentes en el esquema relacional, se observa el mismo recuento después de las operaciones de división (**7** y **0**)
 
-![Dividir resultados de actividades mostrando recuentos de 7 y 0](assets/read-an-audience-verify-split-counts.png)
+   ![Dividir resultados de actividades mostrando recuentos de 7 y 0](assets/read-an-audience-verify-split-counts.png)
 
-&#x200B;18. Haz clic en cada cuadro de resultados y **Previsualizar resultados** para ver los resultados
+1. Haz clic en cada cuadro de resultados y **Previsualizar resultados** para ver los resultados
 
-![Vista previa de resultados para cada cuadro de resultados divididos](assets/read-an-audience-preview-split-results.png)
+   ![Vista previa de resultados para cada cuadro de resultados divididos](assets/read-an-audience-preview-split-results.png)
 
-&#x200B;19. Haga clic en **Detener** para detener el **modo de prueba** de la campaña
+1. Haga clic en **Detener** para detener el **modo de prueba** de la campaña
 
 ![Botón Detener para finalizar la última ejecución del modo de prueba](assets/read-an-audience-stop-test-mode-final.png)
 

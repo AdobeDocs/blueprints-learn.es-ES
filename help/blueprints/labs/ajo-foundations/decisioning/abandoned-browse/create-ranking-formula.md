@@ -4,13 +4,11 @@ description: Cree una fórmula de clasificación que aumente dinámicamente las 
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 
 # Crear fórmula de clasificación
 
@@ -144,7 +142,7 @@ Una forma de pensar en las reglas de ajuste de prioridad es tratarlas como instr
 >- A los usuarios nacidos en 1990 con un **ID de plan = 1** se les eliminarán las ofertas Ultra y Pro, a pesar de que ocupen el puesto más alto. El usuario solo ve las ofertas básicas y genéricas porque los niveles Ultra y Pro tienen una condición adicional: solo los usuarios con **ID de plan 2 o 3** pueden verlas.
 >- Dado que la oferta genérica no tiene reglas de límite de frecuencia, el usuario **1970** del año de nacimiento nunca verá la oferta Ultra, ya que su puntuación de prioridad es inferior a la puntuación aumentada del genérico.
 
-&#x200B;5. Con todas las reglas y la puntuación de prioridad predeterminada en su lugar, desplácese hacia atrás hasta la parte superior y haga clic en el botón azul **Crear** en la esquina superior derecha.
+1. Con todas las reglas y la puntuación de prioridad predeterminada en su lugar, desplácese hacia atrás hasta la parte superior y haga clic en el botón azul **Crear** en la esquina superior derecha.
 
 >[!TIP]
 >

@@ -1,13 +1,11 @@
 ---
 title: Modelo de ingesta y creación
-description: 'Ingesta y creación: modelo de integración de Marketo Engage y Workfront'
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+description: 'Admisión y creación: integración de Marketo Engage y Workfront'
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1319'
 ht-degree: 86%
-
 ---
-
 # Modelo de ingesta y creación {#intake-and-create}
 
 El número de solicitudes de marketing que llegan a un equipo de operaciones de marketing para lanzar nuevas campañas puede convertir un equipo de alto rendimiento en un bucle de tareas repetitivas, con el consiguiente agotamiento y estancamiento de la innovación.
@@ -19,12 +17,6 @@ Con Workfront y Marketo Engage, una conexión de sistema a sistema permite obten
 Para lograr esta integración, se utilizará Workfront Fusion, una capa de automatización de trabajo que permite automatizar flujos de trabajo entre Workfront y otros sistemas.
 
 El flujo de trabajo siguiente muestra una solicitud de un seminario web realizada por un director de campaña mediante un formulario de solicitud de Workfront. Los detalles enviados en la solicitud activan un programa y un correo electrónico para crear en Marketo Engage de cara al seminario web. Además, se adoptan detalles del formulario de solicitud para rellenar el contenido del correo electrónico.
-
-![Admisión y creación de modelo](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-1.png){zoomable="yes"}
-
->[!TIP]
->
->Para obtener más información sobre los distintos tipos de objetos en Workfront que se utilizan para organizar el trabajo de la campaña de marketing y cómo se correlacionan con un programa de Marketo Engage, consulte la [Información general sobre Marketo y Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## Preparación del proceso de desarrollo de campañas para la automatización {#prepare-your-campaign-development-process-for-automation}
 
@@ -100,8 +92,6 @@ Para obtener más información sobre cómo crear su propio centro de excelencia,
 
 Con Marketo Engage, los tokens se pueden usar para rellenar contenido en los activos de campaña. Por ejemplo, después de clonar una plantilla de correo electrónico del centro de excelencia, Workfront Fusion puede adoptar los detalles de la solicitud de campaña en Workfront y pasarlos a Mis tokens en el programa de Marketo Engage. Los valores de token se pueden heredar directamente en el correo electrónico para crear el mensaje de salida.
 
-![Use tokens para rellenar el diagrama de contenido](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-2.png){zoomable="yes"}
-
 ### Rellenar imágenes desde AEM Assets {#populate-images-from-aem-assets}
 
 Puede automatizar aún más el desarrollo de su correo electrónico y de su página de aterrizaje mediante tokens de Marketo Engage en combinación con vínculos a activos en AEM Assets. Los solicitantes de campaña pueden enviar vínculos de imagen publicados desde AEM Assets como parte del proceso de solicitud. Workfront Fusion puede adoptar estos vínculos e incrustarlos en el código HTML de un correo electrónico mediante tokens de Marketo Engage.
@@ -148,12 +138,8 @@ Algunos datos básicos que se deben incluir en la biblioteca de búsqueda de pla
 
 Este es un ejemplo de cómo se puede ensamblar la lógica del flujo de trabajo en Fusion utilizando módulos pregenerados de [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"} y [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"} que le permiten ofrecer automatización más rápido.
 
-![Flujo de ingesta y creación de automatización](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/assets/intake-and-create-3.png)
-
 ## Recursos {#resources}
 
 * [Módulos Adobe Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=es){target="_blank"}
 
 * [Módulos Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=es){target="_blank"}
-
-* [Información general sobre Marketo y Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}

@@ -4,13 +4,11 @@ description: Envíe un evento web no autenticado a Edge mediante Postman y rastr
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
-
 ---
-
 
 # Envío de un evento de Edge
 
@@ -142,13 +140,13 @@ En Adobe Experience Platform, busque el perfil que acaba de enviar desde el even
 
 
 
-&#x200B;3. Haz clic en **Eventos** en la barra de navegación superior y podrás ver el evento que acabas de enviar
+1. Haz clic en **Eventos** en la barra de navegación superior y podrás ver el evento que acabas de enviar
 
    ![Ver el evento en la ficha Eventos del perfil](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. Valide que el perfil se haya clasificado para las audiencias mediante la revisión de la pestaña Pertenencia a la audiencia en la barra de navegación superior.  Debería ver lo siguiente:
+1. Valide que el perfil se haya clasificado para las audiencias mediante la revisión de la pestaña Pertenencia a la audiencia en la barra de navegación superior.  Debería ver lo siguiente:
 
 - Cualquier evento de Edge (en los últimos 15 minutos)
 - Cualquier flujo de eventos (en la última hora)

@@ -4,13 +4,11 @@ description: Configure un destino de flujo continuo de API HTTP con un extremo d
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
-
 ---
-
 
 # Configuración del destino de flujo continuo
 
@@ -62,7 +60,7 @@ En la IU de Experience Platform, vaya al catálogo de destinos haciendo lo sigui
 
 
 
-&#x200B;3. Complete los detalles de configuración del destino de la siguiente manera:
+1. Complete los detalles de configuración del destino de la siguiente manera:
 
 - **Nombre** -> `Streaming DEP Webhook - [Your Initials]`
 - **Descripción** -> `[your webhook endpoint you copied above]`

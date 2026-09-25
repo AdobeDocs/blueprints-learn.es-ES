@@ -1,12 +1,12 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 ---
 # Protecciones de ámbito: página de arquitectura vs. página de patrón de caso de uso
 
-El sitio de modelos separa **páginas de diagrama de arquitectura** de **páginas de patrones de casos de uso** porque sirven para diferentes necesidades del lector. Este documento define qué pertenece a dónde y cómo gestionar el contenido que se desplaza por los límites.
+Este sitio separa **páginas de diagrama de arquitectura** de **páginas de patrones de casos de uso** porque satisfacen diferentes necesidades del lector. Este documento define qué pertenece a dónde y cómo gestionar el contenido que se desplaza por los límites.
 
 ## La distinción básica
 

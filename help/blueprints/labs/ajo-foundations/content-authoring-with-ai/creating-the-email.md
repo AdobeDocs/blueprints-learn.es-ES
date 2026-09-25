@@ -4,13 +4,11 @@ description: Aprenda a aplicar una plantilla de contenido de marca a un correo e
 doc-type: article
 solution: Experience Platform
 exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
-
 ---
-
 
 # Creación del correo electrónico
 
@@ -69,27 +67,27 @@ Este paso muestra cómo se pueden reutilizar las plantillas en todos los recorri
 
 ![Editar opción de correo electrónico para la actividad de correo electrónico de la campaña](assets/creating-the-email-click-edit-email.png)
 
-&#x200B;11. Haz clic en la pestaña **Acción** y selecciona **tu** configuración de correo electrónico. Su zona protegida puede mostrarla como un correo electrónico relacional. (Seleccione cualquiera)
+1. Haz clic en la pestaña **Acción** y selecciona **tu** configuración de correo electrónico. Su zona protegida puede mostrarla como un correo electrónico relacional. (Seleccione cualquiera)
 
-![Ficha de acción con la configuración de correo electrónico seleccionada](assets/creating-the-email-action-tab-email-configuration.png)
+   ![Ficha de acción con la configuración de correo electrónico seleccionada](assets/creating-the-email-action-tab-email-configuration.png)
 
-&#x200B;12. Haz clic en **pestaña Contenido**
+1. Haz clic en **pestaña Contenido**
 
-![Pestaña Contenido en el editor de correo electrónico](assets/creating-the-email-click-content-tab.png)
+   ![Pestaña Contenido en el editor de correo electrónico](assets/creating-the-email-click-content-tab.png)
 
-&#x200B;13. Haga clic en **Aplicar plantilla de contenido**
+1. Haga clic en **Aplicar plantilla de contenido**
 
-![Aplicar plantilla de contenido en el editor de correo electrónico](assets/creating-the-email-click-apply-content-template.png)
+   ![Aplicar plantilla de contenido en el editor de correo electrónico](assets/creating-the-email-click-apply-content-template.png)
 
-&#x200B;14. Seleccione la plantilla **&quot;Plantilla promocional&quot;** que creó y haga clic en **Confirmar**
+1. Seleccione la plantilla **&quot;Plantilla promocional&quot;** que creó y haga clic en **Confirmar**
 
-![Seleccionando la plantilla promocional y haciendo clic en Confirmar](assets/creating-the-email-select-promotional-template-confirm.png)
+   ![Seleccionando la plantilla promocional y haciendo clic en Confirmar](assets/creating-the-email-select-promotional-template-confirm.png)
 
-&#x200B;15. Haz clic en **Editar cuerpo del correo electrónico**
+1. Haz clic en **Editar cuerpo del correo electrónico**
 
-![Editar opción de cuerpo del correo electrónico después de aplicar la plantilla](assets/creating-the-email-click-edit-email-body.png)
+   ![Editar opción de cuerpo del correo electrónico después de aplicar la plantilla](assets/creating-the-email-click-edit-email-body.png)
 
-&#x200B;16. Confirme que el nuevo encabezado, la imagen a pantalla completa, el pie de página y los bloques de contenido aparecen correctamente.
+1. Confirme que el nuevo encabezado, la imagen a pantalla completa, el pie de página y los bloques de contenido aparecen correctamente.
 
 ![Los bloques de encabezado, imagen a pantalla completa, pie de página y contenido aparecen correctamente en el correo electrónico](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

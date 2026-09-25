@@ -1,13 +1,11 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Creación de guías de creación de nuevas páginas de diagrama de arquitectura para el repositorio de modelos de Adobe Experience Platform. Utilice esta aptitud cuando añada un nuevo diagrama de arquitectura de nivel superior, una página de arquitectura de integración o información general sobre la arquitectura de aplicaciones. Las páginas de arquitectura cubren las arquitecturas de aplicaciones y AEP de nivel superior y los puntos de integración principales, no los casos de uso detallados (pertenecen al generador de patrones de casos de uso). Gestiona el flujo de trabajo completo: recopilar información de página, generar el archivo Markdown, colocarlo en la carpeta de temas correcta y actualizar TOC.md.'
-source-git-commit: 4d236750286c28a8b8eb53a5bdec0645cc0e3e91
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1562'
 ht-degree: 1%
-
 ---
-
 
 # Diagrama de arquitectura Page Builder
 
@@ -149,12 +147,11 @@ Lea `references/toc-placement.md` las reglas y la tabla de asignación de subsec
 
 | Carpeta de temas | Subsección del índice |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` (subsección de descripciones generales de arquitectura) |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 Formato de entrada (sangría de 4 espacios + `+`):
 
@@ -189,5 +186,5 @@ Corrija los problemas de validación antes de considerar que la tarea se ha comp
 - Utilice siempre la sintaxis `[!DNL ...]` para los nombres de productos de Adobe en el texto del cuerpo y las viñetas, siguiendo la convención de las páginas existentes.
 - Los diagramas de arquitectura suelen ser SVG (preferidos para nitidez y escalado), pero PNG es aceptable para ilustraciones de fuente rasterizada.
 - La cadena de estilo en línea `<img>` incrustada (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) y `class="modal-image"` son necesarias; habilitan la interacción de zoom modal de Experience League.
-- Si el usuario está creando una página para una carpeta de temas completamente nueva que aún no existe, adviértele de que TOC.md necesita una nueva subsección de nivel superior bajo `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Gestionarlo como un paso independiente con la aprobación explícita del usuario.
+- Si el usuario está creando una página para una carpeta de temas completamente nueva que aún no existe, detenga y utilice la aptitud `architecture-diagram-category-builder` en su lugar: se encarga de la aplicación de la convención de nombres, la creación de subsecciones de TOC.md, la categoría `overview.md` y la cuadrícula de la tarjeta de la página de aterrizaje. No cree una carpeta de temas nueva con esta aptitud.
 - Si el diagrama de arquitectura documenta ampliamente un *caso de uso único de extremo a extremo* (con KPI, objetivos empresariales y capacidades), redirija al usuario a `use-case-pattern-builder`; no es una página de arquitectura.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 ---
 # Plantilla de página de diagrama de arquitectura
@@ -28,13 +28,13 @@ solution: {Comma-separated Adobe solutions, e.g. Experience Platform, Journey Op
 
 {1-2 sentence explanation of what the diagram shows and why it matters.}
 
-<img src="assets/{filename-1}" alt="{Alt text for diagram 1}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 1}](assets/{filename-1}){width="1000" zoomable="yes"}
 
 ## {Diagram 2 section title}
 
 {1-2 sentence explanation.}
 
-<img src="assets/{filename-2}" alt="{Alt text for diagram 2}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 2}](assets/{filename-2}){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 
@@ -70,7 +70,7 @@ The architecture above supports the following use case patterns:
 
 - **Un H1**: el título de la página. Coincide exactamente con el frontmatter `title`.
 - **Un H2 por diagrama.** No hay H3 dentro de las secciones del diagrama; manténgalas en una introducción de 1-2 frases más la imagen.
-- **`<img>`incrustado**: se requieren el estilo en línea y `class="modal-image"`. Impulsan la interacción modal-zoom de Experience League.
+- **Incrustar imagen de Markdown**: proporcione texto alternativo descriptivo y use `{width="1000" zoomable="yes"}` para diagramas.
 - **Ruta de la imagen** — siempre `assets/{filename}` (relativa a la carpeta de temas de la página). No utilice rutas absolutas.
 - **nombres de productos Adobe** — ajuste `[!DNL ...]` en el texto del cuerpo y las viñetas. Ejemplo: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`.
 - **Vínculos de patrones de casos de uso**: utilice siempre el formulario `/help/blueprints/use-case-patterns/{category}/{file}.md` absoluto para que el vínculo se resuelva desde cualquier página que pueda incluir este contenido.

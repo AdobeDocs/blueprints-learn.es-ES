@@ -4,13 +4,11 @@ description: Investigue los campos de esquema para el uso de la facturación y e
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 
 # Trabajo previo
 
@@ -25,7 +23,7 @@ Para este caso de uso, no hay mucho trabajo previo que hacer. Básicamente tenem
 
 
 
-&#x200B;3. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
+1. Busque &quot;uso&quot; en Eventos.  Haga clic en la &quot;i&quot; para revisar la descripción (no hay ninguna).
 
 ![Buscar uso en eventos - no se muestra descripción](assets/pre-work-search-usage-in-events.png)
 

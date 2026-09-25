@@ -1,0 +1,138 @@
+---
+title: Journey Optimizer con Adobe Campaign v8
+description: Muestra cómo se puede utilizar Adobe Journey Optimizer con Adobe Campaign para enviar mensajes de forma nativa utilizando el servidor de mensajería en tiempo real en Campaign
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
+exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
+TQID: https://experienceleague.adobe.com/EWmi1DKRUqfWUqK0u-pfXkdUlzDc6-HjC0i1QqOocpk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
+subfeature_v2:
+  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
+    internal-label: Source connectors
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 55%
+---
+# Journey Optimizer con Adobe Campaign v8
+
+Muestra cómo se puede usar Adobe [!DNL Journey Optimizer] con Adobe [!DNL Campaign] de forma nativa para enviar mensajes mediante el servidor de mensajería en tiempo real de [!DNL Campaign].
+
+## Arquitectura
+
+![Journey Optimizer de arquitectura de referencia](images/campaign-v8-with-ajo.png){width="1000" zoomable="yes"}
+
+>[!IMPORTANT]
+>El uso de Journey Optimizer y Campaign para enviar mensajes de forma independiente entre sí es posible, pero tiene algunas consideraciones técnicas que se deben tener en cuenta. Si desea continuar con esta ruta, póngase en contacto con su arquitecto empresarial de preventa para asegurarse de que comprende lo que se necesita para admitir la implementación
+
+<br>
+
+## Prerrequisitos
+
+Revise los siguientes requisitos previos para cada aplicación.
+
+### Adobe Experience Platform
+
+* Los esquemas y conjuntos de datos deben configurarse en el sistema para poder configurar las fuentes de datos de Journey Optimizer
+* Para los esquemas basados en clases de Experience Event, agregue el grupo de campos ID de evento de orquestación cuando desee tener un evento activado que no sea un evento basado en reglas
+* Para esquemas basados en clases de Perfil individual, agregue el grupo de campos Detalles de la prueba de perfil para poder cargar perfiles de prueba para utilizarlos con Journey Optimizer
+* Journey Optimizer y Campaign se aprovisionan en la misma organización de IMS
+
+### Campaign v8
+
+* Adobe Managed Cloud Services debe alojar la Instancia de ejecución del servicio de mensajería en tiempo real (es decir, el Centro de mensajes)
+* Toda la creación de mensajes se realiza dentro de la propia instancia de Campaign
+
+## Guardas
+
+* [Limitaciones de productos de Journey Optimizer Protections](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/guardrails)
+
+* [Protecciones y guía de latencia de extremo a extremo](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=es)
+
+## Pasos de implementación
+
+Siga las implementaciones para cada aplicación que se describen a continuación.
+
+### Adobe Experience Platform
+
+#### Esquemas/conjuntos de datos
+
+1. [Configurar perfil individual, evento de experiencia y esquemas de identidad múltiple](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=es) según los datos ofrecidos por los clientes en Experience Platform.
+1. (Opcional) Cree esquemas basados en clases de Experience Event para las tablas broadLog, trackingLog y direcciones no entregables de Adobe Campaign.
+1. [Crear conjuntos de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=es) en Experience Platform para la ingesta.
+1. [Añadir etiquetas de uso de datos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=es) al conjunto de datos de Experience Platform para la gobernanza.
+1. [Crear políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=es) que refuercen la gobernanza en los destinos.
+
+#### Perfil/identidad
+
+1. [Crear áreas de nombres específicas para los clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
+1. [Añadir identidades a los esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=es).
+1. [Activar los esquemas y los conjuntos de datos del perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=es).
+1. [Configurar políticas de fusión](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=es) para diferenciar las vistas de [!UICONTROL Real-Time Customer Profile] (opcional).
+1. Crear segmentos para el uso de Journey.
+
+#### Orígenes/destinos
+
+1. [Ingesta de datos en [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=es) mediante la transmisión de API y conectores de origen.
+
+### Journey Optimizer
+
+1. Configure su origen de datos [!DNL Experience Platform] y determine qué campos se deben almacenar en caché
+1. El flujo de datos utilizado para iniciar el recorrido del cliente debe configurarse primero en Journey Optimizer para obtener un ID de organización. Este ID de organización debe entregarse al desarrollador para usarse con la ingesta.
+1. Configurar orígenes externos de datos.
+1. Configure acciones personalizadas para la instancia de Campaign.
+
+### Campaign v8
+
+* Las plantillas de mensajería deben configurarse con el contexto de personalización adecuado.
+* Para el estándar [!DNL Campaign]: es necesario configurar los flujos de trabajo de exportación para exportar los registros de mensajería transaccional de nuevo a Experience Platform. La recomendación es que se ejecute como máximo cada cuatro horas.
+* Para [!DNL Campaign] v8.4 es posible aprovechar el conector Adobe [!DNL Campaign] Managed Services Source en Experience Platform para sincronizar los eventos de envío y seguimiento de Campaign en Experience Platform. Consulte la documentación de [Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es) para obtener detalles.
+
+### Configuración push móvil (opcional)
+
+1. Implemente [!DNL Experience Platform] Mobile SDK para recopilar tokens push e información de inicio de sesión con el fin de vincularlos a perfiles de clientes conocidos.
+1. Aproveche las etiquetas de Adobe y cree una propiedad móvil con la siguiente extensión:
+   * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
+   * Adobe [!DNL Experience Platform] [!DNL Edge Network]
+   * Identidad de [!DNL Edge Network]
+   * Núcleo móvil
+1. Asegúrese de tener un flujo de datos dedicado para implementaciones de aplicaciones móviles en lugar de implementaciones web.
+1. Para obtener más información, consulte la [Guía de Adobe Journey Optimizer Mobile](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/).
+
+   >[!IMPORTANT]
+   >Puede que sea necesario recopilar los tokens móviles tanto en Journey Optimizer como en Campaign si se desea enviar comunicaciones en tiempo real a través de Journey Optimizer y notificaciones push por lotes a través de Campaign. Campaign v8 requiere el uso exclusivo del SDK de Campaign para capturar tokens push.
+
+## Documentación relacionada
+
+* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
+* [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=es)

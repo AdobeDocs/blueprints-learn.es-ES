@@ -1,5 +1,5 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 4%
@@ -121,9 +121,9 @@ Ejemplo:
 
 ## Referencias de ejemplo en este repositorio
 
-- **Modelo de escenario (formato largo)**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **Información general/concentrador con fichas y tablas**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **Centrado en las protecciones**: `help/blueprints/experience-platform/guardrails.md`
+- **Modelo de escenario (formato largo)**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **Información general/concentrador con fichas y tablas**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **Centrado en las protecciones**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **Navegación**: `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 Utilícelos como patrones para el orden de secciones, la frontmatter, la ubicación del diagrama y el uso de vínculos de Experience League.

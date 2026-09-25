@@ -3,13 +3,11 @@ title: Acceso a perfiles en tiempo real para escenarios de soporte y ventas
 description: Búsquedas en [!UICONTROL Real-time Customer Profile] para ofrecer contexto a los agentes de atención al cliente y ventas.
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # Acceso a perfiles en tiempo real para escenarios de soporte y ventas
 
 El modelo de acceso a perfiles en tiempo real para escenarios de soporte y ventas muestra cómo las aplicaciones externas pueden acceder al [!UICONTROL Perfil del cliente en tiempo real] de Adobe Experience Platform.
@@ -25,10 +23,6 @@ Con esta capacidad, es posible hacer aflorar contenido de interés cuando el cli
 ## Casos de uso
 
 * Ofrecer un contexto más rico sobre el cliente a las interacciones realizadas por agentes, como las experiencias de asistencia y ventas. Utilizando la búsqueda de perfil en Experience Platform, los agentes pueden recibir más contexto sobre el cliente, tal como compras recientes, interacciones con campañas, tendencias, pertenencia a audiencia y otros atributos y datos que se almacenan en Real-Time Customer Profile.
-
-## Arquitectura
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="Arquitectura de referencia para el modelo de centro de actividad del cliente" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Guardas
 

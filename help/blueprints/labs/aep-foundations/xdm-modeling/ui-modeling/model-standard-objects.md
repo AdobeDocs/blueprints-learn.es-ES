@@ -4,7 +4,7 @@ description: Cree un esquema de perfil individual en la interfaz de usuario y a�
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Existen muchos grupos de campos como XDM estándar en Adobe Experience Platform 
 
 
 
-&#x200B;3. **Marque** la casilla que está junto al grupo de campos y luego haga clic en el botón **Agregar grupos de campos**
+1. **Marque** la casilla que está junto al grupo de campos y luego haga clic en el botón **Agregar grupos de campos**
 
 ![Seleccione el grupo de campos Detalles demográficos para agregarlo al esquema](assets/model-standard-objects-select-demographic-details-field-group.png "Seleccione el grupo de campos Detalles demográficos para agregarlo al esquema")
 

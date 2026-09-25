@@ -2,14 +2,12 @@
 title: Recuperar carritos y Recorridos abandonados
 description: Aprenda a volver a atraer a los usuarios que abandonaron durante los flujos de compra, solicitud o inscripción con seguimientos personalizados y oportunos.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4e0f84b4-1b2a-4728-a551-ef1b2bde99ba
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 2%
-
+ht-degree: 7%
 ---
-
-
 # Recuperar carros y recorridos abandonados
 
 Vuelva a atraer a los usuarios que abandonaron durante los flujos de compra, solicitud o inscripción con seguimientos personalizados y oportunos. Este objetivo se centra en capturar los ingresos perdidos detectando eventos de abandono en tiempo real y enviando mensajes contextuales que aborden las barreras e incentiven la finalización.
