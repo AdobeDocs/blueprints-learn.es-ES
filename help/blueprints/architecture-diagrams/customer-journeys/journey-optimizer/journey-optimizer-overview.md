@@ -59,7 +59,7 @@ Esta descripción general describe las capacidades técnicas de la aplicación y
 >[!BEGINTABS]
 >[!TAB Recorrido (Impulsado Por Eventos, En Tiempo Real)]
 
-- **Recuperación de abandono:** Déclencheur mensajes personalizados cuando un usuario abandona un carro de compras, un formulario o una sesiónÃ`â‚€por correo electrónico, push o en la aplicación.
+- **Recuperación de abandono:** Déclencheur mensajes personalizados cuando un usuario abandona un carro de compras, un formulario o una sesiónÃ&grave;â‚€por correo electrónico, push o en la aplicación.
 - **Registro de nuevo usuario:** Capte a nuevos usuarios inmediatamente después de que se registren con nuevas preferencias de cuenta, promociones relevantes o beneficios
 - **Mensajería transaccional:** Envíe confirmaciones, alertas o actualizaciones en tiempo real (por ejemplo, pedidos enviados, restablecimiento de contraseña) mediante déclencheur de evento.
 - **Segmentación contextual:** Comuníquese con usuarios en el momento según sus señales y ubicación para guiar y dirigir su experiencia

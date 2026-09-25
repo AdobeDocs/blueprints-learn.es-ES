@@ -50,7 +50,7 @@ Muestra cómo se puede utilizar Adobe Journey Optimizer con sistemas de mensajer
 <br>
 
 La topología muestra [!DNL Journey Optimizer] enviando cargas transaccionales a un tercero
-aplicación de mensajería mediante una acción personalizada o integración de API de REST. Usar el patrón de caso de uso de mensajería de terceros [](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
+aplicación de mensajería mediante una acción personalizada o integración de API de REST. Usar el patrón de caso de uso de mensajería de terceros [&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/third-party-messaging.md)
 para conocer los requisitos previos, las protecciones y las directrices de implementación.
 
 <br>
