@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # Módulo de evaluación de modelo
 
@@ -21,7 +20,7 @@ esbozar posibles enfoques y consideraciones para la aplicación a fin de lograr 
 Forma canónica: `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **Diagrama de arquitectura**: un diagrama visual que representa la funcionalidad de un sistema, el
 integraciones y flujos de datos. Narración mínima; el diagrama es el artefacto.
-Ejemplo canónico: [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
+Ejemplo canónico: [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md).
 
 ## Puntuación
 
@@ -42,11 +41,11 @@ sólo una breve descripción general.
 
 ### Señales del diagrama (cada una = +1 Diagrama)
 
-&#x200B;6. **Imagen de flujo de datos/arquitectura presente** — `.svg`, `.png` o `.jpg` que muestra la topología del sistema,
+6. **Imagen de flujo de datos/arquitectura presente** — `.svg`, `.png` o `.jpg` que muestra la topología del sistema,
 flujo de datos o flechas de integración.
-&#x200B;7. **Topología de integración entre sistemas, forma de implementación o protecciones**: describe cómo
+7. **Topología de integración entre sistemas, forma de implementación o protecciones**: describe cómo
 los componentes se conectan, donde residen los datos, los modelos de implementación (edge o hub) o los límites de capacidad.
-&#x200B;8. **La audiencia es arquitectos de soluciones**: la creación de marcos usa la implementación, SDK, edge, hub o similar
+8. **La audiencia es arquitectos de soluciones**: la creación de marcos usa la implementación, SDK, edge, hub o similar
 terminología orientada al arquitecto en lugar de marcos orientados al experto en marketing (campañas, recorridos,
 audiencias).
 
@@ -89,7 +88,7 @@ Para cada archivo de marcado de modelo en el ámbito:
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`, `conversational-experience` o una nueva categoría denominada `(new) <name>`.
    - `proposed_pattern_title`: un título corto orientado a la acción que sigue el patrón existente
-estilo de nomenclatura.
+     estilo de nomenclatura.
 6. Para las recomendaciones `Diagram` y `Split`, proponga:
    - `proposed_diagram_title`: normalmente el título existente recortado de la trama empresarial.
 7. Capture los duplicados que se encuentren comparando el ámbito del modelo con el catálogo de patrones existente

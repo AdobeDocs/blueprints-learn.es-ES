@@ -1,16 +1,14 @@
 ---
-title: Opción
+title: Opción #2 - use pre-aggregates
 description: Cree una audiencia de flujo completo usando atributos de uso preagregados calculados en sentido ascendente en lugar de agregar eventos dentro de la regla de audiencia.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 
 # Opción #2: usar preacumulados
 
@@ -36,15 +34,15 @@ Cree una audiencia de todos los perfiles cuyo uso de datos de facturación sea a
 
 
 
-&#x200B;3. Busque el nombre del plan en el perfil y añádalo (XDM Individual Profile > Devbc > Detalles del plan > Nombre del plan). Seleccione No es igual a &quot;Ultimate&quot;
+1. Busque el nombre del plan en el perfil y añádalo (XDM Individual Profile > Devbc > Detalles del plan > Nombre del plan). Seleccione No es igual a &quot;Ultimate&quot;
 
    ![Seleccionar Nombre De Plan No Es Igual A Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. Proporcione una descripción.  El método de evaluación Validate es Streaming.
+1. Proporcione una descripción.  El método de evaluación Validate es Streaming.
 
-&#x200B;5. Guardar la audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate (Agg)*&quot;
+1. Guardar la audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate (Agg)*&quot;
 
 >[!NOTE]
 >

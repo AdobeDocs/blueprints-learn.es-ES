@@ -2,20 +2,18 @@
 title: Controladora de medios de pago AJO B2B
 description: Prioridad de las campañas y activación de cuentas en destinos de medios de pago
 solution: Journey Optimizer B2B Edition
-source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
+source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1499'
 ht-degree: 0%
-
 ---
-
 # AJO B2B - Journey Orchestration de cuenta - Controlador de medios de pago
 
 ## Información general
 
 Los equipos de marketing que ejecutan medios de pago B2B a escala se enfrentan a un problema recurrente: **las cuentas terminan en varias campañas a la vez** (persona, reconocimiento de categorías, liderado por soluciones, seguimiento), lo que diluye la mensajería, causa fatiga de audiencia y fuerza el trabajo manual de listas (cargas, exclusiones y supresión) en la coincidencia de cuentas de LinkedIn (destino de la cuenta). Sin **priorización de cascada** y **asignación automatizada de campaña**, no hay un solo lugar para decidir qué cuenta obtiene qué mensaje y qué operaciones no se escalan.
 
-**Paid Media Controller** es la solución perfecta para resolver este problema. Usa **Adobe Journey Optimizer B2B edition (AJO B2B)** y **Adobe Experience Platform (AEP)** juntos: un **recorrido de cuentas** lee una audiencia de cuenta calificada de Real-Time CDP, aplica una lógica de ruta dividida (cascada) **7&rbrace; para asignar cada cuenta exactamente a un nivel de campaña y** activa cada ruta directamente **a destinos de medios de pago (** por ejemplo, audiencias coincidentes de LinkedIn **), sin transferencias manuales de listas.** El resultado es un control de precisión, menos superposición y un patrón repetible para la orquestación de medios de pago B2B multicanal.
+**Paid Media Controller** es la solución perfecta para resolver este problema. Usa **Adobe Journey Optimizer B2B Edition (AJO B2B)** y **Adobe Experience Platform (AEP)** juntos: un **recorrido de cuentas** lee una audiencia de cuenta calificada de Real-Time CDP, aplica una lógica de ruta dividida (cascada) **7} para asignar cada cuenta exactamente a un nivel de campaña y** activa cada ruta directamente **a destinos de medios de pago (** p. ej., audiencias coincidentes de LinkedIn **), sin transferencias manuales de listas.** El resultado es un control de precisión, menos superposición y un patrón repetible para la orquestación de medios de pago B2B multicanal.
 
 ## Caso de uso: Historia de un experto en marketing: Por qué importa un controlador
 
@@ -50,7 +48,7 @@ El recorrido del controlador **lee** una audiencia de cuenta calificada (creada 
 
 La solución centrada en las cuentas requiere las siguientes aplicaciones y servicios:
 
-- **Adobe Journey Optimizer B2B edition**: recorridos de cuenta, lógica de ruta dividida (cascada), Activar en destino.
+- **Adobe Journey Optimizer B2B Edition** — recorridos de cuenta, lógica de ruta dividida (cascada), Activar en destino.
 - **Adobe Real-time Customer Data Platform (RTCDP) B2B edition**: perfiles de cuenta, audiencias de cuenta (por ejemplo, cuentas calificadas para medios de pago).
 
 ## Arquitectura
@@ -61,20 +59,16 @@ Flujo de alto nivel:
 2. **Orquestación** — recorrido de cuenta B2B de AJO: **Leer audiencia** (cuentas calificadas) → **Dividir ruta** (cascada: por ejemplo, Búsqueda → solución dirigida → Persona → Categoría → Fundacional) → **Activar en Destino** (por ruta a LinkedIn u otros medios de pago).
 3. **Destinos**: Los canales de medios de pago (por ejemplo, Audiencias coincidentes de LinkedIn) reciben la activación a nivel de cuenta desde cada ruta de recorrido; no hay cargas manuales de lista.
 
-## Diagrama de arquitectura
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Arquitectura de controladora de medios de pago AJO B2B" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ## Modelado de datos en AEP B2B
 
-Con cualquier orquestación basada en datos, el diseño de esquemas es importante. Los perfiles de cuenta y persona en AEP/RTCDP deben incluir los atributos utilizados en **condiciones de ruta dividida** (por ejemplo, indicador de persecución, interés de solución, persona, categoría de intención, puntuación de participación). Los esquemas B2B (cuenta empresarial XDM, perfil individual XDM, relacional) deben representar la jerarquía y las fuentes de datos. Para obtener más información, consulte [Esquemas B2B de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) y [documentación de Journey Optimizer B2B edition](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/guide-overview).
+Con cualquier orquestación basada en datos, el diseño de esquemas es importante. Los perfiles de cuenta y persona en AEP/RTCDP deben incluir los atributos utilizados en **condiciones de ruta dividida** (por ejemplo, indicador de persecución, interés de solución, persona, categoría de intención, puntuación de participación). Los esquemas B2B (cuenta empresarial XDM, perfil individual XDM, relacional) deben representar la jerarquía y las fuentes de datos. Para obtener más información, consulte [Esquemas B2B de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) y [documentación de Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Nota:** La lógica de ruta dividida del recorrido usa datos relacionales y de perfil; asegúrese de que los campos que necesita para la lógica de cascada estén disponibles en el recorrido.
 
 ### Guardas
 
-- **Journey Optimizer B2B edition**: consulte la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obtener información sobre los límites de recorrido, los límites de nodos y la compatibilidad con destinos.
-- **Real-Time CDP** — Vea [protecciones de RTCDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/guardrails/overview) para los límites de segmentación y activación.
+- **Journey Optimizer B2B Edition**: consulte la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obtener información sobre los límites de recorrido, los límites de nodos y la compatibilidad con destinos.
+- **Real-Time CDP** — Vea [protecciones de RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) para los límites de segmentación y activación.
 
 ## Implementación
 
@@ -107,10 +101,6 @@ Los siguientes pasos proporcionan instrucciones para implementar el controlador 
    - Confirme que cada cuenta introduce solo una ruta (la primera condición que coincida).
    - Verificar activación: las cuentas aparecen en el destino correcto y se excluyen de las campañas de prioridad inferior según lo previsto.
 
-## Diagrama de implementación
-
-<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Lienzo de controladora de medios de pago AJO B2B" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
-
 ### Activación del público
 
 1. **Activar en LinkedIn (y otros destinos).**
@@ -127,6 +117,5 @@ El modelo de **Controlador de medios de pago** muestra cómo **AJO B2B y AEP** t
 
 ## Documentación relacionada
 
-- [Modelo de gestión de Recorridos y marketing basado en grupos de compra](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys): recorridos de cuenta y grupo de compra en AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b) — Documentación del producto.
+- [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentación del producto.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Audiencias de cuenta y activación.

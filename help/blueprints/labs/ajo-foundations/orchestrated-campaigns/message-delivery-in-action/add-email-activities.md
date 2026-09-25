@@ -4,13 +4,11 @@ description: Aprenda a añadir y configurar dos actividades de correo electróni
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # Añadir actividades de correo electrónico
 
@@ -72,7 +70,7 @@ En el siguiente conjunto de pasos, se basará en la campaña para agregar dos ac
 
 ![Cuadro de diálogo de confirmación con el botón Guardar y cerrar](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
+1. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
 
 ![Volver al lienzo de Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 

@@ -1,16 +1,14 @@
 ---
-title: Opción
+title: Opción #1 - using Audiences to aggregate
 description: Cree audiencias que utilicen la agregación Suma y Promedio en la audiencia en eventos de uso de facturación y datos de plan desnormalizados para habilitar la evaluación de streaming.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '813'
 ht-degree: 0%
-
 ---
-
 
 # Opción #1: uso de Audiencias para agregar
 
@@ -108,15 +106,15 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-&#x200B;5. Haga clic en Audiencias —> Experience Platform. Arrastre Suma de uso de facturación > 140 GB y Promedio de uso de facturación >= 20 GB junto a Nombre del plan.
+1. Haga clic en Audiencias —> Experience Platform. Arrastre Suma de uso de facturación > 140 GB y Promedio de uso de facturación >= 20 GB junto a Nombre del plan.
 
    ![Arrastre las audiencias de uso de facturación junto a Nombre del plan](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-&#x200B;6. Copie el pseudocódigo en la descripción
+1. Copie el pseudocódigo en la descripción
 
-&#x200B;7. Marque esto puede ser Streaming. **No puede ser Streaming**. Realice algunos cambios:
+1. Marque esto puede ser Streaming. **No puede ser Streaming**. Realice algunos cambios:
 
    >[!NOTE]
    >
@@ -126,7 +124,7 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-&#x200B;8. Reemplazar **Nombre de plan (Nombre de plan)** por: Perfil individual de XDM > Devbc > Detalles de plan > **Nombre de plan**
+1. Reemplazar **Nombre de plan (Nombre de plan)** por: Perfil individual de XDM > Devbc > Detalles de plan > **Nombre de plan**
 
    ![Reemplazar el nombre del plan (nombre del plan) por el campo desnormalizado Nombre del plan](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +140,7 @@ En esta compilación de audiencia, usted determina el uso total de datos de fact
 
 
 
-&#x200B;9. Compruebe que ahora puede guardarlo como Flujo continuo. Guardar audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate*&quot;
+1. Compruebe que ahora puede guardarlo como Flujo continuo. Guardar audiencia como &quot;*Uso de datos de facturación alto pero sin plan de Ultimate*&quot;
 
 >[!NOTE]
 >

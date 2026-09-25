@@ -1,15 +1,13 @@
 ---
 title: Modelo de ciencia de datos personalizada para el enriquecimiento de perfiles
-description: Descubra cómo se pueden ingerir perspectivas basadas en la ciencia de datos en  [!DNL Experience Platform] para enriquecer el Perfil del cliente en tiempo real.
+description: Descubra cómo se pueden ingerir perspectivas basadas en la ciencia de datos en [!DNL Experience Platform] para enriquecer el Perfil del cliente en tiempo real.
 solution: Data Collection
 kt: 7203
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 64%
-
+source-wordcount: '421'
+ht-degree: 63%
 ---
-
 # Ciencia de datos personalizada para modelo de enriquecimiento de perfil
 
 El modelo de enriquecimiento de perfil de ciencia de datos personalizada ilustra cómo se pueden usar los datos para entrenar, implementar y puntuar modelos para proporcionar perspectivas de aprendizaje automático de [!DNL Experience Platform] y [!DNL Real-Time Customer Data Platform] desde la ciencia de datos y las herramientas de aprendizaje automático.
@@ -22,13 +20,9 @@ Las perspectivas modeladas se pueden ingerir en [!DNL Experience Platform] para 
 * Enriquecer [!UICONTROL Real-Time Customer Profile] con datos y atributos según modelo para una personalización más granular y una optimización mejorada de recorrido.
 * Entrenar y calificar modelos para determinar datos del cliente tales como el valor de tiempo de vida del cliente, la tendencia a la conversión o cancelación, la afinidad de contenido y producto, y la calificación de participación.
 
-## Arquitectura
-
-<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="Arquitectura de referencia del modelo de ciencia de datos personalizada para el enriquecimiento de perfiles" style="width:90%; border:1px solid #4a4a4a" />
-
 ## Guardas
 
-* Para obtener protecciones detalladas y latencias de extremo a extremo sobre la ingesta de resultados de ciencia de datos en [!DNL Experience Platform] y el perfil del cliente en tiempo real, consulte las protecciones de ingesta de datos y el diagrama de latencia a los que se hace referencia en el [documento de protecciones de implementación](/help/blueprints/experience-platform/guardrails.md).
+* Para obtener protecciones detalladas y latencias de extremo a extremo sobre la ingesta de resultados de ciencia de datos en [!DNL Experience Platform] y el perfil del cliente en tiempo real, consulte las protecciones de ingesta de datos y el diagrama de latencia a los que se hace referencia en el [documento de protecciones de implementación](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md).
 
 ## Consideraciones sobre la implementación
 

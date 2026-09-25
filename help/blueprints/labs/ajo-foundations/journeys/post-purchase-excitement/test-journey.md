@@ -4,13 +4,11 @@ description: Utilice el simulador Modo de prueba de recorrido para almacenar en 
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 
 # Recorrido de prueba
 
@@ -105,16 +103,16 @@ Debería ver algo similar a esto en el &quot;log&quot;:
 
 
 
-&#x200B;8. **Cerrar** el explorador **pestaña**
-&#x200B;9. **Cerrar modo de prueba** en la parte superior derecha
+1. **Cerrar** el explorador **pestaña**
+1. **Cerrar modo de prueba** en la parte superior derecha
 
    ![Botón Cerrar modo de prueba en la parte superior derecha](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. Haz clic en **Publicar** el Recorrido en la parte superior derecha
+1. Haz clic en **Publicar** el Recorrido en la parte superior derecha
 
-![Botón Publicar para el Recorrido en la esquina superior derecha](assets/test-journey-publish-journey.png)
+   ![Botón Publicar para el Recorrido en la esquina superior derecha](assets/test-journey-publish-journey.png)
 
-&#x200B;11. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
+1. **Cierre** el **Recorrido** haciendo clic en la flecha \&lt;- en la parte superior izquierda
 
 ![Flecha hacia atrás en la parte superior izquierda para cerrar el Recorrido](assets/test-journey-close-journey-back-arrow.png)
 

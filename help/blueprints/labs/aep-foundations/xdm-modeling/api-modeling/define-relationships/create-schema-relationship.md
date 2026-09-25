@@ -4,13 +4,11 @@ description: Utilice la API del Registro de esquemas para crear un descriptor de
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
-
 ---
-
 
 # Crear relación de esquema
 
@@ -57,9 +55,9 @@ SOLO EJEMPLO
 
 
 
-&#x200B;3. Guarde la solicitud antes de seguir utilizando el botón `Save`
+1. Guarde la solicitud antes de seguir utilizando el botón `Save`
 
-&#x200B;4. Ejecute la API al hacer clic en el botón `Send`
+1. Ejecute la API al hacer clic en el botón `Send`
 
 Ahora debería ver una respuesta de `201 Created` como la siguiente
 

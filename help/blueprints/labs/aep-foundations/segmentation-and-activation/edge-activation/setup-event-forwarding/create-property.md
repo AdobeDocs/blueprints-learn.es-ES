@@ -4,13 +4,11 @@ description: Cree una propiedad de reenvío de eventos con un elemento de datos 
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
-
 ---
-
 
 # Crear propiedad
 
@@ -208,7 +206,7 @@ Cuando termine, valide la pantalla que se parece a la que se muestra a continuac
 
 
 
-&#x200B;4. Cuando termine, debería ver la acción agregada a la regla. Haga clic en **Guardar** para continuar.
+1. Cuando termine, debería ver la acción agregada a la regla. Haga clic en **Guardar** para continuar.
 
 ![Editor de reglas que muestra la acción configurada con el botón Guardar resaltado](assets/create-property-save-rule-button.png "Guarde la regla")
 

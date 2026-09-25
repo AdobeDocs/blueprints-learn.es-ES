@@ -1,15 +1,13 @@
 ---
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
-workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 4%
----
-﻿---
 title: Información general
 description: Obtenga información sobre marcas, directrices de marca, recorridos y plantillas, y aprenda a navegar por las herramientas de creación de contenido de Adobe Journey Optimizer.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
+source-git-commit: 05f7ecfb00f92af29838452abf4069758bb6f1b3
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 4%
 ---
 
 # Información general

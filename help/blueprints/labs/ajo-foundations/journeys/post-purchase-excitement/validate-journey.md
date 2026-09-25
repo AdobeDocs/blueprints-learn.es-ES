@@ -4,13 +4,11 @@ description: Compruebe la ejecución del recorrido mediante los recuentos de ent
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 
 # Validar recorrido
 
@@ -55,7 +53,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
 3 Eventos externos
 
-&#x200B;5. Haga clic en la ficha **Correo electrónico** (en el carril izquierdo)
+1. Haga clic en la ficha **Correo electrónico** (en el carril izquierdo)
    - **Correo electrónico: rendimiento de envío**
      - Verá algunos valores para **Delivered** y **Sent** (el recuento dependerá de cuántos eventos haya enviado, de cualquier error, etc.)
      - Con suerte, no tendrá errores (a menos que haya tenido algunos problemas anteriormente)
@@ -64,7 +62,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
    ![Pestaña Correo electrónico que muestra el rendimiento y las estadísticas de envío](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. Ve a comprobar tu **bandeja de entrada de correo electrónico** y ver si recibiste el correo electrónico (se parece a esto abajo)
+1. Ve a comprobar tu **bandeja de entrada de correo electrónico** y ver si recibiste el correo electrónico (se parece a esto abajo)
    - *,* su pedido ha enviado ETA: *17/10/2026* Número de seguimiento: *051009364*
 
    >[!NOTE]
@@ -81,7 +79,7 @@ Puede hacer clic en el botón de alternancia en la parte superior para **excluir
 
 
 
-&#x200B;7. *Después de 30 a 60 minutos*, incluso puede comprobar su conjunto de datos en el lago de datos con lo siguiente: **Consultas** -> **Crear consulta** -> **Copiar/Pegar SQL** -> **Ejecutar**
+1. *Después de 30 a 60 minutos*, incluso puede comprobar su conjunto de datos en el lago de datos con lo siguiente: **Consultas** -> **Crear consulta** -> **Copiar/Pegar SQL** -> **Ejecutar**
 
 >[!NOTE]
 >
@@ -119,7 +117,7 @@ Los resultados tienen más de 100 columnas y le dan una idea de qué registros d
 
 >[!NOTE]
 >
->Si desea saber qué significa cada campo, consulte el diccionario de esquemas de AJO y cambie la lista desplegable al esquema de eventos de pasos de Recorrido: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+>Si desea saber qué significa cada campo, consulte el diccionario de esquemas de AJO y cambie la lista desplegable al esquema de eventos de pasos de Recorrido: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 
