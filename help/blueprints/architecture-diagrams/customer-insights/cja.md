@@ -48,6 +48,6 @@ Este diagrama muestra el flujo principal de datos de interacción del cliente en
 
 ## Lectura adicional
 
-- [Información general de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Conexiones de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Publicación de audiencias de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Información general de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Conexiones de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection)
+- [Publicación de audiencias de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/audiences/publish)

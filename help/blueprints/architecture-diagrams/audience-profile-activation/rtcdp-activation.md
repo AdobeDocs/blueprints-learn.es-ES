@@ -34,6 +34,6 @@ La arquitectura anterior admite los siguientes patrones de casos de uso:
 
 ## Lectura adicional
 
-- [Destinos de Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Activar audiencias en destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [protecciones de Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- [Destinos de Adobe Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/home)
+- [Activar audiencias en destinos](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [protecciones de Adobe Real-Time CDP](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/guardrails/overview)

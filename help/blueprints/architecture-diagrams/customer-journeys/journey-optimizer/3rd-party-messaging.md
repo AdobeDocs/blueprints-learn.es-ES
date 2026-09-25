@@ -59,6 +59,6 @@ para conocer los requisitos previos, las protecciones y las directrices de imple
 
 * [Documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=es)
 * [Documentación de etiquetas de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)
-* [Documentación de Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
-* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+* [Documentación de Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=es)
+* [Documentación de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=es)
 * [Descripción del producto de Journey Optimizer](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer.html)
