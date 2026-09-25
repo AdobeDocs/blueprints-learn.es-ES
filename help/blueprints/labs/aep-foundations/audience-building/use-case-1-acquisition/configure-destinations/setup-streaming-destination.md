@@ -89,7 +89,7 @@ Cuando termine, asegúrese de que la configuración coincida con lo que ve a con
 >
 >Puede obtener más información sobre las políticas de gobernanza en Experience League
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=es#core-actions)
 
 ## Seleccionar audiencias
 

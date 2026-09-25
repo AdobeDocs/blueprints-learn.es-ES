@@ -182,4 +182,4 @@ Orchestrated Campaign utiliza el esquema relacional para todas las actividades. 
 
 Ahora ha visto lo fácil que es crear una campaña, realizar una actividad Leer audiencia junto con la Dimension de destinatario de perfil para utilizar el esquema relacional. La actividad Split se utilizaba para dividir la audiencia en función de una condición. Por último, el modo de prueba ayudó a comprender que es importante tener la coherencia de datos entre el perfil y el esquema relacional.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience) si está interesado.
