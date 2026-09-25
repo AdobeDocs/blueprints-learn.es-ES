@@ -14,7 +14,7 @@ ht-degree: 4%
 | **Modelo de escenario** | Caso de uso único: arquitectura, pasos, barreras | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **TDC** | Navegación; no utilizar como plantilla de contenido | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## Referencia de sección completa
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 - **Escenarios de modelo** o **Patrones de integración**: Tabla con nombre de escenario, descripción breve y vínculo al modelo de escenario.
 - **Requisitos previos**, **Protecciones**, **Documentación relacionada**: Igual que arriba; sea conciso.
 
----
+&#x200B;---
 
 ## Adobe Experience League — Instrucciones del agente
 
@@ -109,7 +109,7 @@ Ejemplo:
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## Repositorio y índice
 
@@ -117,7 +117,7 @@ Ejemplo:
 - **Assets**: ubique junto con el modelo (por ejemplo, `assets/`, `images/`) o en una carpeta compartida (por ejemplo, `experience-platform/assets/`).
 - **TDC**: edite `help/blueprints/TOC.md` al agregar, cambiar el nombre o mover páginas de modelo. Conservar el elemento frontCount (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) y la jerarquía `+`.
 
----
+&#x200B;---
 
 ## Referencias de ejemplo en este repositorio
 

@@ -75,7 +75,7 @@ Una forma de pensar en las reglas de ajuste de prioridad es tratarlas como instr
 
 3. Deje el operador establecido en &quot;Es igual que&quot; y, en el cuadro de texto restante, escriba el nombre del elemento de oferta de ultra nivel, que es **iphone:17\:ultra**. Después de escribir el texto, la interfaz de usuario se actualiza y refleja que se ha aceptado la condición coincidente.
 4. Haga clic en **+Agregar condición** y, a continuación, haga clic en el **cuadro de texto nuevo que aparece** (tiene el texto &#39;*Haga clic para crear un elemento de decisión...*&#39; en él
-5. Haga clic en la opción **Seleccionar atributo** ahora disponible**.**
+5. Haga clic en la opción **Seleccionar atributo** ahora disponible&#x200B;**.**
 6. Cuando se abra el cuadro de diálogo &quot;Seleccionar un atributo&quot;, haga clic en **Atributos de perfil > Persona** (probablemente necesite desplazarse hacia abajo) **> Año de nacimiento**. Una vez seleccionado, haga clic en **Guardar.**
 
    >[!NOTE]
