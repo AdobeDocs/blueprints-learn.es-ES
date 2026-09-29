@@ -4,7 +4,10 @@ description: Cree elementos de ofertas de iPhone por niveles con prioridades, re
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -31,24 +34,25 @@ Por último, en igualdad de condiciones, Connection 5G preferiría vender el Ult
 El primer y más fácil elemento de oferta que crea es la oferta de reserva, que cualquier persona puede ver durante un período ilimitado.
 
 1. Si es necesario, expanda **Decisioning** en el carril izquierdo y haga clic en **Catálogos**
-2. Se muestra una página de ofertas vacía:
+1. Se muestra una página de ofertas vacía:
 
    ![Vacíe la página del catálogo de ofertas antes de crear cualquier elemento de oferta](assets/create-offer-items-empty-offers-page.png)
 
-3. Haga clic en el botón azul **Crear elemento**. Se abrirá la página &quot;Crear elemento de oferta&quot;.
-4. En el campo &quot;Nombre de oferta&quot;, escriba el texto **iphone:17\:generic**. Escriba una descripción si lo desea.
+1. Haga clic en el botón azul **Crear elemento**. Se abrirá la página &quot;Crear elemento de oferta&quot;.
+1. En el campo &quot;Nombre de oferta&quot;, escriba el texto **iphone:17\:generic**. Escriba una descripción si lo desea.
 
    >[!NOTE]
    >
    >La convención de nombres en minúsculas y separados por dos puntos es solo uno de nuestros propios diseños que podría servir como uno a seguir para un cliente real. En la práctica, puede desarrollar una estrategia de nomenclatura diferente para los elementos de oferta. Asegúrese de que esté documentado y sea coherente antes de crear elementos de oferta. Esto garantizará que los elementos de oferta sean fáciles de encontrar y agrupar en colecciones. Más información más adelante.
 
-5. Dado que este es el elemento de oferta de prioridad más baja/predeterminado, deje la prioridad predeterminada en 1.
+1. Dado que este es el elemento de oferta de prioridad más baja/predeterminado, deje la prioridad predeterminada en 1.
 
    >[!NOTE]
    >
    >En Decisioning, cuanto menor sea el número, menor será la prioridad. Por ejemplo, se muestra un elemento de oferta con una prioridad de 100 antes de un elemento de oferta con una prioridad de 1
 
-6. Expanda el elemento **Dispositivo** en el área &#39;Atributos personalizados&#39; y, a continuación, escriba la siguiente información en los cuadros de texto:
+1. Expanda el elemento **Dispositivo** en el área &#39;Atributos personalizados&#39; y, a continuación, escriba la siguiente información en los cuadros de texto:
+
    - Nivel: **Genérico**
    - Modelo: **17**
    - Marca: **iPhone**
@@ -67,20 +71,20 @@ El primer y más fácil elemento de oferta que crea es la oferta de reserva, que
    >
    >En la sección anterior se mencionó la necesidad de tener mucho cuidado al añadir atributos personalizados al esquema generado por el sistema &quot;Elementos de oferta personalizados: Experience Decisioning&quot;. Cada nodo personalizado adicional aparecerá como un campo posible para cada elemento de oferta en adelante. La creación de atributos innecesarios o específicos de la campaña saturará la interfaz de usuario de creación de elementos de oferta y puede causar confusión.
 
-7. Haga clic en el botón **Siguiente** azul en la esquina superior derecha para pasar al siguiente paso.
-8. Esta oferta debe estar disponible para todos/Todos los visitantes y no tener ningún límite de frecuencia, por lo que no es necesario realizar cambios en las secciones &quot;Elegibilidad&quot; o &quot;Límite&quot;. Vuelva a hacer clic en el botón azul **Siguiente** para continuar con el último paso.
-9. En el paso &quot;Revisar&quot;, compruebe que todos los datos son correctos:
+1. Haga clic en el botón **Siguiente** azul en la esquina superior derecha para pasar al siguiente paso.
+1. Esta oferta debe estar disponible para todos/Todos los visitantes y no tener ningún límite de frecuencia, por lo que no es necesario realizar cambios en las secciones &quot;Elegibilidad&quot; o &quot;Límite&quot;. Vuelva a hacer clic en el botón azul **Siguiente** para continuar con el último paso.
+1. En el paso &quot;Revisar&quot;, compruebe que todos los datos son correctos:
 
    ![Revise el paso que confirma los detalles del elemento de oferta genérico antes de guardar](assets/create-offer-items-generic-offer-review-step.png "Revise el paso que confirma los detalles del elemento de oferta genérico antes de guardar")
 
-10. Realice los cambios necesarios. Cuando esté listo, haga clic en el botón azul **Guardar**.
-11. Una vez guardado, aparece un botón blanco &quot;Aprobar&quot; donde solía estar el botón &quot;Guardar&quot;. Haga clic en el botón **Aprobar** en blanco para aprobar este elemento de oferta. Verá un indicador verde &quot;Aprobado&quot; debajo del título del elemento de oferta:
+1. Realice los cambios necesarios. Cuando esté listo, haga clic en el botón azul **Guardar**.
+1. Una vez guardado, aparece un botón blanco &quot;Aprobar&quot; donde solía estar el botón &quot;Guardar&quot;. Haga clic en el botón **Aprobar** en blanco para aprobar este elemento de oferta. Verá un indicador verde &quot;Aprobado&quot; debajo del título del elemento de oferta:
 
-![Indicador de aprobación verde en el elemento de oferta genérico](assets/create-offer-items-generic-offer-approved.png)
+   ![Indicador de aprobación verde en el elemento de oferta genérico](assets/create-offer-items-generic-offer-approved.png)
 
->[!NOTE]
->
->En la práctica, y con ofertas más complejas, debe existir un proceso de aprobación adecuado para garantizar que los elementos de la oferta se hayan creado correctamente. Para ahorrar tiempo en este laboratorio, solo tiene que aprobar cada elemento de oferta que cree.
+   >[!NOTE]
+   >
+   >En la práctica, y con ofertas más complejas, debe existir un proceso de aprobación adecuado para garantizar que los elementos de la oferta se hayan creado correctamente. Para ahorrar tiempo en este laboratorio, solo tiene que aprobar cada elemento de oferta que cree.
 
 1. Haga clic en la **flecha izquierda** junto al título del elemento de oferta para volver a la página &quot;Ofertas&quot; y verá su oferta iphone:17\:generic en la lista.
 

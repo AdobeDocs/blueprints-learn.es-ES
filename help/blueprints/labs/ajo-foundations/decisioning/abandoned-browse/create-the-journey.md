@@ -4,7 +4,10 @@ description: Cree un recorrido que establezca como déclencheur una acción de e
 doc-type: article
 solution: Experience Platform
 exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -36,21 +39,21 @@ ht-degree: 0%
 ## Configurar el CBE y la política de decisión
 
 1. Expanda el acordeón **Actions** que acaba de salir del lienzo, arrastre el elemento **Action** al lienzo y conéctelo al primer nodo.
-2. Cuando aparezca la superposición &quot;Seleccionar tipo de acción&quot;, selecciona la acción **Experiencia basada en código** y haz clic en el botón azul **Agregar**.
-3. En las propiedades &quot;Action\:Code-based experience&quot;, que ahora están visibles, haga clic en el botón **Configurar acción**.
+1. Cuando aparezca la superposición &quot;Seleccionar tipo de acción&quot;, selecciona la acción **Experiencia basada en código** y haz clic en el botón azul **Agregar**.
+1. En las propiedades &quot;Action\:Code-based experience&quot;, que ahora están visibles, haga clic en el botón **Configurar acción**.
 
    ![Propiedades de acción de experiencia basada en código con el botón Configurar acción](assets/create-the-journey-configure-action-button.png)
 
-4. Cambie el menú desplegable **Configuración basada en código** al cubo **jsonOffer\_cbe** que creó en la última sección.
+1. Cambie el menú desplegable **Configuración basada en código** al cubo **jsonOffer\_cbe** que creó en la última sección.
 
    ![Menú desplegable de configuración basado en código establecido en el canal jsonOffer_cbe](assets/create-the-journey-select-jsonoffer-cbe.png)
 
-5. Haga clic en el botón **Editar contenido** que se encuentra justo encima de la lista desplegable &quot;Configuración basada en código&quot;.
-6. En la pantalla del editor de experiencias basado en código resultante, haga clic en el botón **Editar código**. La pantalla resultante es donde se agrega el JSON devuelto a las solicitudes de Experience Event
+1. Haga clic en el botón **Editar contenido** que se encuentra justo encima de la lista desplegable &quot;Configuración basada en código&quot;.
+1. En la pantalla del editor de experiencias basado en código resultante, haga clic en el botón **Editar código**. La pantalla resultante es donde se agrega el JSON devuelto a las solicitudes de Experience Event
 
    ![Editar pantalla de código para el editor de experiencias basado en código](assets/create-the-journey-edit-code-screen.png)
 
-7. En el extremo izquierdo del editor de código, haga clic en el elemento de menú **Directiva de decisión**, seguido de un clic en el botón **Agregar directiva de decisión** del nuevo menú.
+1. En el extremo izquierdo del editor de código, haga clic en el elemento de menú **Directiva de decisión**, seguido de un clic en el botón **Agregar directiva de decisión** del nuevo menú.
 
    ![Menú de directiva de decisión con el botón Agregar directiva de decisión](assets/create-the-journey-add-decision-policy-button.png)
 
@@ -58,22 +61,22 @@ ht-degree: 0%
    >
    >Si en una estrategia de selección es donde se vincula una colección de ofertas a un método de clasificación (y se aplica la elegibilidad de nivel de estrategia), entonces es en una política de decisión donde se vincula una estrategia de selección a una entrega específica de un canal.
 
-8. Asigne un nombre a esta directiva de decisión **iPhone 17 DP** y deje el número de elementos establecido en 1.
+1. Asigne un nombre a esta directiva de decisión **iPhone 17 DP** y deje el número de elementos establecido en 1.
 
    >[!NOTE]
    >
    >Hasta este punto, ha configurado las ofertas y cómo pedirlas, pero no ha configurado cuántas se devuelven. Aquí es donde se configura la cantidad de ofertas que deben devolverse.
 
-9. Haga clic en el botón **Siguiente** azul. Aquí es donde se agrega la estrategia de selección. Haga clic en el botón **+Agregar** (es posible que tenga que desplazarse hacia abajo para verlo) y elija **Estrategia de selección**.
-10. Marque la casilla junto a la única estrategia de selección que debería tener (**Estrategia de selección de iPhone 17**) y haga clic en **Guardar**. Cuando termine, esto es lo que ve:
+1. Haga clic en el botón **Siguiente** azul. Aquí es donde se agrega la estrategia de selección. Haga clic en el botón **+Agregar** (es posible que tenga que desplazarse hacia abajo para verlo) y elija **Estrategia de selección**.
+1. Marque la casilla junto a la única estrategia de selección que debería tener (**Estrategia de selección de iPhone 17**) y haga clic en **Guardar**. Cuando termine, esto es lo que ve:
 
-![Estrategia de selección de iPhone 17 seleccionada para la directiva de decisión](assets/create-the-journey-selection-strategy-selected.png)
+   ![Estrategia de selección de iPhone 17 seleccionada para la directiva de decisión](assets/create-the-journey-selection-strategy-selected.png)
 
->[!NOTE]
->
->Observe cómo puede agregar varias estrategias de selección o simplemente agregar los propios elementos de decisión. ¿Cuándo utilizaría varias estrategias de selección? Imagine que tiene una cuadrícula de recomendaciones de 4 X 4 en una de las propiedades digitales. Desea rellenar todas ellas con 16 ofertas. Puede que tenga esas ofertas distribuidas en algunas colecciones o que las dos primeras filas requieran una estrategia de selección, mientras que las dos filas inferiores necesitan una estrategia diferente. En la pantalla anterior, habría elegido 16 y luego habría utilizado esta pantalla para agregar tantas estrategias de selección u ofertas como fuera necesario para llegar a 16.
->
->La oferta de reserva es opcional porque solo se aplicaría si fuera posible que los usuarios finales no fueran aptos para ninguna de las ofertas (o que dejaran de serlo). En nuestro caso, nuestra estrategia de selección era para todos los visitantes, y las únicas personas que llegarían al nodo de CBE eran las que entraban en el Recorrido. La autenticación es un requisito para la entrada de Recorrido (el área de nombres establecida en el Recorrido es una que solo tendría si se autenticara). También hemos incorporado una oferta de reserva en nuestra fórmula de clasificación, por lo que, en nuestro caso, no es necesario establecer esta oferta de reserva.
+   >[!NOTE]
+   >
+   >Observe cómo puede agregar varias estrategias de selección o simplemente agregar los propios elementos de decisión. ¿Cuándo utilizaría varias estrategias de selección? Imagine que tiene una cuadrícula de recomendaciones de 4 X 4 en una de las propiedades digitales. Desea rellenar todas ellas con 16 ofertas. Puede que tenga esas ofertas distribuidas en algunas colecciones o que las dos primeras filas requieran una estrategia de selección, mientras que las dos filas inferiores necesitan una estrategia diferente. En la pantalla anterior, habría elegido 16 y luego habría utilizado esta pantalla para agregar tantas estrategias de selección u ofertas como fuera necesario para llegar a 16.
+   >
+   >La oferta de reserva es opcional porque solo se aplicaría si fuera posible que los usuarios finales no fueran aptos para ninguna de las ofertas (o que dejaran de serlo). En nuestro caso, nuestra estrategia de selección era para todos los visitantes, y las únicas personas que llegarían al nodo de CBE eran las que entraban en el Recorrido. La autenticación es un requisito para la entrada de Recorrido (el área de nombres establecida en el Recorrido es una que solo tendría si se autenticara). También hemos incorporado una oferta de reserva en nuestra fórmula de clasificación, por lo que, en nuestro caso, no es necesario establecer esta oferta de reserva.
 
 1. Haga clic en el botón azul **Siguiente** para revisar la directiva de decisión.
 

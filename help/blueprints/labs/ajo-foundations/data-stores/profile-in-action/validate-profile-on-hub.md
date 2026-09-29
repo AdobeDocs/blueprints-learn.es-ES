@@ -4,13 +4,14 @@ description: Obtenga información sobre cómo buscar un perfil en Real-Time Cust
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 
 # Validar perfil en Hub
 
@@ -74,7 +75,7 @@ En Adobe Experience Platform, busque el perfil que acaba de enviar desde el even
 >
 >**¿Cómo se lee segmentMembership?**
 >
->[https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** Esta es la clave de asignación para los distintos tipos de audiencias que admite AEP.  La clave ups contiene las audiencias creadas por el Generador de reglas.  Otras audiencias estarán contenidas en otras claves (por ejemplo, AAM).
 >
