@@ -3,13 +3,14 @@ title: Audience Activation B2B
 description: Obtenga información sobre cómo activar audiencias B2B basadas en cuentas en canales web, de correo electrónico y de publicidad.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
-
 ---
-
 # Activación de audiencia B2B
 
 En esta guía se describe el patrón de caso de uso de activación de audiencia B2B, que utiliza [!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP]) B2B edition para generar, evaluar y activar audiencias de nivel de cuenta en los canales web, de correo electrónico, de publicidad y CRM. Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesiten comprender qué hace este patrón, los objetivos comerciales que admite, los casos de uso tácticos que habilita y las aplicaciones de Adobe implicadas.

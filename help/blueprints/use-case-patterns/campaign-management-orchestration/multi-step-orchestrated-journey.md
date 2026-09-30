@@ -3,13 +3,16 @@ title: Recorrido orquestado de varios pasos
 description: Aprenda a guiar un perfil a través de un recorrido ramificado y multitáctil con esperas, condiciones y varias acciones de mensaje a lo largo del tiempo.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 5%
-
 ---
-
 # Recorrido orquestado de varios pasos
 
 En esta guía se describe el patrón de caso de uso de recorrido orquestado de varios pasos, que usa [!DNL Adobe Journey Optimizer] (AJO) y [!DNL Real-Time Customer Data Platform] (RT-CDP) para orquestar recorridos de clientes multitáctiles y ramificados que envían varios mensajes a lo largo del tiempo. Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesiten comprender qué hace este patrón, los objetivos comerciales que admite, los casos de uso tácticos que habilita y las aplicaciones de Adobe implicadas.

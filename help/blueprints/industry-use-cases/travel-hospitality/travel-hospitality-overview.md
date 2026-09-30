@@ -3,13 +3,18 @@ title: Casos de uso de viajes y hospitalidad
 description: Descubra cómo las organizaciones de viajes y hospitalidad utilizan Adobe Experience Platform para personalizar las experiencias de reserva, recuperar las reservas abandonadas y crear lealtad de los huéspedes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3744'
 ht-degree: 0%
-
 ---
-
 # Casos de uso de viajes y hospitalidad
 
 Las organizaciones de viajes y hospitalidad utilizan Adobe Experience Platform para reunir los datos de los huéspedes de los motores de reservas, los programas de fidelidad, los sistemas de administración de propiedades y los puntos de contacto digitales en una sola vista de cada viajero. Esta base unificada potencia experiencias personalizadas que inspiran reservas, recuperan reservas abandonadas y crean el tipo de lealtad de los huéspedes que impulsa las visitas repetidas.

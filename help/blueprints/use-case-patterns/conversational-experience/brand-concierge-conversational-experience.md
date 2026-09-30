@@ -3,13 +3,16 @@ title: Experiencia de conversación en Brand Concierge
 description: Aprenda a transformar las propiedades digitales en experiencias conversacionales seguras para la marca y con tecnología de IA que guíen el descubrimiento de clientes.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 1%
-
 ---
-
 # Experiencia conversacional en Brand Concierge
 
 Esta guía proporciona información general para experiencias conversacionales con tecnología de IA usando [!DNL Adobe Brand Concierge], integrado con [!DNL Adobe Experience Platform] (AEP) y [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesiten implementar agentes conversacionales seguros para la marca en todas las propiedades digitales.

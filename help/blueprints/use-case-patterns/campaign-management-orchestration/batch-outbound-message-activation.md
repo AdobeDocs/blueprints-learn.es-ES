@@ -3,13 +3,16 @@ title: Activación de mensaje saliente por lotes
 description: Obtenga información sobre cómo evaluar una audiencia y enviar un mensaje saliente programado en una sola ejecución por lotes.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 4%
-
 ---
-
 # Activación de mensaje saliente por lotes
 
 En esta guía se describe el patrón de caso de uso de activación de mensajes salientes por lotes, que utiliza [!DNL Adobe Journey Optimizer] (AJO) y [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) para entregar mensajes salientes programados a segmentos de audiencia definidos. Está diseñado para arquitectos de soluciones, tecnólogos de marketing e ingenieros de implementación que necesiten comprender qué hace este patrón, los objetivos comerciales que admite, los casos de uso tácticos que habilita y las aplicaciones de Adobe implicadas.

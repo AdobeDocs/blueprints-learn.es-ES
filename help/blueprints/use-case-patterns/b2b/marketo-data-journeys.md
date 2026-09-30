@@ -2,7 +2,10 @@
 title: Recorridos B2B con el modelo de datos de Marketo
 description: Modelo para la implementación rápida de Journey Optimizer B2B Edition mediante datos de Marketo Engage.
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 2%
@@ -202,7 +205,7 @@ Para obtener una comprensión completa de las protecciones aplicables a los Reco
 
 * [Adobe Journey Optimizer B2B Edition - Descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Incluye protecciones específicas y parámetros de uso para Journey Optimizer B2B Edition.
-* [Protecciones de implementación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* [Protecciones de implementación de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Abarca las protecciones generales de arquitectura e implementación en todas las soluciones de Adobe Experience Platform.
 * [Adobe Marketo Engage - Descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Detalla las protecciones de rendimiento y uso para Marketo Engage, incluidas las consideraciones de sincronización de activación y CRM.
