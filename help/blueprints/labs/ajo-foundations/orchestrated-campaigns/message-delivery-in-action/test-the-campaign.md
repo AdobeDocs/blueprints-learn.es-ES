@@ -4,7 +4,10 @@ description: Obtenga información sobre cómo ejecutar una campaña orquestada e
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -108,4 +111,4 @@ Para detener el **modo de prueba** de la campaña, haga clic en el botón **Dete
 
 Ahora ha visto cómo probar la campaña creada para comprender el flujo y el comportamiento. Aquí los matices de usar las diferentes configuraciones de configuración del canal de correo electrónico se entendieron bien durante la ejecución del flujo de prueba.
 
-Obtenga más información acerca del modo de prueba de campaña [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si está interesado.
+Obtenga más información acerca del modo de prueba de campaña [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) si está interesado.

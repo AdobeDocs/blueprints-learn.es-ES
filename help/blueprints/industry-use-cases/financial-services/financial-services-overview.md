@@ -3,13 +3,18 @@ title: Casos prácticos de servicios financieros
 description: Descubra cómo las organizaciones de servicios financieros utilizan Adobe Experience Platform para personalizar ofertas de productos, evitar la pérdida y profundizar las relaciones con los clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 1f22d684-11bd-473d-8b10-5f88cb0cd088
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
-
 ---
-
 # Casos prácticos de servicios financieros
 
 Las organizaciones de servicios financieros dependen de Adobe Experience Platform para unificar los datos de los clientes en los canales bancario, de préstamo y de inversión, lo que permite experiencias personalizadas que fortalecen las relaciones e impulsan el crecimiento. Al reunir la actividad de la cuenta, el historial de transacciones y las señales de comportamiento, estas organizaciones pueden ofrecer la oferta correcta en el momento adecuado y, al mismo tiempo, mantener la confianza y el cumplimiento que esperan sus clientes.

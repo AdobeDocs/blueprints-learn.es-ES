@@ -4,13 +4,14 @@ description: Aprenda a examinar los esquemas relacionales y ver los diagramas de
 doc-type: article
 solution: Experience Platform
 exl-id: ac0e6743-4a83-4a8b-9bc6-f012b636312e
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 
 # Examinar esquemas
 
@@ -69,4 +70,4 @@ Haga lo siguiente:
 
 Ahora ha visto lo fácil que es navegar por la IU de Esquema y relaciones.  Puede seleccionar esquemas específicos y navegar para ver las relaciones que le ayudarán a comprender y utilizar los datos en la orquestación de campañas.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/data-management/get-started-schemas) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas) si está interesado.

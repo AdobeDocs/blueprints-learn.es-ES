@@ -4,7 +4,10 @@ description: Compruebe la ejecución del recorrido mediante los recuentos de ent
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -117,7 +120,7 @@ Los resultados tienen más de 100 columnas y le dan una idea de qué registros d
 
 >[!NOTE]
 >
->Si desea saber qué significa cada campo, consulte el diccionario de esquemas de AJO y cambie la lista desplegable al esquema de eventos de pasos de Recorrido: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es)
+>Si desea saber qué significa cada campo, consulte el diccionario de esquemas de AJO y cambie la lista desplegable al esquema de eventos de pasos de Recorrido: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 

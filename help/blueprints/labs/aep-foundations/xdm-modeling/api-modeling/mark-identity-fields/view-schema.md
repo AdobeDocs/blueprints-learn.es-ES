@@ -4,13 +4,14 @@ description: Vea los descriptores de identidad de un esquema a través de la int
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
-
 ---
-
 
 # Ver esquema
 
@@ -60,7 +61,7 @@ Observe el encabezado **Accept** utilizado en la solicitud. Este encabezado indi
 
 >[!NOTE]
 >
->Puede leer más sobre los distintos encabezados Aceptar aquí -> [Extremo de API de esquema de Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=es#lookup)
+>Puede leer más sobre los distintos encabezados Aceptar aquí -> [Extremo de API de esquema de Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

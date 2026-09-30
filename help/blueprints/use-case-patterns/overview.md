@@ -4,13 +4,18 @@ description: Conozca los patrones de casos de uso para implementar Adobe Experie
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 0%
-
+source-wordcount: '1098'
+ht-degree: 8%
 ---
-
 # Patrones de casos de uso
 
 Los patrones de casos de uso definen enfoques de implementación repetibles para Adobe Experience Platform y sus aplicaciones. Cada patrón describe una capacidad específica, el plan de ejecución que la ofrece, las aplicaciones involucradas y los [objetivos comerciales clave](/help/blueprints/business-objectives/overview.md) que admite.
@@ -72,7 +77,7 @@ Los siguientes patrones tratan los escenarios de marketing específicos de B2B: 
 | [Activación de audiencia B2B](b2b/account-audience-activation.md) | Activar audiencias B2B basadas en cuentas en canales web, de correo electrónico y de publicidad | [!DNL Real-Time CDP] B2B edition |
 | [Comprar administración de recorridos y marketing basada en grupos](b2b/buying-group-marketing.md) | Desarrolle recorridos de nivel de cuenta que califiquen clientes potenciales en grupos de compra para mejorar la eficacia del marketing B2B | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
 | [Análisis B2B](b2b/account-analytics.md) | Incluir información de nivel de cuenta B2B en el análisis de recorrido de clientes en canales múltiples | [!DNL Customer Journey Analytics] B2B edition, [!DNL Real-Time CDP] B2B edition |
-| [Recorridos B2B que usan datos de Marketo](b2b/marketo-data-journeys.md) | Implemente Journey Optimizer B2B edition con datos de Marketo para organizar los recorridos de grupo de compra y la participación de la cuenta | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
+| [Recorridos B2B que usan datos de Marketo](b2b/marketo-data-journeys.md) | Implementar Journey Optimizer B2B Edition con datos de Marketo para organizar recorridos de grupo de compra y participación de la cuenta | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
 | [Controlador de medios de pago AJO B2B](b2b/paid-media-orchestration.md) | Orqueste campañas de medios pagados B2B con la lógica de cascada para asignar cuentas a campañas y activarlas en destinos | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
 | [Admisión y creación de Marketo y Workfront](b2b/campaign-intake-and-creation.md) | Automatice la admisión de solicitudes de campaña de marketing y la creación de programas de Marketo Engage mediante Workfront Forms y Fusion | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 | [Marketo y Workfront revisan y aprueban](b2b/campaign-review-and-approval.md) | Integración de flujos de trabajo de revisión y aprobación de Workfront con recursos de correo electrónico de Marketo Engage mediante la automatización de Fusion | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
@@ -94,33 +99,33 @@ Utilice esta guía cuando un escenario pueda ajustarse a más de un patrón. Res
 *Un cliente caducado no ha realizado ninguna compra en 90 días. Desea volver a interactuar con una oferta de destino.*
 
 - **¿Es dinámica la selección de ofertas (distintos clientes reciben diferentes ofertas según su elegibilidad o clasificación)?**
-   - Sí → [Offer Decisioning](personalization/offer-decisioning.md) como nivel de oferta, dentro de [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md) para la secuencia de renovación de participación
-   - No (la misma oferta para todos los clientes caducados que cumplan los requisitos) → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md) por sí solo
+  - Sí → [Offer Decisioning](personalization/offer-decisioning.md) como nivel de oferta, dentro de [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md) para la secuencia de renovación de participación
+  - No (la misma oferta para todos los clientes caducados que cumplan los requisitos) → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md) por sí solo
 
 ### Seguimiento posterior a la compra
 
 *Un cliente acaba de completar una compra. Desea enviar una confirmación, una recomendación de venta cruzada y una notificación de recompensa por fidelidad.*
 
 - **¿La secuencia requiere ramificación adaptable en función de eventos en tiempo real (por ejemplo, recompensa reclamada, producto revisado)?**
-   - Sí → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md)
-   - No (secuencia fija, sin ramificación) → [Activación de mensaje saliente en lote](campaign-management-orchestration/batch-outbound-message-activation.md)
+  - Sí → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - No (secuencia fija, sin ramificación) → [Activación de mensaje saliente en lote](campaign-management-orchestration/batch-outbound-message-activation.md)
 - **¿Incluye recomendaciones de productos personalizadas?**
-   - Sí → ampliar con [Recomendación de comportamiento](personalization/behavioral-recommendation.md) en la capa de contenido
+  - Sí → ampliar con [Recomendación de comportamiento](personalization/behavioral-recommendation.md) en la capa de contenido
 
 ### Personalización de hito de fidelización
 
 *Un cliente alcanza un nuevo nivel de lealtad. Desea mostrar contenido web personalizado y enviar un mensaje de felicitación.*
 
 - **¿El contenido web está personalizado (contenido diferente por nivel o segmento)?**
-   - Sí → [Personalización web/de aplicación de visitante conocido](personalization/known-visitor-web-app-personalization.md) para la superficie web
+  - Sí → [Personalización web/de aplicación de visitante conocido](personalization/known-visitor-web-app-personalization.md) para la superficie web
 - **¿Es el mensaje saliente un solo envío o una secuencia de cultivo?**
-   - Envío único → [mensajería desencadenada por eventos](campaign-management-orchestration/event-triggered-messaging.md)
-   - Secuencia → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - Envío único → [mensajería desencadenada por eventos](campaign-management-orchestration/event-triggered-messaging.md)
+  - Secuencia → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md)
 
 ### Campaña de renovación de la participación
 
 *Un segmento de usuarios inactivos necesita una secuencia de reactivación multitáctil.*
 
 - **¿Es necesario que los mensajes individuales seleccionen entre varias variantes de oferta en tiempo real?**
-   - Sí → [recorrido en canales múltiples con toma de decisiones](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - Sin → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - Sí → [recorrido en canales múltiples con toma de decisiones](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+  - Sin → [recorrido orquestado de varios pasos](campaign-management-orchestration/multi-step-orchestrated-journey.md)

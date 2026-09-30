@@ -4,7 +4,10 @@ description: Obtenga información sobre cómo etiquetar un campo de esquema rela
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -106,4 +109,4 @@ La Dimension de destino de perfil se utiliza para indicar a Adobe Journey Optimi
 
 Ya ha visto lo fácil que es navegar por el esquema, marcar un atributo como identidad y crear la Dimension de destinatario de perfil.
 
-Puede leer más [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si está interesado.
+Puede leer más [aquí](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension) si está interesado.
