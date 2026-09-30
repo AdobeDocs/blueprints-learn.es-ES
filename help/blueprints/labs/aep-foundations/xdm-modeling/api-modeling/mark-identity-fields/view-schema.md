@@ -61,7 +61,7 @@ Observe el encabezado **Accept** utilizado en la solicitud. Este encabezado indi
 
 >[!NOTE]
 >
->Puede leer más sobre los distintos encabezados Aceptar aquí -> [Extremo de API de esquema de Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
+>Puede leer más sobre los distintos encabezados Aceptar aquí -> [Extremo de API de esquema de Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=es#lookup)
 
 
 
