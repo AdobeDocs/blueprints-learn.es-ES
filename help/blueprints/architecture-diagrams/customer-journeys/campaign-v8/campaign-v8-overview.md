@@ -84,7 +84,7 @@ También incluye un servidor de mensajería en tiempo real escalable que permite
 
 ## Diagramas de arquitectura
 
-Obtenga más información acerca de [modelos de implementación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Obtenga más información acerca de [modelos de implementación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=es#ac-deployment){target="_blank"}.
 
 ### Implementación empresarial de Campaign (FDAC)
 
