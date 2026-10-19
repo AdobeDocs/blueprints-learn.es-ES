@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -86,7 +86,7 @@ El primer y más fácil elemento de oferta que crea es la oferta de reserva, que
    >
    >En la práctica, y con ofertas más complejas, debe existir un proceso de aprobación adecuado para garantizar que los elementos de la oferta se hayan creado correctamente. Para ahorrar tiempo en este laboratorio, solo tiene que aprobar cada elemento de oferta que cree.
 
-1. Haga clic en la **flecha izquierda** junto al título del elemento de oferta para volver a la página &quot;Ofertas&quot; y verá su oferta iphone:17\:generic en la lista.
+12. Haga clic en la **flecha izquierda** junto al título del elemento de oferta para volver a la página &quot;Ofertas&quot; y verá su oferta iphone:17\:generic en la lista.
 
 ## Crear elemento de oferta del modelo base
 
