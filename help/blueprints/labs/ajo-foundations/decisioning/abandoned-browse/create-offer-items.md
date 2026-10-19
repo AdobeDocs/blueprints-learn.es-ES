@@ -86,7 +86,7 @@ El primer y más fácil elemento de oferta que crea es la oferta de reserva, que
    >
    >En la práctica, y con ofertas más complejas, debe existir un proceso de aprobación adecuado para garantizar que los elementos de la oferta se hayan creado correctamente. Para ahorrar tiempo en este laboratorio, solo tiene que aprobar cada elemento de oferta que cree.
 
-12. Haga clic en la **flecha izquierda** junto al título del elemento de oferta para volver a la página &quot;Ofertas&quot; y verá su oferta iphone:17\:generic en la lista.
+&#x200B;12. Haga clic en la **flecha izquierda** junto al título del elemento de oferta para volver a la página &quot;Ofertas&quot; y verá su oferta iphone:17\:generic en la lista.
 
 ## Crear elemento de oferta del modelo base
 
