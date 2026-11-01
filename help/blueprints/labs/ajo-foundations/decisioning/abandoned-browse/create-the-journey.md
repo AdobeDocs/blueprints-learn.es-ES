@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
+source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 ## Nombrar y definir criterios de entrada
 
 1. Si es necesario, expanda el elemento de menú **administración de Recorrido** en el carril izquierdo y haga clic en **Recorridos**. Aterrizas en la página &quot;Recorridos&quot;.
-2. Haz clic en el botón azul **Crear Recorrido**.
-3. Cuando aparezca la superposición &quot;Crear un Recorrido&quot;, selecciona **Crear desde cero** y haz clic en **Confirmar**
-4. En el carril derecho, asigne un nombre al Recorrido **iPhone 17 Abandonar exploración** y haga clic en el botón azul **Guardar** para que pueda empezar a agregar acciones al lienzo del Recorrido.
-5. Arrastre el evento **Calificación de audiencias** al lienzo.
-6. En el carril derecho, haga clic en el icono **Lápiz** para seleccionar la audiencia de este evento.
-7. Seleccione la audiencia **dep: interesado en iPhone 17**.
-8. Asegúrese de que la lista desplegable **Espacio de nombres** esté establecida en **customerID.** En este punto, el Recorrido tiene este aspecto:
+1. Haz clic en el botón azul **Crear Recorrido**.
+1. Cuando aparezca la superposición &quot;Crear un Recorrido&quot;, selecciona **Crear desde cero** y haz clic en **Confirmar**
+1. En el carril derecho, asigne un nombre al Recorrido **iPhone 17 Abandonar exploración** y haga clic en el botón azul **Guardar** para que pueda empezar a agregar acciones al lienzo del Recorrido.
+1. Arrastre el evento **Calificación de audiencias** al lienzo.
+1. En el carril derecho, haga clic en el icono **Lápiz** para seleccionar la audiencia de este evento.
+1. Seleccione la audiencia **dep: interesado en iPhone 17**.
+1. Asegúrese de que la lista desplegable **Espacio de nombres** esté establecida en **customerID.** En este punto, el Recorrido tiene este aspecto:
 
    ![Lienzo de Recorrido con el evento de calificación de audiencia agregado y área de nombres establecida en customerID](assets/create-the-journey-audience-qualification-event.png)
 
-9. Una vez que todos se vean correctos, haz clic en el botón azul **Guardar** para guardar tu progreso.
+1. Una vez que todos se vean correctos, haz clic en el botón azul **Guardar** para guardar tu progreso.
 
 >[!NOTE]
 >
@@ -78,67 +78,67 @@ ht-degree: 0%
    >
    >La oferta de reserva es opcional porque solo se aplicaría si fuera posible que los usuarios finales no fueran aptos para ninguna de las ofertas (o que dejaran de serlo). En nuestro caso, nuestra estrategia de selección era para todos los visitantes, y las únicas personas que llegarían al nodo de CBE eran las que entraban en el Recorrido. La autenticación es un requisito para la entrada de Recorrido (el área de nombres establecida en el Recorrido es una que solo tendría si se autenticara). También hemos incorporado una oferta de reserva en nuestra fórmula de clasificación, por lo que, en nuestro caso, no es necesario establecer esta oferta de reserva.
 
-&#x200B;11. Haga clic en el botón azul **Siguiente** para revisar la directiva de decisión.
+1. Haga clic en el botón azul **Siguiente** para revisar la directiva de decisión.
 
-    ![Revise el paso de la directiva de decisión antes de crearla](assets/create-the-journey-review-decision-policy.png)
+   ![Revise el paso de la directiva de decisión antes de crearla](assets/create-the-journey-review-decision-policy.png)
 
-&#x200B;12. Una vez que todo parezca correcto, haga clic en el botón azul **Crear**. Una vez creado, vuelve a la página del editor de expresiones.
-&#x200B;13. Debería ver una pantalla similar a la de abajo; si no es así, vuelva a hacer clic en **Directiva de decisiones** para que aparezca la directiva de decisiones.
+1. Una vez que todo parezca correcto, haga clic en el botón azul **Crear**. Una vez creado, vuelve a la página del editor de expresiones.
+1. Debería ver una pantalla similar a la de abajo; si no es así, vuelva a hacer clic en **Directiva de decisiones** para que aparezca la directiva de decisiones.
 
-    ![El editor de expresiones que muestra la directiva de decisión está listo para insertarse](assets/create-the-journey-decision-policy-ready.png)
+   ![El editor de expresiones que muestra la directiva de decisión está listo para insertarse](assets/create-the-journey-decision-policy-ready.png)
 
-&#x200B;14. Haga clic en el botón **+ Insertar directiva** y verá aparecer un bucle ForEach en el editor de código:
+1. Haga clic en el botón **+ Insertar directiva** y verá aparecer un bucle ForEach en el editor de código:
 
-    ![Bucle ForEach insertado en el editor de código después de insertar la directiva de decisión](assets/create-the-journey-foreach-loop-inserted.png)
+   ![Bucle ForEach insertado en el editor de código después de insertar la directiva de decisión](assets/create-the-journey-foreach-loop-inserted.png)
 
-    >[!NOTE]
-    >
-    >¿Por qué un para cada bucle? En nuestro caso, solo estamos devolviendo una sola oferta. Sin embargo, considere los pasos anteriores en los que podríamos devolver varias ofertas. Cuando se tiene en cuenta la funcionalidad, el mecanismo de bucle tiene sentido.
+   >[!NOTE]
+   >
+   >¿Por qué un para cada bucle? En nuestro caso, solo estamos devolviendo una sola oferta. Sin embargo, considere los pasos anteriores en los que podríamos devolver varias ofertas. Cuando se tiene en cuenta la funcionalidad, el mecanismo de bucle tiene sentido.
 
-&#x200B;15. Añada un JSON válido dentro de los límites del bucle para devolver la marca, el modelo y el nivel del teléfono que debe ofrecerse al usuario final. Dado que también se ha establecido un límite de frecuencia, es necesario agregar un trackingToken a la respuesta. Más información más adelante en las instrucciones. Para ahorrar tiempo, simplemente copie y pegue estas líneas de código en el editor de código dentro del bucle For Each:
+1. Añada un JSON válido dentro de los límites del bucle para devolver la marca, el modelo y el nivel del teléfono que debe ofrecerse al usuario final. Dado que también se ha establecido un límite de frecuencia, es necesario agregar un trackingToken a la respuesta. Más información más adelante en las instrucciones. Para ahorrar tiempo, simplemente copie y pegue estas líneas de código en el editor de código dentro del bucle For Each:
 
-    ```javascript
-    {
-         "make":"",
-         "model":"",
-         "tier":"",
-         "trackingToken":""
-     },
-    ```
+   ```javascript
+   {
+        "make":"",
+        "model":"",
+        "tier":"",
+        "trackingToken":""
+    },
+   ```
 
-    ![JSON inicial con los campos make, model, tier y trackingToken dentro del bucle ForEach](assets/create-the-journey-initial-json-in-loop.png)
+   ![JSON inicial con los campos make, model, tier y trackingToken dentro del bucle ForEach](assets/create-the-journey-initial-json-in-loop.png)
 
-    >[!NOTE]
-    >
-    >Recuerde que ha añadido atributos al esquema XDM de oferta estándar, en concreto, la marca, el modelo y el nivel. Después, rellenó esos atributos cuando se crearon las ofertas. Ahora puede agregar esos atributos como variables que se rellenan con valores de la oferta seleccionada. El campo trackingToken es un valor generado por el sistema que se utiliza para rastrear clics e impresiones.
+   >[!NOTE]
+   >
+   >Recuerde que ha añadido atributos al esquema XDM de oferta estándar, en concreto, la marca, el modelo y el nivel. Después, rellenó esos atributos cuando se crearon las ofertas. Ahora puede agregar esos atributos como variables que se rellenan con valores de la oferta seleccionada. El campo trackingToken es un valor generado por el sistema que se utiliza para rastrear clics e impresiones.
 
-&#x200B;16. Coloque el cursor entre **&quot;&quot;** del nodo &#39;make&#39;. Inserte la marca de la oferta navegando en el menú de la directiva de decisión hasta el nodo **\_dep > Dispositivo > Crear**.  Haga clic en el icono **+** en el elemento **Make** y verá que rellena el editor.
+1. Coloque el cursor entre **&quot;&quot;** del nodo &#39;make&#39;. Inserte la marca de la oferta navegando en el menú de la directiva de decisión hasta el nodo **\_dep > Dispositivo > Crear**.  Haga clic en el icono **+** en el elemento **Make** y verá que rellena el editor.
 
-    ![Crear atributo de la directiva de decisión rellenada en el editor JSON](assets/create-the-journey-populate-make-attribute.png)
+   ![Crear atributo de la directiva de decisión rellenada en el editor JSON](assets/create-the-journey-populate-make-attribute.png)
 
-&#x200B;17. Agregue los atributos **model** y **tier** de manera similar.
-&#x200B;18. Haga clic en **Directiva de decisiones** en la navegación de atributos para regresar al nivel raíz.
-&#x200B;19. Rellene el atributo trackingToken navegando hasta el valor del token de seguimiento a través de la ruta **\_experience > decisioning > decisionitem > Token de seguimiento**.
-&#x200B;20. Por último, coloque todo el código entre corchetes (**\[]**). El código JSON final debería tener un aspecto similar al siguiente:
+1. Agregue los atributos **model** y **tier** de manera similar.
+1. Haga clic en **Directiva de decisiones** en la navegación de atributos para regresar al nivel raíz.
+1. Rellene el atributo trackingToken navegando hasta el valor del token de seguimiento a través de la ruta **\_experience > decisioning > decisionitem > Token de seguimiento**.
+1. Por último, coloque todo el código entre corchetes (**\[]**). El código JSON final debería tener un aspecto similar al siguiente:
 
-    ![Código JSON final entre corchetes para la respuesta de CBE](assets/create-the-journey-final-json-code.png)
+   ![Código JSON final entre corchetes para la respuesta de CBE](assets/create-the-journey-final-json-code.png)
 
-    >[!WARNING]
-    >
-    >Asegúrese de incluir los corchetes &quot;\[ ]&quot; alrededor de todo el elemento de decisión. ¿Confundido? Consulte el paso #20 de nuevo.
+   >[!WARNING]
+   >
+   >Asegúrese de incluir los corchetes &quot;\[ ]&quot; alrededor de todo el elemento de decisión. ¿Confundido? Consulte el paso #20 de nuevo.
 
 
 
-&#x200B;21. Una vez que todo se vea en la captura de pantalla anterior, haz clic en **Guardar y cerrar** en la esquina superior derecha para guardar el código. A continuación, volverá a la página Experiencia basada en código.
-&#x200B;22. Haga clic en el icono de flecha hacia atrás **\&lt;** junto al nombre del Recorrido y volverá al lienzo.
+1. Una vez que todo se vea en la captura de pantalla anterior, haz clic en **Guardar y cerrar** en la esquina superior derecha para guardar el código. A continuación, volverá a la página Experiencia basada en código.
+1. Haga clic en el icono de flecha hacia atrás **\&lt;** junto al nombre del Recorrido y volverá al lienzo.
 
-    ![Lienzo de Recorrido después de regresar del editor de experiencias basado en código](assets/create-the-journey-return-to-canvas.png)
+   ![Lienzo de Recorrido después de regresar del editor de experiencias basado en código](assets/create-the-journey-return-to-canvas.png)
 
-&#x200B;23. Haga clic en el botón azul **Guardar** para guardar el nodo de acción de CBE. El Recorrido ahora tiene este aspecto:
+1. Haga clic en el botón azul **Guardar** para guardar el nodo de acción de CBE. El Recorrido ahora tiene este aspecto:
 
-    ![Lienzo de Recorrido que muestra el nodo de acción CBE completado](assets/create-the-journey-completed-canvas.png)
+   ![Lienzo de Recorrido que muestra el nodo de acción CBE completado](assets/create-the-journey-completed-canvas.png)
 
-&#x200B;24. Una vez completado el Recorrido, haz clic en el botón azul **Publicar** en la esquina superior derecha y vuelve a **Publicar** cuando aparezca el cuadro de confirmación. ¡Después de un momento o dos, ves que tu Recorrido está ahora en vivo!
+1. Una vez completado el Recorrido, haz clic en el botón azul **Publicar** en la esquina superior derecha y vuelve a **Publicar** cuando aparezca el cuadro de confirmación. ¡Después de un momento o dos, ves que tu Recorrido está ahora en vivo!
 
 ![Recorrido de exploración de abandono de iPhone 17 publicado y activo](assets/create-the-journey-published-live.png)
 
