@@ -56,7 +56,7 @@ Este modelo requiere el uso de uno de los siguientes métodos de recopilación d
 ## Guardas
 
 * [Protecciones para [!UICONTROL datos del perfil del cliente en tiempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
-* [Protecciones de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Protecciones de Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=es)
 * Los perfiles de Edge tienen un tiempo de vida (TTL) de 14 días. Si un usuario no ha estado activo en el perímetro de durante 14 días, el perfil de Edge puede caducar y debe recuperarse del concentrador, lo que puede afectar a la personalización de la primera página.
 * La personalización de Edge admite la evaluación de pertenencia a audiencias en tiempo real para audiencias que cumplen los criterios de segmentación de Edge. Las audiencias por lotes y de streaming desde el concentrador también están disponibles en el perímetro de con la configuración adecuada.
 

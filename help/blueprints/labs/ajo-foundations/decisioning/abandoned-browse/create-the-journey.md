@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 ## Nombrar y definir criterios de entrada
 
 1. Si es necesario, expanda el elemento de menú **administración de Recorrido** en el carril izquierdo y haga clic en **Recorridos**. Aterrizas en la página &quot;Recorridos&quot;.
-2. Haz clic en el botón azul **Crear Recorrido**.
-3. Cuando aparezca la superposición &quot;Crear un Recorrido&quot;, selecciona **Crear desde cero** y haz clic en **Confirmar**
-4. En el carril derecho, asigne un nombre al Recorrido **iPhone 17 Abandonar exploración** y haga clic en el botón azul **Guardar** para que pueda empezar a agregar acciones al lienzo del Recorrido.
-5. Arrastre el evento **Calificación de audiencias** al lienzo.
-6. En el carril derecho, haga clic en el icono **Lápiz** para seleccionar la audiencia de este evento.
-7. Seleccione la audiencia **dep: interesado en iPhone 17**.
-8. Asegúrese de que la lista desplegable **Espacio de nombres** esté establecida en **customerID.** En este punto, el Recorrido tiene este aspecto:
+1. Haz clic en el botón azul **Crear Recorrido**.
+1. Cuando aparezca la superposición &quot;Crear un Recorrido&quot;, selecciona **Crear desde cero** y haz clic en **Confirmar**
+1. En el carril derecho, asigne un nombre al Recorrido **iPhone 17 Abandonar exploración** y haga clic en el botón azul **Guardar** para que pueda empezar a agregar acciones al lienzo del Recorrido.
+1. Arrastre el evento **Calificación de audiencias** al lienzo.
+1. En el carril derecho, haga clic en el icono **Lápiz** para seleccionar la audiencia de este evento.
+1. Seleccione la audiencia **dep: interesado en iPhone 17**.
+1. Asegúrese de que la lista desplegable **Espacio de nombres** esté establecida en **customerID.** En este punto, el Recorrido tiene este aspecto:
 
    ![Lienzo de Recorrido con el evento de calificación de audiencia agregado y área de nombres establecida en customerID](assets/create-the-journey-audience-qualification-event.png)
 
-9. Una vez que todos se vean correctos, haz clic en el botón azul **Guardar** para guardar tu progreso.
+1. Una vez que todos se vean correctos, haz clic en el botón azul **Guardar** para guardar tu progreso.
 
 >[!NOTE]
 >

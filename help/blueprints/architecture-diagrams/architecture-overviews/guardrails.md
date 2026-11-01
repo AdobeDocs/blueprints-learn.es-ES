@@ -54,7 +54,7 @@ Las siguientes páginas proporcionan información sobre las protecciones para la
 **Servicios de Experience Platform**
 
 * [Protecciones de ingesta de datos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=es)
-* [[!DNL Edge Network] protecciones de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] protecciones de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=es)
 * [Perfil del cliente en tiempo real y protecciones de segmentación](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=es)
 * [Protecciones de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=es)
 * [Protecciones del servicio de consultas](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=es)

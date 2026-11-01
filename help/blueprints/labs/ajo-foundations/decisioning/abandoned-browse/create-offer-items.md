@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: 08b695f42c2652edba7d3119734b7e8a7b3235e2
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -93,8 +93,8 @@ El primer y más fácil elemento de oferta que crea es la oferta de reserva, que
 Ahora que se ha creado el elemento de oferta genérico, puede crear el siguiente elemento de oferta prioritario para el modelo base de iPhone 17.
 
 1. Vuelva a hacer clic en el botón azul **Crear elemento** y asigne un nombre a la oferta **iphone:17\:base**
-2. Dado que este es el siguiente elemento de oferta de prioridad más baja, aumente el campo **Prioridad** a **2**
-3. Expanda el área **Dispositivo** y proporcione a los campos estos valores:
+1. Dado que este es el siguiente elemento de oferta de prioridad más baja, aumente el campo **Prioridad** a **2**
+1. Expanda el área **Dispositivo** y proporcione a los campos estos valores:
    - Nivel: **Base**
    - Modelo: **17**
    - Marca: **iPhone**
@@ -105,9 +105,9 @@ Ahora que se ha creado el elemento de oferta genérico, puede crear el siguiente
 
    Cuando todo esté correcto, haga clic en el botón azul **Siguiente** para continuar con el paso siguiente.
 
-4. Este artículo de oferta debe estar disponible para todos, por lo que no hay requisito de elegibilidad; sin embargo, debe estar limitado a 3 impresiones por día. Haga clic en el botón &#39;**+ Crear límite&#39;**.
-5. En la nueva regla de límite, cambie **Elegir evento de límite** a **Impresión.**
-6. Cambie **Capping event count** a **3**. Una vez finalizada, la regla de límite tiene este aspecto:
+1. Este artículo de oferta debe estar disponible para todos, por lo que no hay requisito de elegibilidad; sin embargo, debe estar limitado a 3 impresiones por día. Haga clic en el botón &#39;**+ Crear límite&#39;**.
+1. En la nueva regla de límite, cambie **Elegir evento de límite** a **Impresión.**
+1. Cambie **Capping event count** a **3**. Una vez finalizada, la regla de límite tiene este aspecto:
 
    ![Regla de límite para la oferta base establecida en 3 impresiones](assets/create-offer-items-base-offer-capping-rule.png)
 
@@ -123,9 +123,9 @@ Ahora que se ha creado el elemento de oferta genérico, puede crear el siguiente
    >
    >Los &quot;días&quot; mencionados en las reglas de límite de frecuencia se refieren a días en la zona horaria GMT.  El límite de frecuencia con días en la lógica se restablece a medianoche (GMT).
 
-7. Haga clic en **Siguiente** para continuar con el paso de revisión.
-8. Asegúrese de que todo aparece según lo esperado y haga clic en el botón **Guardar**. Una vez guardado, haga clic en **Aprobar.**
-9. Una vez aprobada, haga clic en la flecha izquierda junto al título y vuelva a la página de ofertas. Ahora verá dos ofertas, cada una con la prioridad adecuada.
+1. Haga clic en **Siguiente** para continuar con el paso de revisión.
+1. Asegúrese de que todo aparece según lo esperado y haga clic en el botón **Guardar**. Una vez guardado, haga clic en **Aprobar.**
+1. Una vez aprobada, haga clic en la flecha izquierda junto al título y vuelva a la página de ofertas. Ahora verá dos ofertas, cada una con la prioridad adecuada.
 
 ![La página de ofertas enumera los artículos de ofertas genéricos y base con sus prioridades](assets/create-offer-items-first-two-offers-priority.png)
 
@@ -134,23 +134,23 @@ Ahora que se ha creado el elemento de oferta genérico, puede crear el siguiente
 Ahora que se han creado las ofertas del modelo genérico y base, puede pasar a los elementos de oferta para los modelos pro y ultra. Estos elementos de oferta también deben incluir un elemento de idoneidad, ya que solamente los miembros con un determinado nivel de plan deben ver estas ofertas.
 
 1. Siguiendo los mismos pasos y patrones de nomenclatura descritos en las secciones anteriores, cree una nueva oferta llamada **iphone:17\:pro** y establezca su prioridad en **3.**
-2. Establece el atributo **Tier** en **Pro** y los demás atributos personalizados como lo hiciste en las otras ofertas.
-3. En el paso &quot;Elegibilidad&quot;, seleccione el botón de opción **Por regla**.
-4. El carril izquierdo muestra solo una regla de Decisión, la creada anteriormente denominada &quot;Planes de nivel superior&quot;. Haga clic en el icono **+** junto a esa regla para agregarla al lienzo.
-5. Como se mencionó anteriormente, el negocio ha declarado que las ofertas de no reserva deben tener un límite de frecuencia de 3 pantallas (o impresiones) por día. Siga los pasos de la sección anterior para crear una regla de límite para 3 impresiones al día. Cuando termine, la página tendrá este aspecto:
+1. Establece el atributo **Tier** en **Pro** y los demás atributos personalizados como lo hiciste en las otras ofertas.
+1. En el paso &quot;Elegibilidad&quot;, seleccione el botón de opción **Por regla**.
+1. El carril izquierdo muestra solo una regla de Decisión, la creada anteriormente denominada &quot;Planes de nivel superior&quot;. Haga clic en el icono **+** junto a esa regla para agregarla al lienzo.
+1. Como se mencionó anteriormente, el negocio ha declarado que las ofertas de no reserva deben tener un límite de frecuencia de 3 pantallas (o impresiones) por día. Siga los pasos de la sección anterior para crear una regla de límite para 3 impresiones al día. Cuando termine, la página tendrá este aspecto:
 
    ![Pro ofrece elegibilidad para el artículo y configuración de límite para 3 impresiones por día](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
-6. Una vez que hayas verificado que todo es correcto, haz clic en **Siguiente**. La configuración final del elemento de oferta tiene este aspecto:
+1. Una vez que hayas verificado que todo es correcto, haz clic en **Siguiente**. La configuración final del elemento de oferta tiene este aspecto:
 
    ![Configuración completada para el elemento de oferta de nivel Pro](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Una vez que todo parezca correcto, **guarda** y **aprueba** el elemento de oferta.
-8. Vuelva a la página de ofertas y compruebe que las 3 ofertas están presentes y que cada una tiene la prioridad adecuada.
-9. Cree el elemento de oferta final y asígnele el nombre **iphone:17\:ultra,**. Asígnele una prioridad de **4,** y establezca los demás atributos personalizados con los mismos valores que las otras ofertas.
-10. Al igual que con el último elemento de oferta, establezca la idoneidad para la regla de decisión &quot;Planes de nivel superior&quot; y establezca un límite de frecuencia de 3 impresiones al día. Cuando finalice, el elemento de oferta tendrá este aspecto:
+1. Una vez que todo parezca correcto, **guarda** y **aprueba** el elemento de oferta.
+1. Vuelva a la página de ofertas y compruebe que las 3 ofertas están presentes y que cada una tiene la prioridad adecuada.
+1. Cree el elemento de oferta final y asígnele el nombre **iphone:17\:ultra,**. Asígnele una prioridad de **4,** y establezca los demás atributos personalizados con los mismos valores que las otras ofertas.
+1. Al igual que con el último elemento de oferta, establezca la idoneidad para la regla de decisión &quot;Planes de nivel superior&quot; y establezca un límite de frecuencia de 3 impresiones al día. Cuando finalice, el elemento de oferta tendrá este aspecto:
 
-![Configuración completada para el elemento de oferta de nivel Ultra](assets/create-offer-items-ultra-offer-final-config.png)
+   ![Configuración completada para el elemento de oferta de nivel Ultra](assets/create-offer-items-ultra-offer-final-config.png)
 
 1. Una vez que haya comprobado que todas las configuraciones son correctas, guarde y apruebe este elemento de oferta. Ahora verá los cuatro elementos de oferta, cada uno con una prioridad única.
 
