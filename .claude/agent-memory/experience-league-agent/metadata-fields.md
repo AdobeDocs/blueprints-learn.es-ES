@@ -12,7 +12,7 @@ ht-degree: 8%
 
 *Procedente de la Guía de creación de Adobe ExL (rastreada en febrero de 2026) + análisis de repositorios de blueprints-learn.es*
 
----
+&#x200B;---
 
 ## Jerarquía de metadatos
 
@@ -21,7 +21,7 @@ Los metadatos se acumulan en cascada en este orden (el artículo anula la TDC, l
 2. TOC.md en la guía del usuario
 3. metadata.md en la raíz del repositorio (prioridad más baja)
 
----
+&#x200B;---
 
 ## Campos de nivel de artículo
 
@@ -72,7 +72,7 @@ Los metadatos se acumulan en cascada en este orden (el artículo anula la TDC, l
 | `source-git-url` | URL del repositorio de Source. | URL completa de GitHub |
 | `cloud` | Anulación de la categoría de nube en el nivel de artículo. | Título; debe coincidir con cloud.yml |
 
----
+&#x200B;---
 
 ## Campos de TOC.md
 
@@ -86,7 +86,7 @@ Los metadatos se acumulan en cascada en este orden (el artículo anula la TDC, l
 | `role` | Función de audiencia predeterminada para la guía. | Mismos valores que el artículo `role`; separados por comas |
 | `index` | Si la guía está indexada. | `yes`/`no` |
 
----
+&#x200B;---
 
 ## Campos metadata.md del nivel de repositorio
 
@@ -101,7 +101,7 @@ Los metadatos se acumulan en cascada en este orden (el artículo anula la TDC, l
 | `git-repo` | URL del repositorio de GitHub; habilita los botones &quot;Editar esta página&quot; y &quot;Registrar problema&quot; |
 | `index` | Configuración de índice predeterminada |
 
----
+&#x200B;---
 
 ## Valores De Solución Válidos (Distinguen Entre Mayúsculas Y Minúsculas)
 
@@ -126,7 +126,7 @@ Valores comunes utilizados en este repositorio:
 
 Varios valores: separados por comas, p. ej. `Real-Time Customer Data Platform, Campaign`
 
----
+&#x200B;---
 
 ## Valores de producto válidos (para el campo `product` — seguimiento de análisis)
 
@@ -140,7 +140,7 @@ Consulte la solicitud del sistema para obtener una lista completa. Valores clave
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## Valores de rol válidos
 
@@ -152,7 +152,7 @@ Consulte la solicitud del sistema para obtener una lista completa. Valores clave
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## Reglas de validación de claves
 
