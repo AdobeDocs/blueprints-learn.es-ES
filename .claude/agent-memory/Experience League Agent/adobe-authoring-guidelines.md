@@ -2,13 +2,14 @@
 name: Adobe Experience League Authoring Guidelines
 description: Referencia completa para las reglas de creación de Markdown de Adobe Experience League, rastreadas a partir de la guía oficial de creación en marzo de 2026.
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Directrices de creación de Adobe Experience League
 
@@ -178,7 +179,7 @@ seo-title, seo-description, audience, difference, uuid (from migration era)
 >[!SUCCESS]
 ```
 
-- CRÍTICO: No hay espacio entre `>` y `[ !` — usar `>[!NOTE]` NO `> [!NOTE]`
+- CRÍTICO: No hay espacio entre `>` y `[!` — usar `>[!NOTE]` NO `> [!NOTE]`
 - Agregar línea en blanco entre `>[!NOTE]` y la línea de texto del cuerpo
 
 ### Fichas
@@ -362,7 +363,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 - Jerarquía de encabezados secuencial (h1 → h2 → h3, no omitir nunca niveles)
 - Incluir palabras clave en H1, texto independiente y metadatos (no la metaetiqueta `keywords`; Google la ignora)
 - Evite el relleno de palabras clave (intención > frecuencia)
-- Título: 50-60 caracteres como máximo; el sistema anexa &quot;|&quot; Adobe &quot;ProductName&quot; automáticamente
+- Título: 50-60 caracteres como máximo; el sistema añade automáticamente &quot;| Adobe ProductName&quot;
 - Descripción: de 150 a 160 caracteres; debe ser una call to action, no una repetición de contenido
 - Agregar texto alternativo descriptivo a todas las imágenes
 - Incluir transcripciones de vídeo (los motores de búsqueda solo pueden leer texto)
@@ -408,7 +409,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (rojo), `Neutral` (g
 
 - Faltan los metadatos `title` o `description`, o están en blanco
 - `description` no comienza con &quot;Más información...&quot; o &quot;Aprenda a...&quot;
-- Espacio entre `>` y `[ !` en la sintaxis de llamada (`> [!NOTE]` en lugar de `>[!NOTE]`)
+- Espacio entre `>` y `[!` en la sintaxis de llamada (`> [!NOTE]` en lugar de `>[!NOTE]`)
 - Espacios en marcadores en negrita: `**text **` (espacios finales en negrita)
 - Sintaxis de Markdown dentro de tablas de HTML (por ejemplo, las llamadas no funcionan allí)
 - Duplicar ID de anclaje de encabezado en un documento
