@@ -1,9 +1,13 @@
 ---
-source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 1%
 ---
+
 # Módulo de evaluación de modelo
 
 Esta rúbrica se aplica a cada documento en la sección &quot;Diagramas de arquitectura y modelos&quot;
@@ -41,11 +45,11 @@ sólo una breve descripción general.
 
 ### Señales del diagrama (cada una = +1 Diagrama)
 
-&#x200B;6. **Imagen de flujo de datos/arquitectura presente** — `.svg`, `.png` o `.jpg` que muestra la topología del sistema,
+6. **Imagen de flujo de datos/arquitectura presente** — `.svg`, `.png` o `.jpg` que muestra la topología del sistema,
 flujo de datos o flechas de integración.
-&#x200B;7. **Topología de integración entre sistemas, forma de implementación o protecciones**: describe cómo
+7. **Topología de integración entre sistemas, forma de implementación o protecciones**: describe cómo
 los componentes se conectan, donde residen los datos, los modelos de implementación (edge o hub) o los límites de capacidad.
-&#x200B;8. **La audiencia es arquitectos de soluciones**: la creación de marcos usa la implementación, SDK, edge, hub o similar
+8. **La audiencia es arquitectos de soluciones**: la creación de marcos usa la implementación, SDK, edge, hub o similar
 terminología orientada al arquitecto en lugar de marcos orientados al experto en marketing (campañas, recorridos,
 audiencias).
 

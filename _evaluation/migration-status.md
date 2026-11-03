@@ -1,9 +1,13 @@
 ---
-source-git-commit: 2ed15399073fce5ebd1c2ba07b1cf70ec706452c
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 2%
 ---
+
 # Estado de la migración â€&quot; modelos para patrones de casos de uso
 
 Este documento registra el estado del esfuerzo de reorganización del modelo para que se pueda reanudar sin problemas entre sesiones.
@@ -112,10 +116,10 @@ son solo históricos y no deben bloquear el trabajo de migración restante.
 
 ## Preguntas pendientes sin resolver (de la auditoría)
 
-&#x200B;2. **`journey-optimizer-journeys.md`** â€&quot; marcados como duplicado incierto de `event-triggered-messaging`; compruebe el ámbito antes de recortar.
-&#x200B;3. El contenido de **`customer-journey-analytics/analysis.md`** â€&quot; se refiere al servicio de consultas de Experience Platform, no a CJA; considere la posibilidad de reubicarse en `experience-platform/`.
-&#x200B;4. **`customer-success-stories.md`** â€&quot; página solo de vínculos; confirmar clasificación de navegación.
-&#x200B;5. Pregunta histórica de anclaje del índice reemplazada por la disposición de arquitectura B2B completada.
+2. **`journey-optimizer-journeys.md`** â€&quot; marcados como duplicado incierto de `event-triggered-messaging`; compruebe el ámbito antes de recortar.
+3. El contenido de **`customer-journey-analytics/analysis.md`** â€&quot; se refiere al servicio de consultas de Experience Platform, no a CJA; considere la posibilidad de reubicarse en `experience-platform/`.
+4. **`customer-success-stories.md`** â€&quot; página solo de vínculos; confirmar clasificación de navegación.
+5. Pregunta histórica de anclaje del índice reemplazada por la disposición de arquitectura B2B completada.
 
 ## Cómo reanudar
 
