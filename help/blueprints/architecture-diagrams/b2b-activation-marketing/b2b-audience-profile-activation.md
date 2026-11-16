@@ -74,18 +74,18 @@ Las audiencias de cuenta se pueden activar en los siguientes destinos de publici
 - Azure Blob
 - AWS S3
 
-Consulte [Activar audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) para conocer los destinos compatibles y las asignaciones requeridas más recientes. Los destinos de audiencia personas enumerados en los patrones de integración no necesariamente admiten audiencias de cuenta.
+Consulte [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) para conocer los destinos compatibles y las asignaciones requeridas más recientes. Los destinos de audiencia personas enumerados en los patrones de integración no necesariamente admiten audiencias de cuenta.
 
 ## Guardas
 
 Consulte las siguientes protecciones y documentación de idoneidad al diseñar audiencias y perfiles B2B:
 
-- [Protecciones para Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [Activar audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Casos de uso de segmentación para Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b)
-- [Protecciones de perfil y segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Actualización de criterios de idoneidad de segmentación de streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Protecciones para Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Casos de uso de segmentación para Real-Time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/segmentation/b2b)
+- [Protecciones de perfil y segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails)
+- [Actualización de criterios de idoneidad de segmentación de streaming](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ### Compatibilidad con varias instancias y organizaciones IMS
 
@@ -104,39 +104,39 @@ A continuación, se describen los patrones admitidos de asignación de instancia
 
 #### Perfil de Experience Platform y protecciones de segmentación
 
-Consulte el perfil de Experience Platform y las protecciones de segmentación aquí: [Protecciones de perfil y segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails).
+Consulte el perfil de Experience Platform y las protecciones de segmentación aquí: [Protecciones de perfil y segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/profile/guardrails).
 
 Los segmentos que incluyen entidades B2B como cuentas, posibles clientes u oportunidades dependen de las relaciones entre varias entidades y se evalúan en **lote**. Por el contrario, **la segmentación por transmisión** es compatible con audiencias limitadas a personas y eventos que no incorporan entidades B2B. Para escenarios de activación B2B casi en tiempo real, considere la posibilidad de utilizar audiencias B2B evaluadas por lotes como entradas para audiencias de streaming o Edge cuando sea compatible.
 
 #### Experience Platform - Conector de Marketo Engage Source
 
-- Consulte la documentación [aquí](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+- Consulte la documentación [aquí](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 #### Experience Platform - Conector de destino de Marketo
 
-- Consulte la documentación [aquí](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection).
+- Consulte la documentación [aquí](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/adobe/marketo-engage-connection).
 
 #### Guardas de destino
 
-- Consulte la documentación de destino para obtener instrucciones específicas sobre cada destino: [Protecciones de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails).
+- Consulte la documentación de destino para obtener instrucciones específicas sobre cada destino: [Protecciones de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails).
 - Para destinos de publicidad como Facebook, Google Customer Match y DV360, Microsoft Bing, Trade Desk, Amazon Ads, Bombora, Demandbase y otros, asegúrese de que los identificadores que elija en su esquema y estrategia de identidad (correo electrónico, ID de publicidad móvil, campos de dirección e ID de cuenta) se alineen con las capacidades de asignación y las identidades admitidas para esos destinos.
 
 ## Pasos de implementación
 
-Para obtener instrucciones sobre cómo implementar y configurar B2B edition de Real-Time Customer Data Platform, consulte la documentación de Real-Time CDP B2B edition: [B2B edition de Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).
+Para obtener instrucciones sobre cómo implementar y configurar B2B edition de Real-Time Customer Data Platform, consulte la documentación de Real-Time CDP B2B edition: [B2B edition de Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview).
 
 Dos patrones de implementación son comunes:
 
 - Ingeste datos y perfiles B2B de Marketo Engage (y su CRM conectado) en RTCDP B2B edition.
 - Ingeste datos B2B directamente desde CRM u otros sistemas B2B en RTCDP B2B edition utilizando los conectores de origen correspondientes.
 
-Como parte de las actualizaciones de la arquitectura B2B de RTCDP, algunos patrones utilizados anteriormente ya no se utilizan en las entidades B2B. Para obtener información detallada, consulte la documentación detallada [aquí](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade).
+Como parte de las actualizaciones de la arquitectura B2B de RTCDP, algunos patrones utilizados anteriormente ya no se utilizan en las entidades B2B. Para obtener información detallada, consulte la documentación detallada [aquí](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade).
 
 Para la creación y activación de audiencias de cuenta, consulte:
 
-- [Crear audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
-- [Activar audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en).
-- [Asignaciones requeridas para audiencias coincidentes de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
+- [Crear audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
+- [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en).
+- [Asignaciones requeridas para audiencias coincidentes de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
 
 ## Consideraciones sobre la implementación
 
@@ -150,21 +150,21 @@ Directrices sobre consideraciones y configuraciones clave del modelo.
 
 - **Tamaño mínimo de audiencia coincidente de LinkedIn**
 
-  Las audiencias coincidentes de LinkedIn tienen un requisito mínimo de tamaño de audiencia (por ejemplo, 300 miembros coincidentes). Si una audiencia de cuenta activada no cumple los requisitos, amplíe la definición de audiencia para aumentar el tamaño de audiencia coincidente antes de iniciar una campaña. Consulte la [documentación de destino de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en) para conocer los requisitos actuales.
+  Las audiencias coincidentes de LinkedIn tienen un requisito mínimo de tamaño de audiencia (por ejemplo, 300 miembros coincidentes). Si una audiencia de cuenta activada no cumple los requisitos, amplíe la definición de audiencia para aumentar el tamaño de audiencia coincidente antes de iniciar una campaña. Consulte la [documentación de destino de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/social/linkedin?lang=en) para conocer los requisitos actuales.
 
 ## Documentación relacionada
 
-- [B2B edition de Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-- [Introducción a Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
-- [Tutorial sobre Creación y activación de audiencias de cuenta](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
-- [Crear audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [Activar audiencias de cuenta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Conector de destino de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
-- [Protecciones para Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Actualizaciones de arquitectura a Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform)
-- [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/home)
-- [Adobe Experience Platform - Conector de Marketo Source](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Adobe Experience Platform - Conector de destino de Marketo](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
-- [Guardas de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [B2B edition de Real-Time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+- [Introducción a Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Tutorial sobre Creación y activación de audiencias de cuenta](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [Crear audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Activar audiencias de cuenta](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Conector de destino de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
+- [Protecciones para Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Esquemas en Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b)
+- [Actualizaciones de arquitectura a Real-Time CDP B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform)
+- [Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/home)
+- [Adobe Experience Platform - Conector de Marketo Source](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Adobe Experience Platform - Conector de destino de Marketo](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-platform-segment-to-a-marketo-static-list)
+- [Guardas de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/guardrails)
