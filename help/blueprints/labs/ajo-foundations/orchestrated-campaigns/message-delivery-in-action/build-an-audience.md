@@ -4,13 +4,11 @@ description: Aprenda a utilizar la actividad Generar audiencia para dirigirse a 
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # Crear una audiencia
 
@@ -40,11 +38,11 @@ En el siguiente conjunto de pasos, se creará una audiencia a partir del esquema
 
    ![Haga clic en Agregar condición en el panel Crear audiencia](assets/build-an-audience-add-condition.png)
 
-6. Desplácese hacia abajo y expanda `dep-rel: Plan Lookup` haciendo clic en **>** que está al lado
+6. Desplácese hacia abajo y expanda `dep-rel: Plan [Lookup]` haciendo clic en **>** que está al lado
 
    ![Expandir fila profunda: búsqueda de plan](assets/build-an-audience-expand-plan-lookup.png)
 
-7. Seleccione `dep-rel: Plan Name` y haga clic en **Confirmar**
+7. Seleccione `Plan Name` y haga clic en **Confirmar**
 
    ![Seleccionar dep-rel: Nombre del plan](assets/build-an-audience-select-plan-name.png)
 

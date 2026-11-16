@@ -4,9 +4,9 @@ description: Cree un recorrido unitario que responda a un evento de envío de pe
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: 93fba2a4818790431306801b43a791508451f344
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ Cree un recorrido unitario que comience con el evento de envío de pedidos confi
 
 ## Crear recorrido
 
-Vaya a **Recorridos** y haga clic en **Crear Recorrido - Crear desde cero**
+Vaya a **Recorridos** y haga clic en **Crear Recorrido**
 
 ![Crear Recorrido - Crear desde cero en Adobe Journey Optimizer](assets/build-journey-create-journey-from-scratch.png)
 
@@ -29,7 +29,7 @@ Vaya a **Recorridos** y haga clic en **Crear Recorrido - Crear desde cero**
 1. Actualice las Propiedades del Recorrido en el carril derecho con lo siguiente:
    - **Nombre**: `Order Shipped Journey`
    - **Descripción**: `Notify customer that order has shipped. Include shipping details.`
-   - **Etiquetas**: `Default`
+   - **Etiquetas**: *dejar en blanco*
    - **métricas de Recorrido**: *dejar en blanco*
 
      >[!NOTE]
@@ -69,7 +69,7 @@ Vaya a **Recorridos** y haga clic en **Crear Recorrido - Crear desde cero**
 
 ### Añadir un evento unitario
 
-En el panel izquierdo, debajo del **menú Eventos**, arrastre y suelte el evento **orderShipped** en el lienzo, como se muestra a continuación
+Haga clic en un icono más, vaya a **Eventos personalizados** y seleccione el evento **orderShipped** como se muestra a continuación
 
 ![Arrastre el evento orderShipped desde el menú Eventos hasta el lienzo de recorrido](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
@@ -83,7 +83,7 @@ En el panel izquierdo, debajo del **menú Eventos**, arrastre y suelte el evento
 
 ### Añadir una acción personalizada
 
-1. Si el panel izquierdo expande el **menú Acciones** y, a continuación, arrastra y suelta en el lienzo la acción que creó denominada **GetShippingDetails** después del evento orderShipped
+1. Haga clic en un icono más, vaya a **Acciones personalizadas** y seleccione la acción que creó denominada **GetShippingDetails** para que aparezca después del evento orderShipped
 
    ![Arrastre la acción personalizada GetShippingDetails al lienzo después del evento orderShipped](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
@@ -107,7 +107,7 @@ En el panel izquierdo, debajo del **menú Eventos**, arrastre y suelte el evento
 
 ### Añadir acción de correo electrónico
 
-1. En el menú Acciones, arrastre y suelte la acción **Action** en el lienzo después de la acción GetShippingDetails
+1. Haga clic en el icono de signo más después del evento personalizado GetShippingDetails y seleccione **Acción**.
 
    ![Arrastre el nodo Action al lienzo después de la acción GetShippingDetails](assets/build-journey-drag-email-action-onto-canvas.png)
 
@@ -137,11 +137,11 @@ Para el contenido, va a mantener las cosas simples. Como estúpido simple.
 
    ![Diseñar desde cero bloque de contenido en la barra superior](assets/build-journey-click-design-from-scratch.png)
 
-3. En la barra izquierda debajo del contenedor Estructura, arrastre y suelte la columna **1:1** en el lienzo
+3. En la barra izquierda, vaya a la ficha Componentes y, desde debajo del contenedor Estructura, arrastre y suelte la columna **1:1** en el lienzo
 
    ![Arrastre el elemento de estructura de columna 1:1 al lienzo del correo electrónico](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-4. A continuación, bajo el contenedor Contenido, arrastre y suelte el componente **Texto** en la columna **1:1**
+4. A continuación, desde debajo del contenedor Contenido, arrastre y suelte el componente **Texto** en la columna **1:1**
 
    ![Arrastre el componente Texto a la columna 1:1](assets/build-journey-drag-text-component-into-column.png)
 
@@ -206,7 +206,8 @@ Cuando vuelva al lienzo del Recorrido principal, en el nodo Correo electrónico,
 
    ![Habilitar el icono de anulación de parámetros en Parámetros de correo electrónico](assets/build-journey-enable-parameter-override.png)
 
-2. Haga clic en el cuadro de texto vacío y, a continuación, en el carril izquierdo para explorar en profundidad **Contexto** -> **orderShipped** -> **\_dep** y haga clic en el campo **personalEmail**.  Luego haga clic en el **botón Aceptar**
+2. Haga clic en el cuadro de texto vacío y, a continuación, en el carril izquierdo para explorar en profundidad **Contexto** -> **orderShipped** -> **\_dep** y haga clic en el campo **personalEmail**.  A continuación, haga clic en el botón **Aceptar**
+(Tenga en cuenta que el nombre del inquilino que comienza con guion bajo puede ser diferente para su entorno, en este ejemplo es _dep).
 
    ![Seleccione el campo personalEmail en el contexto orderShipped _dep](assets/build-journey-select-personalemail-context-field.png)
 
