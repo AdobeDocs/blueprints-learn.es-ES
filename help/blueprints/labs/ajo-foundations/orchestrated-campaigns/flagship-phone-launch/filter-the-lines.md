@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '371'
 ht-degree: 0%
 ---
 
@@ -59,111 +59,27 @@ En el siguiente conjunto de pasos va a filtrar todas las líneas que realmente n
 
 ## Añadir la actividad SMS
 
-1. En el lienzo del flujo de trabajo, haga clic en el icono **+** después de la condición dividida que agregó y seleccione la **Actividad de SMS**
+1. En el lienzo del flujo de trabajo, haga clic en el icono **+** después de la condición de división que agregó y seleccione **Actividad del mensaje móvil**
 
-   ![Añada la actividad SMS después de la condición dividida](assets/filter-the-lines-add-sms-activity.png)
+   ![Agregue la actividad de mensajes de Mobile después de la condición dividida](assets/filter-the-lines-add-sms-activity.png)
 
    ![Se agregó la actividad SMS al lienzo del flujo de trabajo](assets/filter-the-lines-sms-activity-on-canvas.png)
 
 
 
-2. En el carril derecho, haga clic en el botón Editar SMS para iniciar la configuración del mensaje SMS
+2. En el carril derecho, haga clic en el botón Editar mensaje móvil para iniciar la configuración del mensaje SMS
 
-   ![Botón Editar SMS en el carril derecho](assets/filter-the-lines-edit-sms-button.png)
-
-
-
-3. En la parte de navegación superior, haga clic en el elemento de menú Acciones y, a continuación, en la lista desplegable Configuración de SMS, seleccione el canal que creó anteriormente.
-
-![Error de error en la configuración de SMS que no muestra resultados](assets/filter-the-lines-sms-configuration-no-results.png)
-
->[!CAUTION]
->
->¡Oh, no 🫨!  ¿Por qué no obtienes resultados?  ¿No has configurado ya tu canal SMS?  ¿Está roto el producto?
->
->¡QUÉ LOCO!!!!!!!!!
+   ![Botón Editar mensaje móvil en el carril derecho](assets/filter-the-lines-edit-sms-button.png)
 
 
 
-## Momento de asustar
-
-La transición de la ramificación tiene actualmente una dimensión de segmentación de Línea del cliente (es decir, a qué tabla se relaciona el resultado actual en el Almacén relacional).  Sin embargo, lo que es único con las campañas orquestadas es que siempre se vuelve a unir al Perfil del cliente en tiempo real en el momento de la entrega, de modo que la información de entrega y seguimiento de los mensajes se atribuye a un perfil.  Esta unión se ha creado previamente para usted desde la tabla Cuenta de cliente.
-
-La configuración de canal para SMS ya se había configurado previamente para usted y actualmente parece ser así...
-
-![Configuración de detalles de ejecución configurada durante el laboratorio Configurar canal de SMS](assets/configure-sms-channel-final-execution-details.png)
-
-**La forma de leer esto es la siguiente:**
-
-- Enviar un mensaje por la dimensión de destino (es decir, Cuenta del cliente) sobre el número de registros relacionados encontrados en la dimensión secundaria (es decir, Línea del cliente)
-- Ejecute cada envío SMS con el número de teléfono móvil encontrado en la dimensión secundaria (es decir, Línea del cliente)
-
-Esta capacidad única para enviar muchos mensajes a un perfil es una de las funciones principales de las campañas orquestadas, lo que las diferencia de los Recorridos.
-
-
-Entonces, ¿cómo hacer que esto funcione?  Agregar un cambio de dimensión 😀
-
-
-
-## Añadir dimensión de cambio
-
-1. Haga clic en el botón Atrás en la pantalla de edición de SMS
-
-   ![Botón Atrás para salir de la pantalla de edición de SMS](assets/filter-the-lines-exit-sms-editor.png)
-
-
-
-2. En el lienzo del flujo de trabajo, haga clic en el **+** **icono** entre las actividades Filter y SMS y seleccione **Cambiar dimensión**.
-
-   ![Agregar una actividad Cambiar dimensión entre Filtro y SMS](assets/filter-the-lines-add-change-dimension.png)
-
-
-
-3. En la parte derecha, actualice la dimensión de cambio con la siguiente información:
-   - **Etiqueta:** `Convert Line to Account`
-   - **Nueva dimensión de destino:**`dep-rel: Customer Account`
-
-   ![Cambiar dimensión configurada para convertir línea en cuenta](assets/filter-the-lines-change-dimension-settings.png)
-
-
-
-4. Haga clic en el botón **Guardar** en la parte superior derecha del lienzo para guardar el trabajo. Cuando termina, el flujo de trabajo tiene este aspecto...
-
-![Lienzo de flujo de trabajo después de agregar el cambio de dimensión](assets/filter-the-lines-workflow-after-change-dimension.png)
-
-
-
-## Configuración de mensaje SMS
-
-Ahora que ha corregido el flujo de trabajo, vuelva a configurar el SMS.
-
-
-
-1. Haz clic en la actividad SMS en el lienzo del flujo de trabajo y luego, en el carril izquierdo, haz clic en el botón **Editar SMS**
-
-   ![Editar botón de SMS para reconfigurar el mensaje SMS](assets/filter-the-lines-edit-sms-button.png)
-
-   >[!NOTE]
-   >
-   >Esta pantalla tarda unos minutos en cargarse.  Sé que es molesto, confía en mí que está siendo arreglado
-
-
-
-
-
-2. En la barra de navegación superior, haga clic en el elemento de menú **Actions** y, a continuación, en la lista desplegable de configuración de SMS, seleccione el canal que creó anteriormente.
+3. En la parte de navegación superior, haga clic en el elemento de menú Acciones y, a continuación, en la lista desplegable Configuración de mensajes de Mobile, seleccione el canal que ha creado anteriormente.
 
 ![Configuración de SMS que muestra correctamente el canal seleccionado](assets/filter-the-lines-sms-configuration-selected.png)
 
->[!TIP]
->
->Se siente bien, ¿no es así 😮‍💨?
 
 
 
 ## Resumen
 
-Has pasado por esto y, con suerte, has aprendido dos cosas muy importantes:
-
-1. La dimensión de segmentación de resultados finales debe coincidir con la configuración de canal que desee utilizar
-1. La actividad Cambiar dimensión probablemente se convierta en su mejor amigo para garantizar que esto suceda
+Ha filtrado todas las líneas a las que no se permitía enviar un mensaje SMS debido a la exclusión y ha añadido una actividad SMS para aquellas a las que se permitía enviar un mensaje.
