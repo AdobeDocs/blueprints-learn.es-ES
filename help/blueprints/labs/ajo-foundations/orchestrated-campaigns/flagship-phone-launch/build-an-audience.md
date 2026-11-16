@@ -4,13 +4,11 @@ description: Aprenda a utilizar la actividad Crear audiencia en una campaña orq
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # Crear una audiencia
 
@@ -165,6 +163,6 @@ No es nada. ¿Sabes por qué?
 
 ## Resumen
 
-Ha creado correctamente su primera audiencia y ahora debería ver lo fácil que es desarrollar y validar sus recuentos dentro de la actividad Generar audiencia.
+Ha creado una audiencia correctamente y ahora debería ver lo fácil que es desarrollar y validar sus recuentos dentro de la actividad Generar audiencia.
 
 ![Actividad de compilación de audiencia completada después del resumen](assets/build-an-audience-recap-completed-audience.png)
