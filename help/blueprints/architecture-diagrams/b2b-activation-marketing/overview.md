@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 80%
+source-wordcount: '164'
+ht-degree: 82%
 ---
 # Activación y marketing B2B
 
@@ -33,5 +33,4 @@ Abordando el canal en primer lugar, cada canal actúa como un depósito donde lo
 
 | Diagrama | Descripción |
 | --- | --- |
-| [Activación de audiencia y perfil B2B](b2b-audience-profile-activation.md) | Activación de audiencias basadas en cuentas y en personas con Real-Time Customer Data Platform B2B edition |
-| [Activación de cuenta B2B](b2b-account-activation.md) | Segmentar cuentas B2B mediante publicidad y destinos basados en archivos |
+| [Activación de audiencia y perfil B2B](b2b-audience-profile-activation.md) | Active audiencias de personas en los canales admitidos y audiencias de cuenta para destinos de publicidad y archivos con Real-Time Customer Data Platform B2B edition |
