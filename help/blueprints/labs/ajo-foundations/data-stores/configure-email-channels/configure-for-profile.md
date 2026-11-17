@@ -7,9 +7,9 @@ exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: bcc54e483dddad7417ee13613323198c8ce12bec
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 5%
 ---
 
@@ -51,6 +51,7 @@ En el menú desplegable **Subdominio**, seleccione **email.dep-labs.com**
 
 >[!NOTE]
 >
+>El subdominio puede ser diferente para su entorno.
 >Si su ritmo es personalizado y no tiene un subdominio aprovisionado previamente, seleccione su propio subdominio delegado a Adobe aquí en lugar de `email.dep-labs.com`. Consulte [Configuración](../../setup.md) para saber cómo delegar una.
 
 ## Configurar detalles del grupo de IP

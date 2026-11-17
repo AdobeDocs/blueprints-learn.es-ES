@@ -7,9 +7,9 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '429'
 ht-degree: 0%
 ---
 
@@ -21,9 +21,13 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 ## Prueba del recorrido
 
-1. Haz clic en **Recorridos** en el carril izquierdo y en la **pestaña Examinar** si no ves una lista de Recorridos
+1. Si aún no estás en el recorrido, haz clic en **Recorridos** en el carril izquierdo y en la **pestaña Examinar** si no ves una lista de Recorridos
 2. Haz clic en el **Recorrido** para abrirlo
-3. Haz clic en **Alertas** y asegúrate de que no haya errores (las advertencias son correctas)
+3. Primero haga clic en el botón **Validar** en la parte superior derecha
+
+   ![Haga clic para validar el recorrido](assets/test-journey-click-validate.png)
+
+5. Haz clic en **Alertas** y asegúrate de que no haya errores (las advertencias son correctas)
 
    ![El panel Alertas no muestra errores después de abrir el recorrido](assets/test-journey-alerts-no-errors.png)
 
@@ -33,9 +37,11 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
    >
    >Indica que falta el vínculo de no participación en una variante de correo electrónico
 
-4. Haga clic en **Simular** y, en el lado izquierdo, seleccione **Modo de prueba**
+6. Haz clic en **Simular** y luego selecciona **Modo de prueba**
 
-   ![Modo de prueba seleccionado en Simular a la izquierda](assets/test-journey-select-test-mode.png)
+   ![Pulse Simular ](assets/test-journey-select-test-mode.png)
+
+   ![Modo de prueba seleccionado en la ventana emergente](assets/test-journey-select-test-mode-in-popup.png)
 
 
 
@@ -45,11 +51,11 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 
 
-5. Haga clic en **Déclencheur un evento** y rellene estas propiedades:
+7. Haga clic en **Déclencheur un evento** en el lado izquierdo y rellene estas propiedades:
    - **Tipo de evento**: `orders.shipped`
    - **Correo electrónico personal**: `henry.creel@emailsim.io`
    - **Id. de pedido**: `123`
-6. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
+8. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
 
    ![Déclencheur un formulario de eventos rellenado y se hizo clic en Enviar](assets/test-journey-trigger-event-send.png)
 
@@ -65,7 +71,7 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 
 
-7. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
+9. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
 
 ![Mostrar opción de registro en Resultados después de activar el evento de prueba](assets/test-journey-show-log-results.png)
 
@@ -106,12 +112,12 @@ Debería ver algo similar a esto en el &quot;log&quot;:
 
 
 
-1. **Cerrar** el explorador **pestaña**
+1. **Cerrar** la **pestaña** del explorador para el registro
 1. **Cerrar modo de prueba** en la parte superior derecha
 
    ![Botón Cerrar modo de prueba en la parte superior derecha](assets/test-journey-close-test-mode.png)
 
-1. Haz clic en **Publicar** el Recorrido en la parte superior derecha
+1. Vuelva a hacer clic en **Validar** y, a continuación, **Publicar** el Recorrido en la parte superior derecha
 
    ![Botón Publicar para el Recorrido en la esquina superior derecha](assets/test-journey-publish-journey.png)
 

@@ -7,9 +7,9 @@ exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 74b5a717f6c16c75e26426619885202f4b658171
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '526'
 ht-degree: 0%
 ---
 
@@ -26,13 +26,13 @@ Dado que la idoneidad es uno de los componentes básicos clave de una oferta, el
 
    >[!WARNING]
    >
-   >Asegúrese de que está en el menú Decisioning y NO en el menú Decision Management. Si se expande el menú Administración de decisiones, contráigalo para evitar confusiones de navegación durante este laboratorio.
+   >Asegúrese de que está en el menú Decisioning y NO en el menú Decision Management (en caso de que ambos estén visibles en su entorno). Si se expande el menú Administración de decisiones, contráigalo para evitar confusiones de navegación durante este laboratorio.
 
 3. Haga clic en **Reglas de decisión** en el menú &quot;Elegibilidad&quot;, seguido del botón **Crear regla** en la esquina superior derecha.
 
    ![Página Reglas de decisión con el botón Crear regla](assets/create-decision-rule-create-rule-button.png)
 
-4. Se abrirá una pantalla similar a la interfaz de usuario del Generador de segmentos. Agregue el atributo de ID de plan al lienzo de reglas haciendo clic en **Perfil individual de XDM > DEP > Detalles del plan** y luego arrastrando el atributo **ID de plan** al lienzo.
+4. Se abrirá una pantalla similar a la interfaz de usuario del Generador de segmentos. Agregue el atributo de ID de plan al lienzo de reglas haciendo clic en **Perfil individual de XDM > DEP > Detalles del plan** y luego arrastrando el atributo **ID de plan** al lienzo. (Tenga en cuenta que el nombre del inquilino, que en este ejemplo es Dep, puede ser diferente en su entorno. También puede buscar Detalles del plan en la barra de búsqueda Atributos.)
 5. Cambie el menú desplegable de igual a **contiene.**
 6. Escriba el texto **2** en el cuadro, presione la tecla **Tab** para aceptar el valor 2 y, a continuación, escriba **3,** y presione **Tab** de nuevo para que la regla busque cualquier ID de plan que contenga un 2 o un 3
 7. Utilice el cuadro de texto **Name** en el carril derecho para asignar un nombre a la regla de decisión **Planes de nivel superior**. Añada una descripción si lo desea. Cuando termine, la regla de decisión deberá tener este aspecto:
