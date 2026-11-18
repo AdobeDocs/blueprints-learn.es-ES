@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
+source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '443'
 ht-degree: 0%
 ---
 
@@ -57,9 +57,25 @@ En el siguiente conjunto de pasos va a filtrar todas las líneas que realmente n
 
 
 
+## Añadir dimensión de cambio
+
+1. En el lienzo del flujo de trabajo, haga clic en el icono **+** después de la condición de división que agregó y seleccione la actividad **Cambiar dimensión**
+
+   ![Agregue la actividad Change dimension después de la condición dividida](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. Actualice las propiedades de la dimensión de cambio como se describe a continuación y haga clic en **Confirmar**:
+Etiqueta: `Convert Line to Account`
+Nueva dimensión de destino: `dep-rel: Customer Account`
+
+   ![Editar dimensión de destino](assets/filter-the-lines-add-edit-target-dimension.png)
+
+   ![Editar dimensión de destino](assets/filter-the-lines-add-select-target-dimension.png)
+
+
+
 ## Añadir la actividad SMS
 
-1. En el lienzo del flujo de trabajo, haga clic en el icono **+** después de la condición de división que agregó y seleccione **Actividad del mensaje móvil**
+1. Haga clic en el icono **+** después de la dimensión Cambiar que agregó y seleccione la **Actividad del mensaje móvil**
 
    ![Agregue la actividad de mensajes de Mobile después de la condición dividida](assets/filter-the-lines-add-sms-activity.png)
 
@@ -67,9 +83,9 @@ En el siguiente conjunto de pasos va a filtrar todas las líneas que realmente n
 
 
 
-2. En el carril derecho, haga clic en el botón Editar mensaje móvil para iniciar la configuración del mensaje SMS
+2. En el carril derecho, primero cambie la opción de Target a **Un mensaje por dimensión secundaria** y luego haga clic en el botón **Editar mensaje móvil** para iniciar la configuración del mensaje SMS
 
-   ![Botón Editar mensaje móvil en el carril derecho](assets/filter-the-lines-edit-sms-button.png)
+   ![Botón Target y Edit Mobile message en el carril derecho](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -82,4 +98,4 @@ En el siguiente conjunto de pasos va a filtrar todas las líneas que realmente n
 
 ## Resumen
 
-Ha filtrado todas las líneas a las que no se permitía enviar un mensaje SMS debido a la exclusión y ha añadido una actividad SMS para aquellas a las que se permitía enviar un mensaje.
+Ha filtrado todas las líneas a las que no se permitía dirigir con un mensaje SMS debido a la exclusión, ha cambiado la dimensión de línea a cuenta y ha añadido una actividad SMS para las que se permitía dirigir.
