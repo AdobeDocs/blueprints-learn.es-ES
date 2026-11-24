@@ -7,7 +7,7 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
    ![Haga clic para validar el recorrido](assets/test-journey-click-validate.png)
 
-&#x200B;5. Haz clic en **Alertas** y asegúrate de que no haya errores (las advertencias son correctas)
+4. Haz clic en **Alertas** y asegúrate de que no haya errores (las advertencias son correctas)
 
    ![El panel Alertas no muestra errores después de abrir el recorrido](assets/test-journey-alerts-no-errors.png)
 
@@ -37,9 +37,9 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
    >
    >Indica que falta el vínculo de no participación en una variante de correo electrónico
 
-&#x200B;6. Haz clic en **Simular** y luego selecciona **Modo de prueba**
+5. Haz clic en **Simular** y luego selecciona **Modo de prueba**
 
-   ![Pulse Simular &#x200B;](assets/test-journey-select-test-mode.png)
+   ![Pulse Simular ](assets/test-journey-select-test-mode.png)
 
    ![Modo de prueba seleccionado en la ventana emergente](assets/test-journey-select-test-mode-in-popup.png)
 
@@ -51,11 +51,11 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 
 
-&#x200B;7. Haga clic en **Déclencheur un evento** en el lado izquierdo y rellene estas propiedades:
+6. Haga clic en **Déclencheur un evento** en el lado izquierdo y rellene estas propiedades:
    - **Tipo de evento**: `orders.shipped`
    - **Correo electrónico personal**: `henry.creel@emailsim.io`
    - **Id. de pedido**: `123`
-&#x200B;8. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
+7. Haga clic en **Enviar** (tenga en cuenta que tarda unos segundos en responder después de hacer clic en enviar)
 
    ![Déclencheur un formulario de eventos rellenado y se hizo clic en Enviar](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 
 
-&#x200B;9. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
+8. En **Resultados** -> Haga clic en **Mostrar registro** a la izquierda
 
 ![Mostrar opción de registro en Resultados después de activar el evento de prueba](assets/test-journey-show-log-results.png)
 
