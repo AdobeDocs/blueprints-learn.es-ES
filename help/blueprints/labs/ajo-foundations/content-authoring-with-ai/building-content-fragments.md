@@ -4,7 +4,7 @@ description: Aprenda a dividir un diseño de correo electrónico en fragmentos r
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -132,33 +132,31 @@ Cree un fragmento de encabezado para empezar. Sin embargo, antes de crear el fra
 
 10. Haga clic en **&quot;Examinar&quot;** para seleccionar la imagen del logotipo que le han proporcionado y que ya ha subido a Assets.
 
-![Haga clic en el botón Examinar para seleccionar la imagen del logotipo](assets/building-content-fragments-click-browse-button.png)
+    ![Haga clic en el botón Examinar para seleccionar la imagen del logotipo](assets/building-content-fragments-click-browse-button.png)
 
-&#x200B;11. Vaya a la carpeta, haga clic en la imagen del logotipo (*C5G-Logo.png*) y haga clic en **Seleccionar**.
+11. Vaya a la carpeta, haga clic en la imagen del logotipo (*C5G-Logo.png*) y haga clic en **Seleccionar**.
 
-![Seleccionar C5G-Logo.png de la carpeta Assets](assets/building-content-fragments-select-logo-from-assets.png)
+    ![Seleccionar C5G-Logo.png de la carpeta Assets](assets/building-content-fragments-select-logo-from-assets.png)
 
-&#x200B;12. El logotipo está colocado correctamente, pero es demasiado grande y debe cambiarse de tamaño. Para cambiar el tamaño del logotipo, actualice sus propiedades. Haga clic en la ficha **Estilos** de la columna derecha y establezca el ancho en 40% arrastrando el control deslizante, como se muestra a continuación.
+12. El logotipo está colocado correctamente, pero es demasiado grande y debe cambiarse de tamaño. Para cambiar el tamaño del logotipo, actualice sus propiedades. Haga clic en la ficha **Estilos** de la columna derecha y establezca el ancho en 40% arrastrando el control deslizante, como se muestra a continuación.
 
->[!NOTE]
->
->Tenga en cuenta que cuando el botón de alternancia está activado, el número 40 representa % y no píxeles. Si desea un valor absoluto de píxel perfecto, cambie el botón a píxeles.
+    >[!NOTE]
+    >
+    >Tenga en cuenta que cuando el botón de alternancia está activado, el número 40 representa % y no píxeles. Si desea un valor absoluto de píxel perfecto, cambie el botón a píxeles.
 
+    ![El control deslizante de anchura de la ficha Estilo se ha establecido en 40 por ciento para cambiar el tamaño del logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
+13. Haga clic en **&quot;Guardar&quot;** y se guardará el fragmento. Recibe una notificación de barra verde en la confirmación.
 
-![El control deslizante de anchura de la ficha Estilo se ha establecido en 40 por ciento para cambiar el tamaño del logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
+    ![Barra de confirmación verde después de guardar el fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;13. Haga clic en **&quot;Guardar&quot;** y se guardará el fragmento. Recibe una notificación de barra verde en la confirmación.
+14. El fragmento guardado está en modo de borrador. Antes de usarlo, debe publicarlo. Haga clic en el botón **atrás**.
 
-![Barra de confirmación verde después de guardar el fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
+    ![Botón Atrás para dejar el fragmento de borrador antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;14. El fragmento guardado está en modo de borrador. Antes de usarlo, debe publicarlo. Haga clic en el botón **atrás**.
+15. Haga clic en el botón &quot;**Publicar**&quot;. Verá el mensaje &quot;Publicando fragmento, esto puede tardar. Notificaremos una vez hecho&quot;. en la confirmación. El fragmento está listo para utilizarse para la creación de plantillas.
 
-![Botón Atrás para dejar el fragmento de borrador antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
-
-&#x200B;15. Haga clic en el botón &quot;**Publicar**&quot;. Verá el mensaje &quot;Publicando fragmento, esto puede tardar. Notificaremos una vez hecho&quot;. en la confirmación. El fragmento está listo para utilizarse para la creación de plantillas.
-
-![Botón Publicar y mensaje de confirmación de fragmento de publicación](assets/building-content-fragments-click-publish-fragment-button.png)
+    ![Botón Publicar y mensaje de confirmación de fragmento de publicación](assets/building-content-fragments-click-publish-fragment-button.png)
 
 Verá el cambio de estado a **&quot;Activo&quot;**. En este punto, ha completado la creación de un fragmento de encabezado, que se utilizará en el siguiente paso.
 

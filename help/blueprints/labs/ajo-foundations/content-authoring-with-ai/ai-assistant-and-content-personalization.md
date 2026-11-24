@@ -7,7 +7,7 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 5%
@@ -191,31 +191,29 @@ Desplácese hacia abajo en la columna izquierda y haga clic en **Más configurac
 
 2. Pulse el botón **Generar**
 
-![Configuración de imagen de Firefly que incluye proporción, tipo de contenido e iluminación antes de generar](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
+   ![Configuración de imagen de Firefly que incluye proporción, tipo de contenido e iluminación antes de generar](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-&#x200B;3. Seleccione las variaciones del lado derecho para verlas y **guarde** algunos de sus favoritos en la carpeta de Assets para usarlos más adelante. También puede hacer clic en Generar unas cuantas veces más para obtener más variaciones.
+3. Seleccione las variaciones del lado derecho para verlas y **guarde** algunos de sus favoritos en la carpeta de Assets para usarlos más adelante. También puede hacer clic en Generar unas cuantas veces más para obtener más variaciones.
 
-![Examine las variaciones y guarde algunos](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+   ![Examine las variaciones y guarde algunos](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-![Guardar en la carpeta Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
+   ![Guardar en la carpeta Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-&#x200B;4. Entonces solo **Cancelar** de la interfaz de generación de imágenes por ahora.
-
-
+4. Entonces solo **Cancelar** de la interfaz de generación de imágenes por ahora.
 
 ## Finalizar diseño de bloque
 
 1. En la interfaz del diseñador de correo electrónico, haga clic en **Examinar** en el bloque de imágenes.
 
-![Haga clic en Examinar en el bloque de imágenes](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+   ![Haga clic en Examinar en el bloque de imágenes](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-&#x200B;2. Seleccione una de las variaciones y haga clic en **Seleccionar**
+2. Seleccione una de las variaciones y haga clic en **Seleccionar**
 
-![Seleccione una de sus variaciones](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+   ![Seleccione una de sus variaciones](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-&#x200B;3. Seleccione la ficha **Estilos** en la columna derecha y aplique un radio de borde redondeado de 10 a la imagen
+3. Seleccione la ficha **Estilos** en la columna derecha y aplique un radio de borde redondeado de 10 a la imagen
 
-![Diseño final de bloque de correo electrónico con esquinas de imagen redondeadas](assets/ai-assistant-and-content-personalization-final-block-design.png)
+   ![Diseño final de bloque de correo electrónico con esquinas de imagen redondeadas](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 Después de algunas iteraciones y variaciones, se obtiene el diseño final. El diseño final se parece al ejemplo anterior.
 
