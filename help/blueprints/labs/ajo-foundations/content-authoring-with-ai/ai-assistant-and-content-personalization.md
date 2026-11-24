@@ -193,13 +193,13 @@ Desplácese hacia abajo en la columna izquierda y haga clic en **Más configurac
 
 ![Configuración de imagen de Firefly que incluye proporción, tipo de contenido e iluminación antes de generar](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-3. Seleccione las variaciones del lado derecho para verlas y **guarde** algunos de sus favoritos en la carpeta de Assets para usarlos más adelante. También puede hacer clic en Generar unas cuantas veces más para obtener más variaciones.
+&#x200B;3. Seleccione las variaciones del lado derecho para verlas y **guarde** algunos de sus favoritos en la carpeta de Assets para usarlos más adelante. También puede hacer clic en Generar unas cuantas veces más para obtener más variaciones.
 
 ![Examine las variaciones y guarde algunos](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
 ![Guardar en la carpeta Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-4. Entonces solo **Cancelar** de la interfaz de generación de imágenes por ahora.
+&#x200B;4. Entonces solo **Cancelar** de la interfaz de generación de imágenes por ahora.
 
 
 
@@ -209,11 +209,11 @@ Desplácese hacia abajo en la columna izquierda y haga clic en **Más configurac
 
 ![Haga clic en Examinar en el bloque de imágenes](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-2. Seleccione una de las variaciones y haga clic en **Seleccionar**
+&#x200B;2. Seleccione una de las variaciones y haga clic en **Seleccionar**
 
 ![Seleccione una de sus variaciones](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-3. Seleccione la ficha **Estilos** en la columna derecha y aplique un radio de borde redondeado de 10 a la imagen
+&#x200B;3. Seleccione la ficha **Estilos** en la columna derecha y aplique un radio de borde redondeado de 10 a la imagen
 
 ![Diseño final de bloque de correo electrónico con esquinas de imagen redondeadas](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
