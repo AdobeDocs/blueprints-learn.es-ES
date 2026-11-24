@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 8a0e198d205b9003fa61cf555debc6c20585b70a
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '656'
 ht-degree: 0%
 ---
 
@@ -41,7 +41,7 @@ Este paso muestra cómo se pueden reutilizar las plantillas en todos los recorri
 
    ![Botón Crear campaña en Administración de Recorridos](assets/creating-the-email-click-create-campaign-button.png)
 
-3. Seleccione &quot;**Orquestación - Marketing**&quot; y haga clic en **confirmar**
+3. Seleccione &quot;**Marketing de orquestaciones y transaccional**&quot; y haga clic en **Confirmar**
 
    ![Seleccionar orquestación - Marketing y hacer clic en confirmar](assets/creating-the-email-select-orchestration-marketing.png)
 
@@ -107,19 +107,15 @@ Cambiar las imágenes de héroe y teléfono. Debe cargar contenido en los recurs
 
    ![Quitando la dirección URL de origen temporal de la imagen](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. Haz clic en **Importar medios**
+3. Haga clic en **Seleccionar un recurso**
 
-   ![Botón Importar medios para la imagen a pantalla completa](assets/creating-the-email-click-import-media.png)
+   ![Seleccione un botón de recurso para la imagen a pantalla completa](assets/creating-the-email-click-import-media.png)
 
-4. Cargue `hero.png` de su kit de herramientas. (Puede arrastrar el archivo)
+4. Seleccione `hero.png` de su carpeta y haga clic en **Seleccionar**.
 
-   ![Cargando hero.png desde la carpeta del kit de herramientas](assets/creating-the-email-upload-hero-png-file.png)
+   ![Seleccionando hero.png de la carpeta Assets](assets/creating-the-email-select-hero-png-file.png)
 
-5. Haga clic en **Siguiente,** Seleccione **su carpeta para los recursos** y presione **importar**
-
-   ![Seleccionando la carpeta de recursos y haciendo clic en importar para la imagen a pantalla completa](assets/creating-the-email-select-folder-import-hero.png)
-
-6. Su plantilla de correo electrónico está saliendo bien. Aparece de la siguiente manera. Haga clic en **&quot;Guardar&quot;** para guardar el trabajo.
+5. Su plantilla de correo electrónico está saliendo bien. Aparece de la siguiente manera. Haga clic en **&quot;Guardar&quot;** para guardar el trabajo.
 
 ![Se ha actualizado la plantilla de correo electrónico con la nueva imagen a pantalla completa antes de guardar](assets/creating-the-email-save-updated-email-template.png)
 
@@ -128,7 +124,7 @@ Cambiar las imágenes de héroe y teléfono. Debe cargar contenido en los recurs
 
 ### Reemplazar imágenes de productos
 
-Continúe, actualice todas las imágenes de producto (imágenes proporcionadas en la carpeta del kit de herramientas) y añada un borde redondeado a su gusto. Su correo electrónico se ve mejor sin ningún vínculo roto, como se muestra a continuación. Repita el proceso para todas las tarjetas de producto.
+Actualice todas las imágenes del producto (las imágenes se han proporcionado en la carpeta del kit de herramientas, las ha cargado en Assets) y añada un borde redondeado a su gusto. Su correo electrónico se ve mejor sin ningún vínculo roto, como se muestra a continuación. Repita el proceso para todas las tarjetas de producto.
 
 ![Correo electrónico con todas las imágenes de productos actualizadas y sin vínculos rotos](assets/creating-the-email-product-images-updated-no-broken-links.png)
 
@@ -140,4 +136,4 @@ En este módulo ha realizado correctamente lo siguiente:
 - Imágenes actualizadas de productos y héroes
 - Estilo mejorado
 
-Ya está listo para pasar al siguiente módulo: **asistente de IA y personalización de contenido**, donde utilizará IA para refinar el texto y generar imágenes automáticamente.
+Ya está listo para pasar al siguiente módulo: **Personalización de contenido asistido por IA**, donde utilizará IA para refinar el texto y generar imágenes automáticamente.

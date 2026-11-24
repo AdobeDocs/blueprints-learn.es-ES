@@ -7,9 +7,9 @@ exl-id: 84be70f5-6c3b-40e2-ad38-ac737363f845
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 89f451f2f0a0f078cd46a76bd7775cad1c11b46b
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1409'
 ht-degree: 0%
 ---
 
@@ -26,7 +26,7 @@ Al final de este módulo, deberá ser capaz de:
 - Cargar y extraer información sobre directrices de marca desde un PDF.
 - Revise y perfeccione los detalles de marca en las pestañas Acerca de la marca, Estilo de escritura y Contenido visual.
 - Añada una regla de exclusión para evitar la copia de un botón de correo electrónico push.
-- Publique la marca para que esté disponible para plantillas, fragmentos, el asistente de IA y la alineación de marca.
+- Publique la marca para que esté disponible para plantillas, fragmentos, IA y alineación de marca.
 
 Descargar archivo: [toolkit.zip](assets/toolkit.zip)
 
@@ -131,7 +131,7 @@ La ficha **Estilo de escritura** define cómo se comunica la marca. Incluye:
 
 ![Escritura de la ficha Estilo que define el tono de marca, el estilo y las reglas legales](assets/brand-management-writing-style-tab.png)
 
-Puede añadir y perfeccionar reglas en lenguaje natural e incluso aplicarlas solo a canales específicos, como correo electrónico o SMS. Esto le proporciona un control flexible pero preciso sobre cómo el asistente de IA y los autores de contenido deben escribir.
+Puede añadir y perfeccionar reglas en lenguaje natural e incluso aplicarlas solo a canales específicos, como correo electrónico o SMS. Esto le proporciona un control flexible pero preciso sobre cómo deben escribir la IA y los autores de contenido.
 
 ### Contenido visual
 
@@ -223,9 +223,9 @@ A continuación, mejore la marca añadiendo una regla que garantice que los boto
 
 7. Haga clic en **Guardar**.
 
-Esta regla se aplica siempre que el asistente de IA o los autores trabajen en la copia de botones de correo electrónico, manteniendo las CTA alineadas con el tono de la Conexión 5G.
+Esta regla se aplica dondequiera que AI o los autores trabajen en la copia de botones de correo electrónico, manteniendo las CTA alineadas con el tono de la Conexión 5G.
 
-![Regla de exclusión de botones de correo electrónico aplicada al Ayudante de IA y a los autores](assets/brand-management-email-button-exclusion-rule-applied.png)
+![Regla de exclusión de botones de correo electrónico aplicada a autores y API](assets/brand-management-email-button-exclusion-rule-applied.png)
 
 >[!NOTE]
 >
@@ -264,6 +264,6 @@ En este módulo:
 - Se ha cargado el archivo de directrices de marca y se ha permitido a AJO extraer información clave.
 - Se han revisado y refinado las pestañas Acerca de la marca, Estilo de escritura y Contenido visual.
 - Se ha añadido una regla de exclusión específica para que los botones de correo electrónico nunca sean push.
-- Se ha publicado la marca para poder utilizar el Asistente de IA, la alineación de marca, las plantillas y los fragmentos.
+- Se ha publicado la marca para que pueda potenciar la IA, la alineación de marca, las plantillas y los fragmentos.
 
 Ahora tiene un perfil de marca **Connection 5G** totalmente configurado y publicado que se utilizará en el resto del laboratorio para mantener todo el contenido dentro de la marca.

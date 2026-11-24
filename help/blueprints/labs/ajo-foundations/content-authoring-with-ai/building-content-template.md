@@ -4,13 +4,11 @@ description: Obtenga información sobre cómo crear una plantilla de correo elec
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 0ba4d425f258e4c02e1563cdec2da1f815bfcc65
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '842'
 ht-degree: 0%
-
 ---
-
 
 # Creación de plantilla de contenido
 
@@ -104,7 +102,7 @@ Seleccione la tercera opción. Haga clic en **Importar HTML**
 
 ### Panel izquierdo
 
-Los componentes &quot;**Structures**&quot; y &quot;**Contents**&quot; de Adobe Journey Optimizer (AJO) son elementos esenciales utilizados al diseñar correos electrónicos, páginas de aterrizaje y fragmentos de contenido. Las estructuras definen el marco de diseño, mientras que el Contenido proporciona los bloques de creación reales colocados dentro de esos diseños.
+En la pestaña Componentes, los componentes &quot;**Estructuras**&quot; y &quot;**Contenido**&quot; de Adobe Journey Optimizer (AJO) son elementos esenciales utilizados al diseñar correos electrónicos, páginas de aterrizaje y fragmentos de contenido. Las estructuras definen el marco de diseño, mientras que el Contenido proporciona los bloques de creación reales colocados dentro de esos diseños.
 
 La sección del cuerpo de Adobe Journey Optimizer es el contenedor principal del contenido del correo electrónico o de la página. Sirve como raíz del espacio de diseño visual, donde todos los componentes de estructura (columnas, diseños) y los componentes de contenido (texto, imágenes, botones, etc.) están anidadas.
 
