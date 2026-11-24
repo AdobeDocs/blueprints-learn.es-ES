@@ -7,9 +7,9 @@ exl-id: 3deb822b-8374-4537-a260-f4f6f4d67569
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 4efa9da0ca6b73b4710a15a007712edcaa3ee867
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '424'
 ht-degree: 0%
 ---
 
@@ -53,7 +53,7 @@ Haga clic en el botón **Editar contenido** o vaya directamente a la pestaña **
 
 
 
-3. Actualice los dos campos del mensaje **phone\_make** y **phone\_model** más abajo con la opción **Atributos de destino** en el carril izquierdo.  Cuando termine, el mensaje debe coincidir con la captura de pantalla.
+3. Reemplace los dos campos del mensaje **phone\_make** y **phone\_model** a continuación con las opciones de **atributos de Target** correspondientes en el carril izquierdo.  Cuando termine, su mensaje debe coincidir con la captura de pantalla siguiente. (La ruta de nombres de las variables debería darle una pista sobre dónde encontrarlas).
 
    ![Mensaje SMS final con marca y modelo de teléfono personalizados](assets/compose-the-sms-final-message-text.png)
 

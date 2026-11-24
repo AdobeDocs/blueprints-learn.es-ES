@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
+source-git-commit: 8d5a87f094e2fba7abd7f5a9acf8e9e775d9b534
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '748'
 ht-degree: 0%
 ---
 
@@ -57,9 +57,25 @@ En el siguiente conjunto de pasos va a filtrar todas las líneas que realmente n
 
 
 
+## Añadir dimensión de cambio
+
+1. En el lienzo del flujo de trabajo, haga clic en el icono **+** después de la condición de división que agregó y seleccione la actividad **Cambiar dimensión**
+
+   ![Agregue la actividad Change dimension después de la condición dividida](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. Actualice las propiedades de la dimensión de cambio como se describe a continuación y haga clic en **Confirmar**:
+Etiqueta: `Convert Line to Account`
+Nueva dimensión de destino: `dep-rel: Customer Account`
+
+   ![Editar dimensión de destino](assets/filter-the-lines-add-edit-target-dimension.png)
+
+   ![Editar dimensión de destino](assets/filter-the-lines-add-select-target-dimension.png)
+
+
+
 ## Añadir la actividad SMS
 
-1. En el lienzo del flujo de trabajo, haga clic en el icono **+** después de la condición de división que agregó y seleccione **Actividad del mensaje móvil**
+1. Haga clic en el icono **+** después de la dimensión Cambiar que agregó y seleccione la **Actividad del mensaje móvil**
 
    ![Agregue la actividad de mensajes de Mobile después de la condición dividida](assets/filter-the-lines-add-sms-activity.png)
 
@@ -67,19 +83,63 @@ En el siguiente conjunto de pasos va a filtrar todas las líneas que realmente n
 
 
 
-2. En el carril derecho, haga clic en el botón Editar mensaje móvil para iniciar la configuración del mensaje SMS
+2. En el carril derecho, haga clic en el botón **Editar mensaje móvil** para iniciar la configuración del mensaje SMS
 
-   ![Botón Editar mensaje móvil en el carril derecho](assets/filter-the-lines-edit-sms-button.png)
+   ![Botón Editar mensaje móvil en el carril derecho](assets/filter-the-lines-edit-sms-button-only.png)
 
 
 
 3. En la parte de navegación superior, haga clic en el elemento de menú Acciones y, a continuación, en la lista desplegable Configuración de mensajes de Mobile, seleccione el canal que ha creado anteriormente.
 
-![Configuración de SMS que muestra correctamente el canal seleccionado](assets/filter-the-lines-sms-configuration-selected.png)
+![Error de error en la configuración de SMS que no muestra resultados](assets/filter-the-lines-sms-configuration-no-results.png)
 
+>[!CAUTION]
+>
+>¡Oh, no 🫨!  ¿Por qué no obtienes resultados?  ¿No has configurado ya tu canal SMS?  ¿Está roto el producto?
+>
+>¡QUÉ LOCO!!!!!!!!!
+
+
+
+## Momento de asustar
+
+La configuración de canal para SMS ya la había configurado usted de antemano y actualmente tiene este aspecto...
+
+![Configuración de detalles de ejecución configurada durante el laboratorio Configurar canal de SMS](assets/configure-sms-channel-final-execution-details.png)
+
+**La forma de leer esto es la siguiente:**
+
+- Enviar un mensaje por la dimensión de destino (es decir, Cuenta del cliente) sobre el número de registros relacionados encontrados en la dimensión secundaria (es decir, Línea del cliente)
+- Ejecute cada envío SMS con el número de teléfono móvil encontrado en la dimensión secundaria (es decir, Línea del cliente)
+
+Esta capacidad única para enviar muchos mensajes a un perfil es una de las funciones principales de las campañas orquestadas, lo que las diferencia de los Recorridos. Sin embargo, la transición que lleva a la actividad de mensajería móvil está configurada en Cuenta de cliente. Esto le permite volver a unirlo al Perfil del cliente en tiempo real en el momento de la entrega, de modo que la información de entrega y seguimiento de los mensajes se atribuya a un perfil.
+
+
+Entonces, ¿cómo hacer que esto funcione? Cambie el destino de la ejecución del mensaje para que coincida con la configuración del canal 😀
+
+
+
+## Cambiar la configuración de Target y completar el mensaje SMS
+
+1. Haga clic en el botón Atrás en la pantalla de edición de SMS
+
+   ![Botón Atrás para salir de la pantalla de edición de SMS](assets/filter-the-lines-exit-sms-editor.png)
+
+
+
+2. Con la actividad de mensaje móvil seleccionada, en el carril derecho cambie primero la opción de Target de la opción predeterminada de un mensaje por perfil a la opción **Un mensaje por dimensión secundaria** y, a continuación, haga clic de nuevo en **Editar mensaje móvil**
+
+   ![Cambie el destinatario y, a continuación, haga clic en el botón Editar mensaje móvil en el carril derecho](assets/filter-the-lines-edit-sms-button.png)
+
+
+
+3. En la barra de navegación superior, haz clic en el elemento de menú **Acciones** y, a continuación, en la lista desplegable Configuración de mensajes de Mobile, selecciona el canal que creaste anteriormente.
+
+   ![Configuración de SMS que muestra correctamente el canal seleccionado](assets/filter-the-lines-sms-configuration-selected.png)
 
 
 
 ## Resumen
 
-Ha filtrado todas las líneas a las que no se permitía enviar un mensaje SMS debido a la exclusión y ha añadido una actividad SMS para aquellas a las que se permitía enviar un mensaje.
+Ha filtrado todas las líneas a las que no se permitía dirigirse con un mensaje SMS debido a la exclusión, ha cambiado la dimensión de línea a cuenta y, al final, ha configurado correctamente la actividad SMS para aquellos a los que se permitía dirigir.
+Esperamos que también haya aprendido algo muy importante: **su destinatario debe coincidir con la configuración de canal que desee usar**

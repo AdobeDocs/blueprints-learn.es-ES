@@ -7,9 +7,9 @@ exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 526f170e52c0479362c6a72bfd4cbeadc825d464
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
@@ -69,17 +69,13 @@ En el siguiente conjunto de pasos, se basará en la campaña para agregar dos ac
 
    ![Haga clic en la flecha izquierda para salir del correo electrónico Designer](assets/add-email-activities-exit-email-designer.png)
 
-10. Aparece un cuadro de diálogo de confirmación, haga clic en el botón **Guardar y cerrar**
-
-![Cuadro de diálogo de confirmación con el botón Guardar y cerrar](assets/add-email-activities-save-and-close-dialog.png)
-
-1. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
+10. Revise las propiedades y acciones de correo electrónico, incluido el texto agregado al cuerpo del correo electrónico. Haga clic en la **flecha izquierda** para regresar al lienzo de la campaña
 
 ![Volver al lienzo de Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 
 ## Añadir actividad de correo electrónico de rama inferior
 
-De nuevo en el lienzo de la campaña, haz clic en **+** del flujo inferior y selecciona **Correo electrónico** de las **actividades del canal**. Siga los mismos pasos que se indican arriba (pasos 2 a 11), excepto los siguientes:
+De nuevo en el lienzo de la campaña, haz clic en **+** del flujo inferior y selecciona **Correo electrónico** de las **actividades del canal**. Siga los mismos pasos que se describen arriba (pasos 2 a 10), excepto los siguientes:
 
 - Cambie el nombre de la etiqueta a **Correo electrónico con Dimension de Target** para la actividad **Correo electrónico**
 - En la configuración de correo electrónico, elija la configuración de canal de correo electrónico **Correo electrónico relacional**

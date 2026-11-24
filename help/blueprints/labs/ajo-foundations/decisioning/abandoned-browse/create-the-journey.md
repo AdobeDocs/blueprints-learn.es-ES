@@ -7,9 +7,9 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
+source-git-commit: e973383e71d942cfeb86864cb92caddac6604d9a
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1740'
 ht-degree: 0%
 ---
 
@@ -19,9 +19,8 @@ ht-degree: 0%
 
 1. Si es necesario, expanda el elemento de menú **administración de Recorrido** en el carril izquierdo y haga clic en **Recorridos**. Aterrizas en la página &quot;Recorridos&quot;.
 1. Haz clic en el botón azul **Crear Recorrido**.
-1. Cuando aparezca la superposición &quot;Crear un Recorrido&quot;, selecciona **Crear desde cero** y haz clic en **Confirmar**
 1. En el carril derecho, asigne un nombre al Recorrido **iPhone 17 Abandonar exploración** y haga clic en el botón azul **Guardar** para que pueda empezar a agregar acciones al lienzo del Recorrido.
-1. Arrastre el evento **Calificación de audiencias** al lienzo.
+1. Haga clic en el botón Más después del Inicio del recorrido y añada el evento **Calificación de audiencias** al lienzo.
 1. En el carril derecho, haga clic en el icono **Lápiz** para seleccionar la audiencia de este evento.
 1. Seleccione la audiencia **dep: interesado en iPhone 17**.
 1. Asegúrese de que la lista desplegable **Espacio de nombres** esté establecida en **customerID.** En este punto, el Recorrido tiene este aspecto:
@@ -38,9 +37,9 @@ ht-degree: 0%
 
 ## Configurar el CBE y la política de decisión
 
-1. Expanda el acordeón **Actions** que acaba de salir del lienzo, arrastre el elemento **Action** al lienzo y conéctelo al primer nodo.
+1. Haga clic en el icono &quot;+&quot; después de la calificación de audiencia y agregue el elemento **Action** al lienzo.
 1. Cuando aparezca la superposición &quot;Seleccionar tipo de acción&quot;, selecciona la acción **Experiencia basada en código** y haz clic en el botón azul **Agregar**.
-1. En las propiedades &quot;Action\:Code-based experience&quot;, que ahora están visibles, haga clic en el botón **Configurar acción**.
+1. En las propiedades &quot;Action\:Code-based experience&quot; ahora visibles, haga clic en el botón **Configurar acción**.
 
    ![Propiedades de acción de experiencia basada en código con el botón Configurar acción](assets/create-the-journey-configure-action-button.png)
 
@@ -112,7 +111,7 @@ ht-degree: 0%
    >
    >Recuerde que ha añadido atributos al esquema XDM de oferta estándar, en concreto, la marca, el modelo y el nivel. Después, rellenó esos atributos cuando se crearon las ofertas. Ahora puede agregar esos atributos como variables que se rellenan con valores de la oferta seleccionada. El campo trackingToken es un valor generado por el sistema que se utiliza para rastrear clics e impresiones.
 
-1. Coloque el cursor entre **&quot;&quot;** del nodo &#39;make&#39;. Inserte la marca de la oferta navegando en el menú de la directiva de decisión hasta el nodo **\_dep > Dispositivo > Crear**.  Haga clic en el icono **+** en el elemento **Make** y verá que rellena el editor.
+1. Coloque el cursor entre **&quot;&quot;** del nodo &#39;make&#39;. Inserte la marca de la oferta navegando en el menú de la directiva de decisión hasta el nodo **\_dep > Dispositivo > Crear**.  Haga clic en el icono **+** en el elemento **Make** y verá que rellena el editor. (Tenga en cuenta que el nombre del inquilino que comienza con un guion bajo puede ser diferente para su entorno, en este caso es _dep).
 
    ![Crear atributo de la directiva de decisión rellenada en el editor JSON](assets/create-the-journey-populate-make-attribute.png)
 
@@ -134,11 +133,11 @@ ht-degree: 0%
 
    ![Lienzo de Recorrido después de regresar del editor de experiencias basado en código](assets/create-the-journey-return-to-canvas.png)
 
-1. Haga clic en el botón azul **Guardar** para guardar el nodo de acción de CBE. El Recorrido ahora tiene este aspecto:
+1. Haga clic en el botón azul **Guardar** para guardar el nodo de acción de la experiencia basada en código. El Recorrido ahora tiene este aspecto:
 
    ![Lienzo de Recorrido que muestra el nodo de acción CBE completado](assets/create-the-journey-completed-canvas.png)
 
-1. Una vez completado el Recorrido, haz clic en el botón azul **Publicar** en la esquina superior derecha y vuelve a **Publicar** cuando aparezca el cuadro de confirmación. ¡Después de un momento o dos, ves que tu Recorrido está ahora en vivo!
+1. Una vez completado el Recorrido, primero haz clic en **Validar** y, a continuación, haz clic en el botón **Publicar** en la esquina superior derecha y vuelve a **Publicar** cuando aparezca el cuadro de confirmación. ¡Después de un momento o dos, ves que tu Recorrido está ahora en vivo!
 
 ![Recorrido de exploración de abandono de iPhone 17 publicado y activo](assets/create-the-journey-published-live.png)
 

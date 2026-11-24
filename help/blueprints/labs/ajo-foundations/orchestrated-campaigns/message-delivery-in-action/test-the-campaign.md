@@ -7,9 +7,9 @@ exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 7c7ee72676fd17a248694548fb59ea87c52a293c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 ---
 
@@ -21,7 +21,7 @@ En el siguiente conjunto de pasos, ejecute la campaña en modo de prueba para co
 
 ## Inicio del flujo de trabajo
 
-1. Una vez configurados los dos flujos de correo electrónico, la campaña tiene el siguiente aspecto. Haga clic en el botón **Iniciar** para ejecutar la campaña en **Modo de prueba**
+1. Una vez configurados los dos flujos de correo electrónico, la campaña tiene el siguiente aspecto. Haga clic en el botón **Iniciar** para ejecutar la campaña en modo de prueba
 
    ![Haga clic en Iniciar para ejecutar la campaña en modo de prueba](assets/test-the-campaign-click-start-test-mode.png)
 
