@@ -39,7 +39,7 @@ Utilice las herramientas de prueba de recorrido para comprobar que el déclenche
 
 5. Haz clic en **Simular** y luego selecciona **Modo de prueba**
 
-   ![Pulse Simular ](assets/test-journey-select-test-mode.png)
+   ![Pulse Simular &#x200B;](assets/test-journey-select-test-mode.png)
 
    ![Modo de prueba seleccionado en la ventana emergente](assets/test-journey-select-test-mode-in-popup.png)
 
